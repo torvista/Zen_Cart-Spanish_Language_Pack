@@ -1,40 +1,43 @@
 https://sourceforge.net/projects/zencartspanish/
 
-Spanish Language Pack UTF-8
-para Zen Cart 1.39b
-Mayo 2010
+Spanish Language Pack
+para Zen Cart 1.39h
+Febrero 2011
+Licencia GPL
 
-Este pack es la primera versión completa (incluidos todos los archivos y botones) en castellano para Zen Cart.
-¿Por qué? Para ampliar el uso de Zen Cart en la comunidad en castellano, y por ello espero que la comunidad contribuya con mejoras y correcciones al pack.
+Hay dos carpetas de archivos - Busque "codificación de caracteres" si quieres entender la diferencia.
+
+Por defecto Zen Cart utilice el encoding 8859. Si no hayas hecho ninguna conversión a UTF-8 deberías usar estos archivos.
+
+Si has cambiado el encoding en tu tienda a UTF-8 o vas a hacerlo, puedes usar los archivos en UTF-8.
 
 Formato de la Fecha
-Las versiones “ dd_mm_aaaa spanish.php” (para Admin y el
-Catálogo) tienen el código alterado para mostrar las fechas en el formato dd_mm_aaaa en vez de mm_dd_aaaa de las versiones originales.
+Las versiones “ dd_mm_aaaa spanish.php” (para SU_ADMIN y el Catálogo) tienen el código alterado para mostrar las fechas en el formato dd_mm_aaaa en vez de mm_dd_aaaa de las versiones originales.
 Para usarlas, borre spanish.php y renombre dd_mm_aaa spanish.php a spanish.php.
  
 Botones
 Los botones se han creado con el Zen Button Construction Kit:
 http://www.zen-cart.com/index.php?main_page=product_contrib_info&products_id=743
-(este módulo no es compatible con PHP5.3)
  
 Para cualquier comentario o cambio con el fin de mejorar la traducción, escríbame en http://sourceforge.net/projects/zencartspanish/support
+a través del Bugs Tracker.
+
 o en el foro
 http://www.zen-cart.com/forum/showthread.php?p=876486
 
-a través del Bugs Tracker.
-
 Muchas Gracias
-Steve S. 
-
+Steve S.
+torvista
 
 -----------------------------
 
 Spanish Language Pack UTF-8
-For Zen Cart 1.39b
-May 2010
+For Zen Cart 1.39h
+February 2011
+GPL Licence
 
-This is the first complete (including all files and buttons) Spanish language pack for Zen Cart.
-Why have I done it? To encourage the use of Zen Cart in the spanish-speaking community, and it is hoped that the same community will contribute to the continuous improvement of this pack.
+There are two packs. The 8859 is for a default, new Zen Cart installation.
+If you are already using UTF-8 or plan to convert, then use the utf-8 pack.
  
 Date Format
 There are two versions of the main language file spanish.php  in both the admin and catalog folders.
@@ -44,7 +47,6 @@ The “dd_mm_aaaa  spanish.php” version should be used if you want to display the 
 Buttons
 The buttons were created with the Zen Button Construction Kit:
 http://www.zen-cart.com/index.php?main_page=product_contrib_info&products_id=743
-(this module is NOT currently php5.3 compatible).
 
 Please help to maintain and improve this translation by sending comments and corrections via the download site:
 http://sourceforge.net/projects/zencartspanish/support
@@ -55,6 +57,5 @@ http://www.zen-cart.com/forum/showthread.php?p=876486
 
 Thanks
 Steve S.
+torvista
 --
-
-
