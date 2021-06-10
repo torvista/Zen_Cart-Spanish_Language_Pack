@@ -37,8 +37,8 @@ define('TEXT_PRODUCTS_IMAGE_DIR', 'Subir al directorio:');
 define('TEXT_IMAGE_NONEXISTENT', 'LA IMAGEN NO EXISTE');
 define('TEXT_MANUFACTURERS_IMAGE_MANUAL', '<strong>O, elija un imagen que ya exista en el servidor, nombre:</strong>');
 
-define('TEXT_NEW_INTRO', 'Por favor, complete la siguiente información para el nuevo fabricante');
-define('TEXT_EDIT_INTRO', 'Por favor, haga los cambios necesarios');
+define('TEXT_NEW_INTRO', 'Complete la siguiente información para el nuevo fabricante');
+define('TEXT_EDIT_INTRO', 'Haga los cambios necesarios');
 
 define('TEXT_MANUFACTURERS_NAME', 'Nombre del fabricante:');
 define('TEXT_MANUFACTURERS_IMAGE', 'Imagen del fabricante:');
@@ -46,9 +46,9 @@ define('TEXT_MANUFACTURERS_URL', 'URL del fabricante:<br /> (incluya http://)');
 
 define('TEXT_DELETE_INTRO', '¿Seguro que desea eliminar este fabricante?');
 define('TEXT_DELETE_IMAGE', '¿Eliminar imagen de los fabricantes?');
-define('TEXT_DELETE_PRODUCTS', '¿Eliminar productos de este fabricante? (incluyendo los comentarios de productos, las ofertas, los productos  esperados)');
+define('TEXT_DELETE_PRODUCTS', '¿Eliminar productos de este fabricante? (incluyendo los comentarios de productos, las ofertas, los productos esperados)');
 define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> ¡Hay %s productos que siguen vinculados a este fabricante!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: No puedo escribir en este directorio. Por favor, revise los permisos de usuario en: %s');
+define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: No puedo escribir en este directorio. Revise los permisos de usuario en: %s');
 define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio no existe: %s');
 ?>

@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package admin
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: admin_activity.php drbyte Modified in v1.5.6 $
+ * @version $Id: Drbyte Tue Jan 9 13:12:24 2018 -0500 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Gestión de los Historiales de Actividad Admin');
@@ -18,8 +18,15 @@ define('TEXT_PROCESSED', ' Procesado.');
 define('SUCCESS_EXPORT_ADMIN_ACTIVITY_LOG', 'Exportación completada: ');
 define('FAILURE_EXPORT_ADMIN_ACTIVITY_LOG', 'AVISO: La exportación falló. No se pudo escribir el archivo');
 
-define('TEXT_INSTRUCTIONS','<u>INSTRUCCIONES</u><br />En esta página se puede exportar el archivo de actividades Admin Zen Cart&reg; a un archivo CSV para guardar.<br />Debe archivar esta información por si acaso es requerida en una investigación de fraude. Es imprescindible para cumplir con la ley PCI.<br />
-<ol><li>Elija mostrar o exportar un archivo.</li><li>Escriba un nombre para el archivo (debe tener una extensión .csv .txt .htm .html .xml).</li><li>Pulse en Guardar para seguir.</li><li>Elija si quiere guardar o abrir el archivo, dependiendo de lo que ofrece el navegador.</li></ol>');
+define('TEXT_INSTRUCTIONS','<u>INSTRUCCIONES</u><br />
+En esta página se puede exportar el archivo de actividades Admin Zen Cart&reg; a un archivo CSV para guardar.<br />
+Debe archivar esta información por si acaso es requerida en una investigación de fraude. Es imprescindible para cumplir con la ley PCI.<br />
+<ol>
+<li>Elija mostrar o exportar un archivo.</li>
+<li>Escriba un nombre para el archivo (debe tener una extensión .csv .txt .htm .html .xml).</li>
+<li>Pulse en Guardar para seguir.</li>
+<li>Elija si quiere guardar o abrir el archivo, dependiendo de lo que ofrece el navegador.</li></ol>
+');
 
 define('TEXT_INFO_ADMIN_ACTIVITY_LOG', '<strong>Tabla del Archivo de Admin vacío en la base de datos<br />¡AVISO: ASEGÚRESE DE HACER UNA COPIA DE SEGURIDAD DE LA BASE DE DATOS ANTES DE INICIAR ESTA ACTUALIZACIÓN!</strong><br />El Archivo de Actividades Admin es un método para grabar las actividades en el Admin. <br />Puede aumentar en tamaño rápidamente; hay que vaciarlo a menudo.<br />Salen avisos cuando la tabla alcanza 50.000 actividades o han pasado 60 días.<br /><span class="alert">NOTA: Para cumplir con PCI, debe guardar estos datos de actividad durante 12 meses.<br />Recomendamos que guarde un copia - EXPORTAR A CSV, y GUARDAR - antes de limpiar el archivo.</span>');
 define('TEXT_ADMIN_LOG_PLEASE_CONFIRM_ERASE', '<strong><span class="alert">¡PRECAUCIÓN! Se dispone a BORRAR entradas *importantes* de las Actividades de Admin de la base de datos.</span></strong><br />Asegúrese de que tiene un backup de estas entradas ANTES de borrarlas.<br />Si continúa, ud. acepta que está borrando las entradas y que entiende sus responsabilidades legales con respecto a estas entradas.<br /><br />Entiendo mis responsabilidades y quiero borrar los datos cuando pincho en Resetear:<br />');
@@ -38,8 +45,8 @@ define('TEXT_EXPORTFILTER2', 'NOTICE – Actividades para revisar de vez en cuan
 define('TEXT_EXPORTFILTER3', 'WARNING – Actividades para revisar a diario');
 define('TEXT_EXPORTFILTER4', 'NOTICE + WARNING (la combinación más común para revisar).');
 
-define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretación de los datos</strong></p><!--steve closed p tag--><ul>
-<li><strong>Severidad</strong> - Las estándares de historiales suelen definir los niveles de importancia así:
+define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretación de los datos</strong></p><ul>
+<li><strong>Severidad</strong> - Los estándares de historiales suelen definir los niveles de importancia así:
   <ul>
   <li><strong>INFO</strong> - actividades generales de administración.</li>
   <li><strong>NOTICE</strong> - actividades que precisa un nivel de acceso mayor; puede incluir la creación de usuarios nuevos o añadir módulos de pago nuevo. También graba el envío de páginas web cuando incluye contenido potencialmente peligroso, como etiquetas script o iframe que puede haber sido añadido por empleados descontentos o intrusos. Debería revisar estos actividades a menudo.</li>
@@ -53,4 +60,4 @@ define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretación de los datos</s
 <li><strong>attention</strong> - Muestra sugerencias relacionada al campo “postdata”.</li>
 <li><strong>logmessage</strong> - Muestra cualquier mensaje generado por el sistema sobre la actividad, como la instalación de un módulo.</li>
 <li><strong>postdata</strong> - Muestra los datos POST (sin el contenido sensible) para facilitar la investigación en el caso de sospechar actividad maliciosa.</li>
-</ul>');//steve removed invalid closing p tag
+</ul>');

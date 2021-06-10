@@ -23,7 +23,7 @@
 define('MODULE_SHIPPING_ZONES_TEXT_TITLE', 'Tarifas por Zona');
 define('MODULE_SHIPPING_ZONES_TEXT_DESCRIPTION', 'Tarifas según Zona');
 define('MODULE_SHIPPING_ZONES_TEXT_WAY', 'Enviar a');
-define('MODULE_SHIPPING_ZONES_TEXT_UNITS', 'lbs');
+define('MODULE_SHIPPING_ZONES_TEXT_UNITS', 'kg');//steve changed from lb(s)
 define('MODULE_SHIPPING_ZONES_INVALID_ZONE', 'No es posible el envío al país seleccionado: contáctenos para más información.');
 define('MODULE_SHIPPING_ZONES_UNDEFINED_RATE', 'Actualmente no se puede determinar el coste del envío');
 ?>

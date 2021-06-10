@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package admin
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Sat Oct 17 21:02:28 2015 -0400 Modified in v1.5.5 $
+ * @version $Id: Zen4All Thu Feb 1 15:27:50 2018 +0100 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE', 'Países');
@@ -18,8 +18,8 @@ define('TEXT_INFO_EDIT_INTRO', 'Haga los cambios necesarios');
 define('TEXT_INFO_COUNTRY_NAME', 'Nombre:');
 define('TEXT_INFO_COUNTRY_CODE_2', 'Código ISO (2):');
 define('TEXT_INFO_COUNTRY_CODE_3', 'Código ISO (3):');
-define('TEXT_INFO_ADDRESS_FORMAT', 'Formato de la Dirección:');
-define('TEXT_INFO_COUNTRY_STATUS', 'Estatus (¿Habilitar para envios?):');
+define('TEXT_INFO_ADDRESS_FORMAT', 'Formato de Dirección:');
+define('TEXT_INFO_COUNTRY_STATUS', 'Activado / ¿Habilitar para envíos?:');
 define('TEXT_INFO_INSERT_INTRO', 'Introduzca el nuevo país con su información correspondiente');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este país?');
 define('TEXT_INFO_HEADING_NEW_COUNTRY', 'Nuevo país');

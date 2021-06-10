@@ -31,7 +31,7 @@ define('TEXT_HEADING_NEW_PRICING_GROUP', 'Nuevo precio de Grupo');
 define('TEXT_HEADING_EDIT_PRICING_GROUP', 'Editar precio de Grupo');
 define('TEXT_HEADING_DELETE_PRICING_GROUP', 'Borrar precio de Grupo');
 
-define('TEXT_NEW_INTRO', 'Por favor, rellene la siguiente información para el nuevo Grupo');
+define('TEXT_NEW_INTRO', 'Rellene la siguiente información para el nuevo Grupo');
 define('TEXT_EDIT_INTRO', 'Haga cualquier cambio necesario');
 define('TEXT_DELETE_INTRO', '¿Está seguro de que desea borrar este Grupo?');
 define('TEXT_DELETE_PRICING_GROUP', 'Borrar Grupo');
@@ -44,6 +44,6 @@ define('TEXT_LAST_MODIFIED', 'Fecha de modificación:');
 define('TEXT_CUSTOMERS', 'Clientes en el Grupo:');
 
 define('ERROR_GROUP_PRICING_CUSTOMERS_EXIST','ERROR: Existen clientes en este Grupo. Confirme que quiere quitar todos los miembros del Grupo y borrarlo.');
-define('ERROR_MODULE_NOT_CONFIGURED','NOTA: Hay definiciónes de Precios de Grupo, pero no está activado el módulo Descuento por Grupo.<br />Vaya a Admin->Módulos->Total de Pedido->Descuento por Grupo (ot_group_pricing) e instale y configure el módulo.');
+define('ERROR_MODULE_NOT_CONFIGURED','NOTA: Hay definiciones de Precios de Grupo, pero no está activado el módulo Descuento por Grupo.<br />Vaya a Admin->Módulos->Total de Pedido->Descuento por Grupo (ot_group_pricing) e instale y configure el módulo.');
 
 ?>

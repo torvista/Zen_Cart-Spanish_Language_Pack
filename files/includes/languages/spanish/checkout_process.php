@@ -41,7 +41,7 @@ define('EMAIL_TEXT_PAYMENT_METHOD', 'Método de pago');
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 define('TEXT_EMAIL_VIA', 'vía');
 
-// suggest not using # vs No as some spam protection block emails with these subjects
+// suggest not using # vs No as some spamm protection block emails with these subjects
 define('EMAIL_ORDER_NUMBER_SUBJECT', ' Núm.: ');
 define('HEADING_ADDRESS_INFORMATION', 'Información de dirección');
 define('HEADING_SHIPPING_METHOD', 'Método de envío');

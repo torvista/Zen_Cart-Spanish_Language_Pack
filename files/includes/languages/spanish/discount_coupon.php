@@ -1,7 +1,7 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2013 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * $Id: discount_coupon.php 14712 2009-10-28 22:05:08Z ajeh $
@@ -28,9 +28,10 @@ define('TEXT_COUPON_HELP_PRODUCTS', '<p class="bold">Restricciones por Producto:
 define('TEXT_ALLOW', 'Permitido');
 define('TEXT_DENY', 'No permitido');
 
-define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Este cupón tiene Restricciones por Productos específicos.');
+define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Este cupón tiene restricciones para productos específicos.</p>');
 define('TEXT_NO_CAT_RESTRICTIONS', '<p>Este cupón es válido para cualquier categoría.</p>');
 define('TEXT_NO_PROD_RESTRICTIONS', '<p>Este cupón es válido para todos los productos.</p>');
+define('TEXT_NO_PROD_SALES', '<p>Este cupón no es válido para productos en rebajas.</p>');
 define('TEXT_CAT_ALLOWED', ' (Válido para esta categoría)');
 define('TEXT_CAT_DENIED', ' (No permitido en esta categoría)');
 define('TEXT_PROD_ALLOWED', ' (Válido para este producto)');
@@ -42,4 +43,3 @@ define('TEXT_DISCOUNT_COUPON_ID_INFO', 'Verificar Cupón de Descuento ... ');
 define('TEXT_DISCOUNT_COUPON_ID', 'Su código: ');
 
 define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Se aplican restricciones por la Dirección de Facturación.');
-?>

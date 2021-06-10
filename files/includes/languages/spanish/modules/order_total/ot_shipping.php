@@ -21,8 +21,8 @@
 //
 
   define('MODULE_ORDER_TOTAL_SHIPPING_TITLE', 'Envío');
-  define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'Coste del envío');
+  define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'Coste del Envío');
 
-  define('FREE_SHIPPING_TITLE', 'Envío gratis');
+  define('FREE_SHIPPING_TITLE', 'Envío Gratis');
   define('FREE_SHIPPING_DESCRIPTION', 'Los envíos son gratis para pedidos superiores a %s');
 ?>

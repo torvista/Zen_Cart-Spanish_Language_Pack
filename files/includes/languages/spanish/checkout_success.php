@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2013 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Sun Feb 17 23:22:33 2013 -0500 Modified in v1.5.2 $
+ * @version $Id: DrByte 2019 Jan 04 Modified in v1.5.6a $
  */
 
 define('NAVBAR_TITLE_1', 'Pago');
@@ -13,7 +13,8 @@ define('NAVBAR_TITLE_2', 'Completado - Gracias');
 define('HEADING_TITLE', '¡Muchas gracias por su confianza!');
 
 define('TEXT_SUCCESS', '');
-define('TEXT_NOTIFY_PRODUCTS', 'Avísame cuando haya cambios en los siguientes productos:');
+define('TEXT_NOTIFY_PRODUCTS', 'Avísenme cuando haya cambios en los siguientes productos:');
+// Still used by some older templates
 define('TEXT_SEE_ORDERS', 'Puede ver su historial de pedidos yendo a <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '" id="linkMyAccount">Mi Cuenta</a> y pulsando en "Ver todos los pedidos".');
 define('TEXT_CONTACT_STORE_OWNER', 'Por favor, dirija cualquier pregunta que tenga a <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '" id="linkContactUs">atención al cliente</a>.');
 define('TEXT_THANKS_FOR_SHOPPING', '¡Muchas gracias por su confianza!');

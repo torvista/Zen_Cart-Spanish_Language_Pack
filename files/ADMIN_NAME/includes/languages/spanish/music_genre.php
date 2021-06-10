@@ -19,25 +19,25 @@
 // +----------------------------------------------------------------------+
 //  $Id: music_genre.php 276 2004-09-10 22:35:28Z wilt $
 //
-  define('HEADING_TITLE', 'Géneros musicales');
-  define('TABLE_HEADING_MUSIC_GENRE', 'Géneros musicales');
+  define('HEADING_TITLE', 'Géneros Musicales');
+  define('TABLE_HEADING_MUSIC_GENRE', 'Géneros Musicales');
   define('TABLE_HEADING_ACTION', 'Acción');
-  define('TEXT_NEW_INTRO', 'Por favor, introduzca abajo los datos para el nuevo género musical.');
-  define('TEXT_EDIT_INTRO', 'Por favor, rectifique los detalles para el género musical abajo..');
-  define('TEXT_DELETE_INTRO', '¿Está seguro de que desea borrar este género musical?');
+  define('TEXT_NEW_INTRO', 'Introduzca abajo los datos para el nuevo Género Musical.');
+  define('TEXT_EDIT_INTRO', 'Rectifique los detalles para el Género Musical abajo.');
+  define('TEXT_DELETE_INTRO', '¿Está seguro de que desea borrar este Género Musical?');
   define('TEXT_DELETE_IMAGE', '¿Borrar imagen?.');
-  define('TEXT_MUSIC_GENRE_NAME', 'Nombre de género musical');
-  define('TEXT_MUSIC_GENRE_IMAGE', 'Imagen de género musical');
-  define('TEXT_MUSIC_GENRE_IMAGE_DIR', 'Directorio de imagen&nbsp;');
+  define('TEXT_MUSIC_GENRE_NAME', 'Nombre de Género Musical');
+  define('TEXT_MUSIC_GENRE_IMAGE', 'Imagen de Género Musical');
+  define('TEXT_MUSIC_GENRE_IMAGE_DIR', 'Directorio de Imágenes&nbsp;');
 
-  define('TEXT_HEADING_NEW_MUSIC_GENRE', 'Nuevo género musical');
-  define('TEXT_HEADING_EDIT_MUSIC_GENRE', 'Editar género musical');
-  define('TEXT_HEADING_DELETE_MUSIC_GENRE', 'Borrar género musical');
-  define('TEXT_DATE_ADDED', 'Añadido el');
-  define('TEXT_LAST_MODIFIED', 'Modificado el');
+  define('TEXT_HEADING_NEW_MUSIC_GENRE', 'Nuevo Género Musical');
+  define('TEXT_HEADING_EDIT_MUSIC_GENRE', 'Editar Género Musical');
+  define('TEXT_HEADING_DELETE_MUSIC_GENRE', 'Borrar Género Musical');
+  define('TEXT_DATE_ADDED', 'Fecha Añadida');
+  define('TEXT_LAST_MODIFIED', 'Fecha Modificado');
   define('TEXT_IMAGE_NONEXISTENT', 'La imagen no existe');
-  define('TEXT_PRODUCTS', 'Productos enlazados');
-  define('TEXT_DISPLAY_NUMBER_OF_MUSIC_GENRES', 'Mostrando <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> géneros musicales)');
-  define('TEXT_DELETE_PRODUCTS', '¿Borrar este género musical y todos los elementos enlazados a él?');
-  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ATENCIÓN:</b> ¡Hay %s elementos todavía enlazados a este género musical!');
+  define('TEXT_PRODUCTS', 'Productos Enlazados');
+  define('TEXT_DISPLAY_NUMBER_OF_MUSIC_GENRES', 'Mostrando <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Géneros Musicales)');
+  define('TEXT_DELETE_PRODUCTS', '¿Borrar este Género Musical y todos los elementos enlazados a él?');
+  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ATENCIÓN:</b> ¡Hay %s elementos todavía enlazados a este Género Musical!');
 ?>

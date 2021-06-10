@@ -31,7 +31,7 @@ define('TEXT_INFO_SHIPPINGINFO', 'Envíos y Devoluciones.');
 define('TEXT_INFO_PRIVACY', 'Privacidad');
 define('TEXT_INFO_CONDITIONS', 'Condiciones de Uso');
 define('TEXT_INFO_CONTACT_US', 'Contacte con nosotros');
-define('TEXT_INFO_CHECKOUT_SUCCESS', 'Pedido éxitoso');
+define('TEXT_INFO_CHECKOUT_SUCCESS', 'Pedido exitoso');
 
 define('TEXT_INFO_PAGE_2', 'Página 2');
 define('TEXT_INFO_PAGE_3', 'Página 3');
@@ -39,7 +39,7 @@ define('TEXT_INFO_PAGE_4', 'Página 4');
 
 define('TEXT_FILE_DOES_NOT_EXIST', 'No existe el archivo: %s');
 
-define('ERROR_FILE_NOT_WRITEABLE', 'Error: No puede escribirse este archivo. Por favor, seleccione el permiso de usuario correcto en: %s');
+define('ERROR_FILE_NOT_WRITEABLE', 'Error: No puede escribirse este archivo. Revise el permiso de usuario en: %s');
 
 define('TEXT_INFO_SELECT_FILE', 'Seleccione un archivo a editar ...');
 define('TEXT_INFO_EDITING', 'Editando archivo:');

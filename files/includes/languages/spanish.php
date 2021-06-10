@@ -1,21 +1,22 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**includes changes for Date of Birth format dd/mm/yy, currency euro, kg weight
  * @package languageDefines
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Tue Jan 5 15:06:15 2016 -0500 Modified in v1.5.5 $
+ * @version $Id: DrByte 2019 May 26 Modified in v1.5.6b $
  */
-
+  define('SHIPPING_NOT_INCLUDED', ' [Envío no incluido]');//steve moved from ot_gv.php and ot_coupon.php for php warning
+  define('TAX_NOT_INCLUDED', ' [Impuestos no incluidos]');//steve moved from ot_gv.php and ot_coupon.php for php warning
 // FOLLOWING WERE moved to meta_tags.php
 //define('TITLE', 'Zen Cart!');
 //define('SITE_TAGLINE', 'The Art of E-commerce');
 //define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
 // END: moved to meta_tags.php
 
-  define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Tienda Software:<a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. E-commerce:<a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
-// look in your $PATH_LOCALE/locale directory for available locales..
+// look in your $PATH_LOCALE/locale directory for available locales...or use the script in /extras provided by this language pack
   $locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');
   @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_SHORT', '%d/%m/%Y'); // this is used for strftime()
@@ -54,7 +55,7 @@
   define('TEXT_GV_NAMES', 'Tarjetas Regalo');
 
 // used for redeem code, redemption code, or redemption id
-  define('TEXT_GV_REDEEM', 'Código de la Tarjeta Regalo');
+  define('TEXT_GV_REDEEM', 'Código Canjeable');//steve this constant used for discount coupon too
 
 // used for redeem code sidebox
   define('BOX_HEADING_GV_REDEEM', TEXT_GV_NAME);
@@ -67,7 +68,7 @@
   define('FEMALE_ADDRESS', 'Sra.');
 
 // text for date of birth example
-define('DOB_FORMAT_STRING', 'dd/mm/yyyy'); 
+  define('DOB_FORMAT_STRING', 'dd/mm/aaaa');
 
 //text for sidebox heading links
   define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[todos]');
@@ -135,7 +136,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('BOX_HEADING_INFORMATION', 'Información');
   define('BOX_INFORMATION_PRIVACY', 'Aviso de privacidad');
   define('BOX_INFORMATION_CONDITIONS', 'Condiciones de uso');
-  define('BOX_INFORMATION_SHIPPING', 'Envío y devoluciones');
+  define('BOX_INFORMATION_SHIPPING', 'Envíos y Devoluciones');
   define('BOX_INFORMATION_CONTACT', 'Contáctenos');
   define('BOX_INFORMATION_UNSUBSCRIBE', 'Baja del boletín');
 
@@ -162,8 +163,8 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('JS_ERROR_SUBMITTED', 'El formulario está siendo enviado. Por favor, presione OK y espere a que se procese el proceso.');
 
   define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Por favor, seleccione un método de pago para su pedido.');
-  define('ERROR_CONDITIONS_NOT_ACCEPTED', 'Por favor, confirme los términos y condiciones acerca de este pedido haciendo click en la casilla inferior.');
-  define('ERROR_PRIVACY_STATEMENT_NOT_ACCEPTED', 'Por favor, confirme la política de privacidad haciendo click en la casilla inferior.');
+  define('ERROR_CONDITIONS_NOT_ACCEPTED', 'Por favor, confirme los Términos y Condiciones acerca de este pedido haciendo click en la casilla inferior.');
+  define('ERROR_PRIVACY_STATEMENT_NOT_ACCEPTED', 'Por favor, confirme la Política de Privacidad haciendo click en la casilla inferior.');
 
   define('CATEGORY_COMPANY', 'Datos de la empresa');
   define('CATEGORY_PERSONAL', 'Datos personales');
@@ -189,8 +190,8 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('ENTRY_LAST_NAME_ERROR', 'Cada apellido debe tener un mínimo de ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caracteres.');
   define('ENTRY_LAST_NAME_TEXT', '*');
   define('ENTRY_DATE_OF_BIRTH', 'Fecha de nacimiento:');
-  define('ENTRY_DATE_OF_BIRTH_ERROR', 'La fecha de nacimiento debe tener este formato: DD/MM/YYYY (ej. 21/05/1970)');
-  define('ENTRY_DATE_OF_BIRTH_TEXT', '(ej. 21/05/1970)');
+  define('ENTRY_DATE_OF_BIRTH_ERROR', 'La fecha de nacimiento debe tener el formato: DD/MM/YYYY (ej. 21/05/1970) o YYYY-MM-DD (ej 1970-05-21)');
+  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (ej. 21/05/1970 o 1970-05-21)');
   define('ENTRY_EMAIL_ADDRESS', 'E-mail:');
   define('ENTRY_EMAIL_ADDRESS_ERROR', 'El e-mail debe tener un mínimo de ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' caracteres.');
   define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Este e-mail parece no ser válido - por favor, realice las correcciones necesarias.');
@@ -226,9 +227,9 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('ENTRY_TELEPHONE_NUMBER_ERROR', 'El teléfono debe tener un mínimo de ' . ENTRY_TELEPHONE_MIN_LENGTH . ' números.');
   define('ENTRY_TELEPHONE_NUMBER_TEXT', '*');
   define('ENTRY_FAX_NUMBER', 'Fax:');
-  define('ENTRY_FAX_NUMBER_ERROR', '');
+  define('ENTRY_FAX_NUMBER_ERROR', 'El número de fax debe tener un mínimo de ' . ENTRY_TELEPHONE_MIN_LENGTH . ' números.');
   define('ENTRY_FAX_NUMBER_TEXT', '');
-  define('ENTRY_NEWSLETTER', 'Boletín:');
+  define('ENTRY_NEWSLETTER', 'Quiero recibir el boletín de ' . STORE_NAME . ' sobre productos nuevos.');
   define('ENTRY_NEWSLETTER_TEXT', '');
   define('ENTRY_NEWSLETTER_YES', 'Suscribirse');
   define('ENTRY_NEWSLETTER_NO', 'Darse de baja');
@@ -253,12 +254,12 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 
   // constants for use in zen_prev_next_display function
   define('TEXT_RESULT_PAGE', '');
-  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> productos)');
-  define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> pedidos)');
-  define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> comentarios)');
-  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_NEW', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> nuevos productos)');
-  define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> ofertas)');
-  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_FEATURED_PRODUCTS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> featured products)');
+  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Productos)');
+  define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Pedidos)');
+  define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Comentarios)');
+  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_NEW', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Productos Nuevos)');
+  define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Ofertas)');
+  define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_FEATURED_PRODUCTS', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Productos Destacados)');
   define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_ALL', 'Mostrando de <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> products)');
 
   define('PREVNEXT_TITLE_FIRST_PAGE', 'Primera Página');
@@ -301,7 +302,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Advertencia: El directorio para descargar los productos no existe: ' . DIR_FS_DOWNLOAD . '. Los productos descargables no trabajarán hasta que este directorio sea válido.');
   define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Advertencia: El directorio del cache SQL no existe: ' . DIR_FS_SQL_CACHE . '. SQL cache no podrá funcionar hasta que el directorio sea creado.');
   define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Advertencia: No se puede escribir en el directorio SQL cache: ' . DIR_FS_SQL_CACHE . '. SQL cache no podrá funcionar hasta que los permisos del usuario sean establecidos.');
-  define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'La versión de su base de datos parece demasiado antiguo, se necesita actualizarlo. Ver Admin->Herramientas->Info. del Servidor para revisar el nivel de actualización.');  
+  define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'La versión de su base de datos parece demasiado antiguo, se necesita actualizarlo. Ver Admin->Herramientas->Info. del Servidor para revisar el nivel de actualización.');
   define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'AVISO: No se pudo localizar el archivo del idioma: ');
 
   define('TEXT_CCVAL_ERROR_INVALID_DATE', 'La fecha de vencimiento de la tarjeta de crédito no es válido. Por favor revise la fecha e inténtelo de nuevo.');
@@ -360,7 +361,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('TEXT_YOUR_IP_ADDRESS', 'Su dirección IP es: ');
 
 //Generic Address Heading
-  define('HEADING_ADDRESS_INFORMATION', 'Información de la Dirección');
+  define('HEADING_ADDRESS_INFORMATION', 'Dirección');
 
 // cart contents
   define('PRODUCTS_ORDER_QTY_TEXT_IN_CART', 'Cantidad en el carro: ');
@@ -373,10 +374,10 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 // only for where multiple add to cart is used:
   define('SUCCESS_ADDED_TO_CART_PRODUCTS', 'El producto(s) seleccionado ha sido añadido al carro ...');
 
-  define('TEXT_PRODUCT_WEIGHT_UNIT',' kg');
+  define('TEXT_PRODUCT_WEIGHT_UNIT','kg');
 
 // Shipping
-  define('TEXT_SHIPPING_WEIGHT',' kg');
+  define('TEXT_SHIPPING_WEIGHT','kg');
   define('TEXT_SHIPPING_BOXES', 'Cajas');
 
 // Discount Savings
@@ -460,7 +461,9 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 // Downloads Controller
   define('DOWNLOADS_CONTROLLER_ON_HOLD_MSG','NOTA: Las descargas no están disponibles hasta que el pago haya sido comprobado');
   define('TEXT_FILESIZE_BYTES', ' bytes');
+  define('TEXT_FILESIZE_KBS', ' KB');
   define('TEXT_FILESIZE_MEGS', ' MB');
+  define('TEXT_FILESIZE_UNKNOWN', 'Desconocido');
 
 // shopping cart errors
   define('ERROR_PRODUCT', '<br />El articulo: ');
@@ -478,6 +481,8 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 
   define('WARNING_SHOPPING_CART_COMBINED', 'AVISO: Para su comodidad, en el carro permanecen los productos añadidos en su última visita. Por favor, revise su carro antes de finalizar la sesión.');
   define('WARNING_PRODUCT_QUANTITY_ADJUSTED', 'La cantidad ha sido ajustada al nivel de stock actual. ');
+  define('OUT_OF_STOCK_CANT_CHECKOUT', 'Los productos marcados ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' no tienen stock o no hay suficientes para completar su pedido.<br />Cambie la cantidad de los productos marcados (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Gracias');
+  define('OUT_OF_STOCK_CAN_CHECKOUT', 'Los productos marcados ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' no tienen stock.<br />Completaremos el pedido lo antes posible. ');
 
 // error on checkout when $_SESSION['customers_id' does not exist in customers table
   define('ERROR_CUSTOMERS_ID_INVALID', 'La información del usuario no puede ser validada!<br />Por favor, conéctese o abra una nueva cuenta. ...');
@@ -603,7 +608,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('TABLE_HEADING_LOGIN_DETAILS', 'Datos de Login');
   define('TABLE_HEADING_REFERRAL_DETAILS', '¿Cómo supo de nosotros?');
 
-  define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Lo sentimos, pero no tratamos con direcciones de envio/facturación en "%s". Por favor actualice esta dirección para continuar.');
+  define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Lo sentimos, pero no tratamos con direcciones de envío/facturación en "%s". Por favor, contáctenos.');
 
   define('ENTRY_EMAIL_PREFERENCE', 'Boletín y preferencias de email');
   define('ENTRY_EMAIL_HTML_DISPLAY','HTML');
@@ -624,68 +629,11 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES_RESET', '-- Resetear --');
 
 ///////////////////////////////////////////////////////////
-// include email extras
-  if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/' . FILENAME_EMAIL_EXTRAS)) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require_once(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . FILENAME_EMAIL_EXTRAS);
 
-// include template specific header defines
-  if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/' . FILENAME_HEADER)) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
+  $file_list = array(FILENAME_EMAIL_EXTRAS, FILENAME_HEADER, FILENAME_BUTTON_NAMES, FILENAME_ICON_NAMES, FILENAME_OTHER_IMAGES_NAMES, FILENAME_CREDIT_CARDS, FILENAME_WHOS_ONLINE, FILENAME_META_TAGS); 
+  foreach ($file_list as $file) { 
+    $file = str_replace(".php","",$file); 
+    require_once(zen_get_file_directory(DIR_FS_CATALOG . DIR_WS_LANGUAGES . $_SESSION['language'] . '/', $file . '.php', 'false'));
   }
-  require_once(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . FILENAME_HEADER);
-
-// include template specific button name defines
-  if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/' . FILENAME_BUTTON_NAMES)) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require_once(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . FILENAME_BUTTON_NAMES);
-
-// include template specific icon name defines
-  if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/' . FILENAME_ICON_NAMES)) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require_once(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . FILENAME_ICON_NAMES);
-
-// include template specific other image name defines
-  if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/' . FILENAME_OTHER_IMAGES_NAMES)) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require_once(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . FILENAME_OTHER_IMAGES_NAMES);
-
-// credit cards
-  if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/' . FILENAME_CREDIT_CARDS)) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require_once(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select. FILENAME_CREDIT_CARDS);
-
-// include template specific whos_online sidebox defines
-  if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/' . FILENAME_WHOS_ONLINE . '.php')) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require_once(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . FILENAME_WHOS_ONLINE . '.php');
-
-// include template specific meta tags defines
-  if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/meta_tags.php')) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require_once(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
 
 // END OF EXTERNAL LANGUAGE LINKS

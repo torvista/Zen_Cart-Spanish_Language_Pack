@@ -18,6 +18,6 @@ define('ENTRY_ENQUIRY', 'Mensaje:');
 
 define('SEND_TO_TEXT', 'Enviar email a:');
 define('ENTRY_EMAIL_NAME_CHECK_ERROR', 'Por favor, no olvide escribir bien su nombre. El sistema requiere un mínimo de ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' caracteres para el nombre.');
-define('ENTRY_EMAIL_CONTENT_CHECK_ERROR', 'Por favor, rellene el campo "Mensaje".');
+define('ENTRY_EMAIL_CONTENT_CHECK_ERROR', 'Por favor, rellene el campo \"Mensaje\".');//steve escaped quotes as gets inserted in jscript
 
 define('NOT_LOGGED_IN_TEXT', 'No ha entrado en su cuenta');

@@ -21,7 +21,7 @@ define('TEXT_GREETING_PERSONAL', '¡Hola <span class="greetUser">%s</span>! ¿Qu
 define('TEXT_INFORMATION', 'Defina aquí su página índice principal.');
 
 //moved to english
-//define('TABLE_HEADING_FEATURED_PRODUCTS','Productos destacados');
+//define('TABLE_HEADING_FEATURED_PRODUCTS','Productos Destacados');
 
 //define('TABLE_HEADING_NEW_PRODUCTS', 'Nuevos productos el %s');
 //define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Próximos productos');

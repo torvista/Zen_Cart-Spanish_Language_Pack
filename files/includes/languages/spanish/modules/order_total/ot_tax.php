@@ -1,5 +1,5 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-// ñ
+// ñ for encoding
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -21,5 +21,5 @@
 //
 
   define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Impuestos');
-  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Impuestos del pedido');
+  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Impuestos del Pedido');
 ?>

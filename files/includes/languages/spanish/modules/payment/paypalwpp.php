@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Thu Feb 4 13:57:57 2016 -0500 Modified in v1.5.5 $
+ * @version $Id: DrByte 2019 May 25 Modified in v1.5.6b $
  */
 
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_ADMIN_TITLE_EC', 'PayPal Express Checkout');
@@ -13,10 +13,11 @@
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_ADMIN_TITLE_PF_GATEWAY', 'PayPal Express Checkout via Payflow Pro');
 
   if (IS_ADMIN_FLAG === true) {
+    if (!defined('MODULE_PAYMENT_PAYPALWPP_MODULE_MODE')) define('MODULE_PAYMENT_PAYPALWPP_MODULE_MODE', 'undefined');
     define('MODULE_PAYMENT_PAYPALWPP_TEXT_ADMIN_DESCRIPTION', '<strong>PayPal Express Checkout</strong>%s<br />' . (substr(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE,0,7) == 'Payflow' ? '<a href="https://manager.paypal.com/loginPage.do?partner=ZenCart" target="_blank"> Gestionar su cuenta PayPal.</a>' : '<a href="https://www.paypal.com" target="_blank"> Gestionar su cuenta PayPal.</a>') . '<br /><br /><font color="green">Configuración:</font><br /><span class="alert">1. </span><a href="http://www.zen-cart.com/partners/paypal-ec" target="_blank"> Abra una cuenta PayPal aquí.</a><br />' .
 (defined('MODULE_PAYMENT_PAYPALWPP_STATUS') ? '' : '... y haga clic en "install" arriba para activar soporte para PayPal Express Checkout.<br /><a href="http://www.zen-cart.com/getpaypal" target="_blank">Para más ayuda ver este artículo</a><br />') .
-(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE == 'PayPal' && (!defined('MODULE_PAYMENT_PAYPALWPP_APISIGNATURE') || MODULE_PAYMENT_PAYPALWPP_APISIGNATURE == '') ? '<br /><span class="alert">2. </span><strong>API parámetros</strong> de la opción API Credentials en su cuenta PayPal Configuración del Perfíl. (Haga clic <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_get-api-signature&generic-flow=true" target="_blank">aquí</a> para instrucciones sobre el API.) <br /> Este módulo utiliza la opción <strong>API Signature/Firma</strong> opción - necesitará el usuario, contraseña y firma para rellenar los campos abajo.' : (substr(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE,0,7) == 'Payflow' && (!defined('MODULE_PAYMENT_PAYPALWPP_PFUSER') || MODULE_PAYMENT_PAYPALWPP_PFUSER == '') ? '<span class="alert">2. </span><strong>parámetros PAYFLOW</strong> Este módulo precisa <strong>PAYFLOW Partner+Vendor+User+Password parámetros</strong> introducidos en los cuatro campos inferiores. Se utilizan en la comunicación con el sistema Payflow y para autorizar las transacciones de su cuenta.' : '<span class="alert">2. </span> Asegúrese de introducir los datos de seguridad correspondientes al username/contraseña etc. abajo.') ) .
-(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE == 'PayPal' ? '<br /><br /><span class="alert">3. </span>En su cuenta PayPal, active <strong>Instant Payment Notification</strong>:<br />en el "Perfil/Profile", seleccione <em>Instant Payment Notification Preferences</em><ul style="margin-top: 0.5;"><li>marque la casilla para habilitar IPN </li><li>si no hay una URL ya definida, vaya a la URL:<br /><nobr><pre>'.str_replace('index.php?main_page=index','ipn_main_handler.php',zen_catalog_href_link(FILENAME_DEFAULT, '', 'SSL')) . '</pre></nobr></li></ul>' : '') .
+(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE == 'PayPal' && (!defined('MODULE_PAYMENT_PAYPALWPP_APISIGNATURE') || MODULE_PAYMENT_PAYPALWPP_APISIGNATURE === '') ? '<br /><span class="alert">2. </span><strong>API parámetros</strong> de la opción API Credentials en su cuenta PayPal Configuración del Perfíl. (Haga clic <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_get-api-signature&generic-flow=true" target="_blank">aquí</a> para instrucciones sobre el API.) <br /> Este módulo utiliza la opción <strong>API Signature/Firma</strong> opción - necesitará el usuario, contraseña y firma para rellenar los campos abajo.' : (substr(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE,0,7) == 'Payflow' && (!defined('MODULE_PAYMENT_PAYPALWPP_PFUSER') || MODULE_PAYMENT_PAYPALWPP_PFUSER == '') ? '<span class="alert">2. </span><strong>parámetros PAYFLOW</strong> Este módulo precisa <strong>PAYFLOW Partner+Vendor+User+Password parámetros</strong> introducidos en los cuatro campos inferiores. Se utilizan en la comunicación con el sistema Payflow y para autorizar las transacciones de su cuenta.' : '<span class="alert">2. </span> Asegúrese de introducir los datos de seguridad correspondientes al username/contraseña etc. abajo.') ) .
+(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE == 'PayPal' ? '<br /><br /><span class="alert">3. </span>En su cuenta PayPal, active <strong>Instant Payment Notification</strong>:<br />en el "Perfil/Profile", seleccione <em>Instant Payment Notification Preferences</em><ul style="margin-top: 0.5em;"><li>marque la casilla para habilitar IPN </li><li>si no hay una URL ya definida, vaya a la URL:<br /><nobr><pre>'.str_replace('index.php?main_page=index','ipn_main_handler.php',zen_catalog_href_link(FILENAME_DEFAULT, '', 'SSL')) . '</pre></nobr></li></ul>' : '') .
 '<font color="green"><hr /><strong>Requisitos:</strong></font><br /><hr />*<strong>CURL</strong> se utiliza para comunicar con el puerto de enlace a través de las puertas 80 y 443 por lo que tienen que estar activadas en su servidor para usar SLL.<br /><hr />' );
   }
 
@@ -45,7 +46,7 @@
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_EMAIL_ERROR_SUBJECT', 'AVISO: Error PayPal Express Checkout');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_ADDR_ERROR', 'La dirección no es válida o no coincide con nuestra información. Corrija o elija otra dirección e intente otra vez.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_CONFIRMEDADDR_ERROR', 'La dirección que seleccionó en PayPal no es una dirección confirmada. Vuelva a PayPal y elija o añada una dirección confirmada e intente otra vez.');
-  define('MODULE_PAYMENT_PAYPALWPP_TEXT_INSUFFICIENT_FUNDS_ERROR', 'PayPal no pudo pagar esta transacción. Elija otra método de pago o compruebe las opciones de pago de su cuenta PayPal antes de seguir.');
+  define('MODULE_PAYMENT_PAYPALWPP_TEXT_INSUFFICIENT_FUNDS_ERROR', 'PayPal no pudo pagar esta transacción. Elija otro método de pago o compruebe las opciones de pago de su cuenta PayPal antes de seguir.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_PAYPAL_DECLINED', 'Disculpe las molestias. PayPal ha rechazado la transacción y nos ha comunicado que debería ponerse en contacto con Atención al Cliente Paypal para más información sobre el problema. Para completar su pedido ahora, debe usar otro método de pago.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_ERROR', 'Ocurrió un error cuando intentamos procesar su tarjeta de crédito. Inténtelo otra vez, elija un método de pago alternativo o póngase en contacto con la tienda para obtener asistencia.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_BAD_CARD', 'Disculpe pero no aceptamos el tipo de tarjeta que introduzco. Por favor, utilice otra tarjeta.');
@@ -84,7 +85,7 @@
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_VOID_INITIATED', 'PayPal petición de Cancelación iniciada. ID Transacción: %s. Refresque la pantalla para ver los detalles de confirmación actualizados en el apartado Historial de Estatus del Pedido/Comentario.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_GEN_API_ERROR', 'Hubo un error en la transacción. Diríjase a la guía del API o los archivos de transacciones para información detallada.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_INVALID_ZONE_ERROR', 'Disculpe las molestias pero actualmente no podemos procesar pedidos utilizando este método de pago desde la zona geográfica que especificó en su dirección de cuenta. Elija otro método de pago. ');
-  define('MODULE_PAYMENT_PAYPALWPP_TEXT_ORDER_ALREADY_PLACED_ERROR', 'Parece que el pedido fue enviado dos veces. Revise Mi Cuenta para ver los detalles del pedido. Utilice el formulario Contáctenos si el pedido no aparece en la historia pero ha sido pagado desde su cuenta PayPal. ');
+  define('MODULE_PAYMENT_PAYPALWPP_TEXT_ORDER_ALREADY_PLACED_ERROR', 'Parece que el pedido fue enviado dos veces. Revise Mi Cuenta para ver los detalles del pedido. Utilice el formulario Contáctenos si el pedido no aparece en la historia, pero ha sido pagado desde su cuenta PayPal. ');
 
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_BUTTON_ALTTEXT', 'Haga clic aquí para pagar vía PayPal Express Checkout');
 
@@ -178,7 +179,7 @@
   define('MODULE_PAYMENT_PAYPAL_ENTRY_VOID_SUFFIX', '');
 
   define('MODULE_PAYMENT_PAYPAL_ENTRY_TRANSSTATE', 'Estatus Trans.:');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTHCODE', 'Código Aut,:');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTHCODE', 'Código Aut.:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AVSADDR', 'AVS Dirección Coincide:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AVSZIP', 'AVS CP Coincide:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_CVV2MATCH', 'CVV2 Coincide:');

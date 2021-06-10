@@ -50,8 +50,8 @@ define('TEXT_IMAGE_NONEXISTENT', 'La imagen no existe');
 define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Eliminar oferta');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar el precio de oferta del producto?');
 
-define('SUCCESS_SPECIALS_PRE_ADD', 'Exito: Oferta pre-añadida ... actualice el precio y fecha por favor ...');
-define('WARNING_SPECIALS_PRE_ADD_EMPTY', 'Aviso: ID del Product no especificado ... no se añadió nada ...');
+define('SUCCESS_SPECIALS_PRE_ADD', 'Éxito: Oferta pre-añadida ... actualice el precio y fecha por favor ...');
+define('WARNING_SPECIALS_PRE_ADD_EMPTY', 'Aviso: ID del Producto no especificado ... no se añadió nada ...');
 define('WARNING_SPECIALS_PRE_ADD_DUPLICATE', 'Aviso: ID del Producto ya está en oferta ... no se añadió nada ...');
 define('WARNING_SPECIALS_PRE_ADD_BAD_PRODUCTS_ID', 'Aviso: ID del Producto es inválido ... no añadió nada ...');
 define('TEXT_INFO_HEADING_PRE_ADD_SPECIALS', 'Añade nueva Especial manualmente utilizando el ID de un Producto');

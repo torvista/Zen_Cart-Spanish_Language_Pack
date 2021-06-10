@@ -7,7 +7,7 @@
  * @version $Id: Author: DrByte  Wed Oct 28 13:08:12 2015 -0400 Modified in v1.5.5 $
  */
 
-  define ('EMAIL_LOGO_FILENAME', 'header.jpg');  //-File is present in /email folder NOT /es/email!! function zen_build_html_email_from_template does not take language into account
+  define ('EMAIL_LOGO_FILENAME', 'header.jpg');  //-File is present in /email folder but NOT /es/email!! function zen_build_html_email_from_template does not take language into account
   define ('EMAIL_LOGO_WIDTH', '550');
   define ('EMAIL_LOGO_HEIGHT', '110');
   define ('EMAIL_LOGO_ALT_TITLE_TEXT', '¡Zen Cart! El Arte de E-commerce');
@@ -27,7 +27,7 @@
   define('OFFICE_USE', 'Sólo para uso interno:');
   define('OFFICE_LOGIN_NAME', 'Nombre de usuario:');
   define('OFFICE_LOGIN_EMAIL', 'E-mail de usuario:');
-  define('OFFICE_LOGIN_PHONE','<strong>Teléfono:</strong>');
+  define('OFFICE_LOGIN_PHONE','Teléfono:');
   define('OFFICE_IP_ADDRESS', 'Dirección IP:');
   define('OFFICE_HOST_ADDRESS', 'Host:');
   define('OFFICE_DATE_TIME', 'Fecha y Hora:');
@@ -39,7 +39,7 @@
   define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[TARJETA REGALO ADMIN ENVIADA]');
   define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[CUPONES DESCUENTO]');
   define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[ESTADO PEDIDO]');
-  define('TEXT_UNSUBSCRIBE', "\n\nPara dejar de recibir futuros boletines y correos promocionales, simplemente haga clic en el siguient enlace: \n");
+  define('TEXT_UNSUBSCRIBE', "\n\nPara dejar de recibir futuros boletines y correos promocionales, simplemente haga clic en el siguiente enlace: \n");
 
 // for whos_online when gethost is off
   define('OFFICE_IP_TO_HOST_ADDRESS', 'Desactivado');

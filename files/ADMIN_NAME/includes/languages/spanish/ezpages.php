@@ -19,11 +19,11 @@
 // +----------------------------------------------------------------------+
 //  $Id: ezpages.php 2827 2006-01-08 19:46:40Z ajeh $
 //
-define('HEADING_TITLE', 'EZ-Pages<br />Aviso: Para crear páginas en otros idiomas, se precisa el módulo adicional <a href=" https://www.zen-cart.com/downloads.php?do=file&amp;id=36" target="_blank"> Multi-Language EZ-Pages</a><br /><br />');
+define('HEADING_TITLE', 'EZ-Pages');
 define('TABLE_HEADING_PAGES', 'Título de la Página');
 define('TABLE_HEADING_ACTION', 'Acción');
-define('TABLE_HEADING_VSORT_ORDER', 'Orden de los Cuadros');
-define('TABLE_HEADING_HSORT_ORDER', 'Orden de pie de página');
+define('TABLE_HEADING_VSORT_ORDER', 'Orden de los Recuadros');
+define('TABLE_HEADING_HSORT_ORDER', 'Orden de Pie de página');
 define('TEXT_PAGES_TITLE', 'Título:');
 define('TEXT_PAGES_HTML_TEXT', 'Contenido HTML:');
 define('TABLE_HEADING_DATE_ADDED', 'Fecha Añadida:');
@@ -39,13 +39,17 @@ define('ERROR_MULTIPLE_HTML_URL', 'Error: Ha definido opciones múltiples del en
 
 define('TABLE_HEADING_ID', 'ID');
 define('TABLE_HEADING_STATUS_HEADER', 'Encabezado:');
-define('TABLE_HEADING_STATUS_SIDEBOX', 'Cuadro:');
+define('TABLE_HEADING_STATUS_SIDEBOX', 'Recuadro:');
 define('TABLE_HEADING_STATUS_FOOTER', 'Pie:');
 define('TABLE_HEADING_STATUS_TOC', 'Table de Contenido:');
 define('TABLE_HEADING_CHAPTER', 'Capítulo:');
+define('TABLE_HEADING_VISIBLE', 'Visible:');
 
 define('TABLE_HEADING_PAGE_OPEN_NEW_WINDOW', 'Abrir en ventana nueva:');
 define('TABLE_HEADING_PAGE_IS_SSL', 'Página es SSL:');
+define('TABLE_HEADING_PAGE_IS_VISIBLE', 'Page is Visible:');
+define('TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION', 'Se muestra la Página aunque no está en la cabecera, pie o recuadro.<br>
+(Si todos los valores de Visible, Cabecera, Pie y Recuadro están desactivados, el cliente verá Página No Encontrada.)');
 
 define('TEXT_DISPLAY_NUMBER_OF_PAGES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> páginas)');
 define('IMAGE_NEW_PAGE', 'Página Nueva');
@@ -65,7 +69,7 @@ define('TEXT_HEADER_SORT_ORDER_EXPLAIN', '<strong>Encabezado-Orden:</strong> se 
 define('TEXT_SIDEBOX_ORDER_EXPLAIN', '<strong>Cuadro-Orden:</strong> se utiliza cuando las páginas están en un listado vertical de enlaces. Para incluir está página en el listado vertical el orden debe ser mayor que cero. Si no, se considera como texto HTML para intenciones especiales.');
 define('TEXT_FOOTER_ORDER_EXPLAIN', '<strong>Pie de Página-Orden:</strong> se utiliza  cuando se generan páginas en una sola fila horizontal en el pie de página.  Para incluir esta página en el listado de la fila horizontal, el orden debe ser mayor que cero.');
 define('TEXT_TOC_SORT_ORDER_EXPLAIN', '<strong>TdC (Tabla de Contenidos)-Orden:</strong> se utiliza cuando se generan páginas personalizadas como en una fila horizontal (encabezado/pie de página etc.) o fila vertical, dependiendo de los requisitos personales.  Para incluir está página en el listado el orden debe ser mayor que cero.');
-define('TEXT_CHAPTER_EXPLAIN', 'Se usa <strong>Capítulo</strong> con un TdC (Tabla de Contenidos) Orden para los enlaces Anterior/Siguiente. Los enlaces del TdC consisten de las páginas que tienen esta número de capítulo and se las ve en el TdC Orden.');
+define('TEXT_CHAPTER_EXPLAIN', 'Se usa <strong>Capítulo</strong> con un TdC (Tabla de Contenidos) Orden para los enlaces Anterior/Siguiente. Los enlaces del TdC consisten de las páginas que tienen este número de capítulo and se las ve en el TdC Orden.');
 
 define('TEXT_ALT_URL', 'URL Enlace Interno:');
 define('TEXT_ALT_URL_EXPLAIN', 'Si así está definido, se ignorará el contenido de la página y se utilizará este enlace local <br />Ejemplo a Reseñas: index.php?main_page=reviews<br />Ejemplo a Mi Cuenta: index.php?main_page=account y marcará como SSL');
@@ -76,7 +80,7 @@ define('TEXT_ALT_URL_EXTERNAL_EXPLAIN', ' Si así está definido, se ignorará e
 define('TEXT_SORT_CHAPTER_TOC_TITLE_INFO', 'Orden de Listado: ');
 define('TEXT_SORT_CHAPTER_TOC_TITLE', 'Capítulo/TdC');
 define('TEXT_SORT_HEADER_TITLE', 'Encabezado');
-define('TEXT_SORT_SIDEBOX_TITLE', 'Cuadro');
+define('TEXT_SORT_SIDEBOX_TITLE', 'Recuadro');
 define('TEXT_SORT_FOOTER_TITLE', 'Pie de Página');
 define('TEXT_SORT_PAGE_TITLE', 'Título de la Página');
 define('TEXT_SORT_PAGE_ID_TITLE', 'ID de la Página, Título');

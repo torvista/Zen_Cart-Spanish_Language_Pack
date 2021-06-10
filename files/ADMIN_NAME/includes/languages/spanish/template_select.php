@@ -27,9 +27,9 @@ define('TABLE_HEADING_NAME', 'Nombre ');
 define('TABLE_HEADING_DIRECTORY', 'Carpeta');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_HEADING_EDIT_TEMPLATE', 'Editar configuración de la plantilla');
-define('TEXT_INFO_HEADING_DELETE_TEMPLATE', 'Eliminar asociación de la plantilla');
-define('TEXT_INFO_EDIT_INTRO', 'Cambiar la plantilla');
+define('TEXT_INFO_HEADING_EDIT_TEMPLATE', 'Editar configuración de la Plantilla');
+define('TEXT_INFO_HEADING_DELETE_TEMPLATE', 'Eliminar asociación de la Plantilla');
+define('TEXT_INFO_EDIT_INTRO', 'Cambiar la Plantilla');
 define('TEXT_INFO_DELETE_INTRO', 'Eliminar esta asociación');
 define('TEXT_INFO_TEMPLATE_NAME', 'Nombre de Plantilla ');
 define('TEXT_INFO_LANGUAGE_NAME', 'Idioma Asociada');
@@ -37,8 +37,8 @@ define('TEXT_INFO_TEMPLATE_VERSION', 'Versión de la Plantilla : ');
 define('TEXT_INFO_TEMPLATE_AUTHOR', 'Autor : ');
 define('TEXT_INFO_TEMPLATE_DESCRIPTION', 'Descripción');
 define('TEXT_INFO_TEMPLATE_INSTALLED', 'Plantillas Disponibles');
-define('TEXT_INFO_HEADING_NEW_TEMPLATE', 'Asociar Plantilla con un  idioma');
-define('TEXT_INFO_INSERT_INTRO', 'Elige las opciones  para asociar una plantilla con un idioma');
-define('IMAGE_NEW_TEMPLATE', 'Crear una nueva asociación de plantilla con un idioma');
+define('TEXT_INFO_HEADING_NEW_TEMPLATE', 'Asociar Plantilla con una idioma');
+define('TEXT_INFO_INSERT_INTRO', 'Elige las opciones para asociar una plantilla con una idioma');
+define('IMAGE_NEW_TEMPLATE', 'Crear una nueva asociación de Plantilla con una idioma');
 
 ?>

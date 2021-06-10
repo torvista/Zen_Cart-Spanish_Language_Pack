@@ -13,12 +13,12 @@ define('TABLE_HEADING_TAX_CLASS_ID', 'ID');
 define('TABLE_HEADING_TAX_CLASSES', 'Impuesto');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_EDIT_INTRO', 'Por favor, haga los cambios necesarios');
+define('TEXT_INFO_EDIT_INTRO', 'Haga los cambios necesarios');
 define('TEXT_INFO_CLASS_TITLE', 'Impuesto:');
 define('TEXT_INFO_CLASS_DESCRIPTION', 'Descripción:');
 define('TEXT_INFO_DATE_ADDED', 'Añadido el:');
 define('TEXT_INFO_LAST_MODIFIED', 'Última modificación:');
-define('TEXT_INFO_INSERT_INTRO', 'Por favor, introduzca el nuevo impuesto con sus datos relacionados');
+define('TEXT_INFO_INSERT_INTRO', 'Introduzca el nuevo impuesto con sus datos relacionados');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este impuesto?');
 define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'Nuevo impuesto');
 define('TEXT_INFO_HEADING_EDIT_TAX_CLASS', 'Editar Impuesto');

@@ -26,18 +26,18 @@ define('TABLE_HEADING_LANGUAGE_NAME', 'Idioma');
 define('TABLE_HEADING_LANGUAGE_CODE', 'Código');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_EDIT_INTRO', 'Por favor, haga los cambios necesarios');
+define('TEXT_INFO_EDIT_INTRO', 'Haga los cambios necesarios');
 define('TEXT_INFO_LANGUAGE_NAME', 'Nombre:');
 define('TEXT_INFO_LANGUAGE_CODE', 'Código:');
 define('TEXT_INFO_LANGUAGE_IMAGE', 'Imagen:');
 define('TEXT_INFO_LANGUAGE_DIRECTORY', 'Directorio:');
 define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Orden:');
-define('TEXT_INFO_INSERT_INTRO', 'Por favor, introduzca el nuevo idioma con sus datos relacionados');
+define('TEXT_INFO_INSERT_INTRO', 'Introduzca el nuevo idioma con sus datos relacionados');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este idioma?');
 define('TEXT_INFO_HEADING_NEW_LANGUAGE', 'Nuevo idioma');
 define('TEXT_INFO_HEADING_EDIT_LANGUAGE', 'Editar idioma');
 define('TEXT_INFO_HEADING_DELETE_LANGUAGE', 'Eliminar idioma');
 
-define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Error: No se puede eliminar el idioma por defecto. Por favor, establezca otro idioma por defecto e inténtelo nuevamente.');
+define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Error: No se puede eliminar el idioma por defecto. Establezca otro idioma por defecto e inténtelo nuevamente.');
 define('ERROR_DUPLICATE_LANGUAGE_CODE', 'Error: Ya fue definido un idioma con ese código.');
 ?>

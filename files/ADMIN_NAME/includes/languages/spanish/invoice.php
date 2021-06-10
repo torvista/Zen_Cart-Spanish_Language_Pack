@@ -45,6 +45,6 @@ define('ENTRY_SHIPPING', 'Envío:');
 define('ENTRY_TOTAL', 'Total:');
 define('ENTRY_DATE_PURCHASED', 'Fecha del pedido:');
 
-define('ENTRY_ORDER_ID','Nº. Pedido ');
+define('ENTRY_ORDER_ID','Nº Pedido ');
 define('TEXT_INFO_ATTRIBUTE_FREE', '&nbsp;-&nbsp;GRATIS');
 ?>

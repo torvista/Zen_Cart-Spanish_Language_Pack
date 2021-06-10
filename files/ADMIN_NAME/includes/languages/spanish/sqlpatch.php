@@ -1,4 +1,4 @@
-<?php
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package admin
  * @copyright Copyright 2003-2011 Zen Cart Development Team
@@ -7,26 +7,26 @@
  * @version $Id: sqlpatch.php 19537 2011-09-20 17:14:44Z drbyte $
  */
 
-  define('HEADING_TITLE','Ejecutor de consultas SQL');
+  define('HEADING_TITLE','Ejecutor de Consultas SQL');
   define('HEADING_WARNING','ASEGÚRESE DE HACER UNA COPIA DE SEGURIDAD COMPLETA DE SU BASE DE DATOS ANTES DE EJECUTAR SCRIPTS AQUÍ');
   define('HEADING_WARNING2','Si está instalando una contribución de terceros, tenga en cuenta que lo hace bajo su propia responsabilidad.<br />Zen Cart&reg; no ofrece ninguna garantía sobre la seguridad de los scripts suministrados por terceros. <br />¡SIEMPRE compruebe cualquier modificación de código php o a la base de datos en una  COPIA de su tienda, NUNCA en la tienda real!');
   define('HEADING_WARNING_INSTALLSCRIPTS', 'AVISO: NO DEBE ejecutar scripts para actualizar la base de datos Zen Cart  a una nueva versión desde esta página.<br />Para asegurar un proceso lo más fiable suba la nueva carpeta <strong>zc_install</strong> al servidor y ejecute la actualización desde esa ubicación.');
   define('TEXT_QUERY_RESULTS','Resultados de la consulta:');
   define('TEXT_ENTER_QUERY_STRING','Escriba la consulta <br />a ser ejecutada:&nbsp;&nbsp;<br /><br />Asegúrese de<br />terminar con ;');
   define('TEXT_QUERY_FILENAME','Cargar archivo SQL:');
-  define('ERROR_NOTHING_TO_DO','Error: Nada que hacer - no se especifió consulta o archivo de consulta.');
+  define('ERROR_NOTHING_TO_DO','Error: Nada que hacer - no se especificó una consulta o archivo de consulta.');
   define('TEXT_CLOSE_WINDOW', '[ cerrar ventana ]');
   define('SQLPATCH_HELP_TEXT','La herramienta SQLPATCH le permite instalar parches del sistema pegando código SQL directamente en la zona de texto '.
                               'de aquí, o subiendo un archivo de script suministrado (.SQL).<br />' .
-                              'Al preparar scripts para ser utilizados con esta herramienta, NO incluya un prefijo de tabala, ya que esta herramienta ' .
+                              'Al preparar scripts para ser utilizados con esta herramienta, NO incluya un prefijo de tabla, ya que esta herramienta ' .
                               'insertará automáticamente el prefijo requerido para la base de datos activa, basado en los parámetros en el archivo ' .
                               'admin/includes/configure.php de la tienda (definición DB_PREFIX).<br /><br />' .
-                              'Los comandos introducidos o subidos sólo pueden empezar con las siguientes sentencia, y DEBEN estar en MAYÚSCULAS:'.
+                              'Los comandos introducidos o subidos sólo pueden empezar con las siguientes ordenes, y DEBEN estar en MAYÚSCULAS:'.
                               '<br /><ul><li>DROP TABLE IF EXISTS</li><li>CREATE TABLE</li><li>INSERT INTO</li><li>ALTER TABLE</li>' .
                               '<li>UPDATE (sólo una tabla)</li><li>DELETE FROM</li><li>DROP INDEX</li><li>CREATE INDEX</li>' .
-                              '<br /><li>SELECT </li></ul>' . 
-'<h2>Advanced Methods</h2>Los siguientes métodos se ueden utilizar para sentencias más complejas si es necesario::<br />
-Para ejecutar algunos bloques de código juntos, para que sean tratados como un sólo comando por MySQL, necesita configurar el valor "<code>#NEXT_X_ROWS_AS_ONE_COMMAND:xxx</code>" . El parser tratará X número de comandos como uno solo.<br />
+                              '<li>SELECT </li></ul>' . 
+'<h2>Métodos Avanzados</h2>Los siguientes métodos se pueden utilizar para sentencias más complejas si es necesario:<br />
+Para ejecutar algunos bloques de código juntos, para que sean tratados como un sólo comando por MySQL, necesita configurar el valor "<code>#NEXT_X_ROWS_AS_ONE_COMMAND:xxx</code>" . El parser tratará X número de comandos como uno sólo.<br />
 Si está ejecutando este archivo a través de phpMyAdmin o equivalente, el comentario "#NEXT..." es ignorado, y el script se procesará correctamente.<br />
 <br /><strong>NOTA: </strong>Las sentencias SELECT.... FROM... y LEFT JOIN necesitan que el "FROM" o "LEFT JOIN" estén en una línea por sí mismos para que el parser pueda añadir el prefijo de tabla.<br /><br />
 <em><strong>Ejemplos:</strong></em>
@@ -67,4 +67,3 @@ WHERE p.othercol_f = pm.othercol_f;</li>
   define('REASON_PRIMARY_KEY_ALREADY_EXISTS','No se pudo añadir la clave primaria a la tabla %s porque ya existe la clave primaria.');
   define('REASON_NO_PRIVILEGES','Usuario '.DB_SERVER_USERNAME.'@'.DB_SERVER.' no tiene privilegios de %s para la base de datos '.DB_DATABASE.'.');
 
-?>

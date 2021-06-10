@@ -1,24 +1,11 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-//
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-// $Id: gv_faq.php 4155 2006-08-16 17:14:52Z ajeh $
-//
+/**
+ * @package languageDefines
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: Scott C Wilson 2019 Jan 15 Modified in v1.5.6b $
+ */
 
 define('NAVBAR_TITLE', TEXT_GV_NAMES . 'Preguntas Frecuentes');
 define('HEADING_TITLE', TEXT_GV_NAMES . 'Preguntas Frecuentes');
@@ -37,13 +24,12 @@ define('SUB_HEADING_TEXT', 'Los ' . TEXT_GV_NAMES . ' se compran como cualquier 
 pagar usando los métodos de pago estándar de la tienda.
 Una vez que lo haya adquirido, el valor del ' . TEXT_GV_NAME . ' se sumará a su cuenta de
   ' . TEXT_GV_NAME . ' personal. Si usted tiene fondos en su cuenta de ' . TEXT_GV_NAME . ', comprobará
-  que la cantidad ahora se muestra en el Carro de Compras, y también se mostrará un 
+  que la cantidad ahora se muestra en la página Mi Cuenta y también se mostrará un 
   enlace a la página donde podrá enviar el ' . TEXT_GV_NAME . ' a alguien por email.');
   break;
   case '2':
 define('SUB_HEADING_TITLE', 'Cómo enviar ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT', 'Para enviar un ' . TEXT_GV_NAME . ' necesitará ir a nuestra Página de Enviar ' . TEXT_GV_NAME . '. Puede
-  encontrar el link a esta página en el Cuadro del Carro de la Compra en la columna derecha de cada página.
+define('SUB_HEADING_TEXT','Se puede enviar un ' . TEXT_GV_NAME . ' desde la página Mi Cuenta.
   Cuando usted envía un ' . TEXT_GV_NAME . ', necesita especificar la siguiente información.
   El nombre de la persona a la que le está enviando el  ' . TEXT_GV_NAME . '.
   El email de la persona a la que le está enviando el  ' . TEXT_GV_NAME . '.

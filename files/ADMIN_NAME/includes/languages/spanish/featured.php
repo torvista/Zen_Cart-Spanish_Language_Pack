@@ -33,7 +33,7 @@ define('TEXT_INFO_STATUS_CHANGE', 'Cambio de estado:');
 define('TEXT_IMAGE_NONEXISTENT', 'No existe el imagen');
 
 define('TEXT_INFO_HEADING_DELETE_FEATURED', 'Borrar destacado');
-define('TEXT_INFO_DELETE_INTRO', '¿Está seguro de que desa borrar este producto destacado?');
+define('TEXT_INFO_DELETE_INTRO', '¿Está seguro de que desea borrar este producto destacado?');
 
 define('SUCCESS_FEATURED_PRE_ADD', 'Éxito: Destacados pre-añadidos ... actualice las fechas por favor ...');
 define('WARNING_FEATURED_PRE_ADD_EMPTY', 'Aviso: No se especificó el ID del producto ... no se añadió nada ...');

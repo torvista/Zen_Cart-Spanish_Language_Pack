@@ -1,5 +1,18 @@
 Changelog
+2019 07		updates for Zen Cart 1.56c, and php warnings for duplicated/missing constants.
+2019 06   	admin: TEXT_GV_REDEEM repeated and gv_name.php not encoded utf-8.
+2019 06 09  header changes to match pointless header changes made in zen-cart-v1.5.6b-05272019
+2019 05 27  changes for zen-cart-v1.5.6b-05262019
 
+2019 04 11  various minor changes post 156-merging checks.
+			removed check locales file to it's own repository
+			added single EN flag icon to overwrite multi-flag EN icon introduced in 156
+			added constants for keep_alive module
+2019 03 28 changed cuadro to recuadro for sideboxes, correct encoding for some files
+2019 03 27 revised all files for Zen Cart 1.56a and uploaded to Github.
+
+Zen Cart 1.56
+-------------
 2018 01 15 Minor changes for Zen Cart 1.55f
 Since this is a pack for Spain: changed default date format to dd/mm/yyyy and changed default weight to kg.
 2017 05 07 checkout_payment missing a closing span: https://github.com/zencart/zencart/issues/1452

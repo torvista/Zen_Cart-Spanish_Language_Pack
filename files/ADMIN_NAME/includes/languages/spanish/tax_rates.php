@@ -29,7 +29,7 @@ define('TABLE_HEADING_ZONE', 'Zona');
 define('TABLE_HEADING_TAX_RATE', 'Porcentaje');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_EDIT_INTRO', 'Por favor, haga los cambios necesarios');
+define('TEXT_INFO_EDIT_INTRO', 'Haga los cambios necesarios');
 define('TEXT_INFO_DATE_ADDED', 'Añadido el:');
 define('TEXT_INFO_LAST_MODIFIED', 'Última modificación:');
 define('TEXT_INFO_CLASS_TITLE', 'Titulo de Tasa de Impuesto:');
@@ -38,7 +38,7 @@ define('TEXT_INFO_ZONE_NAME', 'Zona:');
 define('TEXT_INFO_TAX_RATE', 'Porcentaje (%):');
 define('TEXT_INFO_TAX_RATE_PRIORITY', 'Los impuestos de la misma prioridad se suman, los otras son combinados.<br><br>Prioridad:');
 define('TEXT_INFO_RATE_DESCRIPTION', 'Descripción:');
-define('TEXT_INFO_INSERT_INTRO', 'Por favor, introduzca la nueva clase de impuesto con sus datos relacionados');
+define('TEXT_INFO_INSERT_INTRO', 'Introduzca la nueva clase de impuesto con sus datos relacionados');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar esta tasa de impuesto?');
 define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'Nuevo Tasa de Impuesto');
 define('TEXT_INFO_HEADING_EDIT_TAX_RATE', 'Editar Tasa de Impuesto');

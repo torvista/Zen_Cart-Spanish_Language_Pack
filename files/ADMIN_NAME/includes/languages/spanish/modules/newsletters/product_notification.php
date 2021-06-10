@@ -1,5 +1,5 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-//
+//ñ for encoding
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,11 +20,11 @@
 //  $Id: product_notification.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TEXT_COUNT_CUSTOMERS', 'Clientes recibiendo el bolet�n de noticias: %s');
+define('TEXT_COUNT_CUSTOMERS', 'Clientes recibiendo el boletín de noticias: %s');
 define('TEXT_PRODUCTS', 'Productos');
 define('TEXT_SELECTED_PRODUCTS', 'Productos Seleccionados');
 
-define('JS_PLEASE_SELECT_PRODUCTS', 'Por favor, seleccione algunos productos.');
+define('JS_PLEASE_SELECT_PRODUCTS', 'Seleccione algunos productos.');
 
 define('BUTTON_GLOBAL', 'Global');
 define('BUTTON_SELECT', '>>>');

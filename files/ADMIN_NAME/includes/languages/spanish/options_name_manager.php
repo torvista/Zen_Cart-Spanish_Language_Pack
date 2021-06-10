@@ -20,14 +20,14 @@
 //  $Id: options_name_manager.php 2181 2005-10-20 18:37:16Z ajeh $
 //
 
-define('HEADING_TITLE_OPT', 'Opciones de productos');
+define('HEADING_TITLE_OPT', 'Opciones de Productos');
 define('HEADING_TITLE_VAL', 'Valores de Opciones');
-define('HEADING_TITLE_ATRIB', 'Atributos de productos');
+define('HEADING_TITLE_ATRIB', 'Atributos de Productos');
 
 define('TABLE_HEADING_ID', 'ID');
-define('TABLE_HEADING_PRODUCT', 'Nombre de producto');
-define('TABLE_HEADING_OPT_NAME', 'Nombre de opción');
-define('TABLE_HEADING_OPT_VALUE', 'Valor de opción');
+define('TABLE_HEADING_PRODUCT', 'Nombre de Producto');
+define('TABLE_HEADING_OPT_NAME', 'Nombre de Opción');
+define('TABLE_HEADING_OPT_VALUE', 'Valor de Opción');
 define('TABLE_HEADING_OPT_PRICE', 'Precio');
 define('TABLE_HEADING_OPT_PRICE_PREFIX', 'Prefijo');
 define('TABLE_HEADING_ACTION', 'Acción');
@@ -37,15 +37,15 @@ define('TABLE_TEXT_MAX_DAYS', 'Días hasta caducidad:');
 define('TABLE_TEXT_MAX_COUNT', 'Nº máximo de descargas:');
 
 define('TEXT_WARNING_OF_DELETE', 'Esta opción tiene productos y valores enlazados - no es seguro borrarla.');
-define('TEXT_OK_TO_DELETE', 'Esta opción no tiene productos enlazados - es seguro borrarla.<br />Precaución: Todos los valores de opción serán borrados para este nombre de opción.');
-define('TEXT_OPTION_ID', 'ID de opción');
-define('TEXT_OPTION_NAME', 'Nombre de opción');
+define('TEXT_OK_TO_DELETE', 'Esta opción no tiene productos enlazados - es seguro borrarla.<br />Precaución: Todos los valores de opciones serán borrados para este nombre de opción.');
+define('TEXT_OPTION_ID', 'ID de Opción');
+define('TEXT_OPTION_NAME', 'Nombre de Opción');
 define('TABLE_HEADING_OPT_DISCOUNTED','Descontado');
 
-define('ATTRIBUTE_WARNING_DUPLICATE','Atributo duplicado - El atributo no se añadió'); // attributes duplicate warning
-define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE','Existe un atributo duplicado - El atributo no se modificó'); // attributes duplicate warning
-define('ATTRIBUTE_WARNING_INVALID_MATCH','La opción de atributo y el valor de opción NO coinciden - El atributo no fue añadido'); // miss matched option and options value
-define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','La opción de atributo y el valor de opción NO coinciden - El atributo no fue modificado'); // miss matched option and options value
+define('ATTRIBUTE_WARNING_DUPLICATE','Atributo Duplicado - El atributo no ha sido añadido'); // attributes duplicate warning
+define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE','Existe un atributo duplicado - El atributo no ha sido modificado'); // attributes duplicate warning
+define('ATTRIBUTE_WARNING_INVALID_MATCH','La Opción de Atributo y el Valor de la Opción NO coinciden - El atributo no fue añadido'); // miss matched option and options value
+define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','La Opción de Atributo y el Valor de la Opción NO coinciden - El atributo no fue modificado'); // miss matched option and options value
 define('ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE','Posiblemente se añadió un nombre de opción duplicado.'); // Options Name Duplicate warning
 define('ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE','Posiblemente se añadió un valor de opción duplicado'); // Options Value Duplicate warning
 
@@ -71,7 +71,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
 
   define('TABLE_HEADING_OPT_TYPE', 'Tipo de opción'); //CLR 031203 add option type column
   define('TABLE_HEADING_OPTION_VALUE_SIZE','Tamaño');
-  define('TABLE_HEADING_OPTION_VALUE_MAX','Máx');
+  define('TABLE_HEADING_OPTION_VALUE_MAX','Max');
   define('TABLE_HEADING_OPTION_VALUE_ROWS','Filas');
   define('TABLE_HEADING_OPTION_VALUE_COMMENTS','Comentarios');
 
@@ -84,7 +84,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
   define('TEXT_ATTRIBUTES_IMAGE_DIR','Directorio de imágenes de atributo:');
 
   define('TEXT_ATTRIBUTES_FLAGS','Banderas<br />de atributo:');
-  define('TEXT_ATTRIBUTES_DISPLAY_ONLY', 'Usado con motivos<br />de visualización sólamente:');
+  define('TEXT_ATTRIBUTES_DISPLAY_ONLY', 'Usado con motivos<br />de visualización solamente:');
   define('TEXT_ATTRIBUTES_IS_FREE', 'El atributo es gratis<br />cuando el producto es gratis:');
   define('TEXT_ATTRIBUTES_DEFAULT', 'Atributo por defecto<br />para marcar como seleccionado:');
   define('TEXT_ATTRIBUTE_IS_DISCOUNTED', 'Aplicar los mismos descuentos<br />usados para el producto:');
@@ -129,7 +129,7 @@ define('TEXT_INFO_OPTION_VALUE_COPY_ALL', 'Todos los Valores de la Opción será
 define('TEXT_SELECT_OPTION_FROM', 'Copiar DESDE Opción:-> ');
 define('TEXT_SELECT_OPTION_TO', '->Copiar A la Opción: ');
 define('SUCCESS_OPTION_VALUES_COPIED', '¡Copia exitosa! ');
-define('ERROR_OPTION_VALUES_COPIED', 'Error - ¡No se pudien copiar los valores de opción en el mismo nombre de opción! ');
+define('ERROR_OPTION_VALUES_COPIED', 'Error - ¡No se pudieron copiar los valores de opción en el mismo nombre de opción! ');
 define('ERROR_OPTION_VALUES_NONE', 'Error - La copia del nombre de opción tiene 0 valores definidos. ¡No se copió nada! ');
 define('TEXT_WARNING_BACKUP', 'Atención: Haga siempre una copia de seguridad de su base de datos antes de realizar algún cambio global');
 

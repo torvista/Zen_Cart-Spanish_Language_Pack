@@ -22,9 +22,9 @@
   define('HEADING_TITLE', 'Discográficas');
   define('TABLE_HEADING_RECORD_COMPANY', 'Discográfica');
   define('TABLE_HEADING_ACTION', 'Acción');
-  define('TEXT_NEW_INTRO', 'Por favor, introduzca los detalles de la nueva discográfica a continuación.');
-  define('TEXT_EDIT_INTRO', 'Por favor, rectifique los detalles de la discográfica a continuación.');
-  define('TEXT_DELETE_INTRO', '¿Está seguro de que desea borrar esta discográfia?');
+  define('TEXT_NEW_INTRO', 'Introduzca los detalles de la nueva discográfica a continuación.');
+  define('TEXT_EDIT_INTRO', 'Rectifique los detalles de la discográfica a continuación.');
+  define('TEXT_DELETE_INTRO', '¿Está seguro de que desea borrar esta discográfica?');
   define('TEXT_DELETE_IMAGE', '¿Borrar imagen?.');
   define('TEXT_RECORD_COMPANY_NAME', 'Nombre de la discográfica');
   define('TEXT_RECORD_COMPANY_IMAGE', 'Imagen de la discográfica');

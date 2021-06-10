@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zen Cart 1.56x Spanish (Spain) Language Pack - Readme</title>
+<style>
+body {
+	padding: 1em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.9em;
+}
+#title {
+	font-size: 1.4em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+h1 {
+	font-size: 1.3em;
+}
+h2 {
+	font-size: 1.2em;
+}
+h3 {
+	font-size: 1em;
+}
+img {
+	border: thin solid #000;
+}
+</style>
+</head>
+<body>
+<span id="title">Zen Cart Spanish (Spain) Language Pack for Zen Cart 1.56c</span>
+<p> GPL Licence<br>
+  Collator-Translator-Maintainer: <a href="http://www.zen-cart.com/member.php?42350-torvista" target="_blank">torvista</a></p>
+<p>This language pack <strong>differs</strong> from the Zen Cart english files in two aspects: date of birth format is dd/mm/yyyy (not mm/dd/yyyy) and weight is kg (not lbs).</p>
+<p><strong> Support Thread - Zen Cart forum</strong>: <a href="http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
+<p><strong>Github: <a href="https://github.com/torvista/Zen-Cart-1.56x-Spanish-Language-Pack" target="_blank">https://github.com/torvista/Zen-Cart-1.56x-Spanish-Language-Pack</a></strong></p>
+<p>The version of the language pack in the Plugins section of the Zen Cart site is only updated occasionally, and not for minor improvements. You should clone the repository from Github to be notified of these minor changes.</p>
+<h1>Installation</h1>
+<h2>1) Prepare your development site.</h2>
+<p>As always, install and review <strong>any</strong> modifications on your development site, NEVER on your production site.</p>
+<h3>a) The fileset is encoded in utf-8 as Zen Cart uses utf-8 encoding from v1.5 onwards.</h3>
+<p>If you have an older site that still uses latin-1/8859 for the database contents/connection and html page encoding either you should convert the database to utf-8.</p>
+<p>There are multiple threads on this subject in the Zen Cart forum.</p>
+<h3>b) Your template</h3>
+<p>If you do not have a customised template or have been modifying the &quot;classic&quot; template: <strong>STOP NOW</strong>, create your own template and restore the &quot;classic&quot; files to their original states.<br>
+  The &quot;classic&quot; template should be left untouched  to help investigate/isolate any problems you create/introduce into the code with your customised template files.</p>
+<h3>c) Backup your files and database</h3>
+<p> If you have not installed the Backup MYSQL Plugin to provide easy database backups, do it now.<br>
+  <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=7" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=7</a></p>
+<h2>2) Copy the files into your Zen Cart</h2>
+<h3>a) Rename the &quot;ADMIN_NAME&quot; folder to match the name of your admin folder.<br>
+</h3>
+<h3>b) Copy all the folders under &quot;files_usted&quot; into your shop folder.</h3>
+<p>This should only overwrite ONE file: the pointless multiple flag icon <img src="../files_usted/includes/languages/english/images/icon_EN_multiple_flags_156.gif" width="96" height="14" alt="flags of some english-speaking countries"/> that was added in Zen Cart 1.56 for the english language.<br>
+  This large icon causes all the english text input boxes to be misaligned with other languages, so this language pack replaces it with a  single flag icon <img src="../files_usted/includes/languages/english/images/icon.gif" width="22" height="15" alt="British Flag
+"/>.</p>
+<p>c) To stop php warnings/debug logs, multiple instances of TEXT_ATTRIBUTE_COPY_INSERTING have been removed as per Zen Cart 157. However the constant has changed to include variables. Consequently, the code that uses TEXT_ATTRIBUTE_COPY_INSERTING has also changed in ZC157. The code change is included in the file </p>
+<p>ADMIN_NAME\includes\functions\general.156c with mod 157 php</p>
+<p>so you can easily compare/merge that change into your (possibly already customised) file: general.php</p>
+<p>If you don't do this, the admin success message that appears when you copy attributes will be missing the product from/to IDs....not a showstopper, so it doesn't matter if you don't do this.</p>
+<h2>3) Register the Language in your Zen Cart</h2>
+<h3>Go into the Zen Cart Admin-&gt;Localization-&gt;Languages</h3>
+<p>Click on &quot;new language&quot; and fill in the fields:</p>
+<p>Name: This is a text field so can be anything eg: Español/Spanish/Castellano. It can be changed anytime.<br>
+  Code: es<br>
+  Directory: spanish<br>
+  Sort Order: Optional. This determines the display order of the language selection drop-down in the admin menu and the display order of the flags  in the shop front.<br>
+  Set as default: tick if you want the admin to display in spanish when you login.</p>
+<p>Click on &quot;Insert&quot;.</p>
+<p>If you get any warnings at this point: <strong>DO NOT IGNORE THEM! STOP, MAKE A NOTE OF THEM</strong>/<strong>take a screenshot</strong> and <strong><u>investigate the problem</u></strong>: Google is your friend here. Use the forum.</p>
+<p>At the moment of &quot;Insert&quot;, all the existing database data in english (category/product names/descriptions, order status) are duplicated (not translated) to their new corresponding spanish fields.</p>
+<p>The product/category data should then be exported for more efficient bulk translation, and a spanish file prepared for import to overwrite/update the spanish fields.</p>
+<h2>4) Review the installation</h2>
+<h3>a) Check the Admin menus</h3>
+<p>Note that the text of the <strong>options</strong> of configuration settings can be stored in the database in one language only, and so are only available in english.</p>
+<p>Also in<br>
+  Admin-&gt;Herramientas-&gt;Enviar Correo and <br>
+  Admin-&gt;Vales de Compra/Cupones-&gt;Enviar por correo Vale de Compra<br>
+  the drop-down texts are hard-coded in the database query_builder table.</p>
+<p><img src="admin_send_email_dropdown.gif" width="536" height="221" alt="Zen Cart Admin Send Email Dropdown
+"></p>
+<p>They can be modified by hand if required.</p>
+<p>If you find anything incorrectly/unclearly translated, please report your observations on Github or in the forum.</p>
+<p>If you find something faulty, check that the fault is <strong>not</strong> present when using english before reporting it.</p>
+<h3>b) Check the Catalog</h3>
+<h3>Languages Sidebox</h3>
+<p>Note that the sidebox to display the available languages is not enabled by default.<br>
+  Enable it in Tools-&gt;Layout Boxes Controller</p>
+<h3>EZ Pages Menu</h3>
+<p>These are not multi-language in a new Zen Cart installation: you have to install a plugin.<br>
+  So this <strong>is</strong> normal:<br>
+  <img src="catalog_ez_pages_menu.gif" width="356" height="73" alt="Zen Cart EZ Pages Menu"></p>
+<p>If you find anything incorrectly/unclearly translated, please report your observations on Github or in the forum.</p>
+<p>If you find something faulty, check that the fault is <strong>not</strong> present when using english before reporting it.</p>
+<p>Make the changes you require for your particular shop in override files.</p>
+<h2>5) Copy to the Production shop</h2>
+<p>Copy the new files from the development to the production site and repeat step 3)</p>
+<p>Note that the order status titles (Admin-&gt;Localization-&gt;Order Status) will need to be manually translated in addition to all products and categories.</p>
+<h1>Problems</h1>
+<h2>PHP warnings</h2>
+<p>From PHP 7.2 onwards, warnings are raised for missing constants or duplicated constants. These need to be fixed.</p>
+<p>If the debug error occurs only with the spanish files, please report it in the thread for this language pack.</p>
+<p>If the debug error occurs with the english files too, report it in <a href="https://github.com/zencart/zencart/issues" target="_blank">Github</a>.</p>
+<h2>Characters with accents displaying corrupted</h2>
+<p>Could be a file, database connection or database data with the incorrect encoding of UTF-8, search and read in the forum.</p>
+<h2>Dates not formatted correctly.</h2>
+<p>Possibly the locale is incorrect.</p>
+<p>In spanish.php, the two versions of this files contain these lines:</p>
+<pre>$locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');</pre>
+<p>This is a list of locales (if you don't know what that means, look it up). The values you can use depend on what is installed on the server (local or remote).</p>
+<p>Probably the values that are in there already will be fine for both a Windows/*nix hosting since if the server does not have one, it uses the next...</p>
+<p>If you want to know what your server supports, there is a script to check:</p>
+<p><a href="https://github.com/torvista/Zen-Cart-Test-Server-Locales" target="_blank">https://github.com/torvista/Zen-Cart-Test-Server-Locales</a></p>
+<h2>Untranslated Text/Mistakes/Improvements</h2>
+<p>If any text is untranslated/incorrect or could be improved, please post a message in the Github repository.</p>
+<p>If you see a constant name appear like &quot;TEXT_SOMETHING_NEW&quot; instead of text, this means that particular constant is not defined for the currently-selected language.<br>
+Find this constant definition in your files (it will probably only be defined in the english language files) and replicate it in the corresponding language file, and TELL someone if it is someone else's fault.</p>
+<h2>Blank Screen/White Screen of Death</h2>
+<p> If you get white pages: check the debug log in the /logs directory and use this page to help you locate the fault: <a href="http://www.zen-cart.com/content.php?124-blank-page" target="_blank">http://www.zen-cart.com/content.php?124-blank-page</a>.</p>
+<h1>Buttons</h1>
+<p> The spanish button images for the classic template were created with the Zen Button Construction Kit:<br>
+  <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=520" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=520</a></p>
+<h1>CSS Buttons</h1>
+<p> When using CSS buttons, the button text comes from the image button ALT definitions.</p>
+<p>In the case of Submit buttons there is a 30 character limit hard-coded into zen_image_submit.<br>
+  If this is exceeded, the normal Submit image is shown instead.<br>
+  This may be useful if you wish to force the use of an image on a particular Submit button: just use a 30+ character alt text!</p>
+<h1>Improvements</h1>
+<p>Please help to maintain and improve this translation by sending comments and corrections in the forum or on Github:<br>
+  <a href="http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
+<h1>Translation of the Zen Cart <u>Installation Files</u></h1>
+<p>I decided not to do this.<br>
+  Since there is very little spanish <strong>community</strong>-support for Zen Cart spanish-speaking users, anyone wishing to develop Zen Cart will have to read english to find help and information...starting with the installation.</p>
+<p> If you find the installation too difficult to follow in english, then working with and customising Zen Cart will not be the solution <strong>you</strong> need for your business, look elsewhere.</p>
+<p><a href="changelog.txt" target="_blank">Changelog</a></p>
+<p>&nbsp;</p>
+</body>
+</html>

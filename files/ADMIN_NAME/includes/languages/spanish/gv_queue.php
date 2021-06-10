@@ -19,8 +19,8 @@
 // +----------------------------------------------------------------------+
 //  $Id: gv_queue.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
-
-define('HEADING_TITLE', 'Listado de los  ' .  TEXT_GV_NAMES  . ' emitidos');
+require 'gv_name.php';
+define('HEADING_TITLE', TEXT_GV_NAMES  . ' Emitidos');
 
 define('TABLE_HEADING_CUSTOMERS', 'Clientes');
 define('TABLE_HEADING_ORDERS_ID', 'Nº Pedido');
@@ -41,6 +41,5 @@ define('TEXT_REDEEM_GV_MESSAGE_FOOTER', '');
 define('TEXT_REDEEM_GV_SUBJECT', 'Compra de ' . TEXT_GV_NAME);
 define('TEXT_REDEEM_GV_SUBJECT_ORDER',' Pedido #');
 
-define('TEXT_EDIT_ORDER','Editar Pedido ID# ');
+define('TEXT_EDIT_ORDER','Editar ID# Pedido ');
 define('TEXT_GV_NONE','Ningún ' . TEXT_GV_NAME . ' a emitir');
-?>

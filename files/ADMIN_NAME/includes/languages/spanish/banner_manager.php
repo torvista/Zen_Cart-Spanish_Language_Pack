@@ -1,24 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-//
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-//  $Id: banner_manager.php 3131 2006-03-07 22:53:04Z ajeh $
-//
+/**
+ * @package admin
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: DrByte Sat Jul 5 15:44:37 2014 -0400 Modified in v1.5.6 $
+ */
 
 define('HEADING_TITLE', 'Gestor de Banners');
 
@@ -35,7 +21,7 @@ define('TEXT_BANNERS_TITLE', 'Título del banner:');
 define('TEXT_BANNERS_URL', 'URL del banner:');
 define('TEXT_BANNERS_GROUP', 'Grupo del banner:');
 define('TEXT_BANNERS_NEW_GROUP', ', o ingrese un nuevo grupo de banners aquí debajo');
-define('TEXT_BANNERS_IMAGE', 'Imágen:');
+define('TEXT_BANNERS_IMAGE', 'Imagen:');
 define('TEXT_BANNERS_IMAGE_LOCAL', ', o ingrese un fichero local aquí debajo');
 define('TEXT_BANNERS_IMAGE_TARGET', 'Imagen destino (Guardar en):');
 define('TEXT_BANNER_IMAGE_TARGET_INFO', '<strong>Carpeta de destino:</strong> ' . DIR_FS_CATALOG_IMAGES . 'banners/');
@@ -63,10 +49,9 @@ define('TEXT_INFO_BANNER_ON_SSL', '<strong>NOTA:</strong> El banner se puede mos
 define('TEXT_BANNERS_DATE_ADDED', 'Agregado el:');
 define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Programado para: <b>%s</b>');
 define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Caduca el: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Caduca despúes de  ser mostrado: <b>%s</b> veces');
+define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Caduca después de  ser mostrado: <b>%s</b> veces');
 define('TEXT_BANNERS_STATUS_CHANGE', 'Cambio de Estatus: %s');
 
-define('TEXT_BANNERS_DATA', 'D<br>A<br>T<br>O<br>S');
 define('TEXT_BANNERS_LAST_3_DAYS', 'Últimos 3 Días');
 define('TEXT_BANNERS_BANNER_VIEWS', 'Vistas del banner');
 define('TEXT_BANNERS_BANNER_CLICKS', 'Clicks del banner');
@@ -86,10 +71,7 @@ define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el
 define('ERROR_IMAGE_DOES_NOT_EXIST', 'Error: La imagen no existe.');
 define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Error: La imagen no puede eliminarse.');
 define('ERROR_UNKNOWN_STATUS_FLAG', 'Error: Estado desconocido.');
-define('ERROR_BANNER_IMAGE_REQUIRED', 'Error: Precisa el imágen del banner.');
-
-define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de gráficos no existe. Por favor, cree un directorio \'graphs\' dentro de \'images\'.');
-define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de gráficos.');
+define('ERROR_BANNER_IMAGE_REQUIRED', 'Error: Precisa el imagen del banner.');
 
 define('TEXT_LEGEND_BANNER_ON_SSL', 'Mostrar SSL');
 define('TEXT_LEGEND_BANNER_OPEN_NEW_WINDOWS', 'Nueva ventana');
@@ -97,9 +79,9 @@ define('TEXT_LEGEND_BANNER_OPEN_NEW_WINDOWS', 'Nueva ventana');
 // Tooltip Text for images in Banner Manager
 define('IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_ON','Abrir nueva ventana - Activado');
 define('IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_OFF','Abrir nueva ventana - Desactivado');
-define('IMAGE_ICON_BANNER_ON_SSL_ON','Mostrar en paginas seguras - Activado');
-define('IMAGE_ICON_BANNER_ON_SSL_OFF','Mostrar en paginas seguras - Desactivado');
+define('IMAGE_ICON_BANNER_ON_SSL_ON','Mostrar en páginas seguras - Activado');
+define('IMAGE_ICON_BANNER_ON_SSL_OFF','Mostrar en páginas seguras - Desactivado');
 
 define('SUCCESS_BANNER_OPEN_NEW_WINDOW_UPDATED', 'Éxito: el estatus del banner para abrir en una nueva ventana ha sido actualizado.');
 define('SUCCESS_BANNER_ON_SSL_UPDATED', 'Éxito: el estatus del banner para mostrar con SSL ha sido actualizado.');
-?>
+

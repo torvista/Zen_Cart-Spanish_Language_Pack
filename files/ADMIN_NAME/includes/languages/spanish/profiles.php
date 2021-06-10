@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package admin
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2014 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Sun Jul 1 16:59:57 2012 -0400 Modified in v1.5.1 $
+ * @version GIT: $Id: Author: Ian Wilson   Modified in v1.5.4 $
  */
 
 define('HEADING_TITLE_ALL_PROFILES', 'Perfiles de Usuarios');

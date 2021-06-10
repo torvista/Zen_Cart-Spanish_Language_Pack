@@ -36,7 +36,7 @@ define('INFO_TEXT', '<ul>
                       </li>
                       <li>
                         Al ingresar un rango de precio se limita el rango de productos que será afectado. (ej.
-                        prouductos desde $50.00 a $150.00)
+                        productos desde $50.00 a $150.00)
                       </li>
                       <li>
                         Debe elegir la acción a tomar si un producto es una oferta <i>y</i> está sujeto a esta liquidación:
@@ -50,7 +50,7 @@ define('INFO_TEXT', '<ul>
                           <li>
                             <strong>Ignorar Condición de Rebaja: No Aplicar Rebaja Cuando Existan Ofertas</strong><br>
                             La rebaja no se aplicará a las Ofertas. Los precios de Oferta se mostrarán como
-                            si no hubiera una rebaja definida. (ej: el precio normal es $10.00, el precio de ofreta es $9.50,
+                            si no hubiera una rebaja definida. (ej: el precio normal es $10.00, el precio de oferta es $9.50,
                             la condición de rebaja es del 10%. El precio final del producto será $9.50 en la rebaja.
                             La Condición de Rebaja es ignorada.)
                           </li>
@@ -68,7 +68,7 @@ define('INFO_TEXT', '<ul>
                       <li>
                         Deje la fecha de finalización vacía si no quiere que expire la rebaja.</li>
                       <li>
-                        Al marcar una categoría automáticamente se incluyen sus sub-categorías.
+                        Al marcar una categoría automáticamente se incluyen sus subcategorías.
                       </li>
                     </ul>');
 define('TEXT_CLOSE_WINDOW', '[ cerrar ventana ]');

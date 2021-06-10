@@ -14,7 +14,7 @@
   define('SUCCESS_PRODUCT_UPDATE_PRODUCTS_PRICE_SORTER', 'Actualización <strong>exitosa</strong> para los valores de ordenación de precios de productos');
   define('SUCCESS_PRODUCT_UPDATE_PRODUCTS_VIEWED', 'Reinicio <strong>exitoso</strong> de productos vistos a 0');
   define('SUCCESS_PRODUCT_UPDATE_PRODUCTS_ORDERED', 'Reinicio <strong>exitoso</strong> de pedidos a 0');
-  define('SUCCESS_UPDATE_ALL_MASTER_CATEGORIES_ID', 'Reinicio <strong>exitoso</strong> de todas las caracteristicas principales para productos enlazados');
+  define('SUCCESS_UPDATE_ALL_MASTER_CATEGORIES_ID', 'Reinicio <strong>exitoso</strong> de todas las características principales para productos enlazados');
   define('SUCCESS_UPDATE_COUNTER', '<strong>Actualización exitosa</strong> del contador a: ');
 
   define('ERROR_CONFIGURATION_KEY_NOT_FOUND', '<strong>Error:</strong> No se encontró configuración coincidente ...');
@@ -29,7 +29,7 @@
   define('TEXT_NEW_ORDERS_ID', 'ID de pedido nuevo');
   define('TEXT_INFO_SET_NEXT_ORDER_NUMBER', '<strong>Define el próximo número de pedido</strong><br />NOTA: No se puede poner un número menor que un pedido existente en la base de datos.');
   define('TEXT_MSG_NEXT_ORDER', 'El próximo número de pedido será %s');
-  define('TEXT_MSG_NEXT_ORDER_MAX', 'A resulta que un pedido ya en marcha, the próximo número de pedido es actualmente: %s');
+  define('TEXT_MSG_NEXT_ORDER_MAX', 'A resulta que un pedido ya en marcha, el próximo número de pedido es actualmente: %s');
   define('TEXT_MSG_NEXT_ORDER_TOO_LARGE', 'No se puede poner el próximo número de pedido mayor que 2000000000 (es una limitación de la base de datos). Elija un número menor.');
 
   define('TEXT_CONFIGURATION_CONSTANT', '<strong>Buscar CONSTANTES definiciones de archivos de idioma</strong>');
@@ -64,4 +64,4 @@
   define('SUCCESS_DB_OPTIMIZE', 'Optimización de la base de datos - Tablas procesadas: ');
 
   define('TEXT_INFO_PURGE_DEBUG_LOG_FILES', '<strong>Borrar archivos Debug</strong><br /><strong>¡Precaución!: </strong>Zen Cart archiva los mensaje de errores PHP para ayudar en la búsqueda de problemas, y muchos de los módulos de pago puede crear archivos log para diagnosticar problemas de comunicación.<br />Esta función borrará *TODOS* los archivos debug asociados con errores PHP y los módulos de pago de la carpeta /logs.');
-  define('SUCCESS_CLEAN_DEBUG_FILES', 'Los archivos debug han sido borrados.');
+  define('SUCCESS_CLEAN_DEBUG_FILES', 'Los archivos Debug han sido borrados.');

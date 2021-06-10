@@ -15,7 +15,7 @@ define('TEXT_BUTTON_LOGIN', 'Login');
 define('TEXT_BUTTON_CANCEL', 'Cancelar');
 
 define('ERROR_WRONG_EMAIL', 'Introdujo una dirección de correo incorrecta.');
-define('ERROR_WRONG_EMAIL_NULL', 'Adios amigo :-P');
+define('ERROR_WRONG_EMAIL_NULL', 'Adiós amigo :-P');
 define('MESSAGE_PASSWORD_SENT', 'Gracias. Si el email que escribió está asociado con alguna cuenta de administrador, una nueva contraseña se ha enviado a la cuenta.</p><p>Lea el email y pinche "Login" abajo para entrar con la contraseña nueva temporal.');
 
 define('TEXT_EMAIL_SUBJECT_PWD_RESET', 'Cambio Solicitado');

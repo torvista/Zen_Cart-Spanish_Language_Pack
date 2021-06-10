@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package admin
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: products_to_categories.php 18698 2011-05-04 14:50:06Z wilt $
+ * @version $Id: Zen4All Wed Jan 17 12:01:19 2018 +0100 Modified in v1.5.6 $
  */
 
 define('HEADING_TITLE','Gestión de Enlazamiento de Productos a Categorías Múltiples...');
@@ -25,14 +25,14 @@ define('TEXT_PRODUCTS_PRICE', 'Precios: ');
 define('BUTTON_UPDATE_CATEGORY_LINKS', 'Actualizar Enlaces');
 define('BUTTON_NEW_PRODUCTS_TO_CATEGORIES', 'Seleccionar producto a enlazar');
 define('TEXT_SET_PRODUCTS_TO_CATEGORIES_LINKS', 'Configurar producto a categorías de enlaces para: ');
-define('TEXT_INFO_LINKED_TO_COUNT', '&nbsp;&nbsp;Número actual de categorías enlazadas: ');
+define('TEXT_INFO_LINKED_TO_COUNT', '&nbsp;&nbsp;Cantidad actual de categorías enlazadas: ');
 
 define('TEXT_INFO_PRODUCTS_TO_CATEGORIES_LINKER_INTRO',
 'El enlazador de productos a categorías está diseñado para poder enlazar de manera rápida el producto actual con una o más categorías.<br />También puedes enlazar todos los productos de una categoría con otra categoría o eliminar un producto enlazado de una categoría que está en otra categoría (instrucciones, más abajo)');
 
 define('TEXT_INFO_PRODUCTS_TO_CATEGORIES_LINKER',
-'Para el funcionamiento correcto de los precios, cada producto precisa <strong>una</strong> Categoría Maestra, sin importar con cuántas categorías esté enlazado. La Categoría Maestra es en la que se crea el producto originalmente, pero puede ser modicado a cualquiera de las categorías ya enlazadas a través de la lista desplegable \"Categoría Maestra del producto\", en el encabezamiento de la tabla de categorías<br />
-El producto está enlazado actualmente a la categoría/las categorías seleccionadas en la tabla superior. Para añadir una nueva categoría o categorías, simplemente marca el checkbox junto al nombre de la categoría. Para borrar una categoría o categorías enlazadas, simplemente deseleccione la casilla de verificación junto al nombre de la categoría.<br />
+'Para el funcionamiento correcto de los precios, cada producto precisa <strong>una</strong> Categoría Maestra, sin importar con cuántas categorías esté enlazado. La Categoría Maestra es en la que se crea el producto originalmente, pero puede ser modificado a cualquiera de las categorías ya enlazadas a través de la lista desplegable \"Categoría Maestra del producto\", en el encabezamiento de la tabla de categorías.<br />
+El producto está enlazado actualmente a la categoría/las categorías seleccionadas en la tabla superior. Para añadir una nueva categoría o categorías, simplemente marca la casilla junto al nombre de la categoría. Para borrar una categoría o categorías enlazadas, simplemente deseleccione la casilla de verificación junto al nombre de la categoría.<br />
 Cuando haya revisado todas las categorías que quería enlazar con este producto, presione el botón \"' . BUTTON_UPDATE_CATEGORY_LINKS . '\".<br />'
 );
 
@@ -93,3 +93,5 @@ define('BUTTON_RESET_CATEGORY_MASTER', 'Reasignar el ID de categoría maestra');
 
 define('WARNING_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', 'ATENCIÓN: Categoría seleccionada no válida ...');
 define('SUCCESS_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', 'Reasignación realizada con éxito de todos los productos a un nuevo ID de categoría maestra para la categoría: ');
+
+define('TEXT_CATEGORIES_NAME', 'Nombres Categorías');

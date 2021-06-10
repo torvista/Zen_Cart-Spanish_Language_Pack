@@ -1,23 +1,25 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**con cambios para mostrar la fecha de nacimiento en el formato dd/mm/aaaa.
  * @package admin
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Wed Mar 23 14:21:26 2016 -0500 Modified in v1.5.5 $
+ * @version $Id: Scott C Wilson 2019 Jan 21 Modified in v1.5.6b $
  */
 if (!defined('IS_ADMIN_FLAG'))
 {
   die('Illegal Access');
 }
 
+define('CONNECTION_TYPE_UNKNOWN', '\'%s\' no es un tipo de conexión válido para generar URLs' . PHP_EOL . '%s' . PHP_EOL);
+
 // added defines for header alt and text
-define('HEADER_ALT_TEXT', 'Admin Zen Cart :: El Arte de E-Comercio');
-define('HEADER_LOGO_WIDTH', '200');//px removed for validation
-define('HEADER_LOGO_HEIGHT', '70');//px removed for validation
+define('HEADER_ALT_TEXT', 'Inicio Admin');
+define('HEADER_LOGO_WIDTH', '192');//steve was 200px: incorrect and px removed for validation
+define('HEADER_LOGO_HEIGHT', '68');//steve was 70px: incorrect and px removed for validation
 define('HEADER_LOGO_IMAGE', 'logo.gif');
 
-// look in your $PATH_LOCALE/locale directory for available locales..
+// look in your $PATH_LOCALE/locale directory for available locales...or use the script in /extras provided by this language pack
 $locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');
 @setlocale(LC_TIME, $locales);
 define('DATE_FORMAT_SHORT', '%d/%m/%Y'); // this is used for strftime()
@@ -25,7 +27,9 @@ define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
 define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // this is used for date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
-define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy'); //Use only 'dd', 'MM' and 'yyyy' here in any order 
+// for now both defines are needed until Spiffy is completely removed.
+define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy'); //Use only 'dd', 'MM' and 'yyyy' here in any order
+define('DATE_FORMAT_DATE_PICKER', 'yy-mm-dd');  //Use only 'dd', 'mm' and 'yy' here in any order
 define('ADMIN_NAV_DATE_TIME_FORMAT', '%A %d %b %Y %X'); // this is used for strftime()
 ////
 // Return date in raw format
@@ -39,17 +43,18 @@ return substr($date, 6, 4) . substr($date, 3, 2) . substr($date, 0, 2);
   }
 }
 
-// removed for meta tags
-// page title
-//define('TITLE', 'Zen Cart');
+// // include template specific meta tags defines
+//   if (file_exists(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/meta_tags.php')) {
+//     $template_dir_select = $template_dir . '/';
+//   } else {
+//     $template_dir_select = '';
+//   }
+//   require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
 
-// include template specific meta tags defines
-  if (file_exists(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/meta_tags.php')) {
-    $template_dir_select = $template_dir . '/';
-  } else {
-    $template_dir_select = '';
-  }
-  require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
+// used for prefix to browser tabs in admin pages
+define('TEXT_ADMIN_TAB_PREFIX', 'Admin ');
+// if you have multiple stores and want the Store Name to be part of the admin title (ie: for browser tabs), swap this line with the one above
+//define('TEXT_ADMIN_TAB_PREFIX', 'Admin ' . STORE_NAME);
 
 // meta tags
 define('ICON_METATAGS_ON', 'Meta Tags Definidas');
@@ -72,9 +77,10 @@ define('HEADER_TITLE_ACCOUNT', 'Cuenta');
 define('HEADER_TITLE_LOGOFF', 'Salir');
 //define('HEADER_TITLE_ADMINISTRATION', 'Administración');
 
-// Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
-  define('TEXT_GV_NAME', 'Tarjeta Regalo');
-  define('TEXT_GV_NAMES', 'Tarjetas Regalo');
+// TEXT_GV_NAME, TEXT_GV_NAMES moved to gv_name.php
+if (!defined('TEXT_GV_NAME')) {
+  require DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . 'gv_name.php'; 
+}
   define('TEXT_DISCOUNT_COUPON', 'Cupón de Descuento');
 
 // used for redeem code, redemption code, or redemption id
@@ -97,7 +103,7 @@ define('BOX_CONFIGURATION_MINIMUM_VALUES', 'Valores Mínimos');
 define('BOX_CONFIGURATION_MAXIMUM_VALUES', 'Valores Máximos');
 define('BOX_CONFIGURATION_IMAGES', 'Imágenes');
 define('BOX_CONFIGURATION_CUSTOMER_DETAILS', 'Datos del Cliente');
-define('BOX_CONFIGURATION_SHIPPING_PACKAGING', 'Envios/Embalaje');
+define('BOX_CONFIGURATION_SHIPPING_PACKAGING', 'Envíos/Embalaje');
 define('BOX_CONFIGURATION_PRODUCT_LISTING', 'Listado de Productos');
 define('BOX_CONFIGURATION_STOCK', 'Stock');
 define('BOX_CONFIGURATION_LOGGING', 'Historiales');
@@ -108,8 +114,8 @@ define('BOX_CONFIGURATION_SESSIONS', 'Sesiones');
 define('BOX_CONFIGURATION_REGULATIONS', 'Notificaciones Legales');
 define('BOX_CONFIGURATION_GV_COUPONS', 'Tarjetas Regalo');
 define('BOX_CONFIGURATION_CREDIT_CARDS', 'Tarjetas de Crédito');
-define('BOX_CONFIGURATION_PRODUCT_INFO', 'Info del Producto');
-define('BOX_CONFIGURATION_LAYOUT_SETTINGS', 'Opciones de Estructura');
+define('BOX_CONFIGURATION_PRODUCT_INFO', 'Info. del Producto');
+define('BOX_CONFIGURATION_LAYOUT_SETTINGS', 'Opciones de Disposición');
 define('BOX_CONFIGURATION_WEBSITE_MAINTENANCE', 'Mantenimiento de la Tienda');
 define('BOX_CONFIGURATION_NEW_LISTING', 'Listado: Nuevos');
 define('BOX_CONFIGURATION_FEATURED_LISTING', 'Listado: Destacados');
@@ -133,12 +139,13 @@ define('BOX_CATALOG_CATEGORIES_OPTIONS_NAME_MANAGER', 'Nombres de Opciones');
 define('BOX_CATALOG_CATEGORIES_OPTIONS_VALUES_MANAGER', 'Valores de Opciones');
 define('BOX_CATALOG_MANUFACTURERS', 'Fabricantes');
 define('BOX_CATALOG_REVIEWS', 'Comentarios');
-define('BOX_CATALOG_SPECIALS', 'Ofertas Especiales');
+define('BOX_CATALOG_SPECIALS', 'Ofertas');
 define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Productos Esperados');
 define('BOX_CATALOG_SALEMAKER', 'Rebajas');
 define('BOX_CATALOG_PRODUCTS_PRICE_MANAGER', 'Gestor de Precios de Productos');
 define('BOX_CATALOG_PRODUCT', 'Producto');
 define('BOX_CATALOG_PRODUCTS_TO_CATEGORIES', 'Productos a Categorías');
+define('BOX_CATALOG_CATEGORY', 'Categoría');
 
 // customers box text
 define('BOX_HEADING_CUSTOMERS', 'Clientes');
@@ -146,14 +153,14 @@ define('BOX_CUSTOMERS_CUSTOMERS', 'Clientes');
 define('BOX_CUSTOMERS_ORDERS', 'Pedidos');
 define('BOX_CUSTOMERS_GROUP_PRICING', 'Precios por Grupo');
 define('BOX_CUSTOMERS_PAYPAL', 'PayPal IPN');
-define('BOX_CUSTOMERS_INVOICE', 'Pedido');
+define('BOX_CUSTOMERS_INVOICE', 'Factura');
 define('BOX_CUSTOMERS_PACKING_SLIP', 'Albarán');
 
 // taxes box text
 define('BOX_HEADING_LOCATION_AND_TAXES', 'Ubicaciones / Impuestos');
 define('BOX_TAXES_COUNTRIES', 'Países');
 define('BOX_TAXES_ZONES', 'Zonas');
-define('BOX_TAXES_GEO_ZONES', 'Descripción de Zonas');
+define('BOX_TAXES_GEO_ZONES', 'Definiciones de Zonas');
 define('BOX_TAXES_TAX_CLASSES', 'Clases de Impuestos');
 define('BOX_TAXES_TAX_RATES', 'Tasas de Impuestos');
 
@@ -162,7 +169,7 @@ define('BOX_HEADING_REPORTS', 'Informes');
 define('BOX_REPORTS_PRODUCTS_VIEWED', 'Productos Vistos');
 define('BOX_REPORTS_PRODUCTS_PURCHASED', 'Productos Comprados');
 define('BOX_REPORTS_ORDERS_TOTAL', 'Total de Pedidos por Cliente');
-define('BOX_REPORTS_PRODUCTS_LOWSTOCK', 'Productos con stock bajo');
+define('BOX_REPORTS_PRODUCTS_LOWSTOCK', 'Productos Stock');
 define('BOX_REPORTS_CUSTOMERS_REFERRALS', 'Origen de clientes');
 
 // tools text
@@ -174,7 +181,7 @@ define('BOX_TOOLS_CACHE', 'Control del Caché');
 define('BOX_TOOLS_DEFINE_LANGUAGE', 'Definir Idiomas');
 define('BOX_TOOLS_FILE_MANAGER', 'Gestionar Ficheros');
 define('BOX_TOOLS_MAIL', 'Enviar Correo');
-define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Admin. Boletines');
+define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Gestión Boletines');
 define('BOX_TOOLS_SERVER_INFO', 'Info. del Servidor');
 define('BOX_TOOLS_WHOS_ONLINE', 'Quién Está Conectado');
 define('BOX_TOOLS_STORE_MANAGER', 'Gestionar Tienda');
@@ -200,19 +207,19 @@ define('BOX_TOOLS_DEFINE_PAGE_4','Página 4');
 define('BOX_HEADING_LOCALIZATION', 'Localización');
 define('BOX_LOCALIZATION_CURRENCIES', 'Monedas');
 define('BOX_LOCALIZATION_LANGUAGES', 'Idiomas');
-define('BOX_LOCALIZATION_ORDERS_STATUS', 'Estado del Pedido');
+define('BOX_LOCALIZATION_ORDERS_STATUS', 'Estados del Pedido');
 
 // gift vouchers box text
 define('BOX_HEADING_GV_ADMIN', 'Descuentos');
 define('BOX_GV_ADMIN_QUEUE', 'Listado de ' . TEXT_GV_NAMES);
-define('BOX_GV_ADMIN_MAIL', 'Enviar por correo ' . TEXT_GV_NAME);
+define('BOX_GV_ADMIN_MAIL', 'Enviar ' . TEXT_GV_NAME);
 define('BOX_GV_ADMIN_SENT', TEXT_GV_NAMES . ' enviadas');
 define('BOX_COUPON_ADMIN', 'Gestionar Cupones');
 define('BOX_COUPON_RESTRICT','Restricciones de Cupones');
 
 // admin access box text
 define('BOX_HEADING_ADMIN_ACCESS', 'Admins');
-define('BOX_ADMIN_ACCESS_USERS',  'Admin Usuarios');
+define('BOX_ADMIN_ACCESS_USERS',  'Gestión Usuarios');
 define('BOX_ADMIN_ACCESS_PROFILES', 'Admin Perfiles');
 define('BOX_ADMIN_ACCESS_PAGE_REGISTRATION', 'Registración de Páginas Admin');
 define('BOX_ADMIN_ACCESS_LOGS', 'Historiales de Actividad Admin');
@@ -220,7 +227,7 @@ define('BOX_ADMIN_ACCESS_LOGS', 'Historiales de Actividad Admin');
 define('IMAGE_RELEASE', 'Canjear ' . TEXT_GV_NAME);
 
 // javascript messages
-define('JS_ERROR', '¡Hubo errores al procesar su formulario!\nPor favor, haga las siguientes correcciones:\n\n');
+define('JS_ERROR', '¡Hubo errores al procesar su formulario!\nHaga las siguientes correcciones:\n\n');
 
 define('JS_OPTIONS_VALUE_PRICE', '* El nuevo atributo de producto necesita un valor de precio\n');
 define('JS_OPTIONS_VALUE_PRICE_PREFIX', '* El nuevo atributo de producto necesita un prefijo de precio\n');
@@ -235,19 +242,21 @@ define('JS_PRODUCTS_IMAGE', '* El nuevo producto necesita una imagen\n');
 
 define('JS_SPECIALS_PRODUCTS_PRICE', '* Se necesita establecer un nuevo precio para este producto\n');
 
-define('JS_GENDER', '* Se debe elegir el \'Sexo\'.\n');
-define('JS_FIRST_NAME', '* El \'Nombre\' debe tener al menos ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' caracteres.\n');
-define('JS_LAST_NAME', '* El \'Apellido\' debe tener al menos ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caracteres.\n');
-define('JS_DOB', '* La \'Fecha de Nacimiento\' debe estar en el formato: xx/xx/xxxx (día/mes/año).\n');
-define('JS_EMAIL_ADDRESS', '* El \'E-Mail\' debe tener al menos ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' caracteres.\n');
-define('JS_ADDRESS', '* La \'Dirección\' debe tener al menos ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' caracteres.\n');
-define('JS_POST_CODE', '* El \'Código Postal\' debe tener al menos ' . ENTRY_POSTCODE_MIN_LENGTH . ' caracteres.\n');
-define('JS_CITY', '* La \'localidad\' debe tener al menos ' . ENTRY_CITY_MIN_LENGTH . ' caracteres.\n');
-define('JS_STATE', '* Se debe elegir la \'Provincia\'.\n');
+define('JS_GENDER', '* Se debe elegir el Sexo.\n');
+define('JS_FIRST_NAME', '* El Nombre debe tener al menos ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' caracteres.\n');
+define('JS_LAST_NAME', '* El Apellido debe tener al menos ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caracteres.\n');
+define('JS_DOB', '* La Fecha de Nacimiento debe estar en el formato: xx/xx/xxxx (día/mes/año).\n');
+define('JS_EMAIL_ADDRESS', '* El E-Mail debe tener al menos ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' caracteres.\n');
+define('JS_ADDRESS', '* La Dirección debe tener al menos ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' caracteres.\n');
+define('JS_POST_CODE', '* El Código Postal debe tener al menos ' . ENTRY_POSTCODE_MIN_LENGTH . ' caracteres.\n');
+define('JS_CITY', '* La localidad debe tener al menos ' . ENTRY_CITY_MIN_LENGTH . ' caracteres.\n');
+define('JS_STATE', '* Se debe elegir la Provincia.\n');
 define('JS_STATE_SELECT', '-- Elija Arriba --');
-define('JS_ZONE', '* La \'Provincia\' debe seleccionarse de la lista para este país.');
-define('JS_COUNTRY', '* Se debe elegir el \'País\'.\n');
-define('JS_TELEPHONE', '* El \'Teléfono\' debe tener al menos ' . ENTRY_TELEPHONE_MIN_LENGTH . ' caracteres.\n');
+define('JS_ZONE', '* La Provincia debe seleccionarse de la lista para este país.');
+define('JS_COUNTRY', '* Se debe elegir el País.\n');
+define('JS_TELEPHONE', '* El Teléfono debe tener al menos ' . ENTRY_TELEPHONE_MIN_LENGTH . ' caracteres.\n');
+
+define('JS_ERROR_SUBMITTED', 'Este formulario ya ha sido enviado. Pulse OK y espere hasta que el proceso ha terminado.');
 
 define('JS_ORDER_DOES_NOT_EXIST', '¡El número de pedido %s no existe!');
 define('TEXT_NO_ORDER_HISTORY', 'No hay un Historial del Pedido disponible');
@@ -297,7 +306,7 @@ define('ENTRY_NEWSLETTER_ERROR', '');
 define('ERROR_PASSWORDS_NOT_MATCHING', 'La contraseña y la confirmación deben coincidir');
 define('ENTRY_PASSWORD_CHANGE_ERROR', '<strong>Lo siento, su contraseña nueva ha sido rechazada.</strong><br />');
 define('ERROR_PASSWORD_RULES', 'Una contraseña debe estar compuesta de letras y números; tener por lo menos %s caracteres y no puede ser igual a cualquiera de las últimas 4 contraseñas utilizadas. Las contraseñas caducan cada 90 días y la tienda le pedirá que cree una contraseña nueva.');
-define('ERROR_TOKEN_EXPIRED_PLEASE_RESUBMIT', 'ERROR: Lo siento, hubo en error al procesar sus datos. Por favor, introduzca la información otra vez.');
+define('ERROR_TOKEN_EXPIRED_PLEASE_RESUBMIT', 'ERROR: Lo siento, hubo en error al procesar sus datos. Introduzca la información otra vez.');
 
 // images
 //define('IMAGE_ANI_SEND_EMAIL', 'Enviando el E-Mail');
@@ -317,7 +326,7 @@ define('IMAGE_ICON_STATUS_GREEN', 'Activo');
 define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Establecer Activo');
 define('IMAGE_ICON_STATUS_RED', 'Inactivo');
 define('IMAGE_ICON_STATUS_RED_LIGHT', 'Establecer Inactivo');
-define('IMAGE_ICON_STATUS_RED_EZPAGES', 'Error -- demasiadas URL/content types introducidas');
+define('IMAGE_ICON_STATUS_RED_EZPAGES', 'Error -- demasiadas URLs/content types introducidas');
 define('IMAGE_ICON_STATUS_RED_ERROR', 'Error');
 define('IMAGE_ICON_INFO', 'Info');
 define('IMAGE_INSERT', 'Insertar');
@@ -342,7 +351,7 @@ define('IMAGE_NEW_ZONE', 'Nueva Zona');
 define('IMAGE_OPTION_NAMES', 'Gestor de Nombres de Opciones');
 define('IMAGE_OPTION_VALUES', 'Gestor de Valores de Opciones');
 define('IMAGE_ORDERS', 'Pedidos');
-define('IMAGE_ORDERS_INVOICE', 'Pedido');
+define('IMAGE_ORDERS_INVOICE', 'Factura');
 define('IMAGE_ORDERS_PACKINGSLIP', 'Albarán');
 define('IMAGE_PERMISSIONS', 'Cambiar Permisos');
 define('IMAGE_PREVIEW', 'Vista Previa');
@@ -361,8 +370,8 @@ define('IMAGE_UPDATE_CURRENCIES', 'Actualizar Tasa de Cambio');
 define('IMAGE_UPLOAD', 'Subir');
 define('IMAGE_TAX_RATES', 'Tasa de Impuestos');
 define('IMAGE_DEFINE_ZONES', 'Definir Zonas');
-define('IMAGE_PRODUCTS_PRICE_MANAGER', 'Administrador de precios de producto');
-define('IMAGE_UPDATE_PRICE_CHANGES', 'Actualizar cambios de precio');
+define('IMAGE_PRODUCTS_PRICE_MANAGER', 'Gestor de Precios de Productos');
+define('IMAGE_UPDATE_PRICE_CHANGES', 'Actualizar cambios de precios');
 define('IMAGE_ADD_BLANK_DISCOUNTS', 'Añadir ' . DISCOUNT_QTY_ADD . ' cantidades de descuento en blanco');
 define('IMAGE_CHECK_VERSION', 'Comprobar actualizaciones Zen Cart');
 define('IMAGE_PRODUCTS_TO_CATEGORIES', 'Gestor de Enlaces Múltiples de Categorías');
@@ -371,10 +380,10 @@ define('IMAGE_ICON_STATUS_ON', 'Estado - Activado');
 define('IMAGE_ICON_STATUS_OFF', 'Estado - Desactivado');
 define('IMAGE_ICON_LINKED', 'El producto está enlazado');
 
-define('IMAGE_REMOVE_SPECIAL', 'Quitar Info de Precio Especial');
-define('IMAGE_REMOVE_FEATURED', 'Quitar Info de Producto Destacado');
-define('IMAGE_INSTALL_SPECIAL', 'Añadir Info de Precio Especial');
-define('IMAGE_INSTALL_FEATURED', 'Añadir Info de Producto Destacado');
+define('IMAGE_REMOVE_SPECIAL', 'Quitar Precio Oferta');
+define('IMAGE_REMOVE_FEATURED', 'Quitar como Producto Destacado');
+define('IMAGE_INSTALL_SPECIAL', 'Añadir Precio Oferta');
+define('IMAGE_INSTALL_FEATURED', 'Añadir como Producto Destacado');
 
 define('TEXT_VERSION_CHECK_BUTTON', 'Comprobar Actualizaciones');
 define('TEXT_BUTTON_RESET_ACTIVITY_LOG', 'Ver el Historial de Actividad');
@@ -428,15 +437,23 @@ define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Mostrando del <b>%d</b> al <b>%d</b>
 define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Mostrando del <b>%d</b> al <b>%d</b> (de <b>%d</b> tasas de impuesto)');
 define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Mostrando del <b>%d</b> al <b>%d</b> (de <b>%d</b> zonas)');
 
-define('PREVNEXT_BUTTON_PREV', '&lt;&lt;');
-define('PREVNEXT_BUTTON_NEXT', '&gt;&gt;');
-
+define('PREVNEXT_TITLE_FIRST_PAGE', 'Primer Página');
+define('PREVNEXT_TITLE_PREVIOUS_PAGE', ' Página Anterior');
+define('PREVNEXT_TITLE_NEXT_PAGE', ' Página Siguiente');
+define('PREVNEXT_TITLE_LAST_PAGE', 'Última Página');
+define('PREVNEXT_TITLE_PAGE_NO', ' Página %d');
+define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Anterior grupo de %d Páginas');
+define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Siguiente grupo de %d Páginas');
+define('PREVNEXT_BUTTON_FIRST', '&laquo;PRIMERO');
+define('PREVNEXT_BUTTON_PREV', '[&laquo;&nbsp;Previo]');
+define('PREVNEXT_BUTTON_NEXT', '[Próximo&nbsp;&raquo;]');
+define('PREVNEXT_BUTTON_LAST', 'ÚLT&raquo;');
 
 define('TEXT_DEFAULT', 'por defecto');
 define('TEXT_SET_DEFAULT', 'Establecer por defecto');
 define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">* Obligatorio</span>');
 
-define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Error: Actualmente no hay una moneda establecida por defecto. Por favor, establezca una en: Administración->Localización->Monedas');
+define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Error: Actualmente no hay una moneda establecida por defecto. Establezca una en: Administración->Localización->Monedas');
 
 define('TEXT_NONE', '--ninguno--');
 define('TEXT_TOP', 'Arriba');
@@ -450,22 +467,23 @@ define('ERROR_FILE_TOO_BIG', 'Advertencia: El tamaño del archivo es mayor que e
 define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Listo: El fichero subido se guardó correctamente %s');
 define('WARNING_NO_FILE_UPLOADED', 'Advertencia: No se subió el fichero.');
 define('WARNING_FILE_UPLOADS_DISABLED', 'Advertencia: Subir ficheros está deshabilitado en el fichero de configuración php.ini.');
-define('ERROR_ADMIN_SECURITY_WARNING', 'Atención: Su nombre de usuario de administración no es seguro ... o tiene todavía el login por defecto, "Admin admin", o no ha borrado o cambiado: demo demoonly<br />Esta información de login ha de ser cambiada lo antes posible por la seguridad de su tienda.');
+define('ERROR_ADMIN_SECURITY_WARNING', 'Atención: Su nombre de usuario de administración no es seguro ... o tiene todavía el Login por defecto, "Admin admin", o no ha borrado o cambiado: demo demoonly<br />Esta información de Login ha de ser cambiada lo antes posible por la seguridad de su tienda.');
 define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'Su base de datos parece necesitar ser actualizada a una versión superior. Mire Herramientas->Información del Servidor para revisar la versión.');
 define('WARN_DATABASE_VERSION_PROBLEM','true'); //set to false to turn off warnings about database version mismatches
 define('WARNING_ADMIN_DOWN_FOR_MAINTENANCE', '<strong> AVISO:</strong> Actualmente la página web está en Modo Mantenimiento ...<br />NOTA: No puede probar la mayoría de los módulos de Pago o Envío en Modo Mantenimiento');
 define('WARNING_BACKUP_CFG_FILES_TO_DELETE', 'AVISO: Debe borrar estos archivos para evitar vulnerabilidades de seguridad: ');
 define('WARNING_INSTALL_DIRECTORY_EXISTS', 'AVISO DE SEGURIDAD: La carpeta de los  archivos de instalación todavía existe en: %s. Borre o mueve este carpeta por razones de seguridad.');
-define('WARNING_CONFIG_FILE_WRITEABLE', 'Aviso: Se puede sobre-escribir el archivo de configuración: %s (es "writeable"). Es un riesgo de seguridad – fija el permiso de acceso correcto en este archivo (a solo-leer, CHMOD 644 o 444). Es posible que se tendrá que utilizar el panel de control del alojamiento del servidor o el gestor de archivos para cambiar el permiso. Contecte con la Atención al Cliente del servicio de alojamiento para más asistencia y <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">mire este FAQ </a>');
+define('WARNING_CONFIG_FILE_WRITEABLE', 'Aviso: Se puede sobre-escribir el archivo de configuración: %s (es "writeable"). Es un riesgo de seguridad – fija el permiso de acceso correcto en este archivo (a solo-leer, CHMOD 644 o 444). Es posible que se tendrá que utilizar el panel de control del alojamiento del servidor o el gestor de archivos para cambiar el permiso. Contácte con la Atención al Cliente del servicio de alojamiento para más asistencia y <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">mire este FAQ </a>');
 define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'AVISO:  No podía localizar un archivo de idioma: ');
 define('ERROR_MODULE_REMOVAL_PROHIBITED', 'ERROR: Está prohibido desactivar este módulo: ');
-define('WARNING_REVIEW_ROGUE_ACTIVITY', 'AVISO: Por favor, compruebe para actividades posibles XSS:');
+define('WARNING_REVIEW_ROGUE_ACTIVITY', 'AVISO: Compruebe para actividades posibles XSS:');
 
 define('ERROR_FILE_NOT_REMOVEABLE', 'Error: No pudo borrar el archivo elegido. Es posible que se tiene que usar FTP para borrarlo debido a los permisos/atributos del archivo.');
 define('WARNING_SESSION_AUTO_START', 'Aviso: session.auto_start está habilitado - deshabilite está opción en php.ini. (es posible que se tiene que reinicie el servidor para aplicar el cambio).');
 define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Aviso: La carpeta para productos descargables (' . DIR_FS_DOWNLOAD . ') no existe. No funcionarán los productos descargables hasta que esta carpeta existe.');
 define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Aviso: La carpeta para el cache SQL (' . DIR_FS_SQL_CACHE . ') no existe. No funcionarán el cache SQL hasta que esta carpeta existe.');
-define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Aviso: no se puede escribir en la carpeta ' . DIR_FS_SQL_CACHE . ' del cache SQL. No funcionarán el cache SQL hasta que los permisos del usuario están corregidas.');
+define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Aviso: no se puede escribir en la carpeta ' . DIR_FS_SQL_CACHE . ' del cache SQL. No funcionarán el cache SQL hasta que los permisos del usuario están corregidos.');
+define('ERROR_UNABLE_TO_DISPLAY_SERVER_INFORMATION', 'No se puede mostrar la configuración PHP porque [phpinfo] ha sido incluido en [disable_functions] en php.ini de parte del administrador del alojamiento.');
 
 define('_JANUARY', 'Enero');
 define('_FEBRUARY', 'Febrero');
@@ -492,10 +510,10 @@ define('TEXT_VALID_CATEGORIES_LIST', 'Lista de Categorías');
 define('TEXT_VALID_CATEGORIES_ID', 'ID de Categorías');
 define('TEXT_VALID_CATEGORIES_NAME', 'Nombre Categorías');
 
-define('DEFINE_LANGUAGE', 'Elegir Idioma:');
+define('DEFINE_LANGUAGE', 'Idioma:');
 
-define('BOX_ENTRY_COUNTER_DATE', 'Contador de Hits Iniciado:');
-define('BOX_ENTRY_COUNTER', 'Contador de Hits:');
+define('BOX_ENTRY_COUNTER_DATE', 'Contador de Visitas iniciado:');
+define('BOX_ENTRY_COUNTER', 'Visitas:');
 
 // not installed
 define('NOT_INSTALLED_TEXT', 'No Instalado');
@@ -516,10 +534,9 @@ define('NOT_INSTALLED_TEXT', 'No Instalado');
   define('TEXT_MODEL', 'Modelo:');
 
 // column controller
-  define('BOX_TOOLS_LAYOUT_CONTROLLER', 'Disposición de los Cuadros');
+  define('BOX_TOOLS_LAYOUT_CONTROLLER', 'Disposición de los Recuadros');
 
 // check GV release queue and alert store owner
-  define('SHOW_GV_QUEUE',true);
   define('TEXT_SHOW_GV_QUEUE', '%s esperando aprobación ');
   define('IMAGE_GIFT_QUEUE', 'Lista de ' . TEXT_GV_NAME);
   define('IMAGE_ORDER', 'Pedido');
@@ -584,8 +601,8 @@ define('TEXT_STATUS_WARNING','<strong>NOTA:</strong> el estado se auto activa/de
 define('TEXT_LEGEND_LINKED', 'Producto enlazado');
 define('TEXT_MASTER_CATEGORIES_ID', 'Categoría Maestra del producto:');
 define('TEXT_LEGEND', 'LEYENDA: ');
-define('TEXT_LEGEND_STATUS_OFF', 'Estado OFF ');
-define('TEXT_LEGEND_STATUS_ON', 'Estado ON ');
+define('TEXT_LEGEND_STATUS_OFF', 'Deshabilitado ');
+define('TEXT_LEGEND_STATUS_ON', 'Habilitado ');
 
 define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>NOTA: La Categoría Maestra se usa para calcular el precio donde la categoría del producto afecta al precio en los productos enlazados, por ejemplo: Rebajas</strong>');
 define('TEXT_YES', 'Sí');
@@ -610,7 +627,7 @@ define('TEXT_PER_LETTER','<br />Precio por carta: ');
 define('TEXT_LETTERS_FREE',' Carta(s) gratis ');
 define('TEXT_ONETIME_CHARGES','*cobros únicos = ');
 define('TEXT_ONETIME_CHARGES_EMAIL',"\t" . '*cobros únicos = ');
-define('TEXT_ATTRIBUTES_QTY_PRICES_HELP', 'Opcion descuentos por cantidad');
+define('TEXT_ATTRIBUTES_QTY_PRICES_HELP', 'Opción Descuentos por Cantidad');
 define('TABLE_ATTRIBUTES_QTY_PRICE_QTY','Cantidad');
 define('TABLE_ATTRIBUTES_QTY_PRICE_PRICE','PRECIO');
 define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'Cobros únicos para Opción descuentos por cantidad');
@@ -634,7 +651,7 @@ define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', 'Max:');
   define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE', '% de descuento');
   define('PRODUCT_PRICE_DISCOUNT_AMOUNT', '&nbsp;de descuento');
 // Sale Maker Sale Price
-  define('PRODUCT_PRICE_SALE', 'Oferta:&nbsp;');
+  define('PRODUCT_PRICE_SALE', 'Rebaja:&nbsp;');
 
 define('TEXT_PRICED_BY_ATTRIBUTES', 'Precio depende de los Atributos');
 
@@ -654,7 +671,7 @@ define('ENTRY_NOTHING_TO_SEND', 'No ha introducido ningún contenido para su men
 
   define('EDITOR_NONE', 'Solo Texto');
   define('TEXT_EDITOR_INFO', 'Editor de texto');
-  define('ERROR_EDITORS_FOLDER_NOT_FOUND', 'Tiene un editor HTML seleccionado en \'My Store\' pero no se localiza la carpeta \'/editors/\'. Por favor, desactive su elección o mueva los archivos del editor a \''.DIR_WS_CATALOG.'editors/\' folder');
+  define('ERROR_EDITORS_FOLDER_NOT_FOUND', 'Tiene un editor HTML seleccionado en \'My Store\' pero no se localiza la carpeta \'/editors/\'. Desactive su elección o mueva los archivos del editor a \''.DIR_WS_CATALOG.'editors/\' folder');
   define('TEXT_CATEGORIES_PRODUCTS_SORT_ORDER_INFO', 'Ordenar por:');
   define('TEXT_SORT_PRODUCTS_SORT_ORDER_PRODUCTS_NAME', 'Orden, Nombre de producto');
   define('TEXT_SORT_PRODUCTS_NAME', 'Nombre de producto');
@@ -680,6 +697,8 @@ define('ENTRY_NOTHING_TO_SEND', 'No ha introducido ningún contenido para su men
   define('ERROR_DEFINE_OPTION_VALUES', 'Aviso: No se han definido Valores de Opciones');
   define('ERROR_DEFINE_PRODUCTS', 'Aviso: No se ha definido ningunos Productos');
   define('ERROR_DEFINE_PRODUCTS_MASTER_CATEGORIES_ID', 'Aviso: No se ha sido definido ningún ID Categoría Maestra para este Producto');
+  define('ERROR_DEFINE_PRODUCTS_FILTER', 'Aviso: No hay un producto seleccionado');//steve missing from 156c
+  define('WARNING_DUPLICATE_PRODUCTS_TO_CATEGORY_LINKED', 'Aviso: No se puede enlazar un producto a la misma categoría');//steve missing from 156c
 
   define('BUTTON_ADD_PRODUCT_TYPES_SUBCATEGORIES_ON', 'Añadir incluir subcategorías');
   define('BUTTON_ADD_PRODUCT_TYPES_SUBCATEGORIES_OFF', 'Añadir sin subcategorías');
@@ -701,7 +720,7 @@ define('ENTRY_NOTHING_TO_SEND', 'No ha introducido ningún contenido para su men
   define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Error: No se puede mover la categoría a la sub-categoría');
   define('ERROR_CANNOT_MOVE_PRODUCT_TO_CATEGORY_SELF', 'Error: No se puede mover el producto a la misma categoría o otra categoría donde ya existe este producto.');
   define('ERROR_CATEGORY_HAS_PRODUCTS', 'Error: ¡La categoría tiene productos!<br /><br />Aunque es permisible hacerlo en un momento dado mientras está manipulando productos y categorías, ¡las categorías pueden contener otras categorías <strong>o</strong> productos pero nunca las dos cosas a la vez!');
-  define('SUCCESS_CATEGORY_MOVED', '¡Éxito! La categoría ha sido trasladado ...');
+  define('SUCCESS_CATEGORY_MOVED', '¡Éxito! La categoría ha sido trasladada ...');
   define('ERROR_CANNOT_MOVE_CATEGORY_TO_CATEGORY_SELF', 'Error:  ¡No se puede mover una categoría a la misma categoría ID#!');
 
 // EZ-PAGES Alerts
@@ -734,8 +753,8 @@ define('ENTRY_NOTHING_TO_SEND', 'No ha introducido ningún contenido para su men
 
 define('WARNING_ADMIN_FOLDERNAME_VULNERABLE', 'AVISO: <a href="http://tutorials.zen-cart.com/index.php?article=33" target="_blank">Hay que renombrar la carpeta /admin/ a algo único</a>, para evitar acceso por personas ajenas.');
 define('WARNING_EMAIL_SYSTEM_DISABLED', 'AVISO: El envío de los emails está deshabilitado. Puede habilitarlo en Admin->Configuración->Opciones de Email.');
-define('TEXT_CURRENT_VER_IS', 'Actualmente esta utilizando: ');
-define('ERROR_NO_DATA_TO_SAVE', 'ERROR: Datos vacios. SUS CAMBIOS *NO* HAN SIDO GUARDADOS. Posiblemente hay un problema con su navegador o su conexión a internet.');
+define('TEXT_CURRENT_VER_IS', 'Actualmente está utilizando: ');
+define('ERROR_NO_DATA_TO_SAVE', 'ERROR: Datos vacíos. SUS CAMBIOS *NO* HAN SIDO GUARDADOS. Posiblemente hay un problema con su navegador o su conexión a internet.');
 define('TEXT_HIDDEN', 'Oculto del cliente');
 define('TEXT_VISIBLE', 'Visible al cliente');
 define('TEXT_HIDE', 'Ocultar');
@@ -744,11 +763,11 @@ define('TEXT_NOEMAIL', 'No Email');
 
 define('BOX_HEADING_PRODUCT_TYPES', 'Tipos de Productos');
 
-define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Parece que hay un problema con la base de datos. Precisa mantenimiento.</a>');
+define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Parece que hay un problema con la base de datos. Precisa mantenimiento. </a>');
 
 // moved from currencies file:
-define('TEXT_INFO_CURRENCY_UPDATED', 'La tasa de cambio para %s (%s) fue actualizada correctamente via %s.');
-define('ERROR_CURRENCY_INVALID', 'Error: La tasa de cambio para %s (%s) no fue actualizada via %s. ¿Es un código de moneda correcto?');
+define('TEXT_INFO_CURRENCY_UPDATED', 'La tasa de cambio para %s (%s) fue actualizada correctamente a %s a través de %s.');
+define('ERROR_CURRENCY_INVALID', 'Error: La tasa de cambio para %s (%s) no fue actualizada a través de %s. ¿Es un código de moneda correcto?');
 define('WARNING_PRIMARY_SERVER_FAILED', 'Advertencia: El servidor primario de tasas de cambio (%s) falló para %s (%s); comprobando el servidor de tasa de cambio secundario.');
 
 
@@ -756,5 +775,4 @@ define('WARNING_PRIMARY_SERVER_FAILED', 'Advertencia: El servidor primario de ta
 // include additional files:
   require(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . FILENAME_EMAIL_EXTRAS);
   include(zen_get_file_directory(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/', FILENAME_OTHER_IMAGES_NAMES, 'false'));
-
 

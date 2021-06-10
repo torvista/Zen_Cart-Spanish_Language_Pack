@@ -1,6 +1,6 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * PayEezy payment module language defines Spanish NOT DONE. If you need it, do it and send it to me for inclusion, gracias.
+ * PayEezy payment module language defines Spanish TODO. If you need it, do it and send it to me for inclusion, gracias.
  *
  * @package payeezy
  * @copyright Copyright 2003-2016 Zen Cart Development Team

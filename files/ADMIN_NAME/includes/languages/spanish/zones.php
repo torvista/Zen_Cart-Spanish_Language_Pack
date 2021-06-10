@@ -31,7 +31,7 @@ define('TEXT_INFO_EDIT_INTRO', 'Haga los cambios necesarios');
 define('TEXT_INFO_ZONES_NAME', 'Nombre de Zona:');
 define('TEXT_INFO_ZONES_CODE', 'Código de Zona:');
 define('TEXT_INFO_COUNTRY_NAME', 'País:');
-define('TEXT_INFO_INSERT_INTRO', 'Por favor, introduzca la nueva zona con sus datos relacionados');
+define('TEXT_INFO_INSERT_INTRO', 'Introduzca la nueva zona con sus datos relacionados');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar esta zona?');
 define('TEXT_INFO_HEADING_NEW_ZONE', 'Nueva Zona');
 define('TEXT_INFO_HEADING_EDIT_ZONE', 'Editar Zona');

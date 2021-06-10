@@ -1,5 +1,5 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-/**ñ
+/**ñ for encoding
  * ezpages language components - used when displaying components for EZ-Pages content
  *
  * @package languageDefines
@@ -12,7 +12,7 @@
 
 // ez-pages sidebox title name
 define('BOX_HEADING_EZPAGES','Enlaces Importantes');
-define('TEXT_EZ_PAGES_TABLE_CONTEXT', 'Tabla de contenido');
+define('TEXT_EZ_PAGES_TABLE_CONTEXT', 'Tabla de Contenido');
 define('CURRENT_PAGE_INDICATOR', '&nbsp;*&nbsp;');
 define('NOT_CURRENT_PAGE_INDICATOR', '&nbsp;-&nbsp;');
 

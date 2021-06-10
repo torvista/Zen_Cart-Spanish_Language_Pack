@@ -21,7 +21,10 @@
 //
 define('BOX_CATALOG_RECORD_ARTISTS', 'Artistas');
 define('BOX_CATALOG_RECORD_COMPANY', 'Discográficas');
-define('BOX_CATALOG_MUSIC_GENRE', 'Géneros Musicales');
+define('BOX_CATALOG_MUSIC_GENRE', 'Género Musical');
 define('BOX_CATALOG_MEDIA_MANAGER', 'Administrador de Medios');
 define('BOX_CATALOG_MEDIA_TYPES', 'Tipos de Medios');
-?>
+
+define('TEXT_PRODUCTS_RECORD_ARTIST', 'Artistas:');
+define('TEXT_PRODUCTS_RECORD_COMPANY', 'Discográficas:');
+define('TEXT_PRODUCTS_MUSIC_GENRE', 'Género Musical:');

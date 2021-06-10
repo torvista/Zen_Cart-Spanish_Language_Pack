@@ -20,23 +20,23 @@
 //  $Id: media_types.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Tipos de medios');
+define('HEADING_TITLE', 'Tipos de Medios');
 
-define('TABLE_HEADING_MEDIA_TYPE', 'Tipo de medio');
+define('TABLE_HEADING_MEDIA_TYPE', 'Tipo de Medio');
 define('TABLE_HEADING_MEDIA_TYPE_EXT', 'Extensión');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_HEADING_NEW_MEDIA_TYPE', 'Nuevo tipo de medio');
-define('TEXT_HEADING_EDIT_MEDIA_TYPE', 'Editar tipo de medio');
-define('TEXT_HEADING_DELETE_MEDIA_TYPES', 'Borrar tipo de medio');
+define('TEXT_HEADING_NEW_MEDIA_TYPE', 'Nuevo Tipo de Medio');
+define('TEXT_HEADING_EDIT_MEDIA_TYPE', 'Editar Tipo de Medio');
+define('TEXT_HEADING_DELETE_MEDIA_TYPES', 'Borrar Tipo de Medio');
 
-define('TEXT_MEDIA_TYPE_NAME', 'Nombre de tipo de medio');
-define('TEXT_MEDIA_TYPE_EXT', 'Extensión de tipo de medio');
+define('TEXT_MEDIA_TYPE_NAME', 'Nombre de Tipo de Medio');
+define('TEXT_MEDIA_TYPE_EXT', 'Extensión del Tipo de Medio');
 define('TEXT_EXTENSION', 'Extensión: ');
 
-define('TEXT_NEW_INTRO', 'Por favor, rellene la siguiente información para el nuevo tipo de medio');
-define('TEXT_EDIT_INTRO', 'Por favor, realice cualquier cambio necesario');
+define('TEXT_NEW_INTRO', 'Rellene la siguiente información para el nuevo tipo de medio');
+define('TEXT_EDIT_INTRO', 'Realice cualquier cambio necesario');
 
 define('TEXT_DELETE_INTRO', '¿Está seguro de que desea borrar este tipo de medio?');
-define('TEXT_DISPLAY_NUMBER_OF_MEDIA_TYPES', 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> tipos de medio)');
+define('TEXT_DISPLAY_NUMBER_OF_MEDIA_TYPES', 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Tipos de Medio)');
 ?>

@@ -17,7 +17,7 @@
 
   define('TEXT_SEARCH_IN_DESCRIPTION', 'Buscar en la Descripción del Producto');
   define('ENTRY_CATEGORIES', 'Solamente Categoría:');
-  define('ENTRY_INCLUDE_SUBCATEGORIES', 'Incluir sub-categorías');
+  define('ENTRY_INCLUDE_SUBCATEGORIES', 'Incluir subcategorías');
   define('ENTRY_MANUFACTURERS', 'Solamente Fabricante:');
 define('ENTRY_PRICE_RANGE', 'Buscar por Rango de Precios:');
   define('ENTRY_PRICE_FROM', 'Precio Desde:');

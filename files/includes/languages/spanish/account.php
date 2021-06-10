@@ -8,7 +8,7 @@
  */
 
 define('NAVBAR_TITLE', 'Mi Cuenta');
-define('HEADING_TITLE', 'Información de mi Cuenta');
+define('HEADING_TITLE', 'Información de Mi Cuenta');
 
 define('OVERVIEW_TITLE', 'Resumen');
 define('OVERVIEW_SHOW_ALL_ORDERS', '(mostrar todos los pedidos)');

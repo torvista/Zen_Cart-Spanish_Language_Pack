@@ -20,8 +20,8 @@
 // added defines for header alt and text
   define('HEADER_ALT_TEXT', 'Zen Cart E-comercio');
   define('HEADER_SALES_TEXT', 'Mensaje de Ventas');
-  define('HEADER_LOGO_WIDTH', '192px');//only used in tpl_header_test_info.php 
-  define('HEADER_LOGO_HEIGHT', '64px');//only used in tpl_header_test_info.php
+  define('HEADER_LOGO_WIDTH', '192');//steve, removed px for validation, maybe only used in tpl_header_test_info.php 
+  define('HEADER_LOGO_HEIGHT', '64');//steve, removed px for validation, maybe only used in tpl_header_test_info.php
   define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // header Search Button/Box Search Button

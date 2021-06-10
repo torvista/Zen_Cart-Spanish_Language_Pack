@@ -21,7 +21,7 @@
 //
   define('HEADING_TITLE', 'Orden por defecto de los Valores de las Opciones');
   define('TEXT_UPDATE_OPTION_VALUES', 'Actualizar orden de los Valores de las Opciones');
-define('TEXT_SELECT_OPTION', 'Seleccionar un Nombre de Opción:');
+  define('TEXT_SELECT_OPTION', 'Seleccionar un Nombre de Opción:');
   define('TEXT_EDIT_OPTION_NAME', 'Editando un Nombre de Opción: ');
   define('TEXT_NO_OPTION_VALUE', 'No hay Valores de Opciones definidos para <br />Nombre de Opción: ');
   define('TEXT_UPDATE_SUBMIT', 'Actualizar Orden');
@@ -29,8 +29,8 @@ define('TEXT_SELECT_OPTION', 'Seleccionar un Nombre de Opción:');
 // moved from english.php
   define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_PRODUCTS', '<strong>Para un producto:</strong> ');
   define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_CATEGORIES', '<strong>Para una categoría:</strong> ');
-  define('SUCCESS_PRODUCT_UPDATE_SORT', 'El orden de los atributos ha sido actualizado correctamente para ID# ');
+  define('SUCCESS_PRODUCT_UPDATE_SORT', 'El orden de los atributos ha sido actualizado correctamente para Producto ID# ');
   define('SUCCESS_PRODUCT_UPDATE_SORT_ALL', 'El orden de los atributos ha sido actualizado correctamente para TODOS los productos ');
   define('SUCCESS_OPTION_VALUES_SORT_ORDER', 'El orden de los Valores de las Opciones ha sido actualizado correctamente: ');
-  define('SUCCESS_CATEGORIES_UPDATE_SORT', 'El orden del atributo ha sido actualizado correctamente para las categorías ID# ');
+  define('SUCCESS_CATEGORIES_UPDATE_SORT', 'El orden de los atributos ha sido actualizado correctamente para las categorías ID# ');
 ?>

@@ -9,7 +9,7 @@
 
 define('MODULE_SHIPPING_STOREPICKUP_TEXT_TITLE', 'Recoger en Tienda');
 define('MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION', 'El cliente recogerá personalmente su pedido en la tienda');
-define('MODULE_SHIPPING_STOREPICKUP_TEXT_WAY', 'Deberá pasar a recoger su pedido.');
+define('MODULE_SHIPPING_STOREPICKUP_TEXT_WAY', 'Recoger en persona');
 
 
 // The following is for defining multiple locations/methods on a per-language basis. It is only used if the shopper has selected a language other than the store's default.

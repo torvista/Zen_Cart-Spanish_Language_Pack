@@ -25,15 +25,15 @@ define('HEADING_TITLE', 'Estados de los Pedidos');
 define('TABLE_HEADING_ORDERS_STATUS', 'Estados');
 define('TABLE_HEADING_ACTION', 'Acciones');
 
-define('TEXT_INFO_EDIT_INTRO', 'Por favor, haga los cambios necesarios');
+define('TEXT_INFO_EDIT_INTRO', 'Haga los cambios necesarios');
 define('TEXT_INFO_ORDERS_STATUS_NAME', 'Estado de los pedidos:');
-define('TEXT_INFO_INSERT_INTRO', 'Por favor, introduzca el nuevo estado de pedidos con sus datos relacionados');
+define('TEXT_INFO_INSERT_INTRO', 'Introduzca el nuevo estado de pedidos con sus datos relacionados');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este estado de pedidos?');
 define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'Estado de pedidos nuevos');
 define('TEXT_INFO_HEADING_EDIT_ORDERS_STATUS', 'Editar estado de pedidos');
 define('TEXT_INFO_HEADING_DELETE_ORDERS_STATUS', 'Borrar estado de pedidos');
 
-define('ERROR_REMOVE_DEFAULT_ORDER_STATUS', 'Error: No se puede eliminar el estado de pedido por defecto. Por favor, establezca otro estado de pedido por defecto e inténtelo nuevamente.');
+define('ERROR_REMOVE_DEFAULT_ORDER_STATUS', 'Error: No se puede eliminar el estado de pedido por defecto. Establezca otro estado de pedido por defecto e inténtelo nuevamente.');
 define('ERROR_STATUS_USED_IN_ORDERS', 'Error: Este estado de pedido actualmente está siendo usado en los pedidos.');
 define('ERROR_STATUS_USED_IN_HISTORY', 'Error: Este estado de pedido actualmente está siendo usado en el historial del estado del pedido.');
 ?>

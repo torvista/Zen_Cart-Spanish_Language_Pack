@@ -22,8 +22,8 @@
   define('HEADING_TITLE', 'Artistas');
   define('TABLE_HEADING_RECORD_ARTISTS', 'Artistas');
   define('TABLE_HEADING_ACTION', 'Acción');
-  define('TEXT_NEW_INTRO', 'Por favor, introduzca los detalles del nuevo artista a continuación.');
-  define('TEXT_EDIT_INTRO', 'Por favor, rectifique los detalles del nuevo artista a continuación.');
+  define('TEXT_NEW_INTRO', 'Introduzca los detalles del nuevo artista a continuación.');
+  define('TEXT_EDIT_INTRO', 'Rectifique los detalles del nuevo artista a continuación.');
   define('TEXT_DELETE_INTRO', '¿Está seguro de que desea borrar este artista?');
   define('TEXT_DELETE_IMAGE', '¿Borrar imagen?.');
   define('TEXT_RECORD_ARTIST_NAME', 'Nombre del artista');

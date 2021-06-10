@@ -66,5 +66,5 @@ define('TEXT_INFO_HEADING_DELETE_SALE', 'Eliminar rebaja');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar permanentemente esta rebaja?');
 define('TEXT_MORE_INFO', '(Más Información)');
 
-define('TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES','&nbsp;Aviso : %s rebaja(s) ya incluye()n esta categoría');
+define('TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES','&nbsp;Aviso: %s rebaja(s) ya incluye(n) esta categoría');
 ?>

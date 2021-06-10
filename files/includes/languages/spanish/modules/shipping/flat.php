@@ -20,7 +20,7 @@
 // $Id: flat.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_FLAT_TEXT_TITLE', 'Tarifa plana');
-define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', 'Tarifa plana');
+define('MODULE_SHIPPING_FLAT_TEXT_TITLE', 'Tarifa Plana');
+define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', 'Tarifa Plana');
 define('MODULE_SHIPPING_FLAT_TEXT_WAY', 'Mensajería');
 ?>

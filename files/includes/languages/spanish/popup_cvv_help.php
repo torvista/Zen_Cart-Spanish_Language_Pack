@@ -21,7 +21,7 @@
 //
 
 define('HEADING_CVV', '¿Qué es el CVV?');
-define('TEXT_CVV_HELP1', 'Número de verificación de 3 dígitos de las tarjetas Visa, Mastercard y Discover tajetas de tres dígitos.<br /><br />
+define('TEXT_CVV_HELP1', 'Número de verificación de 3 dígitos de las tarjetas Visa, Mastercard y Discover<br /><br />
                     Por su seguridad, le pedimos que introduzca el número de verificación de su tarjeta.<br /><br />
                     El número de verificación son los últimos 3 dígitos impresos al dorso de su tarjeta.
                     Aparece a la derecha, a continuación del número de su tarjeta.<br />' .

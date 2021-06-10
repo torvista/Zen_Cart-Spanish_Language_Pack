@@ -18,8 +18,8 @@ define('TEXT_ORDER_DATE', 'Fecha del Pedido:');
 define('TEXT_ORDER_SHIPPED_TO', 'Enviado a:');
 define('TEXT_ORDER_BILLED_TO', 'Facturado a:');
 define('TEXT_ORDER_PRODUCTS', 'Productos:');
-define('TEXT_ORDER_COST', 'Valor del pedido:');
-define('TEXT_VIEW_ORDER', 'Ver pedido');
+define('TEXT_ORDER_COST', 'Valor del Pedido:');
+define('TEXT_VIEW_ORDER', 'Ver Pedido');
 
 define('TEXT_NO_PURCHASES', 'Aún no ha realizado ninguna compra.');
 ?>
