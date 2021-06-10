@@ -23,5 +23,5 @@
 define('NAVBAR_TITLE', 'Página 4');
 define('HEADING_TITLE', 'Página 4');
 
-define('TEXT_INFORMATION', 'La información sobre la página 4 va aquí.');
+define('TEXT_INFORMATION', 'La información de la página 4 va aquí.');
 ?>

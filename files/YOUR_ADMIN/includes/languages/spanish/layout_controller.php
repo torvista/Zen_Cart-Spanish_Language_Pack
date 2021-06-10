@@ -20,9 +20,9 @@
 //  $Id: layout_controller.php 3197 2006-03-17 21:40:58Z drbyte $
 //
 
-define('HEADING_TITLE', 'Columna de cuadros');
+define('HEADING_TITLE', 'Cuadros de las Columnas');
 
-define('TABLE_HEADING_LAYOUT_BOX_NAME', 'Nombre del fichero del cuadro');
+define('TABLE_HEADING_LAYOUT_BOX_NAME', 'Nombre del archivo del cuadro');
 define('TABLE_HEADING_LAYOUT_BOX_STATUS', 'COLUMNA IZQ/DCH<br />Estado');
 define('TABLE_HEADING_LAYOUT_BOX_STATUS_SINGLE', 'COLUMNA SIMPLE<br />Estado');
 define('TABLE_HEADING_LAYOUT_BOX_LOCATION', 'COLUMNA<br />IZQ/DCH');
@@ -32,27 +32,27 @@ define('TABLE_HEADING_ACTION', 'Acción');
 
 define('TEXT_INFO_EDIT_INTRO', 'Por favor, haga los cambios necesarios');
 define('TEXT_INFO_LAYOUT_BOX','Cuadro seleccionado: ');
-define('TEXT_INFO_LAYOUT_BOX_NAME', 'Nombre del cuadro:');
-define('TEXT_INFO_LAYOUT_BOX_LOCATION','Ubicación: (la Columna Simple ignora este dato)');
+define('TEXT_INFO_LAYOUT_BOX_NAME', 'Nombre del Cuadro:');
+define('TEXT_INFO_LAYOUT_BOX_LOCATION','Ubicación: (la Columna Singular ignora este dato)');
 define('TEXT_INFO_LAYOUT_BOX_STATUS', 'Estado de Columna Izquierda/Derecha: ');
-define('TEXT_INFO_LAYOUT_BOX_STATUS_SINGLE', 'Estado de Columna Simple: ');
+define('TEXT_INFO_LAYOUT_BOX_STATUS_SINGLE', 'Estado de Columna Singular: ');
 define('TEXT_INFO_LAYOUT_BOX_STATUS_INFO','Activado= 1 Desactivado=0');
 define('TEXT_INFO_LAYOUT_BOX_SORT_ORDER', 'Orden de Columna Izquierda/Derecha:');
 define('TEXT_INFO_LAYOUT_BOX_SORT_ORDER_SINGLE', 'Orden de Columna Simple:');
 define('TEXT_INFO_INSERT_INTRO', 'Por favor, introduzca el nuevo cuadro con su información relacionada');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este cuadro?');
-define('TEXT_INFO_HEADING_NEW_BOX', 'Nuevo cuadro');
-define('TEXT_INFO_HEADING_EDIT_BOX', 'Editar cuadro');
-define('TEXT_INFO_HEADING_DELETE_BOX', 'Eliminar cuadro');
-define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX','Eliminar cuadro faltante de la lista de la Plantilla: ');
-define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX_NOTE','NOTA: Esto no elimina ficheros así que puede volver a añadir el cuadro en cualquier momento sólo agregándolo al directorio correcto.<br /><br /><strong>Eliminar nombre de cuadro: </strong>');
-define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER','Restablecer todo el orden de los cuadros para que coincidan con el orden por DEFECTO para esta Plantilla: ');
-define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER_NOTE','Esto no elimina ninguno de los cuadros. Sólo restablecerá el orden actual por defecto');
-define('TEXT_INFO_BOX_DETAILS','Detalles de recuadro: ');
+define('TEXT_INFO_HEADING_NEW_BOX', 'Nuevo Cuadro');
+define('TEXT_INFO_HEADING_EDIT_BOX', 'Editar Cuadro');
+define('TEXT_INFO_HEADING_DELETE_BOX', 'Eliminar Cuadro');
+define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX','Eliminar cuadro faltante del listado de esta plantilla: ');
+define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX_NOTE','NOTA: Esto no elimina ficheros así que puede volver a añadir el cuadro en cualquier momento sólo añadiendolo al directorio correcto.<br /><br /><strong>Eliminar nombre de cuadro: </strong>');
+define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER','Restablecer todo el orden de los cuadros para que coincidan con el orden por DEFECTO para esta plantilla: ');
+define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER_NOTE','Esto no elimina ninguno de los cuadros. Sólo restablecerá el orden por defecto');
+define('TEXT_INFO_BOX_DETAILS','Detalles de Recuadro: ');
 
 ////////////////
 
-define('HEADING_TITLE_LAYOUT_TEMPLATE', 'Disposición de la Plantilla del Sitio');
+define('HEADING_TITLE_LAYOUT_TEMPLATE', 'Disposición de la Plantilla');
 
 define('TABLE_HEADING_LAYOUT_TITLE', 'Título');
 define('TABLE_HEADING_LAYOUT_VALUE', 'Valor');
@@ -65,7 +65,7 @@ define('TEXT_INFO_LAST_MODIFIED', 'Última modificación:');
 
 // layout box text in includes/boxes/layout.php
 define('BOX_HEADING_LAYOUT', 'Disposición');
-define('BOX_LAYOUT_COLUMNS', 'Controlador de Columnas');
+define('BOX_LAYOUT_COLUMNS', 'Controlador de las Columnas');
 
 // file exists
 define('TEXT_GOOD_BOX',' ');
@@ -74,8 +74,8 @@ define('TEXT_BAD_BOX','<font color="ff0000"><b>FALTA</b></font><br />');
 
 // Success message
 define('SUCCESS_BOX_DELETED', 'Borrado correctamente de la plantilla del cuadro: ');
-define('SUCCESS_BOX_RESET', 'Laa configuración de todos los cuadros fue restablecida correctamente al configuración por defecto de la Plantilla: ');
-define('SUCCESS_BOX_UPDATED', 'Configuración del cuadro Actualizada correctamente: ');
+define('SUCCESS_BOX_RESET', 'La configuración de todos los cuadros fue restablecida correctamente al configuración por defecto de la Plantilla: ');
+define('SUCCESS_BOX_UPDATED', 'Configuración del cuadro actualizada correctamente: ');
 
 define('TEXT_ON', ' ACTIVADO ');
 define('TEXT_OFF', ' DESACTIVADO ');

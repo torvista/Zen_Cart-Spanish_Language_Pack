@@ -24,7 +24,7 @@ define('TEXT_CONFIRM_DELETE', 'Petición de Eliminación. Confirmación: ');
 define('ERROR_NO_USER_DEFINED', 'Hay que seleccionar un usuario para esta opción');
 define('ERROR_USER_MUST_HAVE_PROFILE', 'Cada usuario debe tener asignado un perfil.');
 define('ERROR_DUPLICATE_USER', 'Ese nombre de usuario ya existe. Hay que seleccionar otro nombre.');
-define('ERROR_ADMIN_NAME_TOO_SHORT', 'Los nombre de Usuarios Amdin deben tener por los menos %s carácteres');
+define('ERROR_ADMIN_NAME_TOO_SHORT', 'Los nombre de Usuarios Admin deben tener por los menos %s carácteres');
 define('ERROR_PASSWORD_TOO_SHORT', 'Las contraseñas deben tener por los menos %s carácteres');
 define('SUCCESS_NEW_USER_ADDED', 'Usuario nuevo añadido');
 define('SUCCESS_USER_DETAILS_UPDATED', 'Datos de usuario actualizados');

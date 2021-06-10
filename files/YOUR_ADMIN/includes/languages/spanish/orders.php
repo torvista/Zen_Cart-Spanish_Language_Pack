@@ -39,7 +39,7 @@ define('TABLE_HEADING_DATE_ADDED', 'Fecha Añadido');
 
 define('ENTRY_CUSTOMER', 'Cliente:');
 define('ENTRY_SOLD_TO', 'VENDIDO A:');
-define('ENTRY_DELIVERY_TO', 'Entregar A:');
+define('ENTRY_DELIVERY_TO', 'Entregar a:');
 define('ENTRY_SHIP_TO', 'ENVIAR A:');
 define('ENTRY_SHIPPING_ADDRESS', 'Dirección de Envío:');
 define('ENTRY_BILLING_ADDRESS', 'Dirección de Facturación:');
@@ -48,7 +48,7 @@ define('ENTRY_CREDIT_CARD_TYPE', 'Tipo de tarjeta:');
 define('ENTRY_CREDIT_CARD_OWNER', 'Nombre de la tarjeta:');
 define('ENTRY_CREDIT_CARD_NUMBER', 'Número de la tarjeta:');
 define('ENTRY_CREDIT_CARD_CVV', 'Número CVV de la tarjeta:');
-define('ENTRY_CREDIT_CARD_EXPIRES', 'Fecha de Caducidad de la tarjeta:');
+define('ENTRY_CREDIT_CARD_EXPIRES', 'Fecha de caducidad de la tarjeta:');
 define('ENTRY_SUB_TOTAL', 'Subtotal:');
 define('ENTRY_TAX', 'IVA:');
 define('ENTRY_SHIPPING', 'Envío:');
@@ -112,12 +112,10 @@ define('TEXT_DELETE_CVV_FROM_DATABASE','Borra CVV from database');
 define('TEXT_DELETE_CVV_REPLACEMENT','Borrado');
 define('TEXT_MASK_CC_NUMBER','Esconder este número');
 
-define('TEXT_INFO_EXPIRED_DATE', 'Fecha de caducidad:<br />');
-define('TEXT_INFO_EXPIRED_COUNT', 'Expired Count:<br />');
+define('TEXT_INFO_EXPIRED_DATE', 'Fecha de Caducidad:<br />');
+define('TEXT_INFO_EXPIRED_COUNT', 'Cuenta de Caducidad:<br />');
 
 define('TABLE_HEADING_CUSTOMER_COMMENTS', 'Cliente<br />Comentarios');
 define('TEXT_COMMENTS_YES', 'Comentarios de Cliente - SI');
 define('TEXT_COMMENTS_NO', 'Comentarios de Cliente - NO');
-//steve
-define('TABLE_HEADING_COUNTRY_NAME', 'País');
 ?>

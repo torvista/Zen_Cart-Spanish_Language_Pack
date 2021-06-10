@@ -13,7 +13,7 @@ define('TEXT_MORE_INFORMATION', 'Para más información, visite la <a href="%s" 
 define('TEXT_DATE_ADDED', 'Este producto se incorporó a nuestro catálogo el %s.');
 define('TEXT_DATE_AVAILABLE', 'Este producto estará en stock el %s.');
 define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Los clientes que compraron este producto también compraron...');
-define('TEXT_PRODUCT_OPTIONS', 'Escoja, por favor:');
+define('TEXT_PRODUCT_OPTIONS', 'Por favor, elija:');
 define('TEXT_PRODUCT_MANUFACTURER', 'Fabricado por: ');
 define('TEXT_PRODUCT_WEIGHT', 'Peso del paquete: ');
 define('TEXT_PRODUCT_QUANTITY', ' Unidades en stock');
@@ -25,7 +25,7 @@ define('TEXT_PRODUCT_MODEL', 'Modelo: ');
 define('PREV_NEXT_PRODUCT', 'Producto ');
 define('PREV_NEXT_FROM', ' desde ');
 define('IMAGE_BUTTON_PREVIOUS', 'Producto anterior');
-define('IMAGE_BUTTON_NEXT', 'Siguiente producto');
+define('IMAGE_BUTTON_NEXT', 'Producto siguiente');
 define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST', 'Volver a la lista de productos');
 
 // missing products
@@ -36,7 +36,7 @@ define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST', 'Volver a la lista de productos');
 define('TEXT_ATTRIBUTES_PRICE_WAS',' [costaba: ');
 define('TEXT_ATTRIBUTE_IS_FREE',' ahora cuesta: Gratis]');
 define('TEXT_ONETIME_CHARGE_SYMBOL', ' *');
-define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' Se aplicarán un cargo adicional, una vez');
+define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' Se aplicará un cargo adicional, una vez');
 define('TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK', 'Hay descuentos disponibles por cantidad');
 define('ATTRIBUTES_QTY_PRICE_SYMBOL', zen_image(DIR_WS_TEMPLATE_ICONS . 'icon_status_green.gif', TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK, 10, 10) . '&nbsp;');
 

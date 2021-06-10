@@ -21,8 +21,8 @@
 //
 
 define('TABLE_HEADING_COMMENTS', 'Comentarios');
-define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Notificación de Cliente');
-define('TABLE_HEADING_DATE_ADDED', 'Fecha Añadido');
+define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Cliente Notificado');
+define('TABLE_HEADING_DATE_ADDED', 'Fecha Añadida');
 define('TABLE_HEADING_STATUS', 'Estado');
 
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Modelo');

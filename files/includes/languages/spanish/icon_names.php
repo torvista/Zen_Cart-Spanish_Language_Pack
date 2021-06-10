@@ -19,7 +19,7 @@ define('ICON_IMAGE_TINYCART', 'cart.gif');
 define('ICON_ERROR_ALT', 'Error');
 define('ICON_SUCCESS_ALT', 'Éxito');
 define('ICON_WARNING_ALT', 'Aviso');
-define('ICON_TRASH_ALT', 'Elimine este artículo');
+define('ICON_TRASH_ALT', 'Elimine este producto');
 define('ICON_UPDATE_ALT', 'Actualice el pedido');
 define('ICON_TINYCART_ALT', 'Añada');
 

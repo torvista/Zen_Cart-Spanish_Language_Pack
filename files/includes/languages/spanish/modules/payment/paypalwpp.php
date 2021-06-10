@@ -144,7 +144,7 @@
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_BUTTON_TEXT_PARTIAL', 'Hacer una Devolución Parcial');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_TEXT_FULL_OR', '<br />... o inserte la cantidad parcial ');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_PAYFLOW_TEXT', 'Inserte la ');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_PARTIAL_TEXT', 'de la devolución aquí y haga clic en Hacer  Devolución Parcial');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_PARTIAL_TEXT', 'de la devolución aquí y haga clic en Hacer Devolución Parcial');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_SUFFIX', '*No está permitido solicitar una devolución total después de tramitar una devolución parcial. <br />*Permitidas múltiples devoluciones parciales hasta el valor total del pedido.');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_TEXT_COMMENTS', '<strong>Nota para mostrar al cliente:</strong>');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_DEFAULT_MESSAGE', 'Devuelto por el administrador de la tienda.');

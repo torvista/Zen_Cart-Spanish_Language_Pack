@@ -20,12 +20,12 @@
 // $Id: ssl_check.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Chequeo de Seguridad');
-define('HEADING_TITLE', 'Chequeo de Seguridad');
+define('NAVBAR_TITLE', 'Comprobación de seguridad');
+define('HEADING_TITLE', 'Comprobación de Seguridad');
 
-define('TEXT_INFORMATION', 'Detectamos que su navegador generó un ID de Sesión SSL diferente al que fue usado en nuestras páginas seguras.');
+define('TEXT_INFORMATION', 'Detectamos que su navegador generó un ID de sesión SSL diferente al que fue usado en nuestras páginas seguras.');
 define('TEXT_INFORMATION_2', 'Por motivos de seguridad, necesitará identificarse de nuevo para continuar comprando online.');
-define('TEXT_INFORMATION_3', 'Algunos navegadores, como el Konqueror 3.1, no tienen la capacidad de generar el ID de sesión SSL automáticamente. Si usted es usuario de este navegador, le recordamos que haga uso de otro para continuar con su compra online. Si no tiene otro navegador instalado en su computadora, puede descargar uno compatible: <a http://www.mozilla-europe.org/es/products/firefox/" target="_blank">Mozilla Firefox</a>.');
+define('TEXT_INFORMATION_3', 'Algunos navegadores, como el Konqueror 3.1, no tienen la capacidad de generar el ID de sesión SSL automáticamente. Si usted es usuario de este navegador, le recordamos que haga uso de otro para continuar con su compra online. Si no tiene otro navegador instalado en su ordenador, puede descargar uno compatible: <a http://www.firefox.com/" target="_blank">Firefox</a>.');
 define('TEXT_INFORMATION_4', 'Se ha tomado esta medida de seguridad por su bien, le pedimos disculpas por cualquier inconveniente que le haya sido causado.');
 define('TEXT_INFORMATION_5', 'Por favor, contacte con la administración de la tienda si tiene cualquier cuestión relacionada con estos requerimientos, o para comprar productos de manera offline.');
 

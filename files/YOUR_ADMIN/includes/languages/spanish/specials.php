@@ -39,7 +39,7 @@ define('TEXT_SPECIALS_PRICE_TIP', '<b>Notas sobre las ofertas:</b><ul><li>Puede 
 
 define('TEXT_INFO_DATE_ADDED', 'Agregado el:');
 define('TEXT_INFO_LAST_MODIFIED', 'Última modificación:');
-define('TEXT_INFO_NEW_PRICE', 'Nuevo Precio:');
+define('TEXT_INFO_NEW_PRICE', 'Nuevo precio:');
 define('TEXT_INFO_ORIGINAL_PRICE', 'Precio original:');
 define('TEXT_INFO_DISPLAY_PRICE', 'Mostrar precio:<br />');
 define('TEXT_INFO_AVAILABLE_DATE', 'Disponible el:');
@@ -50,12 +50,12 @@ define('TEXT_IMAGE_NONEXISTENT', 'La imagen no existe');
 define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Eliminar oferta');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar el precio de oferta del producto?');
 
-define('SUCCESS_SPECIALS_PRE_ADD', 'Exito: Pre-Añade de Especial ... actualice el precio y fecha por favor ...');
+define('SUCCESS_SPECIALS_PRE_ADD', 'Exito: Oferta pre-añadida ... actualice el precio y fecha por favor ...');
 define('WARNING_SPECIALS_PRE_ADD_EMPTY', 'Aviso: ID del Product no especificado ... no se añadió nada ...');
-define('WARNING_SPECIALS_PRE_ADD_DUPLICATE', 'Aviso: ID del Product ya está en oferta ... no se añadió nada ...');
+define('WARNING_SPECIALS_PRE_ADD_DUPLICATE', 'Aviso: ID del Producto ya está en oferta ... no se añadió nada ...');
 define('WARNING_SPECIALS_PRE_ADD_BAD_PRODUCTS_ID', 'Aviso: ID del Producto es inválido ... no añadió nada ...');
 define('TEXT_INFO_HEADING_PRE_ADD_SPECIALS', 'Añade nueva Especial manualmente utilizando el ID de un Producto');
 define('TEXT_INFO_PRE_ADD_INTRO', '<br />Está recomendado utilizar este método para bases de datos grandes, cuando la página tarda mucho tiempo en cargar y la selección de un producto del menú desplegable resulta demasiado difícil por culpa de la cantidad grande de productos disponibles.');
-define('TEXT_PRE_ADD_PRODUCTS_ID', 'Tecle el ID de Producto para ser Pre-añadido: ');
+define('TEXT_PRE_ADD_PRODUCTS_ID', 'Tecle el ID de Producto para ser pre-añadido: ');
 define('TEXT_INFO_MANUAL', 'Añade nuevo Oferta manualmente utilizando el ID de un Producto');
 ?>

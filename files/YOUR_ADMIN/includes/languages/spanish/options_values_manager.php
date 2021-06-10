@@ -8,7 +8,7 @@
  */
 
 define('HEADING_TITLE_OPT', 'Opciones de productos');
-define('HEADING_TITLE_VAL', 'Valores de opción');
+define('HEADING_TITLE_VAL', 'Valores de Opciones');
 define('HEADING_TITLE_ATRIB', 'Atributos de productos');
 
 define('TABLE_HEADING_ID', 'ID');
@@ -32,7 +32,7 @@ define('TABLE_HEADING_OPT_DISCOUNTED','Descontado');
 define('ATTRIBUTE_WARNING_DUPLICATE','Atributo duplicado - El atributo no se añadió'); // attributes duplicate warning
 define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE','Existe un atributo duplicado - El atributo no se modificó'); // attributes duplicate warning
 define('ATTRIBUTE_WARNING_INVALID_MATCH','La opción de atributo y el valor de opción NO coinciden - El atributo no fue añadido'); // miss matched option and options value
-define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','La opción de atributo y el valor de opción NO concuerdan - El atributo no fue modificado'); // miss matched option and options value
+define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','La opción de atributo y el valor de opción NO coinciden - El atributo no fue modificado'); // miss matched option and options value
 define('ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE','Posiblemente se añadió un nombre de opción duplicado.'); // Options Name Duplicate warning
 define('ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE','Posiblemente se añadió un valor de opción duplicado'); // Options Value Duplicate warning
 
@@ -42,7 +42,7 @@ define('PRODUCTS_ATTRIBUTES_ADDING','AÑADIENDO NUEVOS ATRIBUTOS'); // title
 define('TEXT_DOWNLOADS_DISABLED','NOTA: Las descargas están desactivadas');
 
 define('TABLE_TEXT_MAX_DAYS_SHORT', 'Días:');
-define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
+define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
 
   define('TABLE_HEADING_OPTION_SORT_ORDER','Ordenación');
   define('TABLE_HEADING_OPTION_VALUE_SORT_ORDER','Orden por defecto');
@@ -58,7 +58,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
 
   define('TABLE_HEADING_OPT_TYPE', 'Tipo de opción'); //CLR 031203 add option type column
   define('TABLE_HEADING_OPTION_VALUE_SIZE','Tamaño');
-  define('TABLE_HEADING_OPTION_VALUE_MAX','Max');
+  define('TABLE_HEADING_OPTION_VALUE_MAX','Máx');
   define('TABLE_HEADING_OPTION_VALUE_ROWS','Filas');
   define('TABLE_HEADING_OPTION_VALUE_COMMENTS','Comentarios');
 
@@ -94,7 +94,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
                                                    <br /><strong>Ejemplo:</strong> Añadir nombre de opción: Valor de opción de color: Verde con valores por defecto desde el ID de producto: 34 a todos los productos con el nombre de opción: Tamaño
                                                    <br /><strong>Ejemplo:</strong> Añadir nombre de opción: Valor de opción de color: Verde con valores por defecto desde el ID de producto: 34 a todos los productos con nombre de opción: Tamaño para ID de categorías: 65
         ');
-  define('TEXT_SELECT_OPTION_TO_ADD_TO', 'Nombre de opción al que añadir:');			 
+  define('TEXT_SELECT_OPTION_TO_ADD_TO', 'Nombre de opción a la que añadir:');			 
   define('TEXT_SELECT_OPTION_FROM_ADD', 'Nombre de opción a añadir:');
   define('TEXT_SELECT_OPTION_VALUES_FROM_ADD', 'Valor de opción a añadir:');
   define('TEXT_SELECT_OPTION_FROM_PRODUCTS_ID', 'Valores por defecto para el nuevo atributo desde Nº de ID de producto, o dejar en blanco para ningún valor por defecto:');
@@ -113,10 +113,9 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
 
   define('TEXT_OPTION_VALUE_DELETE_ALL', '<strong>Borrar atributo coincidente de TODOS los productos donde el nombre y valor de opción ...</strong>');
   define('TEXT_INFO_OPTION_VALUE_DELETE_ALL', 'Seleccionar un nombre y valor de opción que exista actualmente en un porducto o productos que quiera borrar de TODOS los productos o de TODOS los productos de una categoría');
-  define('TEXT_SELECT_DELETE_OPTION_FROM', 'Nombre de opción no concordante:');
-  define('TEXT_SELECT_DELETE_OPTION_VALUES_FROM', 'Valor de opción no concordante:');
+  define('TEXT_SELECT_DELETE_OPTION_FROM', 'Nombre de Opción a coincidir:');
+  define('TEXT_SELECT_DELETE_OPTION_VALUES_FROM', 'Valor de Opción a coincidir:');
 
-  define('ERROR_OPTION_VALUES_DELETE_MISMATCH', 'Error: Valores y nombres de opción no concordantes seleccionados');
+  define('ERROR_OPTION_VALUES_DELETE_MISMATCH', 'Error: Nombre de Opción y Valor de Opción no concordantes seleccionados');
 
-  define('SUCCESS_OPTION_VALUES_DELETE', 'Exitoso: Borrado de: ');
-  
+  define('SUCCESS_OPTION_VALUES_DELETE', 'Exitosa borradura de: ');

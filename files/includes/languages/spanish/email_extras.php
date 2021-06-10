@@ -1,7 +1,7 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: email_extras.php 19690 2011-10-04 16:41:45Z drbyte $
@@ -26,7 +26,7 @@
 
 // email disclaimer
   define('EMAIL_DISCLAIMER', 'Esta dirección de correo electrónico nos fue facilitada por usted o por alguno de nuestros clientes. Si piensa que ha recibido este mensaje por error, por favor, envíe un email a %s.<br /> ');
-  define('EMAIL_SPAM_DISCLAIMER', 'Este email ha sido enviado de acuerdo a la ley US CAN-SPAM de 01/01/2004. Las peticiones para darse de baja deberán ser enviadas a esta dirección, y serán cumplidas y respetadas.');
+  define('EMAIL_SPAM_DISCLAIMER', 'Este email ha sido enviado de acuerdo a la ley 34/2002 de 11 de Julio de servicios de la sociedad de la información y comercio electrónico. Las peticiones para darse de baja deberán ser enviadas a esta dirección, y serán cumplidas y respetadas.');
   define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Basado en <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
   define('TEXT_UNSUBSCRIBE', "\n\nPara darse de baja de los boletines pulse aquí: \n");
 
@@ -46,6 +46,3 @@
 // Low Stock Emails
   define('EMAIL_TEXT_SUBJECT_LOWSTOCK', 'Atención: stock bajo');
   define('SEND_EXTRA_LOW_STOCK_EMAIL_TITLE','Aviso de stock bajo: ');
-
-// for when gethost is off
-  define('OFFICE_IP_TO_HOST_ADDRESS', 'Disabled');

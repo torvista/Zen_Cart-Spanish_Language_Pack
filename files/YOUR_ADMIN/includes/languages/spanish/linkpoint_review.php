@@ -7,7 +7,7 @@
  * @version $Id: linkpoint_review.php 4612 2006-09-26 08:03:05Z drbyte $
  */
 
-define('HEADING_TITLE', 'Tarjeta de Crédito');
+define('HEADING_TITLE', 'Revisión de Tarjeta de Crédito');
 
 define('TABLE_HEADING_ID', 'ID#');
 define('TABLE_HEADING_FIRSTNAME', 'Nombre');
@@ -19,7 +19,7 @@ define('TABLE_HEADING_PRICING_GROUP', 'Grupo de Precios');
 define('TABLE_HEADING_AUTHORIZATION_APPROVAL', 'Autorizado');
 
 define('TEXT_DATE_ACCOUNT_CREATED', 'Cuenta creada:');
-define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Ültima Modificación:');
+define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Última Modificación:');
 define('TEXT_INFO_DATE_LAST_LOGON', 'Última Logon:');
 define('TEXT_INFO_NUMBER_OF_LOGONS', 'Cantidad de Logons:');
 define('TYPE_BELOW', 'Teclea Abajo');

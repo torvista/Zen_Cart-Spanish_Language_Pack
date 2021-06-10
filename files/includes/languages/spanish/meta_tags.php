@@ -1,20 +1,20 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: meta_tags.php 18697 2011-05-04 14:35:20Z wilt $
+ * @version GIT: $Id: Author: DrByte  Fri Feb 1 21:08:47 2013 -0500 Modified in v1.5.2 $
  */
 
 // page title
 define('TITLE', '¡Zen Cart!');
 
 // Site Tagline
-define('SITE_TAGLINE', 'El Arte de E-Comercio');
+define('SITE_TAGLINE', 'El Arte de Comercio Electrónico');
 
 // Custom Keywords - are added globally in addition to page-specific tags 
-define('CUSTOM_KEYWORDS', 'ecomercio, código abierto, tienda, compras online');
+define('CUSTOM_KEYWORDS', 'e-comercio, comercio, electrónico, código abierto, tienda, compras online');
 
 // Home Page Only:
   define('HOME_PAGE_META_DESCRIPTION', '');
@@ -57,10 +57,6 @@ define('CUSTOM_KEYWORDS', 'ecomercio, código abierto, tienda, compras online');
 
 // Define which pages to tell robots/spiders not to index
 // This is generally used for account-management pages or typical SSL pages, and usually doesn't need to be touched.
-  define('ROBOTS_PAGES_TO_SKIP','login,logoff,create_account,account,account_edit,account_history,account_history_info,account_newsletters,account_notifications,account_password,address_book,advanced_search,advanced_search_result,checkout_success,checkout_process,checkout_shipping,checkout_payment,checkout_confirmation,cookie_usage,create_account_success,contact_us,download,download_timeout,customers_authorization,down_for_maintenance,password_forgotten,time_out,unsubscribe,info_shopping_cart,popup_image,popup_image_additional,product_reviews_write,ssl_check,shopping_cart');
+  define('ROBOTS_PAGES_TO_SKIP','login,logoff,create_account,account,account_edit,account_history,account_history_info,account_newsletters,account_notifications,account_password,address_book,advanced_search,advanced_search_result,checkout_success,checkout_process,checkout_shipping,checkout_payment,checkout_confirmation,cookie_usage,create_account_success,contact_us,download,download_timeout,customers_authorization,down_for_maintenance,password_forgotten,time_out,unsubscribe,info_shopping_cart,gv_faq,gv_redeem,gv_send,popup_image,popup_image_additional,product_reviews_write,ssl_check,shopping_cart,no_account,order_status');
 
-
-// favicon setting
-// There is usually NO need to enable this unless you need to specify a path and/or a different filename
-//  define('FAVICON','favicon.ico');
 

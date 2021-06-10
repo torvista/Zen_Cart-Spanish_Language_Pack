@@ -23,5 +23,5 @@
 define('NAVBAR_TITLE', 'Autorización pendiente de cliente');
 define('HEADING_TITLE', 'Autorización pendiente de cliente ...');
 define('CUSTOMERS_AUTHORIZATION_TEXT_INFORMATION', 'Gracias por pedir autorización en nuestra tienda.<br /><br />Nos pondremos en contacto con usted lo antes posible.');
-define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', 'Para mostrar el estado de su autorización ... Haga clic aquí:');
+define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', 'Para mostrar el estado de su autorización ... Pulse aquí:');
 ?>

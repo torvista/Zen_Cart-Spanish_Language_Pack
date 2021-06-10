@@ -25,8 +25,8 @@ define('BOX_WHOS_ONLINE_THEREARE', 'Actualmente hay');
 define('BOX_WHOS_ONLINE_GUEST', 'visitante');
 define('BOX_WHOS_ONLINE_GUESTS', 'visitantes');
 define('BOX_WHOS_ONLINE_AND', 'y');
-define('BOX_WHOS_ONLINE_MEMBER', 'usuarios');
+define('BOX_WHOS_ONLINE_MEMBER', 'usuario');
 define('BOX_WHOS_ONLINE_MEMBERS', 'usuarios');
 
-define('BOX_WHOS_ONLINE_ONLINE', 'online.');
+define('BOX_WHOS_ONLINE_ONLINE', 'conectado(s).');
 ?>

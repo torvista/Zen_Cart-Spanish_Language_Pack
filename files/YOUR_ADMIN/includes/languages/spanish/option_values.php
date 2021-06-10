@@ -19,18 +19,18 @@
 // +----------------------------------------------------------------------+
 //  $Id: option_values.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
-  define('HEADING_TITLE', 'Orden por defecto de los valores de la opción');
-  define('TEXT_UPDATE_OPTION_VALUES', 'Actualizar orden de los valores de la opción');
-  define('TEXT_SELECT_OPTION', 'Seleccionar un nombre de opción:');
-  define('TEXT_EDIT_OPTION_NAME', 'Editando un nombre de opción: ');
-  define('TEXT_NO_OPTION_VALUE', 'No hay valores de la opción definidos<br />Nombre de Opción: ');
+  define('HEADING_TITLE', 'Orden por defecto de los Valores de las Opciones');
+  define('TEXT_UPDATE_OPTION_VALUES', 'Actualizar orden de los Valores de las Opciones');
+define('TEXT_SELECT_OPTION', 'Seleccionar un Nombre de Opción:');
+  define('TEXT_EDIT_OPTION_NAME', 'Editando un Nombre de Opción: ');
+  define('TEXT_NO_OPTION_VALUE', 'No hay Valores de Opciones definidos para <br />Nombre de Opción: ');
   define('TEXT_UPDATE_SUBMIT', 'Actualizar Orden');
 
 // moved from english.php
   define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_PRODUCTS', '<strong>Para un producto:</strong> ');
   define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_CATEGORIES', '<strong>Para una categoría:</strong> ');
-  define('SUCCESS_PRODUCT_UPDATE_SORT', 'Atributo del orden actualizado correctamente para el ID# ');
-  define('SUCCESS_PRODUCT_UPDATE_SORT_ALL', 'Orden del atributo actualizado correctamente para TODOS los productos ');
-  define('SUCCESS_OPTION_VALUES_SORT_ORDER', 'Orden de los valores de la opción actualizado correctamente: ');
-  define('SUCCESS_CATEGORIES_UPDATE_SORT', 'Orden del atributo actualizado correctamente para las categorías ID# ');
+  define('SUCCESS_PRODUCT_UPDATE_SORT', 'El orden de los atributos ha sido actualizado correctamente para ID# ');
+  define('SUCCESS_PRODUCT_UPDATE_SORT_ALL', 'El orden de los atributos ha sido actualizado correctamente para TODOS los productos ');
+  define('SUCCESS_OPTION_VALUES_SORT_ORDER', 'El orden de los Valores de las Opciones ha sido actualizado correctamente: ');
+  define('SUCCESS_CATEGORIES_UPDATE_SORT', 'El orden del atributo ha sido actualizado correctamente para las categorías ID# ');
 ?>

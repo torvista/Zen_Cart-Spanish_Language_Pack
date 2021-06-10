@@ -8,7 +8,7 @@
  */
 
 
-define('HEADING_TITLE', 'Enviar email a los clientes');
+define('HEADING_TITLE', 'Enviar Emails a los Clientes');
 
 define('TEXT_CUSTOMER', 'Cliente:');
 define('TEXT_SUBJECT', 'Asunto:');
@@ -25,7 +25,7 @@ define('TEXT_ATTACHMENTS_DIR','Directorio para subida: ');
 
 define('NOTICE_EMAIL_SENT_TO', 'Aviso: Email enviado a: %s');
 define('NOTICE_EMAIL_FAILED_SEND', 'Aviso: FALLO en el intento enviar Email a todos los destinatarios: %s');
-define('ERROR_NO_CUSTOMER_SELECTED', 'Error: No ha seleccionado un cliente.');
-define('ERROR_NO_SUBJECT', 'Error: No se ha introducido un asunto.');
+define('ERROR_NO_CUSTOMER_SELECTED', 'Error: No ha seleccionado ningún cliente.');
+define('ERROR_NO_SUBJECT', 'Error: No se ha introducido ningún asunto.');
 define('ERROR_ATTACHMENTS', 'Error: No puede seleccionar SUBIR y AÑADIR a la vez adjuntos separados. Seleccione sólo uno, por favor.');
 ?>

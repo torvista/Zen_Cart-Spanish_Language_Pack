@@ -17,7 +17,7 @@ define('TABLE_HEADING_LOGIN', 'Último acceso');
 define('TABLE_HEADING_ACTION', 'Acción');
 define('TABLE_HEADING_PRICING_GROUP', 'Precio por grupo');
 define('TABLE_HEADING_AUTHORIZATION_APPROVAL', 'Autorizado');
-define('TABLE_HEADING_GV_AMOUNT', 'GV Saldo');
+define('TABLE_HEADING_GV_AMOUNT', 'Saldo del Vale/Cupón');
 
 define('TEXT_DATE_ACCOUNT_CREATED', 'Cuenta creada:');
 define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Última modificación:');
@@ -34,7 +34,7 @@ define('TEXT_INFO_NUMBER_OF_ORDERS', 'Número de pedidos:');
 define('TEXT_INFO_LAST_ORDER','Último pedido:');
 define('TEXT_INFO_ORDERS_TOTAL', 'Total:');
 define('CUSTOMERS_REFERRAL', 'Referencia del cliente<br />1er Cupón de descuento');
-define('TEXT_INFO_GV_AMOUNT', 'GV Saldo');
+define('TEXT_INFO_GV_AMOUNT', 'Saldo del Vale/Cupón');
 
 define('ENTRY_NONE', 'Ninguno');
 

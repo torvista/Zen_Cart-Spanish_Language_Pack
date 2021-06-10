@@ -21,7 +21,7 @@
 //
 
 define('HEADING_TITLE','Administrador de descargas');
-define('TABLE_HEADING_ATTRIBUTES_ID', 'ID de Atrib.');
+define('TABLE_HEADING_ATTRIBUTES_ID', 'ID de Atributos');
 define('TABLE_HEADING_PRODUCTS_ID', 'ID de producto');
 define('TABLE_HEADING_PRODUCT', 'Nombre de producto');
 define('TABLE_HEADING_MODEL', 'Modelo');

@@ -30,7 +30,7 @@ define('TABLE_HEADING_CUSTOMERS_ID', 'Cliente<br />ID#');
 define('TABLE_HEADING_ORDERS_ID', 'Pedido<br />ID#');
 define('TABLE_HEADING_ORDERS_DATE_PURCHASED', 'Fecha');
 define('TABLE_HEADING_CUSTOMERS_INFO', 'Cliente');
-define('TABLE_HEADING_PRODUCTS_QUANTITY', 'CANT');
+define('TABLE_HEADING_PRODUCTS_QUANTITY', 'Cantidad');
 define('TABLE_HEADING_PRODUCTS_NAME', 'Producto');
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Modelo');
 ?>

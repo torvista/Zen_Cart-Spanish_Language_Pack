@@ -18,7 +18,7 @@ if (STORE_STATUS == '0') {
 
 define('TEXT_GREETING_PERSONAL', '¡Hola <span class="greetUser">%s</span>! ¿Quiere ver nuestras <a href="%s">últimas novedades</a>?');
 
-define('TEXT_INFORMATION', 'Defina aquí su página Index principal.');
+define('TEXT_INFORMATION', 'Defina aquí su página índice principal.');
 
 //moved to english
 //define('TABLE_HEADING_FEATURED_PRODUCTS','Productos destacados');

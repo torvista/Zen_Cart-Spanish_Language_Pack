@@ -31,8 +31,8 @@ define('TEXT_DATE_ADDED', 'Agregado el:');
 define('TEXT_DATE_AVAILABLE', 'Fecha de disponibilidad:');
 define('TEXT_LAST_MODIFIED', 'Última modificación:');
 define('TEXT_IMAGE_NONEXISTENT', 'LA IMAGEN NO EXISTE');
-define('TEXT_NO_CHILD_CATEGORIES_OR_PRODUCTS', 'Por favor, ingrese una nueva categoría o producto en este nivel.');
-define('TEXT_PRODUCT_MORE_INFORMATION', 'Por favor, para más información visite la <a href="http://%s" target="blank">web oficial</a> de este producto.');
+define('TEXT_NO_CHILD_CATEGORIES_OR_PRODUCTS', 'Por favor, introduzca una nueva categoría o producto en este nivel.');
+define('TEXT_PRODUCT_MORE_INFORMATION', 'Para más información visite la <a href="http://%s" target="blank">web oficial</a> de este producto.');
 define('TEXT_PRODUCT_DATE_ADDED', 'Este producto fue introducido en nuestro catálogo el %s.');
 define('TEXT_PRODUCT_DATE_AVAILABLE', 'Este producto estará en stock el %s.');
 
@@ -56,7 +56,7 @@ define('TEXT_INFO_HEADING_COPY_TO', 'Copiar a');
 define('TEXT_DELETE_CATEGORY_INTRO', '¿Seguro que desea eliminar esta categoría?');
 define('TEXT_DELETE_PRODUCT_INTRO', '¿Seguro que desea eliminar permanentemente este producto?');
 
-define('TEXT_DELETE_WARNING_CHILDS', '<b>ADVERTENCIA:</b> ¡Hay %s categorías(-hijo) que siguen vinculadas a esta categoría!');
+define('TEXT_DELETE_WARNING_CHILDS', '<b>ADVERTENCIA:</b> ¡Hay %s (sub)categorías que siguen vinculadas a esta categoría!');
 define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> ¡Hay %s productos que siguen vinculados a esta categoría!');
 
 define('TEXT_MOVE_PRODUCTS_INTRO', 'Por favor, seleccione la categoría en que quiere que esté <b>%s</b>');
@@ -82,8 +82,8 @@ define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', 'No, reglas normales de envío')
 define('TEXT_PRODUCT_SPECIAL_ALWAYS_FREE_SHIPPING', 'Especial, Producto/Descarga Combinación requieren la dirección de envío');
 define('TEXT_PRODUCTS_SORT_ORDER', 'Ordenación:');
 
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'Sí, mostrar recuadro de cantidad');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'No, no mostrar recuadro de cantidad');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'Sí, mostrar Recuadro de cantidad');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'No, no mostrar Recuadro de cantidad');
 
 define('TEXT_DOCUMENT_NAME', 'Nombre del documento:');
 define('TEXT_DOCUMENT_DETAILS', 'Contenido del documento:');
@@ -116,8 +116,8 @@ define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
 
   define('TEXT_COPY_ATTRIBUTES_CONDITIONS', '<strong>¿Cómo deberían manipularse los atributos de productos existentes?</strong>');
   define('TEXT_COPY_ATTRIBUTES_DELETE', 'Primero <strong>borre</strong>, luego copie los nuevos atributos');
-  define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Actualice</strong> con nuevas configuraciones/precios, y luego agregue otros');
-  define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Ignorar</strong> y agregar sólo los nuevos atributos');
+  define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Actualice</strong> con nuevas configuraciones/precios, y luego añada otros');
+  define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Ignorar</strong> y añadir sólo los nuevos atributos');
 
   define('SUCCESS_ATTRIBUTES_DELETED', 'Atributos eliminados correctamente');
   define('SUCCESS_ATTRIBUTES_UPDATE', 'Atributos actualizados correctamente');
@@ -126,8 +126,8 @@ define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
 
   define('TEXT_CATEGORIES_IMAGE_DIR', 'Subir al directorio:');
 
-  define('TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW', 'Advertencia: No mostrar el cuadro de cantidad, Cant. por defecto 1');
-  define('TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT', 'Advertencia: No mostrar el cuadro de cantidad, Cant. por defecto 1');
+  define('TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW', 'Advertencia: No mostrar el cuadro de cantidad, cantidad por defecto 1');
+  define('TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT', 'Advertencia: No mostrar el cuadro de cantidad, cantidad por defecto 1');
 
   define('TEXT_PRODUCT_OPTIONS', '<strong>Por favor, elija:</strong>');
   define('TEXT_PRODUCTS_ATTRIBUTES_INFO', 'Características del atributo para:');
@@ -149,15 +149,15 @@ define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
 
   define('PRODUCTS_PRICE_IS_FREE_TEXT', 'El producto es gratuito');
   define('TEXT_PRODUCT_IS_FREE', 'El producto es gratis:');
-  define('TEXT_PRODUCTS_IS_FREE_PREVIEW', '*El producto fue marcado como GRATUITO');
-  define('TEXT_PRODUCTS_IS_FREE_EDIT', '*El producto fue marcado como GRATUITO');
+  define('TEXT_PRODUCTS_IS_FREE_PREVIEW', '*El producto esta marcado como GRATUITO');
+  define('TEXT_PRODUCTS_IS_FREE_EDIT', '*El producto esta marcado como GRATUITO');
 
-  define('TEXT_PRODUCT_IS_CALL', 'El producto está como Pedir Precio:');
-  define('TEXT_PRODUCTS_IS_CALL_PREVIEW', '*El producto fue marcado como PEDIR PRECIO');
-  define('TEXT_PRODUCTS_IS_CALL_EDIT', '*El produco fue marcado como PEDIR PRECIO');
+  define('TEXT_PRODUCT_IS_CALL', 'El producto es Pedir Precio:');
+  define('TEXT_PRODUCTS_IS_CALL_PREVIEW', '*El producto esta marcado como PEDIR PRECIO');
+  define('TEXT_PRODUCTS_IS_CALL_EDIT', '*El produco esta marcado como PEDIR PRECIO');
 
-  define('TEXT_ATTRIBUTE_COPY_SKIPPING', '<strong>Saltar nuevos atributos</strong> ');
-  define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Agregando nuevos atributos desde</strong> ');
+  define('TEXT_ATTRIBUTE_COPY_SKIPPING', '<strong>Saltando atributos nuevos</strong> ');
+  define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Añadiendo atributos nuevos desde</strong> ');
   define('TEXT_ATTRIBUTE_COPY_UPDATING', '<strong>Actualizando desde el atributo</strong> ');
 
 // meta tags

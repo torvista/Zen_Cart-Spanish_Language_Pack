@@ -7,13 +7,13 @@
  * @version $Id: checkout_payment.php 4087 2006-08-07 04:46:08Z drbyte $
  */
 
-  define('NAVBAR_TITLE_1', 'Comprar - Paso 1 - Envío');
-  define('NAVBAR_TITLE_2', 'Comprar - Paso 2 - Método de pago');
+  define('NAVBAR_TITLE_1', 'Comprar');
+  define('NAVBAR_TITLE_2', 'Paso 2 de 3 - Opciones de pago');
 
-  define('HEADING_TITLE', 'Paso 2 de 3 -  Información de pago');
+  define('HEADING_TITLE', 'Paso 2 de 3 - Opciones de pago');
 
   define('TABLE_HEADING_BILLING_ADDRESS', 'Dirección de Facturación');
-  define('TEXT_SELECTED_BILLING_DESTINATION', 'Su dirección de facturación se muestra a la izquierda. La dirección debe coincidir con la de la tarjeta de crédito. Puede cambiarla presionando el botón <em>Cambiar Dirección</em>.');
+  define('TEXT_SELECTED_BILLING_DESTINATION', 'Su dirección de facturación se muestra a la izquierda. La dirección debe coincidir con la de la tarjeta de crédito. Puede cambiarla pulsando el botón <em>Cambiar Dirección</em>.');
   define('TITLE_BILLING_ADDRESS', 'Dirección de Facturación:');
 
   define('TABLE_HEADING_PAYMENT_METHOD', 'Método de pago');

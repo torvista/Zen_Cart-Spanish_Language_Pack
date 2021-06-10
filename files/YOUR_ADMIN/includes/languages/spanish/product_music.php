@@ -36,7 +36,7 @@ define('TEXT_LAST_MODIFIED', 'Última Modificación:');
 define('TEXT_IMAGE_NONEXISTENT', 'LA IMAGEN NO EXISTE');
 define('TEXT_NO_CHILD_CATEGORIES_OR_PRODUCTS', 'Por favor, ingrese una nueva categoría o producto en este nivel.');
 define('TEXT_PRODUCT_MORE_INFORMATION', 'Por favor, para más información visite el <a href="http://%s" target="blank">sitio</a> de este producto.');
-define('TEXT_PRODUCT_DATE_ADDED', 'Este producto fue agregado a nuestro catálogo el %s.');
+define('TEXT_PRODUCT_DATE_ADDED', 'Este producto fue añadido a nuestro catálogo el %s.');
 define('TEXT_PRODUCT_DATE_AVAILABLE', 'Este producto estará en stock el %s.');
 
 define('TEXT_EDIT_INTRO', 'Por favor, haga los cambios necesarios');
@@ -85,8 +85,8 @@ define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', 'No, Reglas Normales de Envío')
 define('TEXT_PRODUCT_SPECIAL_ALWAYS_FREE_SHIPPING', 'Especial, el Producto/Descarga Combo Precisa una Dirección de Envío');
 define('TEXT_PRODUCTS_SORT_ORDER', 'Ordenación:');
 
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'Sí, mostrar recuadro de cantidad');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'No, no mostrar recuadro de cantidad');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'Sí, mostrar Recuadro de cantidad');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'No, no mostrar Recuadro de cantidad');
 
 define('TEXT_PRODUCTS_MANUFACTURER', 'Fabricante de los productos:');
 define('TEXT_PRODUCTS_NAME', 'Nombre del documento:');
@@ -126,8 +126,8 @@ define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
 
   define('TEXT_COPY_ATTRIBUTES_CONDITIONS', '<strong>¿Cómo deberían manipularse los atributos de productos existentes?</strong>');
   define('TEXT_COPY_ATTRIBUTES_DELETE', 'Primero <strong>borre</strong>, luego copie los nuevos atributos');
-  define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Actuelice</strong> con nuevas configuraciones/precios, luego agregue otros');
-  define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Ignorar</strong> y agregar sólo los nuevos atributos');
+  define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Actualice</strong> con nuevas configuraciones/precios, luego añada otros');
+  define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Ignorar</strong> y añadir sólo los nuevos atributos');
 
   define('SUCCESS_ATTRIBUTES_DELETED', 'Atributos eliminados correctamente');
   define('SUCCESS_ATTRIBUTES_UPDATE', 'Attributos actualizados correctamente');
@@ -136,8 +136,8 @@ define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
 
   define('TEXT_CATEGORIES_IMAGE_DIR', 'Subir al directorio:');
 
-  define('TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW', 'Advertencia: No mostrar el Recuadro de Cantidad, Cant. por Defecto 1');
-  define('TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT', 'Advertencia: No mostrar el Recuadro de Cantidad, Cant. por Defecto 1');
+  define('TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW', 'Advertencia: No mostrar el Recuadro de Cantidad, cantidad por defecto 1');
+  define('TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT', 'Advertencia: No mostrar el Recuadro de Cantidad, cantidad por defecto 1');
 
   define('TEXT_PRODUCT_OPTIONS', '<strong>Por favor, elija:</strong>');
   define('TEXT_PRODUCTS_ATTRIBUTES_INFO', 'Características del Atributo para:');
@@ -149,25 +149,25 @@ define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
   define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_PREVIEW', '*Al mostrarse el precio se incluirá el precio del grupo de atributos más bajo, más el precio del producto');
   define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT', '*Al mostrarse el precio se incluirá el precio del grupo de atributos más bajo, más el precio del producto');
 
-  define('TEXT_PRODUCTS_QUANTITY_MIN_RETAIL', 'Cant. Mín. del Producto:');
-  define('TEXT_PRODUCTS_QUANTITY_UNITS_RETAIL', 'Cant. de Unidades del Producto:');
-  define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL', 'Cant. Máx. del Producto:');
+  define('TEXT_PRODUCTS_QUANTITY_MIN_RETAIL', 'Cantidad Mínimo del Producto:');
+  define('TEXT_PRODUCTS_QUANTITY_UNITS_RETAIL', 'Cantidad de Unidades del Producto:');
+  define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL', 'Cantidad Máximo del Producto:');
 
   define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL_EDIT', '0 = Ilimitada, 1 = Sin Recuadro de Cantidad ni Máximo');
 
-  define('TEXT_PRODUCTS_MIXED', 'Cant. Mín/Unidad Combinada del Producto:');
+  define('TEXT_PRODUCTS_MIXED', 'Cantidad Mín/Unidad Combinación del producto:');
 
   define('PRODUCTS_PRICE_IS_FREE_TEXT', 'El producto es gratis');
-  define('TEXT_PRODUCT_IS_FREE', 'El Producto es Gratis:');
-  define('TEXT_PRODUCTS_IS_FREE_PREVIEW', '*El producto fue marcado como GRATIS');
-  define('TEXT_PRODUCTS_IS_FREE_EDIT', '*El producto fue marcado como GRATIS');
+  define('TEXT_PRODUCT_IS_FREE', 'El Producto es gratis:');
+  define('TEXT_PRODUCTS_IS_FREE_PREVIEW', '*El producto está marcado como GRATIS');
+  define('TEXT_PRODUCTS_IS_FREE_EDIT', '*El producto está marcado como GRATIS');
 
   define('TEXT_PRODUCT_IS_CALL', 'El producto está como Pedir Precio:');
-  define('TEXT_PRODUCTS_IS_CALL_PREVIEW', '*El producto fue marcado como PEDIR PRECIO');
-  define('TEXT_PRODUCTS_IS_CALL_EDIT', '*El produco fue marcado como PEDIR PRECIO');
+  define('TEXT_PRODUCTS_IS_CALL_PREVIEW', '*El producto está marcado como PEDIR PRECIO');
+  define('TEXT_PRODUCTS_IS_CALL_EDIT', '*El produco está marcado como PEDIR PRECIO');
 
-  define('TEXT_ATTRIBUTE_COPY_SKIPPING', '<strong>Salteando Nuevos Atributos</strong> ');
-  define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Agregando Nuevos Atributos desde</strong> ');
+  define('TEXT_ATTRIBUTE_COPY_SKIPPING', '<strong>Saltando Atributo Nuevo</strong> ');
+  define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Insertando Atributo Nuevo desde </strong> ');
   define('TEXT_ATTRIBUTE_COPY_UPDATING', '<strong>Actualizando desde el Atributo</strong> ');
 
 // meta tags

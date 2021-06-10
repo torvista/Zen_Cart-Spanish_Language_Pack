@@ -37,7 +37,7 @@ define('TEXT_SALEMAKER_DATE_START', 'Fecha de Comienzo:');
 define('TEXT_SALEMAKER_DATE_END', 'Fecha de finalización:');
 define('TEXT_SALEMAKER_CATEGORIES', '<b>Ó</b> marque las categorías a las cuales aplicar este descuento:');
 define('TEXT_SALEMAKER_POPUP', '<a href="javascript:session_win();"><span class="errorText"><b>Pulse aquí para Consejos de Liquidación.</b></span></a>');
-define('TEXT_SALEMAKER_POPUP1', '<a href="javascript:session_win1();"><span class="errorText"><b>(Más Info)</b></span></a>');
+define('TEXT_SALEMAKER_POPUP1', '<a href="javascript:session_win1();"><span class="errorText"><b>(Más Información)</b></span></a>');
 define('TEXT_SALEMAKER_IMMEDIATELY', 'Inmediatamente');
 define('TEXT_SALEMAKER_NEVER', 'Nunca');
 define('TEXT_SALEMAKER_ENTIRE_CATALOG', 'Marque esta casilla si desea que el descuento sea aplicado a <b>todos los productos</b>:');
@@ -57,14 +57,14 @@ define('SPECIALS_CONDITION_DROPDOWN_2', 'Aplicar rebaja al precio de oferta: O s
 // moved to english.php
 /*
 define('DEDUCTION_TYPE_DROPDOWN_0', 'Quitar cantidad');
-define('DEDUCTION_TYPE_DROPDOWN_1', 'Porcentage');
+define('DEDUCTION_TYPE_DROPDOWN_1', 'Porcentaje');
 define('DEDUCTION_TYPE_DROPDOWN_2', 'Precio Nuevo');
 */
 define('TEXT_INFO_HEADING_COPY_SALE', 'Copiar rebaja');
 define('TEXT_INFO_COPY_INTRO', 'Introduzca un nombre para la copia de <br>&nbsp;&nbsp;"%s"');
 define('TEXT_INFO_HEADING_DELETE_SALE', 'Eliminar rebaja');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar permanentemente esta rebaja?');
-define('TEXT_MORE_INFO', '(Más Info.)');
+define('TEXT_MORE_INFO', '(Más Información)');
 
 define('TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES','&nbsp;Aviso : %s ventas ya incluyen esta catagoría');
 ?>

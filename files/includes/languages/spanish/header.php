@@ -15,11 +15,11 @@
   define('HEADER_TITLE_TOP', 'Arriba');
   define('HEADER_TITLE_CATALOG', 'Inicio');
   define('HEADER_TITLE_LOGOFF', 'Salir');
-  define('HEADER_TITLE_LOGIN', 'Login/Registrar');
+  define('HEADER_TITLE_LOGIN', 'Entrar/Registrarse');
 
 // added defines for header alt and text
-  define('HEADER_ALT_TEXT', 'Zen Cart E-Comercio');
-  define('HEADER_SALES_TEXT', 'TagLine Aquí');
+  define('HEADER_ALT_TEXT', 'Zen Cart comercio electrónico');
+  define('HEADER_SALES_TEXT', 'TagLine aquí');
   define('HEADER_LOGO_WIDTH', '192px');/*only used in tpl_header_test_info.php*/ 
   define('HEADER_LOGO_HEIGHT', '64px');/*only used in tpl_header_test_info.php*/
   define('HEADER_LOGO_IMAGE', 'logo.gif');

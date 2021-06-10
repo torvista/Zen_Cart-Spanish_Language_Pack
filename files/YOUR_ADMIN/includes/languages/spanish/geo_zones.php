@@ -11,13 +11,13 @@ define('HEADING_TITLE', 'Definición de Zonas: Impuestos, Pagos y Envíos');
 
 define('TABLE_HEADING_COUNTRY', 'País');
 define('TABLE_HEADING_COUNTRY_ZONE', 'Zona');
-define('TABLE_HEADING_TAX_ZONES', 'Zonas de Impuesto');
-define('TABLE_HEADING_TAX_ZONES_DESCRIPTION', 'Description de la Zona');
+define('TABLE_HEADING_TAX_ZONES', 'Zonas de Impuestos');
+define('TABLE_HEADING_TAX_ZONES_DESCRIPTION', 'Descripción de la Zona');
 define('TABLE_HEADING_STATUS', 'Estatus');
 define('TABLE_HEADING_ACTION', 'Acción');
 //define('TEXT_LEGEND', 'Leyenda: ');
-define('TEXT_LEGEND_TAX_AND_ZONES', ': Impuestos &amp; Zona Definidas');
-define('TEXT_LEGEND_ONLY_ZONES', ': Zonas Definidas pero no Impuestos');
+define('TEXT_LEGEND_TAX_AND_ZONES', ': Impuestos y Zonas Definidas');
+define('TEXT_LEGEND_ONLY_ZONES', ': Zonas Definidas pero no los Impuestos');
 define('TEXT_LEGEND_NOT_CONF', ': Sin Definir');
 
 define('TEXT_INFO_HEADING_NEW_ZONE', 'Nueva Zona');

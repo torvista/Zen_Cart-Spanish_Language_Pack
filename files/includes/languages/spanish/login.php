@@ -26,7 +26,7 @@ define('TEXT_RETURNING_CUSTOMER_SPLIT', 'Para continuar, acceda a su cuenta <str
 define('TEXT_PASSWORD_FORGOTTEN', '¿Olvidó su contraseña?');
 
 define('TEXT_LOGIN_ERROR', 'Error: Disculpe, el email y/o la contraseña son erróneos.');
-define('TEXT_VISITORS_CART', '<strong>Nota:</strong> Los artículos que están en su &quot;Carro de la compra&quot; pasarán a su carro de la compra de usuario registrado. <a href="javascript:session_win();">[Más Info]</a>');
+define('TEXT_VISITORS_CART', '<strong>Nota:</strong> Los productos que están en su &quot;Carro de la compra&quot; pasarán a su carro de la compra de usuario registrado. <a href="javascript:session_win();">[Más Información]</a>');
 
 define('TABLE_HEADING_PRIVACY_CONDITIONS', '<span class="privacyconditions">Declaración de Privacidad</span>');
 define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', '<span class="privacydescription">Por favor, acepte nuestra declaración de privacidad marcando el siguiente casillero. Puede leer la declaración de privacidad</span> <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">aquí</span></a>.');

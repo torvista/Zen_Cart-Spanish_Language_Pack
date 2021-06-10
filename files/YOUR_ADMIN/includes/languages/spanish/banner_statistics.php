@@ -20,7 +20,7 @@
 //  $Id: banner_statistics.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Estadísticas de Banner');
+define('HEADING_TITLE', 'Estadísticas de Banners');
 
 define('TABLE_HEADING_SOURCE', 'Fuente');
 define('TABLE_HEADING_VIEWS', 'Vistas');

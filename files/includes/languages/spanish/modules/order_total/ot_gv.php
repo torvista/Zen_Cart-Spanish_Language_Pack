@@ -16,6 +16,6 @@
   define('MODULE_ORDER_TOTAL_GV_TEXT_ENTER_CODE', TEXT_GV_REDEEM);
   define('TEXT_INVALID_REDEEM_AMOUNT', 'La cantidad aplicada y la cantidad del cupón no cuadran. Inténtalo otra vez.');
   define('MODULE_ORDER_TOTAL_GV_USER_BALANCE', 'Saldo disponible: ');
-  define('MODULE_ORDER_TOTAL_GV_REDEEM_INSTRUCTIONS', '<p>Para usar un vale de compra teclee la cantidad que quiere aplicar a este pedido en esta casilla. Deberá seleccionar el método de pago y, después, hacer click en el botón para aplicar el descuento al pedido.</p>');
+  define('MODULE_ORDER_TOTAL_GV_REDEEM_INSTRUCTIONS', '<p>Para usar un vale de compra teclee la cantidad que quiere aplicar a este pedido en esta casilla. Deberá seleccionar el método de pago y, después, pulsar en el botón para aplicar el descuento al pedido.</p>');
   define('MODULE_ORDER_TOTAL_GV_INCLUDE_ERROR', ' Puede fijar Incluir impuesto = true, solamente cuando recalcular = None');
 ?>

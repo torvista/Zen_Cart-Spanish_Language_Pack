@@ -32,7 +32,7 @@ define('TEXT_INFO_REVIEW_AUTHOR', 'Autor:');
 define('TEXT_INFO_REVIEW_RATING', 'Puntuación:');
 define('TEXT_INFO_REVIEW_READ', 'Leer:');
 define('TEXT_INFO_REVIEW_SIZE', 'Tamaño:');
-define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Puntuación promedio:');
+define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Puntuación media:');
 
 define('TEXT_OF_5_STARS', '¡%s de 5 Estrellas!');
 define('TEXT_GOOD', '<small><font color="#ff0000"><b>BUENO</b></font></small>');

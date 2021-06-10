@@ -21,7 +21,7 @@
 //
 
 define('HEADING_TITLE_OPT', 'Opciones de productos');
-define('HEADING_TITLE_VAL', 'Valores de opción');
+define('HEADING_TITLE_VAL', 'Valores de Opciones');
 define('HEADING_TITLE_ATRIB', 'Atributos de productos');
 
 define('TABLE_HEADING_ID', 'ID');
@@ -45,7 +45,7 @@ define('TABLE_HEADING_OPT_DISCOUNTED','Descontado');
 define('ATTRIBUTE_WARNING_DUPLICATE','Atributo duplicado - El atributo no se añadió'); // attributes duplicate warning
 define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE','Existe un atributo duplicado - El atributo no se modificó'); // attributes duplicate warning
 define('ATTRIBUTE_WARNING_INVALID_MATCH','La opción de atributo y el valor de opción NO coinciden - El atributo no fue añadido'); // miss matched option and options value
-define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','La opción de atributo y el valor de opción NO concuerdan - El atributo no fue modificado'); // miss matched option and options value
+define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','La opción de atributo y el valor de opción NO coinciden - El atributo no fue modificado'); // miss matched option and options value
 define('ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE','Posiblemente se añadió un nombre de opción duplicado.'); // Options Name Duplicate warning
 define('ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE','Posiblemente se añadió un valor de opción duplicado'); // Options Value Duplicate warning
 
@@ -55,7 +55,7 @@ define('PRODUCTS_ATTRIBUTES_ADDING','AÑADIENDO NUEVOS ATRIBUTOS'); // title
 define('TEXT_DOWNLOADS_DISABLED','NOTA: Las descargas están desactivadas');
 
 define('TABLE_TEXT_MAX_DAYS_SHORT', 'Días:');
-define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
+define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
 
   define('TABLE_HEADING_OPTION_SORT_ORDER','Ordenación');
   define('TABLE_HEADING_OPTION_VALUE_SORT_ORDER','Orden por defecto');
@@ -71,7 +71,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
 
   define('TABLE_HEADING_OPT_TYPE', 'Tipo de opción'); //CLR 031203 add option type column
   define('TABLE_HEADING_OPTION_VALUE_SIZE','Tamaño');
-  define('TABLE_HEADING_OPTION_VALUE_MAX','Max');
+  define('TABLE_HEADING_OPTION_VALUE_MAX','Máx');
   define('TABLE_HEADING_OPTION_VALUE_ROWS','Filas');
   define('TABLE_HEADING_OPTION_VALUE_COMMENTS','Comentarios');
 
@@ -131,10 +131,10 @@ define('TEXT_SELECT_OPTION_TO', 'Copiar todos los valores de opción a nombre de
 define('SUCCESS_OPTION_VALUES_COPIED', '¡Copia exitosa! ');
 define('ERROR_OPTION_VALUES_COPIED', 'Error - ¡No se pudien copiar los valores de opción en el mismo nombre de opción! ');
 define('ERROR_OPTION_VALUES_NONE', 'Error - La copia del nombre de opción tiene 0 valores definidos. ¡No se copió nada! ');
-define('TEXT_WARNING_BACKUP', 'Atención: Haga siempre buenas copias de seguridad de su base de datos antes de realizar algún cambio global');
+define('TEXT_WARNING_BACKUP', 'Atención: Haga siempre una copia de seguridad de su base de datos antes de realizar algún cambio global');
 
 define('TEXT_OPTION_ATTRIBUTE_IMAGES_PER_ROW', 'Imágenes de atributos por fila: ');
-define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE', 'Estilo de atributos para Radio Buttons/Checkbox: ');
+define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE', 'Estilo de atributos para Botones de Radio/Casillas de verificación: ');
 define('TEXT_OPTION_ATTIBUTE_MAX_LENGTH', '<strong>Longitud máxima y tamaño de muestra para atributos de sólo texto:</strong><br />');
 define('TEXT_OPTION_IMAGE_STYLE', '<strong>Estilos de imagen:</strong>');
 define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_0', '0= Imágenes debajo nombres de opción');

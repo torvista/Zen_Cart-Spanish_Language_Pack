@@ -4,7 +4,7 @@
  * @copyright Copyright 2003-2011 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: email_extras.php 18698 2011-05-04 14:50:06Z wilt $
+ * @version GIT: $Id: Author: DrByte  Sat Jul 27 20:38:11 2013 -0400 Modified in v1.5.2 $
  */
 
 // office use only
@@ -22,8 +22,8 @@
   define('OFFICE_DATE_TIME', 'Fecha y Hora:');
 
 // email disclaimer
-  define('EMAIL_DISCLAIMER', 'Este email lo hemos obtenido a través de usted o de alguien que se ha registrado en nuestra tienda. Si no fue usted, o piensa que ha recibido este mensaje por error, por favor, envíe un email a ' . STORE_OWNER_EMAIL_ADDRESS . "\n\n");
-  define('EMAIL_SPAM_DISCLAIMER','Este email ha sido enviado de acuerdo con la ley US CAN-SPAM de 01/01/2004. Las peticiones de darse de baja pueden ser enviadas a esta dirección, y serán cumplidas y respetadas.');
+  define('EMAIL_DISCLAIMER', "\n" . 'Este email lo hemos obtenido a través de usted o de alguien que se ha registrado en nuestra tienda. En caso de no ser el destinatario de esta información, por favor, rogamos nos lo comunique a %s para la eliminación de su dirección electrónica, no copiando ni entregando este mensaje a nadie más y procediendo a su destrucción.');
+  define('EMAIL_SPAM_DISCLAIMER','De conformidad a la Ley Orgánica de Protección de Datos de Carácter Personal 15/1999 de España, le informamos que los datos de contacto utilizados para la presente comunicación están incluidos en un fichero debidamente inscrito ante el RGPD con la finalidad de posibilitar las comunicaciones a través de correo electrónico de ' . STORE_NAME . ' con los distintos contactos que ésta mantiene dentro del ejercicio de su actividad (como clientes, asociados, proveedores o personal). Sin perjuicio de ello se le informa de que usted podrá ejercitar los derechos de acceso, rectificación, cancelación y oposición para lo cual debe dirigirse a:<br />' . STORE_NAME . ', ' . STORE_NAME_ADDRESS . '<br />adjuntando acreditación de la identidad".');
   define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Basado en <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
   define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[VALES DE COMPRA]');
   define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[CUPONES DE DESCUENTO]');

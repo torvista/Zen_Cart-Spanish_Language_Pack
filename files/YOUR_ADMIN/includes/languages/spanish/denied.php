@@ -9,4 +9,4 @@
 
 define('TEXT_ACCESS_DENIED', 'Lo siento, su nivel de permisos no es adecuado para acceder a este recurso.');
 define('TEXT_CONTACT_SITE_ADMIN', 'Contacte con el Administrador del sitio si le parece incorrecto.');
-define('TEXT_APOLOGY', 'Perdone la molestia.');
+define('TEXT_APOLOGY', 'Disculpe las molestias.');

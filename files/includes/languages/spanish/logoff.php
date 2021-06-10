@@ -9,6 +9,6 @@
 
 define('HEADING_TITLE', 'Salir');
 define('NAVBAR_TITLE', 'Salir');
-define('TEXT_MAIN', 'Ha salido de su cuenta. Es seguro dejar el ordenador. <br /><br />Si tenía artículos en el carro se han guardado hasta que <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">entre en su cuenta</span></a>.<br />');
+define('TEXT_MAIN', 'Ha salido de su cuenta. Es seguro dejar el ordenador. <br /><br />Si tenía productos en el carro se han guardado hasta que <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">entre en su cuenta</span></a>.<br />');
 
 ?>

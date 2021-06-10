@@ -26,7 +26,7 @@ define('HEADING_TAX', 'Impuestos');
 define('HEADING_TOTAL', 'Total');
 define('HEADING_QUANTITY', 'Cant.');
 
-define('HEADING_BILLING_ADDRESS', 'Dirección de facturaci&oacute;n');
+define('HEADING_BILLING_ADDRESS', 'Dirección de Facturación');
 define('HEADING_PAYMENT_METHOD', 'Forma de pago');
 
 define('HEADING_ORDER_HISTORY', 'Estado del historial y comentarios');

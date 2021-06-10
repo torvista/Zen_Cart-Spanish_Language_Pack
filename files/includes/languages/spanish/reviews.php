@@ -10,6 +10,6 @@
 define('NAVBAR_TITLE', 'Comentarios');
 define('TEXT_OF_5_STARS', '');
 
-define('TEXT_PRODUCT_INFO', 'Información sobre el producto');
+define('TEXT_PRODUCT_INFO', 'Información del producto');
 define('TEXT_READ_REVIEW', 'Leer comentario');
 ?>

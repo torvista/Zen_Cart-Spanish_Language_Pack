@@ -21,7 +21,7 @@
 //
 
 define('HEADING_TITLE', 'Tipos de producto');
-define('HEADING_TITLE_LAYOUT', 'Configuración del aspecto de página de información de producto : ');
+define('HEADING_TITLE_LAYOUT', 'Opciones del Info Page del Tipo de Producto :: ');
 
 define('TABLE_HEADING_PRODUCT_TYPES', 'Tipos de producto');
 define('TABLE_HEADING_PRODUCT_TYPES_ALLOW_ADD_TO_CART', 'Añadir<br />al carro');
@@ -34,7 +34,7 @@ define('TEXT_HEADING_EDIT_PRODUCT_TYPE', 'Editar tipo de producto');
 define('TEXT_HEADING_DELETE_PRODUCT_TYPE', 'Borrar tipo de producto');
 
 define('TEXT_PRODUCT_TYPES', 'Tipos de producto:');
-define('TEXT_PRODUCT_TYPES_HANDLER', 'Página del manipulador:');
+define('TEXT_PRODUCT_TYPES_HANDLER', 'Página Handler:');
 define('TEXT_PRODUCT_TYPES_ALLOW_ADD_CART', 'Este producto puede ser añadido al carro:');
 define('TEXT_DATE_ADDED', 'Añadido el:');
 define('TEXT_LAST_MODIFIED', 'Última modificación:');

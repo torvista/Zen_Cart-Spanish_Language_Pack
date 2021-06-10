@@ -18,7 +18,7 @@ define('HEADER_TITLE_LOGOFF', 'Salir');
 define('HEADER_TITLE_LOGIN', 'Entrar');
 
 // added defines for header alt and text
-define('HEADER_ALT_TEXT', 'Powered by Zen Cart :: El Arte del E-Commerce');
+define('HEADER_ALT_TEXT', 'Zen Cart :: El Arte del E-Commerce');
 define('HEADER_SALES_TEXT', '<h1>Mensaje de Ventas aquí</h1>');
 define('HEADER_LOGO_WIDTH', '200px');
 define('HEADER_LOGO_HEIGHT', '70px');

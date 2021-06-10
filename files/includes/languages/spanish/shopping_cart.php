@@ -7,22 +7,22 @@
  * @version $Id: shopping_cart.php 3183 2006-03-14 07:58:59Z birdbrain $
  */
 
-define('NAVBAR_TITLE', 'Carro de Compra');
-define('HEADING_TITLE', 'Su carro de compra contiene:');
-define('HEADING_TITLE_EMPTY', 'Su carro de compra');
+define('NAVBAR_TITLE', 'Carro de la Compra');
+define('HEADING_TITLE', 'Su carro de la compra contiene:');
+define('HEADING_TITLE_EMPTY', 'Su carro de la compra');
 define('TEXT_INFORMATION', '');
 define('TABLE_HEADING_REMOVE', 'Quitar');
-define('TABLE_HEADING_QUANTITY', 'Cant.');
+define('TABLE_HEADING_QUANTITY', 'Cantidad');
 define('TABLE_HEADING_MODEL', 'Modelo');
 define('TABLE_HEADING_PRICE', 'Precio');
-define('TEXT_CART_EMPTY', 'Su carro de compra está vacía.');
+define('TEXT_CART_EMPTY', 'Su carro de la compra está vacío.');
 define('SUB_TITLE_SUB_TOTAL', 'Subtotal:');
 define('SUB_TITLE_TOTAL', 'Total:');
 
 define('OUT_OF_STOCK_CANT_CHECKOUT', 'Los productos marcados con ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' están agotados o no hay en suficiente cantidad para atender su pedido.<br />Por favor, modifique la cantidad de productos marcados con (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Gracias');
-define('OUT_OF_STOCK_CAN_CHECKOUT', 'Los productos marcados con ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' están agotados.<br />Dichos artículos serán puestos en un pedido de espera.');
+define('OUT_OF_STOCK_CAN_CHECKOUT', 'Los productos marcados con ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' están agotados.<br />Dichos productos serán puestos en un pedido de espera.');
 
-define('TEXT_TOTAL_ITEMS', 'Total de Artículos: ');
+define('TEXT_TOTAL_ITEMS', 'Total de productos: ');
 define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;Peso: ');
 define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;Cantidad: ');
 

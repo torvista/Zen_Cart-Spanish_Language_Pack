@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
 /**
  * @package admin
- * @copyright Copyright 2003-2009 Zen Cart Development Team
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: categories.php 14139 2009-08-10 13:46:02Z wilt $
+ * @version GIT: $Id: Author: DrByte  Tue Jan 22 03:36:04 2013 -0500 Modified in v1.5.2 $
  */
 
 define('HEADING_TITLE', 'Categorías / Productos');
@@ -25,7 +25,7 @@ define('TEXT_SUBCATEGORIES', 'Subcategorías:');
 define('TEXT_PRODUCTS', 'Productos:');
 define('TEXT_PRODUCTS_PRICE_INFO', 'Precio:');
 define('TEXT_PRODUCTS_TAX_CLASS', 'Clase de Impuesto:');
-define('TEXT_PRODUCTS_AVERAGE_RATING', 'Calificación promedio:');
+define('TEXT_PRODUCTS_AVERAGE_RATING', 'Calificación media:');
 define('TEXT_PRODUCTS_QUANTITY_INFO', 'Cantidad:');
 define('TEXT_DATE_ADDED', 'Agregado el:');
 define('TEXT_DATE_AVAILABLE', 'Fecha de disponibilidad:');
@@ -34,7 +34,7 @@ define('TEXT_IMAGE_NONEXISTENT', 'LA IMAGEN NO EXISTE');
 define('TEXT_NO_CHILD_CATEGORIES_OR_PRODUCTS', 'Por favor, introduzca una nueva categoría o producto en este nivel.');
 define('TEXT_PRODUCT_MORE_INFORMATION', 'Por favor, para más información visite la <a href="http://%s" target="blank">web oficial</a> de este producto.');
 define('TEXT_PRODUCT_DATE_ADDED', 'Este producto fue introducido en nuestro catálogo el %s.');
-define('TEXT_PRODUCT_DATE_AVAILABLE', 'Este producto permanecerá en stock el %s.');
+define('TEXT_PRODUCT_DATE_AVAILABLE', 'Este producto estará en stock el %s.');
 
 define('TEXT_EDIT_INTRO', 'Por favor, realice los cambios necesarios');
 define('TEXT_EDIT_CATEGORIES_ID', 'ID de categoría:');
@@ -57,7 +57,7 @@ define('TEXT_DELETE_CATEGORY_INTRO', '¿Está seguro que desea eliminar esta cat
 define('TEXT_DELETE_CATEGORY_INTRO_LINKED_PRODUCTS', '<strong>Precaución:</strong> No es posible gestionar correctamente los precios de los Productos Vinculados cuya Categoría Maestra ha sido borrada. Si quiere borrar una categoría que contiene productos que han sido vinculados, es necesario cambiar su Categoría Maestra a otra categoría ANTES de borrar la categoría');
 define('TEXT_DELETE_PRODUCT_INTRO', '¿Está seguro que desea eliminar permanentemente este producto?');
 
-define('TEXT_DELETE_WARNING_CHILDS', '<b>ADVERTENCIA:</b> ¡Hay %s categorías(-hijo) que siguen vinculadas a esta categoría!'); //REVISAR 
+define('TEXT_DELETE_WARNING_CHILDS', '<b>ADVERTENCIA:</b> ¡Hay %s (sub)categorías que siguen vinculadas a esta categoría!');
 define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> ¡Hay %s productos que siguen vinculados a esta categoría!');
 
 define('TEXT_MOVE_PRODUCTS_INTRO', 'Por favor, seleccione la categoría en que desea que esté <b>%s</b>');
@@ -99,7 +99,7 @@ define('TEXT_PRODUCTS_WEIGHT', 'Peso del producto:');
 
 define('EMPTY_CATEGORY', 'Categoría vacía');
 
-define('TEXT_HOW_TO_COPY', 'Copiar método:'); //REVISAR
+define('TEXT_HOW_TO_COPY', 'Método de Copiar:');
 define('TEXT_COPY_AS_LINK', 'Vincular producto');
 define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
 
@@ -125,8 +125,8 @@ define('ERROR_CANNOT_ADD_PRODUCT_TYPE','El tipo de producto especificado no pued
 
   define('TEXT_COPY_ATTRIBUTES_CONDITIONS', '<strong>¿Cómo deberían manipularse los atributos de productos existentes?</strong>');
   define('TEXT_COPY_ATTRIBUTES_DELETE', 'Primero <strong>borre</strong>, luego copie los nuevos atributos');
-  define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Actualice</strong> con nuevas configuraciones/precios, luego agregue otros');
-  define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Ignorar</strong> y agregar sólo los nuevos atributos');
+  define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Actualice</strong> con nuevas configuraciones/precios, luego añada otros');
+  define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Ignorar</strong> y añadir sólo los nuevos atributos');
 
   define('SUCCESS_ATTRIBUTES_DELETED', 'Atributos eliminados correctamente');
   define('SUCCESS_ATTRIBUTES_UPDATE', 'Atributos actualizados correctamente');
@@ -135,11 +135,6 @@ define('ERROR_CANNOT_ADD_PRODUCT_TYPE','El tipo de producto especificado no pued
 
   define('TEXT_CATEGORIES_IMAGE_DIR', 'Subir al directorio:');
   define('TEXT_CATEGORIES_IMAGE_MANUAL', '<strong>O seleccione una imagen del servidor. Nombre del fichero:</strong>');
-
-  define('TEXT_VIRTUAL_PREVIEW', 'Advertencia: Este producto fue marcado para Envío Gratis y sin dirección de envío');
-  define('TEXT_VIRTUAL_EDIT', 'Advertencia: Este producto fue marcado para Envío Gratis y sin dirección de envío');
-  define('TEXT_FREE_SHIPPING_PREVIEW', 'Advertencia: Este producto fue marcado para Envío Gratis, con dirección de envío');
-  define('TEXT_FREE_SHIPPING_EDIT', 'Advertencia: Sí, marcar este producto como Envío Gratis, con dirección de envío');
 
   define('TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW', 'Advertencia: No mostrar el cuadro de cantidad, Cant. por defecto 1');
   define('TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT', 'Advertencia: No mostrar el cuadro de cantidad, Cant. por defecto 1');
@@ -162,14 +157,13 @@ define('ERROR_CANNOT_ADD_PRODUCT_TYPE','El tipo de producto especificado no pued
 
   define('TEXT_PRODUCTS_MIXED', 'Cant. Mín/Unidad combinada del producto:');
 
-  define('PRODUCTS_PRICE_IS_FREE_TEXT', 'El producto es gratuito');
   define('TEXT_PRODUCT_IS_FREE', 'El producto es gratuito:');
-  define('TEXT_PRODUCTS_IS_FREE_PREVIEW', '*El producto fue marcado como GRATUITO');
-  define('TEXT_PRODUCTS_IS_FREE_EDIT', '*El producto fue marcado como GRATUITO');
+  define('TEXT_PRODUCTS_IS_FREE_PREVIEW', '*El producto está marcado como GRATUITO');
+  define('TEXT_PRODUCTS_IS_FREE_EDIT', '*El producto está marcado como GRATUITO');
 
-  define('TEXT_PRODUCT_IS_CALL', 'El producto está como Pedir Precio:');
-  define('TEXT_PRODUCTS_IS_CALL_PREVIEW', '*El producto fue marcado como PEDIR PRECIO');
-  define('TEXT_PRODUCTS_IS_CALL_EDIT', '*El produco fue marcado como PEDIR PRECIO');
+  define('TEXT_PRODUCT_IS_CALL', 'El producto es Pedir Precio:');
+  define('TEXT_PRODUCTS_IS_CALL_PREVIEW', '*El producto está marcado como PEDIR PRECIO');
+  define('TEXT_PRODUCTS_IS_CALL_EDIT', '*El producto está marcado como PEDIR PRECIO');
 
   define('TEXT_ATTRIBUTE_COPY_SKIPPING', '<strong>Saltar nuevos atributos</strong> ');
   define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Agregando nuevos atributos desde</strong> ');
@@ -199,7 +193,6 @@ define('TEXT_PRODUCTS_STATUS_ON_OF',' de ');
 define('TEXT_PRODUCTS_STATUS_ACTIVE',' activo ');
 
 define('TEXT_CATEGORIES_DESCRIPTION', 'Descripción de categorías:');
-define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT', 'El producto es Pedir Precio');
 
 // Metatags
   define('TEXT_INFO_HEADING_EDIT_CATEGORY_META_TAGS', 'Definiciones de los Metas Tags de las Categorías');

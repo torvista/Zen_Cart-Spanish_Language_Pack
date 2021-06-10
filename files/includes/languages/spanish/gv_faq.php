@@ -33,17 +33,17 @@ define('TEXT_INFORMATION', '<a name="Top"></a>
 switch ($_GET['faq_item']) {
   case '1':
 define('SUB_HEADING_TITLE', 'Comprando ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT', 'Los ' . TEXT_GV_NAMES . ' se compran como cualquier otro artículo de nuestra tienda. Los puede
+define('SUB_HEADING_TEXT', 'Los ' . TEXT_GV_NAMES . ' se compran como cualquier otro producto de nuestra tienda. Los puede
 pagar usando los métodos de pago estándar de la tienda.
-Una vez que lo haya adquirido, el valor del ' . TEXT_GV_NAME . ' se sumará a su Cuenta de
-  ' . TEXT_GV_NAME . ' personal. Si usted tiene fondos en su Cuenta de ' . TEXT_GV_NAME . ', notará
+Una vez que lo haya adquirido, el valor del ' . TEXT_GV_NAME . ' se sumará a su cuenta de
+  ' . TEXT_GV_NAME . ' personal. Si usted tiene fondos en su cuenta de ' . TEXT_GV_NAME . ', comprobará
   que la cantidad ahora se muestra en el Carro de Compras, y también se mostrará un 
   enlace a la página donde podrá enviar el ' . TEXT_GV_NAME . ' a alguien por email.');
   break;
   case '2':
 define('SUB_HEADING_TITLE', 'Cómo enviar ' . TEXT_GV_NAMES);
 define('SUB_HEADING_TEXT', 'Para enviar un ' . TEXT_GV_NAME . ' necesitará ir a nuestra Página de Enviar ' . TEXT_GV_NAME . '. Puede
-  encontrar el link a esta página en el Cuadro del Carro de Compras en la columna derecha de cada página.
+  encontrar el link a esta página en el Cuadro del Carro de la Compra en la columna derecha de cada página.
   Cuando usted envía un ' . TEXT_GV_NAME . ', necesita especificar la siguiente información.
   El nombre de la persona a la que le está enviando el  ' . TEXT_GV_NAME . '.
   El email de la persona a la que le está enviando el  ' . TEXT_GV_NAME . '.
@@ -62,7 +62,7 @@ define('SUB_HEADING_TEXT', 'Para enviar un ' . TEXT_GV_NAME . ' necesitará ir a
   Por favor, tenga en cuenta que igual tendrá que seleccionar otro método de pago si no
   hay dinero suficiente en su Cuenta de ' . TEXT_GV_NAME . ' para cubrir el costo de su compra.
   Si tiene más fondos en su Cuenta de ' . TEXT_GV_NAME . ' que el costo total de
-  su compra, la diferencia será mantenida en su Cuenta de ' . TEXT_GV_NAME . ' para el
+  su compra, la diferencia será mantenida en su cuenta de ' . TEXT_GV_NAME . ' para el
   futuro.');
   break;
   case '4':
@@ -79,7 +79,7 @@ define('SUB_HEADING_TEXT', 'Para enviar un ' . TEXT_GV_NAME . ' necesitará ir a
 	2. Durante el pago, en la misma página en la que elije un método de pago
 habrá un recuadro para ingresar un ' . TEXT_GV_REDEEM . '. Ingrese el ' . TEXT_GV_REDEEM . ' aquí, y
 pulse el botón de canjear. El código será
- validado y sumado a su cuenta ' . TEXT_GV_NAME . '. Usted podrá entonces usar esa cantidad para comprar cualquier artículo de nuestra tienda.');
+ validado y sumado a su cuenta ' . TEXT_GV_NAME . '. Usted podrá entonces usar esa cantidad para comprar cualquier producto de nuestra tienda.');
   break;
   case '5':
   define('SUB_HEADING_TITLE', 'Cuando hay problemas');
@@ -93,6 +93,6 @@ pulse el botón de canjear. El código será
 
   }
 
-  define('TEXT_GV_REDEEM_INFO', 'Por favor, ingrese el' . TEXT_GV_NAME . ' código: ');
+  define('TEXT_GV_REDEEM_INFO', 'Por favor, ingrese el código del ' . TEXT_GV_NAME . ': ');
   define('TEXT_GV_REDEEM_ID', 'Código:');
 ?>

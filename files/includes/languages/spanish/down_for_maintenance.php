@@ -24,7 +24,7 @@
 define('NAVBAR_TITLE', 'En mantenimiento');
 define('HEADING_TITLE', 'En mantenimiento...');
 define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', 'Actualmente la tienda no está operativa, contáctenos directamente');
-define('TEXT_MAINTENANCE_ON_AT_TIME', 'Hay tareas de mantenimiento programado para: ');
+define('TEXT_MAINTENANCE_ON_AT_TIME', 'Hay tareas de mantenimiento programadas para: ');
 define('TEXT_MAINTENANCE_PERIOD', 'Periodo de mantenimiento: ');
 define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', 'Para verificar el estado del sitio... Pulse aquí:');
 ?>

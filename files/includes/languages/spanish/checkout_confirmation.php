@@ -8,9 +8,9 @@
  */
 
 define('NAVBAR_TITLE_1', 'Comprar');
-define('NAVBAR_TITLE_2', 'Comprar - Paso 3 - Confirmación');
+define('NAVBAR_TITLE_2', 'Paso 3 de 3 - Confirmación del Pedido');
 
-define('HEADING_TITLE', 'Comprar - Paso 3 de 3 - Confirmación del pedido');
+define('HEADING_TITLE', 'Paso 3 de 3 - Confirmación del Pedido');
 
 define('HEADING_BILLING_ADDRESS', 'Dirección de facturación');
 define('HEADING_DELIVERY_ADDRESS', 'Dirección de entrega');

@@ -28,7 +28,7 @@ define('TEXT_ALL_CATEGORIES', 'Todos las Categorías');
 define('MAX_DISPLAY_RESTRICT_ENTRIES', 20);
 define('TEXT_ALL_PRODUCTS_ADD', 'Añade Todos los Productos de la Categoría');
 define('TEXT_ALL_PRODUCTS_REMOVE', 'Quitar Todos los Productos de la Categoría');
-define('TEXT_INFO_ADD_DENY_ALL', '<strong>Al Añadir Todos los Productos, solamente se añadirán los productos que no tengan actualmente ninguna restricción.<br />Al seleccionar Quitar Todos los Productos, solamente se quitarán los productos para los que se especificado Denegado o Permitido.</strong>');
+define('TEXT_INFO_ADD_DENY_ALL', '<strong>Al Añadir Todos los Productos, solamente se añadirán los productos que no tengan actualmente ninguna restricción.<br />Al seleccionar Quitar Todos los Productos, solamente se quitarán los productos para los que se ha especificado Denegado o Permitido.</strong>');
 
 define('TEXT_MANUFACTURER', 'Fabricante: ');
 define('TEXT_CATEGORY', 'Categoría: ');

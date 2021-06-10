@@ -1,14 +1,14 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
 /**
  * @package admin
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2012 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: store_manager.php 19689 2011-10-04 15:51:25Z drbyte $
+ * @version GIT: $Id: Author: DrByte  Mon Sep 24 14:38:59 2012 -0400 Modified in v1.5.2 $
  */
 
   define('HEADING_TITLE', 'Administración de tienda');
-  define('TABLE_CONFIGURATION_TABLE', 'Buscar definiciones CONSTANTES');
+  define('TABLE_CONFIGURATION_TABLE', 'Buscar definiciones de CONSTANTS');
 
   define('SUCCESS_PRODUCT_UPDATE_SORT_ALL', 'Actualización <strong>exitosa</strong> para la ordenación de atributos');
   define('SUCCESS_PRODUCT_UPDATE_PRODUCTS_PRICE_SORTER', 'Actualización <strong>exitosa</strong> para los valores de ordenación de precios de productos');
@@ -30,11 +30,11 @@
   define('TEXT_INFO_SET_NEXT_ORDER_NUMBER', '<strong>Define el próximo número de pedido</strong><br />NOTA: No se puede poner un número menor que un pedido existente en la base de datos.');
   define('TEXT_MSG_NEXT_ORDER', 'El próximo número de pedido será %s');
   define('TEXT_MSG_NEXT_ORDER_MAX', 'A resulta que un pedido ya en marcha, the próximo número de pedido es actualmente: %s');
-  define('TEXT_MSG_NEXT_ORDER_TOO_LARGE', 'No se puede poner el próximo número de pedido mayor que 2000000000 (es una limitación de la base de datos). Eliga un número menor.');
+  define('TEXT_MSG_NEXT_ORDER_TOO_LARGE', 'No se puede poner el próximo número de pedido mayor que 2000000000 (es una limitación de la base de datos). Elija un número menor.');
 
   define('TEXT_CONFIGURATION_CONSTANT', '<strong>Buscar CONSTANTES definiciones de archivos de idioma</strong>');
   define('TEXT_CONFIGURATION_KEY', 'Clave o nombre:');
-  define('TEXT_INFO_CONFIGURATION_UPDATE', '<strong>NOTA:</strong> las CONSTANTES están escritas en mayúscula.<br />Las búsquedas de archivos de idioma pueden ser una búsqueda alternativa cuando no se encuentra nada en las tablas de la base de datos.');
+  define('TEXT_INFO_CONFIGURATION_UPDATE', '<strong>NOTA:</strong> las CONSTANTES están escritas en mayúsculas.<br />Las búsquedas de archivos de idioma pueden ser una búsqueda alternativa cuando no se encuentra nada en las tablas de la base de datos.');
 
 
   define('TEXT_CONFIGURATION_CONSTANT_FILES', '<strong>Buscar en definiciones de archivos de idiomas</strong>');
@@ -63,5 +63,5 @@
   define('TEXT_INFO_OPTIMIZING_DATABASE_TABLES', 'Optimización de la base de datos está en marcha. Puede tardar unos minutos. Espera por favor. El menu anterior aparecerá cuando este terminado ... ');
   define('SUCCESS_DB_OPTIMIZE', 'Optimización de la base de datos - Tablas procesadas: ');
 
-  define('TEXT_INFO_PURGE_DEBUG_LOG_FILES', '<strong>Borrar archivos Debug</strong><br /><strong>¡Precaución!: </strong>Zen Cart archiva los mensaje de errores PHP para ayudar en la búsqueda de problemas, y muchos de los módulos de pago puede crear archivos log para diagnosticar problemas de comunicación.<br />Esta función borrará *TODOS* los archivos debug asociados con errores PHP y los módulos de pago de la carpetas /cache/, /logs/ y /includes/modules/payment/paypal/logs/.');
+  define('TEXT_INFO_PURGE_DEBUG_LOG_FILES', '<strong>Borrar archivos Debug</strong><br /><strong>¡Precaución!: </strong>Zen Cart archiva los mensaje de errores PHP para ayudar en la búsqueda de problemas, y muchos de los módulos de pago puede crear archivos log para diagnosticar problemas de comunicación.<br />Esta función borrará *TODOS* los archivos debug asociados con errores PHP y los módulos de pago de la carpeta /logs.');
   define('SUCCESS_CLEAN_DEBUG_FILES', 'Los archivos debug han sido borrados.');

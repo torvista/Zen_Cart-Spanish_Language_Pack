@@ -35,14 +35,14 @@ define('TEXT_LAST_MODIFIED', 'Última modificación:');
 define('TEXT_PRODUCTS', 'Productos:');
 define('TEXT_PRODUCTS_IMAGE_DIR', 'Subir al directorio:');
 define('TEXT_IMAGE_NONEXISTENT', 'LA IMAGEN NO EXISTE');
-define('TEXT_MANUFACTURERS_IMAGE_MANUAL', '<strong>O, elige un imagen que ya existe en el servidor, nombre:</strong>');
+define('TEXT_MANUFACTURERS_IMAGE_MANUAL', '<strong>O, elija un imagen que ya exista en el servidor, nombre:</strong>');
 
 define('TEXT_NEW_INTRO', 'Por favor, complete la siguiente información para el nuevo fabricante');
 define('TEXT_EDIT_INTRO', 'Por favor, haga los cambios necesarios');
 
 define('TEXT_MANUFACTURERS_NAME', 'Nombre del fabricante:');
 define('TEXT_MANUFACTURERS_IMAGE', 'Imagen del fabricante:');
-define('TEXT_MANUFACTURERS_URL', 'URL del fabricante:<br /> (incluya la http://)');
+define('TEXT_MANUFACTURERS_URL', 'URL del fabricante:<br /> (incluya http://)');
 
 define('TEXT_DELETE_INTRO', '¿Seguro que desea eliminar este fabricante?');
 define('TEXT_DELETE_IMAGE', '¿Eliminar imagen de los fabricantes?');

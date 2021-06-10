@@ -42,7 +42,7 @@ define('TEXT_BANNER_IMAGE_TARGET_INFO', '<strong>Directorio de destino:</strong>
 define('TEXT_BANNERS_HTML_TEXT_INFO', '<strong>NOTA: Los banners HTML no graban los clicks en el banner</strong>');
 define('TEXT_BANNERS_HTML_TEXT', 'Texto HTML:');
 define('TEXT_BANNERS_ALL_SORT_ORDER', 'Ordenación - banner_box_all');
-define('TEXT_BANNERS_ALL_SORT_ORDER_INFO', '<strong>NOTA: El banners_box_all sidebox mostrará los banners en su orden predeterminado</strong>');
+define('TEXT_BANNERS_ALL_SORT_ORDER_INFO', '<strong>NOTA: recuadro banners_box_all mostrará los banners en su orden predeterminado</strong>');
 define('TEXT_BANNERS_EXPIRES_ON', 'Caduca el:');
 define('TEXT_BANNERS_OR_AT', ', o en');
 define('TEXT_BANNERS_IMPRESSIONS', 'impresiones/vistas.');
@@ -74,7 +74,7 @@ define('TEXT_BANNERS_BANNER_CLICKS', 'Clicks del banner');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desear eliminar este banner?');
 define('TEXT_INFO_DELETE_IMAGE', 'Eliminar imagen del banner');
 
-define('SUCCESS_BANNER_INSERTED', 'Listo: El banner fue agregado.');
+define('SUCCESS_BANNER_INSERTED', 'Listo: El banner fue añadido.');
 define('SUCCESS_BANNER_UPDATED', 'Listo: El banner fue actualizado.');
 define('SUCCESS_BANNER_REMOVED', 'Listo: El banner fue eliminado.');
 define('SUCCESS_BANNER_STATUS_UPDATED', 'Listo: El estado del banner fue actualizado.');

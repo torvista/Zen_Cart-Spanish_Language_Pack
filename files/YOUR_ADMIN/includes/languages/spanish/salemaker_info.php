@@ -43,21 +43,21 @@ define('INFO_TEXT', '<ul>
 						<ul>
                           <li>
                             <strong>Ignorar Precios de Oferta: Aplicar al Precio del Producto y Reemplazar la Oferta</strong><br>
-							La rebaja será aplicada al precio regular del producto.
+							La rebaja será aplicada al precio normal del producto.
                             (ej: el precio regular es $10.00, el precio de oferta es $9.50, la condición de rebaja es del 10%.
 							El precio final del producto será $9.00 en la rebaja. Los pecios de Oferta son ignorados.)
                           </li>
                           <li>
                             <strong>Ignorar Condición de Rebaja: No Aplicar Rebaja Cuando Existan Ofertas</strong><br>
                             La rebaja no se aplicará a las Ofertas. Los precios de Oferta se mostrarán como
-                            si no hubiera una rebaja definida. (ej: el precio regular es $10.00, el precio de ofreta es $9.50,
+                            si no hubiera una rebaja definida. (ej: el precio normal es $10.00, el precio de ofreta es $9.50,
                             la condición de rebaja es del 10%. El precio final del producto será $9.50 en la rebaja.
                             La Condición de Rebaja es ignorada.)
                           </li>
                           <li>
-                            <strong>Aplicar Rebaja a los Precios en Oferta: O si no, Aplicar al Precio</strong><br>
+                            <strong>Aplicar Rebaja a los precios en Oferta: O si no, Aplicar al Precio</strong><br>
                             La rebaja será aplicada al precio en Oferta. Se mostrará un precio combinado.
-                            (ej: el precio regular es $10.00, el precio de oferta es $9.50, la condición de oferta es del 10%. El
+                            (ej: el precio normal es $10.00, el precio de oferta es $9.50, la condición de oferta es del 10%. El
                             precio final del producto será $8.55. Un descuento adicional del 10% sobre el precio de Oferta.)
                           </li>
                         </ul>

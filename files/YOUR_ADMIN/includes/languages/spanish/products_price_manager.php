@@ -6,7 +6,7 @@
  * @version $Id: products_price_manager.php 18695 2011-05-04 05:24:19Z drbyte $
  */
 
-define('HEADING_TITLE', 'Administración de Precios de Productos');
+define('HEADING_TITLE', 'Gestor de Precios de Productos');
 define('HEADING_TITLE_PRODUCT_SELECT','Por favor, seleccione una categoría con productos para mostrar la información de precios de ...');
 
 define('TABLE_HEADING_PRODUCTS', 'Productos');
@@ -36,13 +36,13 @@ define('TEXT_PRODUCT_INFO_NONE', 'Por favor, seleccione un producto de arriba ..
   define('TEXT_PRODUCT_IS_PRICED_BY_ATTRIBUTE','Sí');
   define('TEXT_PRODUCT_NOT_PRICED_BY_ATTRIBUTE','No');
   define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT','<br />*El precio mostrado incluría el precio más bajo de atributos de grupo más el precio');
-  define('TEXT_PRODUCTS_MIXED','Cant. Min/Mezcla de unidades:');
-  define('TEXT_PRODUCTS_MIXED_DISCOUNT_QUANTITY', 'Descuento de cant. se aplica a atributos mezclados');
+  define('TEXT_PRODUCTS_MIXED','Combinación cantidad mínima/unidades:');
+  define('TEXT_PRODUCTS_MIXED_DISCOUNT_QUANTITY', 'Descuento por cantidad se aplica a atributos combinados');
 
-  define('TEXT_PRODUCTS_QUANTITY_MIN_RETAIL','Cantidad Min:');
-  define('TEXT_PRODUCTS_QUANTITY_UNITS_RETAIL','Unidades de Cantidad:');
-  define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL','Cant. Max:');
-  define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL_EDIT','0= Ilimitado<br />1= Sin caja de Cant./Valor máximo');
+  define('TEXT_PRODUCTS_QUANTITY_MIN_RETAIL','Cantidad mínima:');
+  define('TEXT_PRODUCTS_QUANTITY_UNITS_RETAIL','Unidades de cantidad:');
+  define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL','Cantidad máxima:');
+  define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL_EDIT','0= Ilimitado<br />1= Sin caja de cantidad/valor máximo');
 
 define('TEXT_FEATURED_PRODUCT_INFO', 'Información de Producto Destacado:');
 define('TEXT_FEATURED_PRODUCT', 'Producto:');
@@ -51,8 +51,8 @@ define('TEXT_FEATURED_AVAILABLE_DATE', 'Fecha de Disponibilidad:');
 define('TEXT_FEATURED_PRODUCTS_STATUS', 'Estado Destacado:');
 define('TEXT_FEATURED_PRODUCT_AVAILABLE', 'Activo');
 define('TEXT_FEATURED_PRODUCT_NOT_AVAILABLE', 'Inactivo');
-define('TEXT_FEATURED_DISABLED', '<strong>NOTA: La información de Producto Destacado está desactivada, caducada, o todavía no activa actualmente</strong>');
-define('TEXT_FEATURED_CONFIRM_DELETE', 'Confirme que quiere borrar el estatus de Destacado asociado de este producto');
+define('TEXT_FEATURED_DISABLED', '<strong>NOTA: La información de Producto Destacado está desactivada, caducada, o todavía no activa.</strong>');
+define('TEXT_FEATURED_CONFIRM_DELETE', 'Confirme que quiere borrar el estado de Destacado asociado de este producto');
 
 define('TEXT_SPECIALS_PRODUCT', 'Producto:');
 define('TEXT_SPECIALS_SPECIAL_PRICE', 'Precio Especial:');
@@ -64,8 +64,8 @@ define('TEXT_SPECIALS_PRODUCTS_STATUS', 'Estado especial:');
 define('TEXT_SPECIALS_PRODUCT_AVAILABLE', 'Activo');
 define('TEXT_SPECIALS_PRODUCT_NOT_AVAILABLE', 'Inactivo');
 define('TEXT_SPECIALS_NO_GIFTS','Sin especiales en CD');
-define('TEXT_SPECIAL_DISABLED', '<strong>NOTA: Los Productos Especiales están desactivados, caducados, o todavía no activos actualmente.</strong>');
-define('TEXT_SPECIALS_CONFIRM_DELETE', 'Confirme que quiere borrar la Oferta asociado de este producto');
+define('TEXT_SPECIAL_DISABLED', '<strong>NOTA: Los Productos Especiales están desactivados, caducados, o todavía no activos.</strong>');
+define('TEXT_SPECIALS_CONFIRM_DELETE', 'Confirme que quiere borrar la Oferta asociada a este producto');
 
 define('TEXT_INFO_DATE_ADDED', 'Añadido el:');
 define('TEXT_INFO_LAST_MODIFIED', 'Última modificación:');
@@ -88,7 +88,7 @@ define('TEXT_INFO_DELETE_INTRO', '¿Estás seguro de que deseas borrar el Produc
   define('TEXT_FREE', 'GRATIS');
   define('TEXT_CALL_FOR_PRICE', 'Pedir Precio');
 
-define('TEXT_ADD_ADDITIONAL_DISCOUNT', 'Añadir ' . DISCOUNT_QTY_ADD . ' Descientas de cant. en blanco:');
+define('TEXT_ADD_ADDITIONAL_DISCOUNT', 'Añadir ' . DISCOUNT_QTY_ADD . ' descuentos de cantidad en blanco:');
 define('TEXT_BLANKS_INFO','Todos los descuentos de cantidad 0 serán borrados al actualizar');
 define('TEXT_INFO_NO_DISCOUNTS', 'No se han definido descuentos de cantidad');
 define('TEXT_PRODUCTS_DISCOUNT_QTY_TITLE', 'Niveles de descuento');
@@ -102,11 +102,11 @@ define('TEXT_PRODUCTS_DISCOUNT_PRICE_EXTENDED','Precio extendido:');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EACH_TAX','Calcular<br />Precio: &nbsp; Impuestos:');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EXTENDED_TAX','Precio<br />extendido: &nbsp; Impuestos:');
 
-define('TEXT_EACH','ea.');
+define('TEXT_EACH','cada');
 define('TEXT_EXTENDED','total');
 
 define('TEXT_DISCOUNT_TYPE_INFO', 'Información de descuento de producto');
-define('TEXT_DISCOUNT_TYPE','Tipo dedescuento:');
+define('TEXT_DISCOUNT_TYPE','Tipo descuento:');
 define('TEXT_DISCOUNT_TYPE_FROM', 'Descuento calculado desde:');
 
 define('DISCOUNT_TYPE_DROPDOWN_0','Ninguno');
@@ -121,13 +121,13 @@ define('TEXT_UPDATE_COMMIT','Actualizar y realizar todos los cambios para la pan
 
 define('TEXT_PRODUCTS_TAX_CLASS', 'Clase de impuesto:');
 
-define('TEXT_INFO_MASTER_CATEGORIES_ID_WARNING', '<strong>Atención:</strong> ¡El ID de la Categoría Maestra de producto número %s no concuerda con el ID de categoría actual %s y el producto no está enlazado!');
-define('TEXT_INFO_MASTER_CATEGORIES_CURRENT', ' El ID de la categoría actual %s coincide con el ID de Categoría Maestra %s');
+define('TEXT_INFO_MASTER_CATEGORIES_ID_WARNING', '<strong>Atención:</strong> ¡El ID de la categoría maestra de producto número %s no concuerda con el ID de categoría actual %s y el producto no está enlazado!');
+define('TEXT_INFO_MASTER_CATEGORIES_CURRENT', ' El ID de la categoría actual %s coincide con el ID de categoría maestra %s');
 define('TEXT_INFO_MASTER_CATEGORIES_ID_UPDATE_TO_CURRENT', 'Actualizar el ID de Categoría Maestra %s para que coincida con el de la categoría actual %s');
 
 define('PRODUCT_WARNING_UPDATE', 'Por favor, realice los cambios y presione actualizar para guardarlos');
 define('PRODUCT_UPDATE_SUCCESS', '¡Actualización de cambios de producto exitosa!');
 define('PRODUCT_WARNING_UPDATE_CANCEL', 'Los cambios fueron cancelados y no se guardaron ...');
-define('TEXT_INFO_EDIT_CAUTION', '<strong>Clic para comenzar a editar ...</strong>');
+define('TEXT_INFO_EDIT_CAUTION', '<strong>Pulse para comenzar a editar ...</strong>');
 define('TEXT_INFO_PREVIEW_ONLY', 'Sólo vista previa ... Estado actual de precio ... Sólo vista previa');
 define('TEXT_INFO_UPDATE_REMINDER', '<strong>Edite la información de producto y luego Actualizar para guardarla</strong>');

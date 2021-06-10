@@ -19,8 +19,8 @@ define('GLOBAL_NOTIFICATIONS_TITLE', 'Alerta global de productos');
 define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'Recibir alertas de todos los productos disponibles.');
 
 define('NOTIFICATIONS_TITLE', 'Alerta de Productos');
-define('NOTIFICATIONS_DESCRIPTION', 'Para quitar una alerta de un producto, desmarcar las casillas de los productos y pulse en Actualizar.');
-define('NOTIFICATIONS_NON_EXISTING', 'Actualmente no hay productos marcados para notificación.<br /><br />Para agregar productos a su lista de alertas, pulse sobre el enlace de alertas disponible en la información detallada de dicho producto.');
+define('NOTIFICATIONS_DESCRIPTION', 'Para quitar una alerta de un producto, desmarque las casillas de los productos y pulse en Actualizar.');
+define('NOTIFICATIONS_NON_EXISTING', 'Actualmente no hay productos marcados para notificación.<br /><br />Para añadir productos a su lista de alertas, pulse sobre el enlace de alertas disponible en la información detallada de dicho producto.');
 define('TEXT_NO_PURCHASES', 'Sin Compras');
 
 define('SUCCESS_NOTIFICATIONS_UPDATED', 'Sus alertas de productos han sido actualizadas satisfactoriamente.');

@@ -43,7 +43,7 @@ define('TEXT_DATE_ADDED', 'Añadido el:');
 define('TEXT_LAST_MODIFIED', 'Fecha de modificación:');
 define('TEXT_CUSTOMERS', 'Clientes en el grupo:');
 
-define('ERROR_GROUP_PRICING_CUSTOMERS_EXIST','ERROR: Clientes existen en ese grupo. Confirme que quiere quitar todos los miembros del group y borrarlo.');
-define('ERROR_MODULE_NOT_CONFIGURED','NOTA: Hay una definición de un precio de grupo, pero no está activado el módulo correspondiente del Total-Pedido.<br />Va a Admin->Módulos->Total de Pedido->Descuento por Grupo (ot_group_pricing) e instalar y configurar el módulo.');
+define('ERROR_GROUP_PRICING_CUSTOMERS_EXIST','ERROR: Existen clientes en este grupo. Confirme que quiere quitar todos los miembros del grupo y borrarlo.');
+define('ERROR_MODULE_NOT_CONFIGURED','NOTA: Hay definiciónes de precios de grupo, pero no está activado el módulo Descuento por Grupo.<br />Vaya a Admin->Módulos->Total de Pedido->Descuento por Grupo (ot_group_pricing) e instale y configure el módulo.');
 
 ?>

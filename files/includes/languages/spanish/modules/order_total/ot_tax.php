@@ -20,6 +20,6 @@
 // $Id: ot_tax.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Impuesto');
-  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Impuesto del pedido');
+  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Impuestos');
+  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Impuestos del pedido');
 ?>

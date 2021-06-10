@@ -12,7 +12,7 @@ define('NAVBAR_TITLE_2', 'Olvidó su contraseña');
 
 define('HEADING_TITLE', 'Olvidó su contraseña');
 
-define('TEXT_MAIN', 'Introduzca su email y le enviaremos un mensaje por correo electrónico con su nueva contraseña.');
+define('TEXT_MAIN', 'Introduzca su e-mail y le enviaremos un mensaje con su nueva contraseña.');
 
 define('TEXT_NO_EMAIL_ADDRESS_FOUND', 'Error: No hay ninguna cuenta con ese email, por favor, pruebe con otro.');
 

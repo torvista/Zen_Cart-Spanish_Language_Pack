@@ -11,7 +11,7 @@ define('TEXT_PRODUCT_NOT_FOUND', 'Lo sentimos, producto no encontrado.');
 define('TEXT_CURRENT_REVIEWS', 'Comentarios actuales:');
 define('TEXT_MORE_INFORMATION', 'Para más información, por favor, visite la <a href="%s" target="_blank">web oficial de este producto</a>.');
 define('TEXT_DATE_ADDED', 'Este producto se incorporó a nuestro catálogo el %s.');
-define('TEXT_DATE_AVAILABLE', 'Este producto permanecerá en stock el %s.');
+define('TEXT_DATE_AVAILABLE', 'Este producto estará disponible el %s.');
 define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Los clientes que compraron este producto, también compraron...');
 define('TEXT_PRODUCT_OPTIONS', 'Escoja, por favor:');
 define('TEXT_PRODUCT_MANUFACTURER', 'Fabricado por: ');

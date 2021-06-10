@@ -1,5 +1,5 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
-/** if you are reading this, you are the first to need this translated!ñ
+/** if you are reading this, you are the first to need this translated! Please contribute your translation. ñ
  * @package languageDefines
  * @copyright Copyright 2003-2010 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce

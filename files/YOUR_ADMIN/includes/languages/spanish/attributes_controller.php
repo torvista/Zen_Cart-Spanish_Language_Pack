@@ -22,8 +22,8 @@ define('TABLE_HEADING_ATTRIBUTES_PRICE_ONETIME', 'Una vez:');
 define('TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_ONETIME', 'Factor único: ');
 define('TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_OFFSET_ONETIME', 'Desviación: ');
 
-define('TABLE_HEADING_ATTRIBUTES_QTY_PRICES', 'Descuento por cant. de atributos:');
-define('TABLE_HEADING_ATTRIBUTES_QTY_PRICES_ONETIME', 'Descuentos únicos por cant. de atributos:');
+define('TABLE_HEADING_ATTRIBUTES_QTY_PRICES', 'Atributos de descuento por cantidad:');
+define('TABLE_HEADING_ATTRIBUTES_QTY_PRICES_ONETIME', 'Atributos de descuentos únicos por cantidad:');
 
 define('TABLE_HEADING_ATTRIBUTES_PRICE_WORDS', 'Precio por palabra:');
 define('TABLE_HEADING_ATTRIBUTES_PRICE_WORDS_FREE', '- Palabras gratis:');
@@ -49,11 +49,11 @@ define('TEXT_OK_TO_DELETE', 'Esta opción no tiene productos y valores vinculado
 define('TEXT_OPTION_ID', 'ID de Opción');
 define('TEXT_OPTION_NAME', 'Nombre de Opción');
 
-define('ATTRIBUTE_WARNING_DUPLICATE', 'Atributo duplicado - El atributo no fue agregado'); // attributes duplicate warning
+define('ATTRIBUTE_WARNING_DUPLICATE', 'Atributo duplicado - El atributo no fue añadido'); // attributes duplicate warning
 define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE', 'Atributo duplicado - El atributo no fue modificado'); // attributes duplicate warning
-define('ATTRIBUTE_WARNING_INVALID_MATCH', 'Opción de atributo y valor de atributo NO coinciden - El atributo no fue agregado'); // miss matched option and options value
+define('ATTRIBUTE_WARNING_INVALID_MATCH', 'Opción de atributo y valor de atributo NO coinciden - El atributo no fue añadido'); // miss matched option and options value
 define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE', 'Opción de atributo y valor de atributo NO coinciden - El atributo no fue modificado'); // miss matched option and options value
-define('ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE', 'Se agregó una posible duplicación de nombre de opción'); // Options Name Duplicate warning
+define('ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE', 'Se añadió una posible duplicación de nombre de opción'); // Options Name Duplicate warning
 define('ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE', 'Se Agregó una posible duplicación de valor de opción'); // Options Value Duplicate warning
 
 define('PRODUCTS_ATTRIBUTES_EDITING', 'EDITANDO'); // title
@@ -129,8 +129,8 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
 
   define('TEXT_COPY_ATTRIBUTES_CONDITIONS', '<strong>¿Cómo deberían manipularse los atributos de productos existentes?</strong>');
   define('TEXT_COPY_ATTRIBUTES_DELETE', 'Primero <strong>borre</strong>, luego copie los nuevos atributos');
-  define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Actualice</strong> con nuevas configuraciones/precios, luego agregue otros');
-  define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Ignorar</strong> y agregar sólo los nuevos atributos');
+  define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Actualice</strong> con nuevas configuraciones/precios, luego añada otros');
+  define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Ignorar</strong> y añadir sólo los nuevos atributos');
 
   define('SUCCESS_PRODUCT_UPDATE_SORT', 'Orden de atributos actualizado correctamente para ID# ');
   define('SUCCESS_PRODUCT_UPDATE_SORT_NONE', 'Sin atributos a los que actualizar el orden para ID# ');
@@ -149,9 +149,9 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
 // preview
   define('TEXT_ATTRIBUTES_PREVIEW', 'PREVISUALIZAR ATRIBUTOS');
   define('TEXT_ATTRIBUTES_PREVIEW_DISPLAY', 'PREVISUALIZAR MUESTRA DE ATRIBUTOS PARA ID#');
-  define('TEXT_PRODUCT_OPTIONS', '<strong>Por Favor, Elija:</strong>');
+  define('TEXT_PRODUCT_OPTIONS', '<strong>Por favor, elija:</strong>');
 
-  define('TEXT_ATTRIBUTES_INSERT_INFO', '<strong>Defina la configuración de los atributos y luego presione el botón Agregar</strong>');
+  define('TEXT_ATTRIBUTES_INSERT_INFO', '<strong>Defina la configuración de los atributos y luego presione el botón Insertar</strong>');
   define('TEXT_PRICED_BY_ATTRIBUTES', 'Precio asignado por atributos');
   define('TEXT_PRODUCTS_PRICE', 'Precio de productos: ');
   define('TEXT_SPECIAL_PRICE', 'Precio de oferta: ');
@@ -163,7 +163,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
   define('TEXT_INFO_ID', 'ID#');
   define('TEXT_INFO_ALLOW_ADD_TO_CART_NO', 'No añadir al carro');
 
-  define('TEXT_DELETE_ATTRIBUTES_OPTION_NAME_VALUES', 'Confirmar borrado de TODOS los valores de Opciones de Producto para la Opción Nombre ...');
+  define('TEXT_DELETE_ATTRIBUTES_OPTION_NAME_VALUES', 'Confirmar borrado de TODOS los Valores de Opciones del Producto para la Nombre de Opción ...');
   define('TEXT_INFO_PRODUCT_NAME', '<strong>Nombre Producto: </strong>');
   define('TEXT_INFO_PRODUCTS_OPTION_NAME', '<strong>Nombre Opción: </strong>');
   define('TEXT_INFO_PRODUCTS_OPTION_ID', '<strong>ID#</strong>');

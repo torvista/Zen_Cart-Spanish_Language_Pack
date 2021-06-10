@@ -8,8 +8,8 @@
  */
 
 define('HEADING_TITLE', 'Enviar ' . TEXT_GV_NAME);
-define('HEADING_TITLE_CONFIRM_SEND', 'Enviar ' . TEXT_GV_NAME . ' Confirmación');
-define('HEADING_TITLE_COMPLETED', TEXT_GV_NAME . ' Enviado');
+define('HEADING_TITLE_CONFIRM_SEND', 'Enviar confirmación del ' . TEXT_GV_NAME);
+define('HEADING_TITLE_COMPLETED', TEXT_GV_NAME . ' enviado');
 define('NAVBAR_TITLE', 'Enviar ' . TEXT_GV_NAME);
 define('EMAIL_SUBJECT', 'Mensaje de ' . STORE_NAME);
 define('HEADING_TEXT', 'Por favor, introduzca aquí debajo los detalles del ' . TEXT_GV_NAME . ' que desea enviar. Para más información, por favor, vea nuestro <a href="' . zen_href_link(FILENAME_GV_FAQ, '', 'NONSSL').'">' . GV_FAQ . '.</a>');

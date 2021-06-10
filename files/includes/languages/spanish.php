@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2014 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * from @version $Id: english.php 19690 2011-10-04 16:41:45Z drbyte $
+ * @version GIT: $Id: Author: ajeh  Modified in v1.5.4 $
  */
 
 // FOLLOWING WERE moved to meta_tags.php
@@ -14,9 +14,10 @@
 // END: moved to meta_tags.php
 
   define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Tienda Software:<a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+
 // look in your $PATH_LOCALE/locale directory for available locales..
-@setlocale(LC_TIME, 'es_ES.UTF8');//spanish, spain, unix
-@setlocale(LC_TIME, 'Spanish_Spain.1252');//spanish, spain, windows
+  $locales = array('es_ES.UTF8', 'es', 'Spanish_Spain.1252');
+  @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_SHORT', '%m/%d/%Y');  // this is used for strftime()
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
   define('DATE_FORMAT', 'm/d/Y'); // this is used for date()
@@ -49,16 +50,16 @@ define('HTML_PARAMS', 'dir="ltr" lang="es"');
 define('FOOTER_TEXT_REQUESTS_SINCE', 'páginas vistas desde');
 
 // Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
-  define('TEXT_GV_NAME', 'Vale de compra');
-  define('TEXT_GV_NAMES', 'Vales de compras');
+  define('TEXT_GV_NAME', 'Vale de Compra');
+  define('TEXT_GV_NAMES', 'Vales de Compra');
 
 // used for redeem code, redemption code, or redemption id
-  define('TEXT_GV_REDEEM', 'Código del Cupón de Descuento');
+  define('TEXT_GV_REDEEM', 'Código del Cupón');
 
 // used for redeem code sidebox
   define('BOX_HEADING_GV_REDEEM', TEXT_GV_NAME);
   define('BOX_GV_REDEEM_INFO', 'Código del cupón de descuento: ');
-  
+
 // text for gender
   define('MALE', 'Sr.');
   define('FEMALE', 'Sra.');
@@ -72,7 +73,7 @@ define('FOOTER_TEXT_REQUESTS_SINCE', 'páginas vistas desde');
   define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[todos]');
 
 // categories box text in sideboxes/categories.php
-  define('BOX_HEADING_CATEGORIES', 'Productos');
+  define('BOX_HEADING_CATEGORIES', 'Categorías');
 
 // manufacturers box text in sideboxes/manufacturers.php
   define('BOX_HEADING_MANUFACTURERS', 'Fabricantes');
@@ -116,12 +117,12 @@ define('FOOTER_TEXT_REQUESTS_SINCE', 'páginas vistas desde');
 
 // notifications box text in sideboxes/products_notifications.php
 define('BOX_HEADING_NOTIFICATIONS', 'Avisos');
-define('BOX_NOTIFICATIONS_NOTIFY', 'Avísenme cuando haya actualizaciones a <strong>%s</strong>');
-define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones a<strong>%s</strong>');
+define('BOX_NOTIFICATIONS_NOTIFY', 'Notifíquenme cuando haya actualizaciones de <strong>%s</strong>');
+define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones de <strong>%s</strong>');
 
 // manufacturer box text
-  define('BOX_HEADING_MANUFACTURER_INFO', 'Info. del fabricante');
-  define('BOX_MANUFACTURER_INFO_HOMEPAGE', 'Página Web de %s');
+  define('BOX_HEADING_MANUFACTURER_INFO', 'Info del fabricante');
+  define('BOX_MANUFACTURER_INFO_HOMEPAGE', 'Página web de %s');
   define('BOX_MANUFACTURER_INFO_OTHER_PRODUCTS', 'Otros productos');
 
 // languages box text in sideboxes/languages.php
@@ -171,7 +172,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('CATEGORY_CONTACT', 'Información de contacto');
   define('CATEGORY_OPTIONS', 'Opciones');
   define('CATEGORY_PASSWORD', 'Contraseña');
-  define('CATEGORY_LOGIN', 'Login/Registrar');
+  define('CATEGORY_LOGIN', 'Entrar/Registrarse');
   define('PULL_DOWN_DEFAULT', 'Seleccione su país');
   define('PLEASE_SELECT', 'Seleccione ...');
   define('TYPE_BELOW', 'Teclee una selección abajo ...');
@@ -267,11 +268,11 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('PREVNEXT_TITLE_LAST_PAGE', 'Ultima Página');
   define('PREVNEXT_TITLE_PAGE_NO', 'Página %d');
   define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Listado anterior de %d Páginas');
-  define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Siguiente listado  de %d Páginas');
+  define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Listado siguiente de %d Páginas');
   define('PREVNEXT_BUTTON_FIRST', '&lt;&lt;PRIMERA');
   define('PREVNEXT_BUTTON_PREV', '[&lt;&lt;&nbsp;Anterior]');
   define('PREVNEXT_BUTTON_NEXT', '[Siguiente&nbsp;&gt;&gt;]');
-  define('PREVNEXT_BUTTON_LAST', 'ULTIMA&gt;&gt;');
+  define('PREVNEXT_BUTTON_LAST', 'ÚLTIMA&gt;&gt;');
 
   define('TEXT_BASE_PRICE', 'Desde: ');
 
@@ -284,7 +285,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
 
   define('TEXT_REVIEW_BY', 'por %s');
   define('TEXT_REVIEW_WORD_COUNT', '%s palabras');
-  define('TEXT_REVIEW_RATING', 'Rating: %s [%s]');
+  define('TEXT_REVIEW_RATING', 'Valoración: %s [%s]');
   define('TEXT_REVIEW_DATE_ADDED', 'Fecha añadida: %s');
   define('TEXT_NO_REVIEWS', 'No hay comentarios de productos.');
 
@@ -295,14 +296,14 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('TEXT_REQUIRED', '<span class="errorText">Necesario</span>');
 
   define('WARNING_INSTALL_DIRECTORY_EXISTS', 'Advertencia de Seguridad: El directorio de la instalación existe en: %s. Por favor elimine este directorio por razones de seguridad.');
-  define('WARNING_CONFIG_FILE_WRITEABLE', 'Advertencia: Puedo escribir en el archivo de la configuración: %s. Esto es un potencial riesgo de seguridad - por favor fije los permisos de derechos del usuario en este archivo (read-only, CHMOD 644 o 444 por ejemplo). Puede necesitar utilizar el panel de control/gestión de archivos del servicio de alojamiento de su página para cambiar los permisos. Pida asistencia a su servicio de alojamiento. <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">Ver este FAQ</a>');
+  define('WARNING_CONFIG_FILE_WRITEABLE', 'Advertencia: Puedo escribir en el archivo de la configuración: %s. Esto es un potencial riesgo de seguridad - por favor fije los permisos de derechos del usuario en este archivo (sólo-lectura, CHMOD 644 o 444 por ejemplo). Puede necesitar utilizar el panel de control/gestión de archivos del servicio de alojamiento de su página para cambiar los permisos. Pida asistencia a su servicio de alojamiento. <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">Ver preguntas frecuentes</a>');
   define('ERROR_FILE_NOT_REMOVEABLE', 'Error: No es posible eliminar el archivo. Posiblemente tendrá que usar FTP para eliminarlo debido de limitaciones de la configuración de permisos en el servidor.');
   define('WARNING_SESSION_AUTO_START', 'Advertencia: session.auto_start está habilitado - inhabilite por favor esta característica del php en php.ini y reinicie el servidor.');
   define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Advertencia: El directorio para descargar los productos no existe: ' . DIR_FS_DOWNLOAD . '. Los productos descargables no trabajarán hasta que este directorio sea válido.');
   define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Advertencia: El directorio del cache SQL no existe: ' . DIR_FS_SQL_CACHE . '. SQL cache no podrá funcionar hasta que el directorio sea creado.');
   define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Advertencia: No se puede escribir en el directorio SQL cache: ' . DIR_FS_SQL_CACHE . '. SQL cache no podrá funcionar hasta que los permisos del usuario sean establecidos.');
   define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'La versión de su base de datos parece demasiado antiguo, se necesita actualizarlo. Ver Admin->Herramientas->Info. del Servidor para revisar el nivel de actualización.');  
-  define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'AVISO: No se podía localizar el archivo del idioma: ');
+  define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'AVISO: No se pudo localizar el archivo del idioma: ');
 
   define('TEXT_CCVAL_ERROR_INVALID_DATE', 'La fecha de vencimiento de la tarjeta de crédito no es válido. Por favor revise la fecha e inténtelo de nuevo.');
   define('TEXT_CCVAL_ERROR_INVALID_NUMBER', 'El número de la tarjeta de crédito ingresado no es válido. Por favor revise el número e inténtelo de nuevo.');
@@ -318,32 +319,32 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('ERROR_NO_INVALID_REDEEM_GV', TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM.'inválido ');
   define('TABLE_HEADING_CREDIT', 'Créditos disponibles');
   define('GV_HAS_VOUCHERA', 'Tiene fondos en su cuenta de '. TEXT_GV_NAME . ' Si Ud. quiere <br />
-                         Ud. puede enviar esos fondos por <a class="pageResults" href="');
+                         puede enviar esos fondos por <a class="pageResults" href="');
 
   define('GV_HAS_VOUCHERB', '"><strong>email</strong></a> a alguien');
   define('ENTRY_AMOUNT_CHECK_ERROR', 'Usted no tiene suficiente fondos para enviar dicha cantidad.');
   define('BOX_SEND_TO_FRIEND', 'Enviar ' . TEXT_GV_NAME . ' ');
 
-  define('VOUCHER_REDEEMED',  TEXT_GV_NAME . ' Redimido');
+  define('VOUCHER_REDEEMED',  TEXT_GV_NAME . ' canjeado');
   define('CART_COUPON', 'Cupón :');
-  define('CART_COUPON_INFO', 'más info');
+  define('CART_COUPON_INFO', 'más información');
   define('TEXT_SEND_OR_SPEND', 'Tiene un saldo positivo en su ' . TEXT_GV_NAME . ' cuenta. Puede comprar algo o enviárselo a otro usuario. Para enviarlo, haga un click en el botón abajo.');
   define('TEXT_BALANCE_IS', 'El saldo de su ' . TEXT_GV_NAME . ' es: ');
   define('TEXT_AVAILABLE_BALANCE', 'Su Cuenta de' . TEXT_GV_NAME);
 
 // payment method is GV/Discount
   define('PAYMENT_METHOD_GV', 'Vale de compra/Cupón');
-  define('PAYMENT_MODULE_GV', 'GV/DC');
+  define('PAYMENT_MODULE_GV', 'VC/CD');
 
   define('TABLE_HEADING_CREDIT_PAYMENT', 'Créditos disponibles');
 
   define('TEXT_INVALID_REDEEM_COUPON', 'Código de cupón invalido');
   define('TEXT_INVALID_REDEEM_COUPON_MINIMUM', 'Tiene que gastar un mínimo de %s para canjear este cupón');
   define('TEXT_INVALID_STARTDATE_COUPON', 'Este cupón no está disponible todavía');
-  define('TEXT_INVALID_FINISHDATE_COUPON', 'Este cupón ha vencido');
+  define('TEXT_INVALID_FINISHDATE_COUPON', 'Este cupón ha caducado');
   define('TEXT_INVALID_USES_COUPON', 'Este cupón podía ser usado solamente');
   define('TIMES', ' veces.');
-  define('TIME', ' ves.');
+  define('TIME', ' vez.');
   define('TEXT_INVALID_USES_USER_COUPON', 'Usted ha utilizado el cupón con código: %s el número máximo de veces permitido por cliente');
   define('REDEEMED_COUPON', 'un valor del cupón ');
   define('REDEEMED_MIN_ORDER', 'en pedidos por encima de ');
@@ -369,9 +370,9 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
 // success messages for added to cart when display cart is off
 // set to blank for no messages
 // for all pages except where multiple add to cart is used:
-  define('SUCCESS_ADDED_TO_CART_PRODUCT', 'El producto ha sido añadido correctamente al carro ...');
+  define('SUCCESS_ADDED_TO_CART_PRODUCT', 'El producto ha sido añadido al carro ...');
 // only for where multiple add to cart is used:
-  define('SUCCESS_ADDED_TO_CART_PRODUCTS', 'El producto(s) seleccionado ha sido añadido correctamente al carro ...');
+  define('SUCCESS_ADDED_TO_CART_PRODUCTS', 'El producto(s) seleccionado ha sido añadido al carro ...');
 
   define('TEXT_PRODUCT_WEIGHT_UNIT','lbs');
 
@@ -412,7 +413,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('TEXT_INFO_SORT_BY', 'Ordenar por: ');
 
 // close window image popups
-  define('TEXT_CLOSE_WINDOW',' - Haga un click en la imagen para cerrar');
+  define('TEXT_CLOSE_WINDOW',' - Haga click en la imagen para cerrar');
 // close popups
   define('TEXT_CURRENT_CLOSE_WINDOW','[ Cerrar ventana ]');
 
@@ -438,12 +439,12 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('TEXT_INVALID_USER_INPUT', 'Entrada del usuario requerida<br />');
 
 // product_listing
-  define('PRODUCTS_QUANTITY_MIN_TEXT_LISTING','Min: ');
+  define('PRODUCTS_QUANTITY_MIN_TEXT_LISTING','Mín: ');
   define('PRODUCTS_QUANTITY_UNIT_TEXT_LISTING', 'Unidades:');
   define('PRODUCTS_QUANTITY_IN_CART_LISTING', 'En el carro:');
   define('PRODUCTS_QUANTITY_ADD_ADDITIONAL_LISTING', 'Añadir adicionalmente:');
 
-  define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING','Max:');
+  define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING','Máx:');
 
   define('TEXT_PRODUCTS_MIX_OFF','*Mezclado DESHABILITADO');
   define('TEXT_PRODUCTS_MIX_ON','*Mezclado HABILITADO');
@@ -476,7 +477,8 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('ERROR_PRODUCT_QUANTITY_UNITS_SHOPPING_CART',' ... Errores de las cantidades de unidades - ');
   define('ERROR_PRODUCT_QUANTITY_MAX_SHOPPING_CART',' ... Errores de cantidad máxima - ');
 
-  define('WARNING_SHOPPING_CART_COMBINED', 'NOTICE: Para su comodidad, en el carro permanecen los productos añadidos en su última visita. Por favor, revise su carro antes de finalizar la sesión.');
+  define('WARNING_SHOPPING_CART_COMBINED', 'AVISO: Para su comodidad, en el carro permanecen los productos añadidos en su última visita. Por favor, revise su carro antes de finalizar la sesión.');
+  define('WARNING_PRODUCT_QUANTITY_ADJUSTED', 'La cantidad ha sido ajustada al nivel de stock actual. ');
 
 // error on checkout when $_SESSION['customers_id' does not exist in customers table
   define('ERROR_CUSTOMERS_ID_INVALID', 'La información del usuario no puede ser validada!<br />Por favor, conéctese o abra una nueva cuenta. ...');
@@ -538,9 +540,9 @@ define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'En la opción Descuentos al p
   define('CART_SHIPPING_METHOD_RECALCULATE', 'Recalcular');
   define('CART_SHIPPING_METHOD_ZIP_REQUIRED','true');
   define('CART_SHIPPING_METHOD_ADDRESS', 'Dirección:');
-  define('CART_OT', 'Estimado Precio:');
-  define('CART_OT_SHOW', 'true'); // set to false if you don't want order totals
-  define('CART_ITEMS', 'Artículo(s) en el carro: ');
+  define('CART_OT', 'Precio Estimado:');
+  define('CART_OT_SHOW','true'); // set to false if you don't want order totals
+  define('CART_ITEMS', 'Producto(s) en el carro: ');
   define('CART_SELECT', 'Seleccionar');
   define('ERROR_CART_UPDATE', '<strong>Por favor, actualice su pedido.</strong> ');
   define('IMAGE_BUTTON_UPDATE_CART', 'Actualizar');
@@ -568,8 +570,8 @@ define('TEXT_INFO_SORT_BY_PRODUCTS_NAME_DESC', 'Productos - Descripción');
 define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE', 'Precio - bajo a alto');
 define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Precio - alto a bajo');
 define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Modelo');
-define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Fecha Añadida - Nuevo a viejo');
-define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Fecha Añadida - Viejo a nuevo');
+define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Fecha Añadida - Nueva a antigua');
+define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Fecha Añadida - Antigua a nueva');
 define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Mostrar la predeterminada');
 
 // downloads module defines
@@ -584,15 +586,16 @@ define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Mostrar la predeterminada');
 
 // misc
   define('COLON_SPACER', ':&nbsp;&nbsp;');
+  define('PAYMENT_JAVASCRIPT_DISABLED', 'No puede continuar con el proceso de compra porque Javscript está desactivado en su navegador. Es imprescindible activarlo para completar la compra.');
 
 // table headings for cart display and upcoming products
-  define('TABLE_HEADING_QUANTITY', 'Cant.');
+  define('TABLE_HEADING_QUANTITY', 'Cantidad');
   define('TABLE_HEADING_PRODUCTS', 'Artículo');
   define('TABLE_HEADING_TOTAL', 'Total');
 
 // create account - login shared
   define('TABLE_HEADING_PRIVACY_CONDITIONS', 'Privacidad');
-  define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', 'Por favor, acepte nuestra declaración de privacidad marcando el siguiente casillero. Puede leer la declaración de privacidad <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">aquí</span></a>.');
+  define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', 'Por favor, acepte nuestra declaración de privacidad marcando la siguiente casilla. Puede leer la declaración de privacidad <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">aquí</span></a>.');
   define('TEXT_PRIVACY_CONDITIONS_CONFIRM', 'He leído y acepto la declaración de privacidad.');
   define('TABLE_HEADING_ADDRESS_DETAILS', 'Dirección');
   define('TABLE_HEADING_PHONE_FAX_DETAILS', 'Datos de contacto adicionales');
@@ -600,12 +603,15 @@ define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Mostrar la predeterminada');
   define('TABLE_HEADING_LOGIN_DETAILS', 'Detalles de la cuenta');
   define('TABLE_HEADING_REFERRAL_DETAILS', '¿Cómo supo de nosotros?');
 
+  define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Lo sentimos, pero no tratamos con direcciones de envio/facturación en "%s". Por favor actualice esta dirección para continuar.');
+
   define('ENTRY_EMAIL_PREFERENCE', 'Boletín y preferencias de email');
   define('ENTRY_EMAIL_HTML_DISPLAY','HTML');
   define('ENTRY_EMAIL_TEXT_DISPLAY', 'Solo-TEXTO');
   define('EMAIL_SEND_FAILED','ERROR: No se ha podido enviar el email a : "%s" <%s> con sujeto: "%s"');
 
   define('DB_ERROR_NOT_CONNECTED', 'Error - No se ha podido conectar con la base de datos');
+  define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Parece que hay un problema con la base de datos. Precisa mantenimiento.</a>');
 
   // EZ-PAGES Alerts
   define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'AVISO: EZ-PAGES ENCABEZAMIENTO - Activado sólo para la IP del Administrador.');

@@ -35,12 +35,12 @@ define('TEXT_IMAGE_NONEXISTENT', 'No existe el imagen');
 define('TEXT_INFO_HEADING_DELETE_FEATURED', 'Borrar destacado');
 define('TEXT_INFO_DELETE_INTRO', '¿Está seguro de que desa borrar este producto destacado?');
 
-define('SUCCESS_FEATURED_PRE_ADD', 'Éxito: Pre-Añade de Destacados ... actualice las fechas por favor ...');
-define('WARNING_FEATURED_PRE_ADD_EMPTY', 'Aviso: No se especificó el ID del Producto ... no se añadió nada ...');
-define('WARNING_FEATURED_PRE_ADD_DUPLICATE', 'Aviso: Este ID de Producto ya está en Destacados ... no se añadió nada ...');
+define('SUCCESS_FEATURED_PRE_ADD', 'Éxito: Destacados pre-añadidos ... actualice las fechas por favor ...');
+define('WARNING_FEATURED_PRE_ADD_EMPTY', 'Aviso: No se especificó el ID del producto ... no se añadió nada ...');
+define('WARNING_FEATURED_PRE_ADD_DUPLICATE', 'Aviso: Este ID de producto ya está en Destacados ... no se añadió nada ...');
 define('WARNING_FEATURED_PRE_ADD_BAD_PRODUCTS_ID', 'Aviso: El ID de Producto es inválido ... no se añadió nada ...');
-define('TEXT_INFO_HEADING_PRE_ADD_FEATURED', 'Añade un nuevo Producto Destacado manualmente utilizando su ID de Producto');
-define('TEXT_INFO_PRE_ADD_INTRO', 'En bases de datos grandes, puede añadir un nuevo Producto Destacado manualmente utilizando su ID de Producto.<br /><br />Está recomendado utilizar este método cuando la página tarda mucho tiempo en cargar y la selección de un producto del menú desplegable resulta demasiado difícil por culpa de la cantidad grande de productos disponibles.');
-define('TEXT_PRE_ADD_PRODUCTS_ID', 'Tecle el ID de Producto para ser Pre-añadido: ');
+define('TEXT_INFO_HEADING_PRE_ADD_FEATURED', 'Añade un nuevo producto destacado manualmente utilizando su ID de Producto');
+define('TEXT_INFO_PRE_ADD_INTRO', 'En bases de datos grandes, puede añadir un nuevo producto destacado manualmente utilizando su ID de Producto.<br /><br />Está recomendado utilizar este método cuando la página tarda mucho tiempo en cargar y la selección de un producto del menú desplegable resulta demasiado difícil por culpa de la cantidad grande de productos disponibles.');
+define('TEXT_PRE_ADD_PRODUCTS_ID', 'Introduzca el ID de Producto para ser pre-añadido: ');
 define('TEXT_INFO_MANUAL', 'ID del Producto para ser añadido manualmente como Destacado');
 ?>

@@ -20,8 +20,8 @@
 // $Id: privacy.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Aviso de Privacidad');
-define('HEADING_TITLE', 'Aviso de Privacidad');
+define('NAVBAR_TITLE', 'Política de privacidad');
+define('HEADING_TITLE', 'Política de privacidad');
 
-define('TEXT_INFORMATION', 'Su Aviso de Privacidad debería ir situado en esta página.');
+define('TEXT_INFORMATION', 'Su Política de Privacidad debería ir en esta página.');
 ?>

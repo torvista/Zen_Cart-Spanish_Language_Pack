@@ -15,7 +15,7 @@
   define('SHIPPING_NOT_INCLUDED', ' [Envío no incluido]');
   define('TAX_NOT_INCLUDED', ' [Impuestos no incluido]');
   define('IMAGE_REDEEM_VOUCHER', 'Canjear cupón');
-  define('MODULE_ORDER_TOTAL_COUPON_REDEEM_INSTRUCTIONS', '<p>Escriba el código de su cupón en la casilla "Canjear". El cupón se aplicará cuando haga click en "Siguiente". Aviso importante: sólo puede usarse un cupón por pedido.</p>');
+  define('MODULE_ORDER_TOTAL_COUPON_REDEEM_INSTRUCTIONS', '<p>Escriba el código de su cupón en la casilla "Código del cupón". El cupón se aplicará cuando pulse en "Siguiente". Aviso importante: sólo puede usarse un cupón por pedido.</p>');
   define('MODULE_ORDER_TOTAL_COUPON_TEXT_CURRENT_CODE', 'Su código de descuento: ');
   define('MODULE_ORDER_TOTAL_COUPON_REMOVE_INSTRUCTIONS', '<p>Para eliminar el cupón de descuento teclee ENTER y pulse la tecla "Return".</p>');
   define('TEXT_REMOVE_REDEEM_COUPON', '¡Cupón de descuento eliminado del pedido!');

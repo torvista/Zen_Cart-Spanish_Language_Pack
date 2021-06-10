@@ -8,11 +8,11 @@
  */
 
 define('NAVBAR_TITLE_1', 'Comprar');
-define('NAVBAR_TITLE_2', 'Comprar - Paso 1 -  Envío');
+define('NAVBAR_TITLE_2', 'Paso 1 de 3 - Opciones de Envío');
 
-define('HEADING_TITLE', 'Paso 1 de 3 - Seleccione el Método de Envío');
+define('HEADING_TITLE', 'Paso 1 de 3 - Opciones de Envío');
 
-define('TABLE_HEADING_SHIPPING_ADDRESS', 'Dirección del envío');
+define('TABLE_HEADING_SHIPPING_ADDRESS', 'Dirección del Envío');
 define('TEXT_CHOOSE_SHIPPING_DESTINATION', 'Su pedido será enviado a la dirección de la izquierda, salvo que cambie la dirección del envío pulsando el botón <em>Cambiar dirección</em>.');
 define('TITLE_SHIPPING_ADDRESS', 'Dirección del envío:');
 

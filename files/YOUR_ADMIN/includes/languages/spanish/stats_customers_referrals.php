@@ -8,7 +8,7 @@
  */
 
   define('HEADING_TITLE', 'Informe de Referencias de clientes');
-  define('TEXT_INFO_SELECT_REFERRAL','Seleccione un Referente/Código de cupón');
+  define('TEXT_INFO_SELECT_REFERRAL','Seleccione una Referencia/Código de cupón');
   define('TEXT_REFERRAL_UNKNOWN', 'Desconocido');
   define('TEXT_INFO_START_DATE', 'Fecha de inicio (d-m-y)');
   define('TEXT_INFO_END_DATE', 'Fecha de final (d-m-y)');

@@ -7,7 +7,7 @@
  * @version $Id: whos_online.php 18698 2011-05-04 14:50:06Z wilt $
  */
 
-define('HEADING_TITLE', 'Quién está online');
+define('HEADING_TITLE', 'Quién está Conectado');
 define('TABLE_HEADING_ONLINE', 'Online');
 define('TABLE_HEADING_CUSTOMER_ID', 'ID');
 define('TABLE_HEADING_FULL_NAME', 'Nombre completo');
@@ -16,7 +16,7 @@ define('TABLE_HEADING_SESSION_ID', 'Sessión');
 define('TABLE_HEADING_ENTRY_TIME', 'Hora de llegada');
 define('TABLE_HEADING_LAST_CLICK', 'Último Click');
 define('TIME_PASSED_LAST_CLICKED', '<strong>Tiempo desde el último click:</strong>');
-define('TABLE_HEADING_LAST_PAGE_URL', 'Última URL visto');
+define('TABLE_HEADING_LAST_PAGE_URL', 'Última URL vista');
 define('TABLE_HEADING_ACTION', 'Acción');
 define('TABLE_HEADING_SHOPPING_CART', 'Carro de Compras de los Usuarios');
 define('TEXT_SHOPPING_CART_SUBTOTAL', 'Subtotal');
@@ -36,8 +36,9 @@ define('TEXT_SESSION_ID', '<strong>ID Sesión:</strong> ');
 define('TEXT_HOST', '<strong>Host:</strong> ');
 define('TEXT_USER_AGENT', '<strong>User Agent:</strong> ');
 define('TEXT_EMPTY_CART', '<strong>Carro Vacío</strong>');
-define('TEXT_WHOS_ONLINE_FILTER_SPIDERS', 'Excluye Spiders?');
+define('TEXT_WHOS_ONLINE_FILTER_SPIDERS', 'Excluye Arañas?');
 define('TEXT_WHOS_ONLINE_FILTER_ADMINS', '¿Excluye Direcciónes IP Admin?');
+
 define('WHOIS_TIMER_REMOVE', 1200); // seconds when removed from whos_online table - 1200 default = 20 minutes
 define('WHOIS_TIMER_INACTIVE', 180); // seconds when considered inactive - 180 default = 3 minutes
 define('WHOIS_TIMER_DEAD', 540); // seconds when considered dead - 540 default = 9 minutes

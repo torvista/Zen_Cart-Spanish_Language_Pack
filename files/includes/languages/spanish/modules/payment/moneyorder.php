@@ -20,7 +20,7 @@
 // $Id: moneyorder.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', 'Cheque/Ingreso a Cuenta Bancaria');
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'Por favor, remita su cheque o giro postal a:&nbsp;' . MODULE_PAYMENT_MONEYORDER_PAYTO . '<br /><br />Envíe su pago por correo a:<br />' . nl2br(STORE_NAME_ADDRESS) . '<br /><br />' . 'El pedido que usted haya realizado no será enviado hasta que su pago sea recibido.');
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "Por favor, remita su cheque o giro postal a: ". MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nEnvíe su pago por correo a:\n" . STORE_NAME_ADDRESS . "\n\n" . 'El pedido que usted haya realizado no será enviado hasta que su pago sea recibido.');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', 'Cheque/Ingreso en Cuenta Bancaria');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'Por favor, remita su cheque o giro postal a:&nbsp;' . MODULE_PAYMENT_MONEYORDER_PAYTO . '<br /><br />Envíe su pago por correo a:<br />' . nl2br(STORE_NAME_ADDRESS) . '<br /><br />' . 'El pedido no será enviado hasta que el pago sea recibido.');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "Por favor, remita su cheque o giro postal a: ". MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nEnvíe su pago por correo a:\n" . STORE_NAME_ADDRESS . "\n\n" . 'El pedido no será enviado hasta que el pago sea recibido.');
 ?>

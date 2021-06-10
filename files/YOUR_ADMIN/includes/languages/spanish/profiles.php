@@ -28,5 +28,7 @@ define('TEXT_NAME', 'Nombre');
 define('TEXT_USERS', 'Usuarios');
 define('TEXT_NO_PROFILES_FOUND', 'Ningún perfil ha sido definido todavía');
 
-define('IMAGE_ADD_PROFILE', 'Añada Perfil');
+define('IMAGE_ADD_PROFILE', 'Añadir Perfil');
 define('IMAGE_RENAME', 'Renombrar');
+
+define('TEXT_CONFIRM_DELETE', '¿Borrar cuenta Admin? Confirmar: ');

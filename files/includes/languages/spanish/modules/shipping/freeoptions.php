@@ -7,7 +7,7 @@
  * @version $Id: freeoptions.php 3830 2006-06-21 23:47:16Z ajeh $
  */
 
-define('MODULE_SHIPPING_FREEOPTIONS_TEXT_TITLE', 'Free Shipping Options');
+define('MODULE_SHIPPING_FREEOPTIONS_TEXT_TITLE', 'Opciones de Envío Gratis');
 define('MODULE_SHIPPING_FREEOPTIONS_TEXT_DESCRIPTION', '
 El módulo Free Shipping Options es para mostrar una opción de envío gratis cuando hay otros módulos de envío mostrados.
 Puede depender en: Siempre Mostrado, Total de Pedido, Peso de Pedido, Unidades del Pedido.

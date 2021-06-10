@@ -1,10 +1,19 @@
 Changelog
 
+1.5.4-0: 2015-01-14
+updated for Zen Cart 1.54
+multiple changes and corrections
+-----------------------
+
+1-5-08 not uploaded
+admin/...spanish.php "only": removed
+admin/...spanish.php & admin_activity: minor corrections
+
 1-5-07 2012-12-13
 \modules\payment\authorizenet_aim.php: CVV number, removed js popup.
 admin....login.php: typo Indentificación corrected
 admin...modules:minor corrections
-catalog..payment\paypaldo.php and paypalwpp.php:minor corrections. 
+catalog..payment\paypaldp.php and paypalwpp.php:minor corrections. 
 admin\spanish.php: apropriado->apropiado
 mapa de la web->Mapa del Sitio in catalog...spanish.php & sitemap.php
 admin\..\admin_activity.php. terminanda->terminada

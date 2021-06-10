@@ -43,12 +43,12 @@ define('ENTRY_DATE_RANGE', 'Buscar por fecha de entrada en catálogo:');
   define('TEXT_NO_PRODUCTS', 'No hay productos que coincidan con su criterio de búsqueda.');
   define('KEYWORD_FORMAT_STRING', 'palabras claves');
   define('ERROR_AT_LEAST_ONE_INPUT', 'Debe rellenar al menos uno de los campos.');
-  define('ERROR_INVALID_FROM_DATE', '\"Fecha Desde\" no válida.');
-  define('ERROR_INVALID_TO_DATE', '\"Fecha Hasta\" no válida.');
-  define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'La \"Fecha Hasta\" debe ser mayor o igual a la \"Fecha Desde\".');
-  define('ERROR_PRICE_FROM_MUST_BE_NUM', 'El \"Precio Desde\" debe ser un número.');
-  define('ERROR_PRICE_TO_MUST_BE_NUM', 'El \"Precio Hasta\" debe ser un número.');
-  define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'El \"Precio Hasta\" debe ser mayor o igual al \"Precio Desde\".');
+  define('ERROR_INVALID_FROM_DATE', '"Fecha desde" no válida.');
+  define('ERROR_INVALID_TO_DATE', '"Fecha hasta" no válida.');
+  define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'La "Fecha hasta" debe ser mayor o igual a la "Fecha desde".');
+  define('ERROR_PRICE_FROM_MUST_BE_NUM', 'El "Precio desde" debe ser un número.');
+  define('ERROR_PRICE_TO_MUST_BE_NUM', 'El "Precio hasta" debe ser un número.');
+  define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'El "Precio hasta" debe ser mayor o igual al "Precio desde".');
   define('ERROR_INVALID_KEYWORDS', 'Palabras no válidas.');
 
 ?>

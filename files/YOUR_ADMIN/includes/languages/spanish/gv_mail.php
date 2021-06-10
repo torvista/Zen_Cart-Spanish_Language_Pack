@@ -35,9 +35,9 @@ define('TEXT_ALL_CUSTOMERS', 'Todos los Clientes');
 define('TEXT_NEWSLETTER_CUSTOMERS', 'A Todos los Susciptores del Boletín');
 
 define('NOTICE_EMAIL_SENT_TO', 'Aviso: Email enviado a: %s');
-define('ERROR_NO_CUSTOMER_SELECTED', 'Error: No seleccionó un cliente.');
-define('ERROR_NO_AMOUNT_SELECTED', 'Error: No seleccionó una cantidad.');
-define('ERROR_NO_SUBJECT', 'Error: sin Asunto.');
+define('ERROR_NO_CUSTOMER_SELECTED', 'Error: No seleccionó ningún cliente.');
+define('ERROR_NO_AMOUNT_SELECTED', 'Error: No seleccionó ninguna cantidad.');
+define('ERROR_NO_SUBJECT', 'Error: sin asunto.');
 define('ERROR_GV_AMOUNT', 'Por favor, defina la cantidad como un valor sin símbolo. Ejemplo: 25.00');
 
 define('TEXT_GV_ANNOUNCE','<font color="#0000ff">Nos complace ofrecerle un ' . TEXT_GV_NAME . '</font>');
