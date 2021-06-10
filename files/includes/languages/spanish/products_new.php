@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,8 +20,8 @@
 // $Id: products_new.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Nuevos productos');
-define('HEADING_TITLE', 'Nuevos productos');
+define('NAVBAR_TITLE', 'Nuevos Productos');
+define('HEADING_TITLE', 'Nuevos Productos');
 
 define('TEXT_DATE_ADDED', 'Añadido el:');
 define('TEXT_MANUFACTURER', 'Fabricante:');

@@ -1,12 +1,12 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * Authorize.net SIM Payment Module
  *
  * @package languageDefines
- * @copyright Copyright 2003-2010 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: authorizenet.php 15868 2010-04-11 01:14:50Z drbyte $
+ * @version $Id: Author: DrByte  Wed Dec 30 22:16:19 2015 -0500 Modified in v1.5.5 $
  */
 
   define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ADMIN_TITLE', 'Authorize.net (SIM)');

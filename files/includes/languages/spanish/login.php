@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2009 Zen Cart Development Team
@@ -7,7 +7,7 @@
  * @version $Id: login.php 14280 2009-08-29 01:33:18Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Entrar en su cuenta');
+define('NAVBAR_TITLE', 'Entrar en su Cuenta');
 define('HEADING_TITLE', 'Bienvenido, acceda a su cuenta');
 
 define('HEADING_NEW_CUSTOMER', '¿No está registrado? Puede hacerlo aquí');
@@ -18,7 +18,7 @@ define('TEXT_NEW_CUSTOMER_INTRODUCTION_SPLIT', '¿Tiene una cuenta PayPal? ¿Qui
 define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_DIVIDER', '<span class="larger">O</span><br />');
 define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_SPLIT', 'Cree un Perfil de Cliente con <strong>' . STORE_NAME . '</strong> que le permitirá comprar más rápido, seguir el estatus de su pedido, ver sus pedidos históricos y aprovecharse de los beneficios para socios.');
 
-define('HEADING_RETURNING_CUSTOMER', 'Clientes registrados: Entrar en su cuenta ');
+define('HEADING_RETURNING_CUSTOMER', 'Clientes registrados: Entrar en su Cuenta ');
 define('HEADING_RETURNING_CUSTOMER_SPLIT', 'Clientes Registrados');
 
 define('TEXT_RETURNING_CUSTOMER_SPLIT', 'Para continuar, acceda a su cuenta <strong>' . STORE_NAME . '</strong>.');

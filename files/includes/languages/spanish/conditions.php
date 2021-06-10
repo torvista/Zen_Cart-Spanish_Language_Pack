@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,8 +20,8 @@
 // $Id: conditions.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Condiciones de uso');
-define('HEADING_TITLE', 'Condiciones de uso');
+define('NAVBAR_TITLE', 'Condiciones de Uso');
+define('HEADING_TITLE', 'Condiciones de Uso');
 
-define('TEXT_INFORMATION', 'Información sobre las condiciones de uso debe estar en esta página');
+define('TEXT_INFORMATION', 'Información sobre las Condiciones de Uso debe estar en esta página');
 ?>

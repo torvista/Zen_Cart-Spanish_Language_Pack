@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2008 Zen Cart Development Team
@@ -7,24 +7,24 @@
  * @version $Id: address_book_process.php 9647 2008-09-17 00:10:08Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', 'Mi cuenta');
-define('NAVBAR_TITLE_2', 'Agenda de direcciones');
+define('NAVBAR_TITLE_1', 'Mi Cuenta');
+define('NAVBAR_TITLE_2', 'Agenda de Direcciones');
 
-define('NAVBAR_TITLE_ADD_ENTRY', 'Nueva dirección');
-define('NAVBAR_TITLE_MODIFY_ENTRY', 'Actualizar dirección');
-define('NAVBAR_TITLE_DELETE_ENTRY', 'Borrar dirección');
+define('NAVBAR_TITLE_ADD_ENTRY', 'Nueva Dirección');
+define('NAVBAR_TITLE_MODIFY_ENTRY', 'Actualizar Dirección');
+define('NAVBAR_TITLE_DELETE_ENTRY', 'Borrar Dirección');
 
-define('HEADING_TITLE_ADD_ENTRY', 'Nueva dirección en la agenda');
-define('HEADING_TITLE_MODIFY_ENTRY', 'Actualizar dirección en la agenda');
-define('HEADING_TITLE_DELETE_ENTRY', 'Borrar dirección de la agenda');
+define('HEADING_TITLE_ADD_ENTRY', 'Nueva Dirección en la Agenda');
+define('HEADING_TITLE_MODIFY_ENTRY', 'Actualizar Dirección en la Agenda');
+define('HEADING_TITLE_DELETE_ENTRY', 'Borrar Dirección de la Agenda');
 define('HEADING_TITLE', 'Dirección');
 
-define('DELETE_ADDRESS_TITLE', 'Borrar dirección');
+define('DELETE_ADDRESS_TITLE', 'Borrar Dirección');
 define('DELETE_ADDRESS_DESCRIPTION', '¿Seguro que desea borrar la dirección seleccionada de su agenda de direcciones?');
 
-define('NEW_ADDRESS_TITLE', 'Nueva dirección en la agenda');
+define('NEW_ADDRESS_TITLE', 'Nueva Dirección en la Agenda');
 
-define('SELECTED_ADDRESS', 'Dirección seleccionada');
+define('SELECTED_ADDRESS', 'Dirección Seleccionada');
 define('SET_AS_PRIMARY', 'Establecer como dirección principal.');
 
 define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'La dirección seleccionada ha sido borrada correctamente de su agenda de direcciones.');

@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,13 +7,13 @@
  * @version $Id: account_notifications.php 3007 2006-02-11 09:17:12Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', 'Mi cuenta');
-define('NAVBAR_TITLE_2', 'Alerta de productos');
+define('NAVBAR_TITLE_1', 'Mi Cuenta');
+define('NAVBAR_TITLE_2', 'Notificaciones de Productos');
 
-define('HEADING_TITLE', 'Alerta de productos');
+define('HEADING_TITLE', 'Notificaciones de Productos');
 
-define('MY_NOTIFICATIONS_TITLE', 'Mis alertas de productos');
-define('MY_NOTIFICATIONS_DESCRIPTION', 'La lista de alerta de productos le permite estar informado de los productos que son de su interés.<br /><br />Para estar al tanto de los cambios en todos los productos, seleccione <strong>Alerta global de productos</strong>.');
+define('MY_NOTIFICATIONS_TITLE', 'Mis Notificaciones de Productos');
+define('MY_NOTIFICATIONS_DESCRIPTION', 'La lista de notificaciones le permite estar informado de los productos que son de su interés.<br /><br />Para estar al tanto de los cambios en todos los productos, seleccione <strong>Notificación Global de Productos</strong>.');
 
 define('GLOBAL_NOTIFICATIONS_TITLE', 'Alerta global de productos');
 define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'Recibir alertas de todos los productos disponibles.');

@@ -1,5 +1,45 @@
 Changelog
 
+2018 01 15 Minor changes for Zen Cart 1.55f
+Since this is a pack for Spain: changed default date format to dd/mm/yyyy and changed default weight to kg.
+2017 05 07 checkout_payment missing a closing span: https://github.com/zencart/zencart/issues/1452
+2017 09 03 admin - spanish.php new defines for zc1.55e
+2017 02 22 replacement of comment headers to point to Github. Renaming of Github to 1.5x.
+BUGFIX: removal of quotes from constants in advanced_search/advanced_search_results that were causing javascript errors.
+2016 10 19 moved from Sourceforge to Github
+
+1.5.5a.02
+spanish: ERROR_PRODUCT_STATUS_SHOPPING_CART_ATTRIBUTES as missing/duplicated ERROR_PRODUCT_STATUS_SHOPPING_CART
+icon_names: some alt tags were>30 chars. If css buttons are in use, an alt tag>30 chars will force use of an image submit instead: hard-coded in zen_image_submit.
+BUG: spanish/language/icon_names.php - missing closing bracket on last constant
+
+1.5.5a.01 - available in Zen Cart Plugins
+https://www.zen-cart.com/downloads.php?do=file&id=1110
+
+Modifications for Zen Cart 1.5.5a and the Classic Responsive template, and email templates using css
+ADMIN\includes\languages\spanish\modules.php
+added STORE_NAME to admin emails to identify shop (an admin may manage various shops)
+changed all references to Gift Certificate to Tarjeta Regalo
+added missing defines in 1.5.5a
+added /extras/find_locales.php utility
+
+1.5.4.01 fileset saved as 1.5.4.01
+admin->admin_activity
+define('TEXT_EXPORTFILTER3', 'WARNING – Actividades para revisar a diario'); corrected final quotation mark from a smart quote
+spanish/icon_names.php
+shortened for use as a CSS button
+Actualice el pedido->Actualizar
+Eliminar este producto->Eliminar
+BUTTON_SUBMIT_ALT->Enviar
+BUTTON_LOGIN_ALT->Entrar
+
+admin->spanish.php
+various for admin activity log
+
+admin->layout_controller
+removed %s from TEXT_INFO_RESET_TEMPLATE_SORT_ORDER
+minor changes to column headings
+-------------------------------
 1.5.4-0: 2015-01-14
 updated for Zen Cart 1.54
 multiple changes and corrections

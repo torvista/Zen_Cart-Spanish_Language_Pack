@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,7 +20,7 @@
 // $Id: ssl_check.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Comprobación de seguridad');
+define('NAVBAR_TITLE', 'Comprobación de Seguridad');
 define('HEADING_TITLE', 'Comprobación de Seguridad');
 
 define('TEXT_INFORMATION', 'Detectamos que su navegador generó un ID de sesión SSL diferente al que fue usado en nuestras páginas seguras.');

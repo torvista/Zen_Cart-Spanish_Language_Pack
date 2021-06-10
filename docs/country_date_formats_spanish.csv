@@ -1,0 +1,24 @@
+ISO 3166 Country Code,ISO639-2 Country Code,Country,ISO 3166 Country Code,ISO639-2 Lang,Language,Date Format
+COL,CO,Colombia,spa,es,Spanish,d/MM/yyyy
+ESP,ES,Spain,spa,es,Spanish,d/MM/yyyy
+GTM,GT,Guatemala,spa,es,Spanish,d/MM/yyyy
+MEX,MX,Mexico,spa,es,Spanish,d/MM/yyyy
+BOL,BO,Bolivia,spa,es,Spanish,dd-MM-yyyy
+CHL,CL,Chile,spa,es,Spanish,dd-MM-yyyy
+ARG,AR,Argentina,spa,es,Spanish,dd/MM/yyyy
+CRI,CR,Costa Rica,spa,es,Spanish,dd/MM/yyyy
+ECU,EC,Ecuador,spa,es,Spanish,dd/MM/yyyy
+PER,PE,Peru,spa,es,Spanish,dd/MM/yyyy
+PRY,PY,Paraguay,spa,es,Spanish,dd/MM/yyyy
+URY,UY,Uruguay,spa,es,Spanish,dd/MM/yyyy
+VEN,VE,Venezuela,spa,es,Spanish,dd/MM/yyyy
+USA,US,United States,spa,es,Spanish,M/d/yyyy
+HND,HN,Honduras,spa,es,Spanish,MM-dd-yyyy
+NIC,NI,Nicaragua,spa,es,Spanish,MM-dd-yyyy
+PRI,PR,Puerto Rico,spa,es,Spanish,MM-dd-yyyy
+SLV,SV,El Salvador,spa,es,Spanish,MM-dd-yyyy
+DOM,DO,Dominican Republic,spa,es,Spanish,MM/dd/yyyy
+PAN,PA,Panama,spa,es,Spanish,MM/dd/yyyy
+,,,,,,
+https://gist.github.com/mlconnor/1887156,,,,,,
+15/08/17,,,,,,

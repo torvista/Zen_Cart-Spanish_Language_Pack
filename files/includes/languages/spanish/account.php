@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,15 +7,15 @@
  * @version $Id: account.php 3595 2006-05-07 06:39:23Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Mi cuenta');
-define('HEADING_TITLE', 'Información de mi cuenta');
+define('NAVBAR_TITLE', 'Mi Cuenta');
+define('HEADING_TITLE', 'Información de mi Cuenta');
 
 define('OVERVIEW_TITLE', 'Resumen');
 define('OVERVIEW_SHOW_ALL_ORDERS', '(mostrar todos los pedidos)');
-define('OVERVIEW_PREVIOUS_ORDERS', 'Pedidos anteriores');
+define('OVERVIEW_PREVIOUS_ORDERS', 'Pedidos Anteriores');
 define('TABLE_HEADING_DATE', 'Fecha');
 define('TABLE_HEADING_ORDER_NUMBER', 'Nº.');
-define('TABLE_HEADING_SHIPPED_TO', 'Enviar a');
+define('TABLE_HEADING_SHIPPED_TO', 'Enviado a');
 define('TABLE_HEADING_STATUS', 'Estado');
 define('TABLE_HEADING_TOTAL', 'Total');
 define('TABLE_HEADING_VIEW', 'Ver');

@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2012 Zen Cart Development Team
@@ -7,9 +7,9 @@
  * @version GIT: $Id: Author: DrByte  Sat Jul 21 16:05:31 2012 -0400 Modified in v1.5.1 $
  */
 
-define('NAVBAR_TITLE', 'Crear cuenta');
+define('NAVBAR_TITLE', 'Crear Cuenta');
 
-define('HEADING_TITLE', 'Información de mi cuenta');
+define('HEADING_TITLE', 'Crear Cuenta');
 
 define('TEXT_ORIGIN_LOGIN', '<strong class="note">NOTA:</strong> Si ya tiene una cuenta con nosotros, por favor, entre en <a href="%s">su cuenta</a>.');
 

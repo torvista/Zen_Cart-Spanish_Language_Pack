@@ -1,5 +1,5 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
-//ñ
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+//ñ: to ensure this file gets treated as UTF-8 by text editors
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,10 +20,10 @@
 // $Id: account_edit.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE_1', 'Mi cuenta');
-define('NAVBAR_TITLE_2', 'Modificar datos de mi cuenta');
+define('NAVBAR_TITLE_1', 'Mi Cuenta');
+define('NAVBAR_TITLE_2', 'Editar Cuenta');
 
-define('HEADING_TITLE', 'Datos personales');
+define('HEADING_TITLE', 'Datos Personales');
 
 define('SUCCESS_ACCOUNT_UPDATED', 'Su cuenta ha sido actualizada correctamente.');
 ?>

@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2007 Zen Cart Development Team
@@ -28,7 +28,7 @@ define('IMAGE_BUTTON_PREVIOUS', 'Producto anterior');
 define('IMAGE_BUTTON_NEXT', 'Producto siguiente');
 define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST', 'Volver a la lista de productos');
 
-// missing products// missing products
+// missing products
 //define('TABLE_HEADING_NEW_PRODUCTS', 'Productos Nuevos en %s');
 //define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Productos para venir');
 //define('TABLE_HEADING_DATE_EXPECTED', 'Fecha Prevista');

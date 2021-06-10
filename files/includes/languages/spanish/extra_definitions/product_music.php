@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -21,6 +21,6 @@
 //
 define('BOX_HEADING_MUSIC_GENRES', 'Géneros musicales');
 define('BOX_HEADING_RECORD_COMPANY', 'Discográficas');
-define('PULL_DOWN_RECORD_COMPANIES', '- Reset -');
-define('PULL_DOWN_MUSIC_GENRES', '- Reset -');
+define('PULL_DOWN_RECORD_COMPANIES', '- Resetear -');
+define('PULL_DOWN_MUSIC_GENRES', '- Resetear -');
 ?>

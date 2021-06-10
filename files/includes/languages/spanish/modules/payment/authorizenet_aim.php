@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * Authorize.net AIM Payment Module Language definitions
  *
@@ -34,6 +34,7 @@
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DECLINED_MESSAGE', 'Puede que su tarjeta sea rechazada por este motivo. Por favor, corrija la información errónea y vuelva a intentarlo o póngase en contacto con nosotros para obtener asistencia.');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ERROR', '¡Error en la tarjeta de crédito!');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_AUTHENTICITY_WARNING', 'AVISO: hay un problema con el dígito de control (hash) de seguridad. Póngase en contacto con la tienda inmediatamente. Su pedido *no* ha sido autorizado. ');
+  define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_COMM_ERROR', 'No se pudo procesar el pago debido a un error de comunicación. Se puede probar otra vez o contáctenos para ayuda.');
 
 // admin tools:
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_BUTTON_TEXT', 'Hacer una Devolución');

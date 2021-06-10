@@ -1,14 +1,14 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
-/**
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+/**includes changes for Date of Birth format dd/mm/yy, currency euro, kg weight
  * @package languageDefines
- * @copyright Copyright 2003-2014 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: ajeh  Modified in v1.5.4 $
+ * @version $Id: Author: DrByte  Tue Jan 5 15:06:15 2016 -0500 Modified in v1.5.5 $
  */
 
 // FOLLOWING WERE moved to meta_tags.php
-//define('TITLE', '¡Zen Cart!');
+//define('TITLE', 'Zen Cart!');
 //define('SITE_TAGLINE', 'The Art of E-commerce');
 //define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
 // END: moved to meta_tags.php
@@ -16,11 +16,11 @@
   define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Tienda Software:<a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-  $locales = array('es_ES.UTF8', 'es', 'Spanish_Spain.1252');
+  $locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');
   @setlocale(LC_TIME, $locales);
-  define('DATE_FORMAT_SHORT', '%m/%d/%Y');  // this is used for strftime()
+  define('DATE_FORMAT_SHORT', '%d/%m/%Y'); // this is used for strftime()
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
-  define('DATE_FORMAT', 'm/d/Y'); // this is used for date()
+  define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
   define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 
 ////
@@ -30,35 +30,35 @@
   if (!function_exists('zen_date_raw')) {
     function zen_date_raw($date, $reverse = false) {
       if ($reverse) {
-        return substr($date, 3, 2) . substr($date, 0, 2) . substr($date, 6, 4);
+        return substr($date, 0, 2) . substr($date, 3, 2) . substr($date, 6, 4);
       } else {
-        return substr($date, 6, 4) . substr($date, 0, 2) . substr($date, 3, 2);
+        return substr($date, 6, 4) . substr($date, 3, 2) . substr($date, 0, 2);
       }
     }
   }
 
 // if USE_DEFAULT_LANGUAGE_CURRENCY is true, use the following currency, instead of the applications default currency (used when changing language)
-  define('LANGUAGE_CURRENCY', 'USD');
+  define('LANGUAGE_CURRENCY', 'EUR');
 
 // Global entries for the <html> tag
-define('HTML_PARAMS', 'dir="ltr" lang="es"');
+  define('HTML_PARAMS', 'dir="ltr" lang="es-ES"');
 
 // charset for web pages and emails
   define('CHARSET', 'utf-8');
 
 // footer text in includes/footer.php
-define('FOOTER_TEXT_REQUESTS_SINCE', 'páginas vistas desde');
+  define('FOOTER_TEXT_REQUESTS_SINCE', 'páginas vistas desde');
 
 // Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
-  define('TEXT_GV_NAME', 'Vale de Compra');
-  define('TEXT_GV_NAMES', 'Vales de Compra');
+  define('TEXT_GV_NAME', 'Tarjeta Regalo');
+  define('TEXT_GV_NAMES', 'Tarjetas Regalo');
 
 // used for redeem code, redemption code, or redemption id
-  define('TEXT_GV_REDEEM', 'Código del Cupón');
+  define('TEXT_GV_REDEEM', 'Código de la Tarjeta Regalo');
 
 // used for redeem code sidebox
   define('BOX_HEADING_GV_REDEEM', TEXT_GV_NAME);
-  define('BOX_GV_REDEEM_INFO', 'Código del cupón de descuento: ');
+  define('BOX_GV_REDEEM_INFO', 'Código de la Tarjeta Regalo: ');
 
 // text for gender
   define('MALE', 'Sr.');
@@ -67,7 +67,7 @@ define('FOOTER_TEXT_REQUESTS_SINCE', 'páginas vistas desde');
   define('FEMALE_ADDRESS', 'Sra.');
 
 // text for date of birth example
-  define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
+define('DOB_FORMAT_STRING', 'dd/mm/yyyy'); 
 
 //text for sidebox heading links
   define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[todos]');
@@ -116,9 +116,9 @@ define('FOOTER_TEXT_REQUESTS_SINCE', 'páginas vistas desde');
   define('BOX_HEADING_BESTSELLERS_IN', 'Los más vendidos en <br />&nbsp;&nbsp;');
 
 // notifications box text in sideboxes/products_notifications.php
-define('BOX_HEADING_NOTIFICATIONS', 'Avisos');
-define('BOX_NOTIFICATIONS_NOTIFY', 'Notifíquenme cuando haya actualizaciones de <strong>%s</strong>');
-define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones de <strong>%s</strong>');
+  define('BOX_HEADING_NOTIFICATIONS', 'Avisos');
+  define('BOX_NOTIFICATIONS_NOTIFY', 'Notifíquenme cuando haya actualizaciones de <strong>%s</strong>');
+  define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones de <strong>%s</strong>');
 
 // manufacturer box text
   define('BOX_HEADING_MANUFACTURER_INFO', 'Info del fabricante');
@@ -137,26 +137,25 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('BOX_INFORMATION_CONDITIONS', 'Condiciones de uso');
   define('BOX_INFORMATION_SHIPPING', 'Envío y devoluciones');
   define('BOX_INFORMATION_CONTACT', 'Contáctenos');
-  define('BOX_BBINDEX', 'Foro');
   define('BOX_INFORMATION_UNSUBSCRIBE', 'Baja del boletín');
 
   define('BOX_INFORMATION_SITE_MAP', 'Mapa del Sitio');
 
 // information box text in sideboxes/more_information.php - were TUTORIAL_
- define('BOX_HEADING_MORE_INFORMATION', 'Más información');
- define('BOX_INFORMATION_PAGE_2', 'Página 2');
- define('BOX_INFORMATION_PAGE_3', 'Página 3');
- define('BOX_INFORMATION_PAGE_4', 'Página 4');
+  define('BOX_HEADING_MORE_INFORMATION', 'Más información');
+  define('BOX_INFORMATION_PAGE_2', 'Página 2');
+  define('BOX_INFORMATION_PAGE_3', 'Página 3');
+  define('BOX_INFORMATION_PAGE_4', 'Página 4');
 
 //New billing address text
- define('SET_AS_PRIMARY' , 'Marcar como dirección principal');
- define('NEW_ADDRESS_TITLE', 'Dirección de facturación');
+  define('SET_AS_PRIMARY' , 'Marcar como dirección principal');
+  define('NEW_ADDRESS_TITLE', 'Dirección de facturación');
 
 // javascript messages
- define('JS_ERROR', 'Ha ocurrido un error durante el procesamiento del formulario.\n\nPor favor, realice las siguientes correcciones:\n\n');
+  define('JS_ERROR', 'Ha ocurrido un error durante el procesamiento del formulario.\n\nPor favor, realice las siguientes correcciones:\n\n');
 
- define('JS_REVIEW_TEXT', '* El \'texto del comentario\' debe tener al menos ' . REVIEW_TEXT_MIN_LENGTH . ' caracteres.');
- define('JS_REVIEW_RATING', '* Debe valorar el producto.');
+  define('JS_REVIEW_TEXT', '* El \'texto del comentario\' debe tener al menos ' . REVIEW_TEXT_MIN_LENGTH . ' caracteres.');
+  define('JS_REVIEW_RATING', '* Debe valorar el producto.');
 
   define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Por favor seleccione un método de pago para su pedido.');
 
@@ -190,8 +189,8 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('ENTRY_LAST_NAME_ERROR', 'Cada apellido debe tener un mínimo de ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caracteres.');
   define('ENTRY_LAST_NAME_TEXT', '*');
   define('ENTRY_DATE_OF_BIRTH', 'Fecha de nacimiento:');
-  define('ENTRY_DATE_OF_BIRTH_ERROR', 'La fecha de nacimiento debe tener este formato: MM/DD/YYYY (ej. 05/21/1970)');
-  define('ENTRY_DATE_OF_BIRTH_TEXT', '(ej. 05/21/1970)');
+  define('ENTRY_DATE_OF_BIRTH_ERROR', 'La fecha de nacimiento debe tener este formato: DD/MM/YYYY (ej. 21/05/1970)');
+  define('ENTRY_DATE_OF_BIRTH_TEXT', '(ej. 21/05/1970)');
   define('ENTRY_EMAIL_ADDRESS', 'E-mail:');
   define('ENTRY_EMAIL_ADDRESS_ERROR', 'El e-mail debe tener un mínimo de ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' caracteres.');
   define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Este e-mail parece no ser válido - por favor, realice las correcciones necesarias.');
@@ -204,7 +203,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('ENTRY_STREET_ADDRESS', 'Dirección:');
   define('ENTRY_STREET_ADDRESS_ERROR', 'La dirección debe tener un mínimo de  ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' caracteres.');
   define('ENTRY_STREET_ADDRESS_TEXT', '*');
-  define('ENTRY_SUBURB', 'Dirección Línea 2:');
+  define('ENTRY_SUBURB', 'Dirección (cont.):');
   define('ENTRY_SUBURB_ERROR', '');
   define('ENTRY_SUBURB_TEXT', '');
   define('ENTRY_POST_CODE', 'Código postal:');
@@ -269,10 +268,10 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('PREVNEXT_TITLE_PAGE_NO', 'Página %d');
   define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Listado anterior de %d Páginas');
   define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Listado siguiente de %d Páginas');
-  define('PREVNEXT_BUTTON_FIRST', '&lt;&lt;PRIMERA');
-  define('PREVNEXT_BUTTON_PREV', '[&lt;&lt;&nbsp;Anterior]');
-  define('PREVNEXT_BUTTON_NEXT', '[Siguiente&nbsp;&gt;&gt;]');
-  define('PREVNEXT_BUTTON_LAST', 'ÚLTIMA&gt;&gt;');
+  define('PREVNEXT_BUTTON_FIRST', '&laquo;PRIMERA');
+  define('PREVNEXT_BUTTON_PREV', '[&laquo;&nbsp;Anterior]');
+  define('PREVNEXT_BUTTON_NEXT', '[Siguiente&nbsp;&raquo;]');
+  define('PREVNEXT_BUTTON_LAST', 'ÚLTIMA&gt;&raquo;');
 
   define('TEXT_BASE_PRICE', 'Desde: ');
 
@@ -287,7 +286,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('TEXT_REVIEW_WORD_COUNT', '%s palabras');
   define('TEXT_REVIEW_RATING', 'Valoración: %s [%s]');
   define('TEXT_REVIEW_DATE_ADDED', 'Fecha añadida: %s');
-  define('TEXT_NO_REVIEWS', 'No hay comentarios de productos.');
+  define('TEXT_NO_REVIEWS', 'No hay comentarios.');
 
   define('TEXT_NO_NEW_PRODUCTS', 'Nuevos productos estarán muy pronto disponibles. Por favor, visítenos de nuevo.');
 
@@ -333,12 +332,12 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('TEXT_AVAILABLE_BALANCE', 'Su Cuenta de' . TEXT_GV_NAME);
 
 // payment method is GV/Discount
-  define('PAYMENT_METHOD_GV', 'Vale de compra/Cupón');
-  define('PAYMENT_MODULE_GV', 'VC/CD');
+  define('PAYMENT_METHOD_GV', 'Tarjeta Regalo/Cupón');
+  define('PAYMENT_MODULE_GV', 'TR/CD');
 
   define('TABLE_HEADING_CREDIT_PAYMENT', 'Créditos disponibles');
 
-  define('TEXT_INVALID_REDEEM_COUPON', 'Código de cupón invalido');
+  define('TEXT_INVALID_REDEEM_COUPON', 'Código de Cupón no válido');
   define('TEXT_INVALID_REDEEM_COUPON_MINIMUM', 'Tiene que gastar un mínimo de %s para canjear este cupón');
   define('TEXT_INVALID_STARTDATE_COUPON', 'Este cupón no está disponible todavía');
   define('TEXT_INVALID_FINISHDATE_COUPON', 'Este cupón ha caducado');
@@ -351,7 +350,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('REDEEMED_RESTRICTIONS', ' [se aplican restricciones Producto-Categoría]');
   define('TEXT_ERROR', 'Ha ocurrido un error');
   define('TEXT_INVALID_COUPON_PRODUCT', 'El código del cupón no es válido para ningún producto de los que están en su carro');
-  define('TEXT_VALID_COUPON', 'Felicidades, ha cajeado el cupón de descuento');
+  define('TEXT_VALID_COUPON', '¡Ha añadido un Cupón de Descuento a su pedido!');
   define('TEXT_REMOVE_REDEEM_COUPON_ZONE', 'El código de cupón no es válido para la dirección elegida.');
 
 // more info in place of buy now
@@ -361,7 +360,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('TEXT_YOUR_IP_ADDRESS', 'Su dirección IP es: ');
 
 //Generic Address Heading
-  define('HEADING_ADDRESS_INFORMATION', 'Información de la dirección');
+  define('HEADING_ADDRESS_INFORMATION', 'Información de la Dirección');
 
 // cart contents
   define('PRODUCTS_ORDER_QTY_TEXT_IN_CART', 'Cantidad en el carro: ');
@@ -374,10 +373,10 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
 // only for where multiple add to cart is used:
   define('SUCCESS_ADDED_TO_CART_PRODUCTS', 'El producto(s) seleccionado ha sido añadido al carro ...');
 
-  define('TEXT_PRODUCT_WEIGHT_UNIT','lbs');
+  define('TEXT_PRODUCT_WEIGHT_UNIT',' kg');
 
 // Shipping
-  define('TEXT_SHIPPING_WEIGHT','lbs');
+  define('TEXT_SHIPPING_WEIGHT',' kg');
   define('TEXT_SHIPPING_BOXES', 'Cajas');
 
 // Discount Savings
@@ -386,7 +385,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('PRODUCT_PRICE_DISCOUNT_AMOUNT', '&nbsp;descuento');
 
 // Sale Maker Sale Price
-  define('PRODUCT_PRICE_SALE', 'Venta:&nbsp;');
+  define('PRODUCT_PRICE_SALE', 'Oferta:&nbsp;');
 
 //universal symbols
   define('TEXT_NUMBER_SYMBOL', '# ');
@@ -432,11 +431,11 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
 
   define('PRODUCTS_PRICE_IS_FREE_TEXT', '¡Es gratis!');
   define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT', 'Llame para saber el precio');
-  define('TEXT_CALL_FOR_PRICE', 'Llame para saber el precio');
+  define('TEXT_CALL_FOR_PRICE', 'Contáctenos para saber el precio');
 
-  define('TEXT_INVALID_SELECTION',' Elijó una Opción Inválido: ');
+  define('TEXT_INVALID_SELECTION',' Elijó una Opción Inválida: ');
   define('TEXT_ERROR_OPTION_FOR', ' En la Opción para: ');
-  define('TEXT_INVALID_USER_INPUT', 'Entrada del usuario requerida<br />');
+  define('TEXT_INVALID_USER_INPUT', 'Entrada del Usuario requerida<br />');
 
 // product_listing
   define('PRODUCTS_QUANTITY_MIN_TEXT_LISTING','Mín: ');
@@ -467,7 +466,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('ERROR_PRODUCT', '<br />El articulo: ');
   define('ERROR_PRODUCT_STATUS_SHOPPING_CART','<br />Lo sentimos pero este producto ha sido retirado de nuestro inventario.<br />Este producto ha sido eliminado de su carro. Contáctenos para más información.');
   define('ERROR_PRODUCT_ATTRIBUTES','<br />El artículo: ');
-  define('ERROR_PRODUCT_STATUS_SHOPPING_CART','<br />Lo sentimos pero las opciones elegidas para este producto han sido modificadas y no están disponibles actualmente.<br />Este producto ha sido eliminado de su carro.');
+  define('ERROR_PRODUCT_STATUS_SHOPPING_CART_ATTRIBUTES','<br />Lo sentimos pero las opciones elegidas para este producto han sido modificadas y no están disponibles actualmente.<br />Este producto ha sido eliminado de su carro.');
   define('ERROR_PRODUCT_QUANTITY_MIN',' ... Errores de cantidad mínima - ');
   define('ERROR_PRODUCT_QUANTITY_UNITS',' ... Errores de las cantidades de unidades - ');
   define('ERROR_PRODUCT_OPTION_SELECTION','<br /> ... Valores no válidos para la opción seleccionada ');
@@ -494,35 +493,36 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('SUMMARY_TABLE_UPCOMING_PRODUCTS', 'la tabla contiene una lista de productos que pronto estarán disponibles y las fechas previstas');
 
 // meta tags special defines
-define('META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT', 'Es gratis!');
+  define('META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT', 'Es gratis!');
 
 // customer login
-define('TEXT_SHOWCASE_ONLY', 'Contáctenos');
+  define('TEXT_SHOWCASE_ONLY', 'Contáctenos');
 // set for login for prices
-define('TEXT_LOGIN_FOR_PRICE_PRICE', 'Precio no disponible');
-define('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE', 'Entrar para ver el precio');
+  define('TEXT_LOGIN_FOR_PRICE_PRICE', 'Precio no disponible');
+  define('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE', 'Entrar para ver el precio');
 // set for show room only
   define('TEXT_LOGIN_FOR_PRICE_PRICE_SHOWROOM', ''); // blank for prices or enter your own text
-define('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM', 'Sólo Exposición');
+  define('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM', 'Sólo Exposición');
 
 // authorization pending
-define('TEXT_AUTHORIZATION_PENDING_PRICE', 'Precio no disponible');
-define('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'PENDIENTE DE APROBACION');
-define('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE', 'Entrar a la tienda');
+  define('TEXT_AUTHORIZATION_PENDING_PRICE', 'Precio no disponible');
+  define('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'PENDIENTE DE APROBACION');
+  define('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE', 'Entrar a la tienda');
+  define('TEXT_AUTHORIZATION_PENDING_CHECKOUT', 'Comprar No Habilitada - Pendiente de Aprobación');
 
 // text pricing
-define('TEXT_CHARGES_WORD', 'Cargo Calculado:');
-define('TEXT_PER_WORD','<br />Precio por palabra: ');
-define('TEXT_WORDS_FREE',' Palabra(s) gratis ');
-define('TEXT_CHARGES_LETTERS', 'Cargo Calculado:');
-define('TEXT_PER_LETTER','<br />Precio por letra: ');
-define('TEXT_LETTERS_FREE',' Letra(s) gratis ');
-define('TEXT_ONETIME_CHARGES','*solo se cobra una vez = ');
-define('TEXT_ONETIME_CHARGES_EMAIL',"\t" . 'sólo se cobra una vez = ');
-define('TEXT_ATTRIBUTES_QTY_PRICES_HELP', 'Opción Descuentos al por mayor');
-define('TABLE_ATTRIBUTES_QTY_PRICE_QTY','CANTIDAD');
-define('TABLE_ATTRIBUTES_QTY_PRICE_PRICE','PRECIO');
-define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'En la opción Descuentos al por mayor se aplica un solo cargo');
+  define('TEXT_CHARGES_WORD', 'Cargo Calculado:');
+  define('TEXT_PER_WORD','<br />Precio por palabra: ');
+  define('TEXT_WORDS_FREE',' Palabra(s) gratis ');
+  define('TEXT_CHARGES_LETTERS', 'Cargo Calculado:');
+  define('TEXT_PER_LETTER','<br />Precio por letra: ');
+  define('TEXT_LETTERS_FREE',' Letra(s) gratis ');
+  define('TEXT_ONETIME_CHARGES','*solo se cobra una vez = ');
+  define('TEXT_ONETIME_CHARGES_EMAIL',"\t" . 'sólo se cobra una vez = ');
+  define('TEXT_ATTRIBUTES_QTY_PRICES_HELP', 'Opción Descuentos al por mayor');
+  define('TABLE_ATTRIBUTES_QTY_PRICE_QTY','CANTIDAD');
+  define('TABLE_ATTRIBUTES_QTY_PRICE_PRICE','PRECIO');
+  define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'En la opción Descuentos al por mayor se aplica un solo cargo');
 
 // textarea attribute input fields
   define('TEXT_MAXIMUM_CHARACTERS_ALLOWED',' caracteres máximos permitidos');
@@ -557,22 +557,22 @@ define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'En la opción Descuentos al p
   //moved SUBMIT_BUTTON_ADD_PRODUCTS_TO_CART to button_names.php as BUTTON_ADD_PRODUCTS_TO_CART_ALT
 
 // discount qty table
-define('TEXT_HEADER_DISCOUNT_PRICES_PERCENTAGE', 'Descuentos por Cantidades');
-define('TEXT_HEADER_DISCOUNT_PRICES_ACTUAL_PRICE', 'Descuentos por Cantidades Precio Nuevo');
-define('TEXT_HEADER_DISCOUNT_PRICES_AMOUNT_OFF', 'Descuentos por Cantidades');
-define('TEXT_FOOTER_DISCOUNT_QUANTITIES', '* Los descuentos pueden variar en función de las opciones elegidas');
-define('TEXT_HEADER_DISCOUNTS_OFF', 'Descuentos por Cantidades no disponibles ...');
+  define('TEXT_HEADER_DISCOUNT_PRICES_PERCENTAGE', 'Descuentos por Cantidades');
+  define('TEXT_HEADER_DISCOUNT_PRICES_ACTUAL_PRICE', 'Descuentos por Cantidades Precio Nuevo');
+  define('TEXT_HEADER_DISCOUNT_PRICES_AMOUNT_OFF', 'Descuentos por Cantidades');
+  define('TEXT_FOOTER_DISCOUNT_QUANTITIES', '* Los descuentos pueden variar en función de las opciones elegidas');
+  define('TEXT_HEADER_DISCOUNTS_OFF', 'Descuentos por Cantidades no disponibles ...');
 
 // sort order titles for dropdowns
-define('PULL_DOWN_ALL_RESET','- RESETEAR - ');
-define('TEXT_INFO_SORT_BY_PRODUCTS_NAME', 'Nombre del producto');
-define('TEXT_INFO_SORT_BY_PRODUCTS_NAME_DESC', 'Productos - Descripción');
-define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE', 'Precio - bajo a alto');
-define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Precio - alto a bajo');
-define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Modelo');
-define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Fecha Añadida - Nueva a antigua');
-define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Fecha Añadida - Antigua a nueva');
-define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Mostrar la predeterminada');
+  define('PULL_DOWN_ALL_RESET','- RESETEAR - ');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_NAME', 'Nombre del producto');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_NAME_DESC', 'Productos - Descripción');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE', 'Precio - bajo a alto');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Precio - alto a bajo');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Modelo');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Fecha Añadida - Nueva a antigua');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Fecha Añadida - Antigua a nueva');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Mostrar la predeterminada');
 
 // downloads module defines
   define('TABLE_HEADING_DOWNLOAD_DATE', 'Enlace Caduca');
@@ -600,7 +600,7 @@ define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Mostrar la predeterminada');
   define('TABLE_HEADING_ADDRESS_DETAILS', 'Dirección');
   define('TABLE_HEADING_PHONE_FAX_DETAILS', 'Datos de contacto adicionales');
   define('TABLE_HEADING_DATE_OF_BIRTH', 'Confirma tu edad');
-  define('TABLE_HEADING_LOGIN_DETAILS', 'Detalles de la cuenta');
+  define('TABLE_HEADING_LOGIN_DETAILS', 'Datos de Login');
   define('TABLE_HEADING_REFERRAL_DETAILS', '¿Cómo supo de nosotros?');
 
   define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Lo sentimos, pero no tratamos con direcciones de envio/facturación en "%s". Por favor actualice esta dirección para continuar.');

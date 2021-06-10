@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2005 Zen Cart Development Team
@@ -7,8 +7,8 @@
  * @version $Id: page_not_found.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Página no encontrada');
-define('HEADING_TITLE', 'Página no encontrada');
+define('NAVBAR_TITLE', 'Página No Encontrada');
+define('HEADING_TITLE', 'Página No Encontrada');
 define('TEXT_INFORMATION', '');
 define('PAGE_ACCOUNT', 'Mi Cuenta');
 define('PAGE_ACCOUNT_EDIT', 'Datos de la Cuenta');

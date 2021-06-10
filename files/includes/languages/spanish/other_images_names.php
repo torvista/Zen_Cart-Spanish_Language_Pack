@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -31,8 +31,8 @@ define('OTHER_IMAGE_REVIEWS_RATING_STARS_ONE', 'stars_1_small.gif');
  * ALT tags for other images
  */
 
-define('OTHER_BOX_NOTIFY_REMOVE_ALT', 'Eliminar las alertas de este producto.');
-define('OTHER_BOX_NOTIFY_YES_ALT', 'Avisadme de cambios de este producto.');
+define('OTHER_BOX_NOTIFY_REMOVE_ALT', 'Eliminar las notificaciones sobre este producto.');
+define('OTHER_BOX_NOTIFY_YES_ALT', 'Avísame de actualizaciones de este producto.');
 define('OTHER_BOX_WRITE_REVIEW_ALT', 'Escribir un comentario sobre este producto.');
 define('OTHER_CALL_FOR_PRICE_ALT', 'Llame para informarse del precio de este producto');
 define('OTHER_DOWN_FOR_MAINTENANCE_ALT', 'Estamos mejorando la web y no estará disponible por el momento. Por favor, vuelva más tarde.');

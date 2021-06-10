@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2011 Zen Cart Development Team
@@ -12,7 +12,7 @@ define('NAVBAR_TITLE', 'Contáctenos');
 define('TEXT_SUCCESS', 'Su mensaje se ha enviado correctamente.');
 define('EMAIL_SUBJECT', 'Mensaje de ' . STORE_NAME . ' la página de contacto de la tienda');
 
-define('ENTRY_NAME', 'Nombre completo:');
+define('ENTRY_NAME', 'Nombre:');
 define('ENTRY_EMAIL', 'Dirección de email:');
 define('ENTRY_ENQUIRY', 'Mensaje:');
 

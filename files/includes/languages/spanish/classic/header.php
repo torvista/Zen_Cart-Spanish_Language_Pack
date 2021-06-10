@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2005 Zen Cart Development Team
@@ -26,5 +26,5 @@ define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // header Search Button/Box Search Button
 define('HEADER_SEARCH_BUTTON','Buscar');
-define('HEADER_SEARCH_DEFAULT_TEXT', 'Palabras Claves Aquí');
-?>
+define('HEADER_SEARCH_DEFAULT_TEXT', 'buscar');
+define('SEARCH_DEFAULT_TEXT', 'buscar aquí');

@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -19,8 +19,8 @@ define('ICON_IMAGE_TINYCART', 'cart.gif');
 define('ICON_ERROR_ALT', 'Error');
 define('ICON_SUCCESS_ALT', 'Éxito');
 define('ICON_WARNING_ALT', 'Aviso');
-define('ICON_TRASH_ALT', 'Elimine este producto');
-define('ICON_UPDATE_ALT', 'Actualice el pedido');
-define('ICON_TINYCART_ALT', 'Añada');
+define('ICON_TRASH_ALT', 'Eliminar');
+define('ICON_UPDATE_ALT', 'Actualizar');
+define('ICON_TINYCART_ALT', 'Añadir');
 
 ?>

@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2013 Zen Cart Development Team
@@ -7,10 +7,10 @@
  * @version GIT: $Id: Author: DrByte  Sun Feb 17 23:22:33 2013 -0500 Modified in v1.5.2 $
  */
 
-define('NAVBAR_TITLE', 'Su descarga ...');
-define('HEADING_TITLE', 'Su descarga ...');
+define('NAVBAR_TITLE', 'Su Descarga ...');
+define('HEADING_TITLE', 'Su Descarga ...');
 
-define('TEXT_INFORMATION', 'Lo sentimos, pero su descarga ha expirado. <br /><br />
+define('TEXT_INFORMATION', 'Lo sentimos, pero su descarga ha caducada. <br /><br />
   Si tenía otras descargas y desea utilizarlas,
   por favor, diríjase a su página <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">Mi Cuenta</a> para ver su pedido.<br /><br />
   O, si piensa que existe algún problema con su pedido, por favor, <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '">contáctenos</a> <br /><br />

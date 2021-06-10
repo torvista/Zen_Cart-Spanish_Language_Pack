@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,8 +20,8 @@
 // $Id: privacy.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Política de privacidad');
-define('HEADING_TITLE', 'Política de privacidad');
+define('NAVBAR_TITLE', 'Política de Privacidad');
+define('HEADING_TITLE', 'Política de Privacidad');
 
 define('TEXT_INFORMATION', 'Su Política de Privacidad debería ir en esta página.');
 ?>

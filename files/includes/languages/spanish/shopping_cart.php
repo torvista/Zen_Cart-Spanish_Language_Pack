@@ -1,16 +1,17 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: shopping_cart.php 3183 2006-03-14 07:58:59Z birdbrain $
+ * @version $Id: Author: DrByte  Fri Sep 11 15:56:13 2015 -0400 Modified in v1.5.5 $
  */
+
+define('TEXT_INFORMATION', 'Puede seguir con el proceso de la compra pinchando en el botón inferior "' . BUTTON_CHECKOUT_ALT . '". Se añade los gastos de envío y impuestos en las páginas siguientes.');//steve changed button name for constant
 
 define('NAVBAR_TITLE', 'Carro de la Compra');
 define('HEADING_TITLE', 'Su carro de la compra contiene:');
 define('HEADING_TITLE_EMPTY', 'Su carro de la compra');
-define('TEXT_INFORMATION', '');
 define('TABLE_HEADING_REMOVE', 'Quitar');
 define('TABLE_HEADING_QUANTITY', 'Cantidad');
 define('TABLE_HEADING_MODEL', 'Modelo');

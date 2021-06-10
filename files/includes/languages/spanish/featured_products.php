@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,10 +20,10 @@
 // $Id: featured_products.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Productos destacados');
-define('HEADING_TITLE', 'Productos destacados');
+define('NAVBAR_TITLE', 'Productos Destacados');
+define('HEADING_TITLE', 'Productos Destacados');
 
-define('TEXT_DATE_ADDED', 'Añadido a la tienda el:');
+define('TEXT_DATE_ADDED', 'Añadido al catálogo el:');
 define('TEXT_MANUFACTURER', 'Fabricante:');
 define('TEXT_PRICE', 'Precio:');
 

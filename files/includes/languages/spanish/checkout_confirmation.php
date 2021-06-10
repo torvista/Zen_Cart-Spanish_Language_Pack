@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -12,11 +12,11 @@ define('NAVBAR_TITLE_2', 'Paso 3 de 3 - Confirmación del Pedido');
 
 define('HEADING_TITLE', 'Paso 3 de 3 - Confirmación del Pedido');
 
-define('HEADING_BILLING_ADDRESS', 'Dirección de facturación');
-define('HEADING_DELIVERY_ADDRESS', 'Dirección de entrega');
-define('HEADING_SHIPPING_METHOD', 'Método de envío:');
+define('HEADING_BILLING_ADDRESS', 'Dirección de Facturación');
+define('HEADING_DELIVERY_ADDRESS', 'Dirección de Envío');
+define('HEADING_SHIPPING_METHOD', 'Método de Envío:');
 define('HEADING_PAYMENT_METHOD', 'Método de Pago:');
-define('HEADING_PRODUCTS', 'Contenido del carro de la compra');
+define('HEADING_PRODUCTS', 'Contenido del Carro');
 define('HEADING_TAX', 'Impuestos');
 define('HEADING_ORDER_COMMENTS', 'Instrucciones especiales sobre el pedido o el envío');
 // no comments entered

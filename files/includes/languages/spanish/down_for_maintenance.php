@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -21,8 +21,8 @@
 // $Id: down_for_maintenance.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'En mantenimiento');
-define('HEADING_TITLE', 'En mantenimiento...');
+define('NAVBAR_TITLE', 'Tienda en fase de actualización');
+define('HEADING_TITLE', 'Tienda en fase de actualización...');
 define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', 'Actualmente la tienda no está operativa, contáctenos directamente');
 define('TEXT_MAINTENANCE_ON_AT_TIME', 'Hay tareas de mantenimiento programadas para: ');
 define('TEXT_MAINTENANCE_PERIOD', 'Periodo de mantenimiento: ');

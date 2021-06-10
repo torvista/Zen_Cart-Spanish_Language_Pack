@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,7 +7,7 @@
  * @version $Id: index.php 19537 2011-09-20 17:14:44Z drbyte $
  */
 
-define('TEXT_MAIN','Esta es la definición del saludo principal para la página en castellano cuando no existe ninguna plantilla definida. Está ubicada en: <strong>/includes/languages/spanish/motorvista1/index.php</strong>');
+define('TEXT_MAIN','Esta es la definición de la página de inicio en español cuando no existe ninguna plantilla definida. Está ubicada en: <strong>/includes/languages/spanish/index.php</strong>');
 
 // Showcase vs Store
 if (STORE_STATUS == '0') {
@@ -29,7 +29,7 @@ define('TEXT_INFORMATION', 'Defina aquí su página índice principal.');
 
 if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   // This section deals with product-listing page contents
-  define('HEADING_TITLE', 'Productos disponibles');
+  define('HEADING_TITLE', 'Productos Disponibles');
   define('TABLE_HEADING_IMAGE', 'Imagen');
   define('TABLE_HEADING_MODEL', 'Modelo');
   define('TABLE_HEADING_PRODUCTS', 'Nombre');
@@ -37,15 +37,15 @@ if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   define('TABLE_HEADING_QUANTITY', 'Cantidad');
   define('TABLE_HEADING_PRICE', 'Precio');
   define('TABLE_HEADING_WEIGHT', 'Peso');
-  define('TABLE_HEADING_BUY_NOW', 'Comprar ahora');
+  define('TABLE_HEADING_BUY_NOW', 'Comprar Ahora');
   define('TEXT_NO_PRODUCTS', 'No hay productos disponibles en esta categoría.');
-  define('TEXT_NO_PRODUCTS2', 'No hay productos disponibles en este fabricante.');
+  define('TEXT_NO_PRODUCTS2', 'No hay productos disponibles de este fabricante.');
   define('TEXT_NUMBER_OF_PRODUCTS', 'Número de productos: ');
-  define('TEXT_SHOW', 'Filtrar por:');
+  define('TEXT_SHOW', 'Filtrar Resultados por:');
   define('TEXT_BUY', 'Comprar 1 \'');
   define('TEXT_NOW', '\' ahora');
-  define('TEXT_ALL_CATEGORIES', 'Todas las categorías');
-  define('TEXT_ALL_MANUFACTURERS', 'Todos los fabricantes');
+  define('TEXT_ALL_CATEGORIES', 'Todas las Categorías');
+  define('TEXT_ALL_MANUFACTURERS', 'Todos los Fabricantes');
 } elseif ($category_depth == 'top') {
   // This section deals with the "home" page at the top level with no options/products selected
   /*Replace this text with the headline you would like for your shop. For example: 'Welcome to My SHOP!'*/
