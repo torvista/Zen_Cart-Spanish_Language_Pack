@@ -1,27 +1,27 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @package admin
+ * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 May 12 Modified in v1.5.7 $
+ * @version $Id:$
  */
 
+define('HEADING_TITLE', 'Tarjetas Regalo Enviados');
 
-require DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . 'gv_name.php';
-define('HEADING_TITLE', TEXT_GV_NAMES . ' Enviados');
-
-define('TABLE_HEADING_SENDERS_NAME', 'Remitente');
+define('TABLE_HEADING_SENDERS_NAME', 'Remitentes');
 define('TABLE_HEADING_VOUCHER_VALUE', 'Valor del ' . TEXT_GV_NAME);
 define('TABLE_HEADING_VOUCHER_CODE', TEXT_GV_REDEEM);
-define('TABLE_HEADING_DATE_SENT', 'Fecha Enviado');
+define('TABLE_HEADING_DATE_SENT', 'Fecha del Envío');
 define('TEXT_HEADING_DATE_REDEEMED', 'Fecha de Canje');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_SENDERS_ID', 'ID Remitente:');
-define('TEXT_INFO_AMOUNT_SENT', 'Valor Enviado:');
-define('TEXT_INFO_DATE_SENT', 'Fecha Enviado:');
+define('TEXT_INFO_SENDERS_ID', 'ID de Remitente:');
+define('TEXT_INFO_AMOUNT_SENT', 'Valor:');
+define('TEXT_INFO_DATE_SENT', 'Fecha del Envío:');
 define('TEXT_INFO_VOUCHER_CODE', TEXT_GV_REDEEM . ':');
-define('TEXT_INFO_EMAIL_ADDRESS', 'Email:');
+define('TEXT_INFO_EMAIL_ADDRESS', 'Enviado a (email):');
 define('TEXT_INFO_DATE_REDEEMED', 'Fecha de Canje:');
 define('TEXT_INFO_IP_ADDRESS', 'Dirección IP:');
-define('TEXT_INFO_CUSTOMERS_ID', 'ID Cliente:');
+define('TEXT_INFO_CUSTOMERS_ID', 'ID de Cliente:');
 define('TEXT_INFO_NOT_REDEEMED', 'Sin Canjear');

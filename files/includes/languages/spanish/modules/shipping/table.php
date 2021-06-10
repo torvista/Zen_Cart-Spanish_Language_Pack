@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -23,3 +23,6 @@
 define('MODULE_SHIPPING_TABLE_TEXT_TITLE', 'Tabla de Tarifas');
 define('MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION', 'Tabla de Tarifas');
 define('MODULE_SHIPPING_TABLE_TEXT_WAY', 'Mensajería');
+define('MODULE_SHIPPING_TABLE_TEXT_WEIGHT', 'Peso');
+define('MODULE_SHIPPING_TABLE_TEXT_AMOUNT', 'Cantidad');
+?>

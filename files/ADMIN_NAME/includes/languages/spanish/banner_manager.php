@@ -1,8 +1,9 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @package admin
+ * @copyright Copyright 2003-2013 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
+ * @version $Id: banner_manager.php 3131 2006-03-07 22:53:04Z ajeh $
  */
 
 define('HEADING_TITLE', 'Gestor de Banners');
@@ -20,7 +21,7 @@ define('TEXT_BANNERS_TITLE', 'Título del banner:');
 define('TEXT_BANNERS_URL', 'URL del banner:');
 define('TEXT_BANNERS_GROUP', 'Grupo del banner:');
 define('TEXT_BANNERS_NEW_GROUP', ', o ingrese un nuevo grupo de banners aquí debajo');
-define('TEXT_BANNERS_IMAGE', 'Imagen:');
+define('TEXT_BANNERS_IMAGE', 'Imágen:');
 define('TEXT_BANNERS_IMAGE_LOCAL', ', o ingrese un fichero local aquí debajo');
 define('TEXT_BANNERS_IMAGE_TARGET', 'Imagen destino (Guardar en):');
 define('TEXT_BANNER_IMAGE_TARGET_INFO', '<strong>Carpeta de destino:</strong> ' . DIR_FS_CATALOG_IMAGES . 'banners/');
@@ -48,7 +49,7 @@ define('TEXT_INFO_BANNER_ON_SSL', '<strong>NOTA:</strong> El banner se puede mos
 define('TEXT_BANNERS_DATE_ADDED', 'Agregado el:');
 define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Programado para: <b>%s</b>');
 define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Caduca el: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Caduca después de  ser mostrado: <b>%s</b> veces');
+define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Caduca despúes de  ser mostrado: <b>%s</b> veces');
 define('TEXT_BANNERS_STATUS_CHANGE', 'Cambio de Estatus: %s');
 
 define('TEXT_BANNERS_LAST_3_DAYS', 'Últimos 3 Días');
@@ -65,10 +66,12 @@ define('SUCCESS_BANNER_STATUS_UPDATED', 'Listo: El estado del banner fue actuali
 
 define('ERROR_BANNER_TITLE_REQUIRED', 'Error: Hace falta el título del banner.');
 define('ERROR_BANNER_GROUP_REQUIRED', 'Error: Hace falta el grupo del banner.');
+define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: No existe el directorio de destino: %s');
+define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de destino: %s');
 define('ERROR_IMAGE_DOES_NOT_EXIST', 'Error: La imagen no existe.');
 define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Error: La imagen no puede eliminarse.');
 define('ERROR_UNKNOWN_STATUS_FLAG', 'Error: Estado desconocido.');
-define('ERROR_BANNER_IMAGE_REQUIRED', 'Error: Precisa el imagen del banner.');
+define('ERROR_BANNER_IMAGE_REQUIRED', 'Error: Precisa el imágen del banner.');
 
 define('TEXT_LEGEND_BANNER_ON_SSL', 'Mostrar SSL');
 define('TEXT_LEGEND_BANNER_OPEN_NEW_WINDOWS', 'Nueva ventana');
@@ -76,8 +79,8 @@ define('TEXT_LEGEND_BANNER_OPEN_NEW_WINDOWS', 'Nueva ventana');
 // Tooltip Text for images in Banner Manager
 define('IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_ON','Abrir nueva ventana - Activado');
 define('IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_OFF','Abrir nueva ventana - Desactivado');
-define('IMAGE_ICON_BANNER_ON_SSL_ON','Mostrar en páginas seguras - Activado');
-define('IMAGE_ICON_BANNER_ON_SSL_OFF','Mostrar en páginas seguras - Desactivado');
+define('IMAGE_ICON_BANNER_ON_SSL_ON','Mostrar en paginas seguras - Activado');
+define('IMAGE_ICON_BANNER_ON_SSL_OFF','Mostrar en paginas seguras - Desactivado');
 
 define('SUCCESS_BANNER_OPEN_NEW_WINDOW_UPDATED', 'Éxito: el estatus del banner para abrir en una nueva ventana ha sido actualizado.');
 define('SUCCESS_BANNER_ON_SSL_UPDATED', 'Éxito: el estatus del banner para mostrar con SSL ha sido actualizado.');

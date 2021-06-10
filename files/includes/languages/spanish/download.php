@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2010 Zen Cart Development Team
@@ -7,4 +7,4 @@
  * @version $Id: download.php 15514 2010-02-18 07:27:05Z drbyte $
  */
 
-define('ERROR_CUSTOMER_DOWNLOAD_FAILURE', 'Fallo en la Descarga');
+define('ERROR_CUSTOMER_DOWNLOAD_FAILURE', 'Fallo de la Descarga');

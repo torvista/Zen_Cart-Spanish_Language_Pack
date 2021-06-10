@@ -1,25 +1,22 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-/**
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+/** TODO - Check
  * @package languageDefines
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Copyright 2003-2017 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Steve 2020 May 27 Modified in v1.5.7 $
+ * @version $Id: gv_faq.php $
  */
 
-define('NAVBAR_TITLE', TEXT_GV_NAMES . 'Preguntas Frecuentes');
-define('HEADING_TITLE', TEXT_GV_NAMES . 'Preguntas Frecuentes');
+define('NAVBAR_TITLE', TEXT_GV_NAME . 'Preguntas Frecuentes');
+define('HEADING_TITLE', TEXT_GV_NAME . 'Preguntas Frecuentes');
 
-define('TEXT_INFORMATION', '<a id="Top"></a>
+define('TEXT_INFORMATION', '<a name="Top"></a>
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Comprando ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">Cómo enviar ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Comprando con ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Canjeando ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">Cuando hay problemas</a><br />
 ');
-if (empty($_GET['faq_item'])) {
-  $_GET['faq_item'] = '0';
-}
 switch ($_GET['faq_item']) {
   case '1':
 define('SUB_HEADING_TITLE', 'Comprando ' . TEXT_GV_NAMES);
@@ -27,12 +24,13 @@ define('SUB_HEADING_TEXT', 'Los ' . TEXT_GV_NAMES . ' se compran como cualquier 
 pagar usando los métodos de pago estándar de la tienda.
 Una vez que lo haya adquirido, el valor del ' . TEXT_GV_NAME . ' se sumará a su cuenta de
   ' . TEXT_GV_NAME . ' personal. Si usted tiene fondos en su cuenta de ' . TEXT_GV_NAME . ', comprobará
-  que la cantidad ahora se muestra en la página Mi Cuenta y también se mostrará un 
+  que la cantidad ahora se muestra en el Carro de Compras, y también se mostrará un 
   enlace a la página donde podrá enviar el ' . TEXT_GV_NAME . ' a alguien por email.');
   break;
   case '2':
 define('SUB_HEADING_TITLE', 'Cómo enviar ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT','Se puede enviar un ' . TEXT_GV_NAME . ' desde la página Mi Cuenta.
+define('SUB_HEADING_TEXT', 'Para enviar un ' . TEXT_GV_NAME . ' necesitará ir a nuestra Página de Enviar ' . TEXT_GV_NAME . '. Puede
+  encontrar el link a esta página en el Cuadro del Carro de la Compra en la columna derecha de cada página.
   Cuando usted envía un ' . TEXT_GV_NAME . ', necesita especificar la siguiente información.
   El nombre de la persona a la que le está enviando el  ' . TEXT_GV_NAME . '.
   El email de la persona a la que le está enviando el  ' . TEXT_GV_NAME . '.

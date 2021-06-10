@@ -1,16 +1,17 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
  * @package admin
- * @copyright Copyright 2003-2014 Zen Cart Development Team
+ * @copyright Copyright 2003-2012 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: Ian Wilson   Modified in v1.5.4 $
+ * @version GIT: $Id: Author: DrByte  Sun Jul 1 16:59:57 2012 -0400 Modified in v1.5.1 $
  */
 
 define('HEADING_TITLE_ALL_PROFILES', 'Perfiles de Usuarios');
 define('HEADING_TITLE_INDIVIDUAL_PROFILE', 'Perfil para %s ');
 define('HEADING_TITLE_NEW_PROFILE', 'Perfil nuevo para ');
 
+define('TEXT_CONFIRM_DELETE', '¿Borrar Perfil Admin? Confirmar: ');
 define('ERROR_NO_PROFILE_DEFINED', 'La opción solicitada no está disponible sin especificar un perfil');
 define('ERROR_NO_PROFILE_NAME', 'Teclee un nombre para el perfil nuevo');
 define('ERROR_INVALID_PROFILE_NAME', 'Teclee un nombre válido para el perfil.');
@@ -30,5 +31,3 @@ define('TEXT_NO_PROFILES_FOUND', 'Ningún perfil ha sido definido todavía');
 
 define('IMAGE_ADD_PROFILE', 'Añadir Perfil');
 define('IMAGE_RENAME', 'Renombrar');
-
-define('TEXT_CONFIRM_DELETE', '¿Borrar cuenta Admin? Confirmar: ');

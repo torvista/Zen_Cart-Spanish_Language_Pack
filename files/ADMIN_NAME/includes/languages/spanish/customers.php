@@ -1,9 +1,10 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @package admin
+ * @copyright Copyright 2003-2017 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
+ * @version $Id: customers.php $
  */
 
 define('HEADING_TITLE', 'Clientes');
@@ -28,12 +29,12 @@ define('TEXT_DELETE_INTRO', '¿Seguro que desea eliminar este cliente?');
 define('TEXT_DELETE_REVIEWS', 'Eliminar %s comentario(s)');
 define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Eliminar cliente');
 define('TYPE_BELOW', 'Escribir aquí debajo');
+define('PLEASE_SELECT', 'Elegir uno');
 define('TEXT_INFO_NUMBER_OF_ORDERS', 'Número de pedidos:');
-define('TEXT_INFO_LIFETIME_VALUE', 'Valor Total de Pedidos:');
 define('TEXT_INFO_LAST_ORDER','Último pedido:');
 define('TEXT_INFO_ORDERS_TOTAL', 'Total:');
-define('CUSTOMERS_REFERRAL', 'Cliente Referido<br />1er Cupón de descuento');
-define('TEXT_INFO_GV_AMOUNT', 'Saldo Tarjeta Regalo');
+define('CUSTOMERS_REFERRAL', 'Referencia del cliente<br />1er Cupón de descuento');
+define('TEXT_INFO_GV_AMOUNT', 'Saldo TR');
 
 define('ENTRY_NONE', 'Ninguno');
 
@@ -44,7 +45,6 @@ define('TEXT_PWDRESET_INTRO', 'Para resetear la contraseña para este cliente, i
 define('TEXT_CUST_NEW_PASSWORD', 'Contraseña Nueva:');
 define('TEXT_CUST_CONFIRM_PASSWORD', 'Confirmar Contraseña:');
 define('ERROR_PWD_TOO_SHORT', 'Error: la contraseña tiene menos caracteres de lo que precisa la configuración de esta tienda.');
-define('SUCCESS_PASSWORD_UPDATED', 'Contraseña cambiada.');
 
 define('EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE', 'Su contraseña ha sido cambiada por el administrador de la tienda.' . "\n" . 'Su contraseña nueva es: ');
 define('EMAIL_CUSTOMER_PWD_CHANGE_SUBJECT', 'Cambio de Contraseña de Su Cuenta');
@@ -53,8 +53,8 @@ define('EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE_FOR_ADMIN', 'Ha cambiado la contraseñ
 define('CUSTOMERS_AUTHORIZATION', 'Estado de Autorización de Cliente');
 define('CUSTOMERS_AUTHORIZATION_0', 'Aprobado');
 define('CUSTOMERS_AUTHORIZATION_1', 'Pendiente de aprobación - Precisa Aprobación para Navegar');
-define('CUSTOMERS_AUTHORIZATION_2', 'Pendiente de aprobación - Puede Navegar pero no Ver Precios');
-define('CUSTOMERS_AUTHORIZATION_3', 'Pendiente de aprobación - Puede Navegar, Ver Precios pero no comprar');
+define('CUSTOMERS_AUTHORIZATION_2', 'Pendiende de aprobación - Puede Navegar pero no Ver Precios');
+define('CUSTOMERS_AUTHORIZATION_3', 'Pendiende de aprobación - Puede Navegar, Ver Precios pero no comprar');
 define('CUSTOMERS_AUTHORIZATION_4', 'Prohibido - Sin permiso para entrar en su cuenta ni comprar');
 define('ERROR_CUSTOMER_APPROVAL_CORRECTION1', 'Atención: Su tienda está configurada para "Aprobación sin navegación". Los clientes se han configurado a "Pendiente de aprobación - Sin navegación"');
 define('ERROR_CUSTOMER_APPROVAL_CORRECTION2', 'Atención: Su tienda está configurada para "Aprobación sin precios". Los clientes se han configurado a "Pendiente de aprobación - Navegación sin precios"');
@@ -64,9 +64,20 @@ define('EMAIL_CUSTOMER_STATUS_CHANGE_SUBJECT', 'Estado Cliente Actualizado');
 
 define('ADDRESS_BOOK_TITLE', 'Direcciones');
 define('PRIMARY_ADDRESS', '(dirección por defecto)');
-define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOTA:</strong></span> Hay un máximo de %s direcciones permitidos en la agenda.');
-define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | <a href="%s">%s Entradas</a>');
-define('TEXT_INFO_ADDRESS_BOOK_COUNT_SINGLE', '');
+define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOTA:</strong></span> Hay un máximo de %s direcciónes permitidos en la agenda.');
+define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | 1 de  ');
 
-define('EMP_BUTTON_PLACEORDER_ALT', 'Hacer un pedido de parte de este cliente');
-define('EMP_BUTTON_PLACEORDER', 'Hacer Pedido');
+define('ENTRY_EMAIL_NEVER_SEND_EMAILS', 'Nunca (Nota: está opción evitará el envío de TODOS los emails, ¡incluso los de Confirmación de Pedido!)');
+
+// Title of column in customer overview admin page
+define('TABLE_HEADING_ACCOUNT_TYPE', 'Tipo de Cuenta');
+
+// Title of section in customer details admin page
+define('ACCOUNT_TYPE_SECTION_HEADING', 'Estatus de la Cuenta');
+
+// Detail output on customer details page
+define('GUEST_STATUS_TRUE', 'Compró sin Cuenta');
+define('GUEST_STATUS_FALSE', 'Cuenta Estándar Creado');
+
+define('TEXT_GUEST', 'Cuenta Invitado');
+define('TEXT_STANDARD', 'Cuenta Estándar');

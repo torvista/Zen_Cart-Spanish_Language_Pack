@@ -1,17 +1,18 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @package admin
+ * @copyright Copyright 2003-2014 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
+ * @version $Id: attributes_controller.php 15883 2010-04-11 16:41:26Z wilt $
  */
 
-define('HEADING_TITLE', 'Gestión de Atributos');
+define('HEADING_TITLE', 'CATEGORÍAS: ');
 
 define('HEADING_TITLE_OPT', 'Opciones de Producto');
 define('HEADING_TITLE_VAL', 'Valores de Opciones');
 define('HEADING_TITLE_ATRIB', 'Gestionar Atributos');
-define('HEADING_TITLE_ATRIB_SELECT', 'Elija un producto del cual mostrar sus atributos...');
+define('HEADING_TITLE_ATRIB_SELECT', 'Por favor, elija un producto del cual mostrar sus atributos...');
 
 define('TEXT_PRICES_AND_WEIGHTS', 'Precios y pesos');
 define('TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR', 'Factor de Precio: ');
@@ -40,6 +41,8 @@ define('TABLE_HEADING_DOWNLOAD', 'Productos descargables:');
 define('TABLE_TEXT_FILENAME', 'Nombre Fichero:');
 define('TABLE_TEXT_MAX_DAYS', 'Caducidad de la descarga (0 = sin limitación):');//steve colon moved
 define('TABLE_TEXT_MAX_COUNT', 'Cantidad máxima de descargas:');
+define('TABLE_HEADING_OPT_DISCOUNTED', 'Descuento');
+define('TABLE_HEADING_PRICE_BASE_INCLUDED','Base');
 define('TABLE_HEADING_PRICE_TOTAL','Total|Desc: Unavez:');
 define('TEXT_WARNING_OF_DELETE', 'Esta opción tiene productos y valores vinculados a ella; no es seguro eliminarla.');
 define('TEXT_OK_TO_DELETE', 'Esta opción no tiene productos y valores vinculados a ella; es seguro eliminarla.');
@@ -68,10 +71,13 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
   define('TABLE_HEADING_OPT_WEIGHT_PREFIX', 'Prefijo');
   define('TABLE_HEADING_OPT_WEIGHT', 'Peso');
   define('TABLE_HEADING_OPT_SORT_ORDER', 'Orden');
+  define('TABLE_HEADING_OPT_DEFAULT', 'por defecto');
 
   define('TABLE_HEADING_OPT_TYPE', 'Tipo de opción'); //CLR 031203 add option type column
   define('TABLE_HEADING_OPTION_VALUE_SIZE', 'Tamaño');
-  define('TABLE_HEADING_OPTION_VALUE_MAX','Max');
+  define('TABLE_HEADING_OPTION_VALUE_MAX', 'Máx');
+  define('TABLE_HEADING_OPTION_VALUE_ROWS', 'Filas');
+  define('TABLE_HEADING_OPTION_VALUE_COMMENTS', 'Comentarios');
 
   define('TEXT_OPTION_VALUE_COMMENTS', 'Comentarios: ');
   define('TEXT_OPTION_VALUE_SIZE', 'Mostrar tamaño: ');
@@ -97,22 +103,31 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
   define('LEGEND_ATTRIBUTE_PRICE_BASE_INCLUDED','Precio base');
   define('LEGEND_ATTRIBUTES_REQUIRED','Requerido');
   define('LEGEND_ATTRIBUTES_IMAGES','Imágenes');
-  define('LEGEND_ATTRIBUTES_DOWNLOAD','Nombre de archivo<br />válido/erróneo');
+  define('LEGEND_ATTRIBUTES_DOWNLOAD','Nombre de archivo<br />válido/erroneo');
 
+  define('TEXT_ATTRIBUTES_UPDATE_SORT_ORDER', 'ORDEN POR DEFECTO');
+  define('TEXT_PRODUCTS_LISTING', 'Lista de productos para: ');
   define('TEXT_NO_PRODUCTS_SELECTED', 'Falta elegir producto');
   define('TEXT_NO_ATTRIBUTES_DEFINED', 'Atributos sin definir para el producto ID#');
 
   define('TEXT_PRODUCTS_ID', 'Productos ID#');
+  define('TEXT_ATTRIBUTES_DELETE', 'ELIMINAR TODOS');
+  define('TEXT_ATTRIBUTES_COPY_PRODUCTS', 'Copiar al producto');
+  define('TEXT_ATTRIBUTES_COPY_CATEGORY', 'Copiar a la categoría');
 
   define('TEXT_INFO_HEADING_ATTRIBUTE_FEATURES', 'Cambios de atributos para los productos ID# ');
   define('TEXT_INFO_ATTRIBUTES_FEATURES_DELETE', 'Eliminar <strong>TODOS</strong> los atributos de producto para:<br />');
   define('TEXT_INFO_ATTRIBUTES_FEATURES_COPY_TO', 'Copiar atributos a otro producto o a una categoría entera desde:<br />');
 
+  define('TEXT_ATTRIBUTES_COPY_TO_PRODUCTS', 'PRODUCTO');
   define('TEXT_INFO_ATTRIBUTES_FEATURES_COPY_TO_PRODUCT', 'Copiar atributos a otro <strong>Producto</strong> desde ID#');
   define('TEXT_INFO_ATTRIBUTES_FEATURE_COPY_TO', 'Seleccione el producto al que copiar todos los atributos:');
+  define('TEXT_INFO_ATTRIBUTES_FEATURE_COPY_TO_MANUAL','O, introduzca manualmente el product ID a lo que quiere copiar los atributos:');//TODO steve
 
-  define('TEXT_INFO_ATTRIBUTES_FEATURE_CATEGORIES_COPY_TO', 'Seleccione la categoría a la que copiar los atributos:');
-  define('TEXT_INFO_ATTRIBUTES_FEATURES_COPY_TO_CATEGORY', 'Copiar atributos a todos los productos en la <strong>Categoría</strong> desde el Producto ID#');
+  define('TEXT_ATTRIBUTES_COPY_TO_CATEGORY', 'CATEGORÍA');
+  define('TEXT_INFO_ATTRIBUTES_FEATURE_CATEGORIES_COPY_TO','Seleccione la categoría a la que copiar los atributos:');//TODO STEVE
+  define('TEXT_INFO_ATTRIBUTES_FEATURE_CATEGORIES_COPY_TO_MANUAL','O, introduzca manualmente el ID de la categoría a la que quiere copiar los atributos:');//TODO steve
+  define('TEXT_INFO_ATTRIBUTES_FEATURES_COPY_TO_CATEGORY', 'Copiar atributos a todos los productos en la <strong>Categoria</strong> desde el Producto ID#');
 
   define('TEXT_COPY_ATTRIBUTES_CONDITIONS', '<strong>¿Cómo deberían manipularse los atributos de productos existentes?</strong>');
   define('TEXT_COPY_ATTRIBUTES_DELETE', 'Primero <strong>borre</strong>, luego copie los nuevos atributos');
@@ -125,29 +140,30 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
   define('SUCCESS_ATTRIBUTES_UPDATE', 'Atributos actualizados correctamente');
 
   define('WARNING_PRODUCT_COPY_TO_CATEGORY_NONE', 'No seleccionó una categoría para la copia');
+  define('TEXT_PRODUCT_IN_CATEGORY_NAME', ' - en la Categoría: ');
 
   define('TEXT_DELETE_ALL_ATTRIBUTES', '¿Seguro que desea eliminar todos los atributos para ID# ');
 
-// preview
-  define('TEXT_PRODUCT_OPTIONS', '<strong>Elija:</strong>');
+  define('TEXT_ATTRIBUTE_COPY_SKIPPING', '<strong>Ignorar nuevos atributos</strong> ');
+  define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Agregando nuevos atributos desde</strong> ');
+  define('TEXT_ATTRIBUTE_COPY_UPDATING', '<strong>Actualizando desde el atributo</strong> ');
+
+  define('TEXT_PRODUCT_OPTIONS', '<strong>Por favor, elija:</strong>');
 
   define('TEXT_ATTRIBUTES_INSERT_INFO', '<strong>Defina la configuración de los atributos y luego presione el botón Insertar</strong>');
+  define('TEXT_PRICED_BY_ATTRIBUTES', 'Precio asignado por atributos');
   define('TEXT_PRODUCTS_PRICE', 'Precio de productos: ');
+  define('TEXT_SPECIAL_PRICE', 'Precio de oferta: ');
+  define('TEXT_SALE_PRICE', 'Precio de liquidación: ');
   define('TEXT_FREE', 'GRATIS');
   define('TEXT_CALL_FOR_PRICE', 'Pedir Precio');
   define('TEXT_SAVE_CHANGES','ACTUALIZAR Y GUARDAR CAMBIOS:');
+
+  define('TEXT_INFO_ID', 'ID#');
+  define('TEXT_INFO_ALLOW_ADD_TO_CART_NO', 'No añadir al carro');
 
   define('TEXT_DELETE_ATTRIBUTES_OPTION_NAME_VALUES', 'Confirmar borrado de TODOS los Valores de Opciones del Producto para la Nombre de Opción ...');
   define('TEXT_INFO_PRODUCT_NAME', '<strong>Nombre Producto: </strong>');
   define('TEXT_INFO_PRODUCTS_OPTION_NAME', '<strong>Nombre Opción: </strong>');
   define('TEXT_INFO_PRODUCTS_OPTION_ID', '<strong>ID#</strong>');
   define('SUCCESS_ATTRIBUTES_DELETED_OPTION_NAME_VALUES', 'Los Valores de Opciones han sido borrados por Opción Nombre: ');
-
-  define('BUTTON_ADDITIONAL_ACTIONS', 'Acciones Adicionales');
-  define('TEXT_EDIT_OPTION_VALUE', 'Editar Valor Opción');
-  define('TEXT_DELETE_OPTION_VALUE', 'Borrar Valor Opción');
-  define('TEXT_UPDATE_DEFAULT_SORT_ORDER', 'Resetear orden a los valores por defecto');
-  define('TEXT_DELETE_ALL_OPTIONS_FROM_PRODUCT', 'Borrar todas las opciones del producto');
-  define('TEXT_COPY_ALL_OPTIONS_TO_PRODUCT', 'Copiar las opciones a otro producto');
-  define('TEXT_COPY_ALL_OPTIONS_TO_CATEGORY', 'Copiar las opciones a una categoría ENTERA');
- define('TEXT_DISPLAY_NUMBER_OF_ATTRIBUTES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> Atributos)');

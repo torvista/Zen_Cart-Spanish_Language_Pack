@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,7 +20,7 @@
 // $Id: item.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_ITEM_TEXT_TITLE', 'Por Artículo');
-define('MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION', 'Por Artículo');
+define('MODULE_SHIPPING_ITEM_TEXT_TITLE', 'Por artículo');
+define('MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION', 'Por artículo');
 define('MODULE_SHIPPING_ITEM_TEXT_WAY', 'Mensajería');
 ?>

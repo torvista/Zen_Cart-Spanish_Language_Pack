@@ -1,43 +1,20 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-//
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-//  $Id: languages.php 1105 2005-04-04 22:05:35Z birdbrain $
-//
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+/**
+ * @package admin
+ * @copyright Copyright 2003-2015 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id:  Modified in v1.6.0 $
+ */
 
 define('HEADING_TITLE', 'Idiomas');
-
-define('TABLE_HEADING_LANGUAGE_NAME', 'Idioma');
-define('TABLE_HEADING_LANGUAGE_CODE', 'Código');
-define('TABLE_HEADING_ACTION', 'Acción');
-
-define('TEXT_INFO_EDIT_INTRO', 'Haga los cambios necesarios');
-define('TEXT_INFO_LANGUAGE_NAME', 'Nombre:');
-define('TEXT_INFO_LANGUAGE_CODE', 'Código:');
-define('TEXT_INFO_LANGUAGE_IMAGE', 'Imagen:');
-define('TEXT_INFO_LANGUAGE_DIRECTORY', 'Directorio:');
-define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Orden:');
-define('TEXT_INFO_INSERT_INTRO', 'Introduzca el nuevo idioma con sus datos relacionados');
-define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este idioma?');
-define('TEXT_INFO_HEADING_NEW_LANGUAGE', 'Nuevo idioma');
-define('TEXT_INFO_HEADING_EDIT_LANGUAGE', 'Editar idioma');
-define('TEXT_INFO_HEADING_DELETE_LANGUAGE', 'Eliminar idioma');
-
-define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Error: No se puede eliminar el idioma por defecto. Establezca otro idioma por defecto e inténtelo nuevamente.');
-define('ERROR_DUPLICATE_LANGUAGE_CODE', 'Error: Ya fue definido un idioma con ese código.');
-?>
+define('TEXT_ENTRY_LANGUAGE_NAME', 'Idioma');
+define('TEXT_ENTRY_LANGUAGE_CODE', 'Código');
+define('TEXT_ENTRY_ACTION', 'Acción');
+define('TEXT_ENTRY_LANGUAGE_IMAGE', 'Imagen:');
+define('TEXT_ENTRY_LANGUAGE_DIRECTORY', 'Carpeta:');
+define('TEXT_ENTRY_LANGUAGE_SORT_ORDER', 'Orden:');
+define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Error: No se puede eliminar el idioma por defecto. Por favor, establezca otro idioma por defecto e inténtelo nuevamente.');
+define('ERROR_REMOVE_DEFAULT_LANGUAGE_MULTI', 'Error: No se puede eliminar el idioma por defecto. Por favor, establezca otro idioma por defecto e inténtelo nuevamente.');
+define('TEXT_LEAD_ACTION_LIST', 'Mostrar Idiomas');
+define('TEXT_LEAD_ACTION_ADD_ENTRY', 'Añadir Idioma');

@@ -1,17 +1,18 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @package admin
+ * @copyright Copyright 2003-2010 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 Apr 07 Modified in v1.5.7 $
+ * @version $Id: options_values_manager.php 15883 2010-04-11 16:41:26Z wilt $
  */
 
-define('HEADING_TITLE_OPT', 'Opciones de Productos');
+define('HEADING_TITLE_OPT', 'Opciones de productos');
 define('HEADING_TITLE_VAL', 'Valores de Opciones');
-define('HEADING_TITLE_ATRIB', 'Atributos de Productos');
+define('HEADING_TITLE_ATRIB', 'Atributos de productos');
 
 define('TABLE_HEADING_ID', 'ID');
-define('TABLE_HEADING_PRODUCT', 'Nombre de Producto');
+define('TABLE_HEADING_PRODUCT', 'Nombre de producto');
 define('TABLE_HEADING_OPT_NAME', 'Nombre de Opción');
 define('TABLE_HEADING_OPT_VALUE', 'Valor');
 define('TABLE_HEADING_OPT_PRICE', 'Precio');
@@ -25,9 +26,10 @@ define('TABLE_TEXT_MAX_COUNT', 'Nº máximo de descargas:');
 define('TEXT_WARNING_OF_DELETE', '<span class="alert">Esta opción tiene productos y valores enlazados - no es seguro borrarla.<br />NOTA: Una descarga asociada con esta Opción no será borrada del servidor.</span>');
 define('TEXT_OK_TO_DELETE', 'Esta opción no tiene productos enlazados - es seguro borrarla.');
 define('TEXT_OPTION_ID', 'ID de opción');
-define('TEXT_OPTION_NAME', 'Nombre de Opción');
+define('TEXT_OPTION_NAME', 'Nombre de opción');
+define('TABLE_HEADING_OPT_DISCOUNTED','Descontado');
 
-define('ATTRIBUTE_WARNING_DUPLICATE','Atributo Duplicado - El atributo no se añadió'); // attributes duplicate warning
+define('ATTRIBUTE_WARNING_DUPLICATE','Atributo duplicado - El atributo no se añadió'); // attributes duplicate warning
 define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE','Existe un atributo duplicado - El atributo no se modificó'); // attributes duplicate warning
 define('ATTRIBUTE_WARNING_INVALID_MATCH','La opción de atributo y el valor de opción NO coinciden - El atributo no fue añadido'); // miss matched option and options value
 define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','La opción de atributo y el valor de opción NO coinciden - El atributo no fue modificado'); // miss matched option and options value
@@ -40,7 +42,7 @@ define('PRODUCTS_ATTRIBUTES_ADDING','AÑADIENDO NUEVOS ATRIBUTOS'); // title
 define('TEXT_DOWNLOADS_DISABLED','NOTA: Las descargas están desactivadas');
 
 define('TABLE_TEXT_MAX_DAYS_SHORT', 'Días:');
-define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
+define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
 
   define('TABLE_HEADING_OPTION_SORT_ORDER','Ordenación');
   define('TABLE_HEADING_OPTION_VALUE_SORT_ORDER','Orden por defecto');
@@ -49,10 +51,16 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('TABLE_HEADING_OPT_WEIGHT_PREFIX','Prefijo');
   define('TABLE_HEADING_OPT_WEIGHT','Peso');
   define('TABLE_HEADING_OPT_SORT_ORDER','Ordenación');
+  define('TABLE_HEADING_OPT_DEFAULT','Por defecto');
+
+  define('TABLE_HEADING_YES','Sí');
+  define('TABLE_HEADING_NO','No');
 
   define('TABLE_HEADING_OPT_TYPE', 'Tipo de opción'); //CLR 031203 add option type column
   define('TABLE_HEADING_OPTION_VALUE_SIZE','Tamaño');
-  define('TABLE_HEADING_OPTION_VALUE_MAX','Max');
+  define('TABLE_HEADING_OPTION_VALUE_MAX','Máx');
+  define('TABLE_HEADING_OPTION_VALUE_ROWS','Filas');
+  define('TABLE_HEADING_OPTION_VALUE_COMMENTS','Comentarios');
 
   define('TEXT_OPTION_VALUE_COMMENTS','Comentarios: ');
   define('TEXT_OPTION_VALUE_SIZE','Mostrar tamaño: ');
@@ -62,7 +70,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('TEXT_ATTRIBUTES_IMAGE_DIR','Directorio de imágenes de atributo:');
 
   define('TEXT_ATTRIBUTES_FLAGS','Banderas<br />de atributo:');
-  define('TEXT_ATTRIBUTES_DISPLAY_ONLY', 'Usado con motivos<br />de visualización solamente:');
+  define('TEXT_ATTRIBUTES_DISPLAY_ONLY', 'Usado con motivos<br />de visualización sólamente:');
   define('TEXT_ATTRIBUTES_IS_FREE', 'El atributo es gratis<br />cuando el producto es gratis:');
   define('TEXT_ATTRIBUTES_DEFAULT', 'Atributo por defecto<br />para marcar como seleccionado:');
   define('TEXT_ATTRIBUTE_IS_DISCOUNTED', 'Aplicar los mismos descuentos<br />usados para el producto:');
@@ -86,7 +94,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
                                                    <br /><strong>Ejemplo:</strong> Añadir nombre de opción: Valor de opción de color: Verde con valores por defecto desde el ID de producto: 34 a todos los productos con el nombre de opción: Tamaño
                                                    <br /><strong>Ejemplo:</strong> Añadir nombre de opción: Valor de opción de color: Verde con valores por defecto desde el ID de producto: 34 a todos los productos con nombre de opción: Tamaño para ID de categorías: 65
         ');
-  define('TEXT_SELECT_OPTION_TO_ADD_TO', 'Nombre Opción a coincidir:');
+  define('TEXT_SELECT_OPTION_TO_ADD_TO', 'Nombre Opción a coincidir:');			 
   define('TEXT_SELECT_OPTION_FROM_ADD', 'Nombre de Opción a añadir:');
   define('TEXT_SELECT_OPTION_VALUES_FROM_ADD', 'Valor de Opción a añadir:');
   define('TEXT_SELECT_OPTION_FROM_PRODUCTS_ID', 'Copiar los valores por defecto del nuevo atributo del producto de este ID, o dejar la casilla en blanco para no usar un valor por defecto:');
@@ -111,6 +119,4 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('ERROR_OPTION_VALUES_DELETE_MISMATCH', 'Error: Nombre de Opción y Valor de Opción no concordantes seleccionados');
 
   define('SUCCESS_OPTION_VALUES_DELETE', 'Exitosa borradura de: ');
-  define('LABEL_FILTER', 'Seleccione Valor de Opción para filtrar');
-  define('TEXT_DISPLAY_NUMBER_OF_OPTION_VALUES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> Valores de Opciones)');
-  define('TEXT_SHOW_ALL', 'Show All');
+  

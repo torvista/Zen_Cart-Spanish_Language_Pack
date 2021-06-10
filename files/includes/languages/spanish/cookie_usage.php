@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -30,5 +30,5 @@ define('TEXT_INFORMATION_4', 'Hemos tomado esta medida de seguridad por su benef
 define('TEXT_INFORMATION_5', 'Por favor, contáctenos si tiene cualquier pregunta relacionada con estos requerimientos, o para comprar productos offline/directamente.');
 
 define('BOX_INFORMATION_HEADING', '<strong>Cookies y Seguridad</strong>');
-define('BOX_INFORMATION', '<p>Las cookies deben estar habilitadas para comprar online en esta tienda, para garantizar la privacidad y la seguridad en su visita a este sitio.</p><p>Habilitando el soporte para cookies en su navegador, la comunicación entre usted y este sitio, se verá fortalecida para asegurar que es usted en persona quien hace las transacciones y para prevenir el robo de su información privada.</p>');
+define('BOX_INFORMATION', 'Las cookies deben estar habilitadas para comprar online en esta tienda, para garantizar la privacidad y la seguridad en su visita a este sitio.</p><p>Habilitando el soporte para cookies en su navegador, la comunicación entre usted y este sitio, se verá fortalecida para asegurar que es usted en persona quien hace las transacciones y para prevenir el robo de su información privada.');
 ?>

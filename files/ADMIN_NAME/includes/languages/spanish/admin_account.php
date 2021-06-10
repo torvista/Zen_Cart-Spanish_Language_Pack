@@ -1,10 +1,17 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
- * @copyright Portions Copyright 2003 osCommerce
+ * @package admin
+ * @copyright Copyright 2003-2011 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 May 12 Modified in v1.5.7 $
+ * @version $Id: admin_account.php 18698 2011-05-04 14:50:06Z wilt $
  */
 
-define('HEADING_TITLE', 'Cuenta del Admin');
-require DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . 'users.php'; 
+define('HEADING_TITLE', 'Cuentas de Administradores');
+
+define('TEXT_ADMIN_NAME', 'Usuario:');
+define('TEXT_CHANGE_PASSWORD', 'Cambiar Contraseña');
+define('TEXT_ADMIN_OLD_PASSWORD', 'Contraseña Actual:');
+define('TEXT_ADMIN_NEW_PASSWORD', 'Contraseña Nueva:');
+define('TEXT_ADMIN_CONFIRM_PASSWORD', 'Confirmar Contraseña:');
+define('SUCCESS_PASSWORD_UPDATED', 'Contraseña actualizada.'); 
+// additional defines shared from users.php

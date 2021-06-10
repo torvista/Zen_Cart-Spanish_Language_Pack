@@ -1,9 +1,10 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @package languageDefines
+ * @copyright Copyright 2003-2008 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 Apr 12 Modified in v1.5.7 $
+ * @version $Id: address_book_process.php 9647 2008-09-17 00:10:08Z drbyte $
  */
 
 define('NAVBAR_TITLE_1', 'Mi Cuenta');
@@ -18,8 +19,12 @@ define('HEADING_TITLE_MODIFY_ENTRY', 'Actualizar Dirección en la Agenda');
 define('HEADING_TITLE_DELETE_ENTRY', 'Borrar Dirección de la Agenda');
 define('HEADING_TITLE', 'Dirección');
 
+define('DELETE_ADDRESS_TITLE', 'Borrar Dirección');
 define('DELETE_ADDRESS_DESCRIPTION', '¿Seguro que desea borrar la dirección seleccionada de su agenda de direcciones?');
 
+define('NEW_ADDRESS_TITLE', 'Nueva Dirección en la Agenda');
+
+define('SELECTED_ADDRESS', 'Dirección Seleccionada');
 define('SET_AS_PRIMARY', 'Establecer como dirección principal.');
 
 define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'La dirección seleccionada ha sido borrada correctamente de su agenda de direcciones.');

@@ -1,10 +1,11 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @package languageDefines
+ * @copyright Copyright 2003-2018 Zen Cart Development Team
  * @copyright Portions Copyright 2005 CardinalCommerce
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2020 May 20 Modified in v1.5.7 $
+ * @version $Id: Drbyte Sun Jan 7 21:30:21 2018 -0500 Modified in v1.5.6 $
  */
 
   define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_TITLE_WPP', 'PayPal Payments Pro');
@@ -12,9 +13,9 @@
   define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_TITLE_PRO20', 'PayPal Website Payments Pro Payflow Edition (UK)');
 
   if (IS_ADMIN_FLAG === true) {
-    define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION', '<strong>PayPal Payments Pro</strong>%s<br />' . '<a href="https://www.paypal.com" rel="noreferrer noopener" target="_blank"> Gestionar su cuenta PayPal.</a>' . '<br /><br /><font color="green"> Configuración:</font><br /><span class="alert">1. </span><a href="http://www.zen-cart.com/partners/paypal-pro" rel="noopener" target="_blank"> Abra una cuenta PayPal aquí.</a><br />' . 
-(defined('MODULE_PAYMENT_PAYPALDP_STATUS') ? '' : '... y haga clic sobre "install" para activar el soporte para PayPal Payments Pro.<br /><a href="http://www.zen-cart.com/getpaypal" rel="noopener" target="_blank">Para más ayuda, ver este artículo.</a><br />') . 
-(!defined('MODULE_PAYMENT_PAYPALWPP_APISIGNATURE') || MODULE_PAYMENT_PAYPALWPP_APISIGNATURE === '' ? '<span class="alert">2. </span><strong>Parámetros API</strong> de la opción API Credentials en la configuración de perfil de su cuenta PayPal. Este módulo utiliza la opción <strong>API Signature/Firma</strong> opción - necesitará el usuario, contraseña y firma para rellenar los campos inferiores.' : '<span class="alert">2. </span>Asegúrese de insertar los datos de seguridad que correspondan al usuario/contraseña etc. en la parte inferior.') .
+    define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION', '<strong>PayPal Payments Pro</strong>%s<br />' . '<a href="https://www.paypal.com" target="_blank"> Gestionar su cuenta PayPal.</a>' . '<br /><br /><font color="green"> Configuración:</font><br /><span class="alert">1. </span><a href="http://www.zen-cart.com/partners/paypal-pro" target="_blank"> Abra una cuenta PayPal aquí.</a><br />' . 
+(defined('MODULE_PAYMENT_PAYPALDP_STATUS') ? '' : '... y haga clic sobre "install" para activar el soporte para PayPal Payments Pro.<br /><a href="http://www.zen-cart.com/getpaypal" target="_blank">Para más ayuda, ver este artículo.</a><br />') . 
+(!defined('MODULE_PAYMENT_PAYPALWPP_APISIGNATURE') || MODULE_PAYMENT_PAYPALWPP_APISIGNATURE == '' ? '<span class="alert">2. </span><strong>Parámetros API</strong> de la opción API Credentials en la configuración de perfil de su cuenta PayPal. Este módulo utiliza la opción <strong>API Signature/Firma</strong> opción - necesitará el usuario, contraseña y firma para rellenar los campos inferiores.' : '<span class="alert">2. </span>Asegúrese de insertar los datos de seguridad que correspondan al usuario/contraseña etc. en la parte inferior.') .
 '<font color="green"><hr /><strong>Requisitos:</strong></font><br /><hr />*<strong>Express Checkout</strong> debe ser instalado y activado para usar PayPal Payments Pro, de acuerdo con las condiciones de servicio de PayPal. <br />*También precisa CURL con SLL para comunicar con PayPal. Hay que habilitar CURL para las puertas 80 y 443. <hr />' );
   }
 
@@ -24,7 +25,7 @@
   define('MODULE_PAYMENT_PAYPALDP_PF_TEXT_TYPE', ' Tarjeta de Crédito (PF)');
   define('MODULE_PAYMENT_PAYPALDP_ERROR_HEADING', 'Lo sentimos pero no pudimos procesar su tarjeta de crédito.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_CARD_ERROR', 'La información de la tarjeta que introduzco tiene un error. Revíselo e intente otra vez.');
-  define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_FIRSTNAME', ' Nombre del propietario de la tarjeta:');
+  define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_FIRSTNAME', ' Nombre de pila del propietario de la tarjeta:');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_LASTNAME', 'Apellidos del propietario de la tarjeta:');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_OWNER', 'Propietario de la tarjeta:');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_TYPE', 'Tipo de Tarjeta:');
@@ -42,7 +43,7 @@
   define('MODULE_PAYMENT_PAYPALDP_TEXT_EMAIL_ERROR_MESSAGE', 'Estimado Propietario de la tienda,' . "\n" . 'Un error ocurrió en el intento de iniciar el proceso de validación del pago. Solamente se mostró el número del error al cliente. Los detalles del error se muestran abajo.' . "\n\n");
   define('MODULE_PAYMENT_PAYPALDP_TEXT_EMAIL_ERROR_SUBJECT', 'AVISO: Error de PayPal Direct Payment');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_ADDR_ERROR', 'La dirección no es válida o no coincide con nuestra información. Corrija o elija otra dirección e intente otra vez.');
-  define('MODULE_PAYMENT_PAYPALDP_TEXT_INSUFFICIENT_FUNDS_ERROR', 'PayPal no pudo pagar esta transacción. Elija otro método de pago o comprobar las opciones de pago de su cuanta PayPal antes de seguir.');
+  define('MODULE_PAYMENT_PAYPALDP_TEXT_INSUFFICIENT_FUNDS_ERROR', 'PayPal no pudo pagar esta transacción. Elija otra método de pago o comprobar las opciones de pago de su cuanta PayPal antes de seguir.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_ERROR', 'Ocurrió un error cuando intentamos procesar su tarjeta de crédito. Inténtelo otra vez, elija un método de pago alternativo o póngase en contacto con la tienda para obtener asistencia.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_BAD_CARD', 'Perdone la molestia pero no aceptamos su tipo de tarjeta de crédito. Utilice otra tarjeta o comprobar que los datos son correctos o póngase en contacto con la tienda para obtener asistencia.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_BAD_LOGIN', 'Hubo un problema en la validación de su cuenta. Inténtelo otra vez.');
@@ -54,7 +55,7 @@
   define('MODULE_PAYMENT_PAYPALDP_ERROR_AVSCVV_PROBLEM_TEXT', 'El pedido está pendiente de verificación por la tienda.');
 
   define('MODULE_PAYMENT_PAYPALDP_TEXT_STATE_ERROR', 'El estado asignado a su cuenta no es válido. Por favor, entre en su cuenta y cámbielo.');
-  define('MODULE_PAYMENT_PAYPALDP_TEXT_NOT_WPP_ACCOUNT_ERROR', 'Disculpe las molestias. No podemos seguir con el pago porque la cuenta PayPal de la tienda no es PayPal Payments Pro o no ha sido contratado el PayPal gateway services, o intentó pagar con una tarjeta AmEx y el soporte para AmEx no ha sido habilitado. Elija un método de pago alternativo para su pedido o quizás otra tipa de tarjeta.');
+  define('MODULE_PAYMENT_PAYPALDP_TEXT_NOT_WPP_ACCOUNT_ERROR', 'Disculpe las molestias. No podemos seguir con el pago porque la cuenta PayPal de la tienda no es PayPal Payments Pro o no ha sido contratado el PayPal gateway services, o intentó pagar con una tarjeta AmEx y el soporte para AmEx no ha sido habilitado. Elija un método de pago alternativo para su pedido o quizás otra tipo de tarjeta.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_NOT_US_WPP_ACCOUNT_ERROR', 'Disculpe las molestias. No podemos iniciar el pago porque la cuenta PayPal de la tienda no es EE.UU. PayPal Website Payments Pro o no ha sido contratado PayPal gateway services. Elija un método de pago alternativo para su pedido.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_NOT_UKWPP_ACCOUNT_ERROR', 'Disculpe las molestias. No podemos iniciar el pago porque la cuenta PayPal de la tienda no es PayPal Website Payments Pro 2.0 (UK) o no ha sido contratado PayPal gateway services. Elija un método de pago alternativo para su pedido.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_SANDBOX_VS_LIVE_ERROR', 'Disculpe las molestias. Los parámetros de autentificación de la cuenta PayPal no han sido configurados o son incorrectos. No podemos completar la transacción. Por favor, notifique a la tienda sobre este problema. ');
@@ -133,6 +134,8 @@ define('MODULE_PAYMENT_PAYPAL_ENTRY_FIRST_NAME', 'Nombre');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTH_PARTIAL_TEXT', 'Si desea autorizar parte de este pedido, inserte la cantidad aquí:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTH_BUTTON_TEXT_PARTIAL', 'Hacer una Autorización');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTH_SUFFIX', '');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_TEXT_COMMENTS', '<strong> Nota para mostrar al cliente:</strong>');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_DEFAULT_MESSAGE', 'Devuelto por el administrador de la tienda.');
 
   define('MODULE_PAYMENT_PAYPAL_ENTRY_CAPTURE_TITLE', '<strong>Captura de Autorizaciones</strong>');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_CAPTURE_FULL', 'Si quiere capturar todo o un valor parcial de la cantidad autorizada para este pedido, inserte la Cantidad de Captura y elija si es el último para este pedido. Marque la casilla de Confirmación antes de hacer la solicitud.<br />');
@@ -152,7 +155,7 @@ define('MODULE_PAYMENT_PAYPAL_ENTRY_FIRST_NAME', 'Nombre');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_VOID_SUFFIX', '');
 
   define('MODULE_PAYMENT_PAYPAL_ENTRY_TRANSSTATE', 'Estado Trans.:');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTHCODE', 'Código Auth.:');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTHCODE', 'Código Aut,:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AVSADDR', 'AVS Dirección Coincide:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AVSZIP', 'AVS CP Coincide:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_CVV2MATCH', 'CVV2 Coincide:');

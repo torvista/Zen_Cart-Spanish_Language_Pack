@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -21,7 +21,7 @@
 //
 
 define('HEADING_CVV', '¿Qué es el CVV?');
-define('TEXT_CVV_HELP1', 'Número de verificación de 3 dígitos de las tarjetas Visa, Mastercard y Discover<br /><br />
+define('TEXT_CVV_HELP1', 'Número de verificación de 3 dígitos de las tarjetas Visa, Mastercard y Discover tajetas de tres dígitos.<br /><br />
                     Por su seguridad, le pedimos que introduzca el número de verificación de su tarjeta.<br /><br />
                     El número de verificación son los últimos 3 dígitos impresos al dorso de su tarjeta.
                     Aparece a la derecha, a continuación del número de su tarjeta.<br />' .

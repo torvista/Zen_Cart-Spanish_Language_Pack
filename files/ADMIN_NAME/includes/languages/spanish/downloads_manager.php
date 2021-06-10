@@ -1,9 +1,10 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @package admin
+ * @copyright Copyright 2003-2015 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
+ * @version $Id:  Modified in v1.6.0 $
  */
 
 define('HEADING_TITLE','Gestionar Descargas');
@@ -23,6 +24,7 @@ define('TABLE_HEADING_OPT_PRICE_PREFIX', 'Prefijo');
 define('TEXT_PRODUCTS_NAME', 'Producto: ');
 
 define('TEXT_INFO_HEADING_EDIT_PRODUCTS_DOWNLOAD', 'EDITANDO INFORMACIÓN DE DESCARGA');
+define('TEXT_INFO_HEADING_DELETE_PRODUCTS_DOWNLOAD', 'CONFIRMAR BORRADO DE DESCARGA');
 define('TEXT_INFO_EDIT_INTRO', 'Editar la información de descarga:');
 define('TEXT_DELETE_INTRO', 'Los siguientes archivos serán quitados de la base de datos. Esto no borrará el archivo del servidor:');
 
@@ -32,3 +34,4 @@ define('TEXT_INFO_MAX_COUNT', 'Descargas máximas: ');
 
 define('TEXT_INFO_FILENAME_MISSING','&nbsp;Falta nombre de archivo');
 define('TEXT_INFO_FILENAME_GOOD','&nbsp;Nombre de archivo válido');
+?>

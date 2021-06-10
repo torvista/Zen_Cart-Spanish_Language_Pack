@@ -1,5 +1,5 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-/**
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+/** TODO
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -19,8 +19,8 @@ define('ICON_IMAGE_TINYCART', 'cart.gif');
 define('ICON_ERROR_ALT', 'Error');
 define('ICON_SUCCESS_ALT', 'Éxito');
 define('ICON_WARNING_ALT', 'Aviso');
-define('ICON_TRASH_ALT', 'Pinche en este icono para eliminar el artículo del carro');
-define('ICON_UPDATE_ALT', 'Para cambiar la cantidad, seleccione el numero en la casilla, corrija la cantidad y pinche en este icono');
-define('ICON_TINYCART_ALT', 'Pinche en este icono para añadir el producto al carro. ');
+define('ICON_TRASH_ALT', 'Borrar');
+define('ICON_UPDATE_ALT', 'Actualizar');
+define('ICON_TINYCART_ALT', 'Añadir');
 
 ?>

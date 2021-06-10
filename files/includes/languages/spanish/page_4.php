@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -23,5 +23,5 @@
 define('NAVBAR_TITLE', 'Página 4');
 define('HEADING_TITLE', 'Página 4');
 
-define('TEXT_INFORMATION', 'La información de la página 4 va aquí.');
+define('TEXT_INFORMATION', 'La información de la Página 4 va aquí.');
 ?>

@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -14,7 +14,7 @@ Puede depender en: Siempre Mostrado, Total de Pedido, Peso de Pedido, Unidades d
 El módulo Free Shipping Options no se muestra cuando Free Shipper esta mostrado.<br /><br />
 Fijando Total  >= 0.00 y <= 0.00 activará este módulo para mostrarse con todos los otros módulo, aparte del Free Shipping - freeshipper.<br /><br />
 NOTA: Si deja todos los campos de Total, Peso y Unidades en blanco desactivará el módulo.<br /><br />
-NOTA: El módulo Free Shipping Options no se muestra si Free Shipping está en uso, basado en peso cero permite Free Shipping.
+NOTA: El módulo Free Shipping Options no se muestra si Free Shipping está en uso basado en 0 peso es Free Shipping.
 Ve: freeshipper
 ');
 define('MODULE_SHIPPING_FREEOPTIONS_TEXT_WAY', 'Envío Gratis');

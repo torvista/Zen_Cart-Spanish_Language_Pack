@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -29,8 +29,8 @@
 // moved from english.php
   define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_PRODUCTS', '<strong>Para un producto:</strong> ');
   define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_CATEGORIES', '<strong>Para una categoría:</strong> ');
-  define('SUCCESS_PRODUCT_UPDATE_SORT', 'El orden de los atributos ha sido actualizado correctamente para Producto ID# ');
+  define('SUCCESS_PRODUCT_UPDATE_SORT', 'El orden de los atributos ha sido actualizado correctamente para ID# ');
   define('SUCCESS_PRODUCT_UPDATE_SORT_ALL', 'El orden de los atributos ha sido actualizado correctamente para TODOS los productos ');
   define('SUCCESS_OPTION_VALUES_SORT_ORDER', 'El orden de los Valores de las Opciones ha sido actualizado correctamente: ');
-  define('SUCCESS_CATEGORIES_UPDATE_SORT', 'El orden de los atributos ha sido actualizado correctamente para las categorías ID# ');
+  define('SUCCESS_CATEGORIES_UPDATE_SORT', 'El orden del atributo ha sido actualizado correctamente para las categorías ID# ');
 ?>

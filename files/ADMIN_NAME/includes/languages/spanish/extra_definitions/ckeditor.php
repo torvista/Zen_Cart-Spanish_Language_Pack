@@ -1,4 +1,4 @@
-<?php
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
  * @package htmleditors
  * @copyright Copyright 2010 Kuroi Web Design

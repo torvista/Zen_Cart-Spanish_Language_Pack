@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2013 Zen Cart Development Team
@@ -10,4 +10,4 @@
 
   define('MODULE_ORDER_TOTAL_COD_TITLE', 'Comisión del Reembolso');
   define('MODULE_ORDER_TOTAL_COD_DESCRIPTION', 'Comisión del Reembolso');
-  define('TEXT_INFO_COD_FEES', '<strong>Aviso:</strong> Se pueden aplicar comisiones a los pagos contra reembolso');
+  define('TEXT_INFO_COD_FEES', '<strong>Aviso:</strong> Se pueden aplicar comisiones a los pagos Contrareembolso');

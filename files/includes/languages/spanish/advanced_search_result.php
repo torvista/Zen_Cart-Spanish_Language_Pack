@@ -1,10 +1,10 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @package languageDefines
+ * @copyright Copyright 2003-2015 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2019 Jul 27 Modified in v1.5.7 $
+ * @version $Id: advanced_search_result.php 1969 2005-09-13 06:57:21Z drbyte $
  */
 
 define('NAVBAR_TITLE_1', 'Búsqueda Avanzada');
@@ -30,23 +30,12 @@ define('TEXT_ALL_CATEGORIES', 'Todas las categorías');
 define('TEXT_ALL_MANUFACTURERS', 'Todos los fabricantes');
 
 define('HEADING_SEARCH_HELP', 'Ayuda de la Búsqueda');
-define('TEXT_SEARCH_HELP', 'Las palabras pueden estar separadas por los operadores AND (Y) y/o OR (O) para un mejor control de los resultados de la búsqueda.<br /><br />Por ejemplo, Microsoft AND ratón generaría un lista de resultados conteniendo ambas palabras. Así, para ratón OR teclado, la lista de resultados contendría ambas o alguna de las palabras.<br /><br />Coincidencias exactas pueden buscarse encerrando las palabras en comillas dobles.<br /><br />Por ejemplo, \"computadoras portátiles\" generaría una lista de resultados coincidiendo con la frase exacta.<br /><br />Los paréntesis pueden usarse para un control más avanzado de los resultados.<br /><br />Por ejemplo, Microsoft AND (teclado OR ratón OR "visual basic").');//escape quotation marks
-define('TEXT_CLOSE_WINDOW', 'Cerrar ventana [x]');
+define('TEXT_SEARCH_HELP', 'Las palabras pueden estar separadas por los operadores AND (Y) y/o OR (O) para un mejor control de los resultados de la búsqueda.<br /><br />Por ejemplo, Microsoft AND ratón generaría un lista de resultados conteniendo ambas palabras. Así, para ratón OR teclado, la lista de resultados contendría ambas o alguna de las palabras.<br /><br />Coincidencias exactas pueden buscarse encerrando las palabras en comillas dobles.<br /><br />Por ejemplo, "computadoras portátiles" generaría una lista de resultados coincidiendo con la frase exacta.<br /><br />Los paréntesis pueden usarse para un control más avanzado de los resultados.<br /><br />Por ejemplo, Microsoft AND (teclado OR ratón OR "visual basic").');
 
 define('TABLE_HEADING_IMAGE', '');
 define('TABLE_HEADING_PRODUCTS', 'Nombre del producto');
 define('TABLE_HEADING_MANUFACTURER', 'Fabricante');
+define('TABLE_HEADING_QUANTITY', 'Cantidad');
 define('TABLE_HEADING_PRICE', 'Precio');
 define('TABLE_HEADING_WEIGHT', 'Peso');
 define('TABLE_HEADING_BUY_NOW', 'Comprar ahora');
-
-define('TEXT_NO_PRODUCTS', 'No hay productos que coincidan con su criterio de búsqueda.');
-
-define('ERROR_AT_LEAST_ONE_INPUT', 'Debe rellenar al menos uno de los campos.');
-define('ERROR_INVALID_FROM_DATE', ENTRY_DATE_FROM . ' no válida.');
-define('ERROR_INVALID_TO_DATE', ENTRY_DATE_TO . ' no válida.');
-define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'La ' . ENTRY_DATE_TO . ' debe ser mayor o igual a la ' . ENTRY_DATE_FROM);
-define('ERROR_PRICE_FROM_MUST_BE_NUM', 'El ' . ENTRY_PRICE_FROM . ' debe ser un número.');
-define('ERROR_PRICE_TO_MUST_BE_NUM', 'El '. ENTRY_PRICE_TO. ' debe ser un número.');
-define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'El ' . ENTRY_PRICE_TO . ' debe ser mayor o igual al ' . ENTRY_PRICE_FROM);
-define('ERROR_INVALID_KEYWORDS', 'Palabras no válidas.');

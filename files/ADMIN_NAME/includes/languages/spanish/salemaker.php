@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -37,6 +37,7 @@ define('TEXT_SALEMAKER_DATE_START', 'Fecha de Comienzo:');
 define('TEXT_SALEMAKER_DATE_END', 'Fecha de finalización:');
 define('TEXT_SALEMAKER_CATEGORIES', '<b>Ó</b> marque las categorías a las cuales aplicar este descuento:');
 define('TEXT_SALEMAKER_POPUP', '<a href="javascript:session_win();"><span class="errorText"><b>Pulse aquí para Consejos de Liquidación.</b></span></a>');
+define('TEXT_SALEMAKER_POPUP1', '<a href="javascript:session_win1();"><span class="errorText"><b>(Más Información)</b></span></a>');
 define('TEXT_SALEMAKER_IMMEDIATELY', 'Inmediatamente');
 define('TEXT_SALEMAKER_NEVER', 'Nunca');
 define('TEXT_SALEMAKER_ENTIRE_CATALOG', 'Marque esta casilla si desea que el descuento sea aplicado a <b>todos los productos</b>:');
@@ -65,4 +66,5 @@ define('TEXT_INFO_HEADING_DELETE_SALE', 'Eliminar rebaja');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar permanentemente esta rebaja?');
 define('TEXT_MORE_INFO', '(Más Información)');
 
-define('TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES','&nbsp;Aviso: %s rebaja(s) ya incluye(n) esta categoría');
+define('TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES','&nbsp;Aviso : %s rebaja(s) ya incluye()n esta categoría');
+?>

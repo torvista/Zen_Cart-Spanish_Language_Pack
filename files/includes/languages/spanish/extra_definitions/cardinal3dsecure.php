@@ -1,5 +1,5 @@
-<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-/** if you are reading this, you are the first to need this translated! Please contribute your translation. ñ
+<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+/** TODO if you are reading this, you are the first to need this translated! Please contribute your translation. ñ
  * @package languageDefines
  * @copyright Copyright 2003-2010 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
