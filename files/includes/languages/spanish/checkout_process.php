@@ -26,16 +26,16 @@ define('EMAIL_TEXT_FROM',' de ');  //added to the EMAIL_TEXT_HEADER, above on te
 define('EMAIL_THANKS_FOR_SHOPPING', '¡Muchas gracias por su confianza!');
 define('EMAIL_DETAILS_FOLLOW','A continuación le presentamos los detalles de su pedido.');
 define('EMAIL_TEXT_ORDER_NUMBER', 'Número de pedido:');
-define('EMAIL_TEXT_INVOICE_URL', 'Factura detallada:');
-define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Haga un click aquí para ver la factura detallada');
+define('EMAIL_TEXT_INVOICE_URL', 'Pedido detallado:');
+define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Haga un click aquí para ver el pedido detallado');
 define('EMAIL_TEXT_DATE_ORDERED', 'Fecha del pedido:');
 define('EMAIL_TEXT_PRODUCTS', 'Productos');
 define('EMAIL_TEXT_SUBTOTAL', 'Subtotal:');
 define('EMAIL_TEXT_TAX', 'Impuestos:  ');
 define('EMAIL_TEXT_SHIPPING', 'Envío:    ');
 define('EMAIL_TEXT_TOTAL', 'Total:    ');
-define('EMAIL_TEXT_DELIVERY_ADDRESS', 'Dirección de entrega');
-define('EMAIL_TEXT_BILLING_ADDRESS', 'Dirección de pago');
+define('EMAIL_TEXT_DELIVERY_ADDRESS', 'Dirección de Entrega');
+define('EMAIL_TEXT_BILLING_ADDRESS', 'Dirección de Facturación');
 define('EMAIL_TEXT_PAYMENT_METHOD', 'Método de pago');
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');

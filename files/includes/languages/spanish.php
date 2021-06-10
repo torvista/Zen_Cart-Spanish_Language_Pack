@@ -139,7 +139,7 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('BOX_BBINDEX', 'Foro');
   define('BOX_INFORMATION_UNSUBSCRIBE', 'Baja del boletín');
 
-  define('BOX_INFORMATION_SITE_MAP', 'Mapa de la web');
+  define('BOX_INFORMATION_SITE_MAP', 'Mapa del Sitio');
 
 // information box text in sideboxes/more_information.php - were TUTORIAL_
  define('BOX_HEADING_MORE_INFORMATION', 'Más información');
@@ -188,8 +188,8 @@ define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'No me notifiquen las actualizaciones 
   define('ENTRY_LAST_NAME', 'Apellidos:');
   define('ENTRY_LAST_NAME_ERROR', 'Cada apellido debe tener un mínimo de ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caracteres.');
   define('ENTRY_LAST_NAME_TEXT', '*');
-define('ENTRY_DATE_OF_BIRTH', 'Fecha de nacimiento:');
-  define('ENTRY_DATE_OF_BIRTH_ERROR', 'La fecha de nacimiento debe tener este formato: DD/MM/YYYY (ej. 05/21/1970)');
+  define('ENTRY_DATE_OF_BIRTH', 'Fecha de nacimiento:');
+  define('ENTRY_DATE_OF_BIRTH_ERROR', 'La fecha de nacimiento debe tener este formato: MM/DD/YYYY (ej. 05/21/1970)');
   define('ENTRY_DATE_OF_BIRTH_TEXT', '(ej. 05/21/1970)');
   define('ENTRY_EMAIL_ADDRESS', 'E-mail:');
   define('ENTRY_EMAIL_ADDRESS_ERROR', 'El e-mail debe tener un mínimo de ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' caracteres.');

@@ -11,7 +11,7 @@ define('TEXT_MAIN','Esta es la definición del saludo principal para la página 
 
 // Showcase vs Store
 if (STORE_STATUS == '0') {
-  define('TEXT_GREETING_GUEST', '¡Bienvenido/a! ¿Quiere <a href="%s">identificarse</a> o <a href="%s">crear una cuenta nueva</a>?');
+  define('TEXT_GREETING_GUEST', '¡Bienvenido/a! ¿Quiere <a href="%s">identificarse</a>?');
 } else {
   define('TEXT_GREETING_GUEST', 'Bienvenido, esperamos que disfrute de nuestro escaparate virtual.');
 }

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Zen Cart Spanish Language Pack - Readme</title>
+<style type="text/css">
+body{
+	padding: 1em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.9em;
+}
+#title {
+	font-size: 1.4em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+h1 {
+	font-size: 1.3em;
+}
+h2 {
+	font-size: 1.2em;
+}
+h3 {
+	font-size: 1em;
+}
+img {
+	border: thin solid #000;
+}
+
+</style></head>
+<body>
+<span id="title">Zen Cart Spanish Language Pack for Zen Cart 1.51</span>
+<p> GPL Licence<br />
+Collator-Translator-Maintainer: <a href="http://www.zen-cart.com/member.php?42350-torvista" target="_blank">torvista</a></p>
+<p>Any language pack requires a lot of work to create and maintain.<br />
+If you find this language pack useful please give something back to the community like improvements or translate these instructions or the &quot;tu&quot; files or answer other users questions in the forums...</p>
+<p><strong>Zen Cart Support Thread</strong>: <a href="http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
+<p><strong>Download from Zen Cart</strong><br />
+  This version is updated &quot;when necessary&quot; (eg. for a Zen Cart version update or a bug fix):<br />
+  <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=1110" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=1110</a></p>
+<p><strong>Download from Sourceforge</strong><br />
+  Project Summary Page:<br />
+  <a href="https://sourceforge.net/projects/zencartspanish" target="_blank">https://sourceforge.net/projects/zencartspanish</a></p>
+<p> Minor changes are uploaded continually here, but the downloadable .zip is not updated so often.<br />
+  A snapshot of the current files can be obtained here:<br />
+  <a href="http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/?view=tar" target="_blank">http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/?view=tar</a></p>
+<h1>Installation</h1>
+<h2>1) Prepare your development site.</h2>
+<p>As always, test install any modifications on a development site, NEVER on your real site.</p>
+<h3>a) The fileset is encoded in utf-8 as Zen Cart uses utf-8 encoding from v1.5 onwards.</h3>
+<p>So if you are using a new installation of Zen Cart 1.51 you should have no problem.</p>
+<p> If you have an older site that still uses latin-1/8859 for the database contents/connection and html page encoding either you have to convert the database to utf-8 or convert the language files to 8859. This will be difficult as there are various free softwares 
+available for bulk 8859-&gt;utf-8 recoding but not utf-8-&gt;8859.</p>
+<p>I recommend you upgrade the database to utf-8. There are multiple threads on this subject in the Zen Cart forum but as of 2012-12 no script has yet been confirmed by the Zen Cart team as being 100% risk-free. </p>
+<h3>b) Your template</h3>
+<p>If you do not have a customised template or have been modifying the &quot;classic&quot; template: STOP NOW, create your own template and restore the &quot;classic&quot; files to their original states.<br />
+The &quot;classic&quot; template should be left untouched  to help investigate/isolate any problems you create/introduce into the code with your customised template files.</p>
+<h3>c) Backup your files and database</h3>
+<p> If you have not installed the Backup MYSQL Plugin to provide easy database backups, do it now.<br />
+  <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=7" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=7</a></p>
+<h2>2) Install the files</h2>
+<h3>a) Rename the &quot;files_usted/YOUR_ADMIN&quot; folder to match the name of your admin folder.<br />
+</h3>
+<p>Use only the &quot;files_usted&quot; directory (&quot;files_tu&quot; has not been translated). </p>
+<h3>b) Copy all the folders under &quot;files_usted&quot; and copy them into your shop folder. This should not overwrite any existing files...</h3>
+<h2>3) Add the Language into Zen Cart</h2>
+<h3>Go into the Zen Cart Admin-&gt;Localization-&gt;Languages</h3>
+<p>Click on &quot;New Language&quot; and fill in the fields:</p>
+<p>Name: This is a text field so can be anything eg: Español/Spanish/Castellano. It can be changed anytime.<br />
+  Code: es<br />
+  Directory: spanish<br />
+  Sort Order: Optional. The display order of the language selection drop-down in the admin menu and the display order of the flags  in the shop front.<br />
+  Set as default: tick if you want the admin to display in spanish when you login.</p>
+<p>Click on &quot;Insert&quot;.</p>
+<p>If you get any warnings at this point <strong>MAKE A NOTE OF THEM</strong>/<strong> take a screensho</strong>t and <strong><u>fix the problem</u></strong>: Google is your friend.</p>
+<h2>4) Check the installation</h2>
+<h3>a) Check the Admin menus</h3>
+<p>Note that the text of the options of configuration can be stored in the database in one language only, and so are only available in english.</p>
+<h3>b) Check the Shop Front Sections</h3>
+<h3>EZ Pages Menu</h3>
+<p>These are not multi-language in a new Zen Cart installation: you have to install a plugin.<br />
+  So this <strong>is</strong> correct:<br />
+<img src="screenshot_ez_pages_menu.gif" width="356" height="73" alt="Zen Cart EZ Pages Menu" /></p>
+<h2>5) Install on the production shop</h2>
+<p>Copy the new files from the development to the production site and repeat step 3)</p>
+<h1>Problems</h1>
+<h2>Untranslated Text/Mistakes/Improvements</h2>
+<p>If any text is untranslated/incorrect or could be improved post a message in the forum thread.</p>
+If you see a constant definition appear like TEXT_CUSTOM_ENTRY which shows the english text when english language is selected but the constant name  when spanish is selected, first check that this define is not something that is part of a plugin you have added and so does not normally exist in a new Zen Cart installation (english) nor the spanish fileset.<br />
+If this is the case you have to        find the define TEXT_CUSTOM_ENTRY in the english fileset and  create an identical define in a corresponding spanish file.<br />
+<h3>Blank Screen/White Screen of Death</h3>
+<p> If you get white pages: check the debug log in the /logs (=&gt;Zen Cart 1.51) or /cache (Zen Cart&lt;1.51) directory and use this page to help you locate the fault: <a href="http://www.zen-cart.com/content.php?124-blank-page" target="_blank">http://www.zen-cart.com/content.php?124-blank-page</a>.</p>
+<h1>Buttons</h1>
+<p> The buttons were created with the Zen Button Construction Kit:<br />
+  <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=520" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=520</a></p>
+<h1>Improvements</h1>
+<p>Please help to maintain and improve this translation by sending comments and corrections in the forum:<br />
+  <a href="http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
+<p>A translation of this readme file would also be welcome!</p>
+<h1>Translating the Zen Cart Installation Files</h1>
+<p>I decided not to do this as due to the almost total absence of spanish <u>community</u>-support for Zen Cart spanish-speaking users, anyone using Zen Cart will have to get used to reading english....starting with the installation.</p>
+<p> If you find the install too dificult without spanish, then working with and customising Zen Cart will not be for you, give up now&nbsp;or start a spanish forum.</p>
+</body>
+</html>

@@ -26,7 +26,7 @@
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_OWNER', 'Propietario de la tarjeta:');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_NUMBER', 'Número de la tarjeta:');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_EXPIRES', 'Fecha de caducidad de la tarjeta:');
-  define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CVV', 'Número CVV  (<a href="javascript:popupWindow(\'' . zen_href_link(FILENAME_POPUP_CVV_HELP) . '\')">' . 'More Info' . '</a>)');
+  define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CVV', 'Número CVV:');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_POPUP_CVV_LINK', '¿Qué es esto?');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_JS_CC_OWNER', '* El nombre del propietario de la tarjeta debe tener al menos ' . CC_OWNER_MIN_LENGTH . ' caracteres.\n');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_JS_CC_NUMBER', '* El número de la tarjeta debe tener al menos ' . CC_NUMBER_MIN_LENGTH . ' dígitos.\n');

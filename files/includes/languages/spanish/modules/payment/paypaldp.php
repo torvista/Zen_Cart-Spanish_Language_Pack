@@ -1,21 +1,22 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2012 Zen Cart Development Team
  * @copyright Portions Copyright 2005 CardinalCommerce
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: paypaldp.php 19366 2011-08-28 20:21:09Z wilt $
+ * @version GIT: $Id: Author: DrByte  Thu Aug 16 01:57:33 2012 -0400 Modified in v1.5.1 $
  */
 
-  define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_TITLE_WPP', 'PayPal Website Payments Pro');
+  define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_TITLE_WPP', 'PayPal Payments Pro');
+  define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_TITLE_NONUSA', 'PayPal Website Payments Pro');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_TITLE_PRO20', 'PayPal Website Payments Pro Payflow Edition (UK)');
 
   if (IS_ADMIN_FLAG === true) {
-    define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION', '<strong>PayPal Website Payments Pro</strong>%s<br />' . '<a href="http://www.zen-cart.com/partners/paypal-pro" target="_blank"> Gestionar su cuenta PayPal.</a>' . '<br /><br /><font color="green"> Configuración:</font><br /><span class="alert">1. </span><a href="http://www.zen-cart.com/partners/paypal-pro" target="_blank"> Abra una cuenta PayPal aquí.</a><br />' . 
-(defined('MODULE_PAYMENT_PAYPALDP_STATUS') ? '' : '... y haga clic sobre "install" arriba para activar soporte para PayPal Express Checkout.</br>') . 
-(!defined('MODULE_PAYMENT_PAYPALWPP_APISIGNATURE') || MODULE_PAYMENT_PAYPALWPP_APISIGNATURE == '' ? '<span class="alert">2. </span><strong>Parámetros API</strong> de la opción API Credentials en la configuración de perfil de su cuenta PayPal. Este módulo utiliza la opción <strong>API Signature/Firma</strong> opción - necesitará el usuario, contraseña y firma para rellenar los campos abajo.' : '<span class="alert">2. </span>Asegúrese de insertar los datos de seguridad que correspondan al usuario/contraseña etc. abajo.') .
-'<font color="green"><hr /><strong>Requisitos:</strong></font><br /><hr />*<strong>Express Checkout</strong> debe ser instalado y activado para usar  Website Payments Pro, en acuerdo con las condiciones de servicio de PayPal. <br /><hr />' );
+    define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION', '<strong>PayPal Payments Pro</strong>%s<br />' . '<a href="https://www.paypal.com" target="_blank"> Gestionar su cuenta PayPal.</a>' . '<br /><br /><font color="green"> Configuración:</font><br /><span class="alert">1. </span><a href="http://www.zen-cart.com/partners/paypal-pro" target="_blank"> Abra una cuenta PayPal aquí.</a><br />' . 
+(defined('MODULE_PAYMENT_PAYPALDP_STATUS') ? '' : '... y haga clic sobre "install" para activar el soporte para PayPal Payments Pro.<br /><a href="http://www.zen-cart.com/getpaypal" target="_blank">Para más ayuda, ver este artículo.</a><br />') . 
+(!defined('MODULE_PAYMENT_PAYPALWPP_APISIGNATURE') || MODULE_PAYMENT_PAYPALWPP_APISIGNATURE == '' ? '<span class="alert">2. </span><strong>Parámetros API</strong> de la opción API Credentials en la configuración de perfil de su cuenta PayPal. Este módulo utiliza la opción <strong>API Signature/Firma</strong> opción - necesitará el usuario, contraseña y firma para rellenar los campos inferiores.' : '<span class="alert">2. </span>Asegúrese de insertar los datos de seguridad que correspondan al usuario/contraseña etc. en la parte inferior.') .
+'<font color="green"><hr /><strong>Requisitos:</strong></font><br /><hr />*<strong>Express Checkout</strong> debe ser instalado y activado para usar  PayPal Payments Pro, de acuerdo con las condiciones de servicio de PayPal. <br />*También precisa CURL con SLL para comunicar con PayPal. Hay que habilitar CURL para las puertas 80 y 443. <hr />' );
   }
 
   define('MODULE_PAYMENT_PAYPALDP_TEXT_DESCRIPTION', 'Tarjeta de Crédito');
@@ -39,7 +40,7 @@
   define('MODULE_PAYMENT_PAYPALDP_CANNOT_BE_COMPLETED', 'No podemos procesar su pedido. Elija otro método de pago o póngase en contacto con la tienda para obtener asistencia.');
   define('MODULE_PAYMENT_PAYPALDP_INVALID_RESPONSE', 'No podemos procesar su pedido. Inténtelo otra vez, elija un método de pago alternativo o póngase en contacto con la tienda para obtener asistencia.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_GEN_ERROR', 'Ocurrió un error cuando intentamos contactar con el procesador de pagos. Inténtelo otra vez, elige un método de pago alternativo o póngase en contacto con la tienda para obtener asistencia.');
-  define('MODULE_PAYMENT_PAYPALDP_TEXT_EMAIL_ERROR_MESSAGE', 'Estimado Propietario de la tienda,' . "\n" . 'Un error ocurrió en el intento de iniciar el proceso de validación del pago. Solamente el número del error era mostrado al cliente. Los detalles del error se muestran abajo.' . "\n\n");
+  define('MODULE_PAYMENT_PAYPALDP_TEXT_EMAIL_ERROR_MESSAGE', 'Estimado Propietario de la tienda,' . "\n" . 'Un error ocurrió en el intento de iniciar el proceso de validación del pago. Solamente se mostró el número del error al cliente. Los detalles del error se muestran abajo.' . "\n\n");
   define('MODULE_PAYMENT_PAYPALDP_TEXT_EMAIL_ERROR_SUBJECT', 'ALERT: PayPal Direct Payment Error');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_ADDR_ERROR', 'La dirección no es válida o no coincide con nuestra información. Corrija o elija otra dirección e intente otra vez.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_INSUFFICIENT_FUNDS_ERROR', 'PayPal no pudo pagar esta transacción. Elija otra método de pago o comprobar las opciones de pago de su cuanta PayPal antes de seguir.');
@@ -54,7 +55,7 @@
   define('MODULE_PAYMENT_PAYPALDP_ERROR_AVSCVV_PROBLEM_TEXT', 'El pedido está pendiente de verificación por la tienda.');
 
   define('MODULE_PAYMENT_PAYPALDP_TEXT_STATE_ERROR', 'El estado asignado a su cuenta no es válido. Por favor, entre en su cuenta y cámbielo.');
-  define('MODULE_PAYMENT_PAYPALDP_TEXT_NOT_WPP_ACCOUNT_ERROR', 'Disculpe las molestias. No podemos seguir con el pago porque la cuenta PayPal de la tienda no es PayPal Website Payments Pro o no ha sido contratado PayPal gateway services. Elija un método de pago alternativo para su pedido.');
+  define('MODULE_PAYMENT_PAYPALDP_TEXT_NOT_WPP_ACCOUNT_ERROR', 'Disculpe las molestias. No podemos seguir con el pago porque la cuenta PayPal de la tienda no es PayPal Payments Pro o no ha sido contratado el PayPal gateway services, o intentó pagar con una tarjeta AmEx y el soporte para AmEx no ha sido habilitado. Elija un método de pago alternativo para su pedido o quizás otra tipo de tarjeta.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_NOT_US_WPP_ACCOUNT_ERROR', 'Disculpe las molestias. No podemos iniciar el pago porque la cuenta PayPal de la tienda no es EE.UU. PayPal Website Payments Pro o no ha sido contratado PayPal gateway services. Elija un método de pago alternativo para su pedido.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_NOT_UKWPP_ACCOUNT_ERROR', 'Disculpe las molestias. No podemos iniciar el pago porque la cuenta PayPal de la tienda no es PayPal Website Payments Pro 2.0 (UK) o no ha sido contratado PayPal gateway services. Elija un método de pago alternativo para su pedido.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_SANDBOX_VS_LIVE_ERROR', 'Disculpe las molestias. Los parámetros de autentificación de la cuenta PayPal no han sido configurados o son incorrectos. No podemos completar la transacción. Por favor, notifique a la tienda sobre este problema. ');

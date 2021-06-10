@@ -15,7 +15,7 @@ define('TEXT_ACTIVITY_EXPORT_FILENAME', 'Nombre de archivo de exportación:');
 define('TEXT_ACTIVITY_EXPORT_SAVETOFILE','¿Guardar en el servidor?(si no, se descargará directamente desde esta ventana.)');
 define('TEXT_ACTIVITY_EXPORT_DEST','Destino: ');
 define('TEXT_PROCESSED', ' Procesado.');
-define('SUCCESS_EXPORT_ADMIN_ACTIVITY_LOG', 'Exportación terminanda. ');
+define('SUCCESS_EXPORT_ADMIN_ACTIVITY_LOG', 'Exportación terminada: ');
 define('FAILURE_EXPORT_ADMIN_ACTIVITY_LOG', 'AVISO: La exportación falló. No se pudo escribir el archivo');
 
 define('TEXT_INSTRUCTIONS','<u>INSTRUCCIONES</u><br />En está página se puede exportar el archivo de actividades Admin Zen Cart&reg; a un archivo CSV file para guardar.<br />Debe archivar esta información por si caso es requerida en una investigación de fraude. Es imprescindible para cumplir con la ley PCI.<br />

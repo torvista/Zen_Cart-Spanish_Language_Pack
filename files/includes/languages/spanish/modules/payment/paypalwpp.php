@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2012 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: paypalwpp.php 19115 2011-07-15 07:05:01Z drbyte $
+ * @version GIT: $Id: Author: DrByte  Thu Aug 16 01:57:33 2012 -0400 Modified in v1.5.1 $
  */
 
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_ADMIN_TITLE_EC', 'PayPal Express Checkout');
@@ -13,11 +13,11 @@
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_ADMIN_TITLE_PF_GATEWAY', 'PayPal Express Checkout via Payflow Pro');
 
   if (IS_ADMIN_FLAG === true) {
-    define('MODULE_PAYMENT_PAYPALWPP_TEXT_ADMIN_DESCRIPTION', '<strong>PayPal Express Checkout</strong>%s<br />' . (substr(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE,0,7) == 'Payflow' ? '<a href="https://manager.paypal.com/loginPage.do?partner=ZenCart" target="_blank"> Gestionar su cuenta PayPal.</a>' : '<a href="http://www.zen-cart.com/partners/paypal-ec" target="_blank"> Gestionar su cuenta PayPal.</a>') . '<br /><br /><font color="green">Configuración:</font><br /><span class="alert">1. </span><a href="http://www.zen-cart.com/partners/paypal-ec" target="_blank"> Abra una cuenta PayPal aquí.</a><br />' .
-(defined('MODULE_PAYMENT_PAYPALWPP_STATUS') ? '' : '... y haga clic en "install" arriba para activar soporte para PayPal Express Checkout.</br>') .
-(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE == 'PayPal' && (!defined('MODULE_PAYMENT_PAYPALWPP_APISIGNATURE') || MODULE_PAYMENT_PAYPALWPP_APISIGNATURE == '') ? '<br /><span class="alert">2. </span><strong>API parámetros</strong> de la opción API Credentials en su cuenta PayPal Profile Settings/Configuración del Perfíl en Paypal. (Haga clic <a href="http://www.zen-cart.com/getpaypal" target="_blank">aquí</a> para instrucciones sobre el API.) <br /> Este módulo utiliza la opción <strong>API Signature/Firma</strong> opción - necesitará el usuario, contraseña y firma para rellenar los campos abajo.' : (substr(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE,0,7) == 'Payflow' && (!defined('MODULE_PAYMENT_PAYPALWPP_PFUSER') || MODULE_PAYMENT_PAYPALWPP_PFUSER == '') ? '<span class="alert">2. </span><strong>parámetros PAYFLOW</strong> Este módulo precisa <strong>PAYFLOW Partner+Vendor+User+Password parámetros</strong> metidos en los cuatro campos abajo. Se los utilizan en la comunicación con el sistema Payflow y para autorizar las transacciones de su cuenta.' : '<span class="alert">2. </span> Asegúrese meter los datos de seguridad que corresponde al username/contraseña etc. abajo.') ) .
+    define('MODULE_PAYMENT_PAYPALWPP_TEXT_ADMIN_DESCRIPTION', '<strong>PayPal Express Checkout</strong>%s<br />' . (substr(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE,0,7) == 'Payflow' ? '<a href="https://manager.paypal.com/loginPage.do?partner=ZenCart" target="_blank"> Gestionar su cuenta PayPal.</a>' : '<a href="https://www.paypal.com" target="_blank"> Gestionar su cuenta PayPal.</a>') . '<br /><br /><font color="green">Configuración:</font><br /><span class="alert">1. </span><a href="http://www.zen-cart.com/partners/paypal-ec" target="_blank"> Abra una cuenta PayPal aquí.</a><br />' .
+(defined('MODULE_PAYMENT_PAYPALWPP_STATUS') ? '' : '... y haga clic en "install" arriba para activar soporte para PayPal Express Checkout.<br /><a href="http://www.zen-cart.com/getpaypal" target="_blank">Para más ayuda ver este artículo</a><br />') .
+(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE == 'PayPal' && (!defined('MODULE_PAYMENT_PAYPALWPP_APISIGNATURE') || MODULE_PAYMENT_PAYPALWPP_APISIGNATURE == '') ? '<br /><span class="alert">2. </span><strong>API parámetros</strong> de la opción API Credentials en su cuenta PayPal Configuración del Perfíl. (Haga clic <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_get-api-signature&generic-flow=true" target="_blank">aquí</a> para instrucciones sobre el API.) <br /> Este módulo utiliza la opción <strong>API Signature/Firma</strong> opción - necesitará el usuario, contraseña y firma para rellenar los campos abajo.' : (substr(MODULE_PAYMENT_PAYPALWPP_MODULE_MODE,0,7) == 'Payflow' && (!defined('MODULE_PAYMENT_PAYPALWPP_PFUSER') || MODULE_PAYMENT_PAYPALWPP_PFUSER == '') ? '<span class="alert">2. </span><strong>parámetros PAYFLOW</strong> Este módulo precisa <strong>PAYFLOW Partner+Vendor+User+Password parámetros</strong> introducidos en los cuatro campos inferiores. Se utilizan en la comunicación con el sistema Payflow y para autorizar las transacciones de su cuenta.' : '<span class="alert">2. </span> Asegúrese de introducir los datos de seguridad correspondientes al username/contraseña etc. abajo.') ) .
 (MODULE_PAYMENT_PAYPALWPP_MODULE_MODE == 'PayPal' ? '<br /><br /><span class="alert">3. </span>En su cuenta PayPal, active <strong>Instant Payment Notification</strong>:<br />en el "Perfil/Profile", seleccione <em>Instant Payment Notification Preferences</em><ul style="margin-top: 0.5;"><li>marque la casilla para habilitar IPN </li><li>si no hay una URL ya definida, vaya a la URL:<br /><nobr><pre>'.str_replace('index.php?main_page=index','ipn_main_handler.php',zen_catalog_href_link(FILENAME_DEFAULT, '', 'SSL')) . '</pre></nobr></li></ul>' : '') .
-'<font color="green"><hr /><strong>Requisitos:</strong></font><br /><hr />*<strong>cURL</strong> está utilizado para comunicar con el puerto de enlace, entonces tiene que ser activado en su compilación PHP en su servidor (si necesita usar un proxy CURL, puede configurarlo Admin->Configuración->Mi Tienda.)<br /><hr />' );
+'<font color="green"><hr /><strong>Requisitos:</strong></font><br /><hr />*<strong>CURL</strong> se utiliza para comunicar con el puerto de enlace a través de las puertas 80 y 443 por lo que tienen que estar activadas en su servidor para usar SLL.<br /><hr />' );
   }
 
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_DESCRIPTION', '<strong>PayPal</strong>');
@@ -41,7 +41,7 @@
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_DECLINED', 'Su tarjeta ha sido rechazada. Utilice otra tarjeta o póngase en contacto con su banco para más información');
   define('MODULE_PAYMENT_PAYPALWPP_INVALID_RESPONSE', 'No podemos procesar su pedido. Inténtelo otra vez, elija un método de pago alternativo o póngase en contacto con la tienda para obtener asistencia.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_GEN_ERROR', 'Ocurrió un error cuando intentamos contactar con el procesador de pagos. Inténtelo otra vez, elija  un método de pago alternativo o póngase en contacto con la tienda para obtener asistencia.');
-  define('MODULE_PAYMENT_PAYPALWPP_TEXT_EMAIL_ERROR_MESSAGE', 'Estimado Propietario de la tienda,' . "\n" . 'Un error ocurrió en el intento de iniciar el proceso de validación del pago. Solamente el número del error fue mostrado al cliente. Los detalles del error se muestran abajo.' . "\n\n");
+  define('MODULE_PAYMENT_PAYPALWPP_TEXT_EMAIL_ERROR_MESSAGE', 'Estimado Propietario de la tienda,' . "\n" . 'Un error ocurrió en el intento de iniciar el proceso de validación del pago. Solamente se mostró el número del error al cliente. Los detalles del error se muestran abajo.' . "\n\n");
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_EMAIL_ERROR_SUBJECT', 'ALERT: PayPal Express Checkout Error');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_ADDR_ERROR', 'La dirección no es válida o no coincide con nuestra información. Corrija o elija otra dirección e intente otra vez.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_CONFIRMEDADDR_ERROR', 'La dirección que seleccionó en PayPal no es una dirección confirmada. Vuelva a PayPal y elija o añada una dirección confirmada e intente otra vez.');
@@ -142,10 +142,10 @@
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_FULL', 'Si quiere devolver este pedido en su totalidad, pinche aquí:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_BUTTON_TEXT_FULL', 'Hacer una Devolución Total');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_BUTTON_TEXT_PARTIAL', 'Hacer una Devolución Parcial');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_TEXT_FULL_OR', '<br />... o inserte la cantidad parcial. ');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_TEXT_FULL_OR', '<br />... o inserte la cantidad parcial ');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_PAYFLOW_TEXT', 'Inserte la ');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_PARTIAL_TEXT', 'cantidad de la devolución aquí y haga clic en Devolución Parcial');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_SUFFIX', '* No está permitido solicitar una devolución total después de tramitar una devolución parcial. <br />*Multiples devoluciones parciales están permitidas hasta el valor total del pedido.');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_PARTIAL_TEXT', 'de la devolución aquí y haga clic en Hacer  Devolución Parcial');
+  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_SUFFIX', '*No está permitido solicitar una devolución total después de tramitar una devolución parcial. <br />*Permitidas múltiples devoluciones parciales hasta el valor total del pedido.');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_TEXT_COMMENTS', '<strong>Nota para mostrar al cliente:</strong>');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_DEFAULT_MESSAGE', 'Devuelto por el administrador de la tienda.');
   define('MODULE_PAYMENT_PAYPALWPP_TEXT_REFUND_FULL_CONFIRM_CHECK', 'Confirmar: ');

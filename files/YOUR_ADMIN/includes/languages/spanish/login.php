@@ -1,13 +1,13 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
 /**
  * @package admin
- * @copyright Copyright 2003-2011 Zen Cart Development Team
+ * @copyright Copyright 2003-2012 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: login.php 19286 2011-07-28 15:42:33Z drbyte $
+ * @version GIT: $Id: Author: DrByte  Mon Jul 16 14:10:24 2012 -0400 Modified in v1.5.1 $
  */
 
-define('HEADING_TITLE', 'Indentificación del administrador');
+define('HEADING_TITLE', 'Identificación del Administrador');
 define('HEADING_TITLE_EXPIRED', 'Admin Login - Contraseña Caducada');
 
 define('TEXT_ADMIN_NAME', 'Usuario: ');
@@ -21,7 +21,7 @@ define('ERROR_SECURITY_ERROR', 'Había un error de seguridad en el intento de Lo
 
 define('TEXT_PASSWORD_FORGOTTEN', 'He olvidado mi contraseña');
 
-define('LOGIN_EXPIRY_NOTICE', 'Después de 15 mins de inactividad tendrá que login otra vez.<br /><br />Nota: Todas las contraseñas caducan después de 90 días.');
+define('LOGIN_EXPIRY_NOTICE', 'Después de 15 mins de inactividad tendrá que login otra vez.<br /><br />Nota: Todas las contraseñas caducan después de 90 días y la tienda le pedirá que cree una nueva contraseña.');
 define('ERROR_PASSWORD_EXPIRED', 'NOTA: Su contraseña ha caducado. Elija una contraseña nueva. La contraseña <strong>debe estar compuesta de LETRAS y NÚMEROS y tener un mínimo de 7 caracteres.</strong>');
 define('TEXT_TEMPORARY_PASSWORD_MUST_BE_CHANGED', 'Por razones de seguridad, hay que cambiar su contraseña temporal. Elija una contraseña nueva.<br />La contraseña <strong>debe estar compuesta de LETRAS y NÚMEROS y tener un mínimo de 7 caracteres.</strong>');
 

@@ -7,8 +7,8 @@
  * @version $Id: site_map.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Mapa de la web');
-define('HEADING_TITLE', 'Mapa de la web');
+define('NAVBAR_TITLE', 'Mapa del Sitio');
+define('HEADING_TITLE', 'Mapa del Sitio');
 define('TEXT_INFORMATION','');
 
 define('PAGE_ACCOUNT', 'Mi cuenta');

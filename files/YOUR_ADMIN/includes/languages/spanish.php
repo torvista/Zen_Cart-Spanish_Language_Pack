@@ -4,7 +4,7 @@
  * @copyright Copyright 2003-2011 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * from @version $Id: english.php 19537 2011-09-20 17:14:44Z drbyte $
+ * @version GIT: $Id: Author: DrByte  Wed Sep 5 10:59:13 2012 -0400 Modified in v1.5.1 $
  */
 if (!defined('IS_ADMIN_FLAG'))
 {
@@ -291,8 +291,8 @@ define('ENTRY_NEWSLETTER_ERROR', '');
 
 define('ERROR_PASSWORDS_NOT_MATCHING', 'La contraseña y la confirmación deben coincidir');
 define('ENTRY_PASSWORD_CHANGE_ERROR', '<strong>Lo siento, su contraseña nueva ha sido rechazada.</strong><br />');
-define('ERROR_PASSWORD_RULES', 'Una contraseña debe ser compuesto de letras y números, y tener por lo menos %s caracteres y no puede ser igual como cualquier de las últimas 4 contraseñas utilizadas. Las contraseñas se caducan cada 90 días.');
-define('ERROR_TOKEN_EXPIRED_PLEASE_RESUBMIT', 'ERROR: Lo siento, hubo en erro en el proceso de sus datos. Por favor, entre la información otra vez.');
+define('ERROR_PASSWORD_RULES', 'Una contraseña debe estar compuesta de letras y números; tener por lo menos %s caracteres y no puede ser igual a cualquiera de las últimas 4 contraseñas utilizadas. Las contraseñas caducan cada 90 días y la tienda le pedirá que cree una contraseña nueva.');
+define('ERROR_TOKEN_EXPIRED_PLEASE_RESUBMIT', 'ERROR: Lo siento, hubo en error al procesar sus datos. Por favor, introduzca la información otra vez.');
 
 // images
 //define('IMAGE_ANI_SEND_EMAIL', 'Enviando el E-Mail');
@@ -443,7 +443,7 @@ define('ERROR_FILETYPE_NOT_ALLOWED', 'Error: El tipo de fichero subido no está 
 define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Listo: El fichero subido se guardó correctamente %s');
 define('WARNING_NO_FILE_UPLOADED', 'Advertencia: No se subió el fichero.');
 define('WARNING_FILE_UPLOADS_DISABLED', 'Advertencia: Subir ficheros está deshabilitado en el fichero de configuración php.ini.');
-define('ERROR_ADMIN_SECURITY_WARNING', 'Atención: Su nombre de usuario de administración no es seguro ... o tiene todavía el login por defecto, "Admin admin", o no ha borrado o cambiado: demo demoonly<br />Esta información de login ha de ser cambiada lo antes posible por la seguridad de su tienda.<br />Para seguridad adicional para el administrador, por favor, revise el directorio /docs');
+define('ERROR_ADMIN_SECURITY_WARNING', 'Atención: Su nombre de usuario de administración no es seguro ... o tiene todavía el login por defecto, "Admin admin", o no ha borrado o cambiado: demo demoonly<br />Esta información de login ha de ser cambiada lo antes posible por la seguridad de su tienda.');
 define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'Su base de datos parece necesitar ser parcheada a una versión superior. Mire Herramientas->Información del Servidor para revisar el nivel de parche.');
 define('WARN_DATABASE_VERSION_PROBLEM', 'true'); //cambia a false para deshabilitar los avisos sobre la versión del base de datos
 define('WARNING_ADMIN_DOWN_FOR_MAINTENANCE', '<strong> AVISO:</strong> Actualmente la página web está en Modo Mantenimiento ...<br />NOTA: No puede probar la mayoría de los módulos de Pago o Envío en Modo Mantenimiento');
@@ -702,7 +702,7 @@ define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Mostrar características glo
 // admin activity log warnings
   define('WARNING_ADMIN_ACTIVITY_LOG_DATE', 'ATENCIÓN: el registro de actividades del Admin contiene operaciones de más de 2 meses de antigüedad. Debería archivarlo para conservar espacio... ');
   define('WARNING_ADMIN_ACTIVITY_LOG_RECORDS', 'ATENCIÓN: el registro de actividades del Admin tiene más de 50.000 registros. Debería archivarlo para conservar espacio... ');
-  define('RESET_ADMIN_ACTIVITY_LOG', 'Puede ver y archivar los detalles del Admin Activity a través del menu de Gestión de Acceso Admin->Archivos de Actividad Admin, si tiene el permiso apropriado.');
+  define('RESET_ADMIN_ACTIVITY_LOG', 'Puede ver y archivar los detalles del Admin Activity a través del menu de Gestión de Acceso Admin->Archivos de Actividad Admin, si tiene el permiso apropiado.');
 
   define('CATEGORY_HAS_SUBCATEGORIES', 'AVISO: Esta categoría tiene subcategorías.<br /> No pueden añadirse productos.');
 
@@ -718,6 +718,7 @@ define('TEXT_HIDE', 'Ocultar');
 define('TEXT_EMAIL', 'Email');
 define('TEXT_NOEMAIL', 'No Email');
 
+define('BOX_HEADING_PRODUCT_TYPES', 'Tipos de Productos');
 
 ///////////////////////////////////////////////////////////
 // include additional files:
