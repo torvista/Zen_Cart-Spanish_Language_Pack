@@ -1,11 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2005 CardinalCommerce
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Sun Jan 7 21:30:21 2018 -0500 Modified in v1.5.6 $
+ * @version $Id: DrByte 2020 May 20 Modified in v1.5.7 $
  */
 
   define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_TITLE_WPP', 'PayPal Payments Pro');
@@ -13,8 +12,8 @@
   define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_TITLE_PRO20', 'PayPal Website Payments Pro Payflow Edition (UK)');
 
   if (IS_ADMIN_FLAG === true) {
-    define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION', '<strong>PayPal Payments Pro</strong>%s<br />' . '<a href="https://www.paypal.com" target="_blank"> Gestionar su cuenta PayPal.</a>' . '<br /><br /><font color="green"> Configuración:</font><br /><span class="alert">1. </span><a href="http://www.zen-cart.com/partners/paypal-pro" target="_blank"> Abra una cuenta PayPal aquí.</a><br />' . 
-(defined('MODULE_PAYMENT_PAYPALDP_STATUS') ? '' : '... y haga clic sobre "install" para activar el soporte para PayPal Payments Pro.<br /><a href="http://www.zen-cart.com/getpaypal" target="_blank">Para más ayuda, ver este artículo.</a><br />') . 
+    define('MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION', '<strong>PayPal Payments Pro</strong>%s<br />' . '<a href="https://www.paypal.com" rel="noreferrer noopener" target="_blank"> Gestionar su cuenta PayPal.</a>' . '<br /><br /><font color="green"> Configuración:</font><br /><span class="alert">1. </span><a href="http://www.zen-cart.com/partners/paypal-pro" rel="noopener" target="_blank"> Abra una cuenta PayPal aquí.</a><br />' . 
+(defined('MODULE_PAYMENT_PAYPALDP_STATUS') ? '' : '... y haga clic sobre "install" para activar el soporte para PayPal Payments Pro.<br /><a href="http://www.zen-cart.com/getpaypal" rel="noopener" target="_blank">Para más ayuda, ver este artículo.</a><br />') . 
 (!defined('MODULE_PAYMENT_PAYPALWPP_APISIGNATURE') || MODULE_PAYMENT_PAYPALWPP_APISIGNATURE === '' ? '<span class="alert">2. </span><strong>Parámetros API</strong> de la opción API Credentials en la configuración de perfil de su cuenta PayPal. Este módulo utiliza la opción <strong>API Signature/Firma</strong> opción - necesitará el usuario, contraseña y firma para rellenar los campos inferiores.' : '<span class="alert">2. </span>Asegúrese de insertar los datos de seguridad que correspondan al usuario/contraseña etc. en la parte inferior.') .
 '<font color="green"><hr /><strong>Requisitos:</strong></font><br /><hr />*<strong>Express Checkout</strong> debe ser instalado y activado para usar PayPal Payments Pro, de acuerdo con las condiciones de servicio de PayPal. <br />*También precisa CURL con SLL para comunicar con PayPal. Hay que habilitar CURL para las puertas 80 y 443. <hr />' );
   }
@@ -134,8 +133,6 @@ define('MODULE_PAYMENT_PAYPAL_ENTRY_FIRST_NAME', 'Nombre');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTH_PARTIAL_TEXT', 'Si desea autorizar parte de este pedido, inserte la cantidad aquí:');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTH_BUTTON_TEXT_PARTIAL', 'Hacer una Autorización');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_AUTH_SUFFIX', '');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_TEXT_COMMENTS', '<strong> Nota para mostrar al cliente:</strong>');
-  define('MODULE_PAYMENT_PAYPAL_ENTRY_REFUND_DEFAULT_MESSAGE', 'Devuelto por el administrador de la tienda.');
 
   define('MODULE_PAYMENT_PAYPAL_ENTRY_CAPTURE_TITLE', '<strong>Captura de Autorizaciones</strong>');
   define('MODULE_PAYMENT_PAYPAL_ENTRY_CAPTURE_FULL', 'Si quiere capturar todo o un valor parcial de la cantidad autorizada para este pedido, inserte la Cantidad de Captura y elija si es el último para este pedido. Marque la casilla de Confirmación antes de hacer la solicitud.<br />');

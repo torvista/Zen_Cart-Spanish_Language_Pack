@@ -1,9 +1,8 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package admin
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte Sat Jul 5 15:44:37 2014 -0400 Modified in v1.5.6 $
+ * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Gestor de Banners');
@@ -66,8 +65,6 @@ define('SUCCESS_BANNER_STATUS_UPDATED', 'Listo: El estado del banner fue actuali
 
 define('ERROR_BANNER_TITLE_REQUIRED', 'Error: Hace falta el título del banner.');
 define('ERROR_BANNER_GROUP_REQUIRED', 'Error: Hace falta el grupo del banner.');
-define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: No existe el directorio de destino: %s');
-define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de destino: %s');
 define('ERROR_IMAGE_DOES_NOT_EXIST', 'Error: La imagen no existe.');
 define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Error: La imagen no puede eliminarse.');
 define('ERROR_UNKNOWN_STATUS_FLAG', 'Error: Estado desconocido.');

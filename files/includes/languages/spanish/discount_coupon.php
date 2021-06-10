@@ -1,7 +1,6 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * $Id: discount_coupon.php 14712 2009-10-28 22:05:08Z ajeh $
@@ -13,7 +12,6 @@ define('HEADING_TITLE', 'Cupones de Descuento');
 define('TEXT_INFORMATION', '');
 define('TEXT_COUPON_FAILED', '<span class="alert important">%s</span> no parece ser un cupón de descuento válido. Pruebe a teclearlo de nuevo.');
 
-define('HEADING_COUPON_HELP', 'Ayuda');
 define('TEXT_CLOSE_WINDOW', 'Cerrar ventana [x]');
 define('TEXT_COUPON_HELP_HEADER', '<p class="bold">El código del cupón de descuento que ha introducido es para  ');
 define('TEXT_COUPON_HELP_NAME', '\'%s\'. </p>');
@@ -25,8 +23,6 @@ define('TEXT_COUPON_HELP_DATE', '<p>El cupón es válido entre %s y %s</p>');
 define('TEXT_COUPON_HELP_RESTRICT', '<p class="biggerText bold">Restricciones del Cupón de Descuento</p>');
 define('TEXT_COUPON_HELP_CATEGORIES', '<p class="bold">Restricciones por Categoría:</p>');
 define('TEXT_COUPON_HELP_PRODUCTS', '<p class="bold">Restricciones por Producto:</p>');
-define('TEXT_ALLOW', 'Permitido');
-define('TEXT_DENY', 'No permitido');
 
 define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Este cupón tiene restricciones para productos específicos.</p>');
 define('TEXT_NO_CAT_RESTRICTIONS', '<p>Este cupón es válido para cualquier categoría.</p>');

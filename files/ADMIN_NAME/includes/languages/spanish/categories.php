@@ -1,29 +1,30 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 
 /**
- * @package admin
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Zen4All Thu Feb 1 15:28:42 2018 +0100 Modified in v1.5.6 $
+ * @version $Id: Steve 2020 Jun 30 Modified in v1.5.7a $
  */
 
 define('HEADING_TITLE', 'Categorías / Productos');
 define('TEXT_EDIT_INTRO', 'Realice los cambios necesarios');
-define('TEXT_EDIT_CATEGORIES_NAME', 'Nombre de la categoría:');
-define('TEXT_CATEGORIES_DESCRIPTION', 'Descripción de la categoría:');
-define('TEXT_EDIT_CATEGORIES_IMAGE', 'Imagen de la categoría:');
-define('TEXT_CATEGORIES_IMAGE_DIR', 'Subir al directorio:');
-define('TEXT_CATEGORIES_IMAGE_MANUAL', 'O, seleccione una imagen del servidor, nombre del archivo:');
-define('TEXT_IMAGE_NONEXISTENT', 'IMAGEN NO EXISTE');
+define('TEXT_EDIT_CATEGORIES_NAME', 'Nombre de la Categoría:');
+define('TEXT_CATEGORIES_DESCRIPTION', 'Descripción de la Categoría:');
+define('TEXT_CATEGORIES_IMAGE', 'Imagen de la Categoría:');
+define('TEXT_FILENAME', 'Archivo: %1$s (%2$upx x %3$upx / %4$ukB)');
+define('TEXT_EDIT_CATEGORIES_IMAGE', 'Cambiar Imagen:');
+define('TEXT_CATEGORIES_IMAGE_DIR', 'Subir al directorio / Utilice una imagen existente en:<br>/images/<em>(subdirectory)</em>');
+define('TEXT_CATEGORIES_IMAGE_MANUAL', 'O, seleccione una imagen de la carpeta seleccionada, nombre del archivo:');
 define('TEXT_EDIT_SORT_ORDER', 'Orden:');
-define('TEXT_RESTRICT_PRODUCT_TYPE', 'Restringir a un Tipo de Producto');
-define('TEXT_CATEGORY_HAS_RESTRICTIONS', 'Esta categoría ha sido restringida a estos Tipos de Productos');
-define('ERROR_CANNOT_ADD_PRODUCT_TYPE','El Tipo de Producto especificado no puede ser añadido a esta categoría. Revise sus restricciones de categorías.');
-
+define('TEXT_RESTRICT_PRODUCT_TYPE', 'Restringir a un Product Type');
+define('TEXT_CATEGORY_HAS_RESTRICTIONS', 'Esta categoría ha sido restringida a estos Product Types');
+define('MESSAGE_IMAGE_REMOVED_CATEGORY', 'Categoría #%1$u "%2$s": imagen borrada');
+define('MESSAGE_IMAGE_ADDED_MANUAL', 'La imagen fue añadida manualmente a la categoría #%1$u "%2$s".');
+define('ERROR_IMAGE_MANUAL_NOT_FOUND', 'No se encontró la imagen "%s".');
 // Metatags
 define('TEXT_INFO_HEADING_EDIT_CATEGORY_META_TAGS', 'Definiciones Metas Tags para Categorías');
-define('TEXT_EDIT_CATEGORIES_META_TAGS_INTRO', 'Define Meta Tags Personalizados');
-define('TEXT_EDIT_CATEGORIES_META_TAGS_TITLE', 'Título:');
-define('TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS', 'Palabras Claves:');
-define('TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION', 'Descripción:');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_INTRO', 'Define Meta Tags Personalizados para ID#%1$u - "%2$s"');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_TITLE', 'Título Página (pestaña navegador):');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS', 'Meta Palabras Claves:');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION', 'Meta Descripción:');

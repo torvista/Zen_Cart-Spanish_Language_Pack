@@ -53,8 +53,6 @@ define('TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION', 'Se muestra la Página aunqu
 
 define('TEXT_DISPLAY_NUMBER_OF_PAGES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> páginas)');
 define('IMAGE_NEW_PAGE', 'Página Nueva');
-define('TEXT_INFO_PAGE_IMAGE', 'Imagen');
-define('TEXT_INFO_CURRENT_IMAGE', 'Imagen Actual:');
 define('TEXT_INFO_PAGES_ID', 'ID: ');
 define('TEXT_INFO_PAGES_ID_SELECT', 'Elija una página ...');
 

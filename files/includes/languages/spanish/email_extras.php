@@ -1,10 +1,9 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson Mon Apr 23 08:06:02 2018 -0400 Modified in v1.5.6 $
+ * @version $Id: DrByte 2020 Jun 19 Modified in v1.5.7 $
  */
 
 define ('EMAIL_LOGO_FILENAME', 'header.jpg');  //-File is present in /email folder
@@ -22,9 +21,6 @@ define ('EMAIL_EXTRA_HEADER_INFO', '');
 define('OFFICE_FROM','<strong>De:</strong>');
 define('OFFICE_EMAIL','<strong>Email:</strong>');
 
-define('OFFICE_SENT_TO','<strong>Enviado a:</strong>');
-define('OFFICE_EMAIL_TO','<strong>Email a:</strong>');
-
 define('OFFICE_USE','<strong>Sólo uso Admin:</strong>');
 define('OFFICE_LOGIN_NAME','<strong>Nombre Cliente:</strong>');
 define('OFFICE_LOGIN_EMAIL','<strong>Email Cliente:</strong>');
@@ -41,8 +37,8 @@ define('EMAIL_TEXT_TELEPHONE', 'Teléfono: ');
 define('EMAIL_DISCLAIMER', 'Esta dirección de correo electrónico nos fue facilitada por usted o por alguno de nuestros clientes. Si piensa que ha recibido este mensaje por error, por favor, envíe un email a %s.<br /> ');
 define('EMAIL_SPAM_DISCLAIMER', 'Este email ha sido enviado de acuerdo a la ley 34/2002 de 11 de Julio de servicios de la sociedad de la información y comercio electrónico. Las peticiones para darse de baja deberán ser enviadas a esta dirección, y serán cumplidas y respetadas.');
 // Define a message you'd like to add to an order confirmation email
-define('EMAIL_ORDER_MESSAGE',''); 
-define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Basado en <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+define('EMAIL_ORDER_MESSAGE','');
+define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. Basado en <a href="http://www.zen-cart.com">Zen Cart</a>');
 define('TEXT_UNSUBSCRIBE', "\n\nPara darse de baja de los boletines pulse aquí: \n");
 
 // email advisory for all emails customer generate - tell-a-friend and GV send
@@ -56,7 +52,6 @@ define('EMAIL_ADVISORY_INCLUDED_WARNING', '<strong>Este mensaje se incluye en to
 define('SEND_EXTRA_CREATE_ACCOUNT_EMAILS_TO_SUBJECT', '[CREAR CUENTA]');
 define('SEND_EXTRA_GV_CUSTOMER_EMAILS_TO_SUBJECT', '[TARJETAS REGALO]');
 define('SEND_EXTRA_NEW_ORDERS_EMAILS_TO_SUBJECT', '[NUEVO PEDIDO]');
-define('SEND_EXTRA_CC_EMAILS_TO_SUBJECT','[INFO EXTRA DE PEDIDO CON TARJETA] #');
 
 // Low Stock Emails
 define('EMAIL_TEXT_SUBJECT_LOWSTOCK', 'Atención: stock bajo');

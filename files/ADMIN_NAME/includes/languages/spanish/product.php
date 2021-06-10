@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+
 /**
- * @package admin
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2019 May 26 Modified in v1.5.6b $
+ * @version $Id: Steve 2020 Mar 30 Modified in v1.5.7 $
  */
 
 
@@ -30,9 +30,8 @@ define('TEXT_PRODUCTS_MANUFACTURER', 'Fabricante:');
 define('TEXT_PRODUCTS_NAME', 'Nombre:');
 define('TEXT_PRODUCTS_DESCRIPTION', 'Descripción:');
 define('TEXT_PRODUCTS_QUANTITY', 'Cantidad en Stock:');
-define('TEXT_PRODUCTS_MODEL', 'Modelo:');
 define('TEXT_PRODUCTS_IMAGE', 'Imagen:');
-define('TEXT_IMAGE_NONEXISTENT', 'Imagen no existe');
+define('TEXT_EDIT_PRODUCTS_IMAGE', 'Editar Imagen del Producto:');
 define('TEXT_PRODUCTS_IMAGE_DIR', 'Subir al directorio:');
 define('TEXT_PRODUCTS_URL', 'URL:');
 define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(sin http://)</small>');
@@ -59,6 +58,8 @@ define('TEXT_PRODUCTS_TAX_CLASS', 'Clase de Impuesto:');
 define('TEXT_PRODUCTS_QUANTITY_MIN_RETAIL', 'Cant. Mín.:');
 define('TEXT_PRODUCTS_QUANTITY_UNITS_RETAIL', 'Cant. de Unidades:');
 define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL', 'Cant. Max.:');
+define('TEXT_PRODUCTS_QTY_MIN_UNITS_PREVIEW', 'Aviso: el Mínimo es menos que las Unidades');
+define('TEXT_PRODUCTS_QTY_MIN_UNITS_MISMATCH_PREVIEW', 'Aviso: el Mínimo no es un multiple de las Unidades');
 
 define('TEXT_PRODUCTS_QUANTITY_MAX_RETAIL_EDIT', '0 = Ilimitada, 1 = Sin Recuadro de Cantidad');
 

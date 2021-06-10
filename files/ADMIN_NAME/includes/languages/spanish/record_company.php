@@ -37,9 +37,7 @@
   define('TEXT_HEADING_DELETE_RECORD_COMPANY', 'Borrar discográfica');
   define('TEXT_DATE_ADDED', 'Añadido el');
   define('TEXT_LAST_MODIFIED', 'Modificado el');
-  define('TEXT_IMAGE_NONEXISTENT', 'La imagen no existe');
   define('TEXT_PRODUCTS', 'Productos enlazados');
   define('TEXT_DISPLAY_NUMBER_OF_RECORD_COMPANIES', 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> discográficas)');
   define('TEXT_DELETE_PRODUCTS', '¿Borrar esta discográfica y todos los elementos enlazados a ella?');
   define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ATENCIÓN:</b> ¡Hay %s elementos todavía enlazados a esta discográfica!');
-?>

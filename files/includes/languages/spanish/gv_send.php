@@ -1,10 +1,9 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: gv_send.php 3421 2006-04-12 04:16:14Z drbyte $
+ * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Enviar ' . TEXT_GV_NAME);
@@ -35,9 +34,6 @@ define('EMAIL_GV_MESSAGE', 'con un mensaje que dice ');
 define('EMAIL_GV_SEND_TO', 'Hola, %s');
 define('EMAIL_GV_REDEEM', 'Para canjear este ' . TEXT_GV_NAME . ' haga click en el enlace de aquí abajo. Por favor, escriba también el ' . TEXT_GV_REDEEM . ': que es %s por si tiene algún problema.');
 define('EMAIL_GV_LINK', 'Para canjearlo, por favor, pulse aquí');
-define('EMAIL_GV_VISIT', ' o visite ');
-define('EMAIL_GV_ENTER', ' e ingrese el ' . TEXT_GV_REDEEM . ' ');
 define('EMAIL_GV_FIXED_FOOTER', 'Si tiene problemas al canjear el código ' . TEXT_GV_NAME . ' usando el enlace de aquí arriba, ' . "\n" .
                                 'puede ingresar también el ' . TEXT_GV_REDEEM . ' del ' . TEXT_GV_NAME . ' durante el proceso de pago en nuestra tienda.');
 define('EMAIL_GV_SHOP_FOOTER', '');
-?>

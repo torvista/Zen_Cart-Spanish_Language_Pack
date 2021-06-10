@@ -1,10 +1,9 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package admin
- * @copyright Copyright 2003-2010 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: options_values_manager.php 15883 2010-04-11 16:41:26Z wilt $
+ * @version $Id: Scott C Wilson 2020 Apr 07 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE_OPT', 'Opciones de Productos');
@@ -27,7 +26,6 @@ define('TEXT_WARNING_OF_DELETE', '<span class="alert">Esta opción tiene product
 define('TEXT_OK_TO_DELETE', 'Esta opción no tiene productos enlazados - es seguro borrarla.');
 define('TEXT_OPTION_ID', 'ID de opción');
 define('TEXT_OPTION_NAME', 'Nombre de Opción');
-define('TABLE_HEADING_OPT_DISCOUNTED','Descontado');
 
 define('ATTRIBUTE_WARNING_DUPLICATE','Atributo Duplicado - El atributo no se añadió'); // attributes duplicate warning
 define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE','Existe un atributo duplicado - El atributo no se modificó'); // attributes duplicate warning
@@ -51,16 +49,10 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('TABLE_HEADING_OPT_WEIGHT_PREFIX','Prefijo');
   define('TABLE_HEADING_OPT_WEIGHT','Peso');
   define('TABLE_HEADING_OPT_SORT_ORDER','Ordenación');
-  define('TABLE_HEADING_OPT_DEFAULT','Por defecto');
-
-  define('TABLE_HEADING_YES','Sí');
-  define('TABLE_HEADING_NO','No');
 
   define('TABLE_HEADING_OPT_TYPE', 'Tipo de opción'); //CLR 031203 add option type column
   define('TABLE_HEADING_OPTION_VALUE_SIZE','Tamaño');
   define('TABLE_HEADING_OPTION_VALUE_MAX','Max');
-  define('TABLE_HEADING_OPTION_VALUE_ROWS','Filas');
-  define('TABLE_HEADING_OPTION_VALUE_COMMENTS','Comentarios');
 
   define('TEXT_OPTION_VALUE_COMMENTS','Comentarios: ');
   define('TEXT_OPTION_VALUE_SIZE','Mostrar tamaño: ');
@@ -119,4 +111,6 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('ERROR_OPTION_VALUES_DELETE_MISMATCH', 'Error: Nombre de Opción y Valor de Opción no concordantes seleccionados');
 
   define('SUCCESS_OPTION_VALUES_DELETE', 'Exitosa borradura de: ');
-  
+  define('LABEL_FILTER', 'Seleccione Valor de Opción para filtrar');
+  define('TEXT_DISPLAY_NUMBER_OF_OPTION_VALUES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> Valores de Opciones)');
+  define('TEXT_SHOW_ALL', 'Show All');

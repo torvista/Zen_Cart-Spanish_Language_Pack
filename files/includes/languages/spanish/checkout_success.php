@@ -1,10 +1,9 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2019 Jan 04 Modified in v1.5.6a $
+ * @version $Id: Steve 2020 May 27 Modified in v1.5.7 $
  */
 
 define('NAVBAR_TITLE_1', 'Pago');
@@ -15,7 +14,7 @@ define('HEADING_TITLE', '¡Muchas gracias por su confianza!');
 define('TEXT_SUCCESS', '');
 define('TEXT_NOTIFY_PRODUCTS', 'Avísenme cuando haya cambios en los siguientes productos:');
 // Still used by some older templates
-define('TEXT_SEE_ORDERS', 'Puede ver su historial de pedidos yendo a <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '" id="linkMyAccount">Mi Cuenta</a> y pulsando en "Ver todos los pedidos".');
+define('TEXT_SEE_ORDERS', 'Se puede ver los estados de sus pedidos en <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">Mi Cuenta</a>, "Ver Mis Pedidos".');
 define('TEXT_CONTACT_STORE_OWNER', 'Por favor, dirija cualquier pregunta que tenga a <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '" id="linkContactUs">atención al cliente</a>.');
 define('TEXT_THANKS_FOR_SHOPPING', '¡Muchas gracias por su confianza!');
 
@@ -31,7 +30,6 @@ define('TEXT_CHECKOUT_LOGOFF_CUSTOMER', '<p>¡Muchas gracias por su confianza!<b
 
 define('HEADING_ORDER_NUMBER', 'Pedido #%s');
 define('HEADING_ORDER_DATE', 'Fecha Pedido:');
-define('HEADING_ORDER_TOTAL', 'Total Pedido:');
 
 define('HEADING_DELIVERY_ADDRESS', 'Dirección de Envío');
 define('HEADING_SHIPPING_METHOD', 'Método de Envío');
@@ -45,10 +43,8 @@ define('HEADING_BILLING_ADDRESS', 'Dirección de Facturación');
 define('HEADING_PAYMENT_METHOD', 'Forma de Pago');
 
 define('HEADING_ORDER_HISTORY', 'Historial de Estados &amp; Comentarios');
-define('TEXT_NO_COMMENTS_AVAILABLE', 'No hay comentarios.');
 define('TABLE_HEADING_STATUS_DATE', 'Fecha');
 define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Estatus del Pedido');
 define('TABLE_HEADING_STATUS_COMMENTS', 'Comentario');
 define('QUANTITY_SUFFIX', '&nbsp;  ');//TODO
 define('ORDER_HEADING_DIVIDER', '&nbsp;-&nbsp;');
-define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');

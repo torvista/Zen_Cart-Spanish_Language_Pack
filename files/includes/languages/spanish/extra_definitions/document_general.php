@@ -1,5 +1,5 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-// ñ for encoding
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,5 +20,5 @@
 // $Id: document_general.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-DEFINE('BOX_HEADING_DOCUMENT_CATEGORIES', 'Documentos');
+define('BOX_HEADING_DOCUMENT_CATEGORIES', 'Documentos');
 ?>

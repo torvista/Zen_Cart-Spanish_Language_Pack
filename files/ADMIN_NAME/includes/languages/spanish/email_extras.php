@@ -1,29 +1,29 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package admin
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Wed Oct 28 13:08:12 2015 -0400 Modified in v1.5.5 $
+ * @version $Id: DrByte 2020 May 16 Modified in v1.5.7 $
  */
 
-  define ('EMAIL_LOGO_FILENAME', 'header.jpg');  //-File is present in /email folder but NOT /es/email!! function zen_build_html_email_from_template does not take language into account
+  define ('EMAIL_LOGO_FILENAME', 'header.jpg');  //-File is present in /email folder
   define ('EMAIL_LOGO_WIDTH', '550');
   define ('EMAIL_LOGO_HEIGHT', '110');
   define ('EMAIL_LOGO_ALT_TITLE_TEXT', '¡Zen Cart! El Arte de E-commerce');
-  
+
   // -----
   // If you want to include some extra information in each email's header information (like perhaps the store address and/or phone number),
   // set this value to contain the full HTML content to be copied, e.g. '<div id="extra-stuff">Extra stuff for header</div>'.
   //
   define ('EMAIL_EXTRA_HEADER_INFO', '');
 
+  // Define a message you'd like to add to an order update email
+  define('EMAIL_ORDER_UPDATE_MESSAGE',''); 
+
 // office use only
   define('OFFICE_FROM', 'De:');
   define('OFFICE_EMAIL','E-mail:');
 
-  define('OFFICE_SENT_TO', 'Enviado a:');
-  define('OFFICE_EMAIL_TO','E-mail:');
   define('OFFICE_USE', 'Sólo para uso interno:');
   define('OFFICE_LOGIN_NAME', 'Nombre de usuario:');
   define('OFFICE_LOGIN_EMAIL', 'E-mail de usuario:');
@@ -47,7 +47,7 @@
 define('TEXT_EMAIL_SUBJECT_ADMIN_USER_ADDED', 'Admin Aviso: Usuario añadido.');
 define('TEXT_EMAIL_MESSAGE_ADMIN_USER_ADDED', 'Admin Aviso: Un usuario nuevo (%s) ha sido AÑADIDO por %s.' . "\n\n" . 'Si no autorizó esta acción, compruebe la seguridad de la tienda AHORA.');
 define('TEXT_EMAIL_SUBJECT_ADMIN_USER_DELETED', 'Admin Aviso: Un usuario ha sido borrado.');
-define('TEXT_EMAIL_MESSAGE_ADMIN_USER_DELETED', 'Admin Aviso: Un usuario de admin (%s) ha sido borrado por %s.' . "\n\n" . 'Si no autorizó esta acción, compruebe la seguridad de la tienda AHORA.');
+define('TEXT_EMAIL_MESSAGE_ADMIN_USER_DELETED', 'Admin Aviso: Un usuario de admin (%s) ha sido BORRADO por %s.' . "\n\n" . 'Si no autorizó esta acción, compruebe la seguridad de la tienda AHORA.');
 define('TEXT_EMAIL_SUBJECT_ADMIN_USER_CHANGED', 'Admin Aviso: Los datos de un usuario han sido cambiados.');
 define('TEXT_EMAIL_ALERT_ADM_EMAIL_CHANGED', 'Admin Aviso: el email del usuario (%s) ha sido cambiado de (%s) a (%s) por (%s)');
 define('TEXT_EMAIL_ALERT_ADM_NAME_CHANGED', 'Admin Aviso: el nombre de usuario de (%s) ha sido cambiado de (%s) a (%s) por (%s)');

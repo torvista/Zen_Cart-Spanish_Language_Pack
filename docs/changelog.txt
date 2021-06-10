@@ -1,9 +1,15 @@
 Changelog
+2021 06 10 Moved all spanish language packs to one GitHub repository.
+-------------------
+2020 11 03 Updates for ZC157a (mostly headers).
+2020 05 14 Fileset complete for ZC157 to date
+2020 05 06 Installer text added
+2019 12 ZC157 Admin updated.
+			removed email as email templates are finally language-independent
 2019 07		updates for Zen Cart 1.56c, and php warnings for duplicated/missing constants.
 2019 06   	admin: TEXT_GV_REDEEM repeated and gv_name.php not encoded utf-8.
 2019 06 09  header changes to match pointless header changes made in zen-cart-v1.5.6b-05272019
 2019 05 27  changes for zen-cart-v1.5.6b-05262019
-
 2019 04 11  various minor changes post 156-merging checks.
 			removed check locales file to it's own repository
 			added single EN flag icon to overwrite multi-flag EN icon introduced in 156
@@ -38,7 +44,7 @@ added /extras/find_locales.php utility
 
 1.5.4.01 fileset saved as 1.5.4.01
 admin->admin_activity
-define('TEXT_EXPORTFILTER3', 'WARNING – Actividades para revisar a diario'); corrected final quotation mark from a smart quote
+define('TEXT_EXPORTFILTER3', 'WARNING ï¿½ Actividades para revisar a diario'); corrected final quotation mark from a smart quote
 spanish/icon_names.php
 shortened for use as a CSS button
 Actualice el pedido->Actualizar
@@ -64,7 +70,7 @@ admin/...spanish.php & admin_activity: minor corrections
 
 1-5-07 2012-12-13
 \modules\payment\authorizenet_aim.php: CVV number, removed js popup.
-admin....login.php: typo Indentificación corrected
+admin....login.php: typo Indentificaciï¿½n corrected
 admin...modules:minor corrections
 catalog..payment\paypaldp.php and paypalwpp.php:minor corrections. 
 admin\spanish.php: apropriado->apropiado
@@ -77,7 +83,7 @@ tu_ fileset readied for translation but never done: removed.
 1-5-06 2012-09-28
 Revisions for Zen Cart 1.51 released 2012-09-18
 and
-\includes\languages\spanish\checkout_process.php: Dirección de pago changed to Dirección de facturación, factura changed to pedido. 
+\includes\languages\spanish\checkout_process.php: Direcciï¿½n de pago changed to Direcciï¿½n de facturaciï¿½n, factura changed to pedido. 
 fileset duplicated to facilitate future translation of tu form of address (as asked for by a forum member but never carried out...)
 admin\...\products.php changed in/out of stock to a more correct activado/desactivado
 \includes\languages\spanish\spanish.php corrected DD/MM/YY to MM/DD/YY.
@@ -94,7 +100,7 @@ ADMIN\includes\languages\spanish\countries.php added reference to Alpha 3 ISO co
 1-5-04 2012-04-01
 \admin\includes\languages\spanish.php menu item My Store missing from menu. Thanks to Eulinuxero
 \includes\languages\spanish\down_for_maintenance.php had my shop name in it! Thanks to Eulinuxero
-\admin\includes\languages\spanish\customers.php correction aprobración" for "aprobación". Thanks to Eulinuxero
+\admin\includes\languages\spanish\customers.php correction aprobraciï¿½n" for "aprobaciï¿½n". Thanks to Eulinuxero
 \admin\includes\languages\spanish\invoice.php, minor correction
 \admin\includes\languages\spanish.php minor correction
 \includes\languages\spanish\other_images_names.php changed define('OTHER_IMAGE_CALL_FOR_PRICE', 'call_for_prices_es.jpg') 
@@ -145,7 +151,7 @@ added 8859-1 version to file pack
 
 1.4 2011-01-19 
 \SU_ADMIN\includes\languages\spanish\products_to_categories.php: many corrections and improvements
-\SU_ADMIN\includes\languages\spanish.php: line 614, categorías to categoría
+\SU_ADMIN\includes\languages\spanish.php: line 614, categorï¿½as to categorï¿½a
 \SU_ADMIN\includes\languages\spanish\cache.php: removed as per 1.39g
 \SU_ADMIN\includes\languages\spanish\alert_page.php: new file for Zen Cart 1.39g
 \includes\languages\spanish\html_includes\contact_us.php: missing closing bracket on </p> tag
@@ -161,7 +167,7 @@ product_music:old version
 unsubscribe.php:titles not translated, corrections.
 product_reviews_write.php: correction
 advanced_search.php: unescaped quotation marks prevented popup search help from opening
-cod.php: not encoded as UTF-8 as no characters requiring it: added ñ in comments 
+cod.php: not encoded as UTF-8 as no characters requiring it: added ï¿½ in comments 
 
 1.1 2010-08-03
 various minor changes

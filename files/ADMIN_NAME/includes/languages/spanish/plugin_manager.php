@@ -1,0 +1,36 @@
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+
+define('HEADING_TITLE', 'Gestor de Plugins');
+define('TABLE_HEADING_ACTION', 'Acciones');
+define('TABLE_HEADING_KEY', 'Key Plugin');
+define('TABLE_HEADING_NAME', 'Nombre');
+define('TABLE_HEADING_STATUS', 'Estatus');
+define('TABLE_HEADING_FILE_SPACE', 'Tamaño Archivos');
+define('TABLE_HEADING_VERSION_INSTALLED', 'Versión');
+define('TEXT_INSTALL', 'Instalar');
+define('TEXT_UNINSTALL', 'Desinstalar');
+define('TEXT_DISABLE', 'Deshabilitar');
+define('TEXT_ENABLE', 'Habilitar');
+define('TEXT_CLEANUP', 'Limpiar');
+define('TEXT_UPGRADE', 'Actualizar');
+define('TEXT_CONFIRM', 'Confirmar');
+define('TEXT_INFO_DESCRIPTION', 'Descripción Plugin:');
+define('TEXT_INFO_CLEANUP', 'Borrar las carpetas innecesarios de las versiones');
+define('TEXT_INFO_SELECT_CLEAN', 'Seleccionar las versiones para borrar');
+define('TEXT_INSTALLED_ENABLED', 'Instalado(Habilitado)');
+define('TEXT_INSTALLED_DISABLED', 'Instalado(Deshabilitado)');
+define('TEXT_NOT_INSTALLED', 'No Instalado');
+define('TEXT_INSTALL_SUCCESS', 'Plugin instalado correctamente');
+define('TEXT_UNINSTALL_SUCCESS', 'Plugin desinstalado correctamente');
+define('TEXT_DISABLE_SUCCESS', 'Plugin deshabilitado correctamente');
+define('TEXT_ENABLE_SUCCESS', 'Plugin habilitado correctamente');
+define('TEXT_UPGRADE_AVAILABLE', 'Actualización Disponible');
+define('TEXT_VERSION_INSTALLED', 'Versión Instalado: %s');
+define('TEXT_CONFIRM_UNINSTALL', '¿Está seguro que quiere desinstalar este Plugin?');
+define('TEXT_CONFIRM_UPGRADE', '¿Está seguro que quiere actualizar este Plugin?');
+define('TEXT_CONFIRM_DISABLE', '¿Está seguro que quiere deshabilitar este Plugin?');
+define('TEXT_CONFIRM_ENABLE', '¿Está seguro que quiere habilitar este Plugin?');
+define('TEXT_INFO_UPGRADE', 'Elije la versión a lo cual quiere actualizar.');
+define('TEXT_INFO_UPGRADE_CONFIRM', 'Actualización a Versión %s');
+define('TEXT_INFO_UPGRADE_WARNING', 'Aviso: blah blah');
+define('TEXT_INFO_CONFIRM_CLEAN', 'Confirmar las carpetas de las versiones que quiere borrar');

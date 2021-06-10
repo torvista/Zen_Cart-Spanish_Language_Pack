@@ -1,10 +1,9 @@
 <?php //Spanish Language Pack for Zen Cart 1.5: http://zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: advanced_search.php 3253 2006-03-25 17:26:14Z birdbrain $
+ * @version $Id: Scott C Wilson 2019 Jul 27 Modified in v1.5.7 $
  */
 
   define('NAVBAR_TITLE_1', 'Búsqueda Avanzada');
@@ -32,10 +31,8 @@ define('ENTRY_DATE_RANGE', 'Buscar por Fecha de Entrada en catálogo:');
   define('TEXT_ALL_MANUFACTURERS', 'Todos los Fabricantes');
 
   define('TABLE_HEADING_IMAGE', '');
-  define('TABLE_HEADING_MODEL', 'Modelo');
   define('TABLE_HEADING_PRODUCTS', 'Nombre del producto');
   define('TABLE_HEADING_MANUFACTURER', 'Fabricante');
-  define('TABLE_HEADING_QUANTITY', 'Cantidad');
   define('TABLE_HEADING_PRICE', 'Precio');
   define('TABLE_HEADING_WEIGHT', 'Peso');
   define('TABLE_HEADING_BUY_NOW', 'Comprar Ahora');
@@ -50,4 +47,4 @@ define('ENTRY_DATE_RANGE', 'Buscar por Fecha de Entrada en catálogo:');
   define('ERROR_PRICE_TO_MUST_BE_NUM', 'El '. ENTRY_PRICE_TO. ' debe ser un número.');
   define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'El ' . ENTRY_PRICE_TO . ' debe ser mayor o igual al ' . ENTRY_PRICE_FROM);
   define('ERROR_INVALID_KEYWORDS', 'Palabras no válidas.');
-?>
+

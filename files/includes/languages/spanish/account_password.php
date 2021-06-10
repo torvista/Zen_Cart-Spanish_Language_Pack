@@ -25,8 +25,5 @@ define('NAVBAR_TITLE_2', 'Cambiar Contraseña');
 
 define('HEADING_TITLE', 'Mi Contraseña');
 
-define('MY_PASSWORD_TITLE', 'Mi Contraseña');
-
 define('SUCCESS_PASSWORD_UPDATED', 'Su contraseña ha sido actualizada correctamente.');
 define('ERROR_CURRENT_PASSWORD_NOT_MATCHING', 'La Contraseña Actual introducida no coincide con el valor en la base de datos. Por favor, inténtelo de nuevo.');
-?>

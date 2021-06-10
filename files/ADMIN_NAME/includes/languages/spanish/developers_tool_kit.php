@@ -1,10 +1,9 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package admin
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Mon Oct 19 01:39:59 2015 -0400 Modified in v1.5.5 $
+ * @version $Id: DrByte 2020 Jul 21 Modified in v1.5.7a $
  */
   define('HEADING_TITLE', 'Buscadores de Código Fuente ');
   define('TABLE_CONFIGURATION_TABLE', 'Buscar definiciones de CONSTANTS');
@@ -59,11 +58,12 @@
   define('TEXT_TEMPLATE_LOOKUP_CURRENT_SIDEBOXES', 'Todos los archivos de plantilla - /sideboxes');
   define('TEXT_TEMPLATE_LOOKUP_CURRENT_PAGES', 'Todos los archivos de plantilla - /pages');
 
-  define('TEXT_ALL_FILES_CONSTANT', '<strong>Buscar en todos los archivos</strong>');
+  define('TEXT_ALL_FILES_CONSTANT', '<strong>Buscar en todos los archivos (incluyendo zc_plugins)</strong>');
   define('TEXT_ALL_FILES_LOOKUPS', 'Búsqueda de todos los archivos:');
   define('TEXT_ALL_FILES_LOOKUP_CURRENT', 'Todos los archivos - Catálogo/Admin');
   define('TEXT_ALL_FILES_LOOKUP_CURRENT_CATALOG', 'Todos los archivos - Catálogo');
   define('TEXT_ALL_FILES_LOOKUP_CURRENT_ADMIN', 'Todos los archivos - Admin');
+  define('TEXT_ALL_FILES_LOOKUP_CURRENT_PLUGINS', 'Todos los archivos - Plugins');
 
   define('TEXT_INFO_NO_EDIT_AVAILABLE','Edición no disponible');
   define('TEXT_INFO_CONFIGURATION_HIDDEN', ' u, OCULTO');

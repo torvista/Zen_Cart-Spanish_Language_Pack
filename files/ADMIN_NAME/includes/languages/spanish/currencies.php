@@ -7,9 +7,9 @@
  * @version $Id: DrByte 2019 Jan 04 Modified in v1.5.6a $
  */
 
-define('HEADING_TITLE', 'Monedas');
+define('HEADING_TITLE', 'Divisas');
 
-define('TABLE_HEADING_CURRENCY_NAME', 'Moneda');
+define('TABLE_HEADING_CURRENCY_NAME', 'Divisa');
 define('TABLE_HEADING_CURRENCY_CODES', 'Código');
 define('TABLE_HEADING_CURRENCY_VALUE', 'Valor');
 define('TABLE_HEADING_ACTION', 'Acción');
@@ -27,9 +27,9 @@ define('TEXT_INFO_CURRENCY_VALUE', 'Valor:');
 define('TEXT_INFO_CURRENCY_EXAMPLE', 'Ejemplo de muestra:');
 define('TEXT_INFO_INSERT_INTRO', 'Ingresa la nueva moneda con su información relacionada');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar esta moneda?');
-define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Nueva moneda');
-define('TEXT_INFO_HEADING_EDIT_CURRENCY', 'Editar moneda');
-define('TEXT_INFO_HEADING_DELETE_CURRENCY', 'Eliminar moneda');
-define('TEXT_INFO_SET_AS_DEFAULT', 'Poner por defecto (se necesita una actualización manual de los valores de la moneda)');
-define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Error: No se puede eliminar la moneda por defecto. Por favor, establezca otra moneda por defecto e inténtelo nuevamente.');
-define('ERROR_INVALID_CURRENCY_ENTRY', 'ERROR: La información era incompleta y no se ha guardada. Debe especificar el código de la moneda y el nombre.');
+define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Nueva Divisa');
+define('TEXT_INFO_HEADING_EDIT_CURRENCY', 'Editar Divisa');
+define('TEXT_INFO_HEADING_DELETE_CURRENCY', 'Eliminar Divisa');
+define('TEXT_INFO_SET_AS_DEFAULT', 'Poner por defecto (se necesita una actualización manual de los valores de las divisas)');
+define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Error: No se puede eliminar la divisa por defecto. Por favor, establezca otra divisa por defecto e inténtelo nuevamente.');
+define('ERROR_INVALID_CURRENCY_ENTRY', 'ERROR: La información era incompleta y no se ha guardada. Debe especificar el código de la divisa y el nombre.');

@@ -1,22 +1,25 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2019 Jan 15 Modified in v1.5.6b $
+ * @version $Id: Steve 2020 May 27 Modified in v1.5.7 $
  */
 
 define('NAVBAR_TITLE', TEXT_GV_NAMES . 'Preguntas Frecuentes');
 define('HEADING_TITLE', TEXT_GV_NAMES . 'Preguntas Frecuentes');
 
-define('TEXT_INFORMATION', '<a name="Top"></a>
+define('TEXT_INFORMATION', '<a id="Top"></a>
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Comprando ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">Cómo enviar ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Comprando con ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Canjeando ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">Cuando hay problemas</a><br />
 ');
+if (empty($_GET['faq_item'])) {
+  $_GET['faq_item'] = '0';
+}
 switch ($_GET['faq_item']) {
   case '1':
 define('SUB_HEADING_TITLE', 'Comprando ' . TEXT_GV_NAMES);
@@ -81,4 +84,3 @@ pulse el botón de canjear. El código será
 
   define('TEXT_GV_REDEEM_INFO', 'Por favor, ingrese el código del ' . TEXT_GV_NAME . ': ');
   define('TEXT_GV_REDEEM_ID', 'Código:');
-?>

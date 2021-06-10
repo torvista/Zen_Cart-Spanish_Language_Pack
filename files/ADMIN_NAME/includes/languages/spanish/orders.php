@@ -1,21 +1,19 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package admin
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: lat9 Fri Nov 9 08:33:17 2018 -0500 Modified in v1.5.6 $
+ * @version $Id: DrByte 2020 May 28 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Pedidos');
-define('HEADING_TITLE_DETAILS', 'Detalles del Pedido');
+define('HEADING_TITLE_DETAILS', 'Detalles del Pedido (#%u)');     //-%u is filled in with the actual order-number
 define('HEADING_TITLE_SEARCH', 'ID del Pedido:');
 define('HEADING_TITLE_STATUS', 'Estado:');
 define('HEADING_TITLE_SEARCH_DETAIL_ORDERS_PRODUCTS', 'Busque el Nombre del Producto o ID:XX o Modelo');
 define('HEADING_TITLE_SEARCH_ALL','Buscar: ');
 define('HEADING_TITLE_SEARCH_PRODUCTS','Buscar Producto: ');
 define('TEXT_RESET_FILTER', 'Resetear Filtro de Búsqueda');
-define('TEXT_INFO_SEARCH_DETAIL_FILTER_ORDERS_PRODUCTS', 'Filtro de Búsqueda: ');
 define('TABLE_HEADING_PAYMENT_METHOD', 'Pago-Envío');
 define('TABLE_HEADING_ORDERS_ID','ID');
 
@@ -29,7 +27,6 @@ define('TABLE_HEADING_STATUS', 'Estado');
 define('TABLE_HEADING_TYPE', 'Tipo de Pedido');
 define('TABLE_HEADING_ACTION', 'Acción');
 define('TABLE_HEADING_QUANTITY', 'Cant');
-define('TABLE_HEADING_PRODUCTS_MODEL', 'Modelo');
 define('TABLE_HEADING_PRODUCTS', 'Productos');
 define('TABLE_HEADING_TAX', 'IVA');
 define('TABLE_HEADING_TOTAL', 'Total');
@@ -37,6 +34,7 @@ define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Precio (sin IVA)');
 define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Precio (con IVA)');
 define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Total (sin IVA)');
 define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Total (con IVA)');
+define('TABLE_HEADING_PRICE', 'Precio');
 define('TABLE_HEADING_UPDATED_BY', 'Actualizado Por');
 
 define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Cliente Notificado');
@@ -45,7 +43,6 @@ define('TABLE_HEADING_DATE_ADDED', 'Fecha Añadido');
 define('ENTRY_CUSTOMER', 'Cliente:');
 define('ENTRY_CUSTOMER_ADDRESS', 'Dirección Cliente:<br><i class="fa fa-2x fa-user"></i>');
 define('ENTRY_SOLD_TO', 'VENDIDO A:');
-define('ENTRY_DELIVERY_TO', 'Entregar a:');
 define('ENTRY_SHIP_TO', 'ENVIAR A:');
 define('ENTRY_SHIPPING_ADDRESS', 'Dirección de Envío:<br><i class="fa fa-2x fa-truck"></i>');
 define('ENTRY_BILLING_ADDRESS', 'Dirección de Facturación:<br><i class="fa fa-2x fa-credit-card"></i>');
@@ -55,25 +52,18 @@ define('ENTRY_CREDIT_CARD_OWNER', 'Nombre de la tarjeta:');
 define('ENTRY_CREDIT_CARD_NUMBER', 'Número de la tarjeta:');
 define('ENTRY_CREDIT_CARD_CVV', 'Número CVV de la tarjeta:');
 define('ENTRY_CREDIT_CARD_EXPIRES', 'Fecha de Caducidad de la Tarjeta:');
-define('ENTRY_SUB_TOTAL', 'Subtotal:');
-define('ENTRY_TAX', 'IVA:');
 define('ENTRY_SHIPPING', 'Envío:');
-define('ENTRY_TOTAL', 'Total:');
 define('ENTRY_DATE_PURCHASED', 'Fecha de Compra:');
 define('ENTRY_STATUS', 'Estado:');
-define('ENTRY_DATE_LAST_UPDATED', 'Fecha Actualizada:');
 define('ENTRY_NOTIFY_CUSTOMER', 'Notificar Cliente:');
 define('ENTRY_NOTIFY_COMMENTS', 'Incluir Comentario en el email al Cliente:');
-define('ENTRY_PRINTABLE', 'Imprimir Pedido');
 
 define('TEXT_INFO_HEADING_DELETE_ORDER', 'Eliminar Pedido');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este pedido?');
-define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', 'Reponer cantidad del producto');
+define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', '¿Reponer los productos en el stock?');
 define('TEXT_DATE_ORDER_CREATED', 'Fecha:');
 define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Última Modificación:');
 define('TEXT_INFO_PAYMENT_METHOD', 'Método de Pago:');
-define('TEXT_PAID', 'Pagado');
-define('TEXT_UNPAID', 'No pagado');
 
 define('TEXT_ALL_ORDERS', 'Todos los Pedidos');
 
@@ -94,6 +84,7 @@ define('WARNING_ORDER_NOT_UPDATED', 'Advertencia: No hay nada para cambiar. El p
 define('ENTRY_ORDER_ID','Pedido nº. ');
 define('TEXT_INFO_ATTRIBUTE_FREE', '&nbsp;-&nbsp;<span class="alert">GRATIS</span>');
 
+define('TEXT_DOWNLOAD','Descargar'); 
 define('TEXT_DOWNLOAD_TITLE', 'Estado de descarga del pedido');
 define('TEXT_DOWNLOAD_STATUS', 'Estado');
 define('TEXT_DOWNLOAD_FILENAME', 'Archivo');
@@ -104,6 +95,8 @@ define('TEXT_DOWNLOAD_AVAILABLE', 'Disponible');
 define('TEXT_DOWNLOAD_EXPIRED', 'Caducado');
 define('TEXT_DOWNLOAD_MISSING', 'No está en el servidor');
 
+define('TEXT_EXTENSION_NOT_UNDERSTOOD', 'La extensión (.%s) del nombre del archivo no está soportada'); 
+define('TEXT_FILE_NOT_FOUND', 'File not found'); 
 define('IMAGE_ICON_STATUS_CURRENT', 'Estado - Disponible');
 define('IMAGE_ICON_STATUS_EXPIRED', 'Estado - Caducado');
 define('IMAGE_ICON_STATUS_MISSING', 'Estado - Perdido');
@@ -135,3 +128,5 @@ define('TEXT_MAP_CUSTOMER_ADDRESS', 'Localizar Dirección Cliente');
 define('TEXT_MAP_SHIPPING_ADDRESS', 'Localizar Dirección Envío');
 define('TEXT_MAP_BILLING_ADDRESS', 'Localizar Dirección Facturación');
 
+define('TEXT_EMAIL_LANGUAGE', 'Idioma Pedido: %s');
+define('SUCCESS_EMAIL_SENT', 'Email %s enviado al cliente');

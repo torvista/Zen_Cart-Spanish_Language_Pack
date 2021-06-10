@@ -37,9 +37,7 @@
   define('TEXT_HEADING_DELETE_RECORD_ARTIST', 'Borrar artista');
   define('TEXT_DATE_ADDED', 'Añadido el');
   define('TEXT_LAST_MODIFIED', 'Modificado el');
-  define('TEXT_IMAGE_NONEXISTENT', 'No existe la imagen');
   define('TEXT_PRODUCTS', 'Productos enlazados');
   define('TEXT_DISPLAY_NUMBER_OF_ARTISTS', 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> artistas)');
   define('TEXT_DELETE_PRODUCTS', '¿Borrar este artista y todos los elementos enlazados a él?');
   define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ATENCIÓN:</b> ¡Hay %s elementos enlazados todavía a este artista!');
-?>

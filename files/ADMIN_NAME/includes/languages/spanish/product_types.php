@@ -40,7 +40,6 @@ define('TEXT_DATE_ADDED', 'Fecha añadida:');
 define('TEXT_LAST_MODIFIED', 'Última modificación:');
 define('TEXT_PRODUCTS', 'Productos:');
 define('TEXT_PRODUCTS_IMAGE_DIR', 'Subir al directorio:');
-define('TEXT_IMAGE_NONEXISTENT', 'IMAGEN NO EXISTE');
 define('TEXT_MASTER_TYPE', 'Este Tipo de Producto debe considerarse un subtipo de ');
 
 define('TEXT_NEW_INTRO', 'Rellene la siguiente información para el nuevo fabricante');
@@ -48,15 +47,10 @@ define('TEXT_EDIT_INTRO', 'Haga cualquier cambio necesario');
 
 define('TEXT_PRODUCT_TYPES_NAME', 'Nombre del Tipo de Producto:');
 define('TEXT_PRODUCT_TYPES_IMAGE', 'Imagen por defecto para este Tipo de Producto:');
-define('TEXT_PRODUCT_TYPES_URL', 'URL del fabricante:');
 
 define('TEXT_DELETE_INTRO', '¿Está seguro de que desea borrar este Tipo de Producto?');
 define('TEXT_DELETE_IMAGE', '¿Borrar la imagen por defecto del tipo de producto?');
 define('TEXT_DELETE_PRODUCTS', '¿Borrar productos del este Tipo de Producto? (incluyendo los comentarios, productos en oferta, y próximos productos');
 define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ATENCIÓN:</b> ¡Hay %s productos todavía enlazados a este Tipo de Producto!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: No puedo escribir en este directorio. Compruebe que los permisos de usuario son correctos en: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio no existe: %s');
-
 define('IMAGE_LAYOUT', 'Configuración Disposición');
-?>

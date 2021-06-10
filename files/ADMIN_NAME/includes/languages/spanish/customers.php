@@ -1,10 +1,9 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package admin
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Mon Nov 12 20:38:09 2018 -0500 Modified in v1.5.6 $
+ * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
  */
 
 define('HEADING_TITLE', 'Clientes');
@@ -29,7 +28,6 @@ define('TEXT_DELETE_INTRO', '¿Seguro que desea eliminar este cliente?');
 define('TEXT_DELETE_REVIEWS', 'Eliminar %s comentario(s)');
 define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Eliminar cliente');
 define('TYPE_BELOW', 'Escribir aquí debajo');
-define('PLEASE_SELECT_ONE', 'Elegir uno');
 define('TEXT_INFO_NUMBER_OF_ORDERS', 'Número de pedidos:');
 define('TEXT_INFO_LIFETIME_VALUE', 'Valor Total de Pedidos:');
 define('TEXT_INFO_LAST_ORDER','Último pedido:');
@@ -69,3 +67,6 @@ define('PRIMARY_ADDRESS', '(dirección por defecto)');
 define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOTA:</strong></span> Hay un máximo de %s direcciones permitidos en la agenda.');
 define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | <a href="%s">%s Entradas</a>');
 define('TEXT_INFO_ADDRESS_BOOK_COUNT_SINGLE', '');
+
+define('EMP_BUTTON_PLACEORDER_ALT', 'Hacer un pedido de parte de este cliente');
+define('EMP_BUTTON_PLACEORDER', 'Hacer Pedido');

@@ -1,10 +1,9 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: index.php 19537 2011-09-20 17:14:44Z drbyte $
+ * @version $Id: Scott C Wilson 2019 Jul 27 Modified in v1.5.7 $
  */
 
 define('TEXT_MAIN','Esta es la definición de la página de inicio en español cuando no existe ninguna plantilla definida. Está ubicada en: <strong>/includes/languages/spanish/index.php</strong>');
@@ -31,10 +30,8 @@ if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   // This section deals with product-listing page contents
   define('HEADING_TITLE', 'Productos Disponibles');
   define('TABLE_HEADING_IMAGE', 'Imagen');
-  define('TABLE_HEADING_MODEL', 'Modelo');
   define('TABLE_HEADING_PRODUCTS', 'Nombre');
   define('TABLE_HEADING_MANUFACTURER', 'Fabricante');
-  define('TABLE_HEADING_QUANTITY', 'Cantidad');
   define('TABLE_HEADING_PRICE', 'Precio');
   define('TABLE_HEADING_WEIGHT', 'Peso');
   define('TABLE_HEADING_BUY_NOW', 'Comprar Ahora');
@@ -55,4 +52,3 @@ if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   /*Replace this line with the headline you would like for your shop. For example: 'Welcome to My SHOP!'*/
   define('HEADING_TITLE', '¡Enhorabuena! Ha instalado su tienda Zen Cart&reg; con éxito.'); 
 }
-?>

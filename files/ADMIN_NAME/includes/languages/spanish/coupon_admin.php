@@ -1,16 +1,14 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package admin
- * @copyright Copyright 2003-2019 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2019 Apr 17 Modified in v1.5.6b $
+ * @version $Id: Scott C Wilson 2020 Apr 30 Modified in v1.5.7 $
  */
 
-define('TOP_BAR_TITLE', 'Estadísticas');
 define('HEADING_TITLE', 'Cupones de Descuento');
 define('HEADING_TITLE_STATUS', 'Estado: ');
-define('TEXT_CUSTOMER', 'Cliente:');
+
 define('TEXT_COUPON', 'Nombre del Cupón');
 define('TEXT_COUPON_ALL', 'Todos los Cupones');
 define('TEXT_COUPON_ACTIVE', 'Cupones Activos');
@@ -21,20 +19,15 @@ define('TEXT_FROM', 'De:');
 define('TEXT_FREE_SHIPPING', 'Envío gratis');
 define('TEXT_MESSAGE', 'Mensaje:');
 define('TEXT_RICH_TEXT_MESSAGE','Mensaje RTF:');
-define('TEXT_SELECT_CUSTOMER', 'Seleccionar usuario');
-define('TEXT_ALL_CUSTOMERS', 'Todos los clientes');
-define('TEXT_NEWSLETTER_CUSTOMERS', 'A todos los suscritores del boletín');
 define('TEXT_CONFIRM_DELETE', '¿Seguro que desea eliminar este cupón?');
 define('TEXT_SEE_RESTRICT', 'Restricciones aplicadas');
 
 define('TEXT_COUPON_ANNOUNCE','Nos satisface ofrecerle un cupón de nuestra tienda.');
 
 define('TEXT_TO_REDEEM', 'Puede canjear este cupón durante el pago. Sólo introduzca el código en el casillero asignado, y pulse sobre el botón de canjear.');
-define('TEXT_IN_CASE', ' en caso que tenga algún problema. ');
 define('TEXT_VOUCHER_IS', 'El código del cupón es ');
 define('TEXT_REMEMBER', 'No pierda el código del cupón, asegúrese de guardar bien el código, de esta manera puede beneficiarse de esta oferta especial.');
-define('TEXT_VISIT', 'Visítenos en ' . HTTP_SERVER . DIR_WS_CATALOG);
-define('TEXT_ENTER_CODE', ' e introduzca el código ');
+define('TEXT_VISIT', 'Visite nosotros en %s');
 define('TEXT_COUPON_HELP_DATE', 'El cupón es válido entre %s y %s.');//STEVE didn't validate with <p></p>
 define('HTML_COUPON_HELP_DATE', 'El cupón es válido entre %s y %s.');///STEVE didn't validate with <p></p>
 
@@ -78,7 +71,6 @@ define('COUPON_USES_COUPON', 'Usos por Cupón');
 define('COUPON_USES_USER', 'Usos por Cliente');
 define('COUPON_PRODUCTS', 'Listado de Productos Válidos');
 define('COUPON_CATEGORIES', 'Listado de Categorías Válidas');
-define('VOUCHER_NUMBER_USED', 'Número Usado');
 define('DATE_CREATED', 'Fecha de Creación');
 define('DATE_MODIFIED', 'Fecha de Modificación');
 define('TEXT_HEADING_NEW_COUPON', 'Crear Cupón Nuevo');
@@ -112,11 +104,8 @@ define('COUPON_TOTAL_HELP', 'En el caso que especifique un Valor Mínimo de Pedi
 define('COUPON_SALE_HELP', 'Si elige <i>NO permitido</i>, los productos en Rebajas o Especiales no sumarán al total del valor mínimo necesario para el uso del Cupón.');
 define('COUPON_USES_COUPON_HELP', 'Número máximo de veces que el cupón puede ser usado. Déjelo en blanco si no hay límite.');
 define('COUPON_USES_USER_HELP', 'Número máximo de veces que un usuario puede usar un cupón. Déjelo en blanco si no hay límite.');
-define('COUPON_PRODUCTS_HELP', 'Una lista de product_ids (IDs de productos) separados por comas para los que este cupón puede ser usado. Dejar en blanco si no hay restricciones.');
-define('COUPON_CATEGORIES_HELP', 'Un lista de cPaths (rutas de categoría) separadas por coma para los que este cupón puede ser usado, dejar en blanco si no hay restricciones.');
 define('COUPON_BUTTON_PREVIEW', 'Vista previa');
 define('COUPON_BUTTON_CONFIRM', 'Confirmar');
-define('COUPON_BUTTON_BACK', 'Volver');
 
 define('COUPON_ACTIVE', 'Estatus');
 define('COUPON_START_DATE', 'Inicio');
@@ -159,3 +148,4 @@ define('TEXT_CONFIRM_REACTIVATE', '¿Está seguro que quiere restaurar este Cup�
 define('SUCCESS_COUPON_FOUND', '¡Se encontró un Cupón de Descuento!');
 define('ERROR_COUPON_NOT_FOUND', '¡No se encontró un Cupón de Descuento!');
 define('ERROR_NO_COUPON_CODE', 'Código del Cupón de Descuento no introducido!');
+define('ERROR_NO_COUPONS', 'No hay cupones'); 

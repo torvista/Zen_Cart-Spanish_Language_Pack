@@ -1,16 +1,14 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package admin
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Zen4All Thu Nov 29 13:31:36 2018 +0100 Modified in v1.5.6 $
+ * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
  */
 
-define('HEADING_TITLE', 'Gestor de Precios de Productos');
+define('HEADING_TITLE', 'Gestor Precios de Productos');
 define('HEADING_TITLE_PRODUCT_SELECT','Seleccione una categoría con productos, para mostrar la Información de Precios de ...');
 
 define('TABLE_HEADING_PRODUCTS', 'Productos');
-define('TABLE_HEADING_PRODUCTS_MODEL','Modelo');
 define('TABLE_HEADING_PRODUCTS_PRICE', 'Precio/Especial/Oferta de productos');
 define('TABLE_HEADING_PRODUCTS_PERCENTAGE','Porcentaje');
 define('TABLE_HEADING_AVAILABLE_DATE', 'Disponible');
@@ -20,7 +18,6 @@ define('TABLE_HEADING_ACTION', 'Acción');
 
 define('TEXT_PRODUCT_INFO', 'Información del producto:');
 define('TEXT_PRODUCTS_PRICE_INFO', 'Información del Precio de producto:');
-define('TEXT_PRODUCTS_MODEL','Modelo:');
 define('TEXT_PRICE', 'Precio');
 define('TEXT_PRICE_NET', 'Precio (Neto)');
 define('TEXT_PRICE_GROSS', 'Precio (Bruto)');
@@ -76,20 +73,13 @@ define('TEXT_INFO_DATE_ADDED', 'Añadido el:');
 define('TEXT_INFO_LAST_MODIFIED', 'Última modificación:');
 define('TEXT_INFO_NEW_PRICE', 'Nuevo precio:');
 define('TEXT_INFO_ORIGINAL_PRICE', 'Precio original:');
-define('TEXT_INFO_PERCENTAGE', 'Porcentaje:');
-define('TEXT_INFO_AVAILABLE_DATE', 'Disponible el:');
-define('TEXT_INFO_EXPIRES_DATE', 'Caduca el:');
 define('TEXT_INFO_STATUS_CHANGE', 'Último cambio de estado:');
-define('TEXT_IMAGE_NONEXISTENT', 'No existe la imagen');
 
 define('TEXT_INFO_HEADING_DELETE_FEATURED', 'Borrar Destacado');
 define('TEXT_INFO_DELETE_INTRO', '¿Estás seguro de que deseas borrar el Producto Destacado?');
 
   define('TEXT_ATTRIBUTES_INSERT_INFO', '<strong>Defina el parámetro de atributo y presione insertar para aplicar</strong>');
-  define('TEXT_PRICED_BY_ATTRIBUTES', 'Tasado por atributos');
   define('TEXT_PRODUCTS_PRICE', 'Precio de productos: ');
-  define('TEXT_SPECIAL_PRICE', 'Precio Oferta: ');
-  define('TEXT_SALE_PRICE', 'Precio Rebajas: ');
   define('TEXT_FREE', 'GRATIS');
   define('TEXT_CALL_FOR_PRICE', 'Pedir Precio');
 
@@ -100,15 +90,11 @@ define('TEXT_PRODUCTS_DISCOUNT_QTY_TITLE', 'Niveles de Descuento');
 define('TEXT_PRODUCTS_DISCOUNT','Descuento');
 define('TEXT_PRODUCTS_DISCOUNT_QTY','Cant. mínima');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE','Valor de Descuento');
-define('TEXT_PRODUCTS_DISCOUNT_TYPE','Tipo');
 
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EACH','Calcular Precio:');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EXTENDED','Precio Extendido:');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EACH_TAX','Calcular<br />Precio: &nbsp; Impuestos:');
 define('TEXT_PRODUCTS_DISCOUNT_PRICE_EXTENDED_TAX','Precio<br />extendido: &nbsp; Impuestos:');
-
-define('TEXT_EACH','cada');
-define('TEXT_EXTENDED','total');
 
 define('TEXT_DISCOUNT_TYPE_INFO', 'Información del Descuento del Producto');
 define('TEXT_DISCOUNT_TYPE','Tipo Descuento:');
@@ -127,7 +113,6 @@ define('TEXT_UPDATE_COMMIT','Actualizar y realizar todos los cambios para la pan
 define('TEXT_PRODUCTS_TAX_CLASS', 'Clase de Impuesto:');
 
 define('TEXT_INFO_MASTER_CATEGORIES_ID_WARNING', '<strong>Atención:</strong> ¡El ID de la categoría maestra de producto número %s no concuerda con el ID de categoría actual %s y el producto no está enlazado!');
-define('TEXT_INFO_MASTER_CATEGORIES_CURRENT', ' El ID de la categoría actual %s coincide con el ID de categoría maestra %s');
 define('TEXT_INFO_MASTER_CATEGORIES_ID_UPDATE_TO_CURRENT', 'Actualizar el ID de Categoría Maestra %s para que coincida con el de la categoría actual %s');
 
 define('PRODUCT_WARNING_UPDATE', 'Realice los cambios y presione actualizar para guardarlos');
@@ -136,4 +121,4 @@ define('PRODUCT_WARNING_UPDATE_CANCEL', 'Los cambios fueron cancelados y no se g
 define('TEXT_INFO_EDIT_CAUTION', '<strong>Pulse para comenzar a editar ...</strong>');
 define('TEXT_INFO_PREVIEW_ONLY', 'Sólo vista previa ... Estado actual de precio ... Sólo vista previa');
 define('TEXT_INFO_UPDATE_REMINDER', '<strong>Edite la información de producto y luego Actualizar para guardarla</strong>');
-define('BUTTON_ADDITITONAL_ACTIONS', 'Acciones Adicionales');
+define('BUTTON_ADDITIONAL_ACTIONS', 'Acciones Adicionales');

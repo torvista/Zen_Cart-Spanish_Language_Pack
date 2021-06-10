@@ -1,10 +1,9 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
- * @package admin
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Author: DrByte  Mon Dec 28 17:31:37 2015 -0500 Modified in v1.5.5 $
+ * @version $Id: Scott C Wilson 2020 Apr 08 Modified in v1.5.7 $
  */
 
   define('HEADING_TITLE', 'Gestión de la Tienda');
@@ -36,11 +35,6 @@
   define('TEXT_CONFIGURATION_KEY', 'Clave o nombre:');
   define('TEXT_INFO_CONFIGURATION_UPDATE', '<strong>NOTA:</strong> las CONSTANTES están escritas en mayúsculas.<br />Las búsquedas de archivos de idioma pueden ser una búsqueda alternativa cuando no se encuentra nada en las tablas de la base de datos.');
 
-
-  define('TEXT_CONFIGURATION_CONSTANT_FILES', '<strong>Buscar en definiciones de archivos de idiomas</strong>');
-  define('TEXT_CONFIGURATION_KEY_FILES', 'Buscar texto:');
-  define('TEXT_INFO_CONFIGURATION_UPDATE_FILES', '<strong>NOTA:</strong> Los términos de búsqueda en archivos de idioma pueden estar tanto en mayúsculas como en minúsculas');
-
   define('TABLE_TITLE_KEY', '<strong>Clave:</strong>');
   define('TABLE_TITLE_TITLE', '<strong>Título:</strong>');
   define('TABLE_TITLE_DESCRIPTION', '<strong>Descripción:</strong>');
@@ -48,7 +42,6 @@
   define('TABLE_TITLE_VALUE', '<strong>Valor:</strong>');
 
   define('TEXT_LANGUAGE_LOOKUPS', 'Búsquedas en archivos de idioma:');
-  define('TEXT_LANGUAGE_LOOKUP_NONE', 'Ninguno');
   define('TEXT_LANGUAGE_LOOKUP_CURRENT_LANGUAGE', 'Todos los archivos de idioma para ' . strtoupper($_SESSION['language']) . ' - Catálogo/Admin');
   define('TEXT_LANGUAGE_LOOKUP_CURRENT_CATALOG', 'Todos los archivos principales de idioma - Catálogo (' . DIR_WS_CATALOG . DIR_WS_LANGUAGES . 'english.php /spanish.php etc.)');
   define('TEXT_LANGUAGE_LOOKUP_CURRENT_CATALOG_TEMPLATE', 'Todos los archivos de idioma seleccionados actualmente - ' . DIR_WS_CATALOG . DIR_WS_LANGUAGES . $_SESSION['language'] . '/*.php');
