@@ -1,4 +1,50 @@
 Revisions
+1-5-05 2012-06-08
+\includes\languages\spanish\other_images_names.php changed define('OTHER_IMAGE_PRICE_IS_FREE', 'free_es.gif');
+and added corresponding image in \includes\template\template_default\images\
+\includes\languages\spanish\extra_definitions\product_free_shipping.php corrected: was not encoded in UTF8
+\includes\languages\spanish\cookie_usage.php: minor corrections
+\email\es\ html email templates. Also changed hard-coded "Dear" to "Estimado".
+ADMIN\includes\languages\spanish\password_forgotten.php two constant definitions corrected
+ADMIN\includes\languages\spanish\countries.php added reference to Alpha 3 ISO codes
+
+1-5-04 2012-04-01
+\admin\includes\languages\spanish.php menu item My Store missing from menu. Thanks to Eulinuxero
+\includes\languages\spanish\down_for_maintenance.php had my shop name in it! Thanks to Eulinuxero
+\admin\includes\languages\spanish\customers.php correction aprobración" for "aprobación". Thanks to Eulinuxero
+\admin\includes\languages\spanish\invoice.php, minor correction
+\admin\includes\languages\spanish.php minor correction
+\includes\languages\spanish\other_images_names.php changed define('OTHER_IMAGE_CALL_FOR_PRICE', 'call_for_prices_es.jpg') 
+and added corresponding image in \includes\template\template_default\images\
+
+1-5-03 2012-02-24
+\admin\includes\languages\spanish\admin_account.php corrected encoding
+\admin\includes\languages\spanish\users.php corrected encoding
+\admin\includes\languages\spanish\whos_online.php corrected
+\admin\includes\languages\spanish.php minor improvements
+\admin\includes\languages\spanish\whos_online.php corrected (new defines missed previously)
+\admin\includes\languages\spanish.php corrections for admin activity log
+\admin\includes\languages\spanish\define_pages_editor.php missing ' added
+\admin\includes\languages\spanish\record_artists.php minor correction
+\admin\includes\languages\spanish\record_company.php minor corrections
+
+1_5_02 2012-01-11
+\admin\includes\languages\spanish\invoice.php missing apostrophe line 30
+\admin\includes\languages\spanish\featured.php error Espaciales->Destacados
+change instances of Factura->Pedido
+various minor changes
+
+1_5_01
+\includes\languages\spanish\modules\shipping\table.php missing closing apostrophe on line 26
+
+1.53->1_5_00
+Many file changes for Zen Cart 1.5 release December 2011.
+Confusing version numbers changed to coincide with Zen Cart 1.5.
+
+1.52
+\SU_ADMIN\includes\languages\spanish\customers.php: changed ingresos to acceso
+\SU_ADMIN\includes\languages\spanish\store_manager.php: general improvements
+
 1.51
 correction of errors introduced in 1.5: (some files were not converted & admin spanish.php was using catalog version)
 changed all instances of cesta->carro
