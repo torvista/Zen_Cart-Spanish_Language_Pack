@@ -1,36 +1,31 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2008 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: address_book_process.php 9647 2008-09-17 00:10:08Z drbyte $
+ * @version $Id: Scott C Wilson 2020 Apr 12 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE_1', 'Mi Cuenta');
-define('NAVBAR_TITLE_2', 'Agenda de Direcciones');
+define('NAVBAR_TITLE_1', 'My Account');
+define('NAVBAR_TITLE_2', 'Address Book');
 
-define('NAVBAR_TITLE_ADD_ENTRY', 'Nueva Dirección');
-define('NAVBAR_TITLE_MODIFY_ENTRY', 'Actualizar Dirección');
-define('NAVBAR_TITLE_DELETE_ENTRY', 'Borrar Dirección');
+define('NAVBAR_TITLE_ADD_ENTRY', 'New Entry');
+define('NAVBAR_TITLE_MODIFY_ENTRY', 'Update Entry');
+define('NAVBAR_TITLE_DELETE_ENTRY', 'Delete Entry');
 
-define('HEADING_TITLE_ADD_ENTRY', 'Nueva Dirección en la Agenda');
-define('HEADING_TITLE_MODIFY_ENTRY', 'Actualizar Dirección en la Agenda');
-define('HEADING_TITLE_DELETE_ENTRY', 'Borrar Dirección de la Agenda');
-define('HEADING_TITLE', 'Dirección');
+define('HEADING_TITLE_ADD_ENTRY', 'New Address Book Entry');
+define('HEADING_TITLE_MODIFY_ENTRY', 'Update Address Book Entry');
+define('HEADING_TITLE_DELETE_ENTRY', 'Delete Address Book Entry');
+define('HEADING_TITLE', 'Address Details');
 
-define('DELETE_ADDRESS_TITLE', 'Borrar Dirección');
-define('DELETE_ADDRESS_DESCRIPTION', '¿Seguro que desea borrar la dirección seleccionada de su agenda de direcciones?');
+define('DELETE_ADDRESS_DESCRIPTION', 'Are you sure you would like to delete the selected address from your address book?');
 
-define('NEW_ADDRESS_TITLE', 'Nueva Dirección en la Agenda');
+define('SET_AS_PRIMARY', 'Set as primary address.');
 
-define('SELECTED_ADDRESS', 'Dirección Seleccionada');
-define('SET_AS_PRIMARY', 'Establecer como dirección principal.');
+define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'The selected address has been successfully removed from your address book.');
+define('SUCCESS_ADDRESS_BOOK_ENTRY_UPDATED', 'Your address book has been successfully updated.');
 
-define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'La dirección seleccionada ha sido borrada correctamente de su agenda de direcciones.');
-define('SUCCESS_ADDRESS_BOOK_ENTRY_UPDATED', 'Su agenda de direcciones ha sido actualizada correctamente.');
+define('WARNING_PRIMARY_ADDRESS_DELETION', 'The primary address cannot be deleted. Please set another address as the primary address and try again.');
 
-define('WARNING_PRIMARY_ADDRESS_DELETION', 'La dirección primaria no puede ser borrada. Por favor, establezca otra dirección como la dirección primaria e inténtelo nuevamente.');
-
-define('ERROR_NONEXISTING_ADDRESS_BOOK_ENTRY', 'Esa dirección no está en la agenda.');
-define('ERROR_ADDRESS_BOOK_FULL', 'Su agenda de contactos está completa. Por favor, borre alguna dirección que no necesite para poder guardar una nueva.');
+define('ERROR_NONEXISTING_ADDRESS_BOOK_ENTRY', 'The address book entry does not exist.');
+define('ERROR_ADDRESS_BOOK_FULL', 'Your address book is full. Please delete an unneeded address to save a new one.');

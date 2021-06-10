@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,10 +20,10 @@
 // $Id: zones.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_ZONES_TEXT_TITLE', 'Tarifas por Zona');
-define('MODULE_SHIPPING_ZONES_TEXT_DESCRIPTION', 'Tarifas según Zona');
-define('MODULE_SHIPPING_ZONES_TEXT_WAY', 'Enviar a');
-define('MODULE_SHIPPING_ZONES_TEXT_UNITS', 'lbs');
-define('MODULE_SHIPPING_ZONES_INVALID_ZONE', 'No es posible el envío al país seleccionado: contáctenos para más información.');
-define('MODULE_SHIPPING_ZONES_UNDEFINED_RATE', 'Actualmente no se puede determinar el coste del envío');
+define('MODULE_SHIPPING_ZONES_TEXT_TITLE', 'Zone Rates');
+define('MODULE_SHIPPING_ZONES_TEXT_DESCRIPTION', 'Zone Based Rates');
+define('MODULE_SHIPPING_ZONES_TEXT_WAY', 'Shipping to');
+define('MODULE_SHIPPING_ZONES_TEXT_UNITS', 'lb(s)');
+define('MODULE_SHIPPING_ZONES_INVALID_ZONE', 'No shipping available to the selected country');
+define('MODULE_SHIPPING_ZONES_UNDEFINED_RATE', 'The shipping rate cannot be determined at this time');
 ?>

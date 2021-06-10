@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,9 +20,9 @@
 // $Id: ot_shipping.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_SHIPPING_TITLE', 'Envío');
-  define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'Coste del Envío');
+  define('MODULE_ORDER_TOTAL_SHIPPING_TITLE', 'Shipping');
+  define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'Order Shipping Cost');
 
-  define('FREE_SHIPPING_TITLE', 'Envío Gratis');
-  define('FREE_SHIPPING_DESCRIPTION', 'Los envíos son gratis para pedidos superiores a %s');
+  define('FREE_SHIPPING_TITLE', 'Free Shipping');
+  define('FREE_SHIPPING_DESCRIPTION', 'Free shipping for orders over %s');
 ?>

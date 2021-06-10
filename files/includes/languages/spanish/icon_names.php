@@ -1,5 +1,5 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
-/** TODO
+<?php
+/**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -17,10 +17,10 @@ define('ICON_IMAGE_TINYCART', 'cart.gif');
 
 //alt tags for buttons
 define('ICON_ERROR_ALT', 'Error');
-define('ICON_SUCCESS_ALT', 'Éxito');
-define('ICON_WARNING_ALT', 'Aviso');
-define('ICON_TRASH_ALT', 'Borrar');
-define('ICON_UPDATE_ALT', 'Actualizar');
-define('ICON_TINYCART_ALT', 'Añadir');
+define('ICON_SUCCESS_ALT', 'Success');
+define('ICON_WARNING_ALT', 'Warning');
+define('ICON_TRASH_ALT', 'Delete this item from the cart by clicking this icon.');
+define('ICON_UPDATE_ALT', 'Change your quantity by highlighting the number in the box, correcting the quantity and clicking this button.');
+define('ICON_TINYCART_ALT', 'Add this product to your cart by clicking here.');
 
 ?>

@@ -1,5 +1,5 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
-// ñ
+<?php
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,6 +20,6 @@
 // $Id: ot_tax.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Impuestos');
-  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Impuestos del Pedido');
+  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Tax');
+  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Order Tax');
 ?>

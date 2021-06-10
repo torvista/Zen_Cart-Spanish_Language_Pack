@@ -1,84 +1,72 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
-/** TODO - Check
- * @package languageDefines
- * @copyright Copyright 2003-2017 Zen Cart Development Team
+<?php
+/**
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: gv_faq.php $
+ * @version $Id: Steve 2020 May 27 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE', TEXT_GV_NAME . 'Preguntas Frecuentes');
-define('HEADING_TITLE', TEXT_GV_NAME . 'Preguntas Frecuentes');
+define('NAVBAR_TITLE', TEXT_GV_NAME . ' FAQ');
+define('HEADING_TITLE', TEXT_GV_NAME . ' FAQ');
 
-define('TEXT_INFORMATION', '<a name="Top"></a>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Comprando ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">Cómo enviar ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Comprando con ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Canjeando ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">Cuando hay problemas</a><br />
+define('TEXT_INFORMATION', '<a id="Top"></a>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Purchasing ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">How to send ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Buying with ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Redeeming ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">When problems occur</a><br />
 ');
-switch ($_GET['faq_item']) {
-  case '1':
-define('SUB_HEADING_TITLE', 'Comprando ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT', 'Los ' . TEXT_GV_NAMES . ' se compran como cualquier otro producto de nuestra tienda. Los puede
-pagar usando los métodos de pago estándar de la tienda.
-Una vez que lo haya adquirido, el valor del ' . TEXT_GV_NAME . ' se sumará a su cuenta de
-  ' . TEXT_GV_NAME . ' personal. Si usted tiene fondos en su cuenta de ' . TEXT_GV_NAME . ', comprobará
-  que la cantidad ahora se muestra en el Carro de Compras, y también se mostrará un 
-  enlace a la página donde podrá enviar el ' . TEXT_GV_NAME . ' a alguien por email.');
-  break;
-  case '2':
-define('SUB_HEADING_TITLE', 'Cómo enviar ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT', 'Para enviar un ' . TEXT_GV_NAME . ' necesitará ir a nuestra Página de Enviar ' . TEXT_GV_NAME . '. Puede
-  encontrar el link a esta página en el Cuadro del Carro de la Compra en la columna derecha de cada página.
-  Cuando usted envía un ' . TEXT_GV_NAME . ', necesita especificar la siguiente información.
-  El nombre de la persona a la que le está enviando el  ' . TEXT_GV_NAME . '.
-  El email de la persona a la que le está enviando el  ' . TEXT_GV_NAME . '.
-  La cantidad que desea enviar. (No hace falta enviar la cantidad total que
-  haya en su Cuenta de ' . TEXT_GV_NAME . '.)
-  Un mensaje corto que aparecerá en el email.
-  Por favor, asegúrese de haber ingresado toda la información correctamente, aunque
-  tendrá la oportunidad de modificar esto tantas veces como desee antes de que
-  el email sea enviado.');
-  break;
-  case '3':
-  define('SUB_HEADING_TITLE', 'Comprando con ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT', 'Si tiene fondos en su Cuenta de ' . TEXT_GV_NAME . ', podrá usar esos fondos para
-  comprar otros artículos de nuestra tienda. Al momento del pago
-  aparecerá un recuadro extra. Ingrese la cantidad a aportar de los fondos en su Cuenta de ' . TEXT_GV_NAME . '.
-  Por favor, tenga en cuenta que igual tendrá que seleccionar otro método de pago si no
-  hay dinero suficiente en su Cuenta de ' . TEXT_GV_NAME . ' para cubrir el costo de su compra.
-  Si tiene más fondos en su Cuenta de ' . TEXT_GV_NAME . ' que el costo total de
-  su compra, la diferencia será mantenida en su cuenta de ' . TEXT_GV_NAME . ' para el
-  futuro.');
-  break;
-  case '4':
-  define('SUB_HEADING_TITLE', 'Canjeando ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT', 'Si recibe un ' . TEXT_GV_NAME . ' por email, tendrá los detalles de quién le envió
-  el ' . TEXT_GV_NAME . ', junto con un posible pequeño mensaje. El Email
-  tendrá también el ' . TEXT_GV_REDEEM . ' del ' . TEXT_GV_NAME . '. Probablemente sea una buena idea imprimir
-  este email para futuras referencias. Usted puede ahora canjear el ' . TEXT_GV_NAME . ' de
-  dos maneras.<br /><br />
-  1. Pulsando el link que contiene el email justo para este propósito.
-  Esto lE llevará a la página de Canje de ' . TEXT_GV_NAME . ' de la tienda. Se le pedirá que
-  cree una cuenta, antes de que el ' . TEXT_GV_NAME . ' sea validado y puesto en su
-  Cuenta de ' . TEXT_GV_NAME . ' listo para que lo use en la forma que desee.<br /><br />
-	2. Durante el pago, en la misma página en la que elije un método de pago
-habrá un recuadro para ingresar un ' . TEXT_GV_REDEEM . '. Ingrese el ' . TEXT_GV_REDEEM . ' aquí, y
-pulse el botón de canjear. El código será
- validado y sumado a su cuenta ' . TEXT_GV_NAME . '. Usted podrá entonces usar esa cantidad para comprar cualquier producto de nuestra tienda.');
-  break;
-  case '5':
-  define('SUB_HEADING_TITLE', 'Cuando hay problemas');
-  define('SUB_HEADING_TEXT', 'Para cualquier pregunta relacionada con el Sistema de ' . TEXT_GV_NAME . ', por favor, contacte a la tienda
-  por email en '. STORE_OWNER_EMAIL_ADDRESS . '. Por favor, brinde
-  tanta información como sea posible en el email. ');
-  break;
-  default:
-  define('SUB_HEADING_TITLE','');
-  define('SUB_HEADING_TEXT', 'Por favor, elija una de las preguntas de aquí arriba.');
+define('SUB_HEADING_TITLE_1','Purchasing ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_1', TEXT_GV_NAMES . ' are purchased just like any other item in our store. You can
+  pay for them using the store\'s standard payment method(s).
+  Once purchased the value of the ' . TEXT_GV_NAME . ' will be added to your own personal
+   ' . TEXT_GV_NAME . ' Balance. If you have funds in your ' . TEXT_GV_NAME . ' Balance, you will
+  notice that the amount now shows in the My Account page, and also provides a
+  link to a page where you can send the ' . TEXT_GV_NAME . ' to someone via email.');
 
-  }
+define('SUB_HEADING_TITLE_2','How to Send ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT_2','You may send a ' . TEXT_GV_NAME . ' from the My Account page.
+  When you send a ' . TEXT_GV_NAME . ' you need to specify the following:
+  The name of the person to whom you are sending the ' . TEXT_GV_NAME . ';
+  The email address of the person to whom you are sending the ' . TEXT_GV_NAME . ';
+  The amount you want to send (Note you don\'t have to send the full amount that
+  is in your ' . TEXT_GV_NAME . ' Balance.);
+  An optional short message which will appear in the email;
+  Please ensure that you have entered all of the information correctly, although
+  you will be given the opportunity to change this as much as you want before
+  the email is actually sent.');
 
-  define('TEXT_GV_REDEEM_INFO', 'Por favor, ingrese el código del ' . TEXT_GV_NAME . ': ');
-  define('TEXT_GV_REDEEM_ID', 'Código:');
+  define('SUB_HEADING_TITLE_3','Buying with ' . TEXT_GV_NAMES);
+  define('SUB_HEADING_TEXT_3','If you have funds in your ' . TEXT_GV_NAME . ' Balance, you can use those funds to
+  purchase other items in our store. At the checkout stage an extra box will
+  appear showing your Balance. Enter the amount to apply from the funds in your ' . TEXT_GV_NAME . ' Balance.
+  Please note: you will still have to select another payment method if there
+  is not enough in your ' . TEXT_GV_NAME . ' Balance to cover the cost of your purchase.
+  If you have more funds in your ' . TEXT_GV_NAME . ' Balance than the total cost of
+  your purchase, the remaining balance will be left in your ' . TEXT_GV_NAME . ' Balance for
+  future use.');
+
+  define('SUB_HEADING_TITLE_4','Redeeming ' . TEXT_GV_NAMES);
+  define('SUB_HEADING_TEXT_4','If you receive a ' . TEXT_GV_NAME . ' by email, it will contain details of who sent
+  you the ' . TEXT_GV_NAME . ', along with a short message from them. The email
+  will also contain the ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . '. It is probably a good idea to print
+  out this email for future reference. You can now redeem the ' . TEXT_GV_NAME . ' in
+  one of two ways:<br /><br />
+  1. By clicking on the link contained within the email for this express purpose.
+  This will take you to the store\'s Redeem ' . TEXT_GV_NAME . ' page. You will then be requested
+  to create an account before the ' . TEXT_GV_NAME . ' is validated and placed in your
+   ' . TEXT_GV_NAME . ' Balance. You can then use the amount to purchase any item from our store.<br /><br />
+  2. During the checkout process on the same page that you select a payment method,
+there will be a box to enter a ' . TEXT_GV_REDEEM . '. Enter the ' . TEXT_GV_REDEEM . ' here, and
+click the Redeem button. The code will be
+validated and the amount added to your ' . TEXT_GV_NAME . ' Balance. You can then use the amount to purchase any item from our store.');
+
+  define('SUB_HEADING_TITLE_5','When problems occur.');
+  define('SUB_HEADING_TEXT_5','For any queries regarding the ' . TEXT_GV_NAME . ' System, please contact the store
+  by email at '. STORE_OWNER_EMAIL_ADDRESS . '. Please make sure you give
+  as much information as possible regarding the issue so that we can fully address the problem.');
+
+  define('SUB_HEADING_TITLE_0','');
+  define('SUB_HEADING_TEXT_0','Please choose from one of the questions above.');
+  define('TEXT_GV_REDEEM_INFO', 'Please enter your ' . TEXT_GV_NAME . ' redemption code: ');
+  define('TEXT_GV_REDEEM_ID', 'Redemption Code:');

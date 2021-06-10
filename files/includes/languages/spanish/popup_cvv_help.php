@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,18 +20,18 @@
 // $Id: popup_cvv_help.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_CVV', '¿Qué es el CVV?');
-define('TEXT_CVV_HELP1', 'Número de verificación de 3 dígitos de las tarjetas Visa, Mastercard y Discover tajetas de tres dígitos.<br /><br />
-                    Por su seguridad, le pedimos que introduzca el número de verificación de su tarjeta.<br /><br />
-                    El número de verificación son los últimos 3 dígitos impresos al dorso de su tarjeta.
-                    Aparece a la derecha, a continuación del número de su tarjeta.<br />' .
+define('HEADING_CVV', 'What is CVV?');
+define('TEXT_CVV_HELP1', 'Visa, Mastercard, Discover 3 Digit Card Verification Number<br /><br />
+                    For your safety and security, we require that you enter your card\'s verification number.<br /><br />
+                    The verification number is a 3-digit number printed on the back of your card.
+                    It appears after and to the right of your card number.<br />' .
                     zen_image(DIR_WS_TEMPLATE_ICONS . 'cvv2visa.gif'));
 
-define('TEXT_CVV_HELP2', 'Número de verificación de 4 dígitos de las tarjetas American Express<br /><br />
-                    Por su seguridad, le pedimos que introduzca el número de verificación de su tarjeta.<br /><br />
-                    El número de verificación de 4 dígitos impreso al dorso de su tarjeta American Express.
-                    Aparece a la derecha, a continuación el número de su tarjeta.<br />' .
+define('TEXT_CVV_HELP2', 'American Express 4 Digit Card Verification Number<br /><br />
+                    For your safety and security, we require that you enter your card\'s verification number.<br /><br />
+                    The American Express verification number is a 4-digit number printed on the front of your card.
+                    It appears after and to the right of your card number.<br />' .
                     zen_image(DIR_WS_TEMPLATE_ICONS . 'cvv2amex.gif'));
 
-define('TEXT_CLOSE_CVV_WINDOW', 'Cerrar Ventana [x]');
+define('TEXT_CLOSE_CVV_WINDOW', 'Close Window [x]');
 ?>

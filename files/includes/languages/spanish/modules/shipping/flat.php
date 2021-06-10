@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,7 +20,7 @@
 // $Id: flat.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_FLAT_TEXT_TITLE', 'Tarifa Plana');
-define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', 'Tarifa Plana');
-define('MODULE_SHIPPING_FLAT_TEXT_WAY', 'Mensajería');
+define('MODULE_SHIPPING_FLAT_TEXT_TITLE', 'Flat Rate');
+define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', 'Flat Rate');
+define('MODULE_SHIPPING_FLAT_TEXT_WAY', 'Best Way');
 ?>

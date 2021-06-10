@@ -1,41 +1,52 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
+
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2015 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: advanced_search_result.php 1969 2005-09-13 06:57:21Z drbyte $
+ * @version $Id: Scott C Wilson 2019 Jul 27 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE_1', 'Búsqueda Avanzada');
-define('NAVBAR_TITLE_2', 'Resultados de la Búsqueda');
+define('NAVBAR_TITLE_1', 'Advanced Search');
+define('NAVBAR_TITLE_2', 'Search Results');
 
 //define('HEADING_TITLE_1', 'Advanced Search');
-define('HEADING_TITLE', 'Búsqueda Avanzada');
+define('HEADING_TITLE', 'Advanced Search');
 
-define('HEADING_SEARCH_CRITERIA', 'Criterio de Búsqueda');
+define('HEADING_SEARCH_CRITERIA', 'Search Criteria');
 
-define('TEXT_SEARCH_IN_DESCRIPTION', 'Buscar en la Descripción del Producto');
-define('ENTRY_CATEGORIES', 'Categorías:');
-define('ENTRY_INCLUDE_SUBCATEGORIES', 'Incluir subcategorías');
-define('ENTRY_MANUFACTURERS', 'Fabricantes:');
-define('ENTRY_PRICE_FROM', 'Precio Desde:');
-define('ENTRY_PRICE_TO', 'Precio Hasta:');
-define('ENTRY_DATE_FROM', 'Fecha Desde:');
-define('ENTRY_DATE_TO', 'Fecha Hasta:');
+define('TEXT_SEARCH_IN_DESCRIPTION', 'Search In Product Descriptions');
+define('ENTRY_CATEGORIES', 'Categories:');
+define('ENTRY_INCLUDE_SUBCATEGORIES', 'Include Subcategories');
+define('ENTRY_MANUFACTURERS', 'Manufacturers:');
+define('ENTRY_PRICE_FROM', 'Price From:');
+define('ENTRY_PRICE_TO', 'Price To:');
+define('ENTRY_DATE_FROM', 'Date From:');
+define('ENTRY_DATE_TO', 'Date To:');
 
-define('TEXT_SEARCH_HELP_LINK', 'Ayuda de la Búsqueda [?]');
+define('TEXT_SEARCH_HELP_LINK', 'Search Help [?]');
 
-define('TEXT_ALL_CATEGORIES', 'Todas las categorías');
-define('TEXT_ALL_MANUFACTURERS', 'Todos los fabricantes');
+define('TEXT_ALL_CATEGORIES', 'All Categories');
+define('TEXT_ALL_MANUFACTURERS', 'All Manufacturers');
 
-define('HEADING_SEARCH_HELP', 'Ayuda de la Búsqueda');
-define('TEXT_SEARCH_HELP', 'Las palabras pueden estar separadas por los operadores AND (Y) y/o OR (O) para un mejor control de los resultados de la búsqueda.<br /><br />Por ejemplo, Microsoft AND ratón generaría un lista de resultados conteniendo ambas palabras. Así, para ratón OR teclado, la lista de resultados contendría ambas o alguna de las palabras.<br /><br />Coincidencias exactas pueden buscarse encerrando las palabras en comillas dobles.<br /><br />Por ejemplo, "computadoras portátiles" generaría una lista de resultados coincidiendo con la frase exacta.<br /><br />Los paréntesis pueden usarse para un control más avanzado de los resultados.<br /><br />Por ejemplo, Microsoft AND (teclado OR ratón OR "visual basic").');
+define('HEADING_SEARCH_HELP', 'Search Help');
+define('TEXT_SEARCH_HELP', 'Keywords may be separated by AND and/or OR statements for greater control of the search results.<br /><br />For example, Microsoft AND mouse would generate a result set that contain both words. However, for mouse OR keyboard, the result set returned would contain both or either words.<br /><br />Exact matches can be searched for by enclosing keywords in double-quotes.<br /><br />For example, "notebook computer" would generate a result set which match the exact string.<br /><br />Brackets can be used for further control on the result set.<br /><br />For example, Microsoft and (keyboard or mouse or "visual basic").');
+define('TEXT_CLOSE_WINDOW', 'Close Window [x]');
 
 define('TABLE_HEADING_IMAGE', '');
-define('TABLE_HEADING_PRODUCTS', 'Nombre del producto');
-define('TABLE_HEADING_MANUFACTURER', 'Fabricante');
-define('TABLE_HEADING_QUANTITY', 'Cantidad');
-define('TABLE_HEADING_PRICE', 'Precio');
-define('TABLE_HEADING_WEIGHT', 'Peso');
-define('TABLE_HEADING_BUY_NOW', 'Comprar ahora');
+define('TABLE_HEADING_PRODUCTS', 'Product Name');
+define('TABLE_HEADING_MANUFACTURER', 'Manufacturer');
+define('TABLE_HEADING_PRICE', 'Price');
+define('TABLE_HEADING_WEIGHT', 'Weight');
+define('TABLE_HEADING_BUY_NOW', 'Buy Now');
+
+define('TEXT_NO_PRODUCTS', 'There is no product that matches the search criteria.');
+
+define('ERROR_AT_LEAST_ONE_INPUT', 'At least one of the fields in the search form must be entered.');
+define('ERROR_INVALID_FROM_DATE', 'Invalid From Date.');
+define('ERROR_INVALID_TO_DATE', 'Invalid To Date.');
+define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'To Date must be greater than or equal to From Date.');
+define('ERROR_PRICE_FROM_MUST_BE_NUM', 'Price From must be a number.');
+define('ERROR_PRICE_TO_MUST_BE_NUM', 'Price To must be a number.');
+define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'Price To must be greater than or equal to Price From.');
+define('ERROR_INVALID_KEYWORDS', 'Invalid keywords.');

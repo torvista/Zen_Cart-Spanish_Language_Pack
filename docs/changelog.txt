@@ -1,7 +1,177 @@
 Changelog
-2020 04 30 Revision of all files to match zencart-develop
-2018 04 09 Revision of all files to match zencart-develop
-2017 02 22 error strings moved from advanced_search/advanced_search result to main defines file.
-2016 06 05
-initial comparison with Zen Cart 1.6 pre-alpha Github version 2016 06 05
-check of main spanish.php and locale.php, addition of new files
+2021 06 10 Moved all spanish language packs to one GitHub repository.
+-------------------
+2020 11 03 Updates for ZC157a (mostly headers).
+2020 05 14 Fileset complete for ZC157 to date
+2020 05 06 Installer text added
+2019 12 ZC157 Admin updated.
+			removed email as email templates are finally language-independent
+2019 07		updates for Zen Cart 1.56c, and php warnings for duplicated/missing constants.
+2019 06   	admin: TEXT_GV_REDEEM repeated and gv_name.php not encoded utf-8.
+2019 06 09  header changes to match pointless header changes made in zen-cart-v1.5.6b-05272019
+2019 05 27  changes for zen-cart-v1.5.6b-05262019
+2019 04 11  various minor changes post 156-merging checks.
+			removed check locales file to it's own repository
+			added single EN flag icon to overwrite multi-flag EN icon introduced in 156
+			added constants for keep_alive module
+2019 03 28 changed cuadro to recuadro for sideboxes, correct encoding for some files
+2019 03 27 revised all files for Zen Cart 1.56a and uploaded to Github.
+
+Zen Cart 1.56
+-------------
+2018 01 15 Minor changes for Zen Cart 1.55f
+Since this is a pack for Spain: changed default date format to dd/mm/yyyy and changed default weight to kg.
+2017 05 07 checkout_payment missing a closing span: https://github.com/zencart/zencart/issues/1452
+2017 09 03 admin - spanish.php new defines for zc1.55e
+2017 02 22 replacement of comment headers to point to Github. Renaming of Github to 1.5x.
+BUGFIX: removal of quotes from constants in advanced_search/advanced_search_results that were causing javascript errors.
+2016 10 19 moved from Sourceforge to Github
+
+1.5.5a.02
+spanish: ERROR_PRODUCT_STATUS_SHOPPING_CART_ATTRIBUTES as missing/duplicated ERROR_PRODUCT_STATUS_SHOPPING_CART
+icon_names: some alt tags were>30 chars. If css buttons are in use, an alt tag>30 chars will force use of an image submit instead: hard-coded in zen_image_submit.
+BUG: spanish/language/icon_names.php - missing closing bracket on last constant
+
+1.5.5a.01 - available in Zen Cart Plugins
+https://www.zen-cart.com/downloads.php?do=file&id=1110
+
+Modifications for Zen Cart 1.5.5a and the Classic Responsive template, and email templates using css
+ADMIN\includes\languages\spanish\modules.php
+added STORE_NAME to admin emails to identify shop (an admin may manage various shops)
+changed all references to Gift Certificate to Tarjeta Regalo
+added missing defines in 1.5.5a
+added /extras/find_locales.php utility
+
+1.5.4.01 fileset saved as 1.5.4.01
+admin->admin_activity
+define('TEXT_EXPORTFILTER3', 'WARNING � Actividades para revisar a diario'); corrected final quotation mark from a smart quote
+spanish/icon_names.php
+shortened for use as a CSS button
+Actualice el pedido->Actualizar
+Eliminar este producto->Eliminar
+BUTTON_SUBMIT_ALT->Enviar
+BUTTON_LOGIN_ALT->Entrar
+
+admin->spanish.php
+various for admin activity log
+
+admin->layout_controller
+removed %s from TEXT_INFO_RESET_TEMPLATE_SORT_ORDER
+minor changes to column headings
+-------------------------------
+1.5.4-0: 2015-01-14
+updated for Zen Cart 1.54
+multiple changes and corrections
+-----------------------
+
+1-5-08 not uploaded
+admin/...spanish.php "only": removed
+admin/...spanish.php & admin_activity: minor corrections
+
+1-5-07 2012-12-13
+\modules\payment\authorizenet_aim.php: CVV number, removed js popup.
+admin....login.php: typo Indentificaci�n corrected
+admin...modules:minor corrections
+catalog..payment\paypaldp.php and paypalwpp.php:minor corrections. 
+admin\spanish.php: apropriado->apropiado
+mapa de la web->Mapa del Sitio in catalog...spanish.php & sitemap.php
+admin\..\admin_activity.php. terminanda->terminada
+catalog\...\paypalwpp.php: minor changes for the admin partial refund text which is split across two constants
+misc changes to readme
+tu_ fileset readied for translation but never done: removed.
+
+1-5-06 2012-09-28
+Revisions for Zen Cart 1.51 released 2012-09-18
+and
+\includes\languages\spanish\checkout_process.php: Direcci�n de pago changed to Direcci�n de facturaci�n, factura changed to pedido. 
+fileset duplicated to facilitate future translation of tu form of address (as asked for by a forum member but never carried out...)
+admin\...\products.php changed in/out of stock to a more correct activado/desactivado
+\includes\languages\spanish\spanish.php corrected DD/MM/YY to MM/DD/YY.
+
+1-5-05 2012-06-08
+\includes\languages\spanish\other_images_names.php changed define('OTHER_IMAGE_PRICE_IS_FREE', 'free_es.gif');
+and added corresponding image in \includes\template\template_default\images\
+\includes\languages\spanish\extra_definitions\product_free_shipping.php corrected: was not encoded in UTF8
+\includes\languages\spanish\cookie_usage.php: minor corrections
+\email\es\ html email templates. Also changed hard-coded "Dear" to "Estimado".
+ADMIN\includes\languages\spanish\password_forgotten.php two constant definitions corrected
+ADMIN\includes\languages\spanish\countries.php added reference to Alpha 3 ISO codes
+
+1-5-04 2012-04-01
+\admin\includes\languages\spanish.php menu item My Store missing from menu. Thanks to Eulinuxero
+\includes\languages\spanish\down_for_maintenance.php had my shop name in it! Thanks to Eulinuxero
+\admin\includes\languages\spanish\customers.php correction aprobraci�n" for "aprobaci�n". Thanks to Eulinuxero
+\admin\includes\languages\spanish\invoice.php, minor correction
+\admin\includes\languages\spanish.php minor correction
+\includes\languages\spanish\other_images_names.php changed define('OTHER_IMAGE_CALL_FOR_PRICE', 'call_for_prices_es.jpg') 
+and added corresponding image in \includes\template\template_default\images\
+
+1-5-03 2012-02-24
+\admin\includes\languages\spanish\admin_account.php corrected encoding
+\admin\includes\languages\spanish\users.php corrected encoding
+\admin\includes\languages\spanish\whos_online.php corrected
+\admin\includes\languages\spanish.php minor improvements
+\admin\includes\languages\spanish\whos_online.php corrected (new defines missed previously)
+\admin\includes\languages\spanish.php corrections for admin activity log
+\admin\includes\languages\spanish\define_pages_editor.php missing ' added
+\admin\includes\languages\spanish\record_artists.php minor correction
+\admin\includes\languages\spanish\record_company.php minor corrections
+
+1_5_02 2012-01-11
+\admin\includes\languages\spanish\invoice.php missing apostrophe line 30
+\admin\includes\languages\spanish\featured.php error Espaciales->Destacados
+change instances of Factura->Pedido
+various minor changes
+
+1_5_01
+\includes\languages\spanish\modules\shipping\table.php missing closing apostrophe on line 26
+
+1.53->1_5_00
+Many file changes for Zen Cart 1.5 release December 2011.
+Confusing version numbers changed to coincide with Zen Cart 1.5.
+
+1.52
+\SU_ADMIN\includes\languages\spanish\customers.php: changed ingresos to acceso
+\SU_ADMIN\includes\languages\spanish\store_manager.php: general improvements
+
+1.51
+correction of errors introduced in 1.5: (some files were not converted & admin spanish.php was using catalog version)
+changed all instances of cesta->carro
+
+1.5
+added 8859-1 version to file pack
+
+\includes\languages\spanish\specials.
+\includes\languages\spanish\products_price_manager.php
+
+\SU_ADMIN\includes\languages\spanish.php and dd_mm_aaaa spanish.php: addition to TEXT_STATUS_WARNING for clarity.
+\SU_ADMIN\includes\languages\spanish\products.php - mistakes corrected
+\SU_ADMIN\includes\languages\spanish\product_free_shipping.php - mistakes corrected
+\SU_ADMIN\includes\languages\spanish\categorias.php - mistakes corrected
+
+1.4 2011-01-19 
+\SU_ADMIN\includes\languages\spanish\products_to_categories.php: many corrections and improvements
+\SU_ADMIN\includes\languages\spanish.php: line 614, categor�as to categor�a
+\SU_ADMIN\includes\languages\spanish\cache.php: removed as per 1.39g
+\SU_ADMIN\includes\languages\spanish\alert_page.php: new file for Zen Cart 1.39g
+\includes\languages\spanish\html_includes\contact_us.php: missing closing bracket on </p> tag
+\includes\languages\spanish\modules\payment\paypalwpp.php: links to PayPal buttons updated to spanish versions
+
+1.3
+\includes\languages\spanish\checkout_process.php - "una" click to "un" click
+
+1.2
+checkout_success.php:correction
+account_notifications.php: correction
+product_music:old version
+unsubscribe.php:titles not translated, corrections.
+product_reviews_write.php: correction
+advanced_search.php: unescaped quotation marks prevented popup search help from opening
+cod.php: not encoded as UTF-8 as no characters requiring it: added � in comments 
+
+1.1 2010-08-03
+various minor changes
+some buttons sizes changed
+invitados->visitantes
+
+1.0 2010-05-11

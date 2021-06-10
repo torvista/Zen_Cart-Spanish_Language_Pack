@@ -1,32 +1,27 @@
-<?php //Spanish Language Pack for Zen Cart 1.6: http:/zencartspanish.svn.sourceforge.net/viewvc/zencartspanish/
+<?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id:  Modified in v1.6.0 $
+ * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
 // header text in includes/header.php
-  define('HEADER_TITLE_CREATE_ACCOUNT', 'Crear Cuenta');
-  define('HEADER_TITLE_MY_ACCOUNT', 'Mi Cuenta');
-  define('HEADER_TITLE_CART_CONTENTS', 'Carro de la compra');
-  define('HEADER_TITLE_CHECKOUT', 'Comprar');
-  define('HEADER_TITLE_TOP', 'Arriba');
-  define('HEADER_TITLE_CATALOG', 'Inicio');
-  define('HEADER_TITLE_LOGOFF', 'Salir');
-  define('HEADER_TITLE_LOGIN', 'Entrar/Registrarse');
-  define('HEADER_TITLE_ORDER_STATUS', 'Estado Pedido');
+  define('HEADER_TITLE_MY_ACCOUNT', 'My Account');
+  define('HEADER_TITLE_CART_CONTENTS', 'Shopping Cart');
+  define('HEADER_TITLE_CHECKOUT', 'Checkout');
+  define('HEADER_TITLE_CATALOG', 'Home');
+  define('HEADER_TITLE_LOGOFF', 'Log Out');
+  define('HEADER_TITLE_LOGIN', 'Log In');
 
 // added defines for header alt and text
-  define('HEADER_ALT_TEXT', 'Zen Cart E-comercio');
-  define('HEADER_SALES_TEXT', 'Mensaje de Ventas');
-  define('HEADER_LOGO_WIDTH', '192px');//only used in tpl_header_test_info.php 
-  define('HEADER_LOGO_HEIGHT', '64px');//only used in tpl_header_test_info.php
+  define('HEADER_ALT_TEXT', 'Powered by Zen Cart :: The Art of E-Commerce');
+  define('HEADER_SALES_TEXT', 'TagLine Here');
+  define('HEADER_LOGO_WIDTH', '192');
+  define('HEADER_LOGO_HEIGHT', '68');
   define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // header Search Button/Box Search Button
-  define('HEADER_SEARCH_BUTTON', 'Buscar');
-  define('HEADER_SEARCH_DEFAULT_TEXT', 'Introduzca palabras claves aquí');
-  define('SEARCH_DEFAULT_TEXT', 'buscar aquí');
-
+  define('HEADER_SEARCH_BUTTON','Search');
+  define('HEADER_SEARCH_DEFAULT_TEXT', 'Enter search keywords here');
+  define('SEARCH_DEFAULT_TEXT', 'search here');

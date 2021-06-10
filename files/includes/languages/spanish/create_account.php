@@ -1,45 +1,44 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2012 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version GIT: $Id: Author: DrByte  Sat Jul 21 16:05:31 2012 -0400 Modified in v1.5.1 $
+ * @version $Id: torvista 2019 Aug 22 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE', 'Crear Cuenta');
+define('NAVBAR_TITLE', 'Create an Account');
 
-define('HEADING_TITLE', 'Crear Cuenta');
+define('HEADING_TITLE', 'My Account Information');
 
-define('TEXT_ORIGIN_LOGIN', '<strong class="note">NOTA:</strong> Si ya tiene una cuenta con nosotros, por favor, entre en <a href="%s">su cuenta</a>.');
+define('TEXT_ORIGIN_LOGIN', '<strong class="note">NOTE:</strong> If you already have an account with us, please login at the <a href="%s">login page</a>.');
 
-define('ERROR_CREATE_ACCOUNT_SPAM_DETECTED', 'Gracias, su petición ha sido enviada para ser revisada por el administrador.');
+define('ERROR_CREATE_ACCOUNT_SPAM_DETECTED', 'Thank you, your account request has been submitted for review.');
 
 
 // greeting salutation
-define('EMAIL_SUBJECT', 'Bienvenido a ' . STORE_NAME);
-define('EMAIL_GREET_MR', 'Estimado Sr. %s,' . "\n\n");
-define('EMAIL_GREET_MS', 'Estimada Sra. %s,' . "\n\n");
-define('EMAIL_GREET_NONE', 'Estimado %s' . "\n\n");
+define('EMAIL_SUBJECT', 'Welcome to ' . STORE_NAME);
+define('EMAIL_GREET_MR', 'Dear Mr. %s,' . "\n\n");
+define('EMAIL_GREET_MS', 'Dear Ms. %s,' . "\n\n");
+define('EMAIL_GREET_NONE', 'Dear %s,' . "\n\n");
 
 // First line of the greeting
-define('EMAIL_WELCOME', 'Bienvenido a <strong>' . STORE_NAME . '</strong>.');
+define('EMAIL_WELCOME', 'We wish to welcome you to <strong>' . STORE_NAME . '</strong>.');
 define('EMAIL_SEPARATOR', '--------------------');
-define('EMAIL_COUPON_INCENTIVE_HEADER', '¡Felicidades! Para hacer de su próxima visita a nuestra tienda online una experiencia más gratificante, ¡Aquí tiene un cupón de descuento creado para usted!' . "\n\n");
+define('EMAIL_COUPON_INCENTIVE_HEADER', 'Congratulations! To make your next visit to our online shop a more rewarding experience, listed below are details for a Discount Coupon created just for you!' . "\n\n");
 // your Discount Coupon Description will be inserted before this next define
-define('EMAIL_COUPON_REDEEM', 'Para usar el cupón de descuento, ingrese el ' . TEXT_GV_REDEEM . 'código en el proceso del pago:  <strong>%s</strong>' . "\n\n");
-define('TEXT_COUPON_HELP_DATE', '<p>El cupón es válido entre %s y %s</p>');
+define('EMAIL_COUPON_REDEEM', 'To use the Discount Coupon, enter the ' . TEXT_GV_REDEEM . ' code during checkout:  <strong>%s</strong>' . "\n\n");
+define('TEXT_COUPON_HELP_DATE', '<p>The coupon is valid between %s and %s</p>');
 
-define('EMAIL_GV_INCENTIVE_HEADER', 'Sólo por hacer las compras de hoy, ¡le enviamos un ' . TEXT_GV_NAME . ' por %s!' . "\n\n");
-define('EMAIL_GV_REDEEM', 'El ' . TEXT_GV_REDEEM . ' del ' . TEXT_GV_NAME . ' es: %s ' . "\n\n" . 'Puede ingresar el ' . TEXT_GV_REDEEM . ' durante el pago, después de haber elegido productos en la tienda.');
-define('EMAIL_GV_LINK', 'o puede canjearlo ahora siguiendo este link: ' . "\n");
+define('EMAIL_GV_INCENTIVE_HEADER', 'Just for stopping by today, we have sent you a ' . TEXT_GV_NAME . ' for %s!' . "\n");
+define('EMAIL_GV_REDEEM', 'The ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . ' is: %s ' . "\n\n" . 'You can enter the ' . TEXT_GV_REDEEM . ' during Checkout, after making your selections in the store. ');
+define('EMAIL_GV_LINK', ' Or, you may redeem it now by following this link: ' . "\n");
 // GV link will automatically be included before this line
 
-define('EMAIL_GV_LINK_OTHER', 'Una vez que haya añadido el ' . TEXT_GV_NAME . ' a su cuenta, puede usar el ' . TEXT_GV_NAME . ' para usted, ¡o enviárselo a un amigo!' . "\n\n");
+define('EMAIL_GV_LINK_OTHER','Once you have added the ' . TEXT_GV_NAME . ' to your account, you may use the ' . TEXT_GV_NAME . ' for yourself, or send it to a friend!' . "\n\n");
 
-define('EMAIL_TEXT', 'Su nueva cuenta le da acceso a los siguientes servicios:' . "\n\n" . '<ul><li><strong>Carro Permanente</strong> - Cualquier de los productos añadidos a su carro online permanecerán allí hasta que usted los elimine o los compre.</li>' . "\n\n" . '<li><strong>Agenda de Direcciones</strong> : ¡Ahora podemos enviarle sus productos a otra dirección distinta a la suya! La opción perfecta para poder enviar regalos directamente a la persona deseada.</li>' . "\n\n" . '<li><strong>Histórico de Pedidos</strong> : Vea el historial de las compras que ha realizado con nosotros.</li>' . "\n\n" . '<li><strong>Comentarios de Productos</strong> : Comparta sus opiniones sobre los productos con nuestros otros clientes.</li>' . "\n\n". '</ul>');
-define('EMAIL_CONTACT', 'Si necesita ayuda con cualquiera de nuestros servicios online, por favor, envíenos un email a: ' . STORE_OWNER_EMAIL_ADDRESS . "\n\n");
-define('EMAIL_GV_CLOSURE', "\n" . 'Atentamente,' . "\n\n" . STORE_OWNER . "\nStore Owner\n\n". '<a href="' . HTTP_SERVER . DIR_WS_CATALOG . '">'.HTTP_SERVER . DIR_WS_CATALOG ."</a>\n\n");
+define('EMAIL_TEXT', 'You now have an account with '. STORE_NAME . ' providing:' . "\n\n<ul>" . '<li><strong>Order History</strong> - View order details.</li>' . "\n\n" . '<li><strong>Permanent Cart</strong> - Products you add to your cart will remain there until removed or purchased.</li>' . "\n\n" . '<li><strong>Address Book</strong> - Define additional addresses (for example to send a gift).</li>' . "\n\n" . '<li><strong>Product Reviews</strong> - Share your opinion on our products with other customers.</li>' . "\n\n</ul>");
+define('EMAIL_CONTACT', 'For help with any of our online services, please email the store-owner: <a href="mailto:' . STORE_OWNER_EMAIL_ADDRESS . '">' . STORE_OWNER_EMAIL_ADDRESS ."</a>\n\n");
+define('EMAIL_GV_CLOSURE', "\n" . 'Sincerely,' . "\n\n" . STORE_OWNER . "\nStore Owner\n\n". '<a href="' . HTTP_SERVER . DIR_WS_CATALOG . '">' . HTTP_SERVER . DIR_WS_CATALOG ."</a>\n\n");
 
 // email disclaimer - this disclaimer is separate from all other email disclaimers
-define('EMAIL_DISCLAIMER_NEW_CUSTOMER', 'Este email nos ha sido facilitado por usted o por alguien que se ha registrado en nuestra tienda. Si no ha sido usted, o piensa que ha recibido este mensaje por error, por favor, envíe un email a %s ');
+define('EMAIL_DISCLAIMER_NEW_CUSTOMER', 'This email address was given to us by you or by one of our customers. If you did not signup for an account, or feel that you have received this email in error, please send an email to %s ');

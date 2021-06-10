@@ -1,18 +1,19 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2015 Zen Cart Development Team
+ * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Modified in V1.6.0 $
+ * @version $Id: time_out.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Expiró el tiempo de sesión');
-define('HEADING_TITLE', '¡Vaya! Expiró el tiempo de sesión');
-define('HEADING_TITLE_LOGGED_IN', '¡Vaya! Lo sentimos, no se puede realizar la operación solicitada.');
-define('TEXT_INFORMATION', '<p>Si estaba realizando un pedido, por favor identifíquese de nuevo y su carro de la compra será recuperado. Deberá volver a realizar el pago y completar su última compra. </p><p>Si completó su pedido y desea revisarlo' . (DOWNLOAD_ENABLED == 'true' ? ', o tiene una descarga y desea completarla' : '') . ', por favor, vaya a <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">Mi Cuenta</a> para visualizar su pedido.</p>');
+define('NAVBAR_TITLE', 'Login Time Out');
+define('HEADING_TITLE', 'Whoops! Your session has expired.');
+define('HEADING_TITLE_LOGGED_IN', 'Whoops! Sorry, but you are not allowed to perform the action requested. ');
+define('TEXT_INFORMATION', '<p>If you were placing an order, please login and your shopping cart will be restored. You may then go back to the checkout and complete your final purchases.</p><p>If you had completed an order and wish to review it' . (DOWNLOAD_ENABLED == 'true' ? ', or had a download and wish to retrieve it' : '') . ', please go to your <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">My Account</a> page to view your order.</p>');
 
-define('TEXT_INFORMATION_LOGGED_IN', 'Aún está conectado a su cuenta y puede seguir comprando.');
+define('TEXT_INFORMATION_LOGGED_IN', 'You are still logged in to your account and may continue shopping. Please choose a destination from a menu.');
 
-define('HEADING_RETURNING_CUSTOMER', 'Entrar');
-define('TEXT_PASSWORD_FORGOTTEN', '¿Ha olvidado su contraseña?');
+define('HEADING_RETURNING_CUSTOMER', 'Login');
+define('TEXT_PASSWORD_FORGOTTEN', 'Forgot Your Password?')
+?>

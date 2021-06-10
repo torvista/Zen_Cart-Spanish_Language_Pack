@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -7,5 +7,5 @@
  * @version $Id: Author: DrByte  Sun Oct 18 01:26:46 2015 -0400 Modified in v1.5.5 $
  */
 
-define('NAVBAR_TITLE', 'Ofertas Especiales');
-define('HEADING_TITLE', 'Ofertas Especiales');
+define('NAVBAR_TITLE', 'Specials');
+define('HEADING_TITLE', 'Specials');

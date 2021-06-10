@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,15 +20,15 @@
 // $Id: cookie_usage.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Uso de las Cookies');
-define('HEADING_TITLE', 'Uso de las Cookies');
+define('NAVBAR_TITLE', 'Cookie Usage');
+define('HEADING_TITLE', 'Cookie Usage');
 
-define('TEXT_INFORMATION', 'Hemos detectado que su navegador no tiene soporte para cookies, o que las cookies han sido deshabilitadas.');
-define('TEXT_INFORMATION_2', 'Para seguir comprando online, le pedimos que habilite las cookies en su navegador.');
-define('TEXT_INFORMATION_3', 'Para los navegadores <strong>Internet Explorer</strong> siga, por favor, estas instrucciones:<br /><ol><li>Pulse "Herramientas" en el barra de menú y seleccione "Opciones de Internet"</li><li>Seleccione la solapa "Seguridad" y ponga el nivel de seguridad en "Medio"</li></ol>');
-define('TEXT_INFORMATION_4', 'Hemos tomado esta medida de seguridad por su beneficio, y le pedimos disculpas por cualquier inconveniente que le cause.');
-define('TEXT_INFORMATION_5', 'Por favor, contáctenos si tiene cualquier pregunta relacionada con estos requerimientos, o para comprar productos offline/directamente.');
+define('TEXT_INFORMATION', 'We have detected that your browser does not support cookies, or cookies have been disabled.');
+define('TEXT_INFORMATION_2', 'To continue shopping online, we encourage you to enable cookies on your browser.');
+define('TEXT_INFORMATION_3', 'For <strong>Internet Explorer</strong> browsers, please follow these instructions:<br /><ol><li>Click on the Tools menubar, and select Internet Options</li><li>Select the Security tab, and reset the security level to Medium</li></ol>');
+define('TEXT_INFORMATION_4', 'We have taken this security measurement for your benefit, and apologize if this causes any inconvenience.');
+define('TEXT_INFORMATION_5', 'Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.');
 
-define('BOX_INFORMATION_HEADING', '<strong>Cookies y Seguridad</strong>');
-define('BOX_INFORMATION', 'Las cookies deben estar habilitadas para comprar online en esta tienda, para garantizar la privacidad y la seguridad en su visita a este sitio.</p><p>Habilitando el soporte para cookies en su navegador, la comunicación entre usted y este sitio, se verá fortalecida para asegurar que es usted en persona quien hace las transacciones y para prevenir el robo de su información privada.');
+define('BOX_INFORMATION_HEADING', '<strong>Cookie Privacy and Security</strong>');
+define('BOX_INFORMATION', 'Cookies must be enabled to purchase online on this store, this is to embrace privacy and security related issues regarding your visit to this site.<br /><br />By enabling cookie support on your browser, the communication between you and this site is strengthened to be certain it is you who are making transactions on your own behalf, and to prevent leakage of your privacy information.');
 ?>

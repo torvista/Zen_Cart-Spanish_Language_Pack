@@ -1,3 +1,4 @@
 # Zen_Cart-Spanish_Language_Pack
-Intended for use with Zen Cart-Develop branch - TRANSLATION INCOMPLETE, but all constants equated.
-Last checked as working with Zen Cart Develop fileset: 2020 04 30.
+
+For Zen Cart 1.5.8.
+For development purposes only: incomplete.

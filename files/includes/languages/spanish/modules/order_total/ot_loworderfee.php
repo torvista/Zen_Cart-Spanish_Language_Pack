@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,6 +20,6 @@
 // $Id: ot_loworderfee.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE', 'Comisión por Pedido de Bajo Valor');
-  define('MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION', 'Comisión por Pedido de Bajo Valor');
+  define('MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE', 'Low Order Fee');
+  define('MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION', 'Low Order Fee');
 ?>

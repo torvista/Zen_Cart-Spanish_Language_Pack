@@ -1,33 +1,32 @@
-<?php //Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 /**
  * Authorize.net SIM Payment Module
  *
- * @package languageDefines
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Sun Jan 7 21:30:21 2018 -0500 Modified in v1.5.6 $
+ * @version $Id: DrByte 2020 May 16 Modified in v1.5.7 $
  */
 
   define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ADMIN_TITLE', 'Authorize.net (SIM)');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CATALOG_TITLE', 'Tarjeta de Crédito'); // Título del método de pago que ve el cliente
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CATALOG_TITLE', 'Credit Card');  // Payment option title as displayed to the customer
 
 
-  if (MODULE_PAYMENT_AUTHORIZENET_STATUS == 'True') {
-    define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DESCRIPTION', '<a target="_blank" href="https://account.authorize.net/">Authorize.net Merchant Identificación</a>' . (MODULE_PAYMENT_AUTHORIZENET_TESTMODE != 'Production' ? '<br /><br />Info de Pruebas:<br /><b>Números de prueba de tarjetas de crédito:</b><br />Visa#: 4007000000027<br />MC#: 5424000000000015<br />Discover#: 6011000000000012<br />AMEX#: 370000000000002<br /><br /><b>Nota:</b> Estos números serán denegados en modo Producción y aprobados en modo Test. Puede usar cualquier fecha futura y cualquier código de seguidad CVV de tres dígitos (cuatro para AMEX).<br /><br /><b>Número para comprobar denegación:</b><br /><br />Tarjeta #: 4222222222222<br /><br />' : '') . '<br /><br /><strong>Parámetros</strong><br />Puede dejar en blanco las URLs de "respuesta" y "recepción" en su perfil de Merchant Authorize.net, puede apuntar a http://su_dominio.com/foldername/index.php?main_page=checkout_payment');
+  if (defined('MODULE_PAYMENT_AUTHORIZENET_STATUS') && MODULE_PAYMENT_AUTHORIZENET_STATUS == 'True') {
+    define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DESCRIPTION', '<a rel="noreferrer noopener" target="_blank" href="https://account.authorize.net/">Authorize.net Merchant Login</a>' . (MODULE_PAYMENT_AUTHORIZENET_TESTMODE != 'Production' ? '<br /><br />Testing Info:<br /><b>Automatic Approval Credit Card Numbers:</b><br />Visa#: 4007000000027<br />MC#: 5424000000000015<br />Discover#: 6011000000000012<br />AMEX#: 370000000000002<br /><br /><b>Note:</b> These credit card numbers will return a decline in live mode, and an approval in test mode.  Any future date can be used for the expiration date and any 3 or 4 (AMEX) digit number can be used for the CVV Code.<br /><br /><b>Automatic Decline Credit Card Number:</b><br /><br />Card #: 4222222222222<br /><br />This card number can be used to receive decline notices for testing purposes.' : '') . '<br /><br /><strong>SETTINGS</strong><br />Your "response" and "receipt" and "relay" URL settings in your Authorize.net Merchant Profile can be left BLANK, or if necessary you can set the "relay URL" to point to https://your_domain.com/foldername/index.php?main_page=checkout_process<br><br>If you are having problems with this, see <a href="https://docs.zen-cart.com/user/modules/authorizenet_sim/" rel="noreferrer noopener" target="_blank">the SIM Setup FAQ article</a> for detailed setup instructions.');
   } else {
-    define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DESCRIPTION', '<a target="_blank" href="http://reseller.authorize.net/application.asp?id=131345">Haga clic aquí para abrir una cuenta</a><br /><br /><a target="_blank" href="https://account.authorize.net/">Haga clic aquí para indentificarse en la zona de Merchants</a><br /><br /><strong>Requerimientos:</strong><br /><hr />*<strong>Cuenta Authorize.net</strong> (vea el enlace arriba para abrirla)<br />*<strong>nombre de usuario de Authorize.net y clave de transacción</strong> disponible en la zona Merchant');
+    define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DESCRIPTION', '<a rel="noreferrer noopener" target="_blank" href="https://reseller.authorize.net/application?resellerId=10023">Click Here to Sign Up for an Account</a><br /><br /><a rel="noreferrer noopener" target="_blank" href="https://account.authorize.net/">Click to Login to the Authorize.net Merchant Area</a><br /><br /><strong>Requirements:</strong><br /><hr />*<strong>Authorize.net Account</strong> (see link above to signup)<br />*<strong>Authorize.net username and transaction key</strong> available from your Merchant Area<br><br>See <a href="https://docs.zen-cart.com/user/modules/authorizenet_sim/" rel="noreferrer noopener" target="_blank">the SIM Setup FAQ article</a> for detailed setup instructions.');
   }
 
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_TYPE', 'Tipo:');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_OWNER', 'Dueño de la Tarjeta:');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_NUMBER', 'Número de la Tarjeta:');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_EXPIRES', 'Fecha de caducidad de la Tarjeta:');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CVV', 'Número CVV :');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_POPUP_CVV_LINK', '¿Qué es esto?');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_OWNER', '* El nombre del propietario de la tarjeta debe tener al menos ' . CC_OWNER_MIN_LENGTH . ' caracteres.\n');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_NUMBER', '* El número de la tarjeta de crédito debe tener al menos ' . CC_NUMBER_MIN_LENGTH . ' caracteres.\n');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_CVV', '* Tecle el número de 3 ó 4 dígitos de la cara trasera de la tarjeta.\n');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR_MESSAGE', 'Hubo un error al procesar su tarjeta de crédito. Por favor, inténtelo otra vez.');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DECLINED_MESSAGE', 'Su tarjeta de crédito fue rechazada. Por favor, inténtelo con otra tarjeta o contacte con su banco para más información.');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR', '¡Error en la tarjeta de crédito!');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_TYPE', 'Type:');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_OWNER', 'Card Owner:');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_NUMBER', 'Card Number:');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_EXPIRES', 'Expiry Date:');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CVV', 'CVV Number:');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_POPUP_CVV_LINK', 'What\'s this?');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_OWNER', '* The owner\'s name of the credit card must be at least ' . CC_OWNER_MIN_LENGTH . ' characters.\n');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_NUMBER', '* The credit card number must be at least ' . CC_NUMBER_MIN_LENGTH . ' characters.\n');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_CVV', '* The 3 or 4 digit CVV number must be entered from the back of the credit card.\n');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR_MESSAGE', 'There has been an error processing your credit card. Please try again.');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DECLINED_MESSAGE', 'Your credit card was declined. Please try another card or contact your bank for more info.');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR', 'Credit Card Error!');

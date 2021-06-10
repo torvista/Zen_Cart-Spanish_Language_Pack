@@ -1,4 +1,4 @@
-<?php //TODO Spanish Language Pack for Zen Cart 1.6x: https://github.com/torvista/Zen-Cart-1.6x-Spanish-Language-Pack
+<?php
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -19,8 +19,8 @@
 // +----------------------------------------------------------------------+
 // $Id: popup_shipping_estimator.php 2642 2005-12-21 15:35:44Z ajeh $
 //
-define('HEADING_SEARCH_HELP', 'Estimación del Coste del Envío:');
-define('TEXT_TOTAL_ITEMS', 'Cant. Productos: ');
-define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;Peso: ');
-define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;Valor: ');
+define('HEADING_SEARCH_HELP', 'Shipping Estimator:');
+define('TEXT_TOTAL_ITEMS', 'Total Items: ');
+define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;Weight: ');
+define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;Amount: ');
 ?>
