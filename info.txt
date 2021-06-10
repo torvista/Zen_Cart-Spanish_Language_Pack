@@ -1,0 +1,60 @@
+https://sourceforge.net/projects/zencartspanish/
+
+Spanish Language Pack UTF-8
+para Zen Cart 1.39b
+Mayo 2010
+
+Este pack es la primera versión completa (incluidos todos los archivos y botones) en castellano para Zen Cart.
+¿Por qué? Para ampliar el uso de Zen Cart en la comunidad en castellano, y por ello espero que la comunidad contribuya con mejoras y correcciones al pack.
+
+Formato de la Fecha
+Las versiones “ dd_mm_aaaa spanish.php” (para Admin y el
+Catálogo) tienen el código alterado para mostrar las fechas en el formato dd_mm_aaaa en vez de mm_dd_aaaa de las versiones originales.
+Para usarlas, borre spanish.php y renombre dd_mm_aaa spanish.php a spanish.php.
+ 
+Botones
+Los botones se han creado con el Zen Button Construction Kit:
+http://www.zen-cart.com/index.php?main_page=product_contrib_info&products_id=743
+(este módulo no es compatible con PHP5.3)
+ 
+Para cualquier comentario o cambio con el fin de mejorar la traducción, escríbame en http://sourceforge.net/projects/zencartspanish/support
+o en el foro
+http://www.zen-cart.com/forum/showthread.php?p=876486
+
+a través del Bugs Tracker.
+
+Muchas Gracias
+Steve S. 
+
+
+-----------------------------
+
+Spanish Language Pack UTF-8
+For Zen Cart 1.39b
+May 2010
+
+This is the first complete (including all files and buttons) Spanish language pack for Zen Cart.
+Why have I done it? To encourage the use of Zen Cart in the spanish-speaking community, and it is hoped that the same community will contribute to the continuous improvement of this pack.
+ 
+Date Format
+There are two versions of the main language file spanish.php  in both the admin and catalog folders.
+The “dd_mm_aaaa  spanish.php” version should be used if you want to display the date in dd_mm_yyyy format rather than the default mm_dd_yyyy.
+(ie delete spanish.php and rename dd_mm_aaaa spanish.php to spanish.php)
+
+Buttons
+The buttons were created with the Zen Button Construction Kit:
+http://www.zen-cart.com/index.php?main_page=product_contrib_info&products_id=743
+(this module is NOT currently php5.3 compatible).
+
+Please help to maintain and improve this translation by sending comments and corrections via the download site:
+http://sourceforge.net/projects/zencartspanish/support
+using the bugs tracker.
+
+or in the forum
+http://www.zen-cart.com/forum/showthread.php?p=876486
+
+Thanks
+Steve S.
+--
+
+
