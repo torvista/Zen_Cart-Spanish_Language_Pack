@@ -12,7 +12,7 @@
 //define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
 // END: moved to meta_tags.php
 
-  define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '"' . STORE_NAME . '</a>. E-commerce:<a href="http://www.zen-cart.com" rel="noopener noreferrer" target="_blank">Zen Cart</a>');
+  define('FOOTER_TEXT_BODY', 'Derechos  &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. <a href="https://www.zen-cart.com" rel="noopener noreferrer" target="_blank">Zen Cart e-commerce</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales...or use the script in /extras provided by this language pack
   $locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
