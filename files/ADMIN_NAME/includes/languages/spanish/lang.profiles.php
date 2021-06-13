@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,26 +7,26 @@
 */
 
 $define = [
-    'HEADING_TITLE_ALL_PROFILES' => 'User Profiles',
-    'HEADING_TITLE_INDIVIDUAL_PROFILE' => 'Profile for %s ',
-    'HEADING_TITLE_NEW_PROFILE' => 'New Profile for ',
-    'ERROR_NO_PROFILE_DEFINED' => 'The option that you requested cannot be undertaken without specifying a profile',
-    'ERROR_NO_PROFILE_NAME' => 'Please enter a name for the new profile',
-    'ERROR_INVALID_PROFILE_NAME' => 'Please enter a valid name for the profile',
-    'ERROR_DUPLICATE_PROFILE_NAME' => 'A profile with that name already exists. Please choose a different name or edit the existing profile',
-    'ERROR_NO_PAGES_IN_PROFILE' => 'A profile cannot be empty, please select some pages',
-    'ERROR_UNABLE_TO_CREATE_PROFILE' => 'Unable to create profile',
-    'SUCCESS_PROFILE_INSERTED' => 'Profile Added.',
-    'SUCCESS_PROFILE_UPDATED' => 'Profile Updated',
-    'SUCCESS_PROFILE_NAME_UPDATED' => 'Profile Name Updated',
-    'SUCCESS_PROFILE_DELETED' => 'Profile Deleted',
+    'HEADING_TITLE_ALL_PROFILES' => 'Perfiles de Usuarios',
+    'HEADING_TITLE_INDIVIDUAL_PROFILE' => 'Perfil para %s ',
+    'HEADING_TITLE_NEW_PROFILE' => 'Perfil nuevo para ',
+    'ERROR_NO_PROFILE_DEFINED' => 'La opción solicitada no está disponible sin especificar un perfil',
+    'ERROR_NO_PROFILE_NAME' => 'Teclee un nombre para el perfil nuevo',
+    'ERROR_INVALID_PROFILE_NAME' => 'Teclee un nombre válido para el perfil.',
+    'ERROR_DUPLICATE_PROFILE_NAME' => 'Un perfil con ese nombre ya existe. Elija otro nombre o edite el perfil existente.',
+    'ERROR_NO_PAGES_IN_PROFILE' => 'Un perfil no puede estar vacío => seleccione algunas páginas',
+    'ERROR_UNABLE_TO_CREATE_PROFILE' => 'No se puede crear el perfil',
+    'SUCCESS_PROFILE_INSERTED' => 'Perfil Añadido',
+    'SUCCESS_PROFILE_UPDATED' => 'Perfil Actualizado',
+    'SUCCESS_PROFILE_NAME_UPDATED' => 'Nombre de Perfil Actualizado',
+    'SUCCESS_PROFILE_DELETED' => 'Perfil Borrado',
     'TEXT_ID' => 'ID',
-    'TEXT_NAME' => 'Name',
-    'TEXT_USERS' => 'Users',
-    'TEXT_NO_PROFILES_FOUND' => 'No profiles have been defined yet',
-    'IMAGE_ADD_PROFILE' => 'Add Profile',
-    'IMAGE_RENAME' => 'Rename',
-    'TEXT_CONFIRM_DELETE' => 'Delete requested. Please confirm: ',
+    'TEXT_NAME' => 'Nombre',
+    'TEXT_USERS' => 'Usuarios',
+    'TEXT_NO_PROFILES_FOUND' => 'Ningún perfil ha sido definido todavía',
+    'IMAGE_ADD_PROFILE' => 'Añadir Perfil',
+    'IMAGE_RENAME' => 'Renombrar',
+    'TEXT_CONFIRM_DELETE' => '¿Borrar cuenta Admin? Confirmar: ',
 ];
 
 return $define;

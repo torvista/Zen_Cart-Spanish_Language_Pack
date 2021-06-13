@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,20 +7,20 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Zones',
-    'TABLE_HEADING_COUNTRY_NAME' => 'Country',
-    'TABLE_HEADING_ZONE_NAME' => 'Zones',
-    'TABLE_HEADING_ZONE_CODE' => 'Code',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TEXT_INFO_EDIT_INTRO' => 'Please make any necessary changes',
-    'TEXT_INFO_ZONES_NAME' => 'Zones Name:',
-    'TEXT_INFO_ZONES_CODE' => 'Zones Code:',
-    'TEXT_INFO_COUNTRY_NAME' => 'Country:',
-    'TEXT_INFO_INSERT_INTRO' => 'Please enter the new zone with its related data',
-    'TEXT_INFO_DELETE_INTRO' => 'Are you sure you want to delete this zone?',
-    'TEXT_INFO_HEADING_NEW_ZONE' => 'New Zone',
-    'TEXT_INFO_HEADING_EDIT_ZONE' => 'Edit Zone',
-    'TEXT_INFO_HEADING_DELETE_ZONE' => 'Delete Zone',
+    'HEADING_TITLE' => 'Zonas',
+    'TABLE_HEADING_COUNTRY_NAME' => 'País',
+    'TABLE_HEADING_ZONE_NAME' => 'Zona',
+    'TABLE_HEADING_ZONE_CODE' => 'Código',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TEXT_INFO_EDIT_INTRO' => 'Haga los cambios necesarios',
+    'TEXT_INFO_ZONES_NAME' => 'Nombre de Zona:',
+    'TEXT_INFO_ZONES_CODE' => 'Código de Zona:',
+    'TEXT_INFO_COUNTRY_NAME' => 'País:',
+    'TEXT_INFO_INSERT_INTRO' => 'Introduzca la nueva zona con sus datos relacionados',
+    'TEXT_INFO_DELETE_INTRO' => '¿Seguro que desea eliminar esta zona?',
+    'TEXT_INFO_HEADING_NEW_ZONE' => 'Nueva Zona',
+    'TEXT_INFO_HEADING_EDIT_ZONE' => 'Editar Zona',
+    'TEXT_INFO_HEADING_DELETE_ZONE' => 'Borrar Zona',
 ];
 
 return $define;

@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,27 +7,27 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Record Companies',
-    'TABLE_HEADING_RECORD_COMPANY' => 'Record Company',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TEXT_NEW_INTRO' => 'Please enter the details of the new Record Company below.',
-    'TEXT_EDIT_INTRO' => 'Please amend the details of the Record Company below.',
-    'TEXT_DELETE_INTRO' => 'Are you sure you want to delete this Record Company.',
-    'TEXT_DELETE_IMAGE' => 'Delete Image?.',
-    'TEXT_RECORD_COMPANY_NAME' => 'Record Company Name',
-    'TEXT_RECORD_COMPANY_IMAGE' => 'Record Company Image',
-    'TEXT_RECORD_COMPANY_URL' => 'Record Company Web Site',
-    'TEXT_RECORD_COMPANY_IMAGE_DIR' => 'Image Directory&nbsp;',
-    'TEXT_RECORD_COMPANY_IMAGE_MANUAL' => '<strong>Or, select an existing image file from server, filename:</strong>',
-    'TEXT_HEADING_NEW_RECORD_COMPANY' => 'New Record Company',
-    'TEXT_HEADING_EDIT_RECORD_COMPANY' => 'Edit Record Company',
-    'TEXT_HEADING_DELETE_RECORD_COMPANY' => 'Delete Record Company',
-    'TEXT_DATE_ADDED' => 'Date Added',
-    'TEXT_LAST_MODIFIED' => 'Date Modified',
-    'TEXT_PRODUCTS' => 'Linked Products',
-    'TEXT_DISPLAY_NUMBER_OF_RECORD_COMPANIES' => 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> Record Companies)',
-    'TEXT_DELETE_PRODUCTS' => 'Delete this Record Company and all items linked to it?',
-    'TEXT_DELETE_WARNING_PRODUCTS' => '<b>WARNING:</b> There are %s items still linked to this Record Company!',
+    'HEADING_TITLE' => 'Discográficas',
+      'TABLE_HEADING_RECORD_COMPANY' => 'Discográfica',
+      'TABLE_HEADING_ACTION' => 'Acción',
+      'TEXT_NEW_INTRO' => 'Introduzca los detalles de la nueva discográfica a continuación.',
+      'TEXT_EDIT_INTRO' => 'Rectifique los detalles de la discográfica a continuación.',
+      'TEXT_DELETE_INTRO' => '¿Está seguro de que desea borrar esta discográfica?',
+      'TEXT_DELETE_IMAGE' => '¿Borrar imagen?.',
+      'TEXT_RECORD_COMPANY_NAME' => 'Nombre de la discográfica',
+      'TEXT_RECORD_COMPANY_IMAGE' => 'Imagen de la discográfica',
+      'TEXT_RECORD_COMPANY_URL' => 'Página web de la discográfica',
+      'TEXT_RECORD_COMPANY_IMAGE_DIR' => 'Directorio de imágenes&nbsp;',
+      'TEXT_RECORD_COMPANY_IMAGE_MANUAL' => '<strong>O => seleccione una imagen existente del servidor => nombre:</strong>',
+      'TEXT_HEADING_NEW_RECORD_COMPANY' => 'Nueva discográfica',
+      'TEXT_HEADING_EDIT_RECORD_COMPANY' => 'Editar discográfica',
+      'TEXT_HEADING_DELETE_RECORD_COMPANY' => 'Borrar discográfica',
+      'TEXT_DATE_ADDED' => 'Añadido el',
+      'TEXT_LAST_MODIFIED' => 'Modificado el',
+      'TEXT_PRODUCTS' => 'Productos enlazados',
+      'TEXT_DISPLAY_NUMBER_OF_RECORD_COMPANIES' => 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> discográficas)',
+      'TEXT_DELETE_PRODUCTS' => '¿Borrar esta discográfica y todos los elementos enlazados a ella?',
+      'TEXT_DELETE_WARNING_PRODUCTS' => '<b>ATENCIÓN:</b> ¡Hay %s elementos todavía enlazados a esta discográfica!',
 ];
 
 return $define;

@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,29 +7,29 @@
 */
 
 $define = [
-    'TEXT_PAYPAL_IPN_SORT_ORDER_INFO' => 'Display Order: ',
-    'TEXT_SORT_PAYPAL_ID_DESC' => 'PayPal Order Received (new - old)',
-    'TEXT_SORT_PAYPAL_ID' => 'PayPal Order Received (old - new)',
-    'TEXT_SORT_ZEN_ORDER_ID_DESC' => 'Order ID (high - low), PayPal Order Received',
-    'TEXT_SORT_ZEN_ORDER_ID' => 'Order ID (low - high), PayPal Order Received',
-    'TEXT_PAYMENT_AMOUNT_DESC' => 'Order Amount (high - low)',
-    'TEXT_PAYMENT_AMOUNT' => 'Order Amount (low - high)',
-    'HEADING_ADMIN_TITLE' => 'PayPal Instant Payment Notifications',
-    'HEADING_PAYMENT_STATUS' => 'Payment Status',
-    'TEXT_ALL_IPNS' => 'All',
-    'TABLE_HEADING_ORDER_NUMBER' => 'Order #',
+    'TEXT_PAYPAL_IPN_SORT_ORDER_INFO' => 'Mostrar Pedido: ',
+    'TEXT_SORT_PAYPAL_ID_DESC' => 'Pedido PayPal Recibido (nuevo - antiguo)',
+    'TEXT_SORT_PAYPAL_ID' => 'PayPal Pedido Recibido (nuevo - antiguo)',
+    'TEXT_SORT_ZEN_ORDER_ID_DESC' => 'ID Pedido (alto - bajo) => PayPal Pedido Recibido',
+    'TEXT_SORT_ZEN_ORDER_ID' => 'Pedido (bajo - alto) => PayPal Pedido Recibido',
+    'TEXT_PAYMENT_AMOUNT_DESC' => 'Valor del Pedido (alto - bajo)',
+    'TEXT_PAYMENT_AMOUNT' => 'Valor del Pedido (bajo - alto)',
+    'HEADING_ADMIN_TITLE' => 'Notificaciones de pago instantáneo de PayPal',
+    'HEADING_PAYMENT_STATUS' => 'Estado del pago',
+    'TEXT_ALL_IPNS' => 'Todo',
+    'TABLE_HEADING_ORDER_NUMBER' => 'Pedido Nº',
     'TABLE_HEADING_PAYPAL_ID' => 'PayPal #',
-    'TABLE_HEADING_TXN_TYPE' => 'Transaction Type',
-    'TABLE_HEADING_PAYMENT_STATUS' => 'Payment Status',
-    'TABLE_HEADING_PAYMENT_AMOUNT' => 'Amount',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TABLE_HEADING_DATE_ADDED' => 'Date Added',
-    'TABLE_HEADING_NUM_HISTORY_ENTRIES' => 'Number of entries in Status History',
-    'TABLE_HEADING_ENTRY_NUM' => 'Entry Number',
-    'TABLE_HEADING_TRANS_ID' => 'Trans. ID',
-    'TABLE_HEADING_PENDING_REASON' => 'Pending Reason',
+    'TABLE_HEADING_TXN_TYPE' => 'Tipo de transacción',
+    'TABLE_HEADING_PAYMENT_STATUS' => 'Estado del pago',
+    'TABLE_HEADING_PAYMENT_AMOUNT' => 'Cantidad',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TABLE_HEADING_DATE_ADDED' => 'Añadido el',
+    'TABLE_HEADING_NUM_HISTORY_ENTRIES' => 'Cantidad entradas en el historial de estado',
+    'TABLE_HEADING_ENTRY_NUM' => 'Entrada número',
+    'TABLE_HEADING_TRANS_ID' => 'ID de trans.',
+    'TABLE_HEADING_PENDING_REASON' => 'Razón Pendiente',
     'TEXT_INFO_PAYPAL_IPN_HEADING' => 'PayPal IPN',
-    'TEXT_DISPLAY_PAYPAL_IPN_NUMBER_OF_TX' => 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> Transactions)',
+    'TEXT_DISPLAY_PAYPAL_IPN_NUMBER_OF_TX' => 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Transacciones)',
 ];
 
 return $define;

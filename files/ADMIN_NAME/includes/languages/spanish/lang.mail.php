@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,21 +7,21 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Send Email To Customers',
-    'TEXT_CUSTOMER' => 'Customer:',
-    'TEXT_SUBJECT' => 'Subject:',
-    'TEXT_FROM' => 'From:',
-    'TEXT_MESSAGE' => 'Text-Only <br />Message:',
-    'TEXT_MESSAGE_HTML' => 'Rich Text <br />Message:',
-    'TEXT_ATTACHMENTS_LIST' => 'Selected Attachment: ',
-    'TEXT_SELECT_ATTACHMENT' => 'Attachment<br />on server: ',
-    'TEXT_SELECT_ATTACHMENT_TO_UPLOAD' => 'Attachment<br />to upload<br />&amp; attach: ',
-    'TEXT_ATTACHMENTS_DIR' => 'Folder for upload: ',
-    'NOTICE_EMAIL_SENT_TO' => 'Notice: Email sent to: %s',
-    'NOTICE_EMAIL_FAILED_SEND' => 'Notice: FAILED to send Email to all recipients: %s',
-    'ERROR_NO_CUSTOMER_SELECTED' => 'Error: No customer has been selected.',
-    'ERROR_NO_SUBJECT' => 'Error: No subject has been entered.',
-    'ERROR_ATTACHMENTS' => 'Error: You cannot select to both UPLOAD and ADD separate attachments. Please choose one only.',
+    'HEADING_TITLE' => 'Enviar Emails a los Clientes',
+    'TEXT_CUSTOMER' => 'Cliente:',
+    'TEXT_SUBJECT' => 'Asunto:',
+    'TEXT_FROM' => 'De:',
+    'TEXT_MESSAGE' => 'Mensaje <br>sólo texto:',
+    'TEXT_MESSAGE_HTML','Mensaje <br>RTF:',
+    'TEXT_ATTACHMENTS_LIST','Adjunto seleccionado: ',
+    'TEXT_SELECT_ATTACHMENT','Adjunto<br>en servidor: ',
+    'TEXT_SELECT_ATTACHMENT_TO_UPLOAD','Adjunto<br>a subir<br>y adjuntar: ',
+    'TEXT_ATTACHMENTS_DIR','Directorio para subida: ',
+    'NOTICE_EMAIL_SENT_TO' => 'Aviso: Email enviado a: %s',
+    'NOTICE_EMAIL_FAILED_SEND' => 'Aviso: FALLO en el intento enviar Email a todos los destinatarios: %s',
+    'ERROR_NO_CUSTOMER_SELECTED' => 'Error: No ha seleccionado ningún cliente.',
+    'ERROR_NO_SUBJECT' => 'Error: No se ha introducido ningún asunto.',
+    'ERROR_ATTACHMENTS' => 'Error: No puede seleccionar SUBIR y AÑADIR a la vez adjuntos separados. Seleccione sólo uno => por favor.',
 ];
 
 return $define;

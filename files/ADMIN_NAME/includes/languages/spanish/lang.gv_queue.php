@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,22 +7,22 @@
 */
 
 $define = [
-    'HEADING_TITLE' => '%%TEXT_GV_NAME%%' . ' Release Queue',
-    'TABLE_HEADING_CUSTOMERS' => 'Customers',
-    'TABLE_HEADING_ORDERS_ID' => 'Order-No.',
-    'TABLE_HEADING_VOUCHER_VALUE' => '%%TEXT_GV_NAME%%' . ' Value',
-    'TABLE_HEADING_DATE_PURCHASED' => 'Date Purchased',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TEXT_REDEEM_GV_MESSAGE_HEADER' => 'You recently purchased a ' . '%%TEXT_GV_NAME%%' . ' from our online store.',
-    'TEXT_REDEEM_GV_MESSAGE_RELEASED' => 'For security reasons this was not made immediately available to you. ',
-    'TEXT_REDEEM_GV_MESSAGE_AMOUNT' => 'The ' . '%%TEXT_GV_NAME%%' . '(s) you purchased are worth %s',
-    'TEXT_REDEEM_GV_MESSAGE_THANKS' => 'Thank you for shopping with us!',
+    'HEADING_TITLE' => TEXT_GV_NAMES  . ' Emitidos',
+    'TABLE_HEADING_CUSTOMERS' => 'Clientes',
+    'TABLE_HEADING_ORDERS_ID' => 'Nº Pedido',
+    'TABLE_HEADING_VOUCHER_VALUE' => 'Valor ' . TEXT_GV_NAME,
+    'TABLE_HEADING_DATE_PURCHASED' => 'Fecha de Compra',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TEXT_REDEEM_GV_MESSAGE_HEADER' => 'Usted compró recientemente un ' . TEXT_GV_NAME . ' de nuestra tienda online.',                
+    'TEXT_REDEEM_GV_MESSAGE_RELEASED' => 'Por razones de seguridad => no estuvo disponible inmediatamente para usted. ',
+    'TEXT_REDEEM_GV_MESSAGE_AMOUNT' => 'El ' . TEXT_GV_NAME . '(s) que usted compró vale %s',
+    'TEXT_REDEEM_GV_MESSAGE_THANKS' => '!Gracias por comprar con nosotros!',
     'TEXT_REDEEM_GV_MESSAGE_BODY' => '',
     'TEXT_REDEEM_GV_MESSAGE_FOOTER' => '',
-    'TEXT_REDEEM_GV_SUBJECT' => '%%TEXT_GV_NAME%%' . ' Purchase',
-    'TEXT_REDEEM_GV_SUBJECT_ORDER' => ' Order #',
-    'TEXT_EDIT_ORDER' => 'Edit Order ID# ',
-    'TEXT_GV_NONE' => 'No ' . '%%TEXT_GV_NAME%%' . ' to release',
+    'TEXT_REDEEM_GV_SUBJECT' => 'Compra de ' . TEXT_GV_NAME,
+    'TEXT_REDEEM_GV_SUBJECT_ORDER',' Pedido #',
+    'TEXT_EDIT_ORDER','Editar ID# Pedido ',
+    'TEXT_GV_NONE','Ningún ' . TEXT_GV_NAME . ' a emitir',
 ];
 
 return $define;

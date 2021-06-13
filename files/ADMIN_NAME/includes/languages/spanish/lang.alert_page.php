@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,12 +7,12 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Warning!',
-    'ALERT_PART1' => 'Warning: You cannot access the admin area until you have',
-    'ALERT_RENAME_ADMIN' => 'renamed the admin folder.',
-    'ALERT_REMOVE_ZCINSTALL' => 'deleted the zc_install folder.<br>(Use your FTP program or your hosting control panel.)',
-    'ADMIN_RENAME_FAQ_NOTE' => 'Help for renaming the admin folder can be found here',
-    'ALERT_PART2' => 'Then, to access your admin area, type the admin URL into your browser, ie: <u>http://www.your_site.com/YourAdminFolder/</u> ',
+    'HEADING_TITLE' => '¡Precaución!',
+    'ALERT_PART1' => '¡Precaución: no se puede acceder la zona de administración hasta que',
+    'ALERT_RENAME_ADMIN' => 'ha renombrado la carpeta "admin".',
+    'ALERT_REMOVE_ZCINSTALL' => 'ha borrado la carpeta de los archivos de instalación "zc_install".<br>(Utilice su programa FTP o el panel de control del hosting.)',
+    'ADMIN_RENAME_FAQ_NOTE' => 'Obtendrá ayuda aquí para poder renombrar la carpeta "admin"',
+    'ALERT_PART2' => 'Después => para acceder la zona de administración => teclee el URL en su navegador => p.ej.: <u>http://www.SuPaginaWeb.com/SuCarpetaDeAdmin/</u> ',
 ];
 
 return $define;

@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,26 +7,26 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Category',
-    'TEXT_EDIT_INTRO' => 'Please edit as required',
-    'TEXT_EDIT_CATEGORIES_NAME' => 'Category Name:',
-    'TEXT_CATEGORIES_DESCRIPTION' => 'Category Description:',
-    'TEXT_CATEGORIES_IMAGE' => 'Category Image:',
-    'TEXT_FILENAME' => 'Filename: %1$s (%2$upx x %3$upx / %4$ukB)',
-    'TEXT_EDIT_CATEGORIES_IMAGE' => 'Edit Category Image:',
-    'TEXT_CATEGORIES_IMAGE_DIR' => 'Upload to / Use an existing image in:<br>/images/<em>(subdirectory)</em>',
-    'TEXT_CATEGORIES_IMAGE_MANUAL' => 'Use an existing image file in the above selected directory, filename:',
-    'TEXT_EDIT_SORT_ORDER' => 'Sort Order:',
-    'TEXT_RESTRICT_PRODUCT_TYPE' => 'Restrict to Product Type',
-    'TEXT_CATEGORY_HAS_RESTRICTIONS' => 'This Category has been restricted to these Product Types',
-    'MESSAGE_IMAGE_REMOVED_CATEGORY' => 'Image removed from category #%1$u "%2$s".',
-    'MESSAGE_IMAGE_ADDED_MANUAL' => 'Image was manually added to category #%1$u "%2$s".',
-    'ERROR_IMAGE_MANUAL_NOT_FOUND' => 'The manually added image "%s" was not found.',
-    'TEXT_INFO_HEADING_EDIT_CATEGORY_META_TAGS' => 'Categories Meta Tags Definitions',
-    'TEXT_EDIT_CATEGORIES_META_TAGS_INTRO' => 'Define Custom Meta Tags for ID#%1$u - "%2$s"',
-    'TEXT_EDIT_CATEGORIES_META_TAGS_TITLE' => 'Page Title (browser tab):',
-    'TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS' => 'Meta Keywords:',
-    'TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION' => 'Meta Description:',
+    'HEADING_TITLE' => 'Categorías / Productos',
+    'TEXT_EDIT_INTRO' => 'Realice los cambios necesarios',
+    'TEXT_EDIT_CATEGORIES_NAME' => 'Nombre de la Categoría:',
+    'TEXT_CATEGORIES_DESCRIPTION' => 'Descripción de la Categoría:',
+    'TEXT_CATEGORIES_IMAGE' => 'Imagen de la Categoría:',
+    'TEXT_FILENAME' => 'Archivo: %1$s (%2$upx x %3$upx / %4$ukB)',
+    'TEXT_EDIT_CATEGORIES_IMAGE' => 'Cambiar Imagen:',
+    'TEXT_CATEGORIES_IMAGE_DIR' => 'Subir al directorio / Utilice una imagen existente en:<br>/images/<em>(subdirectory)</em>',
+    'TEXT_CATEGORIES_IMAGE_MANUAL' => 'O => seleccione una imagen de la carpeta seleccionada => nombre del archivo:',
+    'TEXT_EDIT_SORT_ORDER' => 'Orden:',
+    'TEXT_RESTRICT_PRODUCT_TYPE' => 'Restringir a un Product Type',
+    'TEXT_CATEGORY_HAS_RESTRICTIONS' => 'Esta categoría ha sido restringida a estos Product Types',
+    'MESSAGE_IMAGE_REMOVED_CATEGORY' => 'Categoría #%1$u "%2$s": imagen borrada',
+    'MESSAGE_IMAGE_ADDED_MANUAL' => 'La imagen fue añadida manualmente a la categoría #%1$u "%2$s".',
+    'ERROR_IMAGE_MANUAL_NOT_FOUND' => 'No se encontró la imagen "%s".',
+    'TEXT_INFO_HEADING_EDIT_CATEGORY_META_TAGS' => 'Definiciones Metas Tags para Categorías',
+    'TEXT_EDIT_CATEGORIES_META_TAGS_INTRO' => 'Define Meta Tags Personalizados para ID#%1$u - "%2$s"',
+    'TEXT_EDIT_CATEGORIES_META_TAGS_TITLE' => 'Título Página (pestaña navegador):',
+    'TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS' => 'Meta Palabras Claves:',
+    'TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION' => 'Meta Descripción:',
 ];
 
 return $define;

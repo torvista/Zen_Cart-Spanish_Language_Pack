@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,28 +7,28 @@
 */
 
 $define = [
-    'FILTER_STATUS' => '<b>Filter by Order Status</b>',
-    'FILTER_VALUE' => '<b>Filter On/Off</b>',
-    'HEADING_TITLE' => 'Sales Reports',
-    'TODAY_TO_DATE' => 'Daily Totals',
-    'WEEK_TO_DATE' => 'Weekly Totals',
-    'MONTH_TO_DATE' => 'Monthly Totals',
-    'AVERAGE_ORDER' => 'Average order amount',
-    'CHART_TOTAL_SALES' => 'Total Sales',
-    'CHART_AVERAGE_SALE_AMOUNT' => 'Average Sale Amount',
-    'TEXT_PREVIOUS_LINK' => '&lt;&lt;&nbsp;Previous',
-    'TEXT_NEXT_LINK' => 'Next&nbsp;&gt;&gt;',
-    'REPORT_TEXT_ORDERS' => 'Orders',
-    'REPORT_TEXT_CONVERSION_PER_ORDER' => 'Conversion per Order',
-    'REPORT_TEXT_CONVERSION' => 'Conversion',
-    'REPORT_TEXT_VARIANCE' => 'Variance',
-    'REPORT_TEXT_HOURLY' => 'Hourly',
-    'REPORT_TEXT_DAILY' => 'Daily',
-    'REPORT_TEXT_WEEKLY' => 'Weekly',
-    'REPORT_TEXT_MONTHLY' => 'Monthly',
-    'REPORT_TEXT_YEARLY' => 'Yearly',
-    'YEARLY_TOTAL' => 'Yearly Total',
-    'CHART_TEXT_AVERAGE' => 'Average',
+    'FILTER_STATUS' => '<b>Filtrar por Estado del Pedido </b>',
+    'FILTER_VALUE' => '<b>Filtro Activo/Inactivo </b>',
+    'HEADING_TITLE' => 'Informes de Ventas',
+    'TODAY_TO_DATE' => 'Totales Diarios',
+    'WEEK_TO_DATE' => 'Totales Semanales',
+    'MONTH_TO_DATE' => 'Totales Mensuales',
+    'AVERAGE_ORDER' => 'Valor Promedio de Pedido',
+    'CHART_TOTAL_SALES' => 'Total de Ventas',
+    'CHART_AVERAGE_SALE_AMOUNT' => 'Venta Promedia',
+    'TEXT_PREVIOUS_LINK' => '&lt;&lt;&nbsp;Previa',
+    'TEXT_NEXT_LINK' => 'Próxima&nbsp;&gt;&gt;',
+    'REPORT_TEXT_ORDERS' => 'Pedidos',
+    'REPORT_TEXT_CONVERSION_PER_ORDER' => 'Conversión por Pedido',
+    'REPORT_TEXT_CONVERSION' => 'Conversión',
+    'REPORT_TEXT_VARIANCE' => 'Variante',
+    'REPORT_TEXT_HOURLY' => 'Por Hora',
+    'REPORT_TEXT_DAILY' => 'Diario',
+    'REPORT_TEXT_WEEKLY' => 'Semanal',
+    'REPORT_TEXT_MONTHLY' => 'Mensual',
+    'REPORT_TEXT_YEARLY' => 'Anual',
+    'YEARLY_TOTAL' => 'Total Anual',
+    'CHART_TEXT_AVERAGE' => 'Promedio',
 ];
 
 return $define;

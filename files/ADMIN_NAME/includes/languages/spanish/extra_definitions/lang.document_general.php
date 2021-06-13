@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,15 +7,15 @@
 */
 
 $define = [
-    'TEXT_DOCUMENT_STATUS' => 'Document Status:',
-    'TEXT_DOCUMENT_DATE_AVAILABLE' => 'Date Available:',
-    'TEXT_DOCUMENT_AVAILABLE' => 'Available',
-    'TEXT_DOCUMENT_NAME' => 'Document Name:',
-    'TEXT_DOCUMENT_DETAILS' => 'Document Contents:',
-    'TEXT_DOCUMENT_IMAGE' => 'Document Image:',
-    'TEXT_DOCUMENT_IMAGE_DIR' => 'Upload to directory:',
-    'TEXT_DOCUMENT_URL' => 'Document URL:',
-    'TEXT_DOCUMENT_URL_WITHOUT_HTTP' => '<small>(without http://)</small>',
+    'TEXT_DOCUMENT_STATUS' => 'Estatus Documento:',
+    'TEXT_DOCUMENT_DATE_AVAILABLE' => 'Fecha Disponible:',
+    'TEXT_DOCUMENT_AVAILABLE' => 'Disponible',
+    'TEXT_DOCUMENT_NAME' => 'Nombre Documento:',
+    'TEXT_DOCUMENT_DETAILS' => 'Contenido Documento:',
+    'TEXT_DOCUMENT_IMAGE' => 'Imagen Documento:',
+    'TEXT_DOCUMENT_IMAGE_DIR' => 'Subir al directorio:',
+    'TEXT_DOCUMENT_URL' => 'URL Documento:',
+    'TEXT_DOCUMENT_URL_WITHOUT_HTTP' => '<small>(sin http://)</small>',
 ];
 
 return $define;

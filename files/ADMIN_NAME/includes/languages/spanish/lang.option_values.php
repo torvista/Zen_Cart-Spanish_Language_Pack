@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,18 +7,18 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Option Values Default Sort Order',
-    'TEXT_UPDATE_OPTION_VALUES' => 'Update Option Values Sort Order',
-    'TEXT_SELECT_OPTION' => 'Select an Option Name:',
-    'TEXT_EDIT_OPTION_NAME' => 'Editing Option Name: ',
-    'TEXT_NO_OPTION_VALUE' => 'No Option Values Defined for<br />Option Name: ',
-    'TEXT_UPDATE_SUBMIT' => 'Update Sort Order',
-    'TEXT_UPDATE_SORT_ORDERS_OPTIONS_PRODUCTS' => '<strong>For a Product:</strong> ',
-    'TEXT_UPDATE_SORT_ORDERS_OPTIONS_CATEGORIES' => '<strong>For a Category:</strong> ',
-    'SUCCESS_PRODUCT_UPDATE_SORT' => 'Successful Attribute Sort Order Update for ID# ',
-    'SUCCESS_PRODUCT_UPDATE_SORT_ALL' => 'Successful Attribute Sort Order Update for ALL Products ',
-    'SUCCESS_OPTION_VALUES_SORT_ORDER' => 'Successful Update of Option Values Sort Order: ',
-    'SUCCESS_CATEGORIES_UPDATE_SORT' => 'Successful Attribute Sort Order Update for Categories ID# ',
+    'HEADING_TITLE' => 'Orden por defecto de los Valores de las Opciones',
+      'TEXT_UPDATE_OPTION_VALUES' => 'Actualizar orden de los Valores de las Opciones',
+      'TEXT_SELECT_OPTION' => 'Seleccionar un Nombre de Opción:',
+      'TEXT_EDIT_OPTION_NAME' => 'Editando un Nombre de Opción: ',
+      'TEXT_NO_OPTION_VALUE' => 'No hay Valores de Opciones definidos para <br>Nombre de Opción: ',
+      'TEXT_UPDATE_SUBMIT' => 'Actualizar Orden',
+      'TEXT_UPDATE_SORT_ORDERS_OPTIONS_PRODUCTS' => '<strong>Para un producto:</strong> ',
+      'TEXT_UPDATE_SORT_ORDERS_OPTIONS_CATEGORIES' => '<strong>Para una categoría:</strong> ',
+      'SUCCESS_PRODUCT_UPDATE_SORT' => 'El orden de los atributos ha sido actualizado correctamente para Producto ID# ',
+      'SUCCESS_PRODUCT_UPDATE_SORT_ALL' => 'El orden de los atributos ha sido actualizado correctamente para TODOS los productos ',
+      'SUCCESS_OPTION_VALUES_SORT_ORDER' => 'El orden de los Valores de las Opciones ha sido actualizado correctamente: ',
+      'SUCCESS_CATEGORIES_UPDATE_SORT' => 'El orden de los atributos ha sido actualizado correctamente para las categorías ID# ',
 ];
 
 return $define;

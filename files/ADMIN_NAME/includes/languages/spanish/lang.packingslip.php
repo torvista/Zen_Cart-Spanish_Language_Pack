@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,17 +7,17 @@
 */
 
 $define = [
-    'TABLE_HEADING_COMMENTS' => 'Comments',
-    'TABLE_HEADING_CUSTOMER_NOTIFIED' => 'Customer Notified',
-    'TABLE_HEADING_DATE_ADDED' => 'Date Added',
-    'TABLE_HEADING_STATUS' => 'Status',
-    'TABLE_HEADING_PRODUCTS' => 'Products',
-    'ENTRY_CUSTOMER' => 'CUSTOMER:',
-    'ENTRY_SOLD_TO' => 'BILL TO:',
-    'ENTRY_SHIP_TO' => 'SHIP TO:',
-    'ENTRY_PAYMENT_METHOD' => 'Payment Method:',
-    'ENTRY_DATE_PURCHASED' => 'Date Ordered:',
-    'ENTRY_ORDER_ID' => 'Order No. ',
+    'TABLE_HEADING_COMMENTS' => 'Comentarios',
+    'TABLE_HEADING_CUSTOMER_NOTIFIED' => 'Cliente Notificado',
+    'TABLE_HEADING_DATE_ADDED' => 'Fecha Añadido',
+    'TABLE_HEADING_STATUS' => 'Estado',
+    'TABLE_HEADING_PRODUCTS' => 'Productos',
+    'ENTRY_CUSTOMER' => 'CLIENTE:',
+    'ENTRY_SOLD_TO' => 'FACTURAR A:',
+    'ENTRY_SHIP_TO' => 'ENVIAR A:',
+    'ENTRY_PAYMENT_METHOD' => 'Método de Pago:',
+    'ENTRY_DATE_PURCHASED' => 'Fecha de Pedido:',
+    'ENTRY_ORDER_ID','Nº Pedido. ',
 ];
 
 return $define;

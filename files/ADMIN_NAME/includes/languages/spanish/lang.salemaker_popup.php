@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,17 +7,17 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Salemaker',
-    'SUBHEADING_TITLE' => 'Salemaker Usage Tips:',
-    'TEXT_SALEMAKER_IMMEDIATELY' => 'Immediately',
-    'TEXT_SALEMAKER_NEVER' => 'Never',
-    'TEXT_CLOSE_WINDOW' => '[ close window ]',
-    'TABLE_HEADING_SALE_NAME' => 'SaleName',
-    'TABLE_HEADING_SALE_DEDUCTION' => 'Deduction',
-    'TABLE_HEADING_SALE_DATE_START' => 'Startdate',
-    'TABLE_HEADING_SALE_DATE_END' => 'Enddate',
-    'TABLE_HEADING_STATUS' => 'Status',
-    'TABLE_HEADING_ACTION' => 'Action',
+    'HEADING_TITLE' => 'Rebajas',
+    'SUBHEADING_TITLE' => 'Consejos:',
+    'TEXT_SALEMAKER_IMMEDIATELY' => 'Inmediatamente',
+    'TEXT_SALEMAKER_NEVER' => 'Nunca',
+    'TEXT_CLOSE_WINDOW' => '[ cerrar ventana ]',
+    'TABLE_HEADING_SALE_NAME' => 'Nombre de la rebaja',
+    'TABLE_HEADING_SALE_DEDUCTION' => 'Rebaja',
+    'TABLE_HEADING_SALE_DATE_START' => 'Comienzo',
+    'TABLE_HEADING_SALE_DATE_END' => 'Finalización',
+    'TABLE_HEADING_STATUS' => 'Estado',
+    'TABLE_HEADING_ACTION' => 'Acción',
 ];
 
 return $define;

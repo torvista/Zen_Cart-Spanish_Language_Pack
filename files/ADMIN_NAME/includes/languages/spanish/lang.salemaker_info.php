@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,58 +7,58 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Salemaker',
-    'SUBHEADING_TITLE' => 'Salemaker Usage Tips:',
+    'HEADING_TITLE' => 'Rebajas',
+    'SUBHEADING_TITLE' => 'Consejos:',
     'INFO_TEXT' => '<ul>
                       <li>
-                        Always use a \'.\' as decimal point in deduction and pricerange.
+                        Use siempre un \'.\' como decimal en rebajas y rangos de precio.
                       </li>
                       <li>
-                        Enter amounts in the same currency as you would when creating/editing a product.
+                        Ingrese las cantidades en la misma moneda que usaría al crear/editar un producto.
                       </li>
                       <li>
-                        In the Deduction fields, you can enter an amount or a percentage to deduct,
-                        or a replacement price. (eg. deduct $5.00 from all prices, deduct 10% from
-                        all prices or change all prices to $25.00)
+                        En las celdas de Rebajas puede ingresar una cantidad o un porcentaje a deducir,
+                        o un precio de remplazo. (ej: rebajar $5.00 de todos los precios => rebajar 10% de
+                        todos los precios o cambiar todos los precios a $25.00)
                       </li>
                       <li>
-                        Entering a price range narrows down the product range that will be affected. (eg.
-                        products from $50.00 to $150.00)
+                        Al ingresar un rango de precio se limita el rango de productos que será afectado. (ej.
+                        productos desde $50.00 a $150.00)
                       </li>
                       <li>
-                        You must choose the action to take if a product is a special <i>and</i> is subject to this sale:
+                        Debe elegir la acción a tomar si un producto es una oferta <i>y</i> está sujeto a esta liquidación:
 						<ul>
                           <li>
-                            <strong>Ignore Specials Price - Apply to Product Price and Replace Special</strong><br>
-							The salededuction will be applied to the regular price of the product.
-                            (eg. Regular price $10.00, Specials price is $9.50, SaleCondition is 10%.
-							The product\'s final price will show $9.00 on sale. The Specials price is ignored.)
+                            <strong>Ignorar Precios de Oferta: Aplicar al Precio del Producto y Reemplazar la Oferta</strong><br>
+							La rebaja será aplicada al precio normal del producto.
+                            (ej: el precio regular es $10.00 => el precio de oferta es $9.50 => la condición de rebaja es del 10%.
+							El precio final del producto será $9.00 en la rebaja. Los pecios de Oferta son ignorados.)
                           </li>
                           <li>
-                            <strong>Ignore SaleCondition - No Sale Applied When Special Exists</strong><br>
-                            The salededuction will not be applied to Specials. The Specials price will show just like
-                            when there is no sale defined. (eg. Regular price $10.00, Specials price is $9.50,
-                            SaleCondition is 10%. The product\'s final price will show $9.50 on sale.
-                            The SalesCondition is ignored.)
+                            <strong>Ignorar Condición de Rebaja: No Aplicar Rebaja Cuando Existan Ofertas</strong><br>
+                            La rebaja no se aplicará a las Ofertas. Los precios de Oferta se mostrarán como
+                            si no hubiera una rebaja definida. (ej: el precio normal es $10.00 => el precio de oferta es $9.50,
+                            la condición de rebaja es del 10%. El precio final del producto será $9.50 en la rebaja.
+                            La Condición de Rebaja es ignorada.)
                           </li>
                           <li>
-                            <strong>Apply SaleDeduction to Specials Price - Otherwise Apply to Price</strong><br>
-                            The salededuction will be applied to the Specials price. A compounded price will show.
-                            (eg. Regular price $10.00, Specials price is $9.50, SaleCondition is 10%. The product\'s
-                            final price will show $8.55. An additional 10% off the Specials price.)
+                            <strong>Aplicar Rebaja a los precios en Oferta: O si no => Aplicar al Precio</strong><br>
+                            La rebaja será aplicada al precio en Oferta. Se mostrará un precio combinado.
+                            (ej: el precio normal es $10.00 => el precio de oferta es $9.50 => la condición de oferta es del 10%. El
+                            precio final del producto será $8.55. Un descuento adicional del 10% sobre el precio de Oferta.)
                           </li>
                         </ul>
                       </li>
                       <li>
-                        Leaving the start date empty will start the sale immediately.
+                        Al dejar la fecha de comienzo vacía la liquidación comenzará inmediatamente.
                       </li>
                       <li>
-                        Leave the end date empty if you do not want the sale to expire.</li>
+                        Deje la fecha de finalización vacía si no quiere que expire la rebaja.</li>
                       <li>
-                        Checking a category automatically includes the sub-categories.
+                        Al marcar una categoría automáticamente se incluyen sus subcategorías.
                       </li>
                     </ul>',
-    'TEXT_CLOSE_WINDOW' => '[ close window ]',
+    'TEXT_CLOSE_WINDOW' => '[ cerrar ventana ]',
 ];
 
 return $define;

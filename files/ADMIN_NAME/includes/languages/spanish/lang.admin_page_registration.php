@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,27 +7,27 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Admin Page Registration',
+    'HEADING_TITLE' => 'Registración de Páginas Admin',
     'TEXT_PAGE_KEY' => 'Page Key',
-    'TEXT_LANGUAGE_KEY' => 'Page Name',
-    'TEXT_MAIN_PAGE' => 'Page Filename',
-    'TEXT_PAGE_PARAMS' => 'Page Parameters',
-    'TEXT_MENU_KEY' => 'Menu',
-    'TEXT_DISPLAY_ON_MENU' => 'Display on Menu?',
-    'TEXT_SORT_ORDER' => 'Sort Order',
-    'TEXT_EXAMPLE_PAGE_KEY' => '(e.g. myModPageName)',
-    'TEXT_EXAMPLE_LANGUAGE_KEY' => '(e.g. BOX_MY_MOD_PAGE_NAME)',
-    'TEXT_EXAMPLE_MAIN_PAGE' => '(e.g. FILENAME_PAGE_NAME)',
-    'TEXT_EXAMPLE_PAGE_PARAMS' => '(e.g. option=1 or, more usually, leave blank)',
-    'TEXT_SELECT_MENU' => 'Select Menu',
-    'ERROR_PAGE_KEY_NOT_ENTERED' => 'Page key not entered. All admin pages must have a unique page key.',
-    'ERROR_PAGE_KEY_ALREADY_EXISTS' => 'Page key already exists. Page keys must be unique.',
-    'ERROR_LANGUAGE_KEY_NOT_ENTERED' => 'Language key not entered. All admin page must have a language key that defines the text on any menu link.',
-    'ERROR_LANGUAGE_KEY_HAS_NOT_BEEN_DEFINED' => 'The language key entered has not been defined. Please check that it has been spelt correctly.',
-    'ERROR_MAIN_PAGE_NOT_ENTERED' => 'The filename definition for the page has not been entered.',
-    'ERROR_FILENAME_HAS_NOT_BEEN_DEFINED' => 'The filename definition entered does not exist. Please check that it has been spelt correctly.',
-    'ERROR_MENU_NOT_CHOSEN' => 'Menu not chosen. You must associate the new page with a menu, even if it will not be displayed on that menu.',
-    'SUCCESS_ADMIN_PAGE_REGISTERED' => 'Your admin page has been registered.',
+    'TEXT_LANGUAGE_KEY' => 'Página Nombre',
+    'TEXT_MAIN_PAGE' => 'Página Nombre del Archivo',
+    'TEXT_PAGE_PARAMS' => 'Página Parámetros',
+    'TEXT_MENU_KEY' => 'Añadir al Menú',
+    'TEXT_DISPLAY_ON_MENU' => '¿Mostrar en el Menú?',
+    'TEXT_SORT_ORDER' => 'Orden',
+    'TEXT_EXAMPLE_PAGE_KEY' => '(p.ej. myModPageName)',
+    'TEXT_EXAMPLE_LANGUAGE_KEY' => '(p.ej. BOX_MY_MOD_PAGE_NAME)',
+    'TEXT_EXAMPLE_MAIN_PAGE' => '(p.ej. FILENAME_PAGE_NAME)',
+    'TEXT_EXAMPLE_PAGE_PARAMS' => '(p.ej. option=1 o => suele dejarse en blanco)',
+    'TEXT_SELECT_MENU' => 'Seleccione Menú',
+    'ERROR_PAGE_KEY_NOT_ENTERED' => 'Clave de la página no definida. Todas las páginas del Admin deben tener una clave única.',
+    'ERROR_PAGE_KEY_ALREADY_EXISTS' => 'La clave de la página ya existe. La clave de la página debe ser única.',
+    'ERROR_LANGUAGE_KEY_NOT_ENTERED' => 'Precisa una clave de idioma. Todas las páginas del Admin deben tener una clave de idioma que define el texto en cualquier enlace del menú.',
+    'ERROR_LANGUAGE_KEY_HAS_NOT_BEEN_DEFINED' => 'La clave de idioma no ha sido definida. Compruebe que está escrita correctamente.',
+    'ERROR_MAIN_PAGE_NOT_ENTERED' => 'El nombre del archivo de la página no ha sido definido.',
+    'ERROR_FILENAME_HAS_NOT_BEEN_DEFINED' => 'El nombre del archivo que ha introducido no existe. Por favor compruebe que está escrito correctamente.',
+    'ERROR_MENU_NOT_CHOSEN' => 'El Menú no hay sido elegido. Debe asociar la página nueva con un apartado del menú => incluso si no es visible.',
+    'SUCCESS_ADMIN_PAGE_REGISTERED' => 'Su página nueva del Admin ha sido registrada.',
 ];
 
 return $define;

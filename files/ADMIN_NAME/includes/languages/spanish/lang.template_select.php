@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,28 +7,28 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Template Selection',
-    'TEXT_INFO_DEFAULT_LANGUAGE' => 'Default (all)',
-    'TEXT_TEMPLATE_SELECT_INFO' => '<p>Here you may change the template used to display the storefront.</p><p>The default template is normally used for <strong>all</strong> languages. Adding template-to-language assignments is typically only useful when supporting RTL languages alongside LTR languages.</p><p>It is possible to view a template in a <em>private</em> session, for example when testing a new template: see the online Help <strong>?</strong></p>',
-    'TABLE_HEADING_LANGUAGE' => 'Template Language',
-    'TABLE_HEADING_NAME' => 'Template Name',
-    'TABLE_HEADING_DIRECTORY' => 'Template Directory',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TEXT_INFO_HEADING_LANGUAGE' => 'Language',
-    'TEXT_INFO_DEFAULT_TEMPLATE' => 'This template is used by default / when an installed language does not have an assigned template.',
-    'TEXT_INFO_HEADING_EDIT_TEMPLATE' => 'Edit Template Settings',
-    'TEXT_INFO_HEADING_DELETE_TEMPLATE' => 'Delete Template association',
-    'TEXT_INFO_EDIT_INTRO' => 'Change the Template',
-    'TEXT_INFO_DELETE_INTRO' => 'Delete this template-language association',
-    'TEXT_INFO_TEMPLATE_NAME' => 'Template Name',
-    'TEXT_INFO_LANGUAGE_NAME' => 'Language Name',
-    'TEXT_INFO_TEMPLATE_VERSION' => 'Template Version: ',
-    'TEXT_INFO_TEMPLATE_AUTHOR' => 'Template Author: ',
-    'TEXT_INFO_TEMPLATE_DESCRIPTION' => 'Template Description:',
-    'TEXT_INFO_TEMPLATE_INSTALLED' => 'Templates Available',
-    'TEXT_INFO_HEADING_NEW_TEMPLATE' => 'Associate Template with a language',
-    'TEXT_INFO_INSERT_INTRO' => 'Choose below to associate a template with a language',
-    'IMAGE_NEW_TEMPLATE' => 'Create a new template/language association',
+    'HEADING_TITLE' => 'Selección de la Plantilla',
+    'TEXT_INFO_DEFAULT_LANGUAGE' => 'Por Defecto (todas)',
+    'TEXT_TEMPLATE_SELECT_INFO' => '<p>Se puede cambiar la plantilla utilizando en la tienda.</p><p>La plantilla Por Defecto se suele usar para <strong>todas</strong> las idiomas. Solamente se usa una plantilla específica para soportar una idioma que se escribe Derecha-a-Izquierda.</p><p>Es posible ver una plantilla en una sesión <em>privada</em> => p.ej. en el desarrollo de una plantilla nueva: ver la Ayuda Online <strong>?</strong></p>',
+    'TABLE_HEADING_LANGUAGE' => 'Idioma ',
+    'TABLE_HEADING_NAME' => 'Nombre',
+    'TABLE_HEADING_DIRECTORY' => 'Directorio',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TEXT_INFO_HEADING_LANGUAGE' => 'Idioma',
+    'TEXT_INFO_DEFAULT_TEMPLATE' => 'Se usa esta plantilla por defecto / cuando una idioma no tiene una plantilla asignada.',
+    'TEXT_INFO_HEADING_EDIT_TEMPLATE' => 'Editar Configuración',
+    'TEXT_INFO_HEADING_DELETE_TEMPLATE' => 'Eliminar Asociación de la Plantilla',
+    'TEXT_INFO_EDIT_INTRO' => 'Cambiar la Plantilla',
+    'TEXT_INFO_DELETE_INTRO' => 'Eliminar esta asociación idioma-plantilla',
+    'TEXT_INFO_TEMPLATE_NAME' => 'Nombre de Plantilla ',
+    'TEXT_INFO_LANGUAGE_NAME' => 'Idioma Asociada',
+    'TEXT_INFO_TEMPLATE_VERSION' => 'Versión de la Plantilla: ',
+    'TEXT_INFO_TEMPLATE_AUTHOR' => 'Autor: ',
+    'TEXT_INFO_TEMPLATE_DESCRIPTION' => 'Descripción',
+    'TEXT_INFO_TEMPLATE_INSTALLED' => 'Plantillas Disponibles',
+    'TEXT_INFO_HEADING_NEW_TEMPLATE' => 'Asociar Plantilla con una idioma',
+    'TEXT_INFO_INSERT_INTRO' => 'Elija una opción para asociar una plantilla con una idioma',
+    'IMAGE_NEW_TEMPLATE' => 'Crear una nueva asociación idioma-plantilla',
 ];
 
 return $define;

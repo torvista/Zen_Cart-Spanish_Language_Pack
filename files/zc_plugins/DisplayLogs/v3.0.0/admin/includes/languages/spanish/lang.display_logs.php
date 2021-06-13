@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -20,13 +20,11 @@ $define = [
     'DELETE_ALL_ALT' => 'Borrar todos los archivos mostrados',
     'ICON_INFO_VIEW' => 'Ver el contenido de este archivo',
     'DISPLAY_DEBUG_LOGS_ONLY' => '¿Mostrar solamente los debugs?',
-    'LOG_SORT_ASC' => 'Asc',
-    'LOG_SORT_DESC' => 'Desc',
     'TEXT_HEADING_INFO' => 'Contenido',
     'TEXT_MOST_RECENT' => 'más reciente',
-    'TEXT_OLDEST' => 'oldest',
-    'TEXT_SMALLEST' => 'más antiguo',
-    'TEXT_LARGEST' => 'más grande',
+    'TEXT_OLDEST' => 'más antiguo',
+    'TEXT_SMALLEST' => 'menor',
+    'TEXT_LARGEST' => 'mayor',
     'TEXT_INSTRUCTIONS' => '<br><br>Se puede ordenar los archivos pinchando en el título de una columna. Pinche en el icono %7s para ver el contenido del archivo. Solamente muestra los primeros %1$u bytes; si el tamaño del archivo es &quot;excesivo&quot;, destaca <em>Tamaño Archivo</em> como <span class="bigfile">este</span>.<br><br>Pinche el botón <strong>Borrar Todo</strong> para borrar todos los archivos actualmente a la vista; pinche <strong>Borrar Seleccionado(s)</strong> para borrar los archivos marcados.<br><br>Actualmente mostrando el %2$s %3$u de %4$u archivos con el prefijo <code>%5$s</code> y <b>no</b> los que coinciden con <code>%6$s</code>.<br>',
     'JS_MESSAGE_DELETE_ALL_CONFIRM' => '¿Está seguro que quiere borrar estos \'+n+\' archivos?',
     'JS_MESSAGE_DELETE_SELECTED_CONFIRM' => '¿Está seguro que quiere borrar los \'+selected+\' archivo(s) seleccionados?',

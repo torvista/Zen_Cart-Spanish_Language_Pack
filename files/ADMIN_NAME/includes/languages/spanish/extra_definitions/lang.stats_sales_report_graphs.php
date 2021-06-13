@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'BOX_REPORTS_SALES_REPORT_GRAPHS' => 'Sales Report with Graphs',
+    'BOX_REPORTS_SALES_REPORT_GRAPHS' => 'Informe de Ventas con Gráficos',
 ];
 
 return $define;

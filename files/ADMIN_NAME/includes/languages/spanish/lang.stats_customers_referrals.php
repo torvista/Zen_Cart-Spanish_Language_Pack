@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,13 +7,13 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Customers Referral Report',
-    'TEXT_INFO_SELECT_REFERRAL' => 'Select a Referral/Coupon Code',
-    'TEXT_REFERRAL_UNKNOWN' => 'Unknown',
-    'TEXT_INFO_START_DATE' => 'Start Date (m-d-y)',
-    'TEXT_INFO_END_DATE' => 'End Date (m-d-y)',
-    'TEXT_ORDER_NUMBER' => 'Order #',
-    'TEXT_COUPON_ID' => 'Discount Coupon ID#',
+    'HEADING_TITLE' => 'Informe de Origenes de clientes',
+    'TEXT_INFO_SELECT_REFERRAL','Seleccione una Referencia/Código de cupón',
+    'TEXT_REFERRAL_UNKNOWN' => 'Desconocido',
+    'TEXT_INFO_START_DATE' => 'Fecha Inicio (d-m-y)',
+    'TEXT_INFO_END_DATE' => 'Fecha Final (d-m-y)',
+    'TEXT_ORDER_NUMBER' => 'Pedido #',
+    'TEXT_COUPON_ID' => 'Cupón de Descuento ID#',
 ];
 
 return $define;

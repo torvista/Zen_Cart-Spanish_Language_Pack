@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,9 +7,9 @@
 */
 
 $define = [
-    'TEXT_ACCESS_DENIED' => 'Sorry, your security clearance does not allow you to access this resource.',
-    'TEXT_CONTACT_SITE_ADMIN' => 'Please contact your site administrator if you believe this to be incorrect.',
-    'TEXT_APOLOGY' => 'Sorry for any inconvenience.',
+    'TEXT_ACCESS_DENIED' => 'Lo siento => su nivel de permisos no es adecuado para acceder a este recurso.',
+    'TEXT_CONTACT_SITE_ADMIN' => 'Contacte con el Administrador del sitio si le parece incorrecto.',
+    'TEXT_APOLOGY' => 'Disculpe las molestias.',
 ];
 
 return $define;

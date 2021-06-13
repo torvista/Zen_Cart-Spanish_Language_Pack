@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,18 +7,18 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Coupon Export',
-    'HEADING_SUB1' => 'Review or Export Coupons',
-    'HEADING_SUB2' => 'Purge Log History',
-    'TEXT_ACTIVITY_EXPORT_FORMAT' => 'Export File Format:',
-    'TEXT_ACTIVITY_EXPORT_FILENAME' => 'Export Filename:',
-    'TEXT_ACTIVITY_EXPORT_SAVETOFILE' => 'Save to file on server? (otherwise will stream for download directly from this window)',
-    'TEXT_ACTIVITY_EXPORT_DEST' => 'Destination: ',
-    'TEXT_PROCESSED' => ' Processed.',
-    'SUCCESS_EXPORT_DISCOUNT_COUPON_LOG' => 'Export complete. ',
-    'FAILURE_EXPORT_DISCOUNT_COUPON_LOG' => 'ALERT: Export failed. Could not successfully write to file ',
-    'TEXT_INSTRUCTIONS' => '<u>INSTRUCTIONS</u><br />You can use this page to export your Discount Coupons to a CSV file.<br />
-<ol><li>Choose whether to display or export to a file.<li>Enter a filename. (must end in one of: .csv .txt .htm .html .xml)<li>Click Save to proceed.<li>Choose whether to save or open the file, depending on what your browser offers.</ol>',
+    'HEADING_TITLE' => 'Exportar Cupones',
+    'HEADING_SUB1' => 'Revisar o Exportar Cupones',
+    'HEADING_SUB2' => 'Purgar Historial',
+    'TEXT_ACTIVITY_EXPORT_FORMAT' => 'Formato del Archivo del Exportación:',
+    'TEXT_ACTIVITY_EXPORT_FILENAME' => 'Nombre del Archivo de Exportación:',
+    'TEXT_ACTIVITY_EXPORT_SAVETOFILE','¿Guardar el archivo en el servidor? (si no => se lo descargará desde el navegador)',
+    'TEXT_ACTIVITY_EXPORT_DEST','Destino: ',
+    'TEXT_PROCESSED' => ' Procesado.',
+    'SUCCESS_EXPORT_DISCOUNT_COUPON_LOG' => 'Exportación completado. ',
+    'FAILURE_EXPORT_DISCOUNT_COUPON_LOG' => 'AVISO: La exportación falló. No se pudo escribir al archivo.',
+    'TEXT_INSTRUCTIONS','<u>INSTRUCTIONS</u><br>Exportar los Cupones de Descuento a un archivo CSV.<br>
+<ol><li>Elija mostrar o exportar a un archivo.<li>Introduzca un nombre de archivo (debe tener uno de estos sufijos: .csv .txt .htm .html .xml)<li>Pinche Guardad para seguir.<li>Elija  guardar o abrir el archivo => dependiente de las opciones de este navegador.</ol>',
 ];
 
 return $define;

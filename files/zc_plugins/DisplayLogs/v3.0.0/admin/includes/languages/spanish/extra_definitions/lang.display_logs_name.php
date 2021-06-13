@@ -1,4 +1,4 @@
-<?php //Spanish Language Pack for Zen Cart 1.58x: https://github.com/torvista/Zen_Cart-1.58x-Spanish_Language_Pack
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce

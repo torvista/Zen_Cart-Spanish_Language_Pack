@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,29 +7,29 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Server Information',
-    'TITLE_SERVER_HOST' => 'Server Host:',
-    'TITLE_SERVER_OS' => 'Server OS:',
-    'TITLE_SERVER_DATE' => 'Server Date:',
-    'TITLE_SERVER_UP_TIME' => 'Server Up Time:',
-    'TITLE_HTTP_SERVER' => 'HTTP Server:',
-    'TITLE_PHP_VERSION' => 'PHP Version:',
+    'HEADING_TITLE' => 'Información del Servidor',
+    'TITLE_SERVER_HOST' => 'Servidor:',
+    'TITLE_SERVER_OS' => 'SO del Servidor:',
+    'TITLE_SERVER_DATE' => 'Fecha del Servidor:',
+    'TITLE_SERVER_UP_TIME' => 'Tiempo de Actividad del Servidor:',
+    'TITLE_HTTP_SERVER' => 'Servidor HTTP:',
+    'TITLE_PHP_VERSION' => 'Versión PHP:',
     'TITLE_ZEND_VERSION' => 'Zend:',
-    'TITLE_DATABASE_HOST' => 'Database Host:',
-    'TITLE_DATABASE' => 'Database:',
-    'TITLE_DATABASE_DATE' => 'Database Date:',
-    'TITLE_DATABASE_DATA_SIZE' => 'Database Data Size:',
-    'TITLE_DATABASE_INDEX_SIZE' => 'Database Index Size:',
-    'TITLE_PHP_MEMORY_LIMIT' => 'PHP Memory Limit:',
-    'TITLE_PHP_FILE_UPLOADS' => 'PHP File Uploads:',
-    'TITLE_PHP_UPLOAD_MAX' => 'Upload Max Size:',
-    'TITLE_PHP_POST_MAX_SIZE' => 'POST Max Size:',
-    'TITLE_DATABASE_ENGINE' => 'Database Engine: ',
-    'PROJECT_DATABASE_LABEL' => 'Database Patch Level: ',
-    'TITLE_MYSQL_STRICT_MODE' => '(in Strict mode)',
-    'TITLE_DATABASE_MYSQL_MODE' => 'MySQL Mode:',
-    'TITLE_DATABASE_MYSQL_SLOW_LOG_STATUS' => 'MySQL Slow Query Log Status:',
-    'TITLE_DATABASE_MYSQL_SLOW_LOG_FILE' => 'MySQL Slow Query Log File:',
+    'TITLE_DATABASE_HOST' => 'Servidor de la BBDD:',
+    'TITLE_DATABASE' => 'Base de Datos:',
+    'TITLE_DATABASE_DATE' => 'Fecha de la BBDD:',
+    'TITLE_DATABASE_DATA_SIZE' => 'Tamaño de la BBDD:',
+    'TITLE_DATABASE_INDEX_SIZE' => 'Tamaño del Índice de la BBDD:',
+    'TITLE_PHP_MEMORY_LIMIT' => 'PHP Limité de Memoria:',
+    'TITLE_PHP_FILE_UPLOADS' => 'PHP Subida de Archivos:',
+    'TITLE_PHP_UPLOAD_MAX' => 'Tamaño Máximo de un Archivo de Subida:',
+    'TITLE_PHP_POST_MAX_SIZE' => 'POST Tamaño Máximo:',
+    'TITLE_DATABASE_ENGINE','Engine Base de Datos: ',
+    'PROJECT_DATABASE_LABEL','Nivel de actualización de la base de datos: ',
+    'TITLE_MYSQL_STRICT_MODE' => '(en modo Strict)',
+    'TITLE_DATABASE_MYSQL_MODE' => 'Modo MySQL:',
+    'TITLE_DATABASE_MYSQL_SLOW_LOG_STATUS' => 'MySQL Slow Query Estatus Historial:',
+    'TITLE_DATABASE_MYSQL_SLOW_LOG_FILE' => 'MySQL Slow Query Historial:',
 ];
 
 return $define;

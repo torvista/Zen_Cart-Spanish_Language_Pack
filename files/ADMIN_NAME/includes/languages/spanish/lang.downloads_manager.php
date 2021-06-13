@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,29 +7,29 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Downloads Manager',
-    'TABLE_HEADING_ATTRIBUTES_ID' => 'Attr ID',
-    'TABLE_HEADING_PRODUCTS_ID' => 'Prod ID',
-    'TABLE_HEADING_PRODUCT' => 'Product Name',
-    'TABLE_HEADING_OPT_NAME' => 'Option Name',
-    'TABLE_HEADING_OPT_VALUE' => 'Option Value Name',
-    'TABLE_TEXT_FILENAME' => 'Filename',
-    'TABLE_TEXT_MAX_DAYS' => 'Days',
-    'TABLE_TEXT_MAX_COUNT' => 'Count',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TABLE_HEADING_OPT_PRICE' => 'Price',
-    'TABLE_HEADING_OPT_PRICE_PREFIX' => 'Prefix',
-    'TEXT_PRODUCTS_NAME' => 'Product: ',
-    'TEXT_INFO_HEADING_EDIT_PRODUCTS_DOWNLOAD' => 'Editing Download Information',
-    'TEXT_INFO_EDIT_INTRO' => 'Edit the Download information:',
-    'TEXT_DELETE_INTRO' => 'The following filename will be removed from the database. This will not delete the file from the server:',
-    'TEXT_INFO_FILENAME' => 'Filename: ',
-    'TEXT_INFO_MAX_DAYS' => 'Max Days: ',
-    'TEXT_INFO_MAX_COUNT' => 'Max Downloads: ',
-    'TEXT_INFO_FILENAME_MISSING' => 'Missing filename',
-    'TEXT_INFO_FILENAME_GOOD' => 'Valid filename',
-    'TEXT_WARNING_PRODUCT_MISCONFIGURED_SHORT' => 'Downloadable Product is misconfigured', 
-    'TEXT_WARNING_PRODUCT_MISCONFIGURED' => 'Product should not be free shipping or virtual.  See <a href="https://docs.zen-cart.com/user/products/downloadable/#additional-notes-about-downloads-and-shipping-costs">shipping cost documentation</a>.',  
+    'HEADING_TITLE','Gestionar Descargas',
+    'TABLE_HEADING_ATTRIBUTES_ID' => 'ID de Atributos',
+    'TABLE_HEADING_PRODUCTS_ID' => 'ID de producto',
+    'TABLE_HEADING_PRODUCT' => 'Nombre de producto',
+    'TABLE_HEADING_OPT_NAME' => 'Nombre de opción',
+    'TABLE_HEADING_OPT_VALUE' => 'Nombre de valor de opción',
+    'TABLE_TEXT_FILENAME' => 'Archivo',
+    'TABLE_TEXT_MAX_DAYS' => 'Días',
+    'TABLE_TEXT_MAX_COUNT' => 'Cuenta',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TABLE_HEADING_OPT_PRICE' => 'Precio',
+    'TABLE_HEADING_OPT_PRICE_PREFIX' => 'Prefijo',
+    'TEXT_PRODUCTS_NAME' => 'Producto: ',
+    'TEXT_INFO_HEADING_EDIT_PRODUCTS_DOWNLOAD' => 'EDITANDO INFORMACIÓN DE DESCARGA',
+    'TEXT_INFO_EDIT_INTRO' => 'Editar la información de descarga:',
+    'TEXT_DELETE_INTRO' => 'Los siguientes archivos serán quitados de la base de datos. Esto no borrará el archivo del servidor:',
+    'TEXT_INFO_FILENAME' => 'Nombre de archivo ',
+    'TEXT_INFO_MAX_DAYS' => 'Días máximos: ',
+    'TEXT_INFO_MAX_COUNT' => 'Descargas máximas: ',
+    'TEXT_INFO_FILENAME_MISSING','&nbsp;Falta nombre de archivo',
+    'TEXT_INFO_FILENAME_GOOD','&nbsp;Nombre de archivo válido',
+    'TEXT_WARNING_PRODUCT_MISCONFIGURED_SHORT' => 'Hay un erro en la configuración del Producto Decargable', 
+    'TEXT_WARNING_PRODUCT_MISCONFIGURED' => 'Producto no debería ser free shipping ni virtual. Ver <a href="https://docs.zen-cart.com/user/products/downloadable/#additional-notes-about-downloads-and-shipping-costs">documentación de gastos del envíos</a>.',  
 ];
 
 return $define;

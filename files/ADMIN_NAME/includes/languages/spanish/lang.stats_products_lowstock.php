@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,10 +7,10 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Product Stock Report',
+    'HEADING_TITLE' => 'Informe de Inventario',
     'TABLE_HEADING_NUMBER' => 'ID#',
-    'TABLE_HEADING_PRODUCTS' => 'Products',
-    'TABLE_HEADING_VIEWED' => 'Quantity',
+    'TABLE_HEADING_PRODUCTS' => 'Productos',
+    'TABLE_HEADING_VIEWED' => 'Cantidad',
 ];
 
 return $define;

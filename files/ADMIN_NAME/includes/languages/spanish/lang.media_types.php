@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,20 +7,20 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Media Types',
-    'TABLE_HEADING_MEDIA_TYPE' => 'Media Type',
-    'TABLE_HEADING_MEDIA_TYPE_EXT' => 'Extension',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TEXT_HEADING_NEW_MEDIA_TYPE' => 'New Media Type',
-    'TEXT_HEADING_EDIT_MEDIA_TYPE' => 'Edit Media Type',
-    'TEXT_HEADING_DELETE_MEDIA_TYPES' => 'Delete Media Type',
-    'TEXT_MEDIA_TYPE_NAME' => 'Media Type Name',
-    'TEXT_MEDIA_TYPE_EXT' => 'Media Type Extension',
-    'TEXT_EXTENSION' => 'Extension: ',
-    'TEXT_NEW_INTRO' => 'Please fill out the following information for the new media type',
-    'TEXT_EDIT_INTRO' => 'Please make any necessary changes',
-    'TEXT_DELETE_INTRO' => 'Are you sure you want to delete this media type?',
-    'TEXT_DISPLAY_NUMBER_OF_MEDIA_TYPES' => 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> Media Types)',
+    'HEADING_TITLE' => 'Tipos de Medios',
+    'TABLE_HEADING_MEDIA_TYPE' => 'Tipo de Medio',
+    'TABLE_HEADING_MEDIA_TYPE_EXT' => 'Extensión',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TEXT_HEADING_NEW_MEDIA_TYPE' => 'Nuevo Tipo de Medio',
+    'TEXT_HEADING_EDIT_MEDIA_TYPE' => 'Editar Tipo de Medio',
+    'TEXT_HEADING_DELETE_MEDIA_TYPES' => 'Borrar Tipo de Medio',
+    'TEXT_MEDIA_TYPE_NAME' => 'Nombre de Tipo de Medio',
+    'TEXT_MEDIA_TYPE_EXT' => 'Extensión del Tipo de Medio',
+    'TEXT_EXTENSION' => 'Extensión: ',
+    'TEXT_NEW_INTRO' => 'Rellene la siguiente información para el nuevo tipo de medio',
+    'TEXT_EDIT_INTRO' => 'Realice cualquier cambio necesario',
+    'TEXT_DELETE_INTRO' => '¿Está seguro de que desea borrar este tipo de medio?',
+    'TEXT_DISPLAY_NUMBER_OF_MEDIA_TYPES' => 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Tipos de Medio)',
 ];
 
 return $define;

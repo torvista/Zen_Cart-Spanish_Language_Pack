@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,10 +7,10 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Best Customer Orders-Total',
+    'HEADING_TITLE' => 'Los mejores clientes - Total de pedido',
     'TABLE_HEADING_NUMBER' => 'ID#',
-    'TABLE_HEADING_CUSTOMERS' => 'Customers',
-    'TABLE_HEADING_TOTAL_PURCHASED' => 'Total Purchased',
+    'TABLE_HEADING_CUSTOMERS' => 'Clientes',
+    'TABLE_HEADING_TOTAL_PURCHASED' => 'Total Comprado',
 ];
 
 return $define;

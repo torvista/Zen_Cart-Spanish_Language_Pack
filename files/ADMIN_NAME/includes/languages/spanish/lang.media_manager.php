@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,35 +7,35 @@
 */
 
 $define = [
-    'HEADING_TITLE_MEDIA_MANAGER' => 'Media Manager',
-    'TABLE_HEADING_MEDIA' => 'Collection Name',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TEXT_HEADING_NEW_MEDIA_COLLECTION' => 'New Media Collection',
-    'TEXT_NEW_INTRO' => 'Please enter the details of the new media collection below',
-    'TEXT_MEDIA_COLLECTION_NAME' => 'Media Collection Name',
-    'TEXT_MEDIA_EDIT_INSTRUCTIONS' => 'Use the section above to change the Media Collection Name, then clicking on the save button.<br /><br />
-                                        Use the selection below to add or remove media clips from the media collection.',
-    'TEXT_DATE_ADDED' => 'Date Added:',
-    'TEXT_LAST_MODIFIED' => 'Last Modified:',
-    'TEXT_PRODUCTS' => 'Linked Products:',
-    'TEXT_CLIPS' => 'Linked Clips:',
-    'TEXT_NO_PRODUCTS' => 'No Products in this category',
-    'TEXT_HEADING_EDIT_MEDIA_COLLECTION' => 'Edit Media Collection',
-    'TEXT_EDIT_INTRO' => 'Please amend the details of the new media collection below',
-    'TEXT_HEADING_DELETE_MEDIA_COLLECTION' => 'Delete Media Collection',
-    'TEXT_DELETE_INTRO' => 'Do you want to delete this media collection?',
-    'TEXT_DISPLAY_NUMBER_OF_MEDIA' => 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> Media Collections)',
-    'TEXT_ADD_MEDIA_CLIP' => 'Add Media Clip',
-    'TEXT_MEDIA_CLIP_DIR' => 'Upload to Media Directory',
-    'TEXT_MEDIA_CLIP_TYPE' => 'Media Clip Type',
-    'TEXT_HEADING_ASSIGN_MEDIA_COLLECTION' => 'Assign Media Collection to Product',
-    'TEXT_PRODUCTS_INTRO' => 'You can assign and remove this Media Collection for products using the forms below.',
-    'IMAGE_PRODUCTS' => 'Assign to Product',
-    'TEXT_DELETE_PRODUCTS' => 'Delete this Media Collection and all items linked to it?',
-    'TEXT_DELETE_WARNING_PRODUCTS' => '<strong>WARNING:</strong> There are %s items still linked to this Media Collection!',
-    'TEXT_WARNING_FOLDER_UNWRITABLE' => 'NOTE: media folder ' . DIR_FS_CATALOG_MEDIA . ' is not writable. Cannot upload files.',
-    'ERROR_UNKNOWN_DATA' => 'ERROR: Unknown data supplied ... operation cancelled',
-    'TEXT_ADD' => 'Add',
+    'HEADING_TITLE_MEDIA_MANAGER' => 'Administrador de Medios',
+    'TABLE_HEADING_MEDIA' => 'Nombre de Colección',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TEXT_HEADING_NEW_MEDIA_COLLECTION' => 'Nueva Colección de Medios',
+    'TEXT_NEW_INTRO' => 'Introduzca los detalles de la nueva colección de medios abajo',
+    'TEXT_MEDIA_COLLECTION_NAME' => 'Nombre Colección de Medios',
+    'TEXT_MEDIA_EDIT_INSTRUCTIONS' => 'Use la sección de arriba para cambiar el nombre de la colección de medios => después haga clic en el botón "guardar".<br><br>
+                                        Use la sección de abajo para añadir o quitar clips de medios de la colección de medios.',
+    'TEXT_DATE_ADDED' => 'Fecha Añadida:',
+    'TEXT_LAST_MODIFIED' => 'Última modificación:',
+    'TEXT_PRODUCTS' => 'Productos Enlazados:',
+    'TEXT_CLIPS' => 'Segmentos Vinculados:',
+    'TEXT_NO_PRODUCTS' => 'No hay Productos en esta categoría',
+    'TEXT_HEADING_EDIT_MEDIA_COLLECTION' => 'Editar Colección de Medios',
+    'TEXT_EDIT_INTRO' => 'Corrija los datos de la Colección de Medios nueva abajo',
+    'TEXT_HEADING_DELETE_MEDIA_COLLECTION' => 'Borrar Colección de Medios',
+    'TEXT_DELETE_INTRO' => '¿Desea borrar esta Colección de Medios?',
+      'TEXT_DISPLAY_NUMBER_OF_MEDIA' => 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Colecciones de Medios)',
+    'TEXT_ADD_MEDIA_CLIP' => 'Añadir Clip de Medio',
+    'TEXT_MEDIA_CLIP_DIR' => 'Subir al Directorio de Medios',
+    'TEXT_MEDIA_CLIP_TYPE' => 'Tipo de Clip de Medio',
+    'TEXT_HEADING_ASSIGN_MEDIA_COLLECTION' => 'Asignar Colección de Medios a Producto',
+    'TEXT_PRODUCTS_INTRO' => 'Puede asignar o quitar esta Colección de Medios a productos utilizando el formulario de abajo.',
+    'IMAGE_PRODUCTS' => 'Asignar a Producto',
+    'TEXT_DELETE_PRODUCTS' => '¿Borrar esta Colección de Medios y todos los elementos enlazados a ella?',
+    'TEXT_DELETE_WARNING_PRODUCTS' => '<strong>ATENCIÓN:</strong> ¡Hay %s elementos todavía enlazados a esta Colección de Medios!',
+    'TEXT_WARNING_FOLDER_UNWRITABLE' => 'AVISO: no puede escribir al directorio de medios ' . DIR_FS_CATALOG_MEDIA . '. No puede subir archivos.',
+    'ERROR_UNKNOWN_DATA' => 'ERROR: Datos desconocidos suministrados ... operación cancelada',
+    'TEXT_ADD','Añadir',
 ];
 
 return $define;

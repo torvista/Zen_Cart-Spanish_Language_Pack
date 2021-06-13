@@ -30,17 +30,16 @@ img {
 </head>
 <body>
 <h1><span>Zen Cart Spanish (Spain) Language Pack for Zen Cart 1.58x</span></h1>
-<p><em>Provided for development purposes only: incomplete.</em></p>
+<p><em>Provided for development purposes only: consolidated with GitHub Zen Cart branch v158: 13/06/2021</em></p>
 <p>See <a href="changelog.txt" target="_blank">Changelog</a> for current status.</p>
 <p>GPL Licence<br>
 </p>
 <p>This language pack <strong>differs</strong> from the Zen Cart english files in two aspects: date of birth format is dd/mm/yyyy (not mm/dd/yyyy) and weight is kg (not lbs).</p>
 <p><strong> Support Thread - Zen Cart forum</strong>: <a href="http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
 <p><strong>Github: <a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">https://github.com/torvista/Zen_Cart-Spanish_Language_Pack</a></strong></p>
-<p>The version of the language pack in the Plugins section of the Zen Cart site is only updated occasionally, and not for minor improvements. You should clone the repository from Github to be notified of these minor changes.</p>
 <h2>Adding this language pack</h2>
-<p>You may add this pack before installation, in which case the installer may also be run in spanish.</p>
-<p>Or, you may add this pack subsequent to the installation: but in this case do NOT copy/use the /zc_install folder as this will be detected and block access to the admin until it is removed.</p>
+<p>You may add the files from this pack into your fileset before INITIAL installation of Zen Cart, in which case the installer may also be run in spanish.</p>
+<p>Or, you may add this pack subsequent to the installation: but in this case do NOT copy the /zc_install folder as this will be detected and block access to the admin until it is removed.</p>
 <h3>1) Prepare your development site.</h3>
 <p>As always, install/test/review/improve <strong>any and all </strong> modifications on your <strong>development</strong> site, NEVER on your production site.</p>
 <p>Only when you are satisfied that all is complete, <strong>copy</strong> those changes to the production site in one, fast operation.</p>
@@ -50,7 +49,7 @@ img {
 <p>If you do not have a customised template or have been modifying the &quot;classic&quot; template: <strong>STOP NOW</strong>, create your own template and restore the &quot;classic&quot; files to their original states.<br>
   The &quot;classic&quot; template should be left untouched  to help investigate/isolate any problems you create/introduce into the code with your customised template files.</p>
 <h4>c) Backup your files and database</h4>
-<h4> If you have not installed the Backup MYSQL Plugin to provide easy database backups, do it now.<br>
+<h4> If you have not installed the Backup MYSQL Plugin to provide easy database backups, I recommend you do it now, to be able to revert to a previous database rapridy and repeatedly, if necessary:<br>
   <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=7" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=7</a></h4>
 <h3>2) Copy the files into your Zen Cart</h3>
 <h4>a) Rename the &quot;ADMIN_NAME&quot; folder to match the name of your admin folder.<br>
@@ -65,13 +64,13 @@ img {
   <strong>Sort Order:</strong> Optional. This determines the display order of the language selection drop-down in the admin menu and the display order of the flags  in the shop front.<br>
   <strong>Set as default:</strong> tick if you want the admin to display in spanish when you login.</p>
 <p>Click on &quot;Insert&quot;.</p>
-<p>If you get any warnings at this point: <strong>DO NOT IGNORE THEM! STOP, MAKE A NOTE OF THEM</strong>/<strong>take a screenshot</strong> and <strong><u>investigate the problem</u></strong>: Google is your friend here. Use the forum.</p>
+<p>If you get any warnings at this point: <strong>DO NOT IGNORE THEM! STOP, MAKE A NOTE OF THEM</strong>/<strong>take a screenshot</strong> and <strong><u>investigate the problem</u></strong>: Google is your friend here. Use the forum to find previously-answered questions or GitHub to report a problem specific to this language pack.</p>
 <p>At the moment of &quot;Insert&quot;, all the existing database data in english (category/product names/descriptions, order status) are duplicated (not translated) to their new corresponding spanish fields.</p>
-<p>The product/category data may then be exported (<a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2091" target="_blank">DBIO</a>) for more efficient bulk translation, and a spanish file prepared for import to overwrite/update the spanish fields.</p>
+<p>Note that the &quot;spanish&quot; product/category data fields may then be exported (using <a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2091" target="_blank">DBIO</a> for example) for a more efficient bulk translation/prepare a  spanish file for import to overwrite/update the spanish fields.</p>
 <h3>4) Review the installation</h3>
 <h4>a) Check the Admin menus</h4>
 <p><strong>Configuración/Configuration options</strong></p>
-<p>Note that the titles and descriptions of these options are stored in the database in english, but can be replaced on the fly when displayed (ZC157+).</p>
+<p>Note that the titles and descriptions of these options are stored in the database in english, but can be replaced on the fly when displayed.</p>
 <p>To do this, a replacement constant must be added to ADMIN/includes/languages/spanish/configuration.php</p>
 <p>e.g:</p>
 <pre>//Optional&#32;overrides&#32;for&#32;the&#32;default&#32;english&#32;configuration&#32;titles&#32;and&#32;descriptions...add&#32;at&#32;your&#32;leisure<br>define('CFGTITLE_STORE_NAME',&#32;'Nombre&#32;de&#32;la&#32;Tienda');<br>define('CFGDESC_STORE_NAME',&#32;'El&#32;nombre&#32;de&#32;la&#32;tienda');</pre>
@@ -79,7 +78,7 @@ img {
 <p>To display the name of the original constant in the infobox for each constant, a developer option is available: ADMIN/index.php?cmd=configuration&amp;gID=<mark>6</mark>
   <br>
 	Set option &quot;Admin configuration_key shows&quot; to 1.</p>
-<p>If you want a full list of constants for easy translation/for IDE discovery purposes: <a href="https://github.com/torvista/zen-cart_list-configuration-constants">https://github.com/torvista/zen-cart_list-configuration-constants</a>.</p>
+<p>If you want a full list of constants for easy translation/for IDE discovery purposes: <a href="https://github.com/torvista/Zen_Cart-List_Configuration_Constants" target="_blank">https://github.com/torvista/Zen_Cart-List_Configuration_Constants</a></p>
 <p><strong>Other Options</strong></p>
 <p>In<br>
   Admin-&gt;Herramientas-&gt;Enviar Correo and <br>
@@ -118,7 +117,7 @@ img {
 <p>This is a list of locales (if you don't know what that means, look it up). The values you can use depend on what is installed on the server (local or remote).</p>
 <p>Probably the values that are in there already will be fine for both a Windows/*nix hosting since if the server does not have one, it uses the next...</p>
 <p>If you want to know what your server supports, there is a script to check:</p>
-<p><a href="https://github.com/torvista/Zen-Cart-Test-Server-Locales" target="_blank">https://github.com/torvista/Zen-Cart-Test-Server-Locales</a></p>
+<p><a href="https://github.com/torvista/Zen_Cart-Test_Server_Locales" target="_blank">https://github.com/torvista/Zen_Cart-Test_Server_Locales</a></p>
 <h3>Untranslated Text/Mistakes/Improvements</h3>
 <p>If any text is untranslated/incorrect or could be improved, please post a message in the Github repository.</p>
 <p>If you see a constant name appear like &quot;TEXT_SOMETHING_NEW&quot; instead of text, this means that particular constant is not defined for the currently-selected language.<br>

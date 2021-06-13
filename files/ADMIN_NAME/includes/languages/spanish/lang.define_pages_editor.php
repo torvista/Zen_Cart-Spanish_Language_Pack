@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,12 +7,12 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Define Pages Editor for: ',
-    'TEXT_FILE_DOES_NOT_EXIST' => 'File does not exist: %s',
-    'ERROR_FILE_NOT_WRITEABLE' => 'Error: I can not write to this file. Please set the right user permissions on: %s',
-    'TEXT_INFO_SELECT_FILE' => 'Select a file to edit ...',
-    'TEXT_INFO_EDITING' => 'Editing file:',
-    'TEXT_INFO_CAUTION' => 'Note: you should always edit the files located in your current template override directory, Example: /languages/' . 'language' . '/html_includes/YOUR_TEMPLATE_DIRECTORY<br>Be sure to make backups after changing your files.',
+    'HEADING_TITLE' => 'Editor de Define Pages para: ',
+    'TEXT_FILE_DOES_NOT_EXIST' => 'No existe el archivo: %s',
+    'ERROR_FILE_NOT_WRITEABLE' => 'Error: No puede escribirse este archivo. Revise el permiso de usuario en: %s',
+    'TEXT_INFO_SELECT_FILE' => 'Seleccione un archivo a editar ...',
+    'TEXT_INFO_EDITING' => 'Editando archivo:',
+    'TEXT_INFO_CAUTION','Nota: Debe editar siempre los archivos localizados en el directorio de su plantilla actual. Ejemplo: /languages/' . $_SESSION['language'] . '/html_includes/YOUR_TEMPLATE_DIRECTORY<br>Asegúrese de hacer copias de seguridad antes de modificar sus archivos.',
 ];
 
 return $define;

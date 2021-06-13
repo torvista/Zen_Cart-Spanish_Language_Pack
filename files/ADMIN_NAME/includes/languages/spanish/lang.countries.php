@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,24 +7,24 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Countries',
-    'TABLE_HEADING_COUNTRY_NAME' => 'Country',
-    'TABLE_HEADING_COUNTRY_CODES' => 'ISO Codes',
-    'TABLE_HEADING_COUNTRY_STATUS' => 'Status',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TEXT_INFO_EDIT_INTRO' => 'Please make any necessary changes',
-    'TEXT_INFO_COUNTRY_NAME' => 'Name:',
-    'TEXT_INFO_COUNTRY_CODE_2' => 'ISO Code (2):',
-    'TEXT_INFO_COUNTRY_CODE_3' => 'ISO Code (3):',
-    'TEXT_INFO_ADDRESS_FORMAT' => 'Address Format:',
-    'TEXT_INFO_COUNTRY_STATUS' => 'Status (Active for shipping?):',
-    'TEXT_INFO_INSERT_INTRO' => 'Please enter the new country with its related data',
-    'TEXT_INFO_DELETE_INTRO' => 'Are you sure you want to delete this country?',
-    'TEXT_INFO_HEADING_NEW_COUNTRY' => 'New Country',
-    'TEXT_INFO_HEADING_EDIT_COUNTRY' => 'Edit Country',
-    'TEXT_INFO_HEADING_DELETE_COUNTRY' => 'Delete Country',
-    'ERROR_COUNTRY_IN_USE' => 'ERROR: Cannot delete selected country because it is connected to customer records.',
-    'ISO_COUNTRY_CODES_LINK' => '<a href="https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements" rel="noreferrer noopener" target="_blank">ISO 3166 Country Codes Reference</a>',
+    'HEADING_TITLE' => 'Países',
+    'TABLE_HEADING_COUNTRY_NAME' => 'País',
+    'TABLE_HEADING_COUNTRY_CODES' => 'Códigos ISO',
+    'TABLE_HEADING_COUNTRY_STATUS' => 'Estatus',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TEXT_INFO_EDIT_INTRO' => 'Haga los cambios necesarios',
+    'TEXT_INFO_COUNTRY_NAME' => 'Nombre:',
+    'TEXT_INFO_COUNTRY_CODE_2' => 'Código ISO (2):',
+    'TEXT_INFO_COUNTRY_CODE_3' => 'Código ISO (3):',
+    'TEXT_INFO_ADDRESS_FORMAT' => 'Formato de Dirección:',
+    'TEXT_INFO_COUNTRY_STATUS' => 'Activado / ¿Habilitar para envíos?:',
+    'TEXT_INFO_INSERT_INTRO' => 'Introduzca el nuevo país con su información correspondiente',
+    'TEXT_INFO_DELETE_INTRO' => '¿Seguro que desea eliminar este país?',
+    'TEXT_INFO_HEADING_NEW_COUNTRY' => 'Nuevo país',
+    'TEXT_INFO_HEADING_EDIT_COUNTRY' => 'Editar país',
+    'TEXT_INFO_HEADING_DELETE_COUNTRY' => 'Eliminar país',
+    'ERROR_COUNTRY_IN_USE' => 'ERROR: No se puede borrar el país seleccionado porque está asociado a un archivo de un cliente.',
+    'ISO_COUNTRY_CODES_LINK' => '<a href="https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements" target="_blank">Códigos ISO Paises</a>',
 ];
 
 return $define;

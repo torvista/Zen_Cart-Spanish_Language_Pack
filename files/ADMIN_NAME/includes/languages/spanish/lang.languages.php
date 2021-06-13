@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,23 +7,23 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Languages',
-    'TABLE_HEADING_LANGUAGE_NAME' => 'Language',
-    'TABLE_HEADING_LANGUAGE_CODE' => 'Code',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TEXT_INFO_EDIT_INTRO' => 'Please make any necessary changes',
-    'TEXT_INFO_LANGUAGE_NAME' => 'Name:',
-    'TEXT_INFO_LANGUAGE_CODE' => 'Code:',
-    'TEXT_INFO_LANGUAGE_IMAGE' => 'Image:',
-    'TEXT_INFO_LANGUAGE_DIRECTORY' => 'Directory:',
-    'TEXT_INFO_LANGUAGE_SORT_ORDER' => 'Sort Order:',
-    'TEXT_INFO_INSERT_INTRO' => 'Please enter the new language with its related data',
-    'TEXT_INFO_DELETE_INTRO' => 'Are you sure you want to delete this language?',
-    'TEXT_INFO_HEADING_NEW_LANGUAGE' => 'New Language',
-    'TEXT_INFO_HEADING_EDIT_LANGUAGE' => 'Edit Language',
-    'TEXT_INFO_HEADING_DELETE_LANGUAGE' => 'Delete Language',
-    'ERROR_REMOVE_DEFAULT_LANGUAGE' => 'Error: The default language can not be removed. Please set another language as default, and try again.',
-    'ERROR_DUPLICATE_LANGUAGE_CODE' => 'Error: A language with that code has already been defined.',
+    'HEADING_TITLE' => 'Idiomas',
+    'TABLE_HEADING_LANGUAGE_NAME' => 'Idioma',
+    'TABLE_HEADING_LANGUAGE_CODE' => 'Código',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TEXT_INFO_EDIT_INTRO' => 'Haga los cambios necesarios',
+    'TEXT_INFO_LANGUAGE_NAME' => 'Nombre:',
+    'TEXT_INFO_LANGUAGE_CODE' => 'Código:',
+    'TEXT_INFO_LANGUAGE_IMAGE' => 'Imagen:',
+    'TEXT_INFO_LANGUAGE_DIRECTORY' => 'Directorio:',
+    'TEXT_INFO_LANGUAGE_SORT_ORDER' => 'Orden:',
+    'TEXT_INFO_INSERT_INTRO' => 'Introduzca el nuevo idioma con sus datos relacionados',
+    'TEXT_INFO_DELETE_INTRO' => '¿Seguro que desea eliminar este idioma?',
+    'TEXT_INFO_HEADING_NEW_LANGUAGE' => 'Nuevo idioma',
+    'TEXT_INFO_HEADING_EDIT_LANGUAGE' => 'Editar idioma',
+    'TEXT_INFO_HEADING_DELETE_LANGUAGE' => 'Eliminar idioma',
+    'ERROR_REMOVE_DEFAULT_LANGUAGE' => 'Error: No se puede eliminar el idioma por defecto. Establezca otro idioma por defecto e inténtelo nuevamente.',
+    'ERROR_DUPLICATE_LANGUAGE_CODE' => 'Error: Ya fue definido un idioma con ese código.',
 ];
 
 return $define;

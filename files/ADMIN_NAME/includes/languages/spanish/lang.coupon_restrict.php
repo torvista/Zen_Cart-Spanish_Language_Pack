@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,40 +7,40 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Discount Coupons Product/Category Restrictions',
-    'HEADING_TITLE_CATEGORY' => 'Category Restrictions',
-    'HEADING_TITLE_PRODUCT' => 'Product Restrictions',
-    'SUB_HEADING_COUPON_NAME' => 'Restrictions for the coupon named &quot;%1$s&quot; [%2$u].',
-    'TABLE_HEADING_CATEGORY_ID' => 'Category ID',
-    'TABLE_HEADING_CATEGORY_NAME' => 'Category Name',
-    'TABLE_HEADING_PRODUCT_NAME' => 'Product Name',
-    'TABLE_HEADING_PRODUCT_ID' => 'Product ID',
-    'TABLE_HEADING_RESTRICT' => 'Restriction',
-    'TABLE_HEADING_RESTRICT_REMOVE' => 'Remove',
-    'IMAGE_REMOVE' => 'Remove this restriction',
-    'TEXT_ALL_CATEGORIES' => 'All Categories',
+    'HEADING_TITLE' => 'Restricciones de los Cupones para Productos/Categorías',
+    'HEADING_TITLE_CATEGORY' => 'Restricciones de Categorías',
+    'HEADING_TITLE_PRODUCT' => 'Restricciones de Productos',
+    'SUB_HEADING_COUPON_NAME' => 'Restricciones para el Cupón &quot;%1$s&quot; [%2$u].',  //-%1$s = coupon-name => %2$u = coupon_id
+    'TABLE_HEADING_CATEGORY_ID' => 'ID Categoría',
+    'TABLE_HEADING_CATEGORY_NAME' => 'Nombre Categoría',
+    'TABLE_HEADING_PRODUCT_NAME' => 'Nombre de Producto',
+    'TABLE_HEADING_PRODUCT_ID' => 'ID de Producto',
+    'TABLE_HEADING_RESTRICT' => 'Restricción',
+    'TABLE_HEADING_RESTRICT_REMOVE' => 'Eliminar',
+    'IMAGE_REMOVE' => 'Eliminar esta Restricción',
+    'TEXT_ALL_CATEGORIES' => 'Todas las Categorías',
     'MAX_DISPLAY_RESTRICT_ENTRIES' => 20,
-    'TEXT_ALL_PRODUCTS_ADD' => 'Add All Category Products',
-    'TEXT_ALL_PRODUCTS_REMOVE' => 'Remove All Category Products',
-    'TEXT_INFO_ADD_DENY_ALL' => '<strong>For Add all Category Products, only Products not already set for restrictions will be added.<br />
-                    For Delete all Category Products, only Products that are specified Deny or Allow will be removed.</strong>',
-    'ERROR_DISCOUNT_COUPON_DEFINED_CATEGORY' => 'Category Not Completed',
-    'ERROR_DISCOUNT_COUPON_DEFINED_PRODUCT' => 'Product Not Completed',
-    'HEADER_MANUFACTURER_NAME' => '<br> -- OR -- <br>' . 'Manufacturer: ',
-    'TEXT_ALL_MANUFACTURERS_ADD' => 'Add All Manufacturer Products',
-    'TEXT_ALL_MANUFACTURERS_REMOVE' => 'Remove All Manufacturer Products',
-    'TABLE_HEADING_STATUS' => 'Status',
-    'ERROR_RESET_CATEGORY_MANUFACTURER' => 'Category and Manufacturer filters reset. Use filters individually.',
-    'TEXT_PULLDOWN_ALLOW' => 'Allow',
-    'TEXT_PULLDOWN_DENY' => 'Deny',
-    'TEXT_SUBMIT_CATEGORY_ADD' => 'Add',
-    'TEXT_SUBMIT_PRODUCT_UPDATE' => 'Update',
-    'TEXT_STATUS_TOGGLE' => 'Toggle',
-    'TEXT_STATUS_TOGGLE_TITLE' => 'Click here to toggle the restriction\'s status',
-    'TEXT_ALLOWED' => 'Product or category is allowed',
-    'TEXT_DENIED' => 'Product or category is not allowed',
-    'TEXT_NO_CATEGORY_RESTRICTIONS' => 'No current category restrictions',
-    'TEXT_NO_PRODUCT_RESTRICTIONS' => 'No current product restrictions',
+    'TEXT_ALL_PRODUCTS_ADD' => 'Añade Todos los Productos de la Categoría',
+    'TEXT_ALL_PRODUCTS_REMOVE' => 'Quitar Todos los Productos de la Categoría',
+    'TEXT_INFO_ADD_DENY_ALL' => '<strong>Al Añadir Todos los Productos => solamente se añadirán los productos que no tengan actualmente ninguna restricción.<br>
+                    Al seleccionar Quitar Todos los Productos => solamente se quitarán los productos para los que se ha especificado Denegado o Permitido.</strong>',
+    'ERROR_DISCOUNT_COUPON_DEFINED_CATEGORY' => 'Categoría no Completada',
+    'ERROR_DISCOUNT_COUPON_DEFINED_PRODUCT' => 'Producto no Completado',
+    'HEADER_MANUFACTURER_NAME' => '<br> -- OR -- <br>' . 'Fabricante: ',
+    'TEXT_ALL_MANUFACTURERS_ADD' => 'Añadir todos los productos del fabricante',
+    'TEXT_ALL_MANUFACTURERS_REMOVE' => ' Quitar todos los productos del fabricante ',
+    'TABLE_HEADING_STATUS' => 'Estatus',
+    'ERROR_RESET_CATEGORY_MANUFACTURER' => 'Los filtros de Categoría y Fabricante han sido reseteado. Utilice los filtros por separado.',
+    'TEXT_PULLDOWN_ALLOW' => 'Permitir',
+    'TEXT_PULLDOWN_DENY' => 'Denegar',
+    'TEXT_SUBMIT_CATEGORY_ADD' => 'Añadir',
+    'TEXT_SUBMIT_PRODUCT_UPDATE' => 'Actualizar',
+    'TEXT_STATUS_TOGGLE' => 'Alternar',
+    'TEXT_STATUS_TOGGLE_TITLE' => 'Pinche aquí para alternar el estatus de la restricción',
+    'TEXT_ALLOWED' => 'Producto o Categoría está permitido',
+    'TEXT_DENIED' => 'Productto o Categoría no está permitido',
+    'TEXT_NO_CATEGORY_RESTRICTIONS' => 'Actualmente no hay Restricciones de Categoría',
+    'TEXT_NO_PRODUCT_RESTRICTIONS' => 'Actualmente no hay Restricciones de Producto',
 ];
 
 return $define;

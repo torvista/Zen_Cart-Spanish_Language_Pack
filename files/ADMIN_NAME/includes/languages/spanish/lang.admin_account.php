@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -8,10 +8,10 @@
 
 $define = [
     'HEADING_TITLE' => 'Admin Account',
-    'TEXT_ADMIN_NAME' => 'Username',
-    'TEXT_PASSWORD' => 'Password',
-    'TEXT_CONFIRM_PASSWORD' => 'Confirm Password',
-    'SUCCESS_PASSWORD_UPDATED' => 'Password updated.',
+    'TEXT_ADMIN_NAME' => 'Usuario',
+    'TEXT_PASSWORD' => 'Contraseña',
+    'TEXT_CONFIRM_PASSWORD' => 'Confirmar Contraseña',
+    'SUCCESS_PASSWORD_UPDATED' => 'Contraseña actualizada.',
 ];
 
 return $define;

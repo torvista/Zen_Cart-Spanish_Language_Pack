@@ -1,4 +1,5 @@
 Changelog
+2021 06 13 Consolidated with english constants with v158 to date.
 2021 06 10 Moved all spanish language packs to one GitHub repository.
 -------------------
 2020 11 03 Updates for ZC157a (mostly headers).

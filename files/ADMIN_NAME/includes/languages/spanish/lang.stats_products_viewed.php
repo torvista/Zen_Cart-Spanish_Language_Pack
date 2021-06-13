@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,12 +7,12 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Most-Viewed Products',
-    'TABLE_HEADING_NUMBER' => 'Product ID',
-    'TABLE_HEADING_PRODUCTS' => 'Product Name (Language)',
-    'TABLE_HEADING_VIEWED' => 'Views',
-    'TEXT_REPORT_START_DATE' => 'Start Date',
-    'TEXT_REPORT_END_DATE' => 'End Date',
+    'HEADING_TITLE' => 'Productos Más Vistos',
+    'TABLE_HEADING_NUMBER' => 'ID#',
+    'TABLE_HEADING_PRODUCTS' => 'Nombre (Idioma)',
+    'TABLE_HEADING_VIEWED' => 'Vistas',
+    'TEXT_REPORT_START_DATE' => 'Fecha Inicio',
+    'TEXT_REPORT_END_DATE' => 'Fecha Fin',
 ];
 
 return $define;

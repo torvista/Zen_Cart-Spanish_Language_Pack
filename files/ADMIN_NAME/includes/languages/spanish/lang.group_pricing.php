@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,26 +7,26 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Group Pricing',
+    'HEADING_TITLE' => 'Precios para Grupos',
     'TABLE_HEADING_GROUP_ID' => 'ID',
-    'TABLE_HEADING_GROUP_NAME' => 'Group Name',
-    'TABLE_HEADING_GROUP_AMOUNT' => '% Discount',
-    'TABLE_HEADING_ACTION' => 'Action',
-    'TEXT_HEADING_NEW_PRICING_GROUP' => 'New Pricing Group',
-    'TEXT_HEADING_EDIT_PRICING_GROUP' => 'Edit Pricing Group',
-    'TEXT_HEADING_DELETE_PRICING_GROUP' => 'Delete Pricing Group',
-    'TEXT_NEW_INTRO' => 'Please fill out the following information for the new group',
-    'TEXT_EDIT_INTRO' => 'Please make any necessary changes',
-    'TEXT_DELETE_INTRO' => 'Are you sure you want to delete this group?',
-    'TEXT_DELETE_PRICING_GROUP' => 'Delete Pricing Group',
-    'TEXT_DELETE_WARNING_GROUP_MEMBERS' => '<b>WARNING:</b> There are %s customers still linked to this category!',
-    'TEXT_GROUP_PRICING_NAME' => 'Group Name: ',
-    'TEXT_GROUP_PRICING_AMOUNT' => 'Percentage Discount: ',
-    'TEXT_DATE_ADDED' => 'Date Added:',
-    'TEXT_LAST_MODIFIED' => 'Date Modified:',
-    'TEXT_CUSTOMERS' => 'Customers in Group:',
-    'ERROR_GROUP_PRICING_CUSTOMERS_EXIST' => 'ERROR: Customers exist in that group. Please confirm that you wish to remove all members from the group and delete it.',
-    'ERROR_MODULE_NOT_CONFIGURED' => 'NOTE: You have group pricing definitions, but you have not enabled the group-pricing Order Total module.<br />Please go to Admin->Modules->Order Total->Membership Discount (ot_group_pricing) and install/configure the module.',
+    'TABLE_HEADING_GROUP_NAME' => 'Nombre de Grupo',
+    'TABLE_HEADING_GROUP_AMOUNT' => '% Descuento',
+    'TABLE_HEADING_ACTION' => 'Acción',
+    'TEXT_HEADING_NEW_PRICING_GROUP' => 'Nuevo precio de Grupo',
+    'TEXT_HEADING_EDIT_PRICING_GROUP' => 'Editar precio de Grupo',
+    'TEXT_HEADING_DELETE_PRICING_GROUP' => 'Borrar precio de Grupo',
+    'TEXT_NEW_INTRO' => 'Rellene la siguiente información para el nuevo Grupo',
+    'TEXT_EDIT_INTRO' => 'Haga cualquier cambio necesario',
+    'TEXT_DELETE_INTRO' => '¿Está seguro de que desea borrar este Grupo?',
+    'TEXT_DELETE_PRICING_GROUP' => 'Borrar Grupo',
+    'TEXT_DELETE_WARNING_GROUP_MEMBERS','<b>AVISO:</b> ¡Hay %s clientes vinculados a este Grupo!',
+    'TEXT_GROUP_PRICING_NAME' => 'Nombre de Grupo: ',
+    'TEXT_GROUP_PRICING_AMOUNT' => 'Porcentaje de Descuento: ',
+    'TEXT_DATE_ADDED' => 'Añadido el:',
+    'TEXT_LAST_MODIFIED' => 'Fecha de modificación:',
+    'TEXT_CUSTOMERS' => 'Clientes en el Grupo:',
+    'ERROR_GROUP_PRICING_CUSTOMERS_EXIST','ERROR: Existen clientes en este Grupo. Confirme que quiere quitar todos los miembros del Grupo y borrarlo.',
+    'ERROR_MODULE_NOT_CONFIGURED','NOTA: Hay definiciones de Precios de Grupo => pero no está activado el módulo Descuento por Grupo.<br>Vaya a Admin->Módulos->Total de Pedido->Descuento por Grupo (ot_group_pricing) e instale y configure el módulo.',
 ];
 
 return $define;

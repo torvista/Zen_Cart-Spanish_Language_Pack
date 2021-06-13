@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,16 +7,16 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Option Name Sort Order',
-    'TEXT_EDIT_ALL' => 'Editing All Option Names',
-    'TEXT_CURRENT_NAME' => 'Current Name',
-    'TEXT_SORT_ORDER' => 'Sort Order',
-    'TEXT_OPTION_ID' => 'Option ID',
-    'TEXT_OPTION_TYPE' => 'Type',
-    'TEXT_OPTION_NAME' => 'Option Name',
-    'TEXT_SELECTED_LANGUAGE' => 'Selected Language: ',
-    'TEXT_UPDATE_SUBMIT' => 'Update Sort Order',
-    'SUCCESS_OPTION_SORT_ORDER' => 'Successful Update of Option Name Sort Orders',
+    'HEADING_TITLE' => 'Órdenes de las Opciones',
+      'TEXT_EDIT_ALL' => 'Editando todos los Nombres de las Opciones',
+      'TEXT_CURRENT_NAME' => 'Nombre Actual',
+      'TEXT_SORT_ORDER' => 'Orden',
+      'TEXT_OPTION_ID' => 'ID Opción',
+      'TEXT_OPTION_TYPE' => 'Tipo',
+      'TEXT_OPTION_NAME' => 'Nombre de Opción',
+      'TEXT_SELECTED_LANGUAGE' => 'Idioma: ',
+      'TEXT_UPDATE_SUBMIT','Actualizar Órden',
+      'SUCCESS_OPTION_SORT_ORDER' => 'Los órdenes de los Nombres de las Opciones han sido actualizados correctamente',
 ];
 
 return $define;
