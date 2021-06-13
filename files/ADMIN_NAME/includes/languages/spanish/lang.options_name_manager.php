@@ -38,7 +38,7 @@ $define = [
     'TEXT_OPTION_NAME_ROWS' => 'Filas',
     'TEXT_OPTION_NAME_SIZE','Tamaño Display',
     'TEXT_OPTION_NAME_MAX','Longitud Máximo',
-    'TEXT_OPTION_TYPE_TEXT_ATTRIBUTE_INFO' => 'Nota: ' . TEXT_OPTION_NAME_ROWS . ' => ' . TEXT_OPTION_NAME_SIZE . ' y ' . TEXT_OPTION_NAME_MAX . ' son solamente para Nombre de Opción tipo "Text".',
+    'TEXT_OPTION_TYPE_TEXT_ATTRIBUTE_INFO' => 'Nota: ' . '%%TEXT_OPTION_NAME_ROWS%%' . ', ' . '%%TEXT_OPTION_NAME_SIZE%%' . ' y ' . '%%TEXT_OPTION_NAME_MAX%%' . ' son solamente para Nombre de Opción tipo "Text".',
     'TEXT_INSERT_NEW_OPTION_NAME' => 'Añadir un Nombre de Opción nuevo',
     'TEXT_GLOBAL_TOOLS' => 'Herramientas Globales',
     'TEXT_CLICK_TO_SHOW_HIDE' => 'pinche para mostrar/esconder',

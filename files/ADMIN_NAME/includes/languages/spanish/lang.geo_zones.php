@@ -5,8 +5,9 @@
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id:
 */
+
 $define = [
-    'HEADING_TITLE' => 'Definición de Zonas - Impuestos => Pagos y Envíos',
+    'HEADING_TITLE' => 'Definición de Zonas - Impuestos, Pagos y Envíos',
     'TABLE_HEADING_COUNTRY' => 'País',
     'TABLE_HEADING_COUNTRY_ZONE' => 'Zona',
     'TABLE_HEADING_TAX_ZONES' => 'Nombre Zona',
