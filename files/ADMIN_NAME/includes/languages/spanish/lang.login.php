@@ -9,7 +9,7 @@
 $define = [
     'HEADING_TITLE' => 'Admin Login',
     'HEADING_TITLE_EXPIRED' => 'Admin Login - Contraseña Caducada',
-    'TEXT_SUBMIT','Continuar',
+    'TEXT_SUBMIT' => 'Continuar',
     'TEXT_ADMIN_NAME' => 'Usuario Admin',
     'TEXT_ADMIN_PASS' => 'Contraseña Admin',
     'TEXT_ADMIN_OLD_PASSWORD' => 'Contraseña Actual',
