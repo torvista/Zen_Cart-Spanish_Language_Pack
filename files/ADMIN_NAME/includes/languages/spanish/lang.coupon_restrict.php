@@ -22,8 +22,7 @@ $define = [
     'MAX_DISPLAY_RESTRICT_ENTRIES' => 20,
     'TEXT_ALL_PRODUCTS_ADD' => 'Añade Todos los Productos de la Categoría',
     'TEXT_ALL_PRODUCTS_REMOVE' => 'Quitar Todos los Productos de la Categoría',
-    'TEXT_INFO_ADD_DENY_ALL' => '<strong>Al Añadir Todos los Productos => solamente se añadirán los productos que no tengan actualmente ninguna restricción.<br>
-                    Al seleccionar Quitar Todos los Productos => solamente se quitarán los productos para los que se ha especificado Denegado o Permitido.</strong>',
+    'TEXT_INFO_ADD_DENY_ALL' => '<strong>Al Añadir Todos los Productos => solamente se añadirán los productos que no tengan actualmente ninguna restricción.<br>Al seleccionar Quitar Todos los Productos => solamente se quitarán los productos para los que se ha especificado Denegado o Permitido.</strong>',
     'ERROR_DISCOUNT_COUPON_DEFINED_CATEGORY' => 'Categoría no Completada',
     'ERROR_DISCOUNT_COUPON_DEFINED_PRODUCT' => 'Producto no Completado',
     'HEADER_MANUFACTURER_NAME' => '<br> -- OR -- <br>' . 'Fabricante: ',

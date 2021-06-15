@@ -14,12 +14,12 @@ define('EMAIL_SUBJECT', 'Consulta desde ' . STORE_NAME);
 
 define('ENTRY_NAME', 'Nombre:');
 define('ENTRY_EMAIL', 'Email:');
-define('ENTRY_TELEPHONE', 'Teléphono:');
+define('ENTRY_TELEPHONE', 'Teléfono:');
 define('ENTRY_ENQUIRY', 'Mensaje:');
 define('TEXT_PRODUCT_NAME', 'Producto: ');
 
 define('SEND_TO_TEXT','Enviar Email A:');
-define('ENTRY_EMAIL_NAME_CHECK_ERROR', 'El nombre es correcto? El campo precisa un mínimo de ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' carácteres. Inténtelo otra vez.');
-define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','¿Olvidistó el mensaje? Puede introducir su mensaje en el campo inferior.');
+define('ENTRY_EMAIL_NAME_CHECK_ERROR', 'El nombre es correcto? El campo precisa un mínimo de ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' caracteres. Inténtelo otra vez.');
+define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','¿Olvido el mensaje? Puede introducir su mensaje en el campo inferior.');
 
 define('NOT_LOGGED_IN_TEXT', 'No ha entrado en una cuenta');
