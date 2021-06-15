@@ -36,12 +36,12 @@ $define = [
     'WARNING_SPECIALS_PRE_ADD_PID_EMPTY' => 'Aviso: No especifica el ID del Producto.',
     'WARNING_SPECIALS_PRE_ADD_PID_DUPLICATE' => 'Aviso: ID#%u Producto ya está en Oferta.',
     'WARNING_SPECIALS_PRE_ADD_PID_NO_EXIST' => 'Aviso: ID#%u Producto no existe.',
-    'WARNING_SPECIALS_PRE_ADD_PID_GIFT' => 'Aviso: ID#%u Producto es un ' . TEXT_GV_NAME . '.',
+    'WARNING_SPECIALS_PRE_ADD_PID_GIFT' => 'Aviso: ID#%u Producto es un ' . '%%TEXT_GV_NAME%%' . '.',
     'TEXT_INFO_HEADING_PRE_ADD_SPECIALS' => 'Añade nueva Oferta por el ID de un Producto',
     'TEXT_INFO_PRE_ADD_INTRO' => 'Se puede añadir una Oferta por ID del Producto. Puede ser apropiado usar este método para bases de datos grandes => cuando la página tarda mucho tiempo en cargar el menú desplegable.',
     'TEXT_PRE_ADD_PRODUCTS_ID' => 'Tecle el ID de Producto para ser pre-añadido: ',
     'TEXT_SPECIALS_PRICE_NOTES_HEAD' => '<b>Notas:</b>', 
-    'TEXT_SPECIALS_PRICE_NOTES' => '<b>Notas:</b><ul><li>La Oferta puede ser un precio (sin impuestos). El separador decimal debe ser un "." (punto decimal) => por ejemplo: <b>49.99</b>. El porcentaje de descuento calculado se muestra junto al nuevo precio del producto en el catálogo.</li><li>La Oferta puede ser un porcentaje de descuento => por ejemplo: <b>20%</b>.</li><li>Las fechas de inicio / finalización no son obligatorias. Puede dejar la fecha de vencimiento vacía sin vencimiento.</li><li>Cuando se establecen fechas => el estado de la Oferta se habilita / deshabilita automáticamente en consecuencia.</li><li>'. TEXT_INFO_PRE_ADD_INTRO. '</li> </ul>',
+    'TEXT_SPECIALS_PRICE_NOTES_BODY' => '<li>El Precio Especial puede ser un precio (sin impuestos). El separador decimal debe ser un "." (punto decimal), por ejemplo: <b>49.99</b>. El porcentaje de descuento calculado se muestra junto al nuevo precio del producto en el catálogo.</li><li>El Precio Especial puede ser un porcentaje de descuento, por ejemplo: <b>20%</b>.</li><li>Las fechas de inicio / finalización no son obligatorias. Puede dejar la fecha de vencimiento vacía para que no caduca.</li> <li> Cuando se establecen las fechas, el estado del Precio Especial se habilita / deshabilita automáticamente en consecuencia.</li>',
 ];
 
 return $define;
