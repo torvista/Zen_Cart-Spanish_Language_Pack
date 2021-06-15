@@ -7,19 +7,19 @@
 define('NAVBAR_TITLE', 'Realiza una Pregunta');
 
 define('HEADING_TITLE', 'Realiza una Pregunta sobre ');
-define('FORM_TITLE', '¿Cuál es su Pregunta??');
+define('FORM_TITLE', 'Â¿CuÃ¡l es su Pregunta??');
 
 define('TEXT_SUCCESS', 'Se ha enviado su pregunta.');
 define('EMAIL_SUBJECT', 'Consulta desde ' . STORE_NAME);
 
 define('ENTRY_NAME', 'Nombre:');
 define('ENTRY_EMAIL', 'Email:');
-define('ENTRY_TELEPHONE', 'Teléphono:');
+define('ENTRY_TELEPHONE', 'TelÃ©fono:');
 define('ENTRY_ENQUIRY', 'Mensaje:');
 define('TEXT_PRODUCT_NAME', 'Producto: ');
 
 define('SEND_TO_TEXT','Enviar Email A:');
-define('ENTRY_EMAIL_NAME_CHECK_ERROR',''El nombre es correcto? El campo precisa un mínimo de ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' carácteres. Inténtelo otra vez.');
-define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','¿Olvistó el mensaje? Puede introducir su mensaje en el campo inferior.');
+define('ENTRY_EMAIL_NAME_CHECK_ERROR', 'El nombre es correcto? El campo precisa un mÃ­nimo de ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' carÃ¡cteres. IntÃ©ntelo otra vez.');
+define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','Â¿Olvido el mensaje? Puede introducir su mensaje en el campo inferior.');
 
-define('NOT_LOGGED_IN_TEXT', 'Not logged in');
+define('NOT_LOGGED_IN_TEXT', 'No ha entrado en una cuenta');
