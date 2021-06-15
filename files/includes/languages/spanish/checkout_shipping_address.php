@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -6,23 +6,22 @@
  * @version $Id: Scott C Wilson 2020 Apr 12 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE', 'Change Shipping Address');
-define('NAVBAR_TITLE_1', 'Checkout');
-define('NAVBAR_TITLE_2', 'Change Shipping Address');
+define('NAVBAR_TITLE', 'Cambiar la Dirección de Envío');
+define('NAVBAR_TITLE_1', 'Pago');
+define('NAVBAR_TITLE_2', 'Cambiar la Dirección de Envío');
 
-define('HEADING_TITLE', 'Change the Shipping Address');
+define('HEADING_TITLE', 'Cambiar la Dirección de Envío');
 
-define('TABLE_HEADING_SHIPPING_ADDRESS', 'Shipping Address');
-define('TITLE_SHIPPING_ADDRESS', 'Current Shipping Address');
+define('TABLE_HEADING_SHIPPING_ADDRESS', 'Dirección de Envío');
+define('TITLE_SHIPPING_ADDRESS', 'Dirección actual de Envío');
 
-define('TABLE_HEADING_ADDRESS_BOOK_ENTRIES', '...Or Choose From Your Address Book Entries');
-define('TITLE_PLEASE_SELECT', 'Change the Shipping Address for This Order');
+define('TABLE_HEADING_ADDRESS_BOOK_ENTRIES', '...o elija una de su Agenda de Direcciones');
+define('TITLE_PLEASE_SELECT', 'Por favor, elija');
 
-define('TABLE_HEADING_NEW_SHIPPING_ADDRESS', 'New Shipping Address');
-define('TEXT_CREATE_NEW_SHIPPING_ADDRESS', 'Please use the following form to create a new shipping address for use with this order.');
+define('TABLE_HEADING_NEW_SHIPPING_ADDRESS', 'Nueva Dirección de Envío');
+define('TEXT_CREATE_NEW_SHIPPING_ADDRESS', 'Por favor, use el siguiente formulario para crear una nueva dirección de envío para usar en este pedido.');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Continue</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- to shipping method.');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Continuar</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- a método de envío.');
 
-define('SET_AS_PRIMARY', 'Set as Primary Address');
-
+define('SET_AS_PRIMARY', 'Establecer como Dirección Principal');

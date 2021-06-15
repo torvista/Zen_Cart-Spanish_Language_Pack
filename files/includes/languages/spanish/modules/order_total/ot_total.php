@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -21,5 +21,5 @@
 //
 
   define('MODULE_ORDER_TOTAL_TOTAL_TITLE', 'Total');
-  define('MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION', 'Order Total');
+  define('MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION', 'Total del Pedido');
 ?>

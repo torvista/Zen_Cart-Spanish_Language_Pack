@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -6,19 +6,19 @@
  * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Product Notifications');
+define('NAVBAR_TITLE_1', 'Mi Cuenta');
+define('NAVBAR_TITLE_2', 'Notificaciones de Productos');
 
-define('HEADING_TITLE', 'Product Notifications');
+define('HEADING_TITLE', 'Notificaciones de Productos');
 
-define('MY_NOTIFICATIONS_DESCRIPTION', 'The product notification list allows you to stay up to date on products you find of interest.<br /><br />To be up to date on all product changes, select <strong>Global Product Notifications</strong>.');
+define('MY_NOTIFICATIONS_DESCRIPTION', 'La lista de notificaciones le permite estar informado de los productos que son de su interés.<br><br>Para estar al tanto de los cambios en todos los productos, seleccione <strong>Notificación Global de Productos</strong>.');
 
-define('GLOBAL_NOTIFICATIONS_TITLE', 'Global Product Notifications');
-define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'Receive notifications on all available products.');
+define('GLOBAL_NOTIFICATIONS_TITLE', 'Alerta global de productos');
+define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'Recibir alertas de todos los productos disponibles.');
 
-define('NOTIFICATIONS_TITLE', 'Product Notifications');
-define('NOTIFICATIONS_DESCRIPTION', 'To remove a product notification, clear that product\'s checkbox and click on Update.');
-define('NOTIFICATIONS_NON_EXISTING', 'There are currently no products marked to be notified of.<br /><br />To add products to your product notification list, click on the notification link available on the detailed product information page.');
-define('TEXT_NO_PURCHASES', 'No Purchases');
+define('NOTIFICATIONS_TITLE', 'Alerta de Productos');
+define('NOTIFICATIONS_DESCRIPTION', 'Para quitar una alerta de un producto, desmarque las casillas de los productos y pulse en Actualizar.');
+define('NOTIFICATIONS_NON_EXISTING', 'Actualmente no hay productos marcados para notificación.<br><br>Para añadir productos a su lista de alertas, pulse sobre el enlace de alertas disponible en la información detallada de dicho producto.');
+define('TEXT_NO_PURCHASES', 'Sin Compras');
 
-define('SUCCESS_NOTIFICATIONS_UPDATED', 'Your product notifications have been updated.');
+define('SUCCESS_NOTIFICATIONS_UPDATED', 'Sus alertas de productos han sido actualizadas satisfactoriamente.');

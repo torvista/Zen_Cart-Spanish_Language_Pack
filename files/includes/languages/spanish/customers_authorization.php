@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,8 +20,8 @@
 // $Id: customers_authorization.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Customers Authorization Pending');
-define('HEADING_TITLE', 'Customer Authorization Pending ...');
-define('CUSTOMERS_AUTHORIZATION_TEXT_INFORMATION', 'Thank you for requesting Authorization for our store.<br /><br />We will contact you as soon as possible.');
-define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', 'To verify your Authorization status ... Click here:');
+define('NAVBAR_TITLE', 'Autorización pendiente de cliente');
+define('HEADING_TITLE', 'Autorización pendiente de cliente ...');
+define('CUSTOMERS_AUTHORIZATION_TEXT_INFORMATION', 'Gracias por pedir autorización en nuestra tienda.<br><br>Nos pondremos en contacto con usted lo antes posible.');
+define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', 'Para mostrar el estado de su autorización ... Pulse aquí:');
 ?>

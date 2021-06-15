@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,13 +7,13 @@
  */
 
 // page title
-define('TITLE', 'Zen Cart!');
+define('TITLE', '¡Zen Cart!');
 
 // Site Tagline
-define('SITE_TAGLINE', 'The Art of E-commerce');
+define('SITE_TAGLINE', 'El Arte de Comercio Electrónico');
 
 // Custom Keywords
-define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping, store');
+define('CUSTOM_KEYWORDS', 'e-comercio, comercio, electrónico, código abierto, tienda, compras online');
 
 // Home Page Only:
   define('HOME_PAGE_META_DESCRIPTION', '');
@@ -28,7 +28,7 @@ define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping, store'
 // (ie: the Title tag is best not set, so that site-wide defaults can be used.)
 // repeat pattern as necessary
 
-/* 
+/*
   define('META_TAG_DESCRIPTION_EZPAGE_#','');
   define('META_TAG_KEYWORDS_EZPAGE_#','');
   define('META_TAG_TITLE_EZPAGE_#', '');
@@ -45,7 +45,7 @@ define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping, store'
 
 
 // Review Page can have a lead in:
-  define('META_TAGS_REVIEW', 'Reviews: ');
+  define('META_TAGS_REVIEW', 'Comentarios: ');
 
 // separators for meta tag definitions
 // Define Primary Section Output
@@ -62,6 +62,4 @@ define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping, store'
 
 // Define which pages to tell robots/spiders not to index
 // This is generally used for account-management pages or typical SSL pages, and usually doesn't need to be touched.
-  define('ROBOTS_PAGES_TO_SKIP','login,logoff,create_account,account,account_edit,account_history,account_history_info,account_newsletters,account_notifications,account_password,address_book,advanced_search,advanced_search_result,checkout_success,checkout_process,checkout_shipping,checkout_payment,checkout_confirmation,cookie_usage,create_account_success,contact_us,download,download_timeout,customers_authorization,down_for_maintenance,password_forgotten,time_out,unsubscribe,info_shopping_cart,gv_faq,gv_redeem,gv_send,popup_image,popup_image_additional,product_reviews_write,ssl_check,shopping_cart,no_account,order_status');
-
-
+  define('ROBOTS_PAGES_TO_SKIP','login,logoff,create_account,account,account_edit,account_history,account_history_info,account_newsletters,account_notifications,account_password,address_book,search,search_result,checkout_success,checkout_process,checkout_shipping,checkout_payment,checkout_confirmation,cookie_usage,create_account_success,contact_us,download,download_timeout,customers_authorization,down_for_maintenance,password_forgotten,time_out,unsubscribe,info_shopping_cart,gv_faq,gv_redeem,gv_send,popup_image,popup_image_additional,product_reviews_write,ssl_check,shopping_cart,no_account,order_status');

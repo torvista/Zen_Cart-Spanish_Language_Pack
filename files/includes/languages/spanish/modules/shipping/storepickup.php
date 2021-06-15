@@ -1,4 +1,4 @@
-<?php
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2013 Zen Cart Development Team
@@ -7,9 +7,9 @@
  * @version GIT: $Id: Author: DrByte  Thu Feb 14 23:03:50 2013 -0500 Modified in v1.5.2 $
  */
 
-define('MODULE_SHIPPING_STOREPICKUP_TEXT_TITLE', 'Store Pickup');
-define('MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION', 'Customer In Store Pick-up');
-define('MODULE_SHIPPING_STOREPICKUP_TEXT_WAY', 'Walk In');
+define('MODULE_SHIPPING_STOREPICKUP_TEXT_TITLE', 'Recoger en Tienda');
+define('MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION', 'El cliente recogerá personalmente su pedido en la tienda');
+define('MODULE_SHIPPING_STOREPICKUP_TEXT_WAY', 'Recoger en persona');
 
 
 // The following is for defining multiple locations/methods on a per-language basis. It is only used if the shopper has selected a language other than the store's default.

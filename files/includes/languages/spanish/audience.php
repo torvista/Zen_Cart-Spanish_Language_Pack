@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,4 +20,4 @@
 //  $Id: audience.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-if (!defined('TEXT_SELECT_AN_OPTION')) define('TEXT_SELECT_AN_OPTION', 'Please Select');
+if (!defined('TEXT_SELECT_AN_OPTION')) define('TEXT_SELECT_AN_OPTION', 'Elija una opción');

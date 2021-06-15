@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -6,30 +6,29 @@
  * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE', 'My Account');
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'History');
-define('NAVBAR_TITLE_3', 'Order #%s');
+define('NAVBAR_TITLE', 'Mi Cuenta');
+define('NAVBAR_TITLE_1', 'Mi Cuenta');
+define('NAVBAR_TITLE_2', 'Historial');
+define('NAVBAR_TITLE_3', 'Pedido #%s');
 
-define('HEADING_TITLE', 'Order Information');
+define('HEADING_TITLE', 'Información del Pedido');
 
-define('HEADING_ORDER_NUMBER', 'Order #%s');
-define('HEADING_ORDER_DATE', 'Order Date:');
+define('HEADING_ORDER_NUMBER', 'Pedido #%s');
+define('HEADING_ORDER_DATE', 'Fecha del Pedido:');
 
-define('HEADING_DELIVERY_ADDRESS', 'Delivery Address');
-define('HEADING_SHIPPING_METHOD', 'Shipping Method');
+define('HEADING_DELIVERY_ADDRESS', 'Dirección de Entrega');
+define('HEADING_SHIPPING_METHOD', 'Método de envío');
 
-define('HEADING_PRODUCTS', 'Products');
-define('HEADING_TAX', 'Tax');
+define('HEADING_PRODUCTS', 'Productos');
+define('HEADING_TAX', 'Impuestos');
 define('HEADING_TOTAL', 'Total');
-define('HEADING_QUANTITY', 'Qty.');
+define('HEADING_QUANTITY', 'Cant.');
 
-define('HEADING_BILLING_ADDRESS', 'Billing Address');
-define('HEADING_PAYMENT_METHOD', 'Payment Method');
+define('HEADING_BILLING_ADDRESS', 'Dirección de Facturación');
+define('HEADING_PAYMENT_METHOD', 'Forma de pago');
 
-define('HEADING_ORDER_HISTORY', 'Status History &amp; Comments');
-define('TABLE_HEADING_STATUS_DATE', 'Date');
-define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Order Status');
-define('TABLE_HEADING_STATUS_COMMENTS', 'Comments');
-define('QUANTITY_SUFFIX', '&nbsp;ea.  ');
+define('HEADING_ORDER_HISTORY', 'Historial de Estados y Comentarios');
+define('TABLE_HEADING_STATUS_DATE', 'Fecha');
+define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Estado del Pedido');
+define('TABLE_HEADING_STATUS_COMMENTS', 'Comentarios');
 define('ORDER_HEADING_DIVIDER', '&nbsp;-&nbsp;');

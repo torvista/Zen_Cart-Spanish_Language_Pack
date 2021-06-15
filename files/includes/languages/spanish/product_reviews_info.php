@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -6,10 +6,10 @@
  * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE', 'Reviews');
-//define('SUB_TITLE_PRODUCT', 'Product:');
-//define('SUB_TITLE_FROM', 'From:');
-//define('SUB_TITLE_DATE', 'Date:');
-//define('SUB_TITLE_REVIEW', 'Review:');
-//define('SUB_TITLE_RATING', 'Rating:');
+define('NAVBAR_TITLE', 'Comentarios');
+//define('SUB_TITLE_PRODUCT', 'Producto:');
+//define('SUB_TITLE_FROM', 'De:');
+//define('SUB_TITLE_DATE', 'Fecha:');
+//define('SUB_TITLE_REVIEW', 'Comentarios:');
+//define('SUB_TITLE_RATING', 'Calificación:');
 define('TEXT_OF_5_STARS', '');

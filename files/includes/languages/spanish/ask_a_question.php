@@ -1,25 +1,25 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: DrByte 2020 Jun 07 Modified in v1.5.7 $
  */
-define('NAVBAR_TITLE', 'Ask a Question');
+define('NAVBAR_TITLE', 'Realiza una Consulta');
 
-define('HEADING_TITLE', 'Ask a Question About ');
-define('FORM_TITLE', 'What is Your Question?');
+define('HEADING_TITLE', 'Realiza una consulta sobre ');
+define('FORM_TITLE', '¿Cuál es su consulta?');
 
-define('TEXT_SUCCESS', 'Your message has been successfully sent.');
-define('EMAIL_SUBJECT', 'Product Inquiry at ' . STORE_NAME);
+define('TEXT_SUCCESS', 'Se ha enviado su consulta');
+define('EMAIL_SUBJECT', 'Consulta desde ' . STORE_NAME);
 
-define('ENTRY_NAME', 'Full Name:');
-define('ENTRY_EMAIL', 'Email Address:');
-define('ENTRY_TELEPHONE', 'Telephone Number:');
-define('ENTRY_ENQUIRY', 'Message:');
-define('TEXT_PRODUCT_NAME', 'Product Name: ');
+define('ENTRY_NAME', 'Nombre:');
+define('ENTRY_EMAIL', 'Email:');
+define('ENTRY_TELEPHONE', 'Teléphono:');
+define('ENTRY_ENQUIRY', 'Mensaje:');
+define('TEXT_PRODUCT_NAME', 'Producto: ');
 
-define('SEND_TO_TEXT','Send Email To:');
-define('ENTRY_EMAIL_NAME_CHECK_ERROR','Sorry, is your name correct? Our system requires a minimum of ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' characters. Please try again.');
-define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','Did you forget your message? We would like to hear from you. You can type your comments in the text area below.');
+define('SEND_TO_TEXT','Enviar Email A:');
+define('ENTRY_EMAIL_NAME_CHECK_ERROR', 'El nombre es correcto? El campo precisa un mínimo de ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' carácteres. Inténtelo otra vez.');
+define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','¿Olvidistó el mensaje? Puede introducir su mensaje en el campo inferior.');
 
-define('NOT_LOGGED_IN_TEXT', 'Not logged in');
+define('NOT_LOGGED_IN_TEXT', 'No ha entrado en una cuenta');

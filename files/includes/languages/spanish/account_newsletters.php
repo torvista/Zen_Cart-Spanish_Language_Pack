@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -6,12 +6,12 @@
  * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Newsletter Subscriptions');
+define('NAVBAR_TITLE_1', 'Mi Cuenta');
+define('NAVBAR_TITLE_2', 'Suscripciones a los Boletines');
 
-define('HEADING_TITLE', 'Newsletter Subscriptions');
+define('HEADING_TITLE', 'Suscripciones a los Boletines');
 
-define('MY_NEWSLETTERS_GENERAL_NEWSLETTER', 'General Newsletter');
-define('MY_NEWSLETTERS_GENERAL_NEWSLETTER_DESCRIPTION', 'Including store news, new products, special offers, and other promotional announcements.');
+define('MY_NEWSLETTERS_GENERAL_NEWSLETTER', 'Boletín General');
+define('MY_NEWSLETTERS_GENERAL_NEWSLETTER_DESCRIPTION', 'Incluye novedades de la tienda, nuevos productos, ofertas especiales y diversos anuncios de carácter promocional.');
 
-define('SUCCESS_NEWSLETTER_UPDATED', 'Your newsletter subscriptions have been updated.');
+define('SUCCESS_NEWSLETTER_UPDATED', 'Su suscripción a los boletines ha sido actualizada satisfactoriamente.');

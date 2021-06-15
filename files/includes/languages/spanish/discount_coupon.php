@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -6,36 +6,36 @@
  * $Id: discount_coupon.php 14712 2009-10-28 22:05:08Z ajeh $
  */
 
-define('NAVBAR_TITLE', 'Discount Coupon');
-define('HEADING_TITLE', 'Discount Coupon');
+define('NAVBAR_TITLE', 'Cupones de Descuento');
+define('HEADING_TITLE', 'Cupones de Descuento');
 
 define('TEXT_INFORMATION', '');
-define('TEXT_COUPON_FAILED', '<span class="alert important">%s</span> does not appear to be a valid Coupon Redemption Code. Please try typing it in again.');
+define('TEXT_COUPON_FAILED', '<span class="alert important">%s</span> no parece ser un cupón de descuento válido. Pruebe a teclearlo de nuevo.');
 
-define('TEXT_CLOSE_WINDOW', 'Close Window [x]');
-define('TEXT_COUPON_HELP_HEADER', '<p class="bold">The Discount Coupon Redemption Code you have entered is for ');
+define('TEXT_CLOSE_WINDOW', 'Cerrar ventana [x]');
+define('TEXT_COUPON_HELP_HEADER', '<p class="bold">El código del cupón de descuento que ha introducido es para  ');
 define('TEXT_COUPON_HELP_NAME', '\'%s\'. </p>');
 define('TEXT_COUPON_HELP_FIXED', '');
-define('TEXT_COUPON_HELP_MINORDER', '<p>You need to spend %s to use this coupon, on qualifying products.</p>');
+define('TEXT_COUPON_HELP_MINORDER', '<p>Para usar este cupón, es necesario gastar más que %s en productos que cumplen con los requisitos.</p>');
 define('TEXT_COUPON_HELP_FREESHIP', '');
-define('TEXT_COUPON_HELP_DESC', '<p><span class="bold">Discount Offer:</span> %s</p><p class="smallText">Certain other restrictions may apply. Please see below for other details.</p>');
-define('TEXT_COUPON_HELP_DATE', '<p>The coupon is valid between %s and %s</p>');
-define('TEXT_COUPON_HELP_RESTRICT', '<p class="biggerText bold">Discount Coupon Restrictions</p>');
-define('TEXT_COUPON_HELP_CATEGORIES', '<p class="bold">Category Restrictions:</p>');
-define('TEXT_COUPON_HELP_PRODUCTS', '<p class="bold">Product Restrictions:</p>');
+define('TEXT_COUPON_HELP_DESC', '<p><span class="bold">Oferta de Descuentos:</span> %s</p><p class="smallText">Es posible que se apliquen otras restricciones. Consulte debajo para más detalles.</p>');
+define('TEXT_COUPON_HELP_DATE', '<p>El cupón es válido entre %s y %s</p>');
+define('TEXT_COUPON_HELP_RESTRICT', '<p class="biggerText bold">Restricciones del Cupón de Descuento</p>');
+define('TEXT_COUPON_HELP_CATEGORIES', '<p class="bold">Restricciones por Categoría:</p>');
+define('TEXT_COUPON_HELP_PRODUCTS', '<p class="bold">Restricciones por Producto:</p>');
 
-define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>This coupon has specific Product Restrictions.</p>');
-define('TEXT_NO_CAT_RESTRICTIONS', '<p>This coupon is valid for all categories.</p>');
-define('TEXT_NO_PROD_RESTRICTIONS', '<p>This coupon is valid for all products.</p>');
-define('TEXT_NO_PROD_SALES', '<p>This coupon is not valid for products on sale.</p>');
-define('TEXT_CAT_ALLOWED', ' (Valid for this category)');
-define('TEXT_CAT_DENIED', ' (Not allowed on this category)');
-define('TEXT_PROD_ALLOWED', ' (Valid for this product)');
-define('TEXT_PROD_DENIED', ' (Not allowed product)');
+define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Este cupón tiene restricciones para productos específicos.</p>');
+define('TEXT_NO_CAT_RESTRICTIONS', '<p>Este cupón es válido para cualquier categoría.</p>');
+define('TEXT_NO_PROD_RESTRICTIONS', '<p>Este cupón es válido para todos los productos.</p>');
+define('TEXT_NO_PROD_SALES', '<p>Este cupón no es válido para productos en rebajas.</p>');
+define('TEXT_CAT_ALLOWED', ' (Válido para esta categoría)');
+define('TEXT_CAT_DENIED', ' (No permitido en esta categoría)');
+define('TEXT_PROD_ALLOWED', ' (Válido para este producto)');
+define('TEXT_PROD_DENIED', ' (No permitido para este producto)');
 // gift certificates cannot be purchased with Discount Coupons
-define('TEXT_COUPON_GV_RESTRICTION','<p class="smallText">Discount Coupons may not be applied towards the purchase of ' . TEXT_GV_NAMES . '. Limit 1 coupon per order.</p>');
+define('TEXT_COUPON_GV_RESTRICTION','<p class="smallText">Los Cupones de Descuento no pueden aplicarse para la compra de ' . TEXT_GV_NAMES . '. Sólo puede usarse un cupón por pedido.</p>');
 
-define('TEXT_DISCOUNT_COUPON_ID_INFO', 'Look-up Discount Coupon ... ');
-define('TEXT_DISCOUNT_COUPON_ID', 'Your Code: ');
+define('TEXT_DISCOUNT_COUPON_ID_INFO', 'Verificar Cupón de Descuento ... ');
+define('TEXT_DISCOUNT_COUPON_ID', 'Su código: ');
 
-define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Billing Address Restrictions apply.');
+define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Se aplican restricciones por la Dirección de Facturación.');

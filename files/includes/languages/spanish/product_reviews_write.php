@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -6,20 +6,20 @@
  * @version $Id: Scott C Wilson 2020 Apr 10 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE', 'Reviews');
+define('NAVBAR_TITLE', 'Comentarios');
 
-define('SUB_TITLE_FROM', 'Written by:');
-define('SUB_TITLE_REVIEW', 'Please tell us what you think and share your opinions with others. Be sure to focus your comments on the product.');
-define('SUB_TITLE_RATING', 'Choose a ranking for this item. 1 star is the worst and 5 stars is the best.');
+define('SUB_TITLE_FROM', 'Escrito por: ');
+define('SUB_TITLE_REVIEW', 'Su comentario sobre este producto: ');
+define('SUB_TITLE_RATING', 'Calificación (entre 1-5 estrellas)');
 
-define('TEXT_NO_HTML', '<strong>NOTE:</strong>  HTML tags are not allowed.');
-define('TEXT_BAD', 'Worst');
+define('TEXT_NO_HTML', '<strong>NOTA:</strong> Las etiquetas HTML no están permitidas.');
+define('TEXT_BAD', 'El Peor');
 
-define('TEXT_APPROVAL_REQUIRED', '<strong>NOTE:</strong>  Reviews require prior approval before they will be displayed');
+define('TEXT_APPROVAL_REQUIRED', '<strong>NOTA:</strong>&nbsp;Los comentarios requieren de aprobación previa a su publicación.');
 
-define('EMAIL_REVIEW_PENDING_SUBJECT','Product Review Pending Approval: %s');
-define('EMAIL_PRODUCT_REVIEW_CONTENT_INTRO','A Product Review for %s has been submitted and requires your approval.'."\n\n");
-define('EMAIL_PRODUCT_REVIEW_CONTENT_DETAILS','Review Details: %s');
+define('EMAIL_REVIEW_PENDING_SUBJECT', 'Comentario pendiente de aprobación: %s');
+define('EMAIL_PRODUCT_REVIEW_CONTENT_INTRO', 'Se ha introducido un comentario para %s y se requiere tu aprobación.'."\n\n");
+define('EMAIL_PRODUCT_REVIEW_CONTENT_DETAILS', 'Detalles del comentario: %s');
 
-define('TEXT_REVIEW_SUBMITTED_FOR_REVIEW', 'Thank you, your post has been submitted for review.');
-define('TEXT_REVIEW_SUBMITTED', 'Thank you for submitting your review!');
+define('TEXT_REVIEW_SUBMITTED_FOR_REVIEW', 'Gracias, su comentario será revisado antes de publicarlo.');
+define('TEXT_REVIEW_SUBMITTED', '¡Gracias por su comentario!');

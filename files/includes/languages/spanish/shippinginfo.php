@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,8 +20,8 @@
 // $Id: shippinginfo.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Shipping &amp; Returns');
-define('HEADING_TITLE', 'Shipping &amp; Returns');
+define('NAVBAR_TITLE', 'Envíos y Devoluciones');
+define('HEADING_TITLE', 'Envíos y Devoluciones');
 
-define('TEXT_INFORMATION', 'Your Shipping &amp; Returns policy should be added here.');
+define('TEXT_INFORMATION', 'Su política de envíos y devoluciones debería ir aquí.');
 ?>

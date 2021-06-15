@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,8 +20,8 @@
 // $Id: popup_search_help.php 2471 2005-11-29 01:14:18Z drbyte $
 //
 
-define('HEADING_SEARCH_HELP', 'Search Help');
-define('TEXT_SEARCH_HELP', 'Keywords may be separated by AND and/or OR statements for greater control of the search results.<br /><br />For example, <span style="text-decoration:underline;">Microsoft AND mouse</span> would generate a result set that contain both words. However, for <u>mouse OR keyboard</u>, the result set returned would contain both or either words.<br /><br />Exact matches can be searched for by enclosing keywords in double-quotes.<br /><br />For example, <span style="text-decoration:underline">"notebook computer"</span> would generate a result set which match the exact string.<br /><br />Brackets can be used for further control on the result set.<br /><br />For example, <span style="text-decoration:underline;">Microsoft and (keyboard or mouse or "visual basic")</span>.');
-define('TEXT_CLOSE_WINDOW', '<span class="pseudolink">Close Window</span> [x]');
+define('HEADING_SEARCH_HELP', 'Ayuda sobre Búsquedas');
+define('TEXT_SEARCH_HELP', 'Las palabras pueden estar separadas por los operadores AND (Y) y/o OR (O) para un mejor control de los resultados de la búsqueda.<br><br>Por ejemplo, <span style="text-decoration:underline;">Microsoft AND ratón</span> generaría un lista de resultados que contengan ambas palabras. Así, para <span style="text-decoration:underline;">ratón OR teclado</span>, la lista de resultados contendría ambas o alguna de las palabras.<br><br/ >Las coincidencias exactas pueden buscarse encerrando las palabras entre comillas dobles.<br><br>Por ejemplo, <span style="text-decoration:underline;">"ordenadores portátiles"</span> generaría una lista de resultados que coincidan con la frase exacta.<br><br>Los paréntesis pueden usarse para un control más avanzado de los resultados.<br><br>Por ejemplo, <span style="text-decoration:underline;">Microsoft and (teclado or ratón)</span>.');
+define('TEXT_CLOSE_WINDOW', ' <span style="pseudolink">Cerrar Ventana</span> [x]');
 
 ?>

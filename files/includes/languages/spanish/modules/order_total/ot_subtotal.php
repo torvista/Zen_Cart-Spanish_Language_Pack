@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,6 +20,6 @@
 // $Id: ot_subtotal.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_SUBTOTAL_TITLE', 'Sub-Total');
-  define('MODULE_ORDER_TOTAL_SUBTOTAL_DESCRIPTION', 'Order Sub-Total');
+  define('MODULE_ORDER_TOTAL_SUBTOTAL_TITLE', 'Subtotal');
+  define('MODULE_ORDER_TOTAL_SUBTOTAL_DESCRIPTION', 'Subtotal del Pedido');
 ?>

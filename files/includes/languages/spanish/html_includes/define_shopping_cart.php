@@ -1,7 +1,1 @@
-<p>
-    Your shopping cart contents are shown below. You may update quantities or remove items by clicking on the related buttons.
-    
-    If relevant, Shipping, Taxes and Discounts will be determined and displayed during Checkout.
-    
-    You may of course add more items to your cart!
-</p>
+<p>El contenido de su carrito de compras se muestra a continuación. Puede actualizar cantidades o eliminar artículos haciendo clic en los botones relacionados. Se añade los gastos del envío, los impuestos y los descuentos en las páginas siguientes.¡Por supuesto, puede agregar más artículos a su carrito!</p>

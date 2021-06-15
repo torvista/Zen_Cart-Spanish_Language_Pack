@@ -1,4 +1,4 @@
-<?php
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,6 +20,6 @@
 // $Id: table.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_TABLE_TEXT_TITLE', 'Table Rate');
-define('MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION', 'Table Rate');
-define('MODULE_SHIPPING_TABLE_TEXT_WAY', 'Best Way');
+define('MODULE_SHIPPING_TABLE_TEXT_TITLE', 'Tabla de Tarifas');
+define('MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION', 'Tabla de Tarifas');
+define('MODULE_SHIPPING_TABLE_TEXT_WAY', 'Mensajería');

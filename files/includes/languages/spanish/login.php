@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2009 Zen Cart Development Team
@@ -7,31 +7,31 @@
  * @version $Id: login.php 14280 2009-08-29 01:33:18Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Login');
-define('HEADING_TITLE', 'Welcome, Please Sign In');
+define('NAVBAR_TITLE', 'Entrar en su Cuenta');
+define('HEADING_TITLE', 'Bienvenido, acceda a su cuenta');
 
-define('HEADING_NEW_CUSTOMER', 'New? Please Provide Your Billing Information');
-define('HEADING_NEW_CUSTOMER_SPLIT', 'New Customers');
+define('HEADING_NEW_CUSTOMER', '¿No está registrado? Puede hacerlo aquí');
+define('HEADING_NEW_CUSTOMER_SPLIT', 'Clientes Nuevos');
 
-define('TEXT_NEW_CUSTOMER_INTRODUCTION', 'Create a customer profile with <strong>' . STORE_NAME . '</strong> which allows you to shop faster, track the status of your current orders and review your previous orders.');
-define('TEXT_NEW_CUSTOMER_INTRODUCTION_SPLIT', 'Have a PayPal account? Want to pay quickly with a credit card? Use the PayPal button below to use the Express Checkout option.');
-define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_DIVIDER', '<span class="larger">Or</span><br />');
-define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_SPLIT', 'Create a Customer Profile with <strong>' . STORE_NAME . '</strong> which allows you to shop faster, track the status of your current orders, review your previous orders and take advantage of our other member\'s benefits.');
+define('TEXT_NEW_CUSTOMER_INTRODUCTION', 'Registrarse en <strong>' . STORE_NAME . '</strong> le permite comprar más rápido, seguir el estado de sus pedidos y revisar sus pedidos anteriores.');
+define('TEXT_NEW_CUSTOMER_INTRODUCTION_SPLIT', '¿Tiene una cuenta PayPal? ¿Quiere pagar rápidamente con una tarjeta de crédito? Utilice el botón PayPal que encontrará más abajo para seleccionar la opción de pago Express Checkout.');
+define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_DIVIDER', '<span class="larger">O</span><br>');
+define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_SPLIT', 'Cree un Perfil de Cliente con <strong>' . STORE_NAME . '</strong> que le permitirá comprar más rápido, seguir el estatus de su pedido, ver sus pedidos históricos y aprovecharse de los beneficios para socios.');
 
-define('HEADING_RETURNING_CUSTOMER', 'Returning Customers: Please Log In');
-define('HEADING_RETURNING_CUSTOMER_SPLIT', 'Returning Customers');
+define('HEADING_RETURNING_CUSTOMER', 'Clientes registrados: Entrar en su Cuenta ');
+define('HEADING_RETURNING_CUSTOMER_SPLIT', 'Clientes Registrados');
 
-define('TEXT_RETURNING_CUSTOMER_SPLIT', 'In order to continue, please login to your <strong>' . STORE_NAME . '</strong> account.');
+define('TEXT_RETURNING_CUSTOMER_SPLIT', 'Para continuar, acceda a su cuenta <strong>' . STORE_NAME . '</strong>.');
 
-define('TEXT_PASSWORD_FORGOTTEN', 'Forgot your password?');
+define('TEXT_PASSWORD_FORGOTTEN', '¿Olvidó su contraseña?');
 
-define('TEXT_LOGIN_ERROR', 'Error: Sorry, there is no match for that email address and/or password.');
-define('TEXT_VISITORS_CART', '<strong>Note:</strong> If you have shopped with us before and left something in your cart, for your convenience, the contents will be merged if you log back in. <a href="javascript:session_win();">[More Info]</a>');
+define('TEXT_LOGIN_ERROR', 'Error: Disculpe, el email y/o la contraseña son erróneos.');
+define('TEXT_VISITORS_CART', '<strong>Nota:</strong> Los productos que están en su &quot;Carro de la compra&quot; pasarán a su carro de la compra de usuario registrado. <a href="javascript:session_win();">[Más Información]</a>');
 
-define('TABLE_HEADING_PRIVACY_CONDITIONS', '<span class="privacyconditions">Privacy Statement</span>');
-define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', '<span class="privacydescription">Please acknowledge you agree with our privacy statement by ticking the following box. The privacy statement can be read</span> <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">here</span></a>.');
-define('TEXT_PRIVACY_CONDITIONS_CONFIRM', '<span class="privacyagree">I have read and agreed to your privacy statement.</span>');
+define('TABLE_HEADING_PRIVACY_CONDITIONS', '<span class="privacyconditions">Declaración de Privacidad</span>');
+define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', '<span class="privacydescription">Por favor, acepte nuestra declaración de privacidad marcando el siguiente casillero. Puede leer la declaración de privacidad</span> <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">aquí</span></a>.');
+define('TEXT_PRIVACY_CONDITIONS_CONFIRM', '<span class="privacyagree">He leído y acepto la declaración de privacidad.</span>');
 
-define('ERROR_SECURITY_ERROR', 'There was a security error when trying to login.');
+define('ERROR_SECURITY_ERROR', 'Se ha producido un error de seguridad en el proceso del login');
 
-define('TEXT_LOGIN_BANNED', 'Error: Access denied.');
+define('TEXT_LOGIN_BANNED', 'Error: Acceso denegado.');

@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * ezpages language components - used when displaying components for EZ-Pages content
  *
@@ -11,8 +11,8 @@
 
 
 // ez-pages sidebox title name
-define('BOX_HEADING_EZPAGES','Important Links');
-define('TEXT_EZ_PAGES_TABLE_CONTEXT', 'Table of Contents');
+define('BOX_HEADING_EZPAGES','Enlaces Importantes');
+define('TEXT_EZ_PAGES_TABLE_CONTEXT', 'Tabla de Contenido');
 define('CURRENT_PAGE_INDICATOR', '&nbsp;*&nbsp;');
 define('NOT_CURRENT_PAGE_INDICATOR', '&nbsp;-&nbsp;');
 

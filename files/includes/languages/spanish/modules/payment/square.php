@@ -1,4 +1,5 @@
-<?php
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
+//TODO If you need it, you do it and send it to me for inclusion, gracias.
 /**
  * Square payment module language defines
  *

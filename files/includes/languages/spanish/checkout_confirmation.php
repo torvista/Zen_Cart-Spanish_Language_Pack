@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2019 Zen Cart Development Team
@@ -7,20 +7,19 @@
  * @version $Id: Scott C Wilson 2019 Feb 14 Modified in v1.5.6b $
  */
 
-define('NAVBAR_TITLE_1', 'Checkout');
-define('NAVBAR_TITLE_2', 'Confirmation');
+define('NAVBAR_TITLE_1', 'Comprar');
+define('NAVBAR_TITLE_2', 'Paso 3 de 3 - Confirmación del Pedido');
 
-define('HEADING_TITLE', 'Step 3 of 3 - Order Confirmation');
+define('HEADING_TITLE', 'Paso 3 de 3 - Confirmación del Pedido');
 
-define('HEADING_BILLING_ADDRESS', 'Billing/Payment Information');
-define('HEADING_DELIVERY_ADDRESS', 'Delivery/Shipping Information');
-define('HEADING_SHIPPING_METHOD', 'Shipping Method:');
-define('HEADING_PAYMENT_METHOD', 'Payment Method:');
-define('HEADING_PRODUCTS', 'Shopping Cart Contents');
-define('HEADING_TAX', 'Tax');
-define('HEADING_ORDER_COMMENTS', 'Special Instructions or Order Comments');
+define('HEADING_BILLING_ADDRESS', 'Dirección de Facturación');
+define('HEADING_DELIVERY_ADDRESS', 'Dirección de Envío');
+define('HEADING_SHIPPING_METHOD', 'Método de Envío:');
+define('HEADING_PAYMENT_METHOD', 'Método de Pago:');
+define('HEADING_PRODUCTS', 'Contenido del Carro');
+define('HEADING_TAX', 'Impuestos');
+define('HEADING_ORDER_COMMENTS', 'Instrucciones especiales sobre el pedido o el envío');
 // no comments entered
-define('NO_COMMENTS_TEXT', 'None');
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Final Step</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- continue to confirm your order. Thank you!');
-
+define('NO_COMMENTS_TEXT', 'Ninguno');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Paso final</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- continúe para confirmar su pedido. ¡Gracias!');

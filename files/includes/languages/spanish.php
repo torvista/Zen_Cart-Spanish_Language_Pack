@@ -1,10 +1,15 @@
-<?php //Spanish Language Pack for Zen Cart 1.58x: https://github.com/torvista/Zen_Cart-1.58x-Spanish_Language_Pack
-/**includes: Date format dd/mm/yy, currency euro, weight kg
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
+/** changes from original ZC: date format "dd/mm/yyyy", currency "EUR", weight "kg", "invoice" as "order"
+ * @copyright Copyright 2003-2021 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2020 May 21 Modified in v1.5.8 $
+ * @version $Id: DrByte  Modified in v1.5.8 $
  */
+
+// TIP: In most cases you can override anything in this file by copying it to
+// /includes/languages/YOUR_TEMPLATE_NAME/english.php and customizing it there.
+// Anything in that file is used before what's in this file.
+// That makes it less necessary to need to touch this large base file.
 
 // FOLLOWING WERE moved to meta_tags.php
 //define('TITLE', 'Zen Cart!');
@@ -12,27 +17,13 @@
 //define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
 // END: moved to meta_tags.php
 
-  define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '"' . STORE_NAME . '</a>. E-commerce:<a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. <a href="http://www.zen-cart.com" target="_blank">E-commerce Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales...or use the script in /extras provided by this language pack
   $locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
   @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
   define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
-
-////
-// Return date in raw format
-// $date should be in format mm/dd/yyyy
-// raw date is in format YYYYMMDD, or DDMMYYYY
-  if (!function_exists('zen_date_raw')) {
-    function zen_date_raw($date, $reverse = false) {
-      if ($reverse) {
-        return substr($date, 0, 2) . substr($date, 3, 2) . substr($date, 6, 4);
-      } else {
-        return substr($date, 6, 4) . substr($date, 3, 2) . substr($date, 0, 2);
-      }
-    }
-  }
 
 // if USE_DEFAULT_LANGUAGE_CURRENCY is true, use the following currency, instead of the applications default currency (used when changing language)
   define('LANGUAGE_CURRENCY', 'EUR');
@@ -95,7 +86,7 @@
 // shopping_cart box text in sideboxes/shopping_cart.php
   define('BOX_HEADING_SHOPPING_CART', 'Carro de la compra');
   define('BOX_SHOPPING_CART_EMPTY', 'No hay artículos en el carro');
-  define('BOX_SHOPPING_CART_DIVIDER', '-&nbsp;');
+  // define('BOX_SHOPPING_CART_DIVIDER', ' x '); // deprecated in 1.5.8
 
 // order_history box text in sideboxes/order_history.php
   define('BOX_HEADING_CUSTOMER_ORDERS', 'Compras recientes');
@@ -110,7 +101,7 @@
 
 // manufacturer box text
   define('BOX_HEADING_MANUFACTURER_INFO', 'Info del fabricante');
-  define('BOX_MANUFACTURER_INFO_HOMEPAGE', 'Página web de %s');
+  define('BOX_MANUFACTURER_INFO_HOMEPAGE', 'web %s');
   define('BOX_MANUFACTURER_INFO_OTHER_PRODUCTS', 'Otros productos');
 
 // languages box text in sideboxes/languages.php
@@ -127,9 +118,11 @@
   define('BOX_INFORMATION_CONTACT', 'Contáctenos');
   define('BOX_INFORMATION_UNSUBSCRIBE', 'Baja del boletín');
 
+  define('BOX_INFORMATION_ABOUT_US', 'Sobre Nosotros');
   define('BOX_INFORMATION_SITE_MAP', 'Mapa del Sitio');
+  define('BOX_INFORMATION_ORDER_STATUS', 'Estado del Pedido');
 
-// information box text in sideboxes/more_information.php - were TUTORIAL_
+// information box text in sideboxes/more_information.php
   define('BOX_HEADING_MORE_INFORMATION', 'Más información');
   define('BOX_INFORMATION_PAGE_2', 'Página 2');
   define('BOX_INFORMATION_PAGE_3', 'Página 3');
@@ -196,7 +189,7 @@
   define('ENTRY_CITY_TEXT', '*');
   define('ENTRY_STATE', 'Provincia:');
   define('ENTRY_STATE_ERROR', 'La provincia debe tener un mínimo de ' . ENTRY_STATE_MIN_LENGTH . ' caracteres.');
-  define('ENTRY_STATE_ERROR_SELECT', 'Por favor, seleccione una provincia en el menú desplegable.');
+  define('ENTRY_STATE_ERROR_SELECT', 'Por favor, seleccione una provincia del menú desplegable.');
   define('ENTRY_STATE_TEXT', '*');
   define('ENTRY_COUNTRY', 'País:');
   define('ENTRY_COUNTRY_ERROR', 'Debe seleccionar un país en el menú desplegable.');
@@ -533,7 +526,7 @@ define('ARIA_PAGINATION_','');
   define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Precio - alto a bajo');
   define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Modelo');
   define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Fecha Añadida - Nueva a antigua');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Mostrar la predeterminada');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Fecha Añadida - Antigua a nueva');
 
 // downloads module defines
   define('TABLE_HEADING_DOWNLOAD_DATE', 'Enlace Caduca');
@@ -587,26 +580,20 @@ define('ARIA_PAGINATION_','');
 // a customer's account.
 
 // -----
-// init_customer_auth.php substitutes the customer's name (%$1s) and customer's email address (%$2s)
-// into this message.
+// init_customer_auth.php substitutes the customer's name (%$1s) and customer's email address (%$2s) into this message.
 //
 define('EMP_SHOPPING_FOR_MESSAGE', 'Actualmente utilizando la cuenta de %1$s (%2$s).');
 
 // -----
-// Identify the messageStack "severity" to be applied to the above message, one of 'success',
-// 'warning', 'caution', 'error' (defaults to 'success').
+// Identify the messageStack "severity" to be applied to the above message,
+// Options are of 'success', 'warning', 'caution', 'error' (defaults to 'success').
 //
-define('EMP_SHOPPING_FOR_MESSAGE_SEVERITY', 'caution');
+define('EMP_SHOPPING_FOR_MESSAGE_SEVERITY', 'caution'); // torvista was success
 
 // Constants shared between multiple pages
 define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');
 
-///////////////////////////////////////////////////////////
+define('CART_QUANTITY_SUFFIX', '&nbsp;x ');
 
-//  $file_list = [FILENAME_EMAIL_EXTRAS, FILENAME_HEADER, FILENAME_BUTTON_NAMES, FILENAME_ICON_NAMES, FILENAME_OTHER_IMAGES_NAMES, FILENAME_CREDIT_CARDS, FILENAME_WHOS_ONLINE, FILENAME_META_TAGS];
-//  foreach ($file_list as $file) {
-//    $file = str_replace(".php","",$file);
-//    require_once(zen_get_file_directory(DIR_FS_CATALOG . DIR_WS_LANGUAGES . $_SESSION['language'] . "/", $file . '.php', 'false'));
-//  }
 
-// END OF EXTERNAL LANGUAGE LINKS
+

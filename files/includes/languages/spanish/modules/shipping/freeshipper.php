@@ -1,4 +1,4 @@
-<?php
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package shipping_modules
  * @copyright Copyright 2003-2011 Zen Cart Development Team
@@ -6,6 +6,6 @@
  * @version $Id: freeshipper.php 18697 2011-05-04 14:35:20Z wilt $
  */
 
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE', 'FREE SHIPPING!');
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION', 'FREE SHIPPING');
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_WAY', 'No Delivery Charge');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE', '¡ENVÍO GRATIS!');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION', 'ENVÍO GRATIS');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_WAY', 'Envío sin coste');

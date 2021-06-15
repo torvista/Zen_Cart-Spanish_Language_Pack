@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2019 Zen Cart Development Team
@@ -27,18 +27,18 @@ if (!defined('SHOW_ACCEPTED_CREDIT_CARDS')) {
     return;
 }
 
-define('TEXT_ACCEPTED_CREDIT_CARDS', '<strong>We accept:</strong> ');
+define('TEXT_ACCEPTED_CREDIT_CARDS', '<strong>Aceptamos:</strong> ');
 
 // cc enabled text
 define('TEXT_CC_ENABLED_VISA','Visa');
-define('TEXT_CC_ENABLED_MC','MC');
+define('TEXT_CC_ENABLED_MC','Mastercard');
 define('TEXT_CC_ENABLED_AMEX','AmEx');
 define('TEXT_CC_ENABLED_DINERS_CLUB','Diners Club');
 define('TEXT_CC_ENABLED_DISCOVER','Discover');
 define('TEXT_CC_ENABLED_JCB','JCB');
 define('TEXT_CC_ENABLED_AUSTRALIAN_BANKCARD','Australian Bankcard');
 define('TEXT_CC_ENABLED_SOLO','Solo');
-define('TEXT_CC_ENABLED_DEBIT','Debit');
+define('TEXT_CC_ENABLED_DEBIT','Débito');
 define('TEXT_CC_ENABLED_MAESTRO','Maestro');
 
 // for images define these as:

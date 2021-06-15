@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -6,13 +6,13 @@
  * @version $Id: Scott C Wilson 2019 Jul 27 Modified in v1.5.7 $
  */
 
-define('NAVBAR_TITLE', 'All Products');
-define('HEADING_TITLE', 'All Products');
+define('NAVBAR_TITLE', 'Todos los Productos');
+define('HEADING_TITLE', 'Todos los Productos');
 
-define('TEXT_DATE_ADDED', 'Date Added:');
-define('TEXT_MANUFACTURER', 'Manufacturer:');
-define('TEXT_PRICE', 'Price:');
+define('TEXT_DATE_ADDED', 'Añadido el:');
+define('TEXT_MANUFACTURER', 'Fabricante:');
+define('TEXT_PRICE', 'Precio:');
 
-define('TEXT_PRODUCTS_WEIGHT','Weight: ');
-define('TEXT_PRODUCTS_QUANTITY','In Stock: ');
-define('TEXT_OUT_OF_STOCK','Out of Stock');
+define('TEXT_PRODUCTS_WEIGHT', 'Peso: ');
+define('TEXT_PRODUCTS_QUANTITY', 'En stock: ');
+define('TEXT_OUT_OF_STOCK', 'Sin stock');

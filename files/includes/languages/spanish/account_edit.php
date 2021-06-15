@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,10 +20,10 @@
 // $Id: account_edit.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Edit Account');
+define('NAVBAR_TITLE_1', 'Mi Cuenta');
+define('NAVBAR_TITLE_2', 'Editar Cuenta');
 
-define('HEADING_TITLE', 'My Account Information');
+define('HEADING_TITLE', 'Datos Personales');
 
-define('SUCCESS_ACCOUNT_UPDATED', 'Your account has been successfully updated.');
+define('SUCCESS_ACCOUNT_UPDATED', 'Su cuenta ha sido actualizada correctamente.');
 ?>

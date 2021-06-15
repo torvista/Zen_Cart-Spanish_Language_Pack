@@ -1,4 +1,4 @@
-<?php
+<?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,8 +20,8 @@
 // $Id: moneyorder.php 1969 2005-09-13 06:57:21Z drbyte Modified in v1.5.6 $
 //
 
-define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', 'Check/Money Order');
-define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'Customers can mail in their payment. Their order confirmation email will ask them to: <br><br>Please make your check or money order payable to:<br>' . (defined('MODULE_PAYMENT_MONEYORDER_PAYTO') ? MODULE_PAYMENT_MONEYORDER_PAYTO : '<br>(your store name)') . '<br /><br />Mail your payment to:<br />' . nl2br(STORE_NAME_ADDRESS) . '<br /><br />' . 'Your order will not ship until we receive payment.');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', 'Cheque/Giro Postal');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'Clientes puede enviar su pago por correos. Su email de confirmación del pedido le pedirá que <br><br>Por favor, remita su cheque o giro postal a:<br>' . (defined('MODULE_PAYMENT_MONEYORDER_PAYTO') ? MODULE_PAYMENT_MONEYORDER_PAYTO : '<br>(nombre de la tienda)') . '<br><br>Envie su pago a:<br>' . nl2br(STORE_NAME_ADDRESS). '<br><br>' . 'El pedido no será enviado hasta que el pago sea recibido.');
 if (defined('MODULE_PAYMENT_MONEYORDER_STATUS')) {
-    define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "Please make your check or money order payable to:" . "\n\n" . MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nMail your payment to:\n" . STORE_NAME_ADDRESS . "\n\n" . 'Your order will not ship until we receive payment.');
+    define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "Por favor, remita su cheque o giro postal a:" . "\n\n" . MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nEnvíe su pago por correo a:\n" . STORE_NAME_ADDRESS . "\n\n" . 'El pedido no será enviado hasta que el pago sea recibido.');
 }

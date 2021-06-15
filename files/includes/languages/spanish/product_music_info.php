@@ -1,4 +1,4 @@
-<?php
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -6,38 +6,37 @@
  * @version $Id: DrByte 2020 May 16 Modified in v1.5.7 $
  */
 
-define('TEXT_PRODUCT_NOT_FOUND', 'Sorry, the product was not found.');
-define('TEXT_CURRENT_REVIEWS', 'Current Reviews:');
-define('TEXT_RECORD_COMPANY_URL', 'For more information, please visit the Record Company\'s <a href="%s" rel="noreferrer noopener" target="_blank">webpage</a>.');
-define('TEXT_DATE_ADDED', 'This product was added to our catalog on %s.');
-define('TEXT_DATE_AVAILABLE', 'This product will be in stock on %s.');
-define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Customers who bought this product also purchased...');
-define('TEXT_PRODUCT_OPTIONS', 'Please Choose: ');
-define('TEXT_PRODUCT_ARTIST', 'Artist: ');
-define('TEXT_PRODUCT_MUSIC_GENRE', 'Music Genre: ');
-define('TEXT_PRODUCT_WEIGHT', 'Shipping Weight: ');
-define('TEXT_PRODUCT_QUANTITY', ' Units in Stock');
-define('TEXT_PRODUCT_COLLECTIONS', 'Media Collection: ');
+define('TEXT_PRODUCT_NOT_FOUND', 'Lo sentimos, no se encontró el producto.');
+define('TEXT_CURRENT_REVIEWS', 'Comentarios actuales:');
+define('TEXT_RECORD_COMPANY_URL', 'Para más información, visite la <a href="%s" rel="noreferrer noopener" target="_blank">web oficial</a> de la compañía discográfica.');
+define('TEXT_DATE_ADDED', 'Este producto se incorporó a nuestro catálogo el %s.');
+define('TEXT_DATE_AVAILABLE', 'Este producto estará disponible el %s.');
+define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Los clientes que compraron este producto también adquirieron...');
+define('TEXT_PRODUCT_OPTIONS', 'Por favor, elija:');
+define('TEXT_PRODUCT_ARTIST', 'Artista: ');
+define('TEXT_PRODUCT_MUSIC_GENRE', 'Género musical: ');
+define('TEXT_PRODUCT_WEIGHT', 'Peso del paquete: ');
+define('TEXT_PRODUCT_QUANTITY', ' Unidades en stock');
+define('TEXT_PRODUCT_COLLECTIONS', 'Colección de medios: ');
 
 
 
 // previous next product
-define('PREV_NEXT_PRODUCT', 'Product ');
+define('PREV_NEXT_PRODUCT', 'Producto ');
 
 // missing products
-//define('TABLE_HEADING_NEW_PRODUCTS', 'New Products For %s');
-//define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Upcoming Products');
-//define('TABLE_HEADING_DATE_EXPECTED', 'Date Expected');
+//define('TABLE_HEADING_NEW_PRODUCTS', 'Productos Nuevos en %s');
+//define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Productos por venir');
+//define('TABLE_HEADING_DATE_EXPECTED', 'Fecha Prevista');
 
-define('TEXT_ATTRIBUTES_PRICE_WAS',' [was: ');
-define('TEXT_ATTRIBUTE_IS_FREE',' now is: Free]');
+define('TEXT_ATTRIBUTES_PRICE_WAS',' [antes: ');
+define('TEXT_ATTRIBUTE_IS_FREE',' ahora: Gratis]');
 define('TEXT_ONETIME_CHARGE_SYMBOL', ' *');
-define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' One time charges may apply');
-define('TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK','Quantity Discounts Available');
+define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' Los cargos se aplicarán una sola vez');
+define('TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK', 'Disponibles descuentos por cantidad');
 define('ATTRIBUTES_QTY_PRICE_SYMBOL', zen_image(DIR_WS_TEMPLATE_ICONS . 'icon_status_green.gif', TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK, 10, 10) . '&nbsp;');
 
 define('ATTRIBUTES_PRICE_DELIMITER_PREFIX', ' ( ');
 define('ATTRIBUTES_PRICE_DELIMITER_SUFFIX', ' )');
 define('ATTRIBUTES_WEIGHT_DELIMITER_PREFIX', ' (');
 define('ATTRIBUTES_WEIGHT_DELIMITER_SUFFIX', ') ');
-
