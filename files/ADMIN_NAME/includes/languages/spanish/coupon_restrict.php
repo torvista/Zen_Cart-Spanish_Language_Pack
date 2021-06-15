@@ -43,7 +43,7 @@ define('TEXT_PULLDOWN_DENY', 'Denegar');
 define('TEXT_SUBMIT_CATEGORY_ADD', 'Añadir');
 define('TEXT_SUBMIT_PRODUCT_UPDATE', 'Actualizar');
 define('TEXT_STATUS_TOGGLE', 'Alternar');
-define('TEXT_STATUS_TOGGLE_TITLE', 'Pinche aquí para alternar el estatus de la restricción);
+define('TEXT_STATUS_TOGGLE_TITLE', 'Pinche aquí para alternar el estatus de la restricción');
 define('TEXT_ALLOWED', 'Producto o Categoría está permitido');
 define('TEXT_DENIED', 'Productto o Categoría no está permitido');
 
