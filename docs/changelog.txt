@@ -1,6 +1,7 @@
 Changelog
-2021 06 15 Shopfront constants consolidated with english constants v158 15/06/2021.
-2021 06 13 Admin constants consolidated with english constants v158 15/06/2021.
+last consolidation with branch v158: 16/06/2021
+2021 06 15 Shopfront constants consolidated with english constants.
+2021 06 13 Admin constants consolidated with english constants.
 2021 06 10 Moved all spanish language packs to one GitHub repository.
 -------------------
 2020 11 03 Updates for ZC157a (mostly headers).
