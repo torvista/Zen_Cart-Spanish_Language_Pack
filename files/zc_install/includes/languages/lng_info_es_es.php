@@ -6,5 +6,5 @@
  */
 
 return [
-    'es_es' => ['displayName' => 'Español España'],
+    'es_es' => ['displayName' => 'EspaÃ±ol (EspaÃ±a)'],
 ];
