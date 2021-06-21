@@ -25,39 +25,39 @@ $define = [
     'TEXT_OK_TO_DELETE' => 'Esta opción no tiene productos enlazados - es seguro borrarla.',
     'TEXT_OPTION_ID' => 'ID de opción',
     'TEXT_OPTION_NAME' => 'Nombre de Opción',
-    'ATTRIBUTE_WARNING_DUPLICATE','Atributo Duplicado - El atributo no se añadió', // attributes duplicate warning
-    'ATTRIBUTE_WARNING_DUPLICATE_UPDATE','Existe un atributo duplicado - El atributo no se modificó', // attributes duplicate warning
-    'ATTRIBUTE_WARNING_INVALID_MATCH','La opción de atributo y el valor de opción NO coinciden - El atributo no fue añadido', // miss matched option and options value
-    'ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','La opción de atributo y el valor de opción NO coinciden - El atributo no fue modificado', // miss matched option and options value
-    'ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE','Posiblemente se añadió un nombre de opción duplicado.', // Options Name Duplicate warning
-    'ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE','Posiblemente se añadió un valor de opción duplicado', // Options Value Duplicate warning
-    'PRODUCTS_ATTRIBUTES_EDITING','EDITANDO', // title
-    'PRODUCTS_ATTRIBUTES_DELETE','BORRANDO', // title
-    'PRODUCTS_ATTRIBUTES_ADDING','AÑADIENDO NUEVOS ATRIBUTOS', // title
-    'TEXT_DOWNLOADS_DISABLED','NOTA: Las descargas están desactivadas',
+    'ATTRIBUTE_WARNING_DUPLICATE' => 'Atributo Duplicado - El atributo no se añadió', // attributes duplicate warning
+    'ATTRIBUTE_WARNING_DUPLICATE_UPDATE' => 'Existe un atributo duplicado - El atributo no se modificó', // attributes duplicate warning
+    'ATTRIBUTE_WARNING_INVALID_MATCH' => 'La opción de atributo y el valor de opción NO coinciden - El atributo no fue añadido', // miss matched option and options value
+    'ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE' => 'La opción de atributo y el valor de opción NO coinciden - El atributo no fue modificado', // miss matched option and options value
+    'ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE' => 'Posiblemente se añadió un nombre de opción duplicado.', // Options Name Duplicate warning
+    'ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE' => 'Posiblemente se añadió un valor de opción duplicado', // Options Value Duplicate warning
+    'PRODUCTS_ATTRIBUTES_EDITING' => 'EDITANDO', // title
+    'PRODUCTS_ATTRIBUTES_DELETE' => 'BORRANDO', // title
+    'PRODUCTS_ATTRIBUTES_ADDING' => 'AÑADIENDO NUEVOS ATRIBUTOS', // title
+    'TEXT_DOWNLOADS_DISABLED' => 'NOTA: Las descargas están desactivadas',
     'TABLE_TEXT_MAX_DAYS_SHORT' => 'Días:',
     'TABLE_TEXT_MAX_COUNT_SHORT' => 'Max:',
-      'TABLE_HEADING_OPTION_SORT_ORDER','Ordenación',
-      'TABLE_HEADING_OPTION_VALUE_SORT_ORDER','Orden por defecto',
-      'TEXT_SORT',' Orden: ',
-      'TABLE_HEADING_OPT_WEIGHT_PREFIX','Prefijo',
-      'TABLE_HEADING_OPT_WEIGHT','Peso',
-      'TABLE_HEADING_OPT_SORT_ORDER','Ordenación',
+      'TABLE_HEADING_OPTION_SORT_ORDER' => 'Ordenación',
+      'TABLE_HEADING_OPTION_VALUE_SORT_ORDER' => 'Orden por defecto',
+      'TEXT_SORT' => ' Orden: ',
+      'TABLE_HEADING_OPT_WEIGHT_PREFIX' => 'Prefijo',
+      'TABLE_HEADING_OPT_WEIGHT' => 'Peso',
+      'TABLE_HEADING_OPT_SORT_ORDER' => 'Ordenación',
       'TABLE_HEADING_OPT_TYPE' => 'Tipo de Opción',
-      'TABLE_HEADING_OPTION_VALUE_SIZE','Tamaño',
-      'TABLE_HEADING_OPTION_VALUE_MAX','Max',
-      'TEXT_OPTION_VALUE_COMMENTS','Comentarios: ',
-      'TEXT_OPTION_VALUE_SIZE','Mostrar tamaño: ',
-      'TEXT_OPTION_VALUE_MAX','Longitud máxima: ',
-      'TEXT_ATTRIBUTES_IMAGE','Cambio de imagen de atributo:',
-      'TEXT_ATTRIBUTES_IMAGE_DIR','Directorio de imágenes de atributo:',
-      'TEXT_ATTRIBUTES_FLAGS','Banderas<br>de atributo:',
+      'TABLE_HEADING_OPTION_VALUE_SIZE' => 'Tamaño',
+      'TABLE_HEADING_OPTION_VALUE_MAX' => 'Max',
+      'TEXT_OPTION_VALUE_COMMENTS' => 'Comentarios: ',
+      'TEXT_OPTION_VALUE_SIZE' => 'Mostrar tamaño: ',
+      'TEXT_OPTION_VALUE_MAX' => 'Longitud máxima: ',
+      'TEXT_ATTRIBUTES_IMAGE' => 'Cambio de imagen de atributo:',
+      'TEXT_ATTRIBUTES_IMAGE_DIR' => 'Directorio de imágenes de atributo:',
+      'TEXT_ATTRIBUTES_FLAGS' => 'Banderas<br>de atributo:',
       'TEXT_ATTRIBUTES_DISPLAY_ONLY' => 'Usado con motivos<br>de visualización solamente:',
       'TEXT_ATTRIBUTES_IS_FREE' => 'El atributo es gratis<br>cuando el producto es gratis:',
       'TEXT_ATTRIBUTES_DEFAULT' => 'Atributo por defecto<br>para marcar como seleccionado:',
       'TEXT_ATTRIBUTE_IS_DISCOUNTED' => 'Aplicar los mismos descuentos<br>usados para el producto:',
-      'TEXT_ATTRIBUTE_PRICE_BASE_INCLUDED','Incluir precio base<br>al tasar por atributos',
-      'TEXT_PRODUCT_OPTIONS_INFO','Editar opciones de producto para ajustes adicionales',
+      'TEXT_ATTRIBUTE_PRICE_BASE_INCLUDED' => 'Incluir precio base<br>al tasar por atributos',
+      'TEXT_PRODUCT_OPTIONS_INFO' => 'Editar opciones de producto para ajustes adicionales',
       'TEXT_OPTION_VALUE_COPY_ALL' => '<strong>Copiar una Opción y uno de sus Valores a TODOS los productos que tienen una Opción y su Valor = ...</strong>',
       'TEXT_INFO_OPTION_VALUE_COPY_ALL' => 'Seleccione una Opción y Valor de la Opción que existe actualmente en un producto o productos =>  a continuación seleccione la Opción y Valor de Opción que quieres copia a todos los productos (o dentro de UNA categoría) que cumplen con la primera elección.',
       'TEXT_SELECT_OPTION_FROM' => 'Nombre de Opción a coincidir:',
@@ -75,10 +75,10 @@ $define = [
       'TEXT_SELECT_OPTION_FROM_ADD' => 'Nombre de Opción a añadir:',
       'TEXT_SELECT_OPTION_VALUES_FROM_ADD' => 'Valor de Opción a añadir:',
       'TEXT_SELECT_OPTION_FROM_PRODUCTS_ID' => 'Copiar los valores por defecto del nuevo atributo del producto de este ID => o dejar la casilla en blanco para no usar un valor por defecto:',
-      'TEXT_COPY_ATTRIBUTES_CONDITIONS','<strong>¿Cómo deberían manejarse los atributos existentes de los productos?</strong>',
-      'TEXT_COPY_ATTRIBUTES_DELETE','<strong>Borrar</strong> primero => después copiar nuevo atributo',
-      'TEXT_COPY_ATTRIBUTES_UPDATE','<strong>Actualizar</strong> atributos existentes con nueva configuración/precios',
-      'TEXT_COPY_ATTRIBUTES_IGNORE','<strong>Ignorar</strong> atributos existentes y sólo añadir nuevos atributos',
+      'TEXT_COPY_ATTRIBUTES_CONDITIONS' => '<strong>¿Cómo deberían manejarse los atributos existentes de los productos?</strong>',
+      'TEXT_COPY_ATTRIBUTES_DELETE' => '<strong>Borrar</strong> primero => después copiar nuevo atributo',
+      'TEXT_COPY_ATTRIBUTES_UPDATE' => '<strong>Actualizar</strong> atributos existentes con nueva configuración/precios',
+      'TEXT_COPY_ATTRIBUTES_IGNORE' => '<strong>Ignorar</strong> atributos existentes y sólo añadir nuevos atributos',
       'TEXT_INFO_FROM' => ' desde: ',
       'TEXT_INFO_TO' => ' a: ',
       'ERROR_OPTION_VALUES_COPIED' => 'Error: Nombre y Valor de Opción duplicados',

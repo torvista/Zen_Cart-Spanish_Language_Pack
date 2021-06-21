@@ -22,7 +22,7 @@ $define = [
     'TEXT_NEWSLETTER_DATE_ADDED' => 'Añadido el:',
     'TEXT_NEWSLETTER_DATE_SENT' => 'Enviado el:',
     'TEXT_INFO_DELETE_INTRO' => '¿Está seguro de que desea borrar este boletín?',
-    'TEXT_PLEASE_SELECT_AUDIENCE','Seleccione la audiencia para este envío de boletín: ',
+    'TEXT_PLEASE_SELECT_AUDIENCE' => 'Seleccione la audiencia para este envío de boletín: ',
     'TEXT_PLEASE_WAIT' => 'Espere por favor => ... enviando emails ...<br><br>¡No interrumpa este proceso!',
     'TEXT_FINISHED_SENDING_EMAILS' => '¡Finalizó el envío de emails!',
     'ERROR_NEWSLETTER_TITLE' => 'Error: Título de boletín requerido',

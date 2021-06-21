@@ -39,8 +39,8 @@ $define = [
     'TEXT_HOW_TO_COPY' => 'Tipo de Copia:',
     'TEXT_COPY_AS_LINK' => 'Vincular este producto a la categoría seleccionada',
     'TEXT_COPY_AS_DUPLICATE' => 'Duplicar Producto en la categoría seleccionada',
-    'TEXT_COPY_METATAGS','¿Copiar Metatags al Duplicado?',
-    'TEXT_COPY_LINKED_CATEGORIES','¿Copiar Categorías Vinculadas al Duplicado?',
+    'TEXT_COPY_METATAGS' => '¿Copiar Metatags al Duplicado?',
+    'TEXT_COPY_LINKED_CATEGORIES' => '¿Copiar Categorías Vinculadas al Duplicado?',
     'TEXT_COPY_EDIT_DUPLICATE' => 'Abre el duplicado para editar',
     'TEXT_COPY_AS_DUPLICATE_ATTRIBUTES' => 'Atributos copiados del Producto ID#%u al duplicado Producto ID#%u',
     'TEXT_COPY_AS_DUPLICATE_METATAGS' => 'Se ha copiado los Metatags para Idioma ID#%u desde Producto ID#%u al Producto duplicado ID#%u',
@@ -57,7 +57,7 @@ $define = [
     'TEXT_COPY_ATTRIBUTES_DELETE' => 'Primero <strong>borrar</strong> => luego copiar los nuevos atributos',
     'TEXT_COPY_ATTRIBUTES_UPDATE' => '<strong>Actualizar</strong> con nuevas parámetros/precios => luego añadir nuevos',
     'TEXT_COPY_ATTRIBUTES_IGNORE' => '<strong>Ignorar</strong> y añadir sólo los atributos nuevos',
-    'TEXT_COPY_ATTRIBUTES','¿Copiar Atributos del Producto al Duplicado?',
+    'TEXT_COPY_ATTRIBUTES' => '¿Copiar Atributos del Producto al Duplicado?',
     'TEXT_COPY_DISCOUNTS_ONLY' => 'Usado solo para Duplicados de Productos con Descuentos por Cantidades ...',
     'TEXT_COPY_DISCOUNTS' => '¿Copiar Descuentos por Cantidades del Producto al Duplicado?',
     'TEXT_INFO_HEADING_STATUS_CATEGORY' => 'Cambiar el estado de la Categoría:',
@@ -75,7 +75,7 @@ $define = [
     'TEXT_SUBCATEGORIES_STATUS_NOCHANGE' => 'Sinc Cambiar',
     'WARNING_PRODUCTS_IN_TOP_INFO' => 'PRECAUCIÓN: Tiene Productos en la Categoría de Primer Nivel. Los precios no funcionarán correctamente en el catálogo. Productos encontrados: ',
     'TEXT_COPY_MEDIA_MANAGER' => '¿Copiar media?',
-    'SUCCESS_ATTRIBUTES_DELETED','Los atributos han sido borrados',
+    'SUCCESS_ATTRIBUTES_DELETED' => 'Los atributos han sido borrados',
 ];
 
 return $define;

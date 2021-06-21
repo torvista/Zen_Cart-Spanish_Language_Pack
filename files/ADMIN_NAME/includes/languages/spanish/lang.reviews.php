@@ -9,7 +9,7 @@
 $define = [
     'HEADING_TITLE' => 'Comentarios',
     'TABLE_HEADING_PRODUCTS' => 'Producto',
-    'TABLE_HEADING_CUSTOMER_NAME','Cliente',
+    'TABLE_HEADING_CUSTOMER_NAME' => 'Cliente',
     'TABLE_HEADING_LANGUAGE' => 'Idioma',
     'TABLE_HEADING_RATING' => 'Puntuación',
     'TABLE_HEADING_DATE_ADDED' => 'Escrito',
@@ -37,10 +37,10 @@ $define = [
     'TEXT_DELETE_REVIEW' => 'Borrar',
     'TEXT_VIEW_REVIEW' => 'Ver (Catálogo)',
     'TEXT_EDIT_PRODUCT' => 'Editar Producto',
-    'TEXT_ALL_STATUS','--Cualquiera--',
-    'TEXT_PENDING_APPROVAL','Pendiente de Aprobar',
-    'TEXT_APPROVED','Aprobado',
-    'HEADING_TITLE_STATUS','Estado',
+    'TEXT_ALL_STATUS' => '--Cualquiera--',
+    'TEXT_PENDING_APPROVAL' => 'Pendiente de Aprobar',
+    'TEXT_APPROVED' => 'Aprobado',
+    'HEADING_TITLE_STATUS' => 'Estado',
 ];
 
 return $define;

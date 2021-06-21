@@ -14,7 +14,7 @@ $define = [
     'TABLE_HEADING_OPTION_NAME' => 'Nombre de Opción',
     'TABLE_HEADING_OPTION_VALUE' => 'Valor de Opción',
     'TABLE_HEADING_ACTION' => 'Acción',
-    'TEXT_PRODUCT_OPTIONS_INFO','<strong>Nota: Editar el Nombre de Opción para parámetros adicionales</strong>',
+    'TEXT_PRODUCT_OPTIONS_INFO' => '<strong>Nota: Editar el Nombre de Opción para parámetros adicionales</strong>',
     'TEXT_WARNING_OF_DELETE' => 'Este Nombre de Opción es utilizado por los productos listados a continuación: no se puede eliminarlo hasta que todos los Valores de Opciones (atributos) asociados con este Nombre de Opción se hayan eliminado de estos productos (esto se puede hacer usando las Herramientas Globales a continuación)',
     'TEXT_OK_TO_DELETE' => 'Este Nombre de Opción no es utilizado por ningún producto; es seguro eliminarlo.<br><strong>Advertencia:</strong> esto eliminará tanto el Nombre de Opción como todos los Valores de Opción asociados con ese nombre.',
     'TEXT_OPTION_ID' => 'ID Opción',

@@ -39,8 +39,8 @@ $define = [
     'TYPE_BELOW' => 'Todas las Zonas',
     'TEXT_ALL_ZONES' => 'Todas las Zonas',
     'TEXT_ALL_COUNTRIES' => 'Todas los Países',
-    'TEXT_INFO_NUMBER_TAX_RATES','Cantidad de Impuestos:',
-    'ERROR_TAX_RATE_EXISTS','ADVERTENCIA: Hay un impuesto definido para esta zona. Primero borre el impuesto existente antes de eliminar esta zona',
+    'TEXT_INFO_NUMBER_TAX_RATES' => 'Cantidad de Impuestos:',
+    'ERROR_TAX_RATE_EXISTS' => 'ADVERTENCIA: Hay un impuesto definido para esta zona. Primero borre el impuesto existente antes de eliminar esta zona',
 ];
 
 return $define;

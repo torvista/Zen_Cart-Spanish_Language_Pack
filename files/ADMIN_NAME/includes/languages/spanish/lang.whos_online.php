@@ -22,7 +22,7 @@ $define = [
     'TEXT_SHOPPING_CART_SUBTOTAL' => 'Subtotal',
     'TEXT_NUMBER_OF_CUSTOMERS' => 'Actualmente hay %s clientes online',
       'WHOS_ONLINE_REFRESH_LIST_TEXT' => 'ACTUALIZAR LISTA',
-      'WHOS_ONLINE_LEGEND_TEXT','Leyenda:',
+      'WHOS_ONLINE_LEGEND_TEXT' => 'Leyenda:',
       'WHOS_ONLINE_ACTIVE_TEXT','Carro Activa',
       'WHOS_ONLINE_INACTIVE_TEXT','Carro Inactiva',
       'WHOS_ONLINE_ACTIVE_NO_CART_TEXT','Activo sin carro',

@@ -18,7 +18,7 @@ $define = [
     'TEXT_FROM' => 'De:',
     'TEXT_FREE_SHIPPING' => 'Envío gratis',
     'TEXT_MESSAGE' => 'Mensaje:',
-    'TEXT_RICH_TEXT_MESSAGE','Mensaje RTF:',
+    'TEXT_RICH_TEXT_MESSAGE' => 'Mensaje RTF:',
     'TEXT_CONFIRM_DELETE' => '¿Seguro que desea desactivar este cupón?',
     'TEXT_SEE_RESTRICT' => 'Restricciones aplicadas',
     'TEXT_COUPON_ANNOUNCE','Nos satisface ofrecerle un cupón de nuestra tienda.',

@@ -42,7 +42,7 @@ $define = [
       'TEXT_LANGUAGE_LOOKUP_CURRENT_ADMIN' => 'Todos los archivos principales de idioma - Admin (' . DIR_WS_ADMIN . DIR_WS_LANGUAGES . 'english.php /spanish.php etc.)',
       'TEXT_LANGUAGE_LOOKUP_CURRENT_ADMIN_LANGUAGE' => 'Todos los archivos de idioma seleccionados actualmente - Admin (' . DIR_WS_ADMIN . DIR_WS_LANGUAGES . $_SESSION['language'] . '/*.php)',
       'TEXT_LANGUAGE_LOOKUP_CURRENT_ALL' => 'Todos los archivos de idioma seleccionados actualmente - Catálogo/Admin',
-      'TEXT_INFO_NO_EDIT_AVAILABLE','Edición no disponible',
+      'TEXT_INFO_NO_EDIT_AVAILABLE' => 'Edición no disponible',
       'TEXT_INFO_CONFIGURATION_HIDDEN' => ' u => OCULTO',
       'TEXT_INFO_DATABASE_OPTIMIZE' => '<strong>Optimizar base de datos</strong> para quitar el espacio de registros borrados.<br>Se recomienda hacerlo mensualmente o semanalmente en una tienda con mucho movimiento (Es recomendable optimizar la base de datos en horario de poca afluencia de visitantes).',
       'TEXT_INFO_OPTIMIZING_DATABASE_TABLES' => 'Optimización de la base de datos está en marcha. Puede tardar unos minutos. Espera por favor. El menu anterior aparecerá cuando este terminado ... ',

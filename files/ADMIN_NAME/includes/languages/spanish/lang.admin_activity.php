@@ -17,7 +17,7 @@ $define = [
     'TEXT_PROCESSED' => ' Procesado.',
     'SUCCESS_EXPORT_ADMIN_ACTIVITY_LOG' => 'Exportación completada: ',
     'FAILURE_EXPORT_ADMIN_ACTIVITY_LOG' => 'AVISO: La exportación falló. No se pudo escribir el archivo',
-    'TEXT_INSTRUCTIONS','<u>INSTRUCCIONES</u><br>
+    'TEXT_INSTRUCTIONS' => '<u>INSTRUCCIONES</u><br>
 En esta página se puede exportar el archivo de actividades Admin Zen Cart&reg; a un archivo CSV para guardar.<br>
 Debe archivar esta información por si acaso es requerida en una investigación de fraude. Es imprescindible para cumplir con la ley PCI.<br>
 <ol>

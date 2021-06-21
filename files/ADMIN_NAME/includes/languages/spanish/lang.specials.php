@@ -12,7 +12,7 @@ $define = [
     'TABLE_HEADING_STOCK' => 'Stock',
     'TABLE_HEADING_PRODUCTS_PRICE' => 'Precio/Oferta/Rebaja',
     'TABLE_HEADING_AVAILABLE_DATE' => 'Disponible Desde',
-    'TABLE_HEADING_EXPIRES_DATE','Caduca En',
+    'TABLE_HEADING_EXPIRES_DATE' => 'Caduca En',
     'TABLE_HEADING_STATUS' => 'Estado Oferta',
     'TABLE_HEADING_ACTION' => 'Acción',
     'TEXT_ADD_SPECIAL_SELECT' => 'Añadir Oferta por Selección',
@@ -40,7 +40,7 @@ $define = [
     'TEXT_INFO_HEADING_PRE_ADD_SPECIALS' => 'Añade nueva Oferta por el ID de un Producto',
     'TEXT_INFO_PRE_ADD_INTRO' => 'Se puede añadir una Oferta por ID del Producto. Puede ser apropiado usar este método para bases de datos grandes => cuando la página tarda mucho tiempo en cargar el menú desplegable.',
     'TEXT_PRE_ADD_PRODUCTS_ID' => 'Tecle el ID de Producto para ser pre-añadido: ',
-    'TEXT_SPECIALS_PRICE_NOTES_HEAD' => '<b>Notas:</b>', 
+    'TEXT_SPECIALS_PRICE_NOTES_HEAD' => '<b>Notas:</b>',
     'TEXT_SPECIALS_PRICE_NOTES_BODY' => '<li>El Precio Especial puede ser un precio (sin impuestos). El separador decimal debe ser un "." (punto decimal), por ejemplo: <b>49.99</b>. El porcentaje de descuento calculado se muestra junto al nuevo precio del producto en el catálogo.</li><li>El Precio Especial puede ser un porcentaje de descuento, por ejemplo: <b>20%</b>.</li><li>Las fechas de inicio / finalización no son obligatorias. Puede dejar la fecha de vencimiento vacía para que no caduca.</li> <li> Cuando se establecen las fechas, el estado del Precio Especial se habilita / deshabilita automáticamente en consecuencia.</li>',
 ];
 

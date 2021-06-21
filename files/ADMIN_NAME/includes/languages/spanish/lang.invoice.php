@@ -25,7 +25,7 @@ $define = [
     'ENTRY_PAYMENT_METHOD' => 'Método de pago:',
     'ENTRY_SHIPPING' => 'Envío:',
     'ENTRY_DATE_PURCHASED' => 'Fecha del pedido:',
-    'ENTRY_ORDER_ID','Nº Pedido ',
+    'ENTRY_ORDER_ID' => 'Nº Pedido ',
     'TEXT_INFO_ATTRIBUTE_FREE' => '&nbsp;-&nbsp;GRATIS',
 ];
 
