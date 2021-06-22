@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Zen Cart 1.58x Spanish (Spain) Language Pack - Readme</title>
+<title>Zen Cart Spanish (Spain) Language Pack for Zen Cart 1.58x</title>
 <style>
 body {
 	padding: 1em;
@@ -30,7 +30,8 @@ img {
 </head>
 <body>
 <h1><span>Zen Cart Spanish (Spain) Language Pack for Zen Cart 1.58x</span></h1>
-<p><em>Provided for development purposes only: consolidated with GitHub Zen Cart branch v158: 15/06/2021</em></p>
+<p><em>Provided for development purposes only.</em></p>
+<p><em>Complete and  consolidated with GitHub Zen Cart branch v158: 22/06/2021.</em></p>
 <p>See <a href="changelog.txt" target="_blank">Changelog</a> for current status.</p>
 <p>GPL Licence<br>
 </p>
@@ -39,7 +40,8 @@ img {
   <li>date format is dd/mm/yyyy (not mm/dd/yyyy)</li>
   <li>weight is kg (not lbs)</li>
   <li>default currency is EUR (not USD)</li>
-  <li>&quot;invoice&quot; is changed to &quot;order&quot;. Since there is no customer tax id recorded in Zen Cart, the &quot;invoice&quot; cannot be legally called an invoice (factura) but is just a summary of the  order.</li>
+  <li>all uses of &quot;invoice-factura&quot; are changed to &quot;order-pedido&quot;.<br>
+  Since there is no provision for the use of a customer tax id in Zen Cart as supplied, the &quot;invoice&quot; cannot be legally called a &quot;factura&quot; and so becomes just an order summary (&quot;pedido&quot;).</li>
 </ul>
 <p><strong> Support Thread - Zen Cart forum</strong>: <a href="http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
 <p><strong>Github: <a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">https://github.com/torvista/Zen_Cart-Spanish_Language_Pack</a></strong></p>
@@ -75,16 +77,19 @@ img {
 <p>Note that the &quot;spanish&quot; product/category data fields may then be exported (using <a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2091" target="_blank">DBIO</a> for example) for a more efficient bulk translation/prepare a  spanish file for import to overwrite/update the spanish fields.</p>
 <h3>4) Review the installation</h3>
 <h4>a) Check the Admin menus</h4>
-<p><strong>Configuración/Configuration options</strong></p>
-<p>Note that the titles and descriptions of these options are stored in the database in english, but can be replaced on the fly when displayed.</p>
+<p><strong>Configuración/Configuration options (constants)</strong></p>
+<p>Note that the titles and descriptions of these options are stored in the database in english, but translations of these constant titles and descriptions can be used when the page is displayed.</p>
 <p>To do this, a replacement constant must be added to ADMIN/includes/languages/spanish/configuration.php</p>
 <p>e.g:</p>
-<pre>//Optional&#32;overrides&#32;for&#32;the&#32;default&#32;english&#32;configuration&#32;titles&#32;and&#32;descriptions...add&#32;at&#32;your&#32;leisure<br>define('CFGTITLE_STORE_NAME',&#32;'Nombre&#32;de&#32;la&#32;Tienda');<br>define('CFGDESC_STORE_NAME',&#32;'El&#32;nombre&#32;de&#32;la&#32;tienda');</pre>
+<pre>define('CFGTITLE_STORE_NAME',&#32;'Nombre&#32;de&#32;la&#32;Tienda');<br>define('CFGDESC_STORE_NAME',&#32;'El&#32;nombre&#32;de&#32;la&#32;tienda');</pre>
 <p>Where STORE_NAME is the name of the original constant.</p>
-<p>To display the name of the original constant in the infobox for each constant, a developer option is available: ADMIN/index.php?cmd=configuration&amp;gID=<mark>6</mark>
-  <br>
-	Set option &quot;Admin configuration_key shows&quot; to 1.</p>
+<p>To know the name of the constant, a developer option is available which displays the constant name in the infobox for each constant:</p>
+<p>Browse to this hidden admin page:</p>
+<p>ADMIN/index.php?cmd=configuration&amp;gID=<strong>6</strong><br>
+  </p>
+<p>Set option &quot;Admin configuration_key shows&quot; to 1.</p>
 <p>If you want a full list of constants for easy translation/for IDE discovery purposes: <a href="https://github.com/torvista/Zen_Cart-List_Configuration_Constants" target="_blank">https://github.com/torvista/Zen_Cart-List_Configuration_Constants</a></p>
+<p>If you decide to translate these configuration constants, please PR your additions to the GitHub repository.</p>
 <p><strong>Other Options</strong></p>
 <p>In<br>
   Admin-&gt;Herramientas-&gt;Enviar Correo and <br>
@@ -112,20 +117,20 @@ img {
 <h2>Problems</h2>
 <h3>PHP warnings</h3>
 <p>From PHP 7.2 onwards, warnings are raised for missing constants or duplicated constants. These need to be fixed.</p>
-<p>If the debug error occurs only with the spanish files, please report it in the thread for this language pack.</p>
-<p>If the debug error occurs with the english files too, report it in <a href="https://github.com/zencart/zencart/issues" target="_blank">Github</a>.</p>
+<p>If the debug error occurs only with the spanish files, please report it in <a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">GitHub for this language pack</a>.</p>
+<p>If the debug error occurs with the english files too, report it in the <a href="https://github.com/zencart/zencart/issues" target="_blank">Zen Cart Github</a>.</p>
 <h3>Characters with accents displaying corrupted</h3>
 <p>Could be a file, database connection or database data with the incorrect encoding of UTF-8: search and read in the forum.</p>
 <h3>Dates not formatted correctly.</h3>
 <p>Possibly the locale is incorrect.</p>
 <p>In spanish.php, the two versions of this files contain these lines:</p>
 <pre>$locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');</pre>
-<p>This is a list of locales (if you don't know what that means, look it up). The values you can use depend on what is installed on the server (local or remote).</p>
+<p>This is a list of locales (if you don't know what that means, look it up). The values you can use depend on what is installed on the server where the shop is hosted (local or remote).</p>
 <p>Probably the values that are in there already will be fine for both a Windows/*nix hosting since if the server does not have one, it uses the next...</p>
 <p>If you want to know what your server supports, there is a script to check:</p>
 <p><a href="https://github.com/torvista/Zen_Cart-Test_Server_Locales" target="_blank">https://github.com/torvista/Zen_Cart-Test_Server_Locales</a></p>
 <h3>Untranslated Text/Mistakes/Improvements</h3>
-<p>If any text is untranslated/incorrect or could be improved, please post a message in the Github repository.</p>
+<p>If any text is untranslated/incorrect or could be improved, please post a message in the GitHub repository.</p>
 <p>If you see a constant name appear like &quot;TEXT_SOMETHING_NEW&quot; instead of text, this means that particular constant is not defined for the currently-selected language.<br>
 Find this constant definition in your files (it will probably only be defined in the english language files) and replicate it in the corresponding language file, and TELL someone if it is someone else's fault.</p>
 <h3>Blank Screen/&quot;White Screen of Death&quot;</h3>
@@ -139,8 +144,11 @@ Find this constant definition in your files (it will probably only be defined in
   If this is exceeded, the normal Submit image is shown instead.<br>
   This may be useful if you wish to force the use of an image on a particular Submit button: just use a 30+ character alt text!</p>
 <h2>Improvements</h2>
-<p>Please help to maintain and improve this translation by opening an issue on Github:<br>
-  <a href="http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">http://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
+<p>A language pack takes a great deal of time to create and maintain.</p>
+<p>Please help to improve this translation in the GitHub repository:</p>
+<p><a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">https://github.com/torvista/Zen_Cart-Spanish_Language_Pack</a><br>
+</p>
 <h2><a href="changelog.txt" target="_blank">Changelog</a></h2>
+<p>&nbsp;</p>
 </body>
 </html>
