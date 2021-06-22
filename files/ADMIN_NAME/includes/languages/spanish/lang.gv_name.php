@@ -7,9 +7,9 @@
 */
 
 $define = [
-    'TEXT_GV_NAME','Tarjeta Regalo',
-    'TEXT_GV_NAMES','Tarjetas de Regalo',
-    'TEXT_GV_REDEEM','Código de Canje',
+    'TEXT_GV_NAME' => 'Tarjeta Regalo',
+    'TEXT_GV_NAMES' => 'Tarjetas de Regalo',
+    'TEXT_GV_REDEEM' => 'Código de Canje',
 ];
 
 return $define;

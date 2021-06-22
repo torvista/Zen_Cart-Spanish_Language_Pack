@@ -12,7 +12,7 @@ $define = [
     'HEADING_TITLE_MODULES_ORDER_TOTAL' => 'Módulos de Total del Pedido',
     'TABLE_HEADING_MODULES' => 'Módulos',
     'TABLE_HEADING_SORT_ORDER' => 'Orden',
-    'TABLE_HEADING_ORDERS_STATUS','Estados de pedidos',
+    'TABLE_HEADING_ORDERS_STATUS' => 'Estados de pedidos',
     'TABLE_HEADING_ACTION' => 'Acción',
     'TEXT_MODULE_DIRECTORY' => 'Carpeta del Módulo:',
     'ERROR_MODULE_FILE_NOT_FOUND' => 'ERROR: no se instaló el módulo porque falta un archivo de idioma: ',
@@ -23,8 +23,8 @@ $define = [
     'TEXT_DELETE_INTRO' => '¿Está seguro que quiere quitar este módulo?',
     'TEXT_WARNING_SSL_EDIT' => 'ALERT: <a href="https://docs.zen-cart.com/user/installing/enable_ssl/" rel="noopener" target="_blank">Por razones de seguridad => no se puede hacer cambios en este módulo hasta que el acceso al Admin utilice SSL.</a>.',
     'TEXT_WARNING_SSL_INSTALL' => 'ALERT: <a href="https://docs.zen-cart.com/user/installing/enable_ssl/" rel="noopener" target="_blank">Por razones de seguridad => no se puede instalar este módulo hasta que el acceso al Admin utilice SSL.</a>.',
-    'TEXT_POSITIVE_INT','%s debe ser un integer igual o mayor que 0',
-    'TEXT_POSITIVE_FLOAT','%s debe ser un decimal igual o mayor que 0',
+    'TEXT_POSITIVE_INT' => '%s debe ser un integer igual o mayor que 0',
+    'TEXT_POSITIVE_FLOAT' => '%s debe ser un decimal igual o mayor que 0',
 ];
 
 return $define;

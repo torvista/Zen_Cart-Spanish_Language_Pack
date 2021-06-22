@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'HEADING_TITLE','Gestionar Descargas',
+    'HEADING_TITLE' => 'Gestionar Descargas',
     'TABLE_HEADING_ATTRIBUTES_ID' => 'ID de Atributos',
     'TABLE_HEADING_PRODUCTS_ID' => 'ID de producto',
     'TABLE_HEADING_PRODUCT' => 'Nombre de producto',
@@ -26,8 +26,8 @@ $define = [
     'TEXT_INFO_FILENAME' => 'Nombre de archivo ',
     'TEXT_INFO_MAX_DAYS' => 'Días máximos: ',
     'TEXT_INFO_MAX_COUNT' => 'Descargas máximas: ',
-    'TEXT_INFO_FILENAME_MISSING','&nbsp;Falta nombre de archivo',
-    'TEXT_INFO_FILENAME_GOOD','&nbsp;Nombre de archivo válido',
+    'TEXT_INFO_FILENAME_MISSING' => '&nbsp;Falta nombre de archivo',
+    'TEXT_INFO_FILENAME_GOOD' => '&nbsp;Nombre de archivo válido',
     'TEXT_WARNING_PRODUCT_MISCONFIGURED_SHORT' => 'Hay un erro en la configuración del Producto Decargable', 
     'TEXT_WARNING_PRODUCT_MISCONFIGURED' => 'Producto no debería ser free shipping ni virtual. Ver <a href="https://docs.zen-cart.com/user/products/downloadable/#additional-notes-about-downloads-and-shipping-costs">documentación de gastos del envíos</a>.',  
 ];

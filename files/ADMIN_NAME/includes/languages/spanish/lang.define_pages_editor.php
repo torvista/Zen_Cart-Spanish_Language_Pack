@@ -12,7 +12,7 @@ $define = [
     'ERROR_FILE_NOT_WRITEABLE' => 'Error: No puede escribirse este archivo. Revise el permiso de usuario en: %s',
     'TEXT_INFO_SELECT_FILE' => 'Seleccione un archivo a editar ...',
     'TEXT_INFO_EDITING' => 'Editando archivo:',
-    'TEXT_INFO_CAUTION','Nota: Debe editar siempre los archivos localizados en el directorio de su plantilla actual. Ejemplo: /languages/' . $_SESSION['language'] . '/html_includes/YOUR_TEMPLATE_DIRECTORY<br>Asegúrese de hacer copias de seguridad antes de modificar sus archivos.',
+    'TEXT_INFO_CAUTION' => 'Nota: Debe editar siempre los archivos localizados en el directorio de su plantilla actual. Ejemplo: /languages/' . $_SESSION['language'] . '/html_includes/YOUR_TEMPLATE_DIRECTORY<br>Asegúrese de hacer copias de seguridad antes de modificar sus archivos.',
 ];
 
 return $define;

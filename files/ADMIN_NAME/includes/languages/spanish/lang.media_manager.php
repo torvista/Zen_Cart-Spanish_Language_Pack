@@ -35,7 +35,7 @@ $define = [
     'TEXT_DELETE_WARNING_PRODUCTS' => '<strong>ATENCIÓN:</strong> ¡Hay %s elementos todavía enlazados a esta Colección de Medios!',
     'TEXT_WARNING_FOLDER_UNWRITABLE' => 'AVISO: no puede escribir al directorio de medios ' . DIR_FS_CATALOG_MEDIA . '. No puede subir archivos.',
     'ERROR_UNKNOWN_DATA' => 'ERROR: Datos desconocidos suministrados ... operación cancelada',
-    'TEXT_ADD','Añadir',
+    'TEXT_ADD' => 'Añadir',
 ];
 
 return $define;

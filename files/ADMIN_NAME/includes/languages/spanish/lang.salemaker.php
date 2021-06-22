@@ -45,7 +45,7 @@ $define = [
     'TEXT_INFO_HEADING_DELETE_SALE' => 'Eliminar rebaja',
     'TEXT_INFO_DELETE_INTRO' => '¿Seguro que desea eliminar permanentemente esta rebaja?',
     'TEXT_MORE_INFO' => '(Más Información)',
-    'TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES','&nbsp;Aviso: %s rebaja(s) ya incluye(n) esta categoría',
+    'TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES' => '&nbsp;Aviso: %s rebaja(s) ya incluye(n) esta categoría',
 ];
 
 return $define;

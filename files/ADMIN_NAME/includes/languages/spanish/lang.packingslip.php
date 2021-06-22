@@ -17,7 +17,7 @@ $define = [
     'ENTRY_SHIP_TO' => 'ENVIAR A:',
     'ENTRY_PAYMENT_METHOD' => 'Método de Pago:',
     'ENTRY_DATE_PURCHASED' => 'Fecha de Pedido:',
-    'ENTRY_ORDER_ID','Nº Pedido. ',
+    'ENTRY_ORDER_ID' => 'Nº Pedido. ',
 ];
 
 return $define;

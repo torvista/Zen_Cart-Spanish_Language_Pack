@@ -5,7 +5,7 @@
  * @version $Id: $
 */
 $define = [
-
+//english file has blank lines too
     'HEADING_TITLE' => 'Grupos de Clientes',
 
     'TABLE_HEADING_GROUP_ID' => 'ID',

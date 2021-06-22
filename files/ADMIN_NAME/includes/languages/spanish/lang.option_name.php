@@ -15,7 +15,7 @@ $define = [
       'TEXT_OPTION_TYPE' => 'Tipo',
       'TEXT_OPTION_NAME' => 'Nombre de Opción',
       'TEXT_SELECTED_LANGUAGE' => 'Idioma: ',
-      'TEXT_UPDATE_SUBMIT','Actualizar Órden',
+      'TEXT_UPDATE_SUBMIT' => 'Actualizar Órden',
       'SUCCESS_OPTION_SORT_ORDER' => 'Los órdenes de los Nombres de las Opciones han sido actualizados correctamente',
 ];
 
