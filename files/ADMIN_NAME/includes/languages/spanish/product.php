@@ -47,11 +47,11 @@ define('TEXT_PRODUCTS_WEIGHT', 'Peso:');
   define('TEXT_PRODUCTS_IS_CALL_PREVIEW', '*El producto está marcado como PEDIR PRECIO');
   define('TEXT_PRODUCTS_IS_CALL_EDIT', '*El producto está marcado como PEDIR PRECIO');
 
-define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES', 'El precio varia con los atributos:');
+define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES', 'El precio total (no el incremento) está mostrado en los atributos:');
 define('TEXT_PRODUCT_IS_PRICED_BY_ATTRIBUTE', 'Sí');
 define('TEXT_PRODUCT_NOT_PRICED_BY_ATTRIBUTE', 'No');
-define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_PREVIEW', '*El precio mostrado se incluirá el precio del grupo de atributos más bajo, más el precio base');
-define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT', '*El precio mostrado se incluirá el precio del grupo de atributos más bajo, más el precio base');
+define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_PREVIEW', '*El precio mostrado se incluirá el precio más bajo del grupo de atributos más el precio base.');
+define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT', 'El precio mostrado se incluirá el precio más bajo del grupo de atributos más el precio base.);
 
 define('TEXT_PRODUCTS_TAX_CLASS', 'Clase de Impuesto:');
 
