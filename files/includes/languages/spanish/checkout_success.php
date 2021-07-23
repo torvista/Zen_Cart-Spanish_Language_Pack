@@ -15,7 +15,7 @@ define('TEXT_SUCCESS', '');
 define('TEXT_NOTIFY_PRODUCTS', 'Avísenme cuando haya cambios en los siguientes productos:');
 // Still used by some older templates
 define('TEXT_SEE_ORDERS', 'Se puede ver los estados de sus pedidos en <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">Mi Cuenta</a>, "Ver Mis Pedidos".');
-define('TEXT_CONTACT_STORE_OWNER', 'Por favor, dirija cualquier pregunta que tenga a <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '>atención al cliente</a>.');
+define('TEXT_CONTACT_STORE_OWNER', 'Por favor, dirija cualquier pregunta que tenga a <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '">atención al cliente</a>.');
 define('TEXT_THANKS_FOR_SHOPPING', '¡Muchas gracias por su confianza!');
 
 define('TABLE_HEADING_COMMENTS', '');
