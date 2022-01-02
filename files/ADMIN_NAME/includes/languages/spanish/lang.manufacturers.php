@@ -9,7 +9,6 @@
 $define = [
     'HEADING_TITLE' => 'Fabricantes',
     'TABLE_HEADING_MANUFACTURERS' => 'Fabricantes',
-    'TABLE_HEADING_ID' => 'ID',
     'TABLE_HEADING_ACTION' => 'Acción',
     'TEXT_HEADING_NEW_MANUFACTURER' => 'Nuevo fabricante',
     'TEXT_HEADING_EDIT_MANUFACTURER' => 'Editar fabricante',

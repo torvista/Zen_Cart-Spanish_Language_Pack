@@ -24,7 +24,6 @@ $define = [
     'ERROR_PAGE_TITLE_REQUIRED' => 'Error: Título de la página requerido.',
     'ERROR_UNKNOWN_STATUS_FLAG' => 'Error: Marcado del estatus desconocido.',
     'ERROR_MULTIPLE_HTML_URL' => 'Error: Ha definido opciones múltiples del enlace cuando solamente una está permitida. ...<br>Puede definir: Contenido HTML Content -o- URL de un enlace interno -o- URL de un enlace externa ',
-    'TABLE_HEADING_ID' => 'ID',
     'TABLE_HEADING_STATUS_HEADER' => 'Encabezado:',
     'TABLE_HEADING_STATUS_SIDEBOX' => 'Recuadro:',
     'TABLE_HEADING_STATUS_FOOTER' => 'Pie:',

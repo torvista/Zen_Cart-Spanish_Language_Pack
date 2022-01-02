@@ -10,7 +10,6 @@ $define = [
     'HEADING_TITLE_OPT' => 'Opciones de Productos',
     'HEADING_TITLE_VAL' => 'Valores de Opciones',
     'HEADING_TITLE_ATRIB' => 'Atributos de Productos',
-    'TABLE_HEADING_ID' => 'ID',
     'TABLE_HEADING_PRODUCT' => 'Nombre de Producto',
     'TABLE_HEADING_OPT_NAME' => 'Nombre de Opción',
     'TABLE_HEADING_OPT_VALUE' => 'Valor',

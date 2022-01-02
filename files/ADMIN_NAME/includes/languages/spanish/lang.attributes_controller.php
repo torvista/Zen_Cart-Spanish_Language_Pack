@@ -24,7 +24,6 @@ $define = [
     'TABLE_HEADING_ATTRIBUTES_PRICE_WORDS_FREE' => '- Palabras Gratis:',
     'TABLE_HEADING_ATTRIBUTES_PRICE_LETTERS' => 'Precio Por Letra:',
     'TABLE_HEADING_ATTRIBUTES_PRICE_LETTERS_FREE' => '- Letras Gratis:',
-    'TABLE_HEADING_ID' => 'ID',
     'TABLE_HEADING_PRODUCT' => 'Nombre de Producto',
     'TABLE_HEADING_OPT_NAME' => 'Nombre de Opción',
     'TABLE_HEADING_OPT_VALUE' => 'Valor de Opción',

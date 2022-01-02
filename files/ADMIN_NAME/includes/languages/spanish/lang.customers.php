@@ -1,5 +1,5 @@
 <?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
-/** steve GPDR mod and edits
+/**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
@@ -8,7 +8,6 @@
 
 $define = [
     'HEADING_TITLE' => 'Clientes',
-    'TABLE_HEADING_ID' => 'ID#',
     'TABLE_HEADING_FIRSTNAME' => 'Nombre',
     'TABLE_HEADING_LASTNAME' => 'Apellidos',
     'TABLE_HEADING_ACCOUNT_CREATED' => 'Fecha',

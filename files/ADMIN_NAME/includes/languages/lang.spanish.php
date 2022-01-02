@@ -365,6 +365,7 @@ $define = [
     'BOX_CATALOG_CATEGORIES_ATTRIBUTES_CONTROLLER' => 'Gestión de Atributos',
     'TEXT_MODEL' => 'Modelo:',
     'TEXT_PRODUCTS_MODEL' => 'Modelo de Producto:',
+    'TABLE_HEADING_ID' => 'ID',
     'TABLE_HEADING_PRODUCTS_MODEL' => 'Modelo',
     'TABLE_HEADING_MODEL' => 'Modelo',
     'BOX_TOOLS_LAYOUT_CONTROLLER' => 'Disposición de los Recuadros',
