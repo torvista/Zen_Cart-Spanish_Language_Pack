@@ -139,6 +139,7 @@ return [
 'TEXT_ERROR_MYSQL_SUPPORT' => 'Hay problemas con la configuración MySQL (mysqli). Parece que en su servidor falta la extensión mysqli para PHP: sin la extensión no se puede conectar a la base de datos. Su empresa de hosting debería solucionarlo.',
 'TEXT_ERROR_PDOMYSQL_SUPPORT' => 'Hay problemas con el soporte MySQL (pdo_mysql). Parece que el servidor falta la extensión pdo_mysql extension para PHP, no se puede conectar a la base de datos sin esta extensión. Debería pedir ayuda a su empresa de hosting.',
 'TEXT_ERROR_PDOSQLITE_SUPPORT' => 'Parece que el servidor falta la extensión pdo_sqlite extension para PHP que se usa para almacenar datos y pruebas. Debería pedir ayuda a su empresa de hosting.',
+'TEXT_ERROR_PHPZIP_SUPPORT' => 'Parece que a su servidor le falta la extensión php-zip para PHP que se usa para descomprimir archivos zip. Es necesario para instalar las imágenes de demostración. Hable con su empresa de hosting para obtener ayuda.',
 'TEXT_ERROR_LOG_FOLDER' => DIR_FS_LOGS . ' no se puede escribir',
 'TEXT_ERROR_CACHE_FOLDER' => DIR_FS_SQL_CACHE . ' no se puede escribir',
 'TEXT_ERROR_IMAGES_FOLDER' => '/images/ no se puede escribir',
