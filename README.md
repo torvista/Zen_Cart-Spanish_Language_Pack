@@ -1,5 +1,8 @@
-# Zen_Cart-Spanish_Language_Pack
+# Zen Cart - Spanish Language Pack
 
 For Zen Cart 1.5.8 development purposes only.
 
-Complete (including Admin, Installer and example Plugin) as per zencart branch v158 15/06/2021.
+Complete fileset (including Admin, Installer and example Plugin) as per Zen Cart branch v158.
+
+TODO
+\includes\languages\english\responsive_classic\index.php
