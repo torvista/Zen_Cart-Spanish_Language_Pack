@@ -13,7 +13,6 @@ $define = [
     'SUB_HEADING_COUPON_NAME' => 'Restricciones para el Cupón &quot;%1$s&quot; [%2$u].',  //-%1$s = coupon-name => %2$u = coupon_id
     'TABLE_HEADING_CATEGORY_ID' => 'ID Categoría',
     'TABLE_HEADING_CATEGORY_NAME' => 'Nombre Categoría',
-    'TABLE_HEADING_PRODUCT_NAME' => 'Nombre de Producto',
     'TABLE_HEADING_PRODUCT_ID' => 'ID de Producto',
     'TABLE_HEADING_RESTRICT' => 'Restricción',
     'TABLE_HEADING_RESTRICT_REMOVE' => 'Eliminar',
@@ -22,13 +21,13 @@ $define = [
     'MAX_DISPLAY_RESTRICT_ENTRIES' => 20,
     'TEXT_ALL_PRODUCTS_ADD' => 'Añade Todos los Productos de la Categoría',
     'TEXT_ALL_PRODUCTS_REMOVE' => 'Quitar Todos los Productos de la Categoría',
-    'TEXT_INFO_ADD_DENY_ALL' => '<strong>Al Añadir Todos los Productos => solamente se añadirán los productos que no tengan actualmente ninguna restricción.<br>Al seleccionar Quitar Todos los Productos => solamente se quitarán los productos para los que se ha especificado Denegado o Permitido.</strong>',
+    'TEXT_INFO_ADD_DENY_ALL' => '<strong>Al Añadir Todos los Productos => solamente se añadirán los productos que no tengan actualmente ninguna restricción.<br>
+                    Al seleccionar Quitar Todos los Productos => solamente se quitarán los productos para los que se ha especificado Denegado o Permitido.</strong>',
     'ERROR_DISCOUNT_COUPON_DEFINED_CATEGORY' => 'Categoría no Completada',
     'ERROR_DISCOUNT_COUPON_DEFINED_PRODUCT' => 'Producto no Completado',
     'HEADER_MANUFACTURER_NAME' => '<br> -- OR -- <br>' . 'Fabricante: ',
     'TEXT_ALL_MANUFACTURERS_ADD' => 'Añadir todos los productos del fabricante',
     'TEXT_ALL_MANUFACTURERS_REMOVE' => ' Quitar todos los productos del fabricante ',
-    'TABLE_HEADING_STATUS' => 'Estatus',
     'ERROR_RESET_CATEGORY_MANUFACTURER' => 'Los filtros de Categoría y Fabricante han sido reseteado. Utilice los filtros por separado.',
     'TEXT_PULLDOWN_ALLOW' => 'Permitir',
     'TEXT_PULLDOWN_DENY' => 'Denegar',

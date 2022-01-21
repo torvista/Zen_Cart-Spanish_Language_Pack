@@ -8,8 +8,6 @@
 
 $define = [
     'HEADING_TITLE' => 'Productos Más Vistos',
-    'TABLE_HEADING_NUMBER' => 'ID#',
-    'TABLE_HEADING_PRODUCTS' => 'Nombre (Idioma)',
     'TABLE_HEADING_VIEWED' => 'Vistas',
     'TEXT_REPORT_START_DATE' => 'Fecha Inicio',
     'TEXT_REPORT_END_DATE' => 'Fecha Fin',

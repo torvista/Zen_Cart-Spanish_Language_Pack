@@ -1,5 +1,8 @@
 Changelog
-last consolidation with branch v158: 16/06/2021
+last consolidation with branch v158:
+Admin 21/01/2022
+Storefront 16/06/2021
+2022 01 21 Admin: de-duplication, alphasort of main file
 2021 07 12 Admin: use configuration page titles from configuration group names
 2021 06 15 Shopfront constants consolidated with english constants.
 2021 06 13 Admin constants consolidated with english constants.

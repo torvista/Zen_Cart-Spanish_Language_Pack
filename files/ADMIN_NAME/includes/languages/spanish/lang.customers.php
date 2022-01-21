@@ -12,7 +12,6 @@ $define = [
     'TABLE_HEADING_LASTNAME' => 'Apellidos',
     'TABLE_HEADING_ACCOUNT_CREATED' => 'Fecha',
     'TABLE_HEADING_LOGIN' => 'Último Acceso',
-    'TABLE_HEADING_ACTION' => 'Acción',
     'TABLE_HEADING_PRICING_GROUP' => 'Precio por Grupo',
     'TABLE_HEADING_AUTHORIZATION_APPROVAL' => 'Autorizado',
     'TABLE_HEADING_GV_AMOUNT' => 'Saldo TR',

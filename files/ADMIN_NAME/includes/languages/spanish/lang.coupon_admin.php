@@ -22,13 +22,12 @@ $define = [
     'TEXT_CONFIRM_DELETE' => '¿Seguro que desea desactivar este cupón?',
     'TEXT_SEE_RESTRICT' => 'Restricciones aplicadas',
     'TEXT_COUPON_ANNOUNCE' => 'Nos satisface ofrecerle un cupón de nuestra tienda.',
-    'TEXT_TO_REDEEM' => 'Puede canjear este cupón durante el pago. Sólo introduzca el código en el casillero asignado => y pulse sobre el botón de canjear.',
+    'TEXT_TO_REDEEM' => 'Puede canjear este cupón durante el pago. Sólo introduzca el código en el casillero asignado y pulse sobre el botón de canjear.',
     'TEXT_VOUCHER_IS' => 'El código del cupón es ',
-    'TEXT_REMEMBER' => 'No pierda el código del cupón => asegúrese de guardar bien el código => de esta manera puede beneficiarse de esta oferta especial.',
+    'TEXT_REMEMBER' => 'No pierda el código del cupón, segúrese de guardar bien el código para beneficiarse de esta oferta especial.',
     'TEXT_VISIT' => 'Visite nosotros en %s',
-    'TEXT_COUPON_HELP_DATE' => 'El cupón es válido entre %s y %s.',//STEVE didn't validate with <p></p>
-    'HTML_COUPON_HELP_DATE' => 'El cupón es válido entre %s y %s.',///STEVE didn't validate with <p></p>
-    'TABLE_HEADING_ACTION' => 'Acción',
+    'TEXT_COUPON_HELP_DATE' => '<p>El cupón es válido entre %s y %s.</p>',
+    'HTML_COUPON_HELP_DATE' => '<p>El cupón es válido entre %s y %s.</p>',
     'CUSTOMER_ID' => 'ID cliente',
     'CUSTOMER_NAME' => 'Nombre del Cliente',
     'REDEEM_DATE' => 'Fecha de Canje',

@@ -7,9 +7,7 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Los mejores clientes - Total de pedido',
-    'TABLE_HEADING_NUMBER' => 'ID#',
-    'TABLE_HEADING_CUSTOMERS' => 'Clientes',
+    'HEADING_TITLE' => 'Mejores Clientes-Total de pedido',
     'TABLE_HEADING_TOTAL_PURCHASED' => 'Total Comprado',
 ];
 

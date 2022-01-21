@@ -8,13 +8,6 @@
 
 $define = [
     'HEADING_TITLE' => 'Ofertas',
-    'TABLE_HEADING_PRODUCTS' => 'Productos',
-    'TABLE_HEADING_STOCK' => 'Stock',
-    'TABLE_HEADING_PRODUCTS_PRICE' => 'Precio/Oferta/Rebaja',
-    'TABLE_HEADING_AVAILABLE_DATE' => 'Disponible Desde',
-    'TABLE_HEADING_EXPIRES_DATE' => 'Caduca En',
-    'TABLE_HEADING_STATUS' => 'Estado Oferta',
-    'TABLE_HEADING_ACTION' => 'Acción',
     'TEXT_ADD_SPECIAL_SELECT' => 'Añadir Oferta por Selección',
     'TEXT_ADD_SPECIAL_PID' => 'Añadir Oferta por ID Producto',
     'TEXT_SEARCH_SPECIALS' => 'Buscar en las Ofertas Actuales',
@@ -25,8 +18,6 @@ $define = [
     'TEXT_SPECIALS_SPECIAL_PRICE' => 'Precio Oferta:',
     'TEXT_SPECIALS_AVAILABLE_DATE' => 'Fecha Oferta Activada:',
     'TEXT_SPECIALS_EXPIRES_DATE' => 'Fecha Oferta Desactivada:',
-    'TEXT_INFO_DATE_ADDED' => 'Fecha Añadida:',
-    'TEXT_INFO_LAST_MODIFIED' => 'Fecha Modificada:',
     'TEXT_INFO_NEW_PRICE' => 'Precio Oferta:',
     'TEXT_INFO_ORIGINAL_PRICE' => 'Precio Original:',
     'TEXT_INFO_DISPLAY_PRICE' => 'Precio Publicado Actualmente:',

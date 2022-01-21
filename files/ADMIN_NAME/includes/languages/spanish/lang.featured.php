@@ -8,13 +8,6 @@
 
 $define = [
     'HEADING_TITLE' => 'Productos Destacados',
-    'TABLE_HEADING_PRODUCTS' => 'Productos',
-    'TABLE_HEADING_STOCK' => 'Stock',
-    'TABLE_HEADING_PRODUCTS_PERCENTAGE' => 'Porcentaje',
-    'TABLE_HEADING_AVAILABLE_DATE' => 'Disponible',
-    'TABLE_HEADING_EXPIRES_DATE' => 'Caduca',
-    'TABLE_HEADING_STATUS' => 'Estado',
-    'TABLE_HEADING_ACTION' => 'Acción',
     'TEXT_ADD_FEATURED_SELECT' => 'Añadir Producto por Selección',
     'TEXT_ADD_FEATURED_PID' => 'Añadir Producto por ID',
     'TEXT_SEARCH_FEATURED' => 'Buscar Productos Destacados actuales',
@@ -24,8 +17,6 @@ $define = [
     'TEXT_FEATURED_PRODUCT' => 'Producto:',
     'TEXT_FEATURED_AVAILABLE_DATE' => 'Fecha de disponibilidad:',
     'TEXT_FEATURED_EXPIRES_DATE' => 'Fecha de caducidad:',
-    'TEXT_INFO_DATE_ADDED' => 'Añadido el:',
-    'TEXT_INFO_LAST_MODIFIED' => 'Última modificación:',
     'TEXT_INFO_NEW_PRICE' => 'Nuevo precio:',
     'TEXT_INFO_ORIGINAL_PRICE' => 'Precio original:',
     'TEXT_INFO_DISPLAY_PRICE' => 'Precio mostrado actualmente:',

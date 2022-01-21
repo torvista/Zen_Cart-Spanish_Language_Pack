@@ -13,7 +13,6 @@ $define = [
     'TABLE_HEADING_LANGUAGE' => 'Idioma ',
     'TABLE_HEADING_NAME' => 'Nombre',
     'TABLE_HEADING_DIRECTORY' => 'Directorio',
-    'TABLE_HEADING_ACTION' => 'Acción',
     'TEXT_INFO_HEADING_LANGUAGE' => 'Idioma',
     'TEXT_INFO_DEFAULT_TEMPLATE' => 'Se usa esta plantilla por defecto / cuando una idioma no tiene una plantilla asignada.',
     'TEXT_INFO_HEADING_EDIT_TEMPLATE' => 'Editar Configuración',

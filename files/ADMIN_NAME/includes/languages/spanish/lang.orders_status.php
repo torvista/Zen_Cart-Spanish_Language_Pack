@@ -9,11 +9,8 @@
 $define = [
     'HEADING_TITLE' => 'Estados de los Pedidos',
     'TABLE_HEADING_ORDERS_STATUS' => 'Estados',
-    'TABLE_HEADING_ACTION' => 'Acción',
     'TABLE_HEADING_ORDERS_STATUS_ID' => 'ID Estado Pedido',
-    'TABLE_HEADING_SORT_ORDER' => 'Órden',
     'TEXT_INFO_SORT_ORDER' => 'Órden: ',
-    'TEXT_INFO_EDIT_INTRO' => 'Haga los cambios necesarios',
     'TEXT_INFO_ORDERS_STATUS_NAME' => 'Estado de los pedidos:',
     'TEXT_INFO_INSERT_INTRO' => 'Introduzca el nuevo estado de pedidos con sus datos relacionados',
     'TEXT_INFO_DELETE_INTRO' => '¿Seguro que desea eliminar este estado de pedidos?',

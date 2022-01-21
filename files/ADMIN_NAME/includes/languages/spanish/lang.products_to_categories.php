@@ -15,7 +15,6 @@ $define = [
     'TEXT_INFO_MASTER_CATEGORY_CHANGE' => 'Un producto tiene una ID de Categoría Maestra (para fines de fijación de precios) que se puede considerar como la categoría donde el producto realmente <i>reside</i>. Además => un producto se puede <i>vincular</i> (copiar) a cualquier número de otras categorías => donde el precio puede modificarse debido a las condiciones de esas categorías.<br>El ID de Categoría Maestra se puede cambiar usando este menú desplegable de categoría maestra => que solo ofrece las categorías <strong>actualmente vinculadas</strong> como posibles alternativas.<br>Para establecer la ID de la categoría maestra en <strong>otra</strong> => primero vincúlela a una nueva categoría usando la tabla a continuación y Actualizar. Luego use este menú desplegable para reasignar la categoría maestra a esa nueva categoría. ',
     'TEXT_INFOBOX_HEADING_SELECT_PRODUCT' => 'Seleccionar un Producto por su ID#',
     'TEXT_SET_PRODUCTS_TO_CATEGORIES_LINKS' => 'Muestra enlaces Producto a Categorías: ',
-    'TEXT_PRODUCTS_ID' => 'Producto ID#',
     'TEXT_PRODUCTS_NAME' => 'Producto: ',
     'TEXT_PRODUCTS_PRICE' => 'Precio: ',
     'BUTTON_NEW_PRODUCTS_TO_CATEGORIES' => 'Elija otro Producto por ID#',

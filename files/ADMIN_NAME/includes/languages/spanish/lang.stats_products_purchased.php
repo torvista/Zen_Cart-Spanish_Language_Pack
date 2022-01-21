@@ -8,15 +8,12 @@
 
 $define = [
     'HEADING_TITLE' => 'Productos Más Vendidos',
-    'TABLE_HEADING_NUMBER' => 'ID#',
-    'TABLE_HEADING_PRODUCTS' => 'Productos',
     'TABLE_HEADING_PURCHASED' => 'Comprados',
     'TABLE_HEADING_CUSTOMERS_ID' => 'Cliente<br>ID#',
     'TABLE_HEADING_ORDERS_ID' => 'Pedido<br>ID#',
     'TABLE_HEADING_ORDERS_DATE_PURCHASED' => 'Fecha',
     'TABLE_HEADING_CUSTOMERS_INFO' => 'Cliente',
-    'TABLE_HEADING_PRODUCTS_QUANTITY' => 'Cantidad',
-    'TABLE_HEADING_PRODUCTS_NAME' => 'Producto',
+    'TABLE_HEADING_PRODUCTS_QUANTITY' => 'CANT.',
 ];
 
 return $define;

@@ -8,11 +8,8 @@
 
 $define = [
     'HEADING_TITLE' => 'Países',
-    'TABLE_HEADING_COUNTRY_NAME' => 'País',
     'TABLE_HEADING_COUNTRY_CODES' => 'Códigos ISO',
     'TABLE_HEADING_COUNTRY_STATUS' => 'Estatus',
-    'TABLE_HEADING_ACTION' => 'Acción',
-    'TEXT_INFO_EDIT_INTRO' => 'Haga los cambios necesarios',
     'TEXT_INFO_COUNTRY_NAME' => 'Nombre:',
     'TEXT_INFO_COUNTRY_CODE_2' => 'Código ISO (2):',
     'TEXT_INFO_COUNTRY_CODE_3' => 'Código ISO (3):',

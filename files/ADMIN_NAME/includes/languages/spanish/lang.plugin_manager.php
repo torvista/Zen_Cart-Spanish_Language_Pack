@@ -8,10 +8,8 @@
 
 $define = [
     'HEADING_TITLE' => 'Gestor de Plugins',
-    'TABLE_HEADING_ACTION' => 'Acciones',
     'TABLE_HEADING_KEY' => 'Key Plugin',
     'TABLE_HEADING_NAME' => 'Nombre',
-    'TABLE_HEADING_STATUS' => 'Estatus',
     'TABLE_HEADING_FILE_SPACE' => 'Tamaño Archivos',
     'TABLE_HEADING_VERSION_INSTALLED' => 'Versión',
     'TEXT_INSTALL' => 'Instalar',

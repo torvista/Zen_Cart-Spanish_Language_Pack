@@ -1,5 +1,5 @@
 <?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
-/** steve added
+/**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
@@ -18,29 +18,13 @@ $define = [
     'TABLE_HEADING_PAYMENT_METHOD' => 'Pago-Envío',
     'TABLE_HEADING_ORDERS_ID' => 'ID',
     'TEXT_BILLING_SHIPPING_MISMATCH' => 'La dirección de facturación y del envío no coinciden ',
-    'TABLE_HEADING_COMMENTS' => 'Comentario',
-    'TABLE_HEADING_CUSTOMERS' => 'Cliente',
     'TABLE_HEADING_ORDER_TOTAL' => 'Valor',
     'TABLE_HEADING_DATE_PURCHASED' => 'Fecha',
-    'TABLE_HEADING_STATUS' => 'Estado',
     'TABLE_HEADING_TYPE' => 'Tipo de Pedido',
-    'TABLE_HEADING_ACTION' => 'Acción',
     'TABLE_HEADING_QUANTITY' => 'Cant',
-    'TABLE_HEADING_PRODUCTS' => 'Productos',
-    'TABLE_HEADING_TAX' => 'IVA',
-    'TABLE_HEADING_TOTAL' => 'Total',
-    'TABLE_HEADING_PRICE_EXCLUDING_TAX' => 'Precio (sin IVA)',
-    'TABLE_HEADING_PRICE_INCLUDING_TAX' => 'Precio (con IVA)',
-    'TABLE_HEADING_TOTAL_EXCLUDING_TAX' => 'Total (sin IVA)',
-    'TABLE_HEADING_TOTAL_INCLUDING_TAX' => 'Total (con IVA)',
-    'TABLE_HEADING_PRICE' => 'Precio',
     'TABLE_HEADING_UPDATED_BY' => 'Actualizado Por',
-    'TABLE_HEADING_CUSTOMER_NOTIFIED' => 'Cliente Notificado',
-    'TABLE_HEADING_DATE_ADDED' => 'Fecha Añadido',
     'ENTRY_CUSTOMER' => 'Cliente:',
     'ENTRY_CUSTOMER_ADDRESS' => 'Dirección Cliente:<br><i class="fa fa-2x fa-user"></i>',
-    'ENTRY_SOLD_TO' => 'VENDIDO A:',
-    'ENTRY_SHIP_TO' => 'ENVIAR A:',
     'ENTRY_SHIPPING_ADDRESS' => 'Dirección de Envío:<br><i class="fa fa-2x fa-truck"></i>',
     'ENTRY_BILLING_ADDRESS' => 'Dirección de Facturación:<br><i class="fa fa-2x fa-credit-card"></i>',
     'ENTRY_PAYMENT_METHOD' => 'Método de pago:',
@@ -51,7 +35,6 @@ $define = [
     'ENTRY_CREDIT_CARD_EXPIRES' => 'Fecha de Caducidad de la Tarjeta:',
     'TEXT_ADDITIONAL_PAYMENT_OPTIONS' => 'Pinche para Opciones de Pago Adicionales',
     'ENTRY_SHIPPING' => 'Envío:',
-    'ENTRY_DATE_PURCHASED' => 'Fecha de Compra:',
     'ENTRY_STATUS' => 'Estado:',
     'ENTRY_NOTIFY_CUSTOMER' => 'Notificar Cliente:',
     'ENTRY_NOTIFY_COMMENTS' => 'Incluir Comentario en el email al Cliente:',
@@ -72,9 +55,8 @@ $define = [
     'EMAIL_TEXT_STATUS_LABEL' => '<strong>Nuevo estado:</strong> %s' . "\n\n",
     'EMAIL_TEXT_STATUS_PLEASE_REPLY' => 'Conteste a este email si tiene alguna pregunta.' . "\n",
     'ERROR_ORDER_DOES_NOT_EXIST' => 'Error: El pedido no existe.',
-    'SUCCESS_ORDER_UPDATED' => 'Éxito: pedido %s ha sido actualizado correctamente.',//steve added %s
-    'WARNING_ORDER_NOT_UPDATED' => 'Advertencia: No hay nada para cambiar. El pedido %s no fue actualizado.',//steve added %s
-    'ENTRY_ORDER_ID' => 'Pedido nº. ',
+    'SUCCESS_ORDER_UPDATED' => 'Éxito: pedido ha sido actualizado correctamente.',
+    'WARNING_ORDER_NOT_UPDATED' => 'Advertencia: No hay nada para cambiar. El pedido no fue actualizado.',
     'TEXT_INFO_ATTRIBUTE_FREE' => '&nbsp;-&nbsp;<span class="alert">GRATIS</span>',
     'TEXT_DOWNLOAD' => 'Descargar',
     'TEXT_DOWNLOAD_TITLE' => 'Estado de descarga del pedido',

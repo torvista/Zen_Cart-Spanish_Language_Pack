@@ -14,7 +14,6 @@ $define = [
     'TEXT_ACTIVITY_EXPORT_FILENAME' => 'Nombre de Archivo de Exportación:',
     'TEXT_ACTIVITY_EXPORT_SAVETOFILE' => '¿Guardar en el servidor? (si no => se descargará directamente desde esta ventana)',
     'TEXT_ACTIVITY_EXPORT_DEST' => 'Destino: ',
-    'TEXT_PROCESSED' => ' Procesado.',
     'SUCCESS_EXPORT_ADMIN_ACTIVITY_LOG' => 'Exportación completada: ',
     'FAILURE_EXPORT_ADMIN_ACTIVITY_LOG' => 'AVISO: La exportación falló. No se pudo escribir el archivo',
     'TEXT_INSTRUCTIONS' => '<u>INSTRUCCIONES</u><br>

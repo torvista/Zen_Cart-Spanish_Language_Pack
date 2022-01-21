@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Buscadores de Código Fuente ',
+    'HEADING_TITLE' => 'Buscador de Código',
     'TABLE_CONFIGURATION_TABLE' => 'Buscar definiciones de CONSTANTS',
     'SUCCESS_PRODUCT_UPDATE_PRODUCTS_PRICE_SORTER' => 'Actualización realizada con <strong>éxito</strong> para los valores de ordenación de precios de producto',
     'ERROR_CONFIGURATION_KEY_NOT_FOUND' => '<strong>Error:</strong> No se encontraron claves de configuración coincidentes ...',
@@ -55,7 +55,6 @@ $define = [
     'TEXT_ALL_FILES_LOOKUP_CURRENT_CATALOG' => 'Todos los archivos - Catálogo',
     'TEXT_ALL_FILES_LOOKUP_CURRENT_ADMIN' => 'Todos los archivos - Admin',
     'TEXT_ALL_FILES_LOOKUP_CURRENT_PLUGINS' => 'Todos los archivos - Plugins',
-    'TEXT_INFO_NO_EDIT_AVAILABLE' => 'Edición no disponible',
     'TEXT_INFO_CONFIGURATION_HIDDEN' => ' u => OCULTO',
     'TEXT_SEARCH_ALL_FILES' => 'Buscar en todos los archivos para: ',
     'TEXT_SEARCH_DATABASE_TABLES' => 'Buscar en las tablas de configuración del base de datos para: ',

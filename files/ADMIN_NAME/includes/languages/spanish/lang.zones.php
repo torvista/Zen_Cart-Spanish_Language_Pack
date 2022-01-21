@@ -8,11 +8,8 @@
 
 $define = [
     'HEADING_TITLE' => 'Zonas',
-    'TABLE_HEADING_COUNTRY_NAME' => 'País',
     'TABLE_HEADING_ZONE_NAME' => 'Zona',
     'TABLE_HEADING_ZONE_CODE' => 'Código',
-    'TABLE_HEADING_ACTION' => 'Acción',
-    'TEXT_INFO_EDIT_INTRO' => 'Haga los cambios necesarios',
     'TEXT_INFO_ZONES_NAME' => 'Nombre de Zona:',
     'TEXT_INFO_ZONES_CODE' => 'Código de Zona:',
     'TEXT_INFO_COUNTRY_NAME' => 'País:',

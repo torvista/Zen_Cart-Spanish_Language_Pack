@@ -8,8 +8,6 @@
 
 $define = [
     'HEADING_TITLE' => 'Informe de Inventario',
-    'TABLE_HEADING_NUMBER' => 'ID#',
-    'TABLE_HEADING_PRODUCTS' => 'Productos',
     'TABLE_HEADING_VIEWED' => 'Cantidad',
 ];
 

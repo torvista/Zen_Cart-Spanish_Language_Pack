@@ -10,7 +10,6 @@ $define = [
     'HEADING_TITLE' => 'Tipos de Medios',
     'TABLE_HEADING_MEDIA_TYPE' => 'Tipo de Medio',
     'TABLE_HEADING_MEDIA_TYPE_EXT' => 'Extensión',
-    'TABLE_HEADING_ACTION' => 'Acción',
     'TEXT_HEADING_NEW_MEDIA_TYPE' => 'Nuevo Tipo de Medio',
     'TEXT_HEADING_EDIT_MEDIA_TYPE' => 'Editar Tipo de Medio',
     'TEXT_HEADING_DELETE_MEDIA_TYPES' => 'Borrar Tipo de Medio',
@@ -18,7 +17,6 @@ $define = [
     'TEXT_MEDIA_TYPE_EXT' => 'Extensión del Tipo de Medio',
     'TEXT_EXTENSION' => 'Extensión: ',
     'TEXT_NEW_INTRO' => 'Rellene la siguiente información para el nuevo tipo de medio',
-    'TEXT_EDIT_INTRO' => 'Realice cualquier cambio necesario',
     'TEXT_DELETE_INTRO' => '¿Está seguro de que desea borrar este tipo de medio?',
     'TEXT_DISPLAY_NUMBER_OF_MEDIA_TYPES' => 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Tipos de Medio)',
 ];

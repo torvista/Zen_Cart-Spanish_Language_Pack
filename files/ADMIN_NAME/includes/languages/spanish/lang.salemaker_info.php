@@ -58,7 +58,6 @@ $define = [
                         Al marcar una categoría automáticamente se incluyen sus subcategorías.
                       </li>
                     </ul>',
-    'TEXT_CLOSE_WINDOW' => '[ cerrar ventana ]',
 ];
 
 return $define;

@@ -14,7 +14,6 @@ $define = [
     'TEXT_PAGE_PARAMS' => 'Página Parámetros',
     'TEXT_MENU_KEY' => 'Añadir al Menú',
     'TEXT_DISPLAY_ON_MENU' => '¿Mostrar en el Menú?',
-    'TEXT_SORT_ORDER' => 'Orden',
     'TEXT_EXAMPLE_PAGE_KEY' => '(p.ej. myModPageName)',
     'TEXT_EXAMPLE_LANGUAGE_KEY' => '(p.ej. BOX_MY_MOD_PAGE_NAME)',
     'TEXT_EXAMPLE_MAIN_PAGE' => '(p.ej. FILENAME_PAGE_NAME)',

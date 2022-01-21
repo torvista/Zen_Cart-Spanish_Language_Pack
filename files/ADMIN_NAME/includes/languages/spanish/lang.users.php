@@ -9,12 +9,8 @@
 $define = [
     'HEADING_TITLE' => 'Usuarios Admin',
     'IMAGE_ADD_USER' => 'Añadir Usuario',
-    'TEXT_ID' => 'ID',
-    'TEXT_ADMIN_NAME' => 'Nombre',
     'TEXT_ADMIN_PROFILE' => 'Perfil',
     'TEXT_CHOOSE_PROFILE' => 'Elegir Perfil',
-    'TEXT_PASSWORD' => 'Contraseña',
-    'TEXT_CONFIRM_PASSWORD' => 'Confirmar Contraseña',
     'TEXT_NO_USERS_FOUND' => 'No hay usuarios Admin',
     'TEXT_CONFIRM_DELETE' => 'Petición de Eliminación. Confirmación: ',
     'ERROR_NO_USER_DEFINED' => 'Hay que seleccionar un usuario para esta opción',

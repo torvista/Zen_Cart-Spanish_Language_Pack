@@ -8,10 +8,10 @@
 
 $define = [
     'HEADING_TITLE' => 'Informe de Origenes de clientes',
-    'TEXT_INFO_SELECT_REFERRAL' => 'Seleccione una Referencia/Código de cupón',
+    'TEXT_INFO_SELECT_REFERRAL' => 'Seleccione una Referencia/Código de Cupón',
     'TEXT_REFERRAL_UNKNOWN' => 'Desconocido',
-    'TEXT_INFO_START_DATE' => 'Fecha Inicio (d-m-y)',
-    'TEXT_INFO_END_DATE' => 'Fecha Final (d-m-y)',
+    'TEXT_INFO_START_DATE' => 'Fecha Inicio (m-d-y)',
+    'TEXT_INFO_END_DATE' => 'Fecha Final (m-d-y)',
     'TEXT_ORDER_NUMBER' => 'Pedido #',
     'TEXT_COUPON_ID' => 'Cupón de Descuento ID#',
 ];

@@ -14,7 +14,6 @@ $define = [
     'TEXT_ACTIVITY_EXPORT_FILENAME' => 'Nombre del Archivo de Exportación:',
     'TEXT_ACTIVITY_EXPORT_SAVETOFILE' => '¿Guardar el archivo en el servidor? (si no => se lo descargará desde el navegador)',
     'TEXT_ACTIVITY_EXPORT_DEST' => 'Destino: ',
-    'TEXT_PROCESSED' => ' Procesado.',
     'SUCCESS_EXPORT_DISCOUNT_COUPON_LOG' => 'Exportación completado. ',
     'FAILURE_EXPORT_DISCOUNT_COUPON_LOG' => 'AVISO: La exportación falló. No se pudo escribir al archivo.',
     'TEXT_INSTRUCTIONS' => '<u>INSTRUCTIONS</u><br>Exportar los Cupones de Descuento a un archivo CSV.<br>

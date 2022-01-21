@@ -9,15 +9,11 @@
 $define = [
     'HEADING_TITLE_MEDIA_MANAGER' => 'Administrador de Medios',
     'TABLE_HEADING_MEDIA' => 'Nombre de Colección',
-    'TABLE_HEADING_ACTION' => 'Acción',
     'TEXT_HEADING_NEW_MEDIA_COLLECTION' => 'Nueva Colección de Medios',
     'TEXT_NEW_INTRO' => 'Introduzca los detalles de la nueva colección de medios abajo',
     'TEXT_MEDIA_COLLECTION_NAME' => 'Nombre Colección de Medios',
     'TEXT_MEDIA_EDIT_INSTRUCTIONS' => 'Use la sección de arriba para cambiar el nombre de la colección de medios => después haga clic en el botón "guardar".<br><br>
                                         Use la sección de abajo para añadir o quitar clips de medios de la colección de medios.',
-    'TEXT_DATE_ADDED' => 'Fecha Añadida:',
-    'TEXT_LAST_MODIFIED' => 'Última modificación:',
-    'TEXT_PRODUCTS' => 'Productos Enlazados:',
     'TEXT_CLIPS' => 'Segmentos Vinculados:',
     'TEXT_NO_PRODUCTS' => 'No hay Productos en esta categoría',
     'TEXT_HEADING_EDIT_MEDIA_COLLECTION' => 'Editar Colección de Medios',

@@ -9,12 +9,6 @@
 $define = [
     'TEXT_COUNT_CUSTOMERS' => 'Clientes recibiendo el Boletín de Noticias: %s',
     'HEADING_TITLE' => 'Administrador de boletín de noticias',
-    'TABLE_HEADING_NEWSLETTERS' => 'Boletines',
-    'TABLE_HEADING_SIZE' => 'Tamaño',
-    'TABLE_HEADING_MODULE' => 'Módulo',
-    'TABLE_HEADING_SENT' => 'Enviado',
-    'TABLE_HEADING_STATUS' => 'Estado',
-    'TABLE_HEADING_ACTION' => 'Acción',
     'TEXT_NEWSLETTER_MODULE' => 'Módulo:',
     'TEXT_NEWSLETTER_TITLE' => 'Asunto:',
     'TEXT_NEWSLETTER_CONTENT' => 'Contenido <br>sólo texto:',
