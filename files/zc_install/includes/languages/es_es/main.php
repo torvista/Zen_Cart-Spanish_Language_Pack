@@ -146,6 +146,7 @@ return [
 'TEXT_ERROR_DEFINEPAGES_FOLDER' => '/includes/languages/english/html_includes/ no se puede escribir',
 'TEXT_ERROR_MEDIA_FOLDER' => '/media/ folder no se pude escribir',
 'TEXT_ERROR_PUB_FOLDER' => DIR_FS_DOWNLOAD_PUBLIC . ' no se puede escribir',
+'TEXT_ERROR_NGINX_FOLDER' => '/zc_install/includes/nginx_conf/ folder no se puede escribir',
 'TEXT_ERROR_CONFIGURE_REQUIRES_UPDATE' => 'El archivo configure.php tiene una estructura obsoleta, precisa actualizarlo antes de continuar. ',
 'TEXT_ERROR_HTACCESS_SUPPORT' => 'El soporte para archivos ".htaccess" no está habilitado o no está funcionando correctamente.<br>[ <i><b>NOTA:</b> En el caso de usar un servidor Nginx, siga hasta <u>EL FINAL</u> del proceso de instalación, cuando se generarán instrucciones específicas como resolver este asunto.<i> ]',
 'TEXT_ERROR_SESSION_SUPPORT' => 'Problemas con el soporte de sesiones',
