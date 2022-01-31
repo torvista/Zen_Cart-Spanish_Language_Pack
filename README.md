@@ -1,5 +1,7 @@
-# Zen_Cart-Spanish_Language_Pack
+# Zen Cart - Spanish Language Pack
 
-For Zen Cart 1.5.7c.
+For Zen Cart 1.5.7.
 
-Complete (including Admin, Installer and example Plugin).
+Complete fileset (Shopfront, Admin, Installer and example Plugin).
+
+See the docs readme for details.
