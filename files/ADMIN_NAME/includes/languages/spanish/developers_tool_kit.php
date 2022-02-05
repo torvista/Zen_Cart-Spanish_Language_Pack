@@ -80,6 +80,7 @@
   define('TEXT_ALL_FILES_LOOKUP_ALL_TYPES', 'Todo');
 
   define('TEXT_CASE_SENSITIVE', '¿Distingue mayúsculas de minúsculas?');
+  define('TEXT_INCLUDE_PLUGINS', '¿Incluir Plugins?');
   define('TEXT_CONTEXT_LINES', 'Líneas del contexto: ');
   define('TEXT_SEARCH_LOOKUP_PLACEHOLDER', 'Introduzca frase o plantilla de búsqueda');
   define('TEXT_SEARCH_KEY_PLACEHOLDER', 'Introduzca frase o plantilla de búsqueda');
