@@ -1,1 +1,3 @@
-<p><strong><font face="verdana,arial,helvetica,sans-serif">SOBRE NOSOTROS ñ ...</font></strong></p><p>This section of text is from the Define Pages Editor located under Tools in the Admin.</p><p>You can use either the language-file in /includes/languages/english/MYTEMPLATE/about_us.php or this file separately for this page or, you can use both together.</p><p>To remove the language file definition, do not delete the define statement, set it to be blank. Example: define('TEXT_INFORMATION', '');</p><p>To remove this section of the text (which you're reading right now), delete it from the Define Pages Editor, located under Tools in the Admin.</p>
+<p>Español We are much more interesting than this blank page!</p>
+<p>Please use the Contact-Us page to remind us to update this page.</p>
+<p class="small pt-5"><br><br><br>Storeowners: use the Define Pages editor in your Admin to update this text.</p>
