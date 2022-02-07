@@ -14,7 +14,7 @@ $define = [
     'MY_ACCOUNT_ADDRESS_BOOK' => 'Mostrar o modificar mis direcciones de envío.',
     'MY_ACCOUNT_PASSWORD' => 'Modificar la contraseña de mi cuenta.',
     'EMAIL_NOTIFICATIONS_TITLE' => 'Avisos por e-mail',
-    'EMAIL_NOTIFICATIONS_NEWSLETTERS' => 'Darse de alta o baja del boletín.',
+    'EMAIL_NOTIFICATIONS_NEWSLETTERS' => 'Darse de alta o baja del Boletín.',
     'EMAIL_NOTIFICATIONS_PRODUCTS' => 'Mostrar o modificar mi lista de notificaciones sobre productos.',
 ];
 

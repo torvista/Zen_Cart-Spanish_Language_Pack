@@ -20,7 +20,7 @@ $define = [
     'EMAIL_SPAM_DISCLAIMER' => 'Este email ha sido enviado de acuerdo a la ley 34/2002 de 11 de Julio de servicios de la sociedad de la información y comercio electrónico. Las peticiones para darse de baja deberán ser enviadas a esta dirección, y serán cumplidas y respetadas.',
     'EMAIL_ORDER_MESSAGE' => '',
     'EMAIL_FOOTER_COPYRIGHT' => 'Copyright (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. Basado en <a href="http://www.zen-cart.com">Zen Cart</a>',
-    'TEXT_UNSUBSCRIBE' => "\n\nPara darse de baja de los boletines pulse aquí: \n",
+    'TEXT_UNSUBSCRIBE' => "\n\nPara darse de baja de los Boletines pulse aquí: \n",
     'EMAIL_ADVISORY' => '-----' . "\n" . '<strong>IMPORTANTE:</strong> Para su protección y para prevenir usos maliciosos, todos los emails enviados a través de este sitio son registrados y sus contenidos son grabados y están disponibles para los administradores de la tienda. Si piensa que ha recibido este mensaje por error, por favor, envíe un email a ' . STORE_OWNER_EMAIL_ADDRESS . "\n\n",
     'EMAIL_ADVISORY_INCLUDED_WARNING' => '<strong>Este mensaje se incluye en todos los e-mails enviados desde esta página:</strong>',
     'SEND_EXTRA_CREATE_ACCOUNT_EMAILS_TO_SUBJECT' => '[CREAR CUENTA]',

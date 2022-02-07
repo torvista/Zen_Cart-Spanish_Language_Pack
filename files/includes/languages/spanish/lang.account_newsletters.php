@@ -5,7 +5,7 @@ $define = [
     'HEADING_TITLE' => 'Suscripciones a los Boletines',
     'MY_NEWSLETTERS_GENERAL_NEWSLETTER' => 'Boletín General',
     'MY_NEWSLETTERS_GENERAL_NEWSLETTER_DESCRIPTION' => 'Incluye novedades de la tienda, nuevos productos, ofertas especiales y diversos anuncios de carácter promocional.',
-    'SUCCESS_NEWSLETTER_UPDATED' => 'Su suscripción a los boletines ha sido actualizada satisfactoriamente.',
+    'SUCCESS_NEWSLETTER_UPDATED' => 'Su suscripción a los boletines ha sido actualizada.',
 ];
 
 return $define;
