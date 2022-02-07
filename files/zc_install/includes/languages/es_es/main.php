@@ -1,4 +1,4 @@
-<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
+<?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -34,7 +34,7 @@ return [
 'TEXT_SYSTEM_SETUP_CLICK_TO_AGREE_LICENSE' => '(Marque la casilla para aceptar la licencia GPL 2. Pinche en el título a la izquierda para ver la licencia.)',
 'TEXT_SYSTEM_SETUP_ERROR_DIALOG_TITLE' => 'Hay algunos problemas',
 'TEXT_SYSTEM_SETUP_ERROR_DIALOG_CONTINUE' => 'Seguir de todos modos',
-'TEXT_SYSTEM_SETUP_ERROR_CATALOG_PHYSICAL_PATH' => 'Parece que hay un problema con el ' . 'TEXT_SYSTEM_SETUP_CATALOG_PHYSICAL_PATH',
+'TEXT_SYSTEM_SETUP_ERROR_CATALOG_PHYSICAL_PATH' => 'Parece que hay un problema con el ' . '%%TEXT_SYSTEM_SETUP_CATALOG_PHYSICAL_PATH%%',
 'TEXT_PAGE_HEADING_DATABASE' => 'Configuración Base de Datos',
 'TEXT_DATABASE_HEADER_MAIN' => 'NOTA: <b>ANTES</b> de seguir con la instalación, hay que crear la base de datos MySQL/Maria, y un usuario con contraseña con los permisos correspondientes. Pinche en los títulos a la izquierda para más ayuda.',
 'TEXT_DATABASE_SETUP_SETTINGS' => 'Ajustes Básicos',
@@ -43,8 +43,8 @@ return [
 'TEXT_DATABASE_SETUP_DB_PASSWORD' => 'Contraseña BBDD: ',
 'TEXT_DATABASE_SETUP_DB_NAME' => 'Nombre BBDD: ',
 'TEXT_DATABASE_SETUP_DEMO_SETTINGS' => 'Datos de Ejemplo',
-'TEXT_DATABASE_SETUP_LOAD_DEMO' => 'Cargar los Datos de Ejemplo',
-'TEXT_DATABASE_SETUP_LOAD_DEMO_DESCRIPTION' => '¿Cargar los datos de ejemplo en este BBDD?',
+'TEXT_DATABASE_SETUP_LOAD_DEMO' => 'Productos de Demostración',
+'TEXT_DATABASE_SETUP_LOAD_DEMO_DESCRIPTION' => '¿Cargar los Productos de Demostración en este BBDD?',
 'TEXT_DATABASE_SETUP_ADVANCED_SETTINGS' => 'Ajustes Avanzados',
 'TEXT_DATABASE_SETUP_DB_CHARSET' => 'Conjunto de caracteres BBDD: ',
 'TEXT_DATABASE_SETUP_DB_PREFIX' => 'Prefijo de Tablas BBDD: ',
@@ -139,7 +139,7 @@ return [
 'TEXT_ERROR_MYSQL_SUPPORT' => 'Hay problemas con la configuración MySQL (mysqli). Parece que en su servidor falta la extensión mysqli para PHP: sin la extensión no se puede conectar a la base de datos. Su empresa de hosting debería solucionarlo.',
 'TEXT_ERROR_PDOMYSQL_SUPPORT' => 'Hay problemas con el soporte MySQL (pdo_mysql). Parece que el servidor falta la extensión pdo_mysql extension para PHP, no se puede conectar a la base de datos sin esta extensión. Debería pedir ayuda a su empresa de hosting.',
 'TEXT_ERROR_PDOSQLITE_SUPPORT' => 'Parece que el servidor falta la extensión pdo_sqlite extension para PHP que se usa para almacenar datos y pruebas. Debería pedir ayuda a su empresa de hosting.',
-'TEXT_ERROR_PHPZIP_SUPPORT' => 'Parece que a su servidor le falta la extensión php-zip para PHP que se usa para descomprimir archivos zip. Es necesario para instalar las imágenes de demostración. Hable con su empresa de hosting para obtener ayuda.',
+'TEXT_ERROR_PHPZIP_SUPPORT' => 'Parece que a su servidor le falta la extensión php-zip para PHP que se usa para descomprimir archivos zip al instalar las imágenes de datos de demostración. Hable con su empresa de hosting para obtener ayuda.',
 'TEXT_ERROR_LOG_FOLDER' => DIR_FS_LOGS . ' no se puede escribir',
 'TEXT_ERROR_CACHE_FOLDER' => DIR_FS_SQL_CACHE . ' no se puede escribir',
 'TEXT_ERROR_IMAGES_FOLDER' => '/images/ no se puede escribir',
@@ -169,7 +169,7 @@ return [
 'TEXT_ERROR_FUNCTION_DOES_NOT_EXIST' => 'Parece que la función PHP %s no existe',
 'TEXT_ERROR_CURL_LIVE_TEST' => 'No se pudo usar CURL para contactar con un servidor remoto',
 'TEXT_ERROR_HTTPS' => 'TRUCO PRO: Si es posible, ya debería haber instalado un certificado SSL para ejecutar el instalador desde "https://"',
-'TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE' => 'Se ha encontrado un archivo configure.php existente. Si elije "%%TEXT_UPGRADE%%", el instalador intentará actualizar la base de datos.',
+'TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE' => 'Se ha encontrado un archivo configure.php existente, indicando una instalación previa.',
 'TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE_NO_UPDATE' => ' Se ha encontrado un archivo configure.php existente y la base de datos parece actualizada. Esto puede indicar que esta es una tienda en producción. ¡El proceso de instalación borrará todo el contenido de la base de datos! ¿Está seguro que quieres continuar??',
 'TEXT_ERROR_MULTIPLE_ADMINS_NONE_SELECTED' => 'Parece que hay más de un directorio que contiene archivos de Admin. Debería borrar las copias/versiones viejas o elegir la versión actual y refrescar la página.',
 'TEXT_ERROR_MULTIPLE_ADMINS_SELECTED' => ' Parece que hay más de un directorio que contiene archivos de Admin. Si el directorio indicado/preseleccionado es incorrecto, elija el correcto y refresque la página.',
@@ -189,7 +189,7 @@ Se puede continuar con la instalación a pesar de este asunto, pero en el caso d
 'TEXT_HELP_CONTENT_FOLDERPERMS' => 'Los permisos de este directorio no están configurados correctamente. Este directorio debe tener permiso de escritura. Hay más información sobre permisos en <a href="https://docs.zen-cart.com/user/installing/permissions/"  rel="noopener" target="_blank">https://docs.zen-cart.com/user/installing/permissions/</a>',
 'TEXT_HELP_TITLE_CONNECTIONDATABASECHECK' => 'Conexión Inicial Base de Datos',
 'TEXT_HELP_CONTENT_CONNECTIONDATABASECHECK' => 'Intentó conectar a la bb.dd utilizando una conexión localhost. El fallo no implica que no esté funcionando: algunos servicios de hosting precisan un IP o hostname para acceder al bb.dd. MySQL.<br><br>en caso de que el acceso sea por localhost, debería comprobar que MySQL está funcionando correctamente. ',
-'TEXT_HELP_TITLE_CHECKCURL' => 'TEXT_ERROR_CURL',
+'TEXT_HELP_TITLE_CHECKCURL' => '%%TEXT_ERROR_CURL%%',
 'TEXT_HELP_CONTENT_CHECKCURL' => 'CURL es un programa que se está ejecutando de fondo, utilizado por PHP para conectar a servidores/servicios externos como pasarelas de pagos, APIs de servicios de mensajería etc. La prueba de CURL no pudo establecer una conexión. Quizás hay un problema con la configuración de su servidor web. Debería contactar con el servicio de hosting para investigar la configuración de soporte CURL.<br><br>En el caso de que esté utilizando un servidor local para desarrollo, no es sorprendente que no funcione. No precisa CURL para el desarrollo hasta que pruebas de transacciones externas sean necesarias. ',
 'TEXT_HELP_TITLE_ADMINSERVERDOMAIN' => 'Dominio Servidor Admin',
 'TEXT_HELP_CONTENT_ADMINSERVERDOMAIN' => 'Introduzca el nombre del dominio de acceso a la zona Admin. Es muy aconsejable que sea a través de https://. Consulte con el servicio de hosting para habilitarlo. ',
