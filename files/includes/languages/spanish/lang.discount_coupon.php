@@ -5,7 +5,7 @@ $define = [
     'TEXT_INFORMATION' => '',
     'TEXT_COUPON_FAILED' => '<span class="alert important">%s</span> no parece ser un cupón de descuento válido. Pruebe a teclearlo de nuevo.',
     'TEXT_COUPON_HELP_NAME' => '\'%s\'. </p>',
-    'TEXT_COUPON_INACTIVE', => 'Cupón no activado', 
+    'TEXT_COUPON_INACTIVE' => 'Cupón no activado',
     'TEXT_COUPON_HELP_FIXED' => '',
     'TEXT_COUPON_HELP_FREESHIP' => '',
     'TEXT_COUPON_HELP_DESC' => '<p><span class="bold">Oferta de Descuentos:</span> %s</p><p class="smallText">Es posible que se apliquen otras restricciones. Consulte debajo para más detalles.</p>',

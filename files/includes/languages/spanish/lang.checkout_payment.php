@@ -11,7 +11,7 @@ $define = [
     'TITLE_CONTINUE_CHECKOUT_PROCEDURE' => '<strong>Continuar al Paso 3</strong>',
     'TEXT_CONTINUE_CHECKOUT_PROCEDURE' => '- para confirmar su pedido.',
     'TABLE_HEADING_CONDITIONS' => '<span class="termsconditions">Términos y Condiciones</span>',
-    'TEXT_CONDITIONS_DESCRIPTION' => '<span class="termsdescription">Por favor, acepte los términos y condiciones ligados a este pedido marcando la casilla. Puede leer los términos y condiciones <a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '" rel="noopener" target="_blank"><span class="pseudolink">aquí</span></a>.</span>',
+    'TEXT_CONDITIONS_DESCRIPTION' => '<span class="termsdescription">Por favor, acepte los términos y condiciones ligados a este pedido marcando la casilla. Puede leer los términos y condiciones <a href="' . zen_href_link(FILENAME_CONDITIONS) . '" rel="noopener" target="_blank"><span class="pseudolink">aquí</span></a>.</span>',
     'TEXT_CONDITIONS_CONFIRM' => '<span class="termsiagree">He leído y acepto los términos y condiciones ligados a este pedido.</span>',
     'TEXT_YOUR_TOTAL' => 'Total del pedido',
 ];

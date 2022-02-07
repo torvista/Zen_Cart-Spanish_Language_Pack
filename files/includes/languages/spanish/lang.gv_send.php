@@ -5,7 +5,7 @@ $define = [
     'HEADING_TITLE_COMPLETED' => TEXT_GV_NAME . ' enviado',
     'NAVBAR_TITLE' => 'Enviar ' . TEXT_GV_NAME,
     'EMAIL_SUBJECT' => 'Mensaje de ' . STORE_NAME,
-    'HEADING_TEXT' => 'Por favor, introduzca aquí debajo los detalles del ' . TEXT_GV_NAME . ' que desea enviar. Para más información, por favor, vea nuestro <a href="' . zen_href_link(FILENAME_GV_FAQ, '', 'NONSSL').'">' . GV_FAQ . '.</a>',
+    'HEADING_TEXT' => 'Por favor, introduzca aquí debajo los detalles del ' . TEXT_GV_NAME . ' que desea enviar. Para más información, por favor, vea nuestro <a href="' . zen_href_link(FILENAME_GV_FAQ).'">' . GV_FAQ . '.</a>',
     'ENTRY_MESSAGE' => 'Mensaje al destinatario:',
     'ENTRY_AMOUNT' => 'Cantidad para enviar',
     'ERROR_ENTRY_TO_NAME_CHECK' => 'No recibimos el nombre del destinatario. Por favor, introdúzcalo debajo. ',
