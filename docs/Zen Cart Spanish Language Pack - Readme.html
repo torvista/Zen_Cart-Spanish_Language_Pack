@@ -31,14 +31,11 @@ img {
 <body>
 <h1><span>Zen Cart Spanish (Spain) Language Pack for Zen Cart 1.58x</span></h1>
 <p><em>Provided for development purposes only.</em></p>
-<p><em>Complete and  consolidated with GitHub Zen Cart branch v158:</em></p>
-<p><em>Admin 21/01/2022<br>
-Storefront 16/06/2021.</em></p>
 <p>See <a href="changelog.txt" target="_blank">Changelog</a> for current status.</p>
 <p>GPL Licence<br>
 </p>
 <p>ZC158 has the language constants in arrays instead of being &quot;defined&quot;. So the vanilla ZC language texts can be overridden.</p>
-<p>This pack uses an additional file in /extra_definitions/lang.overrides_locale.php to override the following constants.</p>
+<p>This pack uses an additional file in /extra_definitions/lang.overrides_spain.php to override the following default constants.</p>
 <ul>
   <li>date format is dd/mm/yyyy (not mm/dd/yyyy)</li>
   <li>weight is kg (not lbs)</li>
@@ -52,19 +49,18 @@ Storefront 16/06/2021.</em></p>
 <p>You may add the files from this pack into your fileset before INITIAL installation of Zen Cart, in which case the installer may also be run in spanish.</p>
 <p>Or, you may add this pack subsequent to the installation: but in this case do NOT copy the /zc_install folder as this will be detected and block access to the admin until it is removed.</p>
 <h3>1) Prepare your development site.</h3>
-<p>As always, install/test/review/improve <strong>any and all </strong> modifications on your <strong>development</strong> site, NEVER on your production site.</p>
+<p>As always, install/test/review/improve <strong>any and all </strong> modifications on your <strong>development</strong> site, NEVER, EVER on your production site. You should consider your production site to be a backup for your development site!</p>
 <p>Only when you are satisfied that all is complete, <strong>copy</strong> those changes to the production site in one, fast operation.</p>
 <h4>a) The fileset is encoded in utf-8 as Zen Cart uses utf-8 encoding from v1.5 onwards.</h4>
 <p>If you have an older site that still uses latin-1/8859 for the database contents/connection and html page encoding  you should convert the database to utf-8. There are multiple threads on this subject in the Zen Cart forum.</p>
 <h4>b) Your template</h4>
-<p>If you do not have a customised template or have been modifying the &quot;classic&quot; template: <strong>STOP NOW</strong>, create your own template and restore the &quot;classic&quot; files to their original states.<br>
-  The &quot;classic&quot; template should be left untouched  to help investigate/isolate any problems you create/introduce into the code with your customised template files.</p>
+<p>If you do not have a customised template or have been modifying the &quot;template_default&quot;, &quot;classic&quot; or &quot;responsive_classic&quot; templates: <strong>STOP NOW</strong>. </p>
+<p>You MUST create your own template and leave the core templates in their original states to help investigate/isolate any problems you create/introduce into the code with your customised template files.</p>
 <h4>c) Backup your files and database</h4>
 <h4> If you have not installed the Backup MYSQL Plugin to provide easy database backups, I recommend you do it now, to be able to revert to a previous database rapridy and repeatedly, if necessary:<br>
   <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=7" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=7</a></h4>
 <h3>2) Copy the files into your Zen Cart</h3>
-<h4>a) Rename the &quot;ADMIN_NAME&quot; folder to match the name of your admin folder.<br>
-</h4>
+<h4>a) Rename the &quot;ADMIN_NAME&quot; folder to match the name of your admin folder.</h4>
 <h4>b) Copy all the folders under &quot;files&quot; into your shop folder.</h4>
 <h3>3) Register the Language in your Zen Cart</h3>
 <h4>Go into the Zen Cart Admin-&gt;Localization-&gt;Languages</h4>
@@ -75,9 +71,9 @@ Storefront 16/06/2021.</em></p>
   <strong>Sort Order:</strong> Optional. This determines the display order of the language selection drop-down in the admin menu and the display order of the flags  in the shop front.<br>
   <strong>Set as default:</strong> tick if you want the admin to display in spanish when you login.</p>
 <p>Click on &quot;Insert&quot;.</p>
-<p>If you get any warnings at this point: <strong>DO NOT IGNORE THEM! STOP, MAKE A NOTE OF THEM</strong>/<strong>take a screenshot</strong> and <strong><u>investigate the problem</u></strong>: Google is your friend here. Use the forum to find previously-answered questions or GitHub to report a problem specific to this language pack.</p>
+<p>If you get any warnings at this point: <strong>DO NOT IGNORE THEM! STOP, MAKE A NOTE OF THEM</strong>/<strong>take a screenshot</strong> and <strong><u>investigate the problem</u></strong>: Google is your friend here. Use the forum to find previously-answered questions or GitHub to report a problem specific to this language pack, <strong>NOW</strong>.</p>
 <p>At the moment of &quot;Insert&quot;, all the existing database data in english (category/product names/descriptions, order status) are duplicated (not translated) to their new corresponding spanish fields.</p>
-<p>Note that the &quot;spanish&quot; product/category data fields may then be exported (using <a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2091" target="_blank">DBIO</a> for example) for a more efficient bulk translation/prepare a  spanish file for import to overwrite/update the spanish fields.</p>
+<p>Note that the &quot;spanish&quot; product/category data fields may then be exported (using <a href="https://www.zen-cart.com/downloads.php?do=file&id=2069" target="_blank">Easypopulate</a> or <a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2091" target="_blank">DBIO</a>) for a more efficient bulk translation/to prepare a  spanish file for import to update the spanish fields.</p>
 <h3>4) Review the installation</h3>
 <h4>a) Check the Admin menus</h4>
 <p><strong>Configuración/Configuration options (constants)</strong></p>
