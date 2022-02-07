@@ -1,4 +1,4 @@
-<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
+<?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'TEXT_COUNT_CUSTOMERS' => 'Clientes recibiendo la notificaciÃ³n sobre producto(s): %s',
+    'TEXT_COUNT_CUSTOMERS' => 'Clientes recibiendo la notificación sobre producto(s): %s',
     'TEXT_PRODUCTS' => 'Productos',
     'TEXT_SELECTED_PRODUCTS' => 'Productos Seleccionados',
     'JS_PLEASE_SELECT_PRODUCTS' => 'Seleccione algunos productos.',

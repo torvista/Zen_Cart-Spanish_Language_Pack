@@ -1,4 +1,4 @@
-<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
+<?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -11,8 +11,8 @@
 $define = [
     'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X',
     'ARIA_PAGINATION_' => '',
-    'ARIA_PAGINATION_CURRENT_PAGE' => 'Página Actual',
     'ARIA_PAGINATION_CURRENTLY_ON' => ', actualmente en la página %s',
+    'ARIA_PAGINATION_CURRENT_PAGE' => 'Página Actual',
     'ARIA_PAGINATION_ELLIPSIS_NEXT' => 'Cargar el grupo siguiente de páginas',
     'ARIA_PAGINATION_ELLIPSIS_PREVIOUS' => 'Cargar el grupo previos de páginas',
     'ARIA_PAGINATION_GOTO' => 'Ir a ',
@@ -402,10 +402,10 @@ $define = [
     'TABLE_HEADING_NEWSLETTERS' => 'Boletines',
     'TABLE_HEADING_NUMBER' => 'ID#',
     'TABLE_HEADING_NO' => 'No',
-    'TABLE_HEADING_OPT_NAME' => 'Nombre de Opción',
+    'TABLE_HEADING_OPTION_NAME' => 'Nombre de Opción',
     'TABLE_HEADING_OPTION_PRICE' => 'Precio',
     'TABLE_HEADING_OPTION_PRICE_PREFIX' => 'Prefijo',
-    'TABLE_HEADING_OPT_VALUE' => 'Valor de Opción',
+    'TABLE_HEADING_OPTION_VALUE' => 'Valor de Opción',
     'TABLE_HEADING_OPTION_NAME_MAX' => 'Max',
     'TABLE_HEADING_OPTION_NAME_SIZE' => 'Tamaño',
     'TABLE_HEADING_OPTION_SORT_ORDER' => 'Orden',

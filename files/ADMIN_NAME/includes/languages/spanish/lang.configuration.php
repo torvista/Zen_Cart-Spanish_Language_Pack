@@ -1,4 +1,4 @@
-<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
+<?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /** spanish: added overrides for page titles from group name constants
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
