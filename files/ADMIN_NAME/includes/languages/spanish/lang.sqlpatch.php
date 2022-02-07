@@ -9,13 +9,13 @@
 $define = [
     'HEADING_TITLE' => 'Ejecutor de Consultas SQL',
     'HEADING_WARNING' => 'ASEGÚRESE DE HACER UNA COPIA DE SEGURIDAD VERIFICADA DE SU BASE DE DATOS ANTES DE EJECUTAR SCRIPTS AQUÍ',
-    'HEADING_WARNING2' => 'Si está instalando una contribución de terceros => tenga en cuenta que lo hace bajo su propia responsabilidad.<br>Zen Cart&reg; no ofrece ninguna garantía sobre la seguridad de los scripts suministrados por terceros.<br>¡SIEMPRE compruebe cualquier modificación de código php o a la base de datos en una COPIA de su tienda => NUNCA en la tienda real!',
+    'HEADING_WARNING2' => 'Si está instalando una contribución de terceros, tenga en cuenta que lo hace bajo su propia responsabilidad.<br>Zen Cart&reg; no ofrece ninguna garantía sobre la seguridad de los scripts suministrados por terceros.<br>¡SIEMPRE compruebe cualquier modificación de código php o a la base de datos en una COPIA de su tienda,  NUNCA en la tienda real!',
     'HEADING_WARNING_INSTALLSCRIPTS' => 'AVISO: No debe ejecutar scripts para actualizar la base de datos Zen Cart a una nueva versión desde esta página.<br>Suba la carpeta <strong>zc_install</strong> actual al servidor y ejecute la actualización desde esa ubicación.',
     'TEXT_QUERY_RESULTS' => 'Resultados de la consulta:',
     'TEXT_ENTER_QUERY_STRING' => 'Escriba la consulta <br>a ser ejecutada:&nbsp;&nbsp;<br><br>Asegúrese de<br>terminar cada línea con ";".',
     'TEXT_QUERY_FILENAME' => 'Cargar archivo de texto SQL:',
     'ERROR_NOTHING_TO_DO' => 'Error: Nada que hacer - no se especificó una consulta o archivo de consulta.',
-    'SQLPATCH_HELP_TEXT' => 'La herramienta SQLPATCH le permite instalar parches del sistema pegando código SQL directamente en la zona de texto '.
+    'SQLPATCH_HELP_TEXT' => 'La herramienta SQLPATCH le permite instalar parches del sistema pegando código SQL directamente en la zona de texto ',
     'REASON_TABLE_ALREADY_EXISTS' => 'No se puede crear la tabla %s porque ya existe',
     'REASON_TABLE_DOESNT_EXIST' => 'No se puede borrar la tabla %s porque no existe.',
     'REASON_TABLE_NOT_FOUND' => 'No se puede ejecutar porque la tabla %s no existe.',
