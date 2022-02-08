@@ -51,7 +51,7 @@ define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES', 'El precio total (no el incremento)
 define('TEXT_PRODUCT_IS_PRICED_BY_ATTRIBUTE', 'Sí');
 define('TEXT_PRODUCT_NOT_PRICED_BY_ATTRIBUTE', 'No');
 define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_PREVIEW', '*El precio mostrado se incluirá el precio más bajo del grupo de atributos más el precio base.');
-define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT', 'El precio mostrado se incluirá el precio más bajo del grupo de atributos más el precio base.);
+define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT', 'El precio mostrado se incluirá el precio más bajo del grupo de atributos más el precio base.');
 
 define('TEXT_PRODUCTS_TAX_CLASS', 'Clase de Impuesto:');
 
