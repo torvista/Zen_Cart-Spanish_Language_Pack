@@ -60,7 +60,7 @@ $define = [
     'TEXT_SELECT_DELETE_OPTION_VALUES_FROM' => 'Valor de Opción a coincidir:',
     'ERROR_OPTION_VALUES_DELETE_MISMATCH' => 'Error: Nombre de Opción y Valor de Opción no concordantes seleccionados',
     'SUCCESS_OPTION_VALUES_DELETE' => 'Exitosa borradura de: ',
-    'LABEL_FILTER' => 'Seleccione Valor de Opción para filtrar',
+    'LABEL_FILTER' => 'Seleccione Nombre de Opción para filtrar sus Valores',
     'TEXT_DISPLAY_NUMBER_OF_OPTION_VALUES' => 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> Valores de Opciones)',
     'TEXT_SHOW_ALL' => 'Mostrar Todo',
 ];
