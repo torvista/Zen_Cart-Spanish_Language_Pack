@@ -35,14 +35,16 @@ img {
 <p>GPL Licence<br>
 </p>
 <p>In Zen Cart 158  all the language constants were moved from a list of &quot;defines&quot; into arrays to prevent php errors being triggered by constants being overriden/redefined.</p>
-<p>This language pack is identical to the US english version but uses an additional file in /extra_definitions/lang.overrides_spain.php to override the following default constants.</p>
+<p>This language pack is identical to the US english version but uses two additional files to override the US english/default constants</p>
 <ul>
-  <li>date format is changed from mm/dd/yyyy -&gt; dd/mm/yyyy</li>
+  <li>date format and texts indicating date formats are changed from mm/dd/yyyy  -&gt; dd/mm/yyyy</li>
   <li>weight is changed from lbs to kg</li>
-  <li>default currency is changed from USD to EUR</li>
-  <li>all uses of &quot;invoice&quot; are translated as &quot;pedido&quot; instead of &quot;factura&quot;. 
-  In Spain a &quot;factura&quot; must contain a tax id for it to be legally called a factura/invoice. Since there is no provision for a customer tax id in core Zen Cart, the &quot;invoice&quot; cannot be legally called a &quot;factura&quot; and so any document is just a record of an order (&quot;pedido&quot;).</li>
-</ul>
+<li>language currency is changed from USD to EUR</li></ul>
+  
+<p><strong>Admin:</strong> uses ADMIN_FOLDER/includes/languages/extra_definitions/lang.overrides_locale_spain.php</p>
+<p><strong>Shopfront:</strong> uses /includes/languages/TEMPLATE_NAME/lang.spanish.php</p>
+<p>In addition all uses of &quot;invoice&quot; are translated as &quot;pedido&quot; instead of &quot;factura&quot;. 
+    In Spain a &quot;factura&quot; must contain a tax id for it to be legally called a factura/invoice. Since there is no provision for a customer tax id in core Zen Cart, the &quot;invoice&quot; cannot be legally called a &quot;factura&quot; and so any document is just a record of an order (&quot;pedido&quot;).</p>
 <p><strong> Support Thread - Zen Cart forum</strong>: <a href="https://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">https://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
 <p><strong>Github: <a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">https://github.com/torvista/Zen_Cart-Spanish_Language_Pack</a></strong></p>
 <h2>Installation</h2>
@@ -59,9 +61,12 @@ img {
 <h4>c) Backup your files and database</h4>
 <h4> If you have not installed the Backup MYSQL Plugin to provide easy database backups, I recommend you do it now, to be able to revert to a previous database rapridy and repeatedly, if necessary:<br>
   <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=7" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=7</a></h4>
-<h3>2) Copy the language pack files into your Zen Cart</h3>
-<h4>a) Rename the &quot;ADMIN_NAME&quot; folder to match the name of your admin folder.</h4>
-<h4>b) Copy all the folders under &quot;files&quot; into your shop folder. No file should overwrite existing files. You may also optionally copy the /docs folder for future reference.</h4>
+<h3>2) Put the language pack files into your Zen Cart</h3>
+<h4>a) First, Rename folders</h4>
+<p>Rename &quot;<strong>ADMIN_NAME</strong>&quot; folder to match the name of your admin folder.</p>
+<p> Rename/includes/languages/<strong>TEMPLATE_NAME</strong>/lang.spanish.php to match your template name.</p>
+<h4>b) Copy all the folders under &quot;files&quot; into your shop folder.</h4>
+<p>No file should overwrite existing files. You may also optionally copy the /docs folder for future reference.</p>
 <h3>3) Register the Language in your Zen Cart</h3>
 <h4>Go into the Zen Cart Admin-&gt;Localization-&gt;Languages</h4>
 <p>Click on &quot;new language&quot; and fill in the fields:</p>
@@ -107,17 +112,19 @@ img {
   So this <strong>is</strong> normal:<br>
   <img src="catalog_ez_pages_menu.gif" width="356" height="73" alt="Zen Cart EZ Pages Menu"></p>
 <p>If you find anything incorrectly/unclearly translated, please report your observations on Github or in the forum. It is better to improve the language pack than make changes only in your shop. Some texts do not translate well from the sometimes overly-enthusistic US english, so <strong>we</strong> need to improve them (not just me).</p>
+<h3>5) Change the default texts</h3>
 <p>To customise the texts for your specific business, <strong>DO NOT MODIFY THE ORIGINAL LANGUAGE FILE</strong>: make an override file containing the constant you wish to redefine. <a href="https://docs.zen-cart.com/user/new_user_topics/overrides/" target="_blank">What are overrides</a>?</p>
 <p>If for some technical reason (i.e. it doesn't work anywhere else) you want to add a constant in an original file, use $define += as shown below.</p>
 <pre>$define['MODULE_PAYMENT_MONEYORDER_TEXT_CONFIRMATION']&#32;=&#32;'%%MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION%%'&#32;.&#32;MODULE_PAYMENT_MONEYORDER_TEXT_ACCOUNTS;<br><br>//extra shop-specific consnta<br>$define&#32;+=&#32;[<br>'MODULE_PAYMENT_MONEYORDER_ICON_IMG'&#32;=&gt;&#32;'src="images/modules/payment/bank_icon.gif"&#32;width="250"&#32;height="30"',&#32;//icon&#32;for&#32;payment&#32;method<br>'MODULE_PAYMENT_MONEYORDER_ICON_ALT'&#32;=&gt;&#32;'show me the money',&#32;//for&#32;icon<br>'MODULE_PAYMENT_MONEYORDER_ICON_TITLE'&#32;=&gt;&#32;'%%MODULE_PAYMENT_MONEYORDER_ICON_ALT%%',&#32;//for&#32;icon<br>];<br><br>return&#32;$define;</pre>
 <p>Also note the re-use of an embedded constant, defined by the double %%: '%%MODULE_PAYMENT_MONEYORDER_ICON_ALT%%'.</p>
 <p>If the embedded constant is defined in the Admin (i.e. it is stored in the database), you may use it directly in the text: 'my store is called ' . STORE_NAME.</p>
-<h3>5) Copy to the Production shop</h3>
-<p>When you 100% sure you have opened every page on the admin, and made an order and checked the history, used coupons/gift card etc. you may proceed to copy the files to your production shop and repeat the step 3).</p>
+<p>If the embedded constant was defined in a language file, escape it with the double %% inside the single quotes as per the example.</p>
+<h3>6) Copy to the Production shop</h3>
+<p>When you 100% sure you have opened every page on the admin, and made an order and checked the history, used coupons/gift card etc. you may proceed to copy the files to your production shop and repeat <strong> step 3)</strong>.</p>
 <p>Note that the order status titles (Admin-&gt;Localization-&gt;Order Status) will need to be manually translated in addition to all products and categories.</p>
 <h2>Problems</h2>
 <h3>PHP warnings</h3>
-<p>From PHP 7.2 onwards, warnings are raised for missing constants or duplicated constants. These need to be fixed.</p>
+<p>From PHP 7.2 onwards, warnings are raised for missing constants or duplicated constants. You need to fix these...as you do ALL errors/warnings/notices that php helpfully points out.</p>
 <p>If the debug error occurs only with the spanish files, please report it in <a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">GitHub for this language pack</a>.</p>
 <p>If the debug error occurs with the english files too, report it in the <a href="https://github.com/zencart/zencart/issues" target="_blank">Zen Cart Github</a>.</p>
 <h3>Characters with accents displaying corrupted</h3>
@@ -127,7 +134,7 @@ img {
 <p>In spanish.php, the two versions of this files contain these lines:</p>
 <pre>$locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');</pre>
 <p>This is a list of locales (if you don't know what that means, look it up). The values you can use depend on <strong>what locales are installed on the server</strong> where the shop is hosted (local or remote).</p>
-<p>Probably the values that are in there already will be fine for both a Windows/*nix hosting since if the server does not have the first one in the list, it uses the next...</p>
+<p>Probably the values that are in there already will be fine for both a Windows and *nix hosting since if the server does not have the first one in the list, it uses the next...</p>
 <p>If you want to know what locales your server supports, there is a script to check them:</p>
 <p><a href="https://github.com/torvista/Zen_Cart-Test_Server_Locales" target="_blank">https://github.com/torvista/Zen_Cart-Test_Server_Locales</a></p>
 <h3>Untranslated Text/Mistakes/Improvements</h3>

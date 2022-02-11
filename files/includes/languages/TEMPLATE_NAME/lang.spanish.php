@@ -2,6 +2,7 @@
 $locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
 @setlocale(LC_TIME, $locales);
 $define = [
+/*
     'ARIA_DELETE_ITEM_FROM_CART' => 'Borrar este artículo del carro',
     'ARIA_EDIT_QTY_IN_CART' => 'Editar cantidad en el carro',
     'ARIA_PAGINATION_' => '',
@@ -82,10 +83,12 @@ $define = [
     'CATEGORY_COMPANY' => 'Datos de la Empresa',
     'CATEGORY_PERSONAL' => 'Datos Personales',
     'CHARSET' => 'utf-8',
-    'DATE_FORMAT' => 'm/d/Y',
-    'DATE_FORMAT_LONG' => '%A %d %B, %Y',
-    'DB_ERROR_NOT_CONNECTED' => 'Error - No se ha podido conectar con la base de datos',
-    'DOB_FORMAT_STRING' => 'mm/dd/yyyy',
+*/
+    'DATE_FORMAT' => 'd/m/Y',
+//  'DATE_FORMAT_LONG' => '%A %d %B, %Y',
+//  'DB_ERROR_NOT_CONNECTED' => 'Error - No se ha podido conectar con la base de datos',
+    'DOB_FORMAT_STRING' => 'dd/mm/yyyy',
+/*
     'DOWNLOADS_CONTROLLER_ON_HOLD_MSG' => 'NOTA: Las descargas no están disponibles hasta que el pago haya sido verificado',
     'EMAIL_SEND_FAILED' => 'ERROR: No se ha podido enviar el email a : "%s" <%s> con sujeto: "%s"',
     'EMPTY_CART_TEXT_NO_QUOTE' => '¡Lo siento! Ha excedido el tiempo de su sesión ... Por favor, actualice su carro para obtener el presupuesto de envío ...',
@@ -103,8 +106,10 @@ $define = [
     'ENTRY_CUSTOMERS_REFERRAL' => 'Código de Referencia:',
     'ENTRY_DATE_FROM' => 'Desde Fecha:',
     'ENTRY_DATE_OF_BIRTH' => 'Fecha de nacimiento:',
-    'ENTRY_DATE_OF_BIRTH_ERROR' => 'La fecha de nacimiento debe tener el formato: MM/DD/YYYY (ej. 05/21/1970) o YYYY-MM-DD (ej 1970-05-21)',
-    'ENTRY_DATE_OF_BIRTH_TEXT' => '* (ej. 05/21/1970 o 1970-05-21)',
+*/
+    'ENTRY_DATE_OF_BIRTH_ERROR' => 'La fecha de nacimiento debe tener el formato:DD/MM/YYYY (ej. 21/05/1970) o YYYY-MM-DD (ej 1970-05-21)',
+    'ENTRY_DATE_OF_BIRTH_TEXT' => '* (ej. 21/05/1970 o 1970-05-21)',
+/*
     'ENTRY_DATE_TO' => 'Hasta Fecha:',
     'ENTRY_EMAIL' => 'Email:',
     'ENTRY_EMAIL_ADDRESS' => 'Email:',
@@ -213,7 +218,7 @@ $define = [
     'HEADING_DELIVERY_ADDRESS' => 'Dirección Envío',
     'HEADING_DOWNLOAD' => 'Para bajar los archivos, haga click en el botón de Descarga y elija "Guardar en el disco" del menú.',
     'HEADING_ORDER_DATE' => 'Fecha Pedido:',
-    'HEADING_ORDER_HISTORY' => 'Estados del Pedido',
+    'HEADING_ORDER_HISTORY' => 'Comentarios y Historial Estatus',
     'HEADING_ORDER_NUMBER' => 'Pedido #%s',
     'HEADING_PAYMENT_METHOD' => 'Método de Pago',
     'HEADING_PRODUCTS' => 'Productos',
@@ -233,14 +238,16 @@ $define = [
     'ICON_SUCCESS_ALT' => 'éxito',
     'ICON_TINYCART_ALT' => 'añadir ',
     'ICON_TRASH_ALT' => 'eliminar',
-    'ICON_UPDATE_ALT' => 'Actualizar',
+    'ICON_UPDATE_ALT' => 'actualizar',
     'ICON_WARNING_ALT' => 'precaución',
     'JS_ERROR' => 'Ha ocurrido un error durante el procesamiento del formulario.\n\nPor favor, realice las siguientes correcciones:\n\n',
     'JS_ERROR_NO_PAYMENT_MODULE_SELECTED' => '* Por favor seleccione un método de pago para su pedido.',
     'JS_ERROR_SUBMITTED' => 'Este formulario ya ha sido enviado. Por favor, presione OK y espere a que se procese el proceso.',
     'JS_REVIEW_RATING' => '* Debe valorar el producto.',
     'JS_REVIEW_TEXT' => '* El \'texto del comentario\' debe tener al menos ' . REVIEW_TEXT_MIN_LENGTH . ' caracteres.',
-    'LANGUAGE_CURRENCY' => 'USD',
+*/
+    'LANGUAGE_CURRENCY' => 'EUR',
+/*
     'MALE' => 'Sr.',
     'META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT' => '¡Es gratis!',
     'MORE_INFO_TEXT' => '... más info',
@@ -485,7 +492,9 @@ $define = [
     'TEXT_PRODUCT_OPTIONS' => 'Elija: ',
     'TEXT_PRODUCT_QUANTITY' => ' Unidades en Stock',
     'TEXT_PRODUCT_WEIGHT' => 'Peso del Envío: ',
-    'TEXT_PRODUCT_WEIGHT_UNIT' => ' lbs',
+*/
+    'TEXT_PRODUCT_WEIGHT_UNIT' => ' kg',
+/*
     'TEXT_REMOVE_REDEEM_COUPON_ZONE' => 'El Cupón "%s" no es válido para la dirección elegida.',
     'TEXT_RESULT_PAGE' => '',
     'TEXT_REVIEW_BY' => 'por %s',
@@ -494,7 +503,9 @@ $define = [
     'TEXT_SEARCH_HELP_LINK' => 'Ayuda Búsqueda [?]',
     'TEXT_SEARCH_IN_DESCRIPTION' => 'Buscar en las Descripciones de los Productos',
     'TEXT_SHIPPING_BOXES' => 'Cajas',
-    'TEXT_SHIPPING_WEIGHT' => ' lbs',
+*/
+    'TEXT_SHIPPING_WEIGHT' => ' kg',
+/*
     'TEXT_SHOWCASE_ONLY' => 'Contáctenos',
     'TEXT_SORT_PRODUCTS' => 'Ordenar productos ',
     'TEXT_TOTAL_AMOUNT' => '&nbsp;&nbsp;Cantidad: ',
@@ -509,8 +520,10 @@ $define = [
     'WARNING_NO_FILE_UPLOADED' => 'Advertencia: no se subió el fichero.',
     'WARNING_PRODUCT_QUANTITY_ADJUSTED' => 'La cantidad ha sido ajustada al nivel de stock disponible. ',
     'WARNING_SHOPPING_CART_COMBINED' => 'AVISO: Para su comodidad, en el carro permanecen los productos añadidos en su última visita. Por favor, revise su carro antes de finalizar la sesión.',
+*/
 ];
 
+/*
 // Definitions that require references to other definitions
     $define['ATTRIBUTES_QTY_PRICE_SYMBOL'] = zen_image(DIR_WS_TEMPLATE_ICONS . 'icon_status_green.gif', $define['TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK'], 10, 10) . '&nbsp;';
     $define['BOX_HEADING_GIFT_VOUCHER'] = $define['TEXT_GV_NAME'] . ' Cuenta';
@@ -530,4 +543,5 @@ $define = [
     $define['TEXT_SEND_OR_SPEND'] = 'Tiene un saldo positivo en su cuenta ' . $define['TEXT_GV_NAME'] . ' cuenta. Puede gastarlo o enviárselo a otro usuario. Para enviarlo, haga un click en el botón abajo.';
     $define['VOUCHER_BALANCE'] = ' Saldo ' . $define['TEXT_GV_NAME'];
 
+*/
 return $define;
