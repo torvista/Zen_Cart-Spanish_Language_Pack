@@ -142,7 +142,7 @@ $define = [
     'CATEGORY_OPTIONS' => 'Opciones',
     'CATEGORY_PERSONAL' => 'Personal',
     'CHARSET' => 'utf-8',
-    'CONFIGURATION_MENU_ENTRIES_TO_SORT_BY_NAME' => '1', 
+    'CONFIGURATION_MENU_ENTRIES_TO_SORT_BY_NAME' => '1',
     'CONNECTION_TYPE_UNKNOWN' => '\'%s\' no es un tipo de conexión válido para generar URLs' . PHP_EOL . '%s' . PHP_EOL,
     'DATE_FORMAT' => 'm/d/Y',
     'DATE_FORMAT_DATE_PICKER' => 'yy-mm-dd',
@@ -498,7 +498,7 @@ $define = [
     'TEXT_DISPLAY_NUMBER_OF_SPECIALS' => 'Mostrando del <b>%d</b> al <b>%d</b> (de <b>%d</b> Productos en Oferta)',
     'TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES' => 'Mostrando del <b>%d</b> al <b>%d</b> (de <b>%d</b> Clases de Impuesto)',
     'TEXT_DISPLAY_NUMBER_OF_TAX_RATES' => 'Mostrando del <b>%d</b> al <b>%d</b> (de <b>%d</b> Tasas de Impuestos)',
-    'TEXT_DISPLAY_NUMBER_OF_TAX_ZONES' => 'Mostrando del <b>%d</b> al <b>%d</b> (de <b>%d</b> Zonas de Impuestos)',
+    'TEXT_DISPLAY_NUMBER_OF_GEO_ZONES' => 'Mostrando del <b>%d</b> al <b>%d</b> (de <b>%d</b> Definiciones de Zonas)',
     'TEXT_DISPLAY_NUMBER_OF_TEMPLATES' => 'Mostrando del <b>%d</b> al <b>%d</b> (de <b>%d</b> Asociaciones de Plantillas)',
     'TEXT_DISPLAY_NUMBER_OF_ZONES' => 'Mostrando <b>%d</b> (de <b>%d</b> Zonas)',
     'TEXT_DOCS_HELP' => 'Documentación Zen Cart',
@@ -651,5 +651,5 @@ $define = [
     '_NOVEMBER' => 'Noviembre',
     '_OCTOBER' => 'Octubre',
     '_SEPTEMBER' => 'Septiembre',
-]; 
+];
 return $define;
