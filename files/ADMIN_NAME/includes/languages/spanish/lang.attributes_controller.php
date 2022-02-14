@@ -24,7 +24,7 @@ $define = [
     'TABLE_HEADING_ATTRIBUTES_PRICE_LETTERS_FREE' => '- Letras Gratis:',
     'TABLE_HEADING_DOWNLOAD' => 'Productos descargables:',
     'TABLE_TEXT_FILENAME' => 'Nombre Fichero:',
-    'TABLE_TEXT_MAX_DAYS' => 'Caducidad de la descarga (0 = sin limitación):',//steve colon moved
+    'TABLE_TEXT_MAX_DAYS' => 'Caducidad de la descarga (0 = sin limitación):',
     'TABLE_TEXT_MAX_COUNT' => 'Cantidad máxima de descargas:',
     'TABLE_HEADING_PRICE_TOTAL' => 'Total|Desc: Unavez:',
     'TEXT_WARNING_OF_DELETE' => 'Esta opción tiene productos y valores vinculados a ella; no es seguro eliminarla.',
@@ -41,7 +41,7 @@ $define = [
     'TEXT_ATTRIBUTES_FLAGS' => 'Atributos:',
     'TEXT_ATTRIBUTES_DISPLAY_ONLY' => 'Mostrar texto sólo<br>no es una elección:',
     'TEXT_ATTRIBUTES_IS_FREE' => 'Atributo gratis<br>cuando el producto es gratis:',
-    'TEXT_ATTRIBUTES_DEFAULT' => 'Atributo por defecto<br>marcado como seleccionado:',
+    'TEXT_ATTRIBUTES_DEFAULT' => 'Atributo por defecto<br>marcado pre-seleccionado:',
     'TEXT_ATTRIBUTE_IS_DISCOUNTED' => 'Aplicar los mismos descuentos<br>usados por el producto:',
     'TEXT_ATTRIBUTES_REQUIRED' => 'Atributo Requerido<br>para Texto:',
     'LEGEND_BOX' => 'Leyenda:',

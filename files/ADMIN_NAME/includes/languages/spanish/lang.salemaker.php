@@ -20,8 +20,8 @@ $define = [
     'TEXT_SALEMAKER_POPUP' => '<a href="javascript:session_win(,"><span class="errorText"><b>Pulse aquí para Consejos de Liquidación.</b></span></a>',
     'TEXT_SALEMAKER_ENTIRE_CATALOG' => 'Marque esta casilla si desea que el descuento sea aplicado a <b>todos los productos</b>:',
     'TEXT_SALEMAKER_TOP' => 'Catálogo entero',
-    'TEXT_INFO_DATE_STATUS_CHANGE' => 'Último cambio de estado:',
-    'TEXT_INFO_SPECIALS_CONDITION' => 'Condición de oferta:',
+    'TEXT_INFO_DATE_STATUS_CHANGE' => 'Último Cambio de Estado:',
+    'TEXT_INFO_SPECIALS_CONDITION' => 'Criteria de Oferta:',
     'TEXT_INFO_DEDUCTION' => 'Rebaja:',
     'TEXT_INFO_PRICERANGE_FROM' => 'Rango de precios:',
     'TEXT_INFO_PRICERANGE_TO' => ' hasta ',
@@ -34,7 +34,7 @@ $define = [
     'TEXT_INFO_COPY_INTRO' => 'Introduzca un nombre para la copia de <br>&nbsp;&nbsp;"%s"',
     'TEXT_INFO_HEADING_DELETE_SALE' => 'Eliminar rebaja',
     'TEXT_INFO_DELETE_INTRO' => '¿Seguro que desea eliminar permanentemente esta rebaja?',
-    'TEXT_MORE_INFO' => '(Más Información)',
+    'TEXT_MORE_INFO' => '(Más Info.)',
     'TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES' => '&nbsp;Aviso: %s rebaja(s) ya incluye(n) esta categoría',
 ];
 

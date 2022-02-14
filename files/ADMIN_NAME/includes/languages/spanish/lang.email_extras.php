@@ -37,7 +37,7 @@ $define = [
     'TEXT_EMAIL_SUBJECT_ADMIN_USER_CHANGED' => 'Admin Aviso: Los datos de un usuario han sido cambiados.',
     'TEXT_EMAIL_ALERT_ADM_EMAIL_CHANGED' => 'Admin Aviso: el email del usuario (%s) ha sido cambiado de (%s) a (%s) por (%s)',
     'TEXT_EMAIL_ALERT_ADM_NAME_CHANGED' => 'Admin Aviso: el nombre de usuario de (%s) ha sido cambiado de (%s) a (%s) por (%s)',
-'TEXT_EMAIL_ALERT_ADM_PROFILE_CHANGED' => 'Admin Aviso: El perfil de seguridad del usuario (%s) ha sido cambiado de (%s) a (%s) por (%s)',
+    'TEXT_EMAIL_ALERT_ADM_PROFILE_CHANGED' => 'Admin Aviso: El perfil de seguridad del usuario (%s) ha sido cambiado de (%s) a (%s) por (%s)',
 ];
 
 return $define;

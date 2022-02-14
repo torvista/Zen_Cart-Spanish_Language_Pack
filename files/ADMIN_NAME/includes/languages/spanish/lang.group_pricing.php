@@ -8,7 +8,6 @@
 
 $define = [
     'HEADING_TITLE' => 'Precios para Grupos',
-    'TABLE_HEADING_GROUP_ID' => 'ID',
     'TABLE_HEADING_GROUP_NAME' => 'Nombre de Grupo',
     'TABLE_HEADING_GROUP_AMOUNT' => '% Descuento',
     'TEXT_HEADING_NEW_PRICING_GROUP' => 'Nuevo precio de Grupo',

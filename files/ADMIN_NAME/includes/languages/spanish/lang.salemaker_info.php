@@ -11,18 +11,18 @@ $define = [
     'SUBHEADING_TITLE' => 'Consejos:',
     'INFO_TEXT' => '<ul>
                       <li>
-                        Use siempre un \'.\' como decimal en rebajas y rangos de precio.
+                        Use siempre un punto \'.\' como decimal en Deducción y Rango de precio.
                       </li>
                       <li>
                         Ingrese las cantidades en la misma moneda que usaría al crear/editar un producto.
                       </li>
                       <li>
-                        En las celdas de Rebajas puede ingresar una cantidad o un porcentaje a deducir,
+                        En los campos de Deducciones puede ingresar una cantidad o un porcentaje a deducir,
                         o un precio de remplazo. (ej: rebajar $5.00 de todos los precios => rebajar 10% de
                         todos los precios o cambiar todos los precios a $25.00)
                       </li>
                       <li>
-                        Al ingresar un rango de precio se limita el rango de productos que será afectado. (ej.
+                        Un rango de precio se limita el rango de productos que será afectado. (ej.
                         productos desde $50.00 a $150.00)
                       </li>
                       <li>
@@ -31,7 +31,7 @@ $define = [
                           <li>
                             <strong>Ignorar Precios de Oferta: Aplicar al Precio del Producto y Reemplazar la Oferta</strong><br>
 							La rebaja será aplicada al precio normal del producto.
-                            (ej: el precio regular es $10.00 => el precio de oferta es $9.50 => la condición de rebaja es del 10%.
+                            (ej: el precio normal es $10.00 => el precio de oferta es $9.50 => la condición de rebaja es del 10%.
 							El precio final del producto será $9.00 en la rebaja. Los pecios de Oferta son ignorados.)
                           </li>
                           <li>
