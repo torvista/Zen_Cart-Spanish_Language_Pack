@@ -1,6 +1,6 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 $define = [
-    'NAVBAR_TITLE_1' => 'Pago',
+    'NAVBAR_TITLE_1' => 'Comprar - Completado',
     'NAVBAR_TITLE_2' => 'Completado - Gracias',
     'HEADING_TITLE' => '¡Muchas gracias por su confianza!',
     'TEXT_SUCCESS' => '',
