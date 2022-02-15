@@ -1,5 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+declare(strict_types=1);
+>>>>>>> Stashed changes
 =======
 declare(strict_types=1);
 >>>>>>> Stashed changes
