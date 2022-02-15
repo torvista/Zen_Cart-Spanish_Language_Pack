@@ -1,12 +1,5 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 declare(strict_types=1);
->>>>>>> Stashed changes
-=======
-declare(strict_types=1);
->>>>>>> Stashed changes
 $locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
 @setlocale(LC_TIME, $locales);
 $define = [
