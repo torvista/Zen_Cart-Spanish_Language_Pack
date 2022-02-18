@@ -26,8 +26,8 @@ $define = [
     'SEND_EXTRA_CREATE_ACCOUNT_EMAILS_TO_SUBJECT' => '[CREAR CUENTA]',
     'SEND_EXTRA_GV_CUSTOMER_EMAILS_TO_SUBJECT' => '[TARJETAS REGALO]',
     'SEND_EXTRA_NEW_ORDERS_EMAILS_TO_SUBJECT' => '[NUEVO PEDIDO]',
-    'EMAIL_TEXT_SUBJECT_LOWSTOCK' => 'Atención: stock bajo',
-    'SEND_EXTRA_LOW_STOCK_EMAIL_TITLE' => 'Aviso de stock bajo: ',
+    'EMAIL_TEXT_SUBJECT_LOWSTOCK' => 'Aviso: stock bajo',
+    'SEND_EXTRA_LOW_STOCK_EMAIL_TITLE' => 'Informe del stock bajo: ',
 ];
 
 return $define;

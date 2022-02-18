@@ -4,7 +4,6 @@ $define = [
     'NAVBAR_TITLE_2' => 'Confirmación del Pedido',
     'HEADING_TITLE' => 'Paso 3 de 3 - Confirmación del Pedido',
     'HEADING_PRODUCTS' => 'Contenido del Carro',
-    'HEADING_ORDER_COMMENTS' => 'Instrucciones Especiales',
     'NO_COMMENTS_TEXT' => 'Ninguno',
     'TITLE_CONTINUE_CHECKOUT_PROCEDURE' => '<strong>Paso Final</strong>',
     'TEXT_CONTINUE_CHECKOUT_PROCEDURE' => '- continúe para confirmar su pedido. ¡Gracias!',
