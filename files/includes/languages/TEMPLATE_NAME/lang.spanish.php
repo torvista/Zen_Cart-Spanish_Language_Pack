@@ -1,4 +1,5 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
+declare(strict_types=1);
 $locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
 @setlocale(LC_TIME, $locales);
 $define = [
@@ -330,7 +331,6 @@ $define = [
     'TABLE_HEADING_ADDRESS_DETAILS' => 'Dirección',
     'TABLE_HEADING_BUY_NOW' => 'Comprar Ahora',
     'TABLE_HEADING_BYTE_SIZE' => 'Tamaño del archivo',
-    'TABLE_HEADING_COMMENTS' => 'Instrucciones Especiales/Comentario del Pedido',
     'TABLE_HEADING_CREDIT_PAYMENT' => 'Créditos Disponibles',
     'TABLE_HEADING_DATE_EXPECTED' => 'Fecha de Espera',
     'TABLE_HEADING_DATE_OF_BIRTH' => 'Confirma su edad',
@@ -362,6 +362,7 @@ $define = [
     'TEXT_ALL_CATEGORIES' => 'Todas la Categorías',
     'TEXT_ALL_MANUFACTURERS' => 'Todos los Fabricantes',
     'TEXT_ALSO_PURCHASED_PRODUCTS' => 'Los clientes que compraron este producto, también compraron...',
+    'TEXT_APPROVAL_REQUIRED' => '<strong>NOTA:</strong>&nbsp;Los comentarios requieren de aprobación previa a su publicación.',
     'TEXT_ASCENDINGLY' => 'en sentido ascendente',
     'TEXT_ATTRIBUTES_PRICE_WAS' => ' [era: ',
     'TEXT_ATTRIBUTES_QTY_PRICES_HELP' => 'Opción Descuentos al por Mayor',
@@ -384,7 +385,6 @@ $define = [
     'TEXT_CHARGES_LETTERS' => 'Cargo Calculado:',
     'TEXT_CHARGES_WORD' => 'Cargo Calculado:',
     'TEXT_CLICK_TO_ENLARGE' => 'imagen mayor',
-    'TEXT_CLOSE_WINDOW' => 'Cerrar Ventana [x]',
     'TEXT_CLOSE_WINDOW_IMAGE' => ' - Pinche Imagen para Cerrar',
     'TEXT_COUPON_GV_RESTRICTION_ZONES' => 'Se aplican restricciones por la Dirección de Envío.',
     'TEXT_COUPON_HELP_DATE' => 'Este cupón es válido entre %s y %s',

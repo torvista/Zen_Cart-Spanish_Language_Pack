@@ -356,6 +356,7 @@ $define = [
     'TEXT_ALL_CATEGORIES' => 'Todas la Categorías',
     'TEXT_ALL_MANUFACTURERS' => 'Todos los Fabricantes',
     'TEXT_ALSO_PURCHASED_PRODUCTS' => 'Los clientes que compraron este producto, también compraron...',
+    'TEXT_APPROVAL_REQUIRED' => '<strong>NOTA:</strong>&nbsp;Los comentarios requieren de aprobación previa a su publicación.',
     'TEXT_ASCENDINGLY' => 'en sentido ascendente',
     'TEXT_ATTRIBUTES_PRICE_WAS' => ' [era: ',
     'TEXT_ATTRIBUTES_QTY_PRICES_HELP' => 'Opción Descuentos al por Mayor',

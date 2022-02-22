@@ -6,7 +6,6 @@ $define = [
     'SUB_TITLE_RATING' => 'Calificación (entre 1-5 estrellas)',
     'TEXT_NO_HTML' => '<strong>NOTA:</strong> Las etiquetas HTML no están permitidas.',
     'TEXT_BAD' => 'El Peor',
-    'TEXT_APPROVAL_REQUIRED' => '<strong>NOTA:</strong>&nbsp;Los comentarios requieren de aprobación previa a su publicación.',
     'EMAIL_REVIEW_PENDING_SUBJECT' => 'Comentario pendiente de aprobación: %s',
     'EMAIL_PRODUCT_REVIEW_CONTENT_INTRO' => 'Se ha introducido un comentario para %s y se requiere tu aprobación.'."\n\n",
     'EMAIL_PRODUCT_REVIEW_CONTENT_DETAILS' => 'Detalles del comentario: %s',
