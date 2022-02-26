@@ -1,4 +1,4 @@
-<?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
+<?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
  * @copyright Copyright 2003-2020 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -7,7 +7,9 @@
 */
 
 $define = [
-    'TEXT_COUNT_CUSTOMERS' => 'Clientes recibiendo la notificaci髇 sobre producto(s): %s',
+    'TEXT_COUNT_CUSTOMERS' => 'Clientes recibiendo la notificaci贸n sobre producto(s): %s',
+    'TEXT_NOTIFICATION_INFO_GLOBAL' => 'Bot贸n <b>%%BUTTON_GLOBAL%%</b>: la notificaci贸n %s se programar谩 para enviarse a los clientes que elijan recibir notificaciones <strong>globales</strong> de productos .</p>',
+    'TEXT_NOTIFICATION_INFO_PRODUCTS' => '<p>Opcionalmente, al seleccionar unos productos y <b>%%BUTTON_SUBMIT%%</b>, la notificaci贸n <b>tambi茅n</b> se enviar谩 a los clientes que optaron por recibir notificaciones espec铆ficos de estos productos.</p>',
     'TEXT_PRODUCTS' => 'Productos',
     'TEXT_SELECTED_PRODUCTS' => 'Productos Seleccionados',
     'JS_PLEASE_SELECT_PRODUCTS' => 'Seleccione algunos productos.',

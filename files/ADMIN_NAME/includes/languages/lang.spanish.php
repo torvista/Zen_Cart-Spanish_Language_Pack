@@ -623,7 +623,7 @@ $define = [
     'WARNING_COULD_NOT_LOCATE_LANG_FILE' => 'AVISO:  No podía localizar un archivo de idioma: ',
     'WARNING_DATABASE_VERSION_OUT_OF_DATE' => 'Su base de datos parece necesitar ser actualizada a una versión superior. Mire Herramientas->' . '%%BOX_TOOLS_SERVER_INFO%%' . ' para revisar la versión.',
     'WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT' => 'Aviso: La carpeta para productos descargables (' . DIR_FS_DOWNLOAD . ') no existe. No funcionarán los productos descargables hasta que esta carpeta existe.',
-    'WARNING_EMAIL_SYSTEM_DEVELOPER_EMAIL' => 'AVISO: TODOS los emails se enviarán a %s (definido en el constant "DEVELOPER_OVERRIDE_EMAIL_ADDRESS").',
+    'WARNING_EMAIL_SYSTEM_DEVELOPER_EMAIL' => 'AVISO: TODOS los emails se enviarán a %1$s (definido en el constant "DEVELOPER_OVERRIDE_EMAIL_ADDRESS") utilizando EMAIL_TRANSPORT=%2$s.',
     'WARNING_EMAIL_SYSTEM_DEVELOPER_OVERRIDE' => 'AVISO: el envío de los emails ha sido deshabilitado debido que el constant "DEVELOPER_OVERRIDE_EMAIL_STATUS" está puesto a “false".',
     'WARNING_EMAIL_SYSTEM_DISABLED' => 'AVISO: El envío de los emails está deshabilitado. Puede habilitarlo en Admin->Configuración->Opciones de Email.',
     'WARNING_FILE_UPLOADS_DISABLED' => 'Advertencia: Subir ficheros está deshabilitado en el fichero de configuración php.ini.',
