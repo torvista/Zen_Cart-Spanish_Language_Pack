@@ -530,8 +530,8 @@ define('ARIA_PAGINATION_','');
   define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE', 'Precio - bajo a alto');
   define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Precio - alto a bajo');
   define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Modelo');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Fecha Añadida - Nueva a antigua');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Mostrar la predeterminada');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Fecha Añadida - Nueva a Antigua');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Fecha Añadida - Antigua a Nueva');
 
 // downloads module defines
   define('TABLE_HEADING_DOWNLOAD_DATE', 'Enlace Caduca');
