@@ -380,6 +380,7 @@ $define = [
     'PRODUCTS_ATTRIBUTES_DELETE' => 'BORRANDO',
     'PRODUCTS_ATTRIBUTES_EDITING' => 'EDITANDO',
     'RESET_ADMIN_ACTIVITY_LOG' => 'Puede ver y archivar los detalles del Actividad Admin a través del menú de Gestión de Acceso Admin->Archivos de Actividad Admin, si tiene el permiso apropiado.',
+    'STORE_HOME' => 'Ruta Tienda:', 
     'SUCCESS_CATEGORY_MOVED' => '¡Éxito! La categoría ha sido trasladada ...',
     'SUCCESS_FILE_SAVED_SUCCESSFULLY' => 'Listo: El fichero subido se guardó correctamente %s',
     'SUCCESS_PRODUCT_UPDATE_SORT' => 'El orden de los atributos ha sido actualizado correctamente para Producto ID# ',
