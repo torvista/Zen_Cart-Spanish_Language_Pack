@@ -18,6 +18,7 @@ $define = [
     'TABLE_HEADING_PAYMENT_METHOD' => 'Pago-Envío',
     'TABLE_HEADING_ORDERS_ID' => 'ID',
     'TEXT_BILLING_SHIPPING_MISMATCH' => 'La dirección de facturación y del envío no coinciden ',
+    'TABLE_HEADING_ZONE_INFO' => 'Zona',
     'TABLE_HEADING_ORDER_TOTAL' => 'Valor',
     'TABLE_HEADING_DATE_PURCHASED' => 'Fecha',
     'TABLE_HEADING_TYPE' => 'Tipo de Pedido',
