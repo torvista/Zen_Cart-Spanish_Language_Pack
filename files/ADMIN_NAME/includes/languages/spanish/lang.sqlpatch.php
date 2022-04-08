@@ -8,9 +8,9 @@
 
 $define = [
     'HEADING_TITLE' => 'Ejecutor de Consultas SQL',
-    'HEADING_WARNING' => 'ASEGÚRESE DE HACER UNA COPIA DE SEGURIDAD VERIFICADA DE SU BASE DE DATOS ANTES DE EJECUTAR SCRIPTS AQUÍ',
-    'HEADING_WARNING2' => 'Si está instalando una contribución de terceros, tenga en cuenta que lo hace bajo su propia responsabilidad.<br>Zen Cart&reg; no ofrece ninguna garantía sobre la seguridad de los scripts suministrados por terceros.<br>¡SIEMPRE compruebe cualquier modificación de código php o a la base de datos en una COPIA de su tienda,  NUNCA en la tienda real!',
-    'HEADING_WARNING_INSTALLSCRIPTS' => 'AVISO: No debe ejecutar scripts para actualizar la base de datos Zen Cart a una nueva versión desde esta página.<br>Suba la carpeta <strong>zc_install</strong> actual al servidor y ejecute la actualización desde esa ubicación.',
+    'HEADING_INFO' => 'El Ejecutor de Consultas SQL le permite ejecutar consultas SQL directamente en la base de datos pegando un script en el área de texto o cargando un archivo de texto que contiene el script. Está pensado para la instalación manual de Plugins y sus propias correcciones/adiciones.',
+    'HEADING_WARNING_INSTALLSCRIPTS' => 'Esta herramienta <b>NO</b> debe usarse para ejecutar las actualizaciones de Zen Cart: use el instalador de Zen Cart según la documentación.',
+    'HEADING_WARNING' => '<p>ANTES de realizar CUALQUIER operación de base de datos con esta herramienta, asegúrese de tener una copia de seguridad VERIFICADA de su base de datos y de saber cómo restaurarla.<br>Si está instalando Plugins/modificaciones de terceros, tenga en cuenta que lo hace bajo su propio riesgo. Zen Cart&reg; no garantiza la seguridad de los scripts proporcionados por terceros.</p><p>¡Pruebe siempre cada script en un servidor de DESARROLLO antes de usarlo en su tienda en producción!</p>',
     'TEXT_QUERY_RESULTS' => 'Resultados de la consulta:',
     'TEXT_ENTER_QUERY_STRING' => 'Escriba la consulta <br>a ser ejecutada:&nbsp;&nbsp;<br><br>Asegúrese de<br>terminar cada línea con ";".',
     'TEXT_QUERY_FILENAME' => 'Cargar archivo de texto SQL:',
