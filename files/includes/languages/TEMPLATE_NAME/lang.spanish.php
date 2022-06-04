@@ -1,5 +1,5 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
-declare(strict_types=1);
+//overrides for dd/mm/yyyy, kg, EUR
 $locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
 @setlocale(LC_TIME, $locales);
 $define = [
@@ -75,8 +75,8 @@ $define = [
     'CART_SHIPPING_METHOD_TEXT' => 'Métodos de Envío disponibles:',
     'CART_SHIPPING_METHOD_TO' => 'Enviar a: ',
     'CART_SHIPPING_METHOD_ZIP_REQUIRED' => 'true',
-    'CART_SHIPPING_OPTIONS' => 'Estimación de los Gastos del Envío:',
-    'CART_SHIPPING_QUOTE_CRITERIA' => 'El precio de los portes depende del código postal elegido:',
+    'CART_SHIPPING_OPTIONS' => 'Gastos del Envío:',
+    'CART_SHIPPING_QUOTE_CRITERIA' => 'El coste del envío depende de la direccion de entrega:',
     'CATEGORIES_BOX_HEADING_FEATURED_PRODUCTS' => 'Productos Destacados...',
     'CATEGORIES_BOX_HEADING_PRODUCTS_ALL' => 'Todos los Productos...',
     'CATEGORIES_BOX_HEADING_SPECIALS' => 'Ofertas...',
@@ -91,7 +91,6 @@ $define = [
     'DOB_FORMAT_STRING' => 'dd/mm/yyyy',
 /*
     'DOWNLOADS_CONTROLLER_ON_HOLD_MSG' => 'NOTA: Las descargas no están disponibles hasta que el pago haya sido verificado',
-    'EMAIL_SALUTATION' => 'Estimado/a',
     'EMAIL_SEND_FAILED' => 'ERROR: No se ha podido enviar el email a : "%s" <%s> con sujeto: "%s"',
     'EMPTY_CART_TEXT_NO_QUOTE' => '¡Lo siento! Ha excedido el tiempo de su sesión ... Por favor, actualice su carro para obtener el presupuesto de envío ...',
     'EMP_SHOPPING_FOR_MESSAGE' => 'Actualmente utilizando la cuenta de %1$s (%2$s).',
@@ -211,7 +210,7 @@ $define = [
     'ERROR_TO_DATE_LESS_THAN_FROM_DATE' => 'Fecha Hasta debe ser igual o más tarde que Fecha Desde.',
     'FAILED_TO_ADD_UNAVAILABLE_PRODUCTS' => 'Los productos seleccionados no están disponible actualmente...',
     'FEMALE' => 'Sra.',
-    'FOOTER_TEXT_BODY' => 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. <a href="https://www.zen-cart.com" rel="noopener noreferrer" target="_blank">E-comercio Zen Cart</a>',
+    'FOOTER_TEXT_BODY' => 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. <a href="https://www.zen-cart.com" rel="noopener noreferrer" target="_blank">Ecomercio Zen Cart</a>',
     'FORM_REQUIRED_INFORMATION' => '* Información obligatoria',
     'FREE_SHIPPING_DESCRIPTION' => 'Envío Gratis para pedidos de más de %s',
     'HEADING_ADDRESS_INFORMATION' => 'Dirección',
@@ -359,7 +358,7 @@ $define = [
     'TABLE_HEADING_TOTAL' => 'Total',
     'TABLE_HEADING_UPCOMING_PRODUCTS' => 'Próximos Productos',
     'TABLE_HEADING_WEIGHT' => 'Peso',
-    'TEXT_ADMIN_DOWN_FOR_MAINTENANCE' => 'AVISO: Esta página web no está operativa por razones de mantenimiento',
+    'TEXT_ADMIN_DOWN_FOR_MAINTENANCE' => 'AVISO: La tienda no está disponible por razones de mantenimiento',
     'TEXT_ALL_CATEGORIES' => 'Todas la Categorías',
     'TEXT_ALL_MANUFACTURERS' => 'Todos los Fabricantes',
     'TEXT_ALSO_PURCHASED_PRODUCTS' => 'Los clientes que compraron este producto, también compraron...',
