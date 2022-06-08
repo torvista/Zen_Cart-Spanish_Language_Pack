@@ -94,6 +94,8 @@ $define = [
     'TEXT_MAP_BILLING_ADDRESS' => 'Localizar Dirección Facturación',
     'TEXT_EMAIL_LANGUAGE' => 'Idioma Pedido: %s',
     'SUCCESS_EMAIL_SENT' => 'Email %1$s enviado al cliente.',
+    'WARNING_PAYMENT_MODULE_DOESNT_EXIST' => "El módulo de pago (%s) de este pedido ya no existe.",
+    'WARNING_PAYMENT_MODULE_NOTIFICATIONS_DISABLED' => 'La configuración del módulo de pago (%s) del pedido  ha cambiado. No se pueden realizar devoluciones, autorizaciones, capturas o anulaciones para este pedido.',
 ];
 
 return $define;
