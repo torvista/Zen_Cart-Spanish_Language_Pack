@@ -12,7 +12,6 @@ $define = [
     'TEXT_HEADING_ADD_GROUP' => 'Añadir Grupo',
     'TEXT_HEADING_EDIT_GROUP' => 'Editar Grupo',
     'TEXT_HEADING_DELETE_GROUP' => 'Borrar Grupo',
-    'TEXT_INFORMATION' => 'Se puede crear grupos de clientes para asignar permisos especiales. Algunos módulos de pago permiten restricciones por grupo. Clientes pueden pertenecer a varias Grupos, aunque debería revisarlos ocasionalmente para no tener miembros redundantes.',
     'TEXT_NO_GROUPS_FOUND' => 'No hay ningún Grupo. Pinche en Insertar para crear uno.',
     'TEXT_NEW_INTRO' => 'Describe el Grupo nuevo',
     'TEXT_DELETE_INTRO' => '¿Está seguro que quiere borrar este Grupo?',

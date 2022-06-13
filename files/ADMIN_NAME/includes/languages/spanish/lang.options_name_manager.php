@@ -16,6 +16,7 @@ $define = [
     'TEXT_WARNING_DUPLICATE_OPTION_NAME' => 'ID Opción #%1$u: Nombre Opción duplicado añadido: "%2$s" (%3$s)',
     'TEXT_ORDER_BY' => 'Ordenar por',
     'TEXT_OPTION_NAME_COMMENTS' => 'Nota (mostrado al lado del Nombre de la Opción',
+    'TEXT_OPTION_NAME_COMMENTS_POSITION' => 'Posición del Comentario', 
     'TEXT_OPTION_ATTRIBUTE_IMAGES_PER_ROW' => 'Imágenes de atributos por cada fila: ',
     'TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE' => 'Estilo de imágenes de atributos (solamente para Checkbox/Radio Buttons',
     'TEXT_OPTION_ATTRIBUTE_LAYOUTS_EXAMPLE' => 'Ver Ejemplos',
