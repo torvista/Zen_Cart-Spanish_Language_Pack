@@ -39,6 +39,8 @@ Debe archivar esta información por si acaso es requerida en una investigación 
     'TEXT_EXPORTFILTER2' => 'NOTICE – Actividades para revisar de vez en cuando',
     'TEXT_EXPORTFILTER3' => 'WARNING – Actividades para revisar a diario',
     'TEXT_EXPORTFILTER4' => 'NOTICE + WARNING (la combinación más común para revisar).',
+    'TEXT_ACTIVITY_EXPORT_FILTER_USER' => 'Filtrar por Usuario:',
+	'TEXT_EXPORTFILTER_USER' => 'Elije Usuario',
     'TEXT_INTERPRETING_LOG_DATA' => '<p><strong>Interpretación de los datos</strong></p><ul>
 <li><strong>Severidad</strong> - Los estándares de historiales suelen definir los niveles de importancia así:
   <ul>
