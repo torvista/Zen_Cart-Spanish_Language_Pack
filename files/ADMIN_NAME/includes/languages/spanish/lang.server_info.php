@@ -30,6 +30,10 @@ $define = [
     'TITLE_DATABASE_MYSQL_MODE' => 'Modo MySQL:',
     'TITLE_DATABASE_MYSQL_SLOW_LOG_STATUS' => 'MySQL Slow Query Estatus Historial:',
     'TITLE_DATABASE_MYSQL_SLOW_LOG_FILE' => 'MySQL Slow Query Historial:',
+    'TEXT_DATABASE_VARIABLES_LINK' => '<a href="#db-h2">Ver los variables del base de datos</a>',
+    'TITLE_DATABASE_VARIABLES' => 'Variables del Base de Datos: ',
+    'HEADING_DATABASE_VARIABLE' => 'Nombre Variable',
+    'HEADING_DATABASE_VALUE' => 'Valor',
 ];
 
 return $define;
