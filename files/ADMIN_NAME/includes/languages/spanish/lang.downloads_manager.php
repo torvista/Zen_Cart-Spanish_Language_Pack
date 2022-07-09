@@ -11,6 +11,7 @@ $define = [
     'TABLE_HEADING_ATTRIBUTES_ID' => 'ID de Atributos',
     'TABLE_HEADING_PRODUCTS_ID' => 'ID de producto',
     'TABLE_TEXT_FILENAME' => 'Archivo',
+    'TABLE_TEXT_DATE' => 'Fecha',
     'TABLE_TEXT_MAX_DAYS' => 'Días',
     'TABLE_TEXT_MAX_COUNT' => 'Cuenta',
     'TEXT_PRODUCTS_NAME' => 'Producto: ',
