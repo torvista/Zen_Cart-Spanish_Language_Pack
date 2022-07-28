@@ -1,7 +1,13 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
-
+// -----
+// Since the languages are now loaded via classes, the $locales definition
+// needs to be globalized for use in payment-methods (e.g. paypalwpp) and
+// other processing.
+//
+global $locales;
 $locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
 @setlocale(LC_TIME, $locales);
+
 $define = [
     'ARIA_DELETE_ITEM_FROM_CART' => 'Borrar este artículo del carro',
     'ARIA_EDIT_QTY_IN_CART' => 'Editar cantidad en el carro',
@@ -73,7 +79,6 @@ $define = [
     'CART_SHIPPING_METHOD_RATES' => 'Tarifas:',
     'CART_SHIPPING_METHOD_TEXT' => 'Métodos de Envío disponibles:',
     'CART_SHIPPING_METHOD_TO' => 'Enviar a: ',
-    'CART_SHIPPING_METHOD_ZIP_REQUIRED' => 'true',
     'CART_SHIPPING_OPTIONS' => 'Gastos del Envío:',
     'CART_SHIPPING_QUOTE_CRITERIA' => 'El coste del envío depende de la direccion de entrega:',
     'CATEGORIES_BOX_HEADING_FEATURED_PRODUCTS' => 'Productos Destacados...',

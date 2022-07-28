@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id:
+ * @version $Id: lat9 2022 Jun 19 New in v1.5.8-alpha $
 */
 
 @setlocale(LC_TIME, ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es']);
@@ -637,7 +637,6 @@ $define = [
     'WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT' => 'Aviso: La carpeta para el cache SQL (' . DIR_FS_SQL_CACHE . ') no existe. No funcionarán el cache SQL hasta que esta carpeta existe.',
     'WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE' => 'Aviso: no se puede escribir en la carpeta ' . DIR_FS_SQL_CACHE . ' del cache SQL. No funcionarán el cache SQL hasta que los permisos del usuario están corregidos.',
     'WARNING_WELCOME_DISCOUNT_COUPON_EXPIRES_IN' => '¡AVISO! El email cupón de descuento de bienvenida caduca en %s días',
-    'WARN_DATABASE_VERSION_PROBLEM' => 'true',
     'WHOS_ONLINE_ACTIVE_NO_CART_TEXT' => 'Activo sin carro',
     'WHOS_ONLINE_ACTIVE_TEXT' => 'Carro activo',
     'WHOS_ONLINE_INACTIVE_NO_CART_TEXT' => 'Inactivo sin carro',

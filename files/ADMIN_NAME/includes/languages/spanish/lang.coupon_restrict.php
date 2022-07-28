@@ -1,16 +1,16 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id:
+ * @version $Id: Scott C Wilson 2022 Jan 09 New in v1.5.8-alpha $
 */
 
 $define = [
     'HEADING_TITLE' => 'Restricciones de los Cupones para Productos/Categorías',
     'HEADING_TITLE_CATEGORY' => 'Restricciones de Categorías',
     'HEADING_TITLE_PRODUCT' => 'Restricciones de Productos',
-    'SUB_HEADING_COUPON_NAME' => 'Restricciones para el Cupón &quot;%1$s&quot; [%2$u].',  //-%1$s = coupon-name => %2$u = coupon_id
+    'SUB_HEADING_COUPON_NAME' => 'Restricciones para el Cupón &quot;%1$s&quot; [%2$u].',  // %1$s = coupon-name, %2$u = coupon_id
     'TABLE_HEADING_CATEGORY_ID' => 'ID Categoría',
     'TABLE_HEADING_CATEGORY_NAME' => 'Nombre Categoría',
     'TABLE_HEADING_PRODUCT_ID' => 'ID de Producto',
@@ -18,7 +18,6 @@ $define = [
     'TABLE_HEADING_RESTRICT_REMOVE' => 'Eliminar',
     'IMAGE_REMOVE' => 'Eliminar esta Restricción',
     'TEXT_ALL_CATEGORIES' => 'Todas las Categorías',
-    'MAX_DISPLAY_RESTRICT_ENTRIES' => 20,
     'TEXT_ALL_PRODUCTS_ADD' => 'Añade Todos los Productos de la Categoría',
     'TEXT_ALL_PRODUCTS_REMOVE' => 'Quitar Todos los Productos de la Categoría',
     'TEXT_INFO_ADD_DENY_ALL' => '<strong>Al Añadir Todos los Productos => solamente se añadirán los productos que no tengan actualmente ninguna restricción.<br>
