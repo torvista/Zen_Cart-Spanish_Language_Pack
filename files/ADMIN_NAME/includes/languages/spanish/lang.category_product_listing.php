@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id:
+ * @version $Id: Scott C Wilson 2022 Jan 09 New in v1.5.8-alpha $
 */
 
 $define = [
@@ -68,6 +68,17 @@ $define = [
     'WARNING_PRODUCTS_IN_TOP_INFO' => 'PRECAUCIÓN: Tiene Productos en la Categoría de Primer Nivel. Los precios no funcionarán correctamente en el catálogo. Productos encontrados: ',
     'TEXT_COPY_MEDIA_MANAGER' => '¿Copiar media?',
     'SUCCESS_ATTRIBUTES_DELETED' => 'Los atributos han sido borrados',
+    'TEXT_SORT_CATEGORIES_NAME_DESC' => 'Nombre (desc)',
+    'TEXT_SORT_CATEGORIES_ID' => 'ID Categoría',
+    'TEXT_SORT_CATEGORIES_ID_DESC' => 'ID Categoría (desc)',
+    'TEXT_SORT_CATEGORIES_STATUS' => 'Estatus (deshabilitado)',
+    'TEXT_SORT_CATEGORIES_STATUS_DESC' => 'Estatus (habilitado)',
+    'TEXT_SORT_PRODUCTS_MODEL_DESC' => 'Modelo (desc)',
+    'TEXT_SORT_PRODUCTS_STATUS' => 'Estatus (deshabilitado), Nombre',
+    'TEXT_SORT_PRODUCTS_STATUS_DESC' => 'Estatus (habilitado), Nombre',
+    'TEXT_SORT_PRODUCTS_ID' => 'ID Producto',
+    'TEXT_SORT_PRODUCTS_ID_DESC' => 'ID Producto (desc)',
+    'TEXT_SORT_PRODUCTS_WEIGHT' => 'Peso',
 ];
 
 return $define;
