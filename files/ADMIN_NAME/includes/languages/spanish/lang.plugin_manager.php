@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id:
+ * @version $Id: torvista 2022 Apr 17 New in v1.5.8-alpha $
 */
 
 $define = [
@@ -32,6 +32,7 @@ $define = [
     'TEXT_DISABLE_SUCCESS' => 'Plugin deshabilitado correctamente',
     'TEXT_ENABLE_SUCCESS' => 'Plugin habilitado correctamente',
     'TEXT_CLEANUP_SUCCESS' => 'Directorios borrados con éxito',
+    'TEXT_CLEANUP_ERROR' => 'Revise los permisos de los archivos. No se borráron algunos directorios',
     'TEXT_UPGRADE_AVAILABLE' => 'Actualización Disponible',
     'TEXT_VERSION_INSTALLED' => 'Versión Instalado: %s',
     'TEXT_CONFIRM_UNINSTALL' => '¿Está seguro que quiere desinstalar este Plugin?',
