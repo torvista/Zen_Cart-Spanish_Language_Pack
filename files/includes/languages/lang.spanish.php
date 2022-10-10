@@ -503,6 +503,7 @@ $define = [
     'TEXT_SHIPPING_WEIGHT' => ' lbs',
     'TEXT_SHOWCASE_ONLY' => 'Contáctenos',
     'TEXT_SORT_PRODUCTS' => 'Ordenar productos ',
+    'TEXT_TOP' => 'Inicio',
     'TEXT_TOTAL_AMOUNT' => '&nbsp;&nbsp;Cantidad: ',
     'TEXT_TOTAL_ITEMS' => 'Total de Artículos: ',
     'TEXT_TOTAL_WEIGHT' => '&nbsp;&nbsp;Peso: ',
