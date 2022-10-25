@@ -14,7 +14,7 @@ $define = [
     'TEXT_FILENAME' => 'Archivo: %1$s (%2$upx x %3$upx / %4$ukB)',
     'TEXT_EDIT_CATEGORIES_IMAGE' => 'Cambiar Imagen:',
     'TEXT_CATEGORIES_IMAGE_DIR' => 'Subir al directorio / Utilice una imagen existente en:<br>/images/<em>(subdirectory)</em>',
-    'TEXT_CATEGORIES_IMAGE_MANUAL' => 'O => seleccione una imagen de la carpeta seleccionada => nombre del archivo:',
+    'TEXT_CATEGORIES_IMAGE_MANUAL' => 'O, => seleccione una imagen de la carpeta seleccionada => nombre del archivo:',
     'TEXT_EDIT_SORT_ORDER' => 'Orden:',
     'TEXT_RESTRICT_PRODUCT_TYPE' => 'Restringir a un Product Type',
     'TEXT_CATEGORY_HAS_RESTRICTIONS' => 'Esta categoría ha sido restringida a estos Product Types',
