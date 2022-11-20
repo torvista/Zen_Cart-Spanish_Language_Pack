@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 $define = [
+    'EMAIL_LOGO_ALT_TITLE_TEXT' => 'Zen Cart! El Art de E-commerce',
     'EMAIL_LOGO_FILENAME' => 'header.jpg',
     'EMAIL_LOGO_WIDTH' => '550',
     'EMAIL_LOGO_HEIGHT' => '110',
-    'EMAIL_LOGO_ALT_TITLE_TEXT' => 'Zen Cart! El Art de E-commerce',
     'EMAIL_EXTRA_HEADER_INFO' => '',
     'OFFICE_FROM' => '<strong>De:</strong>',
     'OFFICE_EMAIL' => '<strong>Email:</strong>',

@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2020 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id:
+ * @version $Id: Scott C Wilson 2022 Jan 09 New in v1.5.8-alpha $
 */
 
 $define = [
@@ -60,7 +60,7 @@ $define = [
     'TEXT_SORT_PAGE_TITLE' => 'Título de la Página',
     'TEXT_SORT_PAGE_ID_TITLE' => 'ID de la Página => Título',
     'TEXT_PAGE_TITLE' => 'Título:',
-    'TEXT_WARNING_MULTIPLE_SETTINGS' => '<strong>AVISO: Enlaces Múltiples Definidos</strong>',
+    'TEXT_WARNING_MULTIPLE_SETTINGS' => 'AVISO: Enlaces Múltiples Definidos',
 ];
 
 return $define;

@@ -10,7 +10,7 @@ $define = [
     'HEADING_TITLE' => 'Restricciones de los Cupones para Productos/Categorías',
     'HEADING_TITLE_CATEGORY' => 'Restricciones de Categorías',
     'HEADING_TITLE_PRODUCT' => 'Restricciones de Productos',
-    'SUB_HEADING_COUPON_NAME' => 'Restricciones para el Cupón &quot;%1$s&quot; [%2$u].',  // %1$s = coupon-name, %2$u = coupon_id
+    'SUB_HEADING_COUPON_NAME' => 'Restricciones para el Cupón &quot;%1$s&quot; [%2$u].',
     'TABLE_HEADING_CATEGORY_ID' => 'ID Categoría',
     'TABLE_HEADING_CATEGORY_NAME' => 'Nombre Categoría',
     'TABLE_HEADING_PRODUCT_ID' => 'ID de Producto',
