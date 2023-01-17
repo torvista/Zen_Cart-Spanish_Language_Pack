@@ -4,14 +4,14 @@
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: Steve 2021 Apr 02 New in v1.5.8-alpha $
-*/
+ */
 
 
 $define = [
     'HEADING_TITLE' => 'Mostrar los Debug-logs',
-    'TABLE_HEADING_FILENAME' => 'Nombre Archivo',
-    'TABLE_HEADING_MODIFIED' => 'Fecha Modificado',
-    'TABLE_HEADING_FILESIZE' => 'Tamaño (bytes)',
+    'TABLE_HEADING_FILENAME' => 'Nombre',
+    'TABLE_HEADING_MODIFIED' => 'Fecha',
+    'TABLE_HEADING_FILESIZE' => 'Tamaño (b)',
     'TABLE_HEADING_DELETE' => '¿Borrar?',
     'TABLE_HEADING_ACTION' => 'Acción',
     'BUTTON_INVERT_SELECTED' => 'Invertir Seleccción',
@@ -26,7 +26,7 @@ $define = [
     'TEXT_OLDEST' => 'más antiguo',
     'TEXT_SMALLEST' => 'menor',
     'TEXT_LARGEST' => 'mayor',
-    'TEXT_INSTRUCTIONS' => '<br><br>Se puede ordenar los archivos pinchando en el título de una columna. Pinche en el icono %7s para ver el contenido del archivo. Solamente muestra los primeros %1$u bytes; si el tamaño del archivo es &quot;excesivo&quot;, destaca <em>Tamaño Archivo</em> como <span class="bigfile">este</span>.<br><br>Pinche el botón <strong>Borrar Todo</strong> para borrar todos los archivos actualmente a la vista; pinche <strong>Borrar Seleccionado(s)</strong> para borrar los archivos marcados.<br><br>Actualmente mostrando el %2$s %3$u de %4$u archivos con el prefijo <code>%5$s</code> y <b>no</b> los que coinciden con <code>%6$s</code>.<br>',
+    'TEXT_INSTRUCTIONS' => '<p>Los archivos se pueden ordenar en orden ascendente o descendente pinchando en los enlaces de las columnas <em>Asc</em> o <em>Desc</em>.</p> <p>Haga clic en el icono %7$s para ver el contenido del archivo asociado. Solo se leerán/mostrarán los primeros %1$u bytes del archivo seleccionado; si un archivo tiene &quot;un tamaño grande&quot;, su <em>Tamaño </em> se resaltará como <span class="bigfile">este</span>.</p><ul><li>< strong>Borrar Todos</strong> eliminará todos los archivos que se muestran actualmente.</li><li><strong>Borrar Seleccionados</strong> eliminará solo aquellos archivos con las casillas marcadas.</li><li><strong >Invertir Selección</strong> intercambiará casillas marcadas por no marcadas y viceversa. Por ejemplo, si desea eliminar todos los archivos excepto uno, marque la casilla del archivo que desea conservar, luego "Invertir Selección" y finalmente "Borrar Seleccionados".</li></ul><p>Actualmente mostrando %2$s %3$u de %4$u archivos que tienen estos prefijos:<br><code>%5$s</code><br>y<b>no</b> coinciden con los prefijos opcionales/definidos por el usuario: <code>%6$s</code>.</p>',
     'JS_MESSAGE_DELETE_ALL_CONFIRM' => '¿Está seguro que quiere borrar estos \'+n+\' archivos?',
     'JS_MESSAGE_DELETE_SELECTED_CONFIRM' => '¿Está seguro que quiere borrar los \'+selected+\' archivo(s) seleccionados?',
     'WARNING_NOT_SECURE' => '<span class="errorText">NOTA: SSL no habilitado. El contenido del archivo que visualiza en esta página no será encriptado y puede ser un riesgo de seguridad.</span>',
