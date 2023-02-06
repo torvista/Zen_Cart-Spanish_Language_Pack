@@ -1,6 +1,6 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 $define = [
-    'NAVBAR_TITLE_1' => 'Comprar - Paso 1',
+    'NAVBAR_TITLE_1' => 'Comprar - Paso 2',
     'NAVBAR_TITLE_2' => 'Opciones de Pago',
     'HEADING_TITLE' => 'Paso 2 de 3 - Opciones de Pago',
     'TEXT_SELECTED_BILLING_DESTINATION' => 'Su dirección de facturación se muestra a la izquierda. La dirección debe coincidir con la de la tarjeta de crédito. Puede cambiarla pulsando el botón <em>Cambiar Dirección</em>.',
