@@ -218,6 +218,7 @@ $define = [
     'ERROR_DESTINATION_DOES_NOT_EXIST' => 'Error: El destino no existe %s',
     'ERROR_DESTINATION_NOT_WRITEABLE' => 'Error: El destino no puede escribirse %s',
     'ERROR_DIRECTORY_NOT_REMOVEABLE' => 'Error: No se pudo borrar el directorio. Posiblemente tendrá que usar FTP debido a una limitación de permisos.',
+    'ERROR_EDITOR_NOT_FOUND' => 'El editor HTML seleccionado (%s) en \'Mi Tienda\' no está disponible. El editor predeterminado será de texto-solo hasta que actualice esa selección a un editor HTML disponible.',
     'ERROR_EDITORS_FOLDER_NOT_FOUND' => 'Tiene un editor HTML seleccionado en \'My Store\' pero no se localiza la carpeta \'/editors/\'. Desactive su elección o mueva los archivos del editor a \''.DIR_WS_CATALOG.'editors/\' folder',
     'ERROR_FILETYPE_NOT_ALLOWED' => 'Error: El tipo de fichero subido no está permitido %s. Mire &quot;Valores Máximos&quot;.',
     'ERROR_FILE_NOT_REMOVEABLE' => 'Error: No pudo borrar el archivo elegido. Es posible que se tiene que usar FTP para borrarlo debido a los permisos/atributos del archivo.',
