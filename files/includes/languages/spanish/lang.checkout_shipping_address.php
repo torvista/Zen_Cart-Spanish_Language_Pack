@@ -9,7 +9,7 @@ $define = [
     'TITLE_PLEASE_SELECT' => 'Por favor, elija',
     'TABLE_HEADING_NEW_SHIPPING_ADDRESS' => 'Nueva Dirección de Envío',
     'TEXT_CREATE_NEW_SHIPPING_ADDRESS' => 'Por favor, use el siguiente formulario para crear una nueva dirección de envío para usar en este pedido.',
-    'TITLE_CONTINUE_CHECKOUT_PROCEDURE' => '<strong>Continuar</strong>',
+    'TITLE_CONTINUE_CHECKOUT_PROCEDURE' => 'Continuar',
     'TEXT_CONTINUE_CHECKOUT_PROCEDURE' => '- a método de envío.',
 ];
 

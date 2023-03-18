@@ -8,7 +8,7 @@ $define = [
     'TITLE_PAYMENT_ADDRESS' => 'Dirección de Facturación',
     'TITLE_PLEASE_SELECT' => 'Cambiar la Dirección de Facturación para este pedido',
     'TABLE_HEADING_NEW_PAYMENT_ADDRESS' => '...o elija una de su Agenda de Direcciones',
-    'TITLE_CONTINUE_CHECKOUT_PROCEDURE' => '<strong>Continuar</strong>',
+    'TITLE_CONTINUE_CHECKOUT_PROCEDURE' => 'Continuar',
     'TEXT_CONTINUE_CHECKOUT_PROCEDURE' => '- a método de pago.',
 ];
 
