@@ -1,8 +1,8 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 $define = [
     'HEADER_TITLE_MY_ACCOUNT' => 'Mi Cuenta',
-    'HEADER_TITLE_CART_CONTENTS' => 'Carro de la compra',
-    'HEADER_TITLE_CHECKOUT' => 'Comprar',
+    'HEADER_TITLE_CART_CONTENTS' => 'Carro',
+    'HEADER_TITLE_CHECKOUT' => 'Pasar por Caja',
     'HEADER_TITLE_CATALOG' => 'Inicio',
     'HEADER_TITLE_LOGOFF' => 'Salir',
     'HEADER_TITLE_LOGIN' => 'Entrar/Registrarse',

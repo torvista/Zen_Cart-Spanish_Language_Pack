@@ -59,6 +59,7 @@ if (file_exists(dirname(__FILE__) . '/square_webPay.php') === false && file_exis
     $define = array_merge($define, $defineExtra);       
 }
 
+
 if (IS_ADMIN_FLAG === true) {
     $define['MODULE_PAYMENT_SQUARE_TEXT_NEED_ACCESS_TOKEN'] =
         '<span class="text-danger"><strong>ALERT: Access Token not set:</strong></span> <br>
