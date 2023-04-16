@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: brittainmark 2022 Jan 16 Modified in v1.5.8-alpha $
+ * @version $Id: mc12345678 2022 Dec 14 Modified in v1.5.8a $
  */
 
 return [
@@ -82,9 +82,6 @@ return [
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY_HELP_DEFAULT' => 'No se pudo renombrar la carpeta de los archivos Admin automáticamente. Tendrá que cambiar el nombre por defecto “admin” por un nombre difícil de adivinar antes de que pueda usar/entrar en la zona Admin.',
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY_HELP_NOT_ADMIN_CHANGED' => 'No se cambió el nombre de la carpeta de los archivos Admin dado que ya es distinto al nombre por defecto ("admin") ',
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY_HELP_CHANGED' => 'Es posible que el nombre de la carpeta de los archivos Admin haya sido cambiado automáticamente. El nombre actual/nuevo se muestra a continuación. Se puede cambiar el nombre a otro que no sea "admin" ',
-'TEXT_ADMIN_SETUP_NEWSLETTER_SETTINGS' => 'Boletines',
-'TEXT_ADMIN_SETUP_NEWSLETTER_EMAIL' => 'Email del Boletín: ',
-'TEXT_ADMIN_SETUP_NEWSLETTER_OPTIN' => 'Recibir: ',
 'TEXT_PAGE_HEADING_COMPLETION' => 'Se ha terminado la instalación.',
 'TEXT_COMPLETION_HEADER_MAIN' => '',
 'TEXT_COMPLETION_INSTALL_COMPLETE' => '',
@@ -125,7 +122,6 @@ return [
 'TEXT_NAVBAR_DATABASE_SETUP' => 'Ajustes de la Base de Datos',
 'TEXT_NAVBAR_ADMIN_SETUP' => 'Ajustes Admin',
 'TEXT_NAVBAR_COMPLETION' => 'Completado',
-'TEXT_NAVBAR_PAYMENT_PROVIDERS' => 'Proveedor de Servicios de Pago',
 'TEXT_INDEX_ALERTS' => 'Avisos',
 'TEXT_ERROR_PROBLEMS_WRITING_CONFIGUREPHP_FILES' => 'Hubo problemas en la preparación de los archivos configure.php. ¡LA INSTALACIÓN NO SE COMPLETÓ!.<br>Es posible que hayan archivos mostrando el problema en la carpeta /logs/.',
 'TEXT_ERROR_COULD_NOT_READ_CFGFILE_TEMPLATE' => 'No se pudo leer master config file layout: %s. Asegúrese de que el archivo existe y de que se puede leer.',

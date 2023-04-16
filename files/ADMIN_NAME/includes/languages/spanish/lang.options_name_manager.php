@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Gestor de Nombre de Opciones',
+    'HEADING_TITLE' => 'Nombres de Opciones',
     'TEXT_ATTRIBUTES_CONTROLLER' => 'Gestor de Atributos',
     'TEXT_WARNING_TEXT_OPTION_NAME_RESTORED' => 'Precaución: Faltaba el Valor de Opción de serie TEXT ID#0 de la tabla "' . TABLE_PRODUCTS_OPTIONS_VALUES . '". Es posible que había sido borrado por un Plugin por error.<br>Ha sido restaurado.',
     'TEXT_PRODUCT_OPTIONS_INFO' => '<strong>Nota: Editar el Nombre de Opción para parámetros adicionales</strong>',
@@ -16,7 +16,7 @@ $define = [
     'TEXT_WARNING_DUPLICATE_OPTION_NAME' => 'ID Opción #%1$u: Nombre Opción duplicado añadido: "%2$s" (%3$s)',
     'TEXT_ORDER_BY' => 'Ordenar por',
     'TEXT_OPTION_NAME_COMMENTS' => 'Nota (mostrado al lado del Nombre de la Opción',
-    'TEXT_OPTION_NAME_COMMENTS_POSITION' => 'Posición del Comentario', 
+    'TEXT_OPTION_NAME_COMMENTS_POSITION' => 'Posición del Comentario',
     'TEXT_OPTION_ATTRIBUTE_IMAGES_PER_ROW' => 'Imágenes de atributos por cada fila: ',
     'TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE' => 'Estilo de imágenes de atributos (solamente para Checkbox/Radio Buttons',
     'TEXT_OPTION_ATTRIBUTE_LAYOUTS_EXAMPLE' => 'Ver Ejemplos',
@@ -66,7 +66,7 @@ $define = [
     'TEXT_INFO_OPTION_VALUE_COPY_ALL' => 'Todos los Valores de la Opción seleccionada serán copiados/duplicados a otro Nombre de Opción.',
     'TEXT_SELECT_OPTION_FROM' => 'Copiar desde Nombre de Opción: ',
     'TEXT_SELECT_OPTION_TO' => 'Copiar al Nombre de Opción: ',
-    'SUCCESS_OPTION_VALUE_COPIED' => 'Valor de Opción "%6$s" ID#%5$u copiado del Nombre de Opción "%2$s" ID#%1$u al Nombre de Opción "%4$s" ID#%3$u.',
+    'SUCCESS_OPTION_VALUE_COPIED' => 'Valor de Opción "%6$s" ID#%5$s copiado del Nombre de Opción "%2$s" ID#%1$u al Nombre de Opción "%4$s" ID#%3$u.',
     'SUCCESS_OPTION_VALUES_COPIED' => '%5$u Valor(es) de Opción copiado(s) del Nombre de Opción "%2$s" ID#%1$u al Nombre de Opción "%4$s" ID#%3$u.',
     'ERROR_OPTION_VALUES_COPIED' => 'Error: ¡No se puede copiar Valores al mismo Nombre de Opción ("%2$s" ID#%1$u a "%4$s" ID#%3$u)!',
     'ERROR_OPTION_VALUES_NONE' => 'Error: Nombre de Opción "%2$s" ID#%1$u no tiene Valores definidos (no se copió nada)',

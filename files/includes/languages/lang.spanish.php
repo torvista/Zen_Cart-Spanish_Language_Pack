@@ -174,7 +174,7 @@ $define = [
     'ENTRY_TELEPHONE_NUMBER_TEXT' => '*',
     'ERROR_AT_LEAST_ONE_INPUT' => 'Hay que rellenar por lo menos un campo del formulario de búsqueda.',
     'ERROR_CART_UPDATE' => '<strong>Por favor, actualice su pedido.</strong> ',
-    'ERROR_CONDITIONS_NOT_ACCEPTED' => 'Por favor, confirme los Términos y Condiciones acerca de este pedido haciendo click en la casilla inferior.',
+    'ERROR_CONDITIONS_NOT_ACCEPTED' => 'Por favor, confirme los Términos y Condiciones acerca de este pedido haciendo click en la casilla.',
     'ERROR_CORRECTIONS_HEADING' => 'Por favor corrija lo siguiente: <br>',
     'ERROR_CUSTOMERS_ID_INVALID' => '¡Los datos del cliente no puede ser validada!<br>Por favor, conéctese o abra una nueva cuenta. ...',
     'ERROR_DATABASE_MAINTENANCE_NEEDED' => '<a href="https:docs.zen-cart.com/user/troubleshooting/error_71_maintenance_required/" rel="noopener" target="_blank">ERROR 0071: Parece que hay un problema con la base de datos.</a>',

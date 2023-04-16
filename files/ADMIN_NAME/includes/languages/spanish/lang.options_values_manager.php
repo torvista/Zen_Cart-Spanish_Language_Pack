@@ -14,7 +14,7 @@ $define = [
     'TABLE_TEXT_MAX_COUNT' => 'Nº máximo de descargas:',
     'TEXT_WARNING_OF_DELETE' => '<span class="alert">Esta opción tiene productos y valores enlazados - no es seguro borrarla.<br>NOTA: Una descarga asociada con esta Opción no será borrada del servidor.</span>',
     'TEXT_OK_TO_DELETE' => 'Esta opción no tiene productos enlazados - es seguro borrarla.',
-    'ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE' =>  'Posiblemente se añadió un valor de opción duplicado: "<b>%1$s</b>" %2$s para opción nombre "%3$s" (options values ids:%4$s)',
+    'ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE_SPECIFIC' =>  'Posiblemente se añadió un valor de opción duplicado: "<b>%1$s</b>" %2$s para opción nombre "%3$s" (options values ids:%4$s)',
     'TEXT_DOWNLOADS_DISABLED' => 'NOTA: Las descargas están desactivadas',
     'TABLE_TEXT_MAX_DAYS_SHORT' => 'Días:',
     'TABLE_TEXT_MAX_COUNT_SHORT' => 'Max:',
