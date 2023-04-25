@@ -1,7 +1,15 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
-//overrides for dd/mm/yyyy, kg, EUR
+// overrides for date format dd/mm/yyyy, kg, EUR
+// -----
+// Since the languages are now loaded via classes, the $locales definition
+// needs to be globalized for use in payment-methods (e.g. paypalwpp) and
+// other processing.
+//
+/*
+global $locales;
 $locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
 @setlocale(LC_TIME, $locales);
+*/
 $define = [
 /*
     'ARIA_DELETE_ITEM_FROM_CART' => 'Borrar este artículo del carro',
@@ -241,6 +249,8 @@ $define = [
     'ICON_TRASH_ALT' => 'eliminar',
     'ICON_UPDATE_ALT' => 'actualizar',
     'ICON_WARNING_ALT' => 'precaución',
+    'IMAGE_ALT_PREFIX' => '(imagen para)',
+    'IMAGE_ALT_TEXT_NO_TITLE' => 'imagen genérica',
     'JS_ERROR' => 'Ha ocurrido un error durante el procesamiento del formulario.\n\nPor favor, realice las siguientes correcciones:\n\n',
     'JS_ERROR_NO_PAYMENT_MODULE_SELECTED' => '* Por favor seleccione un método de pago para su pedido.',
     'JS_ERROR_SUBMITTED' => 'Este formulario ya ha sido enviado. Por favor, presione OK y espere a que se procese el proceso.',
@@ -508,6 +518,7 @@ $define = [
 /*
     'TEXT_SHOWCASE_ONLY' => 'Contáctenos',
     'TEXT_SORT_PRODUCTS' => 'Ordenar productos ',
+    'TEXT_TOP' => 'Inicio',
     'TEXT_TOTAL_AMOUNT' => '&nbsp;&nbsp;Cantidad: ',
     'TEXT_TOTAL_ITEMS' => 'Total de Artículos: ',
     'TEXT_TOTAL_WEIGHT' => '&nbsp;&nbsp;Peso: ',

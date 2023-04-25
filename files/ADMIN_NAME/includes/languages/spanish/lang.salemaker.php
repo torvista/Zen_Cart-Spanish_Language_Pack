@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Rebajas',
+    'HEADING_TITLE' => 'Salemaker (rebajas)',
     'TEXT_SALEMAKER_NAME' => 'Nombre de la rebaja:',
     'TEXT_SALEMAKER_DEDUCTION' => 'Rebaja:',
     'TEXT_SALEMAKER_DEDUCTION_TYPE' => '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tipo:&nbsp;&nbsp;',
@@ -17,7 +17,7 @@ $define = [
     'TEXT_SALEMAKER_DATE_START' => 'Fecha de Comienzo:',
     'TEXT_SALEMAKER_DATE_END' => 'Fecha de finalización:',
     'TEXT_SALEMAKER_CATEGORIES' => '<b>Ó</b> marque las categorías a las cuales aplicar este descuento:',
-    'TEXT_SALEMAKER_POPUP' => '<a href="javascript:session_win(,"><span class="errorText"><b>Pulse aquí para Consejos de Liquidación.</b></span></a>',
+    'TEXT_SALEMAKER_POPUP' => '<a href="javascript:session_win(,"><span class="errorText"><b>Pulse aquí para Ayuda con SaleMaker.</b></span></a>',
     'TEXT_SALEMAKER_ENTIRE_CATALOG' => 'Marque esta casilla si desea que el descuento sea aplicado a <b>todos los productos</b>:',
     'TEXT_SALEMAKER_TOP' => 'Catálogo entero',
     'TEXT_INFO_DATE_STATUS_CHANGE' => 'Último Cambio de Estado:',
