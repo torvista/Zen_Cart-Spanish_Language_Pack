@@ -68,6 +68,7 @@ return [
 'TEXT_LOADING_CHARSET_SPECIFIC' => 'Cargando datos del Conjunto de Caracteres Específicos',
 'TEXT_LOADING_DEMO_DATA' => 'Cargando Datos de Demostración',
 'TEXT_LOADING_PLUGIN_DATA' => 'Cargando SQL para los Plugins incluidos',
+'TEXT_LOADING_PLUGIN_UPGRADES' => 'Cargando SQL para actualizaciones de Plugins',
 'TEXT_COULD_NOT_UPDATE_BECAUSE_ANOTHER_VERSION_REQUIRED' => 'No se pudo actualizar la BB.DD a la versión %s. Se ha detectado que la versión actual es v%s, es imprescindible que antes se lleven a cabo actualizaciones para llegar a la %s.',
 'TEXT_PAGE_HEADING_ADMIN_SETUP' => 'Configuración Admin',
 'TEXT_ADMIN_SETUP_USER_SETTINGS' => 'Configuración Usuario Admin',
