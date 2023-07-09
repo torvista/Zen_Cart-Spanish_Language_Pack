@@ -1,4 +1,4 @@
-# Zen Cart - Spanish Language Pack for Zen Cart 1.5.8a (released 18/03/2023)
+# Zen Cart - Spanish Language Pack for Zen Cart 1.5.8b (currently in development)
 
 Complete fileset (Installer, Shopfront, Admin and example Plugin).
 
