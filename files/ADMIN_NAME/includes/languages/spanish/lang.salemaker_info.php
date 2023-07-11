@@ -27,12 +27,12 @@ $define = [
                       </li>
                       <li>
                         Debe elegir la acción a tomar si un producto es una oferta <i>y</i> está sujeto a esta liquidación:
-						<ul>
+                        <ul>
                           <li>
                             <strong>Ignorar Precios de Oferta: Aplicar al Precio del Producto y Reemplazar la Oferta</strong><br>
-							La rebaja será aplicada al precio normal del producto.
+                            La rebaja será aplicada al precio normal del producto.
                             (ej: el precio normal es $10.00 => el precio de oferta es $9.50 => la condición de rebaja es del 10%.
-							El precio final del producto será $9.00 en la rebaja. Los pecios de Oferta son ignorados.)
+                            El precio final del producto será $9.00 en la rebaja. Los pecios de Oferta son ignorados.)
                           </li>
                           <li>
                             <strong>Ignorar Condición de Rebaja: No Aplicar Rebaja Cuando Existan Ofertas</strong><br>

@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2022 Sep 30 Modified in v1.5.8 $
+ * @version $Id: Scott C Wilson 2023 Feb 16 Modified in v1.5.8a $
 */
 
 @setlocale(LC_TIME, ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es']);
@@ -571,7 +571,7 @@ $define = [
     'TEXT_PRODUCTS_MIX_ON' => '*Opciones Mezclados Sí',
     'TEXT_PRODUCTS_MODEL' => 'Modelo Producto:',
     'TEXT_PRODUCTS_STATUS_INFO_OFF' => '<span class="alert">*Producto está Deshabilitado</span>',
-    'TEXT_PRODUCT_POPUP_BUTTON' => '<i class="fa fa-commenting"></i>',
+    'TEXT_PRODUCT_POPUP_BUTTON' => '<i class="fa-solid fa-comment-dots"></i>',
     'TEXT_PRODUCT_POPUP_TITLE' => 'Productos Pedido',
     'TEXT_PRODUCT_TO_VIEW' => 'Seleccione un Producto para ver y presione mostrar ...',
     'TEXT_PRODUCT_WEIGHT_UNIT' => 'lbs',
