@@ -1,4 +1,4 @@
-# Zen Cart - Spanish Language Pack for Zen Cart 1.5.8b (currently in development)
+# Zen Cart - Spanish Language Pack for Zen Cart v2.0.0 (currently in development)
 
 Complete fileset (Installer, Shopfront, Admin and example Plugin).
 
