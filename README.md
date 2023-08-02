@@ -2,6 +2,6 @@
 
 Complete fileset (Installer, Shopfront, Admin and example Plugin).  
 Branch "main" = Zen Cart current (v158a).  
-Branch "v1.5b" - tracks the Zen Cart development branch v158.
+Branch "v200" - tracks the Zen Cart development branch v200.
 
 See the /docs/spanish_language_pack/index.html for installation and use.
