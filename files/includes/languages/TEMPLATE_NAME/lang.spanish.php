@@ -5,11 +5,10 @@
 // needs to be globalized for use in payment-methods (e.g. paypalwpp) and
 // other processing.
 //
-/*
 global $locales;
 $locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
 @setlocale(LC_TIME, $locales);
-*/
+
 $define = [
 /*
     'ARIA_DELETE_ITEM_FROM_CART' => 'Borrar este artículo del carro',
@@ -82,7 +81,6 @@ $define = [
     'CART_SHIPPING_METHOD_RATES' => 'Tarifas:',
     'CART_SHIPPING_METHOD_TEXT' => 'Métodos de Envío disponibles:',
     'CART_SHIPPING_METHOD_TO' => 'Enviar a: ',
-    'CART_SHIPPING_METHOD_ZIP_REQUIRED' => 'true',
     'CART_SHIPPING_OPTIONS' => 'Gastos del Envío:',
     'CART_SHIPPING_QUOTE_CRITERIA' => 'El coste del envío depende de la direccion de entrega:',
     'CATEGORIES_BOX_HEADING_FEATURED_PRODUCTS' => 'Productos Destacados...',
@@ -99,6 +97,7 @@ $define = [
     'DOB_FORMAT_STRING' => 'dd/mm/yyyy',
 /*
     'DOWNLOADS_CONTROLLER_ON_HOLD_MSG' => 'NOTA: Las descargas no están disponibles hasta que el pago haya sido verificado',
+    'EMAIL_SALUTATION' => 'Estimado/a',
     'EMAIL_SEND_FAILED' => 'ERROR: No se ha podido enviar el email a : "%s" <%s> con sujeto: "%s"',
     'EMPTY_CART_TEXT_NO_QUOTE' => '¡Lo siento! Ha excedido el tiempo de su sesión ... Por favor, actualice su carro para obtener el presupuesto de envío ...',
     'EMP_SHOPPING_FOR_MESSAGE' => 'Actualmente utilizando la cuenta de %1$s (%2$s).',
@@ -249,8 +248,6 @@ $define = [
     'ICON_TRASH_ALT' => 'eliminar',
     'ICON_UPDATE_ALT' => 'actualizar',
     'ICON_WARNING_ALT' => 'precaución',
-    'IMAGE_ALT_PREFIX' => '(imagen para)',
-    'IMAGE_ALT_TEXT_NO_TITLE' => 'imagen genérica',
     'JS_ERROR' => 'Ha ocurrido un error durante el procesamiento del formulario.\n\nPor favor, realice las siguientes correcciones:\n\n',
     'JS_ERROR_NO_PAYMENT_MODULE_SELECTED' => '* Por favor seleccione un método de pago para su pedido.',
     'JS_ERROR_SUBMITTED' => 'Este formulario ya ha sido enviado. Por favor, presione OK y espere a que se procese el proceso.',
@@ -388,7 +385,7 @@ $define = [
     'TEXT_BASE_PRICE' => 'Desde: ',
     'TEXT_BEFORE_DOWN_FOR_MAINTENANCE' => 'AVISO: Esta página web no estará operativa por razones de mantenimiento desde las: ',
     'TEXT_BY' => ' por ',
-    'TEXT_CALL_FOR_PRICE' => 'Contáctenos para saber el precio',
+    'TEXT_CALL_FOR_PRICE' => '%%PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT%%',
     'TEXT_CCVAL_ERROR_INVALID_DATE' => 'La fecha de vencimiento de la tarjeta de crédito no es válido. Por favor revise la fecha e inténtelo de nuevo.',
     'TEXT_CCVAL_ERROR_INVALID_NUMBER' => 'El número de la tarjeta de crédito introducido no es válido. Por favor revise el número e inténtelo de nuevo.',
     'TEXT_CCVAL_ERROR_UNKNOWN_CARD' => 'El número de la tarjeta de crédito con los primeros cuatro dígitos %s no es correcto. Si el número sí es correcto, nosotros no aceptamos este tipo de tarjeta de crédito. Si está equivocado, por favor inténtelo de nuevo.',
@@ -518,9 +515,8 @@ $define = [
 /*
     'TEXT_SHOWCASE_ONLY' => 'Contáctenos',
     'TEXT_SORT_PRODUCTS' => 'Ordenar productos ',
-    'TEXT_TOP' => 'Inicio',
-    'TEXT_TOTAL_AMOUNT' => '&nbsp;&nbsp;Cantidad: ',
-    'TEXT_TOTAL_ITEMS' => 'Total de Artículos: ',
+    'TEXT_TOTAL_AMOUNT' => '&nbsp;&nbsp;Valor: ',
+    'TEXT_TOTAL_ITEMS' => 'Productos: ',
     'TEXT_TOTAL_WEIGHT' => '&nbsp;&nbsp;Peso: ',
     'TEXT_UNKNOWN_TAX_RATE' => 'Impuesto de Ventas',
     'TEXT_VALID_COUPON' => '¡Ha añadido un Cupón de Descuento a su pedido!',

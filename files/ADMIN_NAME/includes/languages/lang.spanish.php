@@ -263,6 +263,7 @@ $define = [
     'ICON_FOLDER' => 'Carpeta',
     'ICON_MOVE' => 'Mover',
     'ICON_PREVIEW' => 'Vista Previa',
+    'ICON_SELECTED' => 'Fila Seleccionada',
     'ICON_STATISTICS' => 'Estadísticas',
     'ICON_SUCCESS' => 'Éxito',
     'ICON_TICK' => 'Correcto',
