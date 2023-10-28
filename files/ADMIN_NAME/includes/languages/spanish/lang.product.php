@@ -65,6 +65,7 @@ $define = [
     'TEXT_META_EXCLUDED' => '<span class="alert">EXCLUIDO</span>',
     'TEXT_TITLE_PLUS_TAGLINE' => 'Título Tienda+Tagline',
     'TEXT_PRODUCTS_PRICE_INFO' => 'Precio:',
+    'WARNING_PRODUCT_DOES_NOT_EXIST' => 'Aviso: No se puede editar Producto ID#%u, no existe.',
 ];
 
 return $define;
