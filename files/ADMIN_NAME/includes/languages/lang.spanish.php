@@ -618,6 +618,7 @@ $define = [
     'WARNING_ATTRIBUTE_COPY_INVALID_ID' => 'Aviso: Copia de Atributos a Producto ID#%u anulado (ID inválido)',
     'WARNING_ATTRIBUTE_COPY_NO_ATTRIBUTES' => 'Aviso: Copia de Atributos anulado. Producto ID#%u, "%s" no tiene atributos',
     'WARNING_ATTRIBUTE_COPY_SAME_ID' => 'Aviso: Copia de Atributos anulado. No se puede copiar desde Producto ID#%u a Producto ID#%u (IDs iguales).',
+    'WARNING_CATEGORY_DOES_NOT_EXIST' => 'Aviso: Categoría ID#%u es inválido, no existe.',
     'WARNING_CONFIG_FILE_WRITEABLE' => 'Aviso: Se puede sobrescribir el archivo de configuración: %s (es "writeable"). Es un riesgo de seguridad – fija el permiso de acceso correcto en este archivo (a solo-leer, CHMOD 644 o 444). Es posible que se tendrá que utilizar el panel de control del alojamiento del servidor o el gestor de archivos para cambiar el permiso. Contacte con la Atención al Cliente del servicio de alojamiento para más asistencia y <a href="https://docs.zen-cart.com/user/miscellaneous/configure/" rel="noopener" target="_blank">mire este FAQ </a>',
     'WARNING_COULD_NOT_LOCATE_LANG_FILE' => 'AVISO:  No podía localizar un archivo de idioma: ',
     'WARNING_DATABASE_VERSION_OUT_OF_DATE' => 'Su base de datos parece necesitar ser actualizada a una versión superior. Mire Herramientas->' . '%%BOX_TOOLS_SERVER_INFO%%' . ' para revisar la versión.',
