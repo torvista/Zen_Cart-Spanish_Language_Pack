@@ -5,10 +5,10 @@
 // needs to be globalized for use in payment-methods (e.g. paypalwpp) and
 // other processing.
 //
-global $locales;
-$locales = ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es'];
+/**global $locales;
+$locales = ['es_ES.utf8', 'es-ES', 'es'];//'es-ES' is Windows
 @setlocale(LC_TIME, $locales);
-
+*/
 $define = [
 /*
     'ARIA_DELETE_ITEM_FROM_CART' => 'Borrar este artículo del carro',

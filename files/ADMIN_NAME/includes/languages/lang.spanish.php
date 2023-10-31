@@ -6,7 +6,7 @@
  * @version $Id: Scott C Wilson 2023 Feb 16 Modified in v1.5.8a $
 */
 
-@setlocale(LC_TIME, ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es']);
+@setlocale(LC_TIME, ['es_ES.utf8', 'es-ES', 'es']);
 
 $define = [
     'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X',

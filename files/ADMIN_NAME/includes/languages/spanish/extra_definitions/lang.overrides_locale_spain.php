@@ -1,7 +1,7 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 //date of birth in format dd/mm/yyyy, weight "kg", "invoice"-> "order"
 declare(strict_types=1);
-@setlocale(LC_TIME, ['es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es']);
+
 $define = [
 //lang.spanish.php
     'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %H:%M',//changed time to hours:mins
