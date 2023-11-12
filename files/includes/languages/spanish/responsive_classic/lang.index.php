@@ -1,6 +1,6 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 $define = [
-    'TEXT_GREETING_GUEST' => '¡Bienvenido/a! ¿Quiere <a href="%s">identificarse</a> o <a href="%s">crear una cuenta nueva</a>?',
+    'TEXT_GREETING_GUEST' => '¡Bienvenido/a! ¿Quiere <a href="%s">identificarse</a>?',
     'TEXT_GREETING_GUEST_SHOWCASE' => 'Bienvenido, esperamos que disfrute de nuestro escaparate virtual.',
     'TEXT_GREETING_PERSONAL' => '¡Hola <span class="greetUser">%s</span>! ¿Quiere ver nuestras <a href="%s">últimas novedades</a>?',
     'TEXT_INFORMATION' => 'Defina aquí su página índice principal.',
