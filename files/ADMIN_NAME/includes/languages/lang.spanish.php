@@ -253,6 +253,8 @@ $define = [
     'HEADING_TITLE_SEARCH_DETAIL' => 'Buscar: ',
     'HEADING_TITLE_SEARCH_DETAIL_REPORTS' => 'Buscar Productos por ID  (separados por comillas)',
     'HEADING_TITLE_SEARCH_DETAIL_REPORTS_NAME_MODEL' => 'Buscar Productos por Nombre/Modelo',
+    'HELPTEXT_WHOLESALE_POPUP_TITLE' => 'Configuración Precios Profesionales',
+    'HELPTEXT_WHOLESALE_PRICES' => 'Introduzca 0 para precio particular. O, introduzca los nivels de descuentos profesionales separados por un guión (-). Un nivel puede ser una cantidad fija o un porcentage. Por ejemplo, \'2.00-10%-1.00\' da un precio de 2.00 para clientes nivel 1, -10% para nivel 2 y 1.00 para nivel 3 y mayor.',
     'HTML_PARAMS' => 'dir="ltr" lang="es-ES"',
     'ICON_COPY_TO' => 'Copiar a',
     'ICON_CROSS' => 'Falso',

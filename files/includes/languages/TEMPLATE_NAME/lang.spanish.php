@@ -5,8 +5,9 @@
 // needs to be globalized for use in payment-methods (e.g. paypalwpp) and
 // other processing.
 //
-/**global $locales;
-$locales = ['es_ES.utf8', 'es-ES', 'es'];//'es-ES' is Windows
+/*
+global $locales;
+$locales = ['es_ES.utf8', 'es-ES', 'es'];
 @setlocale(LC_TIME, $locales);
 */
 $define = [
@@ -98,7 +99,7 @@ $define = [
 /*
     'DOWNLOADS_CONTROLLER_ON_HOLD_MSG' => 'NOTA: Las descargas no están disponibles hasta que el pago haya sido verificado',
     'EMAIL_SALUTATION' => 'Estimado/a',
-    'EMAIL_SEND_FAILED' => 'ERROR: No se ha podido enviar el email a : "%s" <%s> con sujeto: "%s"',
+    'EMAIL_SEND_FAILED' => 'ERROR: No se ha podido enviar el email a: "%s" <%s> con sujeto "%s"',
     'EMPTY_CART_TEXT_NO_QUOTE' => '¡Lo siento! Ha excedido el tiempo de su sesión ... Por favor, actualice su carro para obtener el presupuesto de envío ...',
     'EMP_SHOPPING_FOR_MESSAGE' => 'Actualmente utilizando la cuenta de %1$s (%2$s).',
     'ENTRY_CITY' => 'Localidad:',
@@ -141,7 +142,7 @@ $define = [
     'ENTRY_LAST_NAME' => 'Apellido(s):',
     'ENTRY_LAST_NAME_ERROR' => 'Los apellidos debe tener un mínimo de ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caracteres.',
     'ENTRY_LAST_NAME_TEXT' => '*',
-    'ENTRY_NAME' => 'Nombre:',
+    'ENTRY_NAME' => 'Nombre completo:',
     'ENTRY_NEWSLETTER' => 'Quiero recibir el boletín sobre productos nuevos.',
     'ENTRY_NEWSLETTER_TEXT' => '',
     'ENTRY_NICK' => 'Apodo del Foro:',
@@ -193,6 +194,7 @@ $define = [
     'ERROR_INVALID_KEYWORDS' => 'Palabras Claves inválidas.',
     'ERROR_INVALID_TO_DATE' => 'Fecha Hasta inválida',
     'ERROR_MAXIMUM_QTY' => 'La cantidad añadida al carro ha sido modificada - hay una restricción del máximo permitido. Ver este producto:<br>',
+    'ERROR_MISSING_SEARCH_OPTIONS' => 'Falta opciones de la búsqueda',
     'ERROR_NO_PAYMENT_MODULE_SELECTED' => 'Por favor, seleccione un método de pago para su pedido.',
     'ERROR_PRICE_FROM_MUST_BE_NUM' => 'Precio Desde debe ser un número.',
     'ERROR_PRICE_TO_LESS_THAN_PRICE_FROM' => 'Precio Hasta debe ser igual o mayor que el Precio Desde.',
@@ -217,7 +219,9 @@ $define = [
     'ERROR_TO_DATE_LESS_THAN_FROM_DATE' => 'Fecha Hasta debe ser igual o más tarde que Fecha Desde.',
     'FAILED_TO_ADD_UNAVAILABLE_PRODUCTS' => 'Los productos seleccionados no están disponible actualmente...',
     'FEMALE' => 'Sra.',
-    'FOOTER_TEXT_BODY' => 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>. <a href="https://www.zen-cart.com" rel="noopener noreferrer" target="_blank">Ecomercio Zen Cart</a>',
+*/
+    'FOOTER_TEXT_BODY' => 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>',
+/*
     'FORM_REQUIRED_INFORMATION' => '* Información obligatoria',
     'FREE_SHIPPING_DESCRIPTION' => 'Envío Gratis para pedidos de más de %s',
     'HEADING_ADDRESS_INFORMATION' => 'Dirección',
@@ -323,6 +327,7 @@ $define = [
     'PRODUCT_PRICE_DISCOUNT_PERCENTAGE' => '% de descuento',
     'PRODUCT_PRICE_DISCOUNT_PREFIX' => 'Ahorre:&nbsp;',
     'PRODUCT_PRICE_SALE' => 'Oferta:&nbsp;',
+    'PRODUCT_PRICE_WHOLESALE' => 'Su Precio:&nbsp;',
     'PULL_DOWN_ALL' => 'Seleccione',
     'PULL_DOWN_ALL_RESET' => '- RESETEAR - ',
     'PULL_DOWN_DEFAULT' => 'Seleccione País',

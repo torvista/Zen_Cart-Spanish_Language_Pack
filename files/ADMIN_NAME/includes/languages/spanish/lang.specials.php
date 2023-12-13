@@ -33,6 +33,8 @@ $define = [
     'TEXT_PRE_ADD_PRODUCTS_ID' => 'Tecle el ID de Producto para ser pre-añadido: ',
     'TEXT_SPECIALS_PRICE_NOTES_HEAD' => '<b>Notas:</b>',
     'TEXT_SPECIALS_PRICE_NOTES_BODY' => '<li>El Precio Especial puede ser un precio (sin impuestos). El separador decimal debe ser un "." (punto decimal), por ejemplo: <b>49.99</b>. El porcentaje de descuento calculado se muestra junto al nuevo precio del producto en el catálogo.</li><li>El Precio Especial puede ser un porcentaje de descuento, por ejemplo: <b>20%</b>.</li><li>Las fechas de inicio / finalización no son obligatorias. Puede dejar la fecha de vencimiento vacía para que no caduca.</li> <li> Cuando se establecen las fechas, el estado del Precio Especial se habilita / deshabilita automáticamente en consecuencia.</li>',
+    'ERROR_INVALID_ACTIVE_DATE' => 'La fecha &quot;Activa&quot; no es válida.',
+    'ERROR_INVALID_EXPIRES_DATE' => 'La fecha &quot;Caduca&quot; no es es válida.',
 ];
 
 return $define;

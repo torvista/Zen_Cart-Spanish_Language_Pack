@@ -66,6 +66,7 @@ $define = [
     'TEXT_TITLE_PLUS_TAGLINE' => 'Título Tienda+Tagline',
     'TEXT_PRODUCTS_PRICE_INFO' => 'Precio:',
     'WARNING_PRODUCT_DOES_NOT_EXIST' => 'Aviso: No se puede editar Producto ID#%u, no existe.',
+    'TEXT_PRODUCTS_WHOLESALE_PRICE' => 'Precio Profesional:',
 ];
 
 return $define;

@@ -29,6 +29,8 @@ $define = [
     'TEXT_INFO_HEADING_PRE_ADD_FEATURED' => 'Añade un nuevo producto destacado manualmente utilizando su ID de Producto',
     'TEXT_INFO_PRE_ADD_INTRO' => 'En bases de datos grandes => puede añadir un nuevo producto destacado manualmente utilizando su ID de Producto.<br><br>Está recomendado utilizar este método cuando la página tarda mucho tiempo en cargar y la selección de un producto del menú desplegable resulta demasiado difícil por culpa de la cantidad grande de productos disponibles.',
     'TEXT_PRE_ADD_PRODUCTS_ID' => 'Introduzca el ID de Producto para ser pre-añadido: ',
+    'ERROR_INVALID_ACTIVE_DATE' => 'La fecha &quot;Activa&quot; no es válida.',
+    'ERROR_INVALID_EXPIRES_DATE' => 'La fecha &quot;Caduca&quot; no es válida.',
 ];
 
 return $define;

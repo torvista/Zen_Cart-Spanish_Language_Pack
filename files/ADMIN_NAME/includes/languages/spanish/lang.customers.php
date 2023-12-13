@@ -63,6 +63,9 @@ $define = [
     'EMP_BUTTON_PLACEORDER_ALT' => 'Hacer un pedido de parte de este cliente',
     'EMP_BUTTON_PLACEORDER' => 'Hacer Pedido',
     'TEXT_CUSTOMER_GROUPS' => 'Grupos de Clientes',
+    'TABLE_HEADING_WHOLESALE_LEVEL' => 'Nivel Profesional',
+    'TEXT_WHOLESALE_LEVEL' => 'Nivel Profesional:',
+    'HELPTEXT_WHOLESALE_LEVEL' => 'Introduzca 0 para "Particular" o un nivel "Profesional". Un cliente puede tener un nivel de precios Profesional o pertenece un grupo de precios de descuentos pero no ambos.',
 ];
 
 return $define;
