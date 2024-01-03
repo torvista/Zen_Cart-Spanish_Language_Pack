@@ -29,6 +29,7 @@ $define = [
     'ENTRY_SHIPPING_ADDRESS' => 'Dirección de Envío:<br><i class="fa-solid fa-2x fa-truck"></i>',
     'ENTRY_BILLING_ADDRESS' => 'Dirección de Facturación:<br><i class="fa-regular fa-2x fa-credit-card"></i>',
     'ENTRY_PAYMENT_METHOD' => 'Método de pago:',
+    'ENTRY_CURRENCY_VALUE' => 'Valor Moneda:',
     'ENTRY_CREDIT_CARD_TYPE' => 'Tipo de tarjeta:',
     'ENTRY_CREDIT_CARD_OWNER' => 'Nombre de la tarjeta:',
     'ENTRY_CREDIT_CARD_NUMBER' => 'Número de la tarjeta:',
