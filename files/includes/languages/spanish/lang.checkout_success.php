@@ -6,7 +6,7 @@ $define = [
     'TEXT_SUCCESS' => '',
     'TEXT_NOTIFY_PRODUCTS' => 'Avísenme cuando haya cambios en los siguientes productos:',
     'TEXT_SEE_ORDERS' => 'Se puede ver los estados de sus pedidos en <a href="' . zen_href_link(FILENAME_ACCOUNT) . '">Mi Cuenta</a>, "Ver Mis Pedidos".',
-    'TEXT_CONTACT_STORE_OWNER' => 'Por favor, dirija cualquier pregunta que tenga a <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">atención al cliente</a>.',
+    'TEXT_CONTACT_STORE_OWNER' => 'Por favor, dirija cualquier pregunta que tenga a <a href="' . zen_href_link(FILENAME_CONTACT_US) . '">Atención al Cliente</a>.',
     'TEXT_THANKS_FOR_SHOPPING' => '¡Muchas gracias por su confianza!',
     'FOOTER_DOWNLOAD' => 'También puede descargar sus productos más tarde en \'%s\'',
     'TEXT_YOUR_ORDER_NUMBER' => '<strong>Su número de pedido es:</strong> ',

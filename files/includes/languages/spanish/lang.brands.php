@@ -4,7 +4,7 @@ $define = [
     'HEADING_TITLE' => 'Comprar por Marca',
     'BREADCRUMB_BRANDS' => 'Comprar por Marca',
     'FEATURED_BRANDS' => 'Marcas Destacadas',
-    'OTHER_BRANDS' => 'Marcas Relacionadas',
+    'OTHER_BRANDS' => 'Otras Marcas',
     'NO_BRANDS_AVAILABLE' => 'No hay marcas actualmente activas para esta tienda.',
 ];
 
