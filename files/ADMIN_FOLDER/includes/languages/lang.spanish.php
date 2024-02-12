@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2023 Zen Cart Development Team
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2023 Feb 16 Modified in v1.5.8a $
+ * @version $Id: lat9 2023 Dec 10 Modified in v2.0.0-alpha1 $
 */
 
 @setlocale(LC_TIME, ['es_ES.utf8', 'es-ES', 'es']);
@@ -631,6 +631,7 @@ $define = [
     'WARNING_FILE_UPLOADS_DISABLED' => 'Advertencia: Subir ficheros está deshabilitado en el fichero de configuración php.ini.',
     'WARNING_INSTALL_DIRECTORY_EXISTS' => 'AVISO DE SEGURIDAD: La carpeta de los archivos de instalación todavía existe en: %s. Borre o mueve este carpeta por razones de seguridad.',
     'WARNING_NO_FILE_UPLOADED' => 'Advertencia: No se subió el fichero.',
+    'WARNING_PAGE_REQUIRES_UPDATE' => 'Esta página requiere actualizaciones para la próxima versión de Zen Cart. Remita al desarrollador de su sitio o al autor del Plugin a <a href="https://docs.zen-cart.com/dev/plugins/admin_head_content/" rel="noopener noreferrer" target="_blank">este documentación</a>.',
     'WARNING_PRIMARY_SERVER_FAILED' => 'Advertencia: El servidor primario de tasas de cambio (%s) falló para %s (%s); comprobando el servidor de tasa de cambio secundario.',
     'WARNING_REVIEW_ROGUE_ACTIVITY' => 'AVISO: Compruebe para actividades posibles XSS:',
     'WARNING_SESSION_AUTO_START' => 'Aviso: session.auto_start está habilitado - deshabilite está opción en php.ini. (es posible que se tiene que reinicie el servidor para aplicar el cambio).',

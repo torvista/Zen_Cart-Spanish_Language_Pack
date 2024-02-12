@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: lat9 2022 Jun 04 New in v1.5.8-alpha $
+ * @version $Id: lat9 2024 Jan 03 Modified in v2.0.0-alpha1 $
 */
 
 $define = [
@@ -25,6 +25,8 @@ $define = [
     'TABLE_HEADING_QUANTITY' => 'Cant',
     'TABLE_HEADING_UPDATED_BY' => 'Actualizado Por',
     'ENTRY_CUSTOMER' => 'Cliente:',
+    'TABLE_HEADING_PRODUCTS_WEIGHT' => 'Peso<br><small>Unidad/Total</small>',
+    'ENTRY_WEIGHT' => 'Peso total:',
     'ENTRY_CUSTOMER_ADDRESS' => 'Dirección Cliente:<br><i class="fa-solid fa-2x fa-user"></i>',
     'ENTRY_SHIPPING_ADDRESS' => 'Dirección de Envío:<br><i class="fa-solid fa-2x fa-truck"></i>',
     'ENTRY_BILLING_ADDRESS' => 'Dirección de Facturación:<br><i class="fa-regular fa-2x fa-credit-card"></i>',

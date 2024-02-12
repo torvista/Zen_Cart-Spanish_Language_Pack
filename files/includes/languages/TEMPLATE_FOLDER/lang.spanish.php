@@ -222,7 +222,7 @@ $define = [
 */
     'FOOTER_TEXT_BODY' => 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>',
 /*
-    'FORM_REQUIRED_INFORMATION' => '* Información obligatoria',
+    'FORM_REQUIRED_INFORMATION' => '* Campo obligatorio',
     'FREE_SHIPPING_DESCRIPTION' => 'Envío Gratis para pedidos de más de %s',
     'HEADING_ADDRESS_INFORMATION' => 'Dirección',
     'HEADING_BILLING_ADDRESS' => 'Dirección Facturación',
@@ -439,6 +439,7 @@ $define = [
     'TEXT_HEADER_DISCOUNT_PRICES_AMOUNT_OFF' => 'Descuento por Cantidad',
     'TEXT_HEADER_DISCOUNT_PRICES_PERCENTAGE' => 'Descuento por Cantidades',
     'TEXT_INFO_SORT_BY' => 'Ordenar por: ',
+    'TEXT_INFO_SORT_BY_RECOMMENDED' => 'Recommendados',
     'TEXT_INFO_SORT_BY_PRODUCTS_DATE' => 'Fecha Añadida - Antigua a nueva',
     'TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC' => 'Fecha Añadida - Nueva a antigua',
     'TEXT_INFO_SORT_BY_PRODUCTS_MODEL' => 'Modelo',
