@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2022 Jan 11 New in v1.5.8-alpha $
+ * @version $Id: lat9 2023 Dec 10 Modified in v2.0.0-alpha1 $
 */
 
 $define = [
@@ -31,7 +31,13 @@ $define = [
     'TEXT_PRODUCTS_URL_WITHOUT_HTTP' => '<small>(sin http://)</small>',
     'TEXT_PRODUCTS_PRICE_NET' => 'Precio (Neto):',
     'TEXT_PRODUCTS_PRICE_GROSS' => 'Precio (Bruto):',
+    'TEXT_SHIPPING_PACKAGE_DETAILS' => 'Detalles Embalaje',
     'TEXT_PRODUCTS_WEIGHT' => 'Peso:',
+    'TEXT_PRODUCTS_LENGTH' => 'Largo:',
+    'TEXT_PRODUCTS_WIDTH' => 'Ancho:',
+    'TEXT_PRODUCTS_HEIGHT' => 'Grueso:',
+    'TEXT_PRODUCT_SHIPS_IN_OWN_BOX' => '¿Se envia en su propia caja?',
+    'TEXT_PRODUCT_SHIPS_IN_OWN_BOX_HELP' => '¿Se envia el articulo en su propia caja? ( sin embalaje, no se añadirá un coste de envío adicional)',
     'TEXT_PRODUCT_IS_FREE' => 'El producto es Gratis:',
     'TEXT_PRODUCTS_IS_FREE_PREVIEW' => '*El producto está marcado como GRATIS',
     'TEXT_PRODUCTS_IS_FREE_EDIT' => '*El producto está marcado como GRATIS',
