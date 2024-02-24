@@ -58,6 +58,7 @@ $define = [
     'COUPON_USES_COUPON' => 'Usos por Cupón',
     'COUPON_USES_USER' => 'Usos por Cliente',
     'COUPON_REFERRER' => 'Referentes Válidos',
+    'COUPON_REFERRER_EXISTS' => 'Cupón \'%s\' (id %d) ya existe desde Referente \'%s\'',
     'COUPON_PRODUCTS' => 'Listado de Productos Válidos',
     'COUPON_CATEGORIES' => 'Listado de Categorías Válidas',
     'DATE_CREATED' => 'Fecha de Creación',

@@ -9,7 +9,7 @@
 @setlocale(LC_TIME, ['es_ES.utf8', 'es-ES', 'es']);
 
 $define = [
-    'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X',
+    'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X (%Z)',
     'ARIA_PAGINATION_' => '',
     'ARIA_PAGINATION_CURRENTLY_ON' => ', actualmente en la página %s',
     'ARIA_PAGINATION_CURRENT_PAGE' => 'Página Actual',
@@ -75,6 +75,7 @@ $define = [
     'BOX_CONFIGURATION_STOCK' => 'Stock',
     'BOX_CONFIGURATION_WEBSITE_MAINTENANCE' => 'Mantenimiento de la Tienda',
     'BOX_COUPON_ADMIN' => 'Gestionar Cupones',
+    'BOX_COUPON_REFERRERS' => 'Referentes Cupones',
     'BOX_COUPON_RESTRICT' => 'Restricciones de Cupones',
     'BOX_CUSTOMERS_CUSTOMER_GROUPS' => 'Grupos de Clientes',
     'BOX_CUSTOMERS_CUSTOMERS' => 'Clientes',
@@ -583,10 +584,10 @@ $define = [
     'TEXT_SALEMAKER_IMMEDIATELY' => 'Inmediatamente',
     'TEXT_SALEMAKER_NEVER' => 'Nunca',
     'TEXT_SET_DEFAULT' => 'Establecer como por defecto',
-    'TEXT_SHIPPING_lbs' => '(lbs)',
-    'TEXT_SHIPPING_kgs' => '(kgs)',
-    'TEXT_SHIPPING_inches' => '(pulgadas)',
-    'TEXT_SHIPPING_centimeters' => '(cm)',
+    'TEXT_SHIPPING_LBS' => '(lbs)',
+    'TEXT_SHIPPING_KGS' => '(kgs)',
+    'TEXT_SHIPPING_INCHES' => '(pulgadas)',
+    'TEXT_SHIPPING_CENTIMETERS' => '(cm)',
     'TEXT_SHOW_GV_QUEUE' => '%s esperando aprobación ',
     'TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF' => 'Mostrar características globales - NO',
     'TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON' => 'Mostrar características globales - SÍ',
