@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2022 Jan 09 New in v1.5.8-alpha $
+ * @version $Id: neekfenwick 2024 Feb 23 Modified in v2.0.0-beta1 $
 */
 
 $define = [
@@ -89,7 +89,7 @@ $define = [
     'COUPON_SALE_HELP' => 'Si elige <i>NO permitido</i> => los productos en Rebajas o Especiales no sumarán al total del valor mínimo necesario para el uso del Cupón.',
     'COUPON_USES_COUPON_HELP' => 'Número máximo de veces que el cupón puede ser usado. Déjelo en blanco si no hay límite.',
     'COUPON_USES_USER_HELP' => 'Número máximo de veces que un usuario puede usar un cupón. Déjelo en blanco si no hay límite.',
-    'COUPON_REFERRER_HELP' => 'Los dominios desde donde se aplica los cupones automáticamente (separados por comillas). p.ej. "jills-blog.com" o "bobsbits.com,thisandthat.com".',
+    'COUPON_REFERRER_HELP' => 'Los dominios desde donde se aplica los cupones automáticamente, uno por fila p.ej. &quot;jills-blog.com&quot; o &quot;bobsbits.com&quot;.  Haga clic en el icono verde <i class=&quot;fa-solid fa-plus&quot;></i> para agregar una nueva fila, o en el icono rojo <i class=&quot;fa-solid fa-times&quot;></i> para eliminar una fila.',
     'COUPON_BUTTON_PREVIEW' => 'Vista previa',
     'COUPON_BUTTON_CONFIRM' => 'Confirmar',
     'COUPON_ACTIVE' => 'Estatus',

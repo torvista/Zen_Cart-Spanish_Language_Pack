@@ -53,6 +53,7 @@ $define = [
     'BOX_HEADING_SPECIALS' => 'Ofertas',
     'BOX_HEADING_WHATS_NEW' => 'Novedades',
     'BOX_INFORMATION_ABOUT_US' => 'Sobre Nosotros',
+    'BOX_INFORMATION_ACCESSIBILITY' => 'Accesibilidad',
     'BOX_INFORMATION_CONDITIONS' => 'Condiciones de Uso',
     'BOX_INFORMATION_CONTACT' => 'Contáctenos',
     'BOX_INFORMATION_DISCOUNT_COUPONS' => 'Cupones de Descuento',
