@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Zcwilt 2024 Jan 20 Modified in v2.0.0-alpha1 $
+ * @version $Id: DrByte 2024 Mar 06 Modified in v2.0.0-rc1 $
  */
 
 return [
@@ -154,6 +154,7 @@ return [
 'TEXT_ERROR_DB_CONNECTION_UPGRADE' => 'Problemas con la base de datos, basados en los valores del configure.php actual',
 'TEXT_ERROR_SET_TIME_LIMIT' => 'max_execution_time no habilitado',
 'TEXT_ERROR_GD' => 'Extensión GD no habilitado',
+'TEXT_ERROR_INTL' => 'Extension INTL no habilitado. Es necesario para manejar fechas y locales.',
 'TEXT_ERROR_JSON' => 'Extensión JSON no habilitado. Es necesario para procesando datos en muchas partes de Zen Cart.',
 'TEXT_ERROR_FILEINFO' => 'Extensión Fileinfo no habilitado. Está utilizado para calculando tamaños de archivos.',
 'TEXT_ERROR_ZLIB' => 'Extensión Zlib Extension no habilitado',
