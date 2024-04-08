@@ -1,4 +1,5 @@
 Changelog
+2024 04 08 Release for Zen Cart 2.0.0
 2022 02 07 Consolidation with branch v158 (with array constants)
 2022 01 21 Admin: de-duplication, alphasort of main file
 2021 07 12 Admin: use configuration page titles from configuration group names

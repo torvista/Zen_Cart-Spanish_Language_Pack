@@ -29,8 +29,10 @@ img {
 </style>
 </head>
 <body>
-<h1><span>Zen Cart Spanish (Spain) Language Pack for Zen Cart 1.5.8</span>a</h1>
+<h1><span>Zen Cart Spanish (Spain) Language Pack for Zen Cart 2.0.0</span></h1>
 <p>See <a href="changelog.txt" target="_blank">Changelog</a> for current status.</p>
+<p><strong>Support Thread - Zen Cart forum</strong>: <a href="https://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">https://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
+<p><strong>Github: <a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">https://github.com/torvista/Zen_Cart-Spanish_Language_Pack</a></strong></p>
 <p>GPL Licence</p>
 <p>In Zen Cart 158  all the language constants were moved from a list of &quot;defines&quot; into arrays to prevent php errors being triggered by constants being overriden/redefined.</p>
 <p>This language pack is identical to the US english version but uses two additional files to override the US english/default constants</p>
@@ -41,10 +43,10 @@ img {
   
 <p><strong>Admin:</strong> uses ADMIN_FOLDER/includes/languages/extra_definitions/lang.overrides_locale_spain.php</p>
 <p><strong>Shopfront:</strong> uses /includes/languages/TEMPLATE_NAME/lang.spanish.php</p>
-<p>In addition all uses of &quot;invoice&quot; are translated as &quot;pedido&quot; instead of &quot;factura&quot;. 
-    In Spain a &quot;factura&quot; must contain a tax id for it to be legally called a factura/invoice. Since there is no provision for a customer tax id in core Zen Cart, the &quot;invoice&quot; cannot be legally called a &quot;factura&quot; and so any document is just a record of an order (&quot;pedido&quot;).</p>
-<p><strong> Support Thread - Zen Cart forum</strong>: <a href="https://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack" target="_blank">https://www.zen-cart.com/showthread.php?193098-Spanish-Language-Pack</a></p>
-<p><strong>Github: <a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">https://github.com/torvista/Zen_Cart-Spanish_Language_Pack</a></strong></p>
+<h3>Invoice-Factura</h3>
+<p>All uses of &quot;invoice&quot; are translated as &quot;pedido&quot; instead of &quot;factura&quot; since a Spain a &quot;factura&quot; must contain a tax id for it to be legally called a factura/invoice.<br>
+Since there is no core support for a customer tax id in Zen Cart, the &quot;invoice&quot; cannot be legally called a &quot;factura&quot; and so any document is just a record of an order (&quot;pedido&quot;).</p>
+<p>Note that the plugin <a href="https://github.com/lat9/vat4eu" target="_blank">Zen Cart® VAT for EU Countries</a> adds a tax id and related handling.</p>
 <h2>Installation</h2>
 <p>You may add the files from this pack into your fileset before the INITIAL installation of Zen Cart, in which case the installer may also be run in spanish.</p>
 <p>Or, you may add this pack subsequent to the installation: but in this case do NOT copy the /zc_install folder as this will be detected and block access to the admin until it is removed.</p>
@@ -52,13 +54,12 @@ img {
 <p>As always, install/test/review/improve <strong>any and all </strong> modifications on your <strong>development</strong> site, NEVER, EVER on your production site. You should consider your production site to be a backup of your development site!</p>
 <p>Only when you are satisfied that all is complete, <strong>copy</strong> those changes to the production site in one, fast operation.</p>
 <h4>a) The fileset is encoded in utf-8 as Zen Cart uses utf-8 encoding from v1.5 onwards.</h4>
-<p>If you have an older site that still uses latin-1/8859 for the database contents/connection and html page encoding  you should convert the database to utf-8. There are multiple threads on this subject in the Zen Cart forum.</p>
+<p>If you have an older site that still uses latin-1/8859 for the database contents/connection and html page encoding  you should <a href="https://github.com/lat9/database-converter" target="_blank">convert the database to utf-8</a>. </p>
 <h4>b) Your template</h4>
-<p>If you do not have a customised template or have been modifying the &quot;template_default&quot;, &quot;classic&quot; or &quot;responsive_classic&quot; templates: <strong>STOP NOW</strong>. </p>
+<p>If you do not have a customised template or have been modifying the &quot;template_default&quot;, &quot;classic&quot; or &quot;responsive_classic&quot; templates: <strong>STOP THAT NOW</strong>. </p>
 <p>You MUST create your own template and leave the core templates in their original states to help investigate/isolate any problems you create/introduce into the code with your customised template files.</p>
 <h4>c) Backup your files and database</h4>
-<h4> If you have not installed the Backup MYSQL Plugin to provide easy database backups, I recommend you do it now, to be able to revert to a previous database rapridy and repeatedly, if necessary:<br>
-  <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=7" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=7</a></h4>
+<h4> If you have not installed the <a href="https://github.com/torvista/Zen_Cart-Backup_MYSQL_Plugin" target="_blank">Backup MYSQL Plugin</a> to provide easy database backups, I recommend you do it now, to be able to revert to a previous database rapidly and repeatedly, if necessary.</h4>
 <h3>2) Put the language pack files into your Zen Cart</h3>
 <h4>a) First, Rename folders</h4>
 <p>Rename &quot;<strong>ADMIN_NAME</strong>&quot; folder to match the name of your admin folder.</p>
@@ -126,7 +127,7 @@ img {
 <p>If the debug error occurs only with the spanish files, please report it in <a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">GitHub for this language pack</a>.</p>
 <p>If the debug error occurs with the english files too, report it in the <a href="https://github.com/zencart/zencart/issues" target="_blank">Zen Cart Github</a>.</p>
 <h3>Characters with accents displaying corrupted</h3>
-<p>Could be a file, database connection or database data with the incorrect encoding of UTF-8: search and read in the forum.</p>
+<p>Probably a file in not in UTF-8. Open it in Notepad++ and change the encoding to utf-8.</p>
 <h3>Dates not formatted correctly.</h3>
 <p>Possibly the locale is incorrect.</p>
 <p>In spanish.php, the two versions of this files contain these lines:</p>
@@ -138,9 +139,9 @@ img {
 <h3>Untranslated Text/Mistakes/Improvements</h3>
 <p>If any text is untranslated/incorrect or could be improved, please post a message in the GitHub repository.</p>
 <p>If you see a constant name appear like &quot;TEXT_SOMETHING_NEW&quot; instead of text, this means that particular constant is not defined for the currently-selected language.<br>
-Find this constant definition in your files (it will probably only be defined in the english language files) and replicate it in the corresponding language file, and REPORT IT.</p>
+Find this constant definition in your files. It will probably be defined <strong>ONLY</strong> in the english language files: replicate it in the corresponding language file, and REPORT IT.</p>
 <h3>Blank Screen/&quot;White Screen of Death&quot;</h3>
-<p> If you get white pages: check the debug log in the /logs directory which will tell you what the fault it, use this page to help you locate the fault: <a href="http://www.zen-cart.com/content.php?124-blank-page" target="_blank">http://www.zen-cart.com/content.php?124-blank-page</a>.</p>
+<p> If you get white pages: check the debug log in the /logs directory which will tell you what the fault it, use <a href="https://docs.zen-cart.com/user/localization/languages/#blank-white-screen-after-language-pack-installed" target="_blank">this page</a> to help you locate the fault.</p>
 <h2>Buttons</h2>
 <p> The spanish button images for the classic template were created long ago in a galaxy far away with the Zen Button Construction Kit:<br>
   <a href="http://www.zen-cart.com/downloads.php?do=file&amp;id=520" target="_blank">http://www.zen-cart.com/downloads.php?do=file&amp;id=520</a></p>
