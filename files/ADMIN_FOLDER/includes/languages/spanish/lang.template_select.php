@@ -28,6 +28,10 @@ $define = [
     'TEXT_INFO_HEADING_NEW_TEMPLATE' => 'Asociar Plantilla con una idioma',
     'TEXT_INFO_INSERT_INTRO' => 'Elija una opción para asociar una plantilla con una idioma',
     'IMAGE_NEW_TEMPLATE' => 'Crear una nueva asociación idioma-plantilla',
+    'TEXT_CLOSE' => 'Cerrar',
+    'TEXT_VIEW_TEMPLATE_SETTINGS' => 'Ver los "template_settings"',
+    'TEXT_MODAL_HEADING_INTRO' => '"template_settings.php": ',
+    'ERROR_COULD_NOT_READ_FILE' => 'No se pudo leer el archivo.',
 ];
 
 return $define;
