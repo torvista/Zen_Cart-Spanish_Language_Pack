@@ -1,18 +1,21 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
+// overrides for date format dd/mm/yyyy, kg, EUR
 // -----
 // Since the languages are now loaded via classes, the $locales definition
 // needs to be globalized for use in payment-methods (e.g. paypalwpp) and
 // other processing.
 //
+/*
 global $locales;
 $locales = ['es_ES.utf8', 'es-ES', 'es'];//'es-ES' is for Windows
 @setlocale(LC_TIME, $locales);
-
+*/
 $define = [
+/*
     'ARIA_DELETE_ITEM_FROM_CART' => 'Borrar este artículo del carro',
     'ARIA_EDIT_QTY_IN_CART' => 'Editar cantidad en el carro',
     'ARIA_PAGINATION_' => '',
-    'ARIA_PAGINATION_CURRENTLY_ON' => ', ahora en la página %s',
+    'ARIA_PAGINATION_CURRENTLY_ON' => 'ahora en la página %s',
     'ARIA_PAGINATION_CURRENT_PAGE' => 'Pagina Actual',
     'ARIA_PAGINATION_ELLIPSIS_NEXT' => 'Siguiente grupo de páginas',
     'ARIA_PAGINATION_ELLIPSIS_PREVIOUS' => 'Anterior grupo de páginas',
@@ -89,10 +92,12 @@ $define = [
     'CATEGORY_COMPANY' => 'Datos de la Empresa',
     'CATEGORY_PERSONAL' => 'Datos Personales',
     'CHARSET' => 'utf-8',
-    'DATE_FORMAT' => 'm/d/Y',
-    'DATE_FORMAT_LONG' => '%A %d %B, %Y',
-    'DB_ERROR_NOT_CONNECTED' => 'Error - No se ha podido conectar con la base de datos',
-    'DOB_FORMAT_STRING' => 'mm/dd/yyyy',
+*/
+    'DATE_FORMAT' => 'd/m/Y',
+//  'DATE_FORMAT_LONG' => '%A %d %B, %Y',
+//  'DB_ERROR_NOT_CONNECTED' => 'Error - No se ha podido conectar con la base de datos',
+    'DOB_FORMAT_STRING' => 'dd/mm/yyyy',
+/*
     'DOWNLOADS_CONTROLLER_ON_HOLD_MSG' => 'NOTA: Las descargas no están disponibles hasta que el pago haya sido verificado',
     'EMAIL_SALUTATION' => 'Estimado/a',
     'EMAIL_SEND_FAILED' => 'ERROR: No se ha podido enviar el email a: "%s" <%s> con sujeto "%s"',
@@ -110,8 +115,10 @@ $define = [
     'ENTRY_CUSTOMERS_REFERRAL' => 'Código de Referencia:',
     'ENTRY_DATE_FROM' => 'Desde Fecha:',
     'ENTRY_DATE_OF_BIRTH' => 'Fecha de nacimiento:',
-    'ENTRY_DATE_OF_BIRTH_ERROR' => 'La fecha de nacimiento debe tener el formato: MM/DD/YYYY (p.ej. 05/21/1970)',
-    'ENTRY_DATE_OF_BIRTH_TEXT' => '* (p.ej. 05/21/1970)',
+*/
+    'ENTRY_DATE_OF_BIRTH_ERROR' => 'La fecha de nacimiento debe tener el formato:DD/MM/YYYY (ej. 21/05/1970) o YYYY-MM-DD (ej 1970-05-21)',
+    'ENTRY_DATE_OF_BIRTH_TEXT' => '* (ej. 21/05/1970 o 1970-05-21)',
+/*
     'ENTRY_DATE_TO' => 'Hasta Fecha:',
     'ENTRY_EMAIL' => 'Email:',
     'ENTRY_EMAIL_ADDRESS' => 'Email:',
@@ -136,7 +143,7 @@ $define = [
     'ENTRY_LAST_NAME' => 'Apellido(s):',
     'ENTRY_LAST_NAME_ERROR' => 'Los apellidos debe tener un mínimo de ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caracteres.',
     'ENTRY_LAST_NAME_TEXT' => '*',
-    'ENTRY_NAME' => 'Nombre:',
+    'ENTRY_NAME' => 'Nombre completo:',
     'ENTRY_NEWSLETTER' => 'Quiero recibir el boletín sobre productos nuevos.',
     'ENTRY_NEWSLETTER_TEXT' => '',
     'ENTRY_NICK' => 'Apodo del Foro:',
@@ -175,7 +182,7 @@ $define = [
     'ENTRY_TELEPHONE_NUMBER_TEXT' => '*',
     'ERROR_AT_LEAST_ONE_INPUT' => 'Hay que rellenar por lo menos un campo del formulario de búsqueda.',
     'ERROR_CART_UPDATE' => '<strong>Por favor, actualice su pedido.</strong> ',
-    'ERROR_CONDITIONS_NOT_ACCEPTED' => 'Por favor, confirme los Términos y Condiciones acerca de este pedido haciendo click en la casilla.',
+    'ERROR_CONDITIONS_NOT_ACCEPTED' => 'Por favor, confirme los Términos y Condiciones acerca de este pedido haciendo click en la casilla inferior.',
     'ERROR_CORRECTIONS_HEADING' => 'Por favor corrija lo siguiente: <br>',
     'ERROR_CUSTOMERS_ID_INVALID' => '¡Los datos del cliente no puede ser validada!<br>Por favor, conéctese o abra una nueva cuenta. ...',
     'ERROR_DATABASE_MAINTENANCE_NEEDED' => '<a href="https:docs.zen-cart.com/user/troubleshooting/error_71_maintenance_required/" rel="noopener" target="_blank">ERROR 0071: Parece que hay un problema con la base de datos.</a>',
@@ -213,7 +220,9 @@ $define = [
     'ERROR_TO_DATE_LESS_THAN_FROM_DATE' => 'Fecha Hasta debe ser igual o más tarde que Fecha Desde.',
     'FAILED_TO_ADD_UNAVAILABLE_PRODUCTS' => 'Los productos seleccionados no están disponible actualmente...',
     'FEMALE' => 'Sra.',
-    'FOOTER_TEXT_BODY' => 'Todo los Derechos Reservados &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_OWNER . '</a>. <a href="https://www.zen-cart.com" rel="noopener noreferrer" target="_blank">Ecomercio Zen Cart</a>',
+*/
+    'FOOTER_TEXT_BODY' => 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>',
+/*
     'FORM_REQUIRED_INFORMATION' => '* Campo obligatorio',
     'FREE_SHIPPING_DESCRIPTION' => 'Envío Gratis para pedidos de más de %s',
     'HEADING_ADDRESS_INFORMATION' => 'Dirección',
@@ -222,7 +231,7 @@ $define = [
     'HEADING_DOWNLOAD' => 'Para bajar los archivos, haga click en el botón de Descarga y elija "Guardar en el disco" del menú.',
     'HEADING_ORDER_COMMENTS' => 'Instrucciones Especiales/Comentario del Pedido',
     'HEADING_ORDER_DATE' => 'Fecha Pedido:',
-    'HEADING_ORDER_HISTORY' => 'Estados del Pedido',
+    'HEADING_ORDER_HISTORY' => 'Comentarios y Historial Estatus',
     'HEADING_ORDER_NUMBER' => 'Pedido #%s',
     'HEADING_PAYMENT_METHOD' => 'Método de Pago',
     'HEADING_PRODUCTS' => 'Productos',
@@ -242,7 +251,7 @@ $define = [
     'ICON_SUCCESS_ALT' => 'éxito',
     'ICON_TINYCART_ALT' => 'añadir ',
     'ICON_TRASH_ALT' => 'eliminar',
-    'ICON_UPDATE_ALT' => 'Actualizar',
+    'ICON_UPDATE_ALT' => 'actualizar',
     'ICON_WARNING_ALT' => 'precaución',
     'IMAGE_ALT_PREFIX' => '(imagen para)',
     'IMAGE_ALT_TEXT_NO_TITLE' => 'imagen genérica',
@@ -251,7 +260,9 @@ $define = [
     'JS_ERROR_SUBMITTED' => 'Este formulario ya ha sido enviado. Por favor, presione OK y espere a que se procese el proceso.',
     'JS_REVIEW_RATING' => '* Debe valorar el producto.',
     'JS_REVIEW_TEXT' => '* El \'texto del comentario\' debe tener al menos ' . REVIEW_TEXT_MIN_LENGTH . ' caracteres.',
-    'LANGUAGE_CURRENCY' => 'USD',
+*/
+    'LANGUAGE_CURRENCY' => 'EUR',
+/*
     'MALE' => 'Sr.',
     'META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT' => '¡Es gratis!',
     'MORE_INFO_TEXT' => '... más info',
@@ -265,11 +276,11 @@ $define = [
     'OTHER_IMAGE_BOX_NOTIFY_REMOVE' => 'box_products_notifications_remove.gif',
     'OTHER_IMAGE_BOX_NOTIFY_YES' => 'box_products_notifications.gif',
     'OTHER_IMAGE_BOX_WRITE_REVIEW' => 'box_write_review.gif',
-    'OTHER_IMAGE_CALL_FOR_PRICE' => 'call_for_prices_es.png',
+    'OTHER_IMAGE_CALL_FOR_PRICE' => 'call_for_prices.png',
     'OTHER_IMAGE_CUSTOMERS_AUTHORIZATION' => 'customer_authorization.gif',
     'OTHER_IMAGE_CUSTOMERS_AUTHORIZATION_ALT' => 'LA APROBACIÓN DE CLIENTE AÚN ESTÁ PENDIENTE ...',
     'OTHER_IMAGE_DOWN_FOR_MAINTENANCE' => 'down_for_maintenance.png',
-    'OTHER_IMAGE_PRICE_IS_FREE' => 'free_es.png',
+    'OTHER_IMAGE_PRICE_IS_FREE' => 'free.png',
     'OTHER_IMAGE_REVIEWS_RATING_STARS_FIVE' => 'stars_5_small.png',
     'OTHER_IMAGE_REVIEWS_RATING_STARS_FOUR' => 'stars_4_small.png',
     'OTHER_IMAGE_REVIEWS_RATING_STARS_ONE' => 'stars_1_small.png',
@@ -280,8 +291,8 @@ $define = [
     'OTHER_REVIEWS_RATING_STARS_ONE_ALT' => 'Una estrella',
     'OTHER_REVIEWS_RATING_STARS_THREE_ALT' => 'Tres estrellas',
     'OTHER_REVIEWS_RATING_STARS_TWO_ALT' => 'Dos estrellas',
-    'OUT_OF_STOCK_CANT_CHECKOUT' => 'Los productos marcados <b>' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '</b> no tienen stock o no hay suficientes para completar su pedido.<br>Cambie la cantidad de los productos marcados "' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '". Gracias',
-    'OUT_OF_STOCK_CAN_CHECKOUT' => 'Los productos marcados <b>' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '</b> no tienen stock.<br>Completaremos el pedido lo antes posible. ',
+    'OUT_OF_STOCK_CANT_CHECKOUT' => 'Los productos marcados ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' no tienen stock o no hay suficientes para completar su pedido.<br>Cambie la cantidad de los productos marcados "' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '". Gracias',
+    'OUT_OF_STOCK_CAN_CHECKOUT' => 'Los productos marcados ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' no tienen stock.<br>Completaremos el pedido lo antes posible. ',
     'PAGE_ACCOUNT' => 'Mi Cuenta',
     'PAGE_ACCOUNT_EDIT' => 'Datos de la Cuenta',
     'PAGE_ACCOUNT_HISTORY' => 'Historial de Pedidos',
@@ -382,13 +393,13 @@ $define = [
     'TEXT_BASE_PRICE' => 'Desde: ',
     'TEXT_BEFORE_DOWN_FOR_MAINTENANCE' => 'AVISO: Esta página web no estará operativa por razones de mantenimiento desde las: ',
     'TEXT_BY' => ' por ',
-    'TEXT_CALL_FOR_PRICE' => 'Contáctenos para saber el precio',
+    'TEXT_CALL_FOR_PRICE' => '%%PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT%%',
     'TEXT_CCVAL_ERROR_INVALID_DATE' => 'La fecha de vencimiento de la tarjeta de crédito no es válido. Por favor revise la fecha e inténtelo de nuevo.',
     'TEXT_CCVAL_ERROR_INVALID_NUMBER' => 'El número de la tarjeta de crédito introducido no es válido. Por favor revise el número e inténtelo de nuevo.',
     'TEXT_CCVAL_ERROR_UNKNOWN_CARD' => 'El número de la tarjeta de crédito con los primeros cuatro dígitos %s no es correcto. Si el número sí es correcto, nosotros no aceptamos este tipo de tarjeta de crédito. Si está equivocado, por favor inténtelo de nuevo.',
     'TEXT_CHARGES_LETTERS' => 'Cargo Calculado:',
     'TEXT_CHARGES_WORD' => 'Cargo Calculado:',
-    'TEXT_CLICK_TO_ENLARGE' => 'ampliar',
+    'TEXT_CLICK_TO_ENLARGE' => 'imagen mayor',
     'TEXT_CLOSE_WINDOW_IMAGE' => ' - Pinche Imagen para Cerrar',
     'TEXT_COUPON_GV_RESTRICTION_ZONES' => 'Se aplican restricciones por la Dirección de Envío.',
     'TEXT_COUPON_HELP_DATE' => 'Este cupón es válido entre %s y %s',
@@ -428,8 +439,8 @@ $define = [
     'TEXT_HEADER_DISCOUNT_PRICES_ACTUAL_PRICE' => 'Descuento por Cantidad Precio Nuevo',
     'TEXT_HEADER_DISCOUNT_PRICES_AMOUNT_OFF' => 'Descuento por Cantidad',
     'TEXT_HEADER_DISCOUNT_PRICES_PERCENTAGE' => 'Descuento por Cantidades',
-    'TEXT_INFO_SORT_BY' => 'Ordenar por:',
-    'TEXT_INFO_SORT_BY_RECOMMENDED' => 'Recomendado',
+    'TEXT_INFO_SORT_BY' => 'Ordenar por: ',
+    'TEXT_INFO_SORT_BY_RECOMMENDED' => 'Recommendados',
     'TEXT_INFO_SORT_BY_PRODUCTS_DATE' => 'Fecha Añadida - Antigua a nueva',
     'TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC' => 'Fecha Añadida - Nueva a antigua',
     'TEXT_INFO_SORT_BY_PRODUCTS_MODEL' => 'Modelo',
@@ -463,7 +474,6 @@ $define = [
     'TEXT_NO_NEW_PRODUCTS' => 'Pronto añadiremos nuevos productos.',
     'TEXT_NO_PROD_RESTRICTIONS' => 'Este Cupón es válido para todos los productos.',
     'TEXT_NO_PROD_SALES' => 'Este cupón no es válido para productos en rebajas.',
-    'TEXT_NO_SHIPPING_AVAILABLE_ESTIMATOR' => 'No hay una opción de envío disponible para esta direccion.<br><br>Entre en su cuenta o contáctenos para opciones alternativas.',
     'TEXT_NO_REVIEWS' => 'No hay comentarios actualmente.',
     'TEXT_NUMBER_SYMBOL' => '# ',
     'TEXT_OF_5_STARS' => '',
@@ -498,19 +508,22 @@ $define = [
     'TEXT_PRODUCT_OPTIONS' => 'Elija: ',
     'TEXT_PRODUCT_QUANTITY' => ' Unidades en Stock',
     'TEXT_PRODUCT_WEIGHT' => 'Peso del Envío: ',
-    'TEXT_PRODUCT_WEIGHT_UNIT' => ' lbs',
+*/
+    'TEXT_PRODUCT_WEIGHT_UNIT' => ' kg',
+/*
     'TEXT_REMOVE_REDEEM_COUPON_ZONE' => 'El Cupón "%s" no es válido para la dirección elegida.',
     'TEXT_RESULT_PAGE' => '',
     'TEXT_REVIEW_BY' => 'por %s',
     'TEXT_REVIEW_DATE_ADDED' => 'Fecha añadida: %s',
-    'TEXT_SEARCH_HELP' => '<p>Las palabras pueden estar separadas por los operadores AND y/o OR para un mejor control de los resultados de la búsqueda.<br>Por ejemplo, Microsoft AND ratón generaría un listado de resultados que contengan ambas palabras. Pero para ratón OR teclado, el listado de resultados contendría ambas o algunas de las palabras.</p><p>Pueden buscarse Las coincidencias exactas encerrando las palabras entre comillas dobles.<br>Por ejemplo, "ordenadores portátiles" generaría un listado de resultados que coincidan con la frase exacta.</p><p>Los paréntesis pueden usarse para filtrar más los resultados.<br>Por ejemplo, Microsoft AND (teclado OR ratón or "visual basic")</p>.',
+    'TEXT_SEARCH_HELP' => 'Las palabras pueden estar separadas por los operadores AND (Y) y/o OR (O) para un mejor control de los resultados de la búsqueda.<br><br>Por ejemplo, Microsoft AND ratón generaría un listado de resultados que contengan ambas palabras. Así, para ratón OR teclado, el listado de resultados contendría ambas o algunas de las palabras.<br><br>Las coincidencias exactas pueden buscarse encerrando las palabras entre comillas dobles.<br><br>Por ejemplo, "ordenadores portátiles" generaría un listado de resultados que coincidan con la frase exacta.<br><br>Los paréntesis pueden usarse para un control más avanzado de los resultados.<br><br>Por ejemplo, Microsoft and (teclado or ratón or "visual basic")</span>.',
     'TEXT_SEARCH_HELP_LINK' => 'Ayuda Búsqueda [?]',
     'TEXT_SEARCH_IN_DESCRIPTION' => 'Buscar en las Descripciones de los Productos',
     'TEXT_SHIPPING_BOXES' => 'Cajas',
-    'TEXT_SHIPPING_WEIGHT' => ' lbs',
+*/
+    'TEXT_SHIPPING_WEIGHT' => ' kg',
+/*
     'TEXT_SHOWCASE_ONLY' => 'Contáctenos',
     'TEXT_SORT_PRODUCTS' => 'Ordenar productos ',
-    'TEXT_TOP' => 'Inicio',
     'TEXT_TOTAL_AMOUNT' => '&nbsp;&nbsp;Valor: ',
     'TEXT_TOTAL_ITEMS' => 'Productos: ',
     'TEXT_TOTAL_WEIGHT' => '&nbsp;&nbsp;Peso: ',
@@ -523,8 +536,10 @@ $define = [
     'WARNING_NO_FILE_UPLOADED' => 'Advertencia: no se subió el fichero.',
     'WARNING_PRODUCT_QUANTITY_ADJUSTED' => 'La cantidad ha sido ajustada al nivel de stock disponible. ',
     'WARNING_SHOPPING_CART_COMBINED' => 'AVISO: Para su comodidad, en el carro permanecen los productos añadidos en su última visita. Por favor, revise su carro antes de finalizar la sesión.',
+*/
 ];
 
+/*
 // Definitions that require references to other definitions
     $define['ATTRIBUTES_QTY_PRICE_SYMBOL'] = zen_image(DIR_WS_TEMPLATE_ICONS . 'icon_status_green.gif', $define['TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK'], 10, 10) . '&nbsp;';
     $define['BOX_HEADING_GIFT_VOUCHER'] = $define['TEXT_GV_NAME'] . ' Cuenta';
@@ -544,4 +559,5 @@ $define = [
     $define['TEXT_SEND_OR_SPEND'] = 'Tiene un saldo positivo en su cuenta ' . $define['TEXT_GV_NAME'] . ' cuenta. Puede gastarlo o enviárselo a otro usuario. Para enviarlo, haga un click en el botón abajo.';
     $define['VOUCHER_BALANCE'] = ' Saldo ' . $define['TEXT_GV_NAME'];
 
+*/
 return $define;

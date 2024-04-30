@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: brittainmark 2022 Jan 16 Modified in v1.5.8-alpha $
+ * @version $Id: DrByte 2024 Mar 20 Modified in v2.0.0 $
  */
 
 return [
@@ -68,6 +68,7 @@ return [
 'TEXT_LOADING_CHARSET_SPECIFIC' => 'Cargando datos del Conjunto de Caracteres Específicos',
 'TEXT_LOADING_DEMO_DATA' => 'Cargando Datos de Demostración',
 'TEXT_LOADING_PLUGIN_DATA' => 'Cargando SQL para los Plugins incluidos',
+'TEXT_LOADING_PLUGIN_UPGRADES' => 'Cargando SQL para actualizaciones de Plugins',
 'TEXT_COULD_NOT_UPDATE_BECAUSE_ANOTHER_VERSION_REQUIRED' => 'No se pudo actualizar la BB.DD a la versión %s. Se ha detectado que la versión actual es v%s, es imprescindible que antes se lleven a cabo actualizaciones para llegar a la %s.',
 'TEXT_PAGE_HEADING_ADMIN_SETUP' => 'Configuración Admin',
 'TEXT_ADMIN_SETUP_USER_SETTINGS' => 'Configuración Usuario Admin',
@@ -82,9 +83,6 @@ return [
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY_HELP_DEFAULT' => 'No se pudo renombrar la carpeta de los archivos Admin automáticamente. Tendrá que cambiar el nombre por defecto “admin” por un nombre difícil de adivinar antes de que pueda usar/entrar en la zona Admin.',
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY_HELP_NOT_ADMIN_CHANGED' => 'No se cambió el nombre de la carpeta de los archivos Admin dado que ya es distinto al nombre por defecto ("admin") ',
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY_HELP_CHANGED' => 'Es posible que el nombre de la carpeta de los archivos Admin haya sido cambiado automáticamente. El nombre actual/nuevo se muestra a continuación. Se puede cambiar el nombre a otro que no sea "admin" ',
-'TEXT_ADMIN_SETUP_NEWSLETTER_SETTINGS' => 'Boletines',
-'TEXT_ADMIN_SETUP_NEWSLETTER_EMAIL' => 'Email del Boletín: ',
-'TEXT_ADMIN_SETUP_NEWSLETTER_OPTIN' => 'Recibir: ',
 'TEXT_PAGE_HEADING_COMPLETION' => 'Se ha terminado la instalación.',
 'TEXT_COMPLETION_HEADER_MAIN' => '',
 'TEXT_COMPLETION_INSTALL_COMPLETE' => '',
@@ -125,18 +123,17 @@ return [
 'TEXT_NAVBAR_DATABASE_SETUP' => 'Ajustes de la Base de Datos',
 'TEXT_NAVBAR_ADMIN_SETUP' => 'Ajustes Admin',
 'TEXT_NAVBAR_COMPLETION' => 'Completado',
-'TEXT_NAVBAR_PAYMENT_PROVIDERS' => 'Proveedor de Servicios de Pago',
 'TEXT_INDEX_ALERTS' => 'Avisos',
 'TEXT_ERROR_PROBLEMS_WRITING_CONFIGUREPHP_FILES' => 'Hubo problemas en la preparación de los archivos configure.php. ¡LA INSTALACIÓN NO SE COMPLETÓ!.<br>Es posible que hayan archivos mostrando el problema en la carpeta /logs/.',
 'TEXT_ERROR_COULD_NOT_READ_CFGFILE_TEMPLATE' => 'No se pudo leer master config file layout: %s. Asegúrese de que el archivo existe y de que se puede leer.',
 'TEXT_ERROR_COULD_NOT_WRITE_CONFIGFILE' => 'No se pudo editar el archivo config generado: %s. Asegúrese de que el archivo existe y de que se puede editar. ',
 'TEXT_ERROR_STORE_CONFIGURE' => 'Archivo catálogo /includes/configure.php no existe /no se puede leer / no se puede editar',
 'TEXT_ERROR_ADMIN_CONFIGURE' => 'Archivo admin /admin/includes/configure.php no existe /no se puede leer / no se puede editar ',
-'TEXT_ERROR_PHP_VERSION' => str_replace(["\n", "\r"], '', 'Versión PHP Incompatible.<p>La versión PHP que esta utilizando (' . PHP_VERSION . ') no es compatible.</p><p>Está versión Zen Cart&reg; es compatible con versiones PHP 7.3 hasta 8.2, aunque 8.1.x o mayor está recomendado.<br>Revise la página web <a href="https://www.zen-cart.com">www.zen-cart.com</a> para comprobar la versión más actual de Zen Cart&reg;.</p><p>Revise <a href="https://docs.zen-cart.com/user/first_steps/server_requirements/">Zen Cart Server Requirements</a> para más información sobre compatibilidad y los requisitos.</p>'),
+'TEXT_ERROR_PHP_VERSION' => str_replace(["\n", "\r"], '', 'Versión PHP Incompatible.<p>La versión PHP que esta utilizando (' . PHP_VERSION . ') no es compatible.</p><p>Está versión Zen Cart&reg; es compatible con versiones PHP 8.0 hasta 8.3, aunque 8.2.x o mayor está recomendado.<br>Revise la página web <a href="https://www.zen-cart.com">www.zen-cart.com</a> para comprobar la versión más actual de Zen Cart&reg;.</p><p>Revise <a href="https://docs.zen-cart.com/user/first_steps/server_requirements/">Zen Cart Server Requirements</a> para más información sobre compatibilidad y los requisitos.</p>'),
 'TEXT_ERROR_PHP_VERSION_RECOMMENDED' => '<p>Para mayor seguridad y compatibilidad debería usar PHP %s o mayor. El proceso de instalación puede continuar, pero debería tomar en cuenta que su tienda no cumplirá con los requisitos PCI si está utilizando software no actualizado.</p><p>Consulte <a href="https://www.php.net/supported-versions">página web PHP</a> para más información.</p><p>Revise <a href="https://docs.zen-cart.com/user/first_steps/server_requirements/">Zen Cart Server Requirements</a> para más detalles sobe compatibilidad y requisitos.</p>',
 'TEXT_ERROR_PHP_VERSION_MIN' => 'Versión PHP debería ser igual o mayor que %s',
 'TEXT_ERROR_PHP_VERSION_MAX' => 'Versión PHP debería ser menor or igual que %s',
-'TEXT_ERROR_MYSQL_SUPPORT' => 'Hay problemas con la configuración MySQL (mysqli). Parece que en su servidor falta la extensión mysqli para PHP: sin la extensión no se puede conectar a la base de datos. Su empresa de hosting debería solucionarlo.',
+'TEXT_ERROR_MYSQL_SUPPORT' => 'Hay problemas con el uso de MySQL (mysqli). Parece que en su servidor falta la extensión mysqli para PHP que es necesario para conectar a la base de datos. Su empresa de hosting debería solucionarlo.',
 'TEXT_ERROR_PDOMYSQL_SUPPORT' => 'Hay problemas con el soporte MySQL (pdo_mysql). Parece que el servidor falta la extensión pdo_mysql extension para PHP, no se puede conectar a la base de datos sin esta extensión. Debería pedir ayuda a su empresa de hosting.',
 'TEXT_ERROR_PDOSQLITE_SUPPORT' => 'Parece que el servidor falta la extensión pdo_sqlite extension para PHP que se usa para almacenar datos y pruebas. Debería pedir ayuda a su empresa de hosting.',
 'TEXT_ERROR_PHPZIP_SUPPORT' => 'Parece que a su servidor le falta la extensión php-zip para PHP que se usa para descomprimir archivos zip al instalar las imágenes de datos de demostración. Hable con su empresa de hosting para obtener ayuda.',
@@ -157,6 +154,7 @@ return [
 'TEXT_ERROR_DB_CONNECTION_UPGRADE' => 'Problemas con la base de datos, basados en los valores del configure.php actual',
 'TEXT_ERROR_SET_TIME_LIMIT' => 'max_execution_time no habilitado',
 'TEXT_ERROR_GD' => 'Extensión GD no habilitado',
+'TEXT_ERROR_INTL' => 'Extension INTL no habilitado. Es necesario para manejar fechas y locales.',
 'TEXT_ERROR_JSON' => 'Extensión JSON no habilitado. Es necesario para procesando datos en muchas partes de Zen Cart.',
 'TEXT_ERROR_FILEINFO' => 'Extensión Fileinfo no habilitado. Está utilizado para calculando tamaños de archivos.',
 'TEXT_ERROR_ZLIB' => 'Extensión Zlib Extension no habilitado',
@@ -173,6 +171,7 @@ return [
 'TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE_NO_UPDATE' => ' Se ha encontrado un archivo configure.php existente y la base de datos parece actualizada. Esto puede indicar que esta es una tienda en producción. ¡El proceso de instalación borrará todo el contenido de la base de datos! ¿Está seguro que quieres continuar??',
 'TEXT_ERROR_MULTIPLE_ADMINS_NONE_SELECTED' => 'Parece que hay más de un directorio que contiene archivos de Admin. Debería borrar las copias/versiones viejas o elegir la versión actual y refrescar la página.',
 'TEXT_ERROR_MULTIPLE_ADMINS_SELECTED' => ' Parece que hay más de un directorio que contiene archivos de Admin. Si el directorio indicado/preseleccionado es incorrecto, elija el correcto y refresque la página.',
+'TEXT_ERROR_MYSQL_VERSION' => 'La versión de la base de datos es inferior de lo mínimo necesario. MySQL: %s o MariaDB: %s',
 'TEXT_ERROR_SUCCESS_NO_ERRORS' => 'No se han encontrado problemas con el sistema. Puede seguir con la instalación.',
 'TEXT_UPGRADE_INFO' => '%%TEXT_UPGRADE%%' . ': inspeccionará su base de datos y a continuación ofrecerá los pasos necesarios para modificarla a la versión actual (añadir campos nuevos/modificando campos existentes). Es un proceso no destructivo pero como en cualquier proceso de manipulación de su base de datos, es imprescindible que tenga un backup verificado de su base de datos antes de tocar nada.',
 'TEXT_CLEAN_INSTALL_INFO' => '%%TEXT_CLEAN_INSTALL%%' . ': reseteará la base de datos a un estado nuevo/vacío, borrando todos los datos. Opcionalmente, se pueden instalar los productos de ejemplo Demo Data en este proceso.',
@@ -368,4 +367,6 @@ A continuación, hay medidas similares para servidores Nginx.</p>
 <p><strong>11</strong>. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</p>
 <p><strong>12</strong>. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
 <p><strong>END OF TERMS AND CONDITIONS</strong></p>',
+    'TEXT_UPGRADING_TO_VERSION' => 'Actualizando a la versión %s',
+    'TEXT_PROGRESS_FINISHED' => 'Terminado',
 ];
