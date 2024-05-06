@@ -6,7 +6,7 @@
  * @version $Id: Steve 2024 Mar 23 Modified in v2.0.0 $
 */
 
-@setlocale(LC_TIME, ['es_ES.utf8', 'es-ES', 'es']);
+@setlocale(LC_TIME, ['es_ES', 'es_ES.utf8', 'es-ES', 'es_US.utf8', 'es', 'Inglés_Estados Unidos.1252']);
 
 $define = [
     'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X (%Z)',
@@ -77,7 +77,6 @@ $define = [
     'BOX_COUPON_ADMIN' => 'Gestionar Cupones',
     'BOX_COUPON_REFERRERS' => 'Referentes Cupones',
     'BOX_COUPON_RESTRICT' => 'Restricciones de Cupones',
-    'BOX_CUSTOMERS_CUSTOMER_GROUPS' => 'Grupos de Clientes',
     'BOX_CUSTOMERS_CUSTOMERS' => 'Clientes',
     'BOX_CUSTOMERS_GROUP_PRICING' => 'Precios por Grupo',
     'BOX_CUSTOMERS_INVOICE' => 'Factura',

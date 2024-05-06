@@ -5,7 +5,7 @@
 // other processing.
 //
 global $locales;
-$locales = ['es_ES.utf8', 'es-ES', 'es'];//'es-ES' is for Windows
+$locales = ['es_ES', 'es_ES.utf8', 'es-ES', 'es_US.utf8', 'es', 'Inglés_Estados Unidos.1252'];
 @setlocale(LC_TIME, $locales);
 
 $define = [

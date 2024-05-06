@@ -8,12 +8,12 @@
 
 $define = [
     'HEADING_TITLE' => 'Órdenes de las Opciones',
-      'TEXT_EDIT_ALL' => 'Editando todos los Nombres de las Opciones',
-      'TEXT_CURRENT_NAME' => 'Nombre Actual',
-      'TEXT_OPTION_TYPE' => 'Tipo',
-      'TEXT_SELECTED_LANGUAGE' => 'Idioma: ',
-      'TEXT_UPDATE_SUBMIT' => 'Actualizar Órden',
-      'SUCCESS_OPTION_SORT_ORDER' => 'Los órdenes de los Nombres de las Opciones han sido actualizados correctamente',
+    'TEXT_EDIT_ALL' => 'Editando todos los Nombres de las Opciones',
+    'TEXT_CURRENT_NAME' => 'Nombre Actual',
+    'TEXT_OPTION_TYPE' => 'Tipo',
+    'TEXT_SELECTED_LANGUAGE' => 'Idioma: ',
+    'TEXT_UPDATE_SUBMIT' => 'Actualizar Órden',
+    'SUCCESS_OPTION_SORT_ORDER' => 'Los órdenes de los Nombres de las Opciones han sido actualizados correctamente',
 ];
 
 return $define;

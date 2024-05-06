@@ -1,4 +1,4 @@
-<p><strong>Español Checkout Success Sample Text ...</strong></p><p>A few words about the approximate shipping time or your processing policy would be put here. </p>
-<p>This section of text is from the Define Pages Editor located under Tools in the Admin.</p>
-<p>This file is located in<code> /languages/spanish/html_includes/classic/</code></p>
-<p><strong>NOTE: Always backup the files in<code> /languages/spanish/html_includes/your_template</code></strong></p>
+<p><strong>Checkout Éxito Texto de Ejemplo...</strong></p><p>Aquí se pondrían unas palabras sobre el tiempo aproximado de envío o su política de procesamiento. </p>
+<p>Esta sección del texto es del Editor de definiciones de páginas ubicado en Herramientas del Administrador.</p>
+<p>Este archivo se encuentra en<code> /languages/spanish/html_includes/classic/</code></p>
+<p><strong>NOTA: Siempre copia de seguridad de los archivos en<code> /languages/spanish/html_includes/your_template</code></strong></p>
