@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: neekfenwick 2024 Feb 23 Modified in v2.0.0-beta1 $
+ * @version $Id: neekfenwick 2024 Feb 29 Modified in v2.0.0-rc1 $
 */
 
 $define = [
@@ -50,7 +50,7 @@ $define = [
     'COUPON_FREE_SHIP' => 'Envío gratis',
     'COUPON_DESC' => 'Descripción del Cupón<br>(A la vista del cliente)',
     'COUPON_MIN_ORDER' => 'Mínimo del Pedido para obtener cupón',
-    'COUPON_TOTAL' => 'Mínimo del Cupón calculado desde: ',
+    'COUPON_TOTAL' => 'Mínimo del Cupón calculado desde: ',//TODO check what is this?
     'TEXT_COUPON_TOTAL_PRODUCTS' => 'Productos Válidos',
     'TEXT_COUPON_TOTAL_PRODUCTS_BASED' => '<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Basado en el Total de Productos Válidos en acuerdo con las reglas de Restricciones del Cupón)',
     'TEXT_COUPON_TOTAL_ORDER' => 'Todos los Productos',
