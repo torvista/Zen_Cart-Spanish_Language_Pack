@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'BOX_REPORTS_SALES_REPORT_GRAPHS' => 'Informe de ventas',
+    'BOX_REPORTS_SALES_REPORT_GRAPHS' => 'Informe de Ventas',
 ];
 
 return $define;

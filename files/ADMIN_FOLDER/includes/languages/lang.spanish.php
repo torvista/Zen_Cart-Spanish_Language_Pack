@@ -78,6 +78,7 @@ $define = [
     'BOX_COUPON_REFERRERS' => 'Referentes Cupones',
     'BOX_COUPON_RESTRICT' => 'Restricciones de Cupones',
     'BOX_CUSTOMERS_CUSTOMERS' => 'Clientes',
+    'BOX_CUSTOMERS_CUSTOMER_GROUPS' => 'Grupos de Clientes',
     'BOX_CUSTOMERS_GROUP_PRICING' => 'Precios por Grupo',
     'BOX_CUSTOMERS_INVOICE' => 'Factura',
     'BOX_CUSTOMERS_ORDERS' => 'Pedidos',

@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'TEXT_COUNT_CUSTOMERS' => 'Clientes que reciben boletín: %s',
+    'TEXT_COUNT_CUSTOMERS' => 'Clientes que reciben el boletín: %s',
     'HEADING_TITLE' => 'Admin Boletín',
     'TEXT_NEWSLETTER_MODULE' => 'Módulo:',
     'TEXT_NEWSLETTER_TITLE' => 'Asunto:',
