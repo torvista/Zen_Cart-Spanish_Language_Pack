@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Admin Account',
+    'HEADING_TITLE' => 'Cuenta Admin',
     'SUCCESS_PASSWORD_UPDATED' => 'Contraseña actualizada.',
 ];
 
