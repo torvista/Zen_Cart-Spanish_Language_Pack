@@ -3,10 +3,10 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Steve 2024 Mar 23 Modified in v2.0.0 $
+ * @version $Id: Scott Wilson 2024 Apr 07 Modified in v2.0.1 $
 */
 
-@setlocale(LC_TIME, ['es_ES', 'es_ES.utf8', 'es-ES', 'es_US.utf8', 'es']);
+@setlocale(LC_TIME, ['es_ES', 'es_ES.utf8', 'es-ES', 'es']);
 
 $define = [
     'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X (%Z)',
@@ -77,8 +77,8 @@ $define = [
     'BOX_COUPON_ADMIN' => 'Gestionar Cupones',
     'BOX_COUPON_REFERRERS' => 'Referentes Cupones',
     'BOX_COUPON_RESTRICT' => 'Restricciones de Cupones',
-    'BOX_CUSTOMERS_CUSTOMERS' => 'Clientes',
     'BOX_CUSTOMERS_CUSTOMER_GROUPS' => 'Grupos de Clientes',
+    'BOX_CUSTOMERS_CUSTOMERS' => 'Clientes',
     'BOX_CUSTOMERS_GROUP_PRICING' => 'Precios por Grupo',
     'BOX_CUSTOMERS_INVOICE' => 'Factura',
     'BOX_CUSTOMERS_ORDERS' => 'Pedidos',
