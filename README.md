@@ -1,8 +1,9 @@
-# Zen Cart - Spanish Language Pack for Zen Cart v2.1
+# Zen Cart - Spanish Language Pack for Zen Cart v2.0+
 
-Complete fileset (Installer, Shopfront, Admin and example Plugin).  
-Tracks the Zen Cart "2.0" branch, for bugfixes only on the current production version 2.1.
-=======
-Branch "main" tracks the Zen Cart "master" development branch, currently 2.1 onwards
+Complete fileset (Installer, Shopfront, Admin and example Plugin).
 
 See the /docs/spanish_language_pack/index.html for installation and use.
+
+Branch "main" tracks the Zen Cart "master" branch development branch, currently 2.0.1 onwards.
+
+Branch "2.0" tracks the Zen Cart production "2.0" branch, for bugfixes currently at 2.0.1. 
