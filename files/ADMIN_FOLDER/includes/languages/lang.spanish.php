@@ -6,7 +6,7 @@
  * @version $Id: Steve 2024 Mar 23 Modified in v2.0.0 $
 */
 
-@setlocale(LC_TIME, ['es_ES.utf8', 'es-ES', 'es']);
+@setlocale(LC_TIME, ['es_ES', 'es_ES.utf8', 'es-ES', 'es_US.utf8', 'es']);
 
 $define = [
     'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X (%Z)',
@@ -40,12 +40,12 @@ $define = [
     'BOX_CATALOG_FEATURED' => 'Productos Destacados',
     'BOX_CATALOG_MANUFACTURERS' => 'Fabricantes',
     'BOX_CATALOG_PRODUCT' => 'Producto',
-    'BOX_CATALOG_PRODUCT_OPTIONS_NAME' => 'Ordenar Nombres de Opciones',
-    'BOX_CATALOG_PRODUCT_OPTIONS_VALUES' => 'Ordenar Valores de Opciones',
-    'BOX_CATALOG_PRODUCT_TYPES' => 'Tipos de productos',
     'BOX_CATALOG_PRODUCTS_EXPECTED' => 'Productos Esperados',
     'BOX_CATALOG_PRODUCTS_PRICE_MANAGER' => 'Gestor de Precios de Productos',
     'BOX_CATALOG_PRODUCTS_TO_CATEGORIES' => 'Productos a Categorías',
+    'BOX_CATALOG_PRODUCT_OPTIONS_NAME' => 'Ordenar Nombres de Opciones',
+    'BOX_CATALOG_PRODUCT_OPTIONS_VALUES' => 'Ordenar Valores de Opciones',
+    'BOX_CATALOG_PRODUCT_TYPES' => 'Tipos de productos',
     'BOX_CATALOG_REVIEWS' => 'Comentarios',
     'BOX_CATALOG_SALEMAKER' => 'Rebajas',
     'BOX_CATALOG_SPECIALS' => 'Ofertas',
@@ -77,8 +77,8 @@ $define = [
     'BOX_COUPON_ADMIN' => 'Gestionar Cupones',
     'BOX_COUPON_REFERRERS' => 'Referentes Cupones',
     'BOX_COUPON_RESTRICT' => 'Restricciones de Cupones',
-    'BOX_CUSTOMERS_CUSTOMER_GROUPS' => 'Grupos de Clientes',
     'BOX_CUSTOMERS_CUSTOMERS' => 'Clientes',
+    'BOX_CUSTOMERS_CUSTOMER_GROUPS' => 'Grupos de Clientes',
     'BOX_CUSTOMERS_GROUP_PRICING' => 'Precios por Grupo',
     'BOX_CUSTOMERS_INVOICE' => 'Factura',
     'BOX_CUSTOMERS_ORDERS' => 'Pedidos',

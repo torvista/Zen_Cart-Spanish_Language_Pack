@@ -1,4 +1,4 @@
-<p><strong>Español Custom 404 Error Page with Site Map Sample Text ...</strong></p>
-<p>Put your custom "page not found" message here.  You can change this text in the Define Pages Editor located under Tools in the Admin.</p>
-<p>This file is located in<code> /languages/spanish/html_includes/classic/</code></p>
-<p><strong>NOTE: Always backup the files in<code> /languages/spanish/html_includes/your_template</code></strong></p>
+<p><strong>Página de error 404 personalizada con el texto de muestra del mapa del sitio ...</strong></p>
+<p>Pon aquí tu mensaje personalizado de "página no encontrada".  Puede cambiar este texto en el Editor de definiciones de páginas ubicado en Herramientas del Administrador.</p>
+<p>Este archivo se encuentra en<code> /languages/spanish/html_includes/classic/</code></p>
+<p><strong>NOTA: Siempre copia de seguridad de los archivos en<code> /languages/spanish/html_includes/your_template</code></strong></p>

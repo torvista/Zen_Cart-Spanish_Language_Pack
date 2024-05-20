@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Gestor de Banners',
+    'HEADING_TITLE' => 'Gestión de Banners',
     'TABLE_HEADING_BANNERS' => 'Banners',
     'TABLE_HEADING_GROUPS' => 'Grupos',
     'TABLE_HEADING_STATISTICS' => 'Muestras / Clicks',

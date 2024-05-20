@@ -15,7 +15,7 @@ $define = [
     'TEXT_DOCUMENT_IMAGE' => 'Imagen Documento:',
     'TEXT_DOCUMENT_IMAGE_DIR' => 'Subir al directorio:',
     'TEXT_DOCUMENT_URL' => 'URL Documento:',
-    'TEXT_DOCUMENT_URL_WITHOUT_HTTP' => '<small>(sin http://)</small>',
+    'TEXT_DOCUMENT_URL_WITHOUT_HTTP' => '<small>(sin https://)</small>',
 ];
 
 return $define;
