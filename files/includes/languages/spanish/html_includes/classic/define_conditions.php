@@ -1,4 +1,4 @@
-<p><strong>Condiciones de Uso Texto de Ejemplo...</strong></p><p>Esta sección del texto es del Editor de definiciones de páginas ubicado en Herramientas del Administrador.</p>
+<p><strong>Español Conditions of Use Sample Text ...</strong></p><p>This section of text is from the Define Pages Editor located under Tools in the Admin.</p>
 <p>To remove this section of the text, delete it from the Define Pages Editor.</p>
-<p>Este archivo se encuentra en<code> /languages/spanish/html_includes/classic/</code></p>
-<p><strong>NOTA: Siempre copia de seguridad de los archivos en<code> /languages/spanish/html_includes/your_template</code></strong></p>
+<p>This file is located in<code> /languages/spanish/html_includes/classic/</code></p>
+<p><strong>NOTE: Always backup the files in<code> /languages/spanish/html_includes/your_template</code></strong></p>

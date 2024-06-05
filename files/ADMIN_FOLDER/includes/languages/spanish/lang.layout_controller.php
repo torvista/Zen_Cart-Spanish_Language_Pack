@@ -43,7 +43,7 @@ $define = [
     'TEXT_GOOD_BOX' => ' ',
     'TEXT_BAD_BOX' => '<span class="txt-red"><b>FALTA</b></span><br>',
     'SUCCESS_BOX_DELETED' => 'Borrado correctamente el recuadro: ',
-    'SUCCESS_BOX_RESET' => 'La configuración para [%s] ha sido cambiado a la configuración de [%s].',
+    'SUCCESS_BOX_RESET' => 'La configuración para [%1$s] ha sido cambiado a la configuración de [%1$s].',
     'SUCCESS_BOX_UPDATED' => 'Recuadro actualizada correctamente: ',
     'TEXT_ON' => ' ACTIVADO ',
     'TEXT_OFF' => ' DESACTIVADO ',

@@ -16,7 +16,7 @@ $define = [
     'TEXT_NEW_INTRO' => 'Complete la siguiente información para el nuevo fabricante',
     'TEXT_MANUFACTURERS_NAME' => 'Nombre del fabricante:',
     'TEXT_MANUFACTURERS_IMAGE' => 'Imagen del fabricante:',
-    'TEXT_MANUFACTURERS_URL' => 'URL del fabricante:<br> (incluya http://)',
+    'TEXT_MANUFACTURERS_URL' => 'URL del fabricante:<br> (incluya https://)',
     'TEXT_DELETE_INTRO' => '¿Seguro que desea eliminar este fabricante?',
     'TEXT_DELETE_PRODUCTS' => '¿Eliminar productos de este fabricante? (incluyendo los comentarios de productos => las ofertas => los productos esperados)',
     'TEXT_DELETE_WARNING_PRODUCTS' => '<b>ADVERTENCIA:</b> ¡Hay %s productos que siguen vinculados a este fabricante!',

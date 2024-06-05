@@ -33,7 +33,7 @@ $define = [
     'TABLE_HEADING_PAGE_IS_VISIBLE' => 'Páge es visible:',
     'TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION' => 'Se muestra la Página aunque no está en la cabecera => pie o recuadro.<br>
 (Si todos los valores de Visible => Cabecera => Pie y Recuadro están desactivados => el cliente verá Página No Encontrada.)',
-    'TEXT_DISPLAY_NUMBER_OF_PAGES' => 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> páginas)',
+    'TEXT_DISPLAY_NUMBER_OF_PAGES' => 'Mostrando <b>%1$d</b> a <b>%2$d</b> (de <b>%3$d</b> páginas)',
     'IMAGE_NEW_PAGE' => 'Página Nueva',
     'TEXT_INFO_PAGES_ID' => 'ID: ',
     'TEXT_INFO_PAGES_ID_SELECT' => 'Elija una página ...',

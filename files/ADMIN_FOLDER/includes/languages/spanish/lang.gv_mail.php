@@ -21,7 +21,7 @@ $define = [
     'TEXT_HTML_MESSAGE' => 'Mensaje HTML::',
     'TEXT_MESSAGE' => 'Mensaje de Texto:',
     'TEXT_MESSAGE_INFO' => '<p>Opcionalment => se puede añadir un mensaje personalizado que se incluirá antes del texto estándar ' . TEXT_GV_NAME . '</p>',
-    'NOTICE_EMAIL_SENT_TO' => 'Aviso: %1s email(s) enviado(s) a: %2s',
+    'NOTICE_EMAIL_SENT_TO' => 'Aviso: %1$s email(s) enviado(s) a: %2$s',
     'ERROR_NO_CUSTOMER_SELECTED' => 'Error: No se seleccionó ningún Cliente.',
     'ERROR_NO_AMOUNT_ENTERED' => 'Error: Valor inválido.',
     'ERROR_NO_SUBJECT' => 'Error: email sin Asunto.',

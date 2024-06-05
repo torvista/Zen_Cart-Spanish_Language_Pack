@@ -83,7 +83,7 @@ $define = [
     'TEXT_DELETE_ALL_OPTIONS_FROM_PRODUCT' => 'Borrar todas las opciones del producto',
     'TEXT_COPY_ALL_OPTIONS_TO_PRODUCT' => 'Copiar las opciones a otro producto',
     'TEXT_COPY_ALL_OPTIONS_TO_CATEGORY' => 'Copiar las opciones a una categoría ENTERA',
-    'TEXT_DISPLAY_NUMBER_OF_ATTRIBUTES' => 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> Atributos)',
+    'TEXT_DISPLAY_NUMBER_OF_ATTRIBUTES' => 'Mostrando <b>%1$d</b> a <b>%2$d</b> (de <b>%3$d</b> Atributos)',
 ];
 
 return $define;

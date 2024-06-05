@@ -18,7 +18,7 @@ $define = [
     'TEXT_EXTENSION' => 'Extensión: ',
     'TEXT_NEW_INTRO' => 'Rellene la siguiente información para el nuevo tipo de medio',
     'TEXT_DELETE_INTRO' => '¿Está seguro de que desea borrar este tipo de medio?',
-    'TEXT_DISPLAY_NUMBER_OF_MEDIA_TYPES' => 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Tipos de Medio)',
+    'TEXT_DISPLAY_NUMBER_OF_MEDIA_TYPES' => 'Mostrando del <strong>%1$d</strong> al <strong>%2$d</strong> (de <strong>%3$d</strong> Tipos de Medio)',
 ];
 
 return $define;

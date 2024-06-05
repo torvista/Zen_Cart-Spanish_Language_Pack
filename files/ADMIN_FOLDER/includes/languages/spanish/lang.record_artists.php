@@ -19,7 +19,7 @@ $define = [
     'TEXT_HEADING_NEW_RECORD_ARTIST' => 'Nuevo artista',
     'TEXT_HEADING_EDIT_RECORD_ARTIST' => 'Editar artista',
     'TEXT_HEADING_DELETE_RECORD_ARTIST' => 'Borrar artista',
-    'TEXT_DISPLAY_NUMBER_OF_ARTISTS' => 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> artistas)',
+    'TEXT_DISPLAY_NUMBER_OF_ARTISTS' => 'Mostrando del <strong>%1$d</strong> al <strong>%2$d</strong> (de <strong>3$d</strong> artistas)',
     'TEXT_DELETE_PRODUCTS' => '¿Borrar este artista y todos los elementos enlazados a él?',
     'TEXT_DELETE_WARNING_PRODUCTS' => '<b>ATENCIÓN:</b> ¡Hay %s elementos enlazados todavía a este artista!',
 ];

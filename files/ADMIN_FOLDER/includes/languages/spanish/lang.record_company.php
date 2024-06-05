@@ -19,7 +19,7 @@ $define = [
     'TEXT_HEADING_NEW_RECORD_COMPANY' => 'Nueva discográfica',
     'TEXT_HEADING_EDIT_RECORD_COMPANY' => 'Editar discográfica',
     'TEXT_HEADING_DELETE_RECORD_COMPANY' => 'Borrar discográfica',
-    'TEXT_DISPLAY_NUMBER_OF_RECORD_COMPANIES' => 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> discográficas)',
+    'TEXT_DISPLAY_NUMBER_OF_RECORD_COMPANIES' => 'Mostrando del <strong>%1$d</strong> al <strong>%2$d</strong> (de <strong>%3$d</strong> discográficas)',
     'TEXT_DELETE_PRODUCTS' => '¿Borrar esta discográfica y todos los elementos enlazados a ella?',
     'TEXT_DELETE_WARNING_PRODUCTS' => '<b>ATENCIÓN:</b> ¡Hay %s elementos todavía enlazados a esta discográfica!',
 ];

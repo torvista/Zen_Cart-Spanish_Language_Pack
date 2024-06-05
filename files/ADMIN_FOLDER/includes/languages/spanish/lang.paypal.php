@@ -27,7 +27,7 @@ $define = [
     'TABLE_HEADING_TRANS_ID' => 'ID de trans.',
     'TABLE_HEADING_PENDING_REASON' => 'Razón Pendiente',
     'TEXT_INFO_PAYPAL_IPN_HEADING' => 'PayPal IPN',
-    'TEXT_DISPLAY_PAYPAL_IPN_NUMBER_OF_TX' => 'Mostrando del <strong>%d</strong> al <strong>%d</strong> (de <strong>%d</strong> Transacciones)',
+    'TEXT_DISPLAY_PAYPAL_IPN_NUMBER_OF_TX' => 'Mostrando del <strong>%1$d</strong> al <strong>%2$d</strong> (de <strong>%3$d</strong> Transacciones)',
 ];
 
 return $define;

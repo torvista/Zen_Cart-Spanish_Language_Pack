@@ -1,2 +1,2 @@
-<p>Este archivo se encuentra en includes/languages/spanish/html_includes/define_shopping_cart.php</p>
-<p>Edite este texto (el que está leyendo ahora) en Administrador > Herramientas > Define Page Editor para escribir aquí su mensaje personal de carrito de compras</p>
+<p>This file is found in includes/languages/spanish/html_includes/define_shopping_cart.php</p>
+<p>Edit this text (the one you are reading now) in Admin > Tools > Define Pages Editor to write your personal shopping cart message here</p>

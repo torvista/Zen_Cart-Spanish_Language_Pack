@@ -2,7 +2,7 @@
 $define = [
     'TEXT_GREETING_GUEST' => '¡Bienvenido/a! ¿Quiere <a href="%s">identificarse</a>?',
     'TEXT_GREETING_GUEST_SHOWCASE' => 'Bienvenido, esperamos que disfrute de nuestro escaparate virtual.',
-    'TEXT_GREETING_PERSONAL' => '¡Hola <span class="greetUser">%s</span>! ¿Quiere ver nuestras <a href="%s">últimas novedades</a>?',
+    'TEXT_GREETING_PERSONAL' => '¡Hola <span class="greetUser">%1$s</span>! ¿Quiere ver nuestras <a href="%2$s">últimas novedades</a>?',
     'TEXT_INFORMATION' => 'Defina aquí su página índice principal.',
     'TABLE_HEADING_IMAGE' => '',
     'TEXT_NO_PRODUCTS' => 'No hay productos disponibles en esta categoría.',
