@@ -58,7 +58,6 @@ $define = [
     'EMAIL_TEXT_STATUS_UPDATED' => 'Su pedido ha sido actualizado al siguiente estado:' . "\n",
     'EMAIL_TEXT_STATUS_LABEL' => '<strong>Nuevo estado:</strong> %s' . "\n\n",
     'EMAIL_TEXT_STATUS_PLEASE_REPLY' => 'Conteste a este email si tiene alguna pregunta.' . "\n",
-    'ERROR_ORDER_DOES_NOT_EXIST' => 'Error: El pedido no existe.',
     'SUCCESS_ORDER_UPDATED' => 'Éxito: pedido ha sido actualizado correctamente.',
     'WARNING_ORDER_NOT_UPDATED' => 'Advertencia: No hay nada para cambiar. El pedido no fue actualizado.',
     'TEXT_INFO_ATTRIBUTE_FREE' => '&nbsp;-&nbsp;<span class="alert">GRATIS</span>',

@@ -229,6 +229,7 @@ $define = [
     'ERROR_NOTHING_SELECTED' => 'No se seleccionó nada ... no se efectuó ningún cambio',
     'ERROR_NO_DATA_TO_SAVE' => 'ERROR: Datos vacíos. SUS CAMBIOS *NO* HAN SIDO GUARDADOS. Posiblemente hay un problema con su navegador o su conexión a internet.',
     'ERROR_NO_DEFAULT_CURRENCY_DEFINED' => 'Error: Actualmente no hay una moneda establecida por defecto. Establezca una en: Administración->Localización->Monedas',
+    'ERROR_ORDER_DOES_NOT_EXIST' => 'Error: el pedido no existe.',
     'ERROR_ORDER_WEIGHT_ZERO_STATUS' => '<strong>Atención:</strong> Peso 0 está configurado para envío gratuito y el módulo de envío gratuito no está activado',
     'ERROR_PASSWORDS_NOT_MATCHING' => 'La contraseña y la confirmación deben coincidir',
     'ERROR_PASSWORD_RULES' => 'Una contraseña debe estar compuesta de letras y números; tener por lo menos %s caracteres y no puede ser igual a cualquiera de las últimas 4 contraseñas utilizadas. Las contraseñas caducan cada 90 días y la tienda le pedirá que cree una contraseña nueva.',
