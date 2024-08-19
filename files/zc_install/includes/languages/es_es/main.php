@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott Wilson 2024 Apr 07 Modified in v2.0.1 $
+ * @version $Id: DrByte 2024 May 27 Modified in v2.1.0-alpha1 $
  */
 
 return [
@@ -15,7 +15,7 @@ return [
 'TEXT_INDEX_WARN_ERRORS' => 'Otros Asuntos:',
 'TEXT_INDEX_WARN_ERRORS_ALT' => 'Algunos Asuntos:',
 'TEXT_HEADER_MAIN' => 'CONSEJO: Los títulos de los campos son enlaces de ayuda.',
-'TEXT_INDEX_HEADER_MAIN' => 'CONSEJO: Puede que haya más ayuda disponible pinchando en los <strong>títulos</strong> de algunos errores y avisos.',
+'TEXT_INDEX_HEADER_MAIN' => 'NOTA: Se puede hacer clic en los enlaces con un <u>icono de signo de interrogación <strong><i class="bi-question-circle"></i></strong></u> para explicar más detalles sobre un campo o un error.',
 'TEXT_INSTALLER_CHOOSE_LANGUAGE' => 'Idioma del Instalador',
 'TEXT_HELP_CONTENT_CHOOSE_LANG' => 'El idioma seleccionado es sólo para el proceso de instalación.<br>Los archivos de instalación de la aplicación Zen Cart&reg; incluyen solamente el idioma Inglés de EE.UU. .<br> Zen Cart&reg; soporta múltiples idiomas (dependiendo en la disponibilidad del pack de idioma).',
 'TEXT_PAGE_HEADING_SYSTEM_SETUP' => 'Configuración del Sistema',
@@ -76,8 +76,9 @@ return [
 'TEXT_EXAMPLE_USERNAME' => 'p.ej. Zenon',
 'TEXT_ADMIN_SETUP_USER_EMAIL' => 'Email Admin Superuser: ',
 'TEXT_EXAMPLE_EMAIL' => 'p.ej: my_email@example.com',
-'TEXT_ADMIN_SETUP_USER_EMAIL_REPEAT' => '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Confirmar email: ',
+'TEXT_ADMIN_SETUP_USER_EMAIL_REPEAT' => '... Confirmar email: ',
 'TEXT_ADMIN_SETUP_USER_PASSWORD' => 'Contraseña Admin: ',
+'TEXT_ADMIN_SETUP_MATCHING_EMAIL' => 'Se requiere una dirección de correo electrónico válida y coincidente.',
 'TEXT_ADMIN_SETUP_USER_PASSWORD_HELP' => '<strong>!TOME NOTA!</strong>: Más abajo se muestra la contraseña <em>temporal</em> para el Admin Superuser.',
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY' => 'Carpeta de archivos Admin: ',
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY_HELP_DEFAULT' => 'No se pudo renombrar la carpeta de los archivos Admin automáticamente. Tendrá que cambiar el nombre por defecto “admin” por un nombre difícil de adivinar antes de que pueda usar/entrar en la zona Admin.',
@@ -88,7 +89,7 @@ return [
 'TEXT_COMPLETION_INSTALL_COMPLETE' => '',
 'TEXT_COMPLETION_INSTALL_LINKS_BELOW' => 'A continuación se muestran los enlaces a la zona Admin y de la tienda:',
 'TEXT_COMPLETION_UPGRADE_COMPLETE' => 'Felicidades, la actualización se ha completado.',
-'TEXT_COMPLETION_ADMIN_DIRECTORY_WARNING' => 'No se pudo renombrar la carpeta de los archivos Admin automáticamente. Tendrá que cambiar el nombre a uno difícil de adivinar antes de que pueda usar/entrar en la zona Admin',
+'TEXT_COMPLETION_ADMIN_DIRECTORY_WARNING' => 'No se pudo renombrar la carpeta del admin automáticamente, tendrá que cambiar el nombre a uno difícil de adivinar antes de que pueda usar/entrar en la zona Admin',
 'TEXT_COMPLETION_INSTALLATION_DIRECTORY_WARNING' => 'Por seguridad, hay que borrar la carpeta "zc_install" <strong>ahora mismo</strong> del servidor.',
 'TEXT_COMPLETION_INSTALLATION_DIRECTORY_EXPLANATION' => 'Para evitar que personas ajenas puedan ejecutar el proceso de instalación otra vez, no es posible acceder a la zona del Admin hasta que la carpeta "zc_install" haya sido borrada.',
 'TEXT_COMPLETION_CATALOG_LINK_TEXT' => 'Su Tienda',
@@ -162,7 +163,7 @@ return [
 'TEXT_ERROR_CURL' => 'Problemas con la extensión CURL - PHP indica que CURL no está presente.',
 'TEXT_ERROR_UPLOADS' => 'Extensión Upload en PHP no habilitado',
 'TEXT_ERROR_XML' => 'Extensión XML en PHP no habilitado',
-'TEXT_ERROR_GZIP' => 'Extensión GZip en PHP no habilitado<br>[ <i><b>NOTA:</b> Si está utilizando Nginx y utilizando GZip dentro de Ngiz, quizás no es relevante.<i> ]',
+'TEXT_ERROR_GZIP' => 'No se detectó la extensión GZip en PHP',
 'TEXT_ERROR_EXTENSION_NOT_LOADED' => 'Extensión %s no parece estar instalado',
 'TEXT_ERROR_FUNCTION_DOES_NOT_EXIST' => 'Parece que la función PHP %s no existe',
 'TEXT_ERROR_CURL_LIVE_TEST' => 'No se pudo usar CURL para contactar con un servidor remoto',
@@ -190,6 +191,8 @@ Se puede continuar con la instalación a pesar de este asunto, pero en el caso d
 'TEXT_HELP_CONTENT_CONNECTIONDATABASECHECK' => 'Intentó conectar a la bb.dd utilizando una conexión localhost. El fallo no implica que no esté funcionando: algunos servicios de hosting precisan un IP o hostname para acceder al bb.dd. MySQL.<br><br>en caso de que el acceso sea por localhost, debería comprobar que MySQL está funcionando correctamente. ',
 'TEXT_HELP_TITLE_CHECKCURL' => '%%TEXT_ERROR_CURL%%',
 'TEXT_HELP_CONTENT_CHECKCURL' => 'CURL es un programa que se está ejecutando de fondo, utilizado por PHP para conectar a servidores/servicios externos como pasarelas de pagos, APIs de servicios de mensajería etc. La prueba de CURL no pudo establecer una conexión. Quizás hay un problema con la configuración de su servidor web. Debería contactar con el servicio de hosting para investigar la configuración de soporte CURL.<br><br>En el caso de que esté utilizando un servidor local para desarrollo, no es sorprendente que no funcione. No precisa CURL para el desarrollo hasta que pruebas de transacciones externas sean necesarias. ',
+'TEXT_HELP_TITLE_GZIP' => 'No se detectó la extensión GZip en PHP.',
+'TEXT_HELP_CONTENT_GZIP' => 'Se usa GZip para comprimir el contenido de una página web (reducir el peso), antes de transmitirlo al navegador, para que se transmita más rápido. Con el servidor web Apache debe estar habilitado en la configuración de PHP; con el servidor web Nginx, se puede habilitarlo en la configuración de Nginx. Su empresa de hosting puede encargarse de esto.<br><br>[ <i><strong>NOTA:</strong> Para ser claros: esto puede ignorarse si usa Nginx y maneja GZip dentro de Nginx</ i> (porque no podemos detectarlo automáticamente cuando Nginx está en uso). ]',
 'TEXT_HELP_TITLE_ADMINSERVERDOMAIN' => 'Dominio Servidor Admin',
 'TEXT_HELP_CONTENT_ADMINSERVERDOMAIN' => 'Introduzca el nombre del dominio de acceso a la zona Admin. Es muy aconsejable que sea a través de https://. Consulte con el servicio de hosting para habilitarlo. ',
 'TEXT_HELP_TITLE_ENABLESSLCATALOG' => '¿Use SSL para la tienda?',
@@ -223,7 +226,7 @@ Se puede continuar con la instalación a pesar de este asunto, pero en el caso d
 'TEXT_HELP_TITLE_SQLCACHEDIRECTORY' => 'Directorio Cache SQL',
 'TEXT_HELP_CONTENT_SQLCACHEDIRECTORY' => 'Introduzca el directorio para usar con un cache tipo “file”. Es un directorio en el servidor con permisos de escribir para que el servidor pueda escribir los archivos.',
 'TEXT_HELP_TITLE_ADMINUSER' => 'Nombre Superuser Admin Zen Cart',
-'TEXT_HELP_CONTENT_ADMINUSER' => 'Este es el nombre del usuario Admin primario. Este usuario gestionará los otros usuarios y tendrá permisos sin restricciones.',
+'TEXT_HELP_CONTENT_ADMINUSER' => 'Este será el usuario principal utilizado para administrar su acceso de administrador y las otras cuentas de administradores. Tendrá privilegios sin restricciones.<br>Se pueden agregar usuarios adicionales con diferentes niveles de acceso desde el panel de Administración.',
 'TEXT_HELP_TITLE_ADMINEMAIL' => 'Admin Superuser Email',
 'TEXT_HELP_CONTENT_ADMINEMAIL' => 'En el caso de perder/olvidarse la contraseña, se utilizará esta dirección para facilitar una contraseña nueva.',
 'TEXT_HELP_TITLE_ADMINEMAIL2' => 'Repite Email',
@@ -253,7 +256,7 @@ Se puede continuar con la instalación a pesar de este asunto, pero en el caso d
 'REASON_PRIMARY_KEY_ALREADY_EXISTS' => 'No se puede añadir primary key a tabla %s porque un primary key ya existe.',
 'REASON_CONFIG_GROUP_KEY_ALREADY_EXISTS' => 'No se puede insertar configuration_group_key "%s" porque ya existe.',
 'REASON_CONFIG_GROUP_ID_ALREADY_EXISTS' => ' No se puede insertar configuration_group_id "%s" porque ya existe.',
-'TEXT_COMPLETION_NGINX_TEXT' => '<u>Nginx Información Importante sobre la Seguridad</u>',
+'TEXT_COMPLETION_NGINX_TEXT' => 'Pinche para ver <u>Nginx Información Importante sobre la Seguridad</u>',
 'TEXT_HELP_TITLE_NGINXCONF' => 'Pautas de Seguridad para Zen Cart en servidores Nginx',
 'TEXT_HELP_CONTENT_NGINXCONF' => '<p>Los archivos Zen Cart incluyen medidas de seguridad para servidores Apache.<br>
 A continuación, hay medidas similares para servidores Nginx.</p>
@@ -306,7 +309,7 @@ A continuación, hay medidas similares para servidores Nginx.</p>
 </li>
 <ol>
 </div>
-<div class="alert-box alert"><strong>IMPORTANTE:</strong> Estos location blocks deben estar <strong>ANTES</strong> de cualquier otro location blocks en la configuración Nginx para Zen Cart.</div>
+<div class="alert alert-danger"><strong>IMPORTANTE:</strong> Estos location blocks deben estar <strong>ANTES</strong> de cualquier otro location blocks en la configuración Nginx para Zen Cart.</div>
 <hr>',
 'TEXT_HELP_TITLE_AGREETOTERMS' => 'Aceptar los términos de la Licencia GNU',
 'TEXT_HELP_CONTENT_AGREETOTERMS' => '<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" rel="noopener" target="_blank">Original GPL 2.0 text</a>

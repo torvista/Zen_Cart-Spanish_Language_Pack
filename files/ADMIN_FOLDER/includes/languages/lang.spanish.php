@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott Wilson 2024 Apr 07 Modified in v2.0.1 $
+ * @version $Id: brittainmark 2024 Jun 01 Modified in v2.1.0-alpha1 $
 */
 
 @setlocale(LC_TIME, ['es_ES', 'es_ES.utf8', 'es-ES', 'es']);
@@ -626,7 +626,7 @@ $define = [
     'TEXT_UNKNOWN' => 'Desconocidos',
     'TEXT_UPDATE_SORT_ORDERS_OPTIONS' => '<strong>Actualizar el Orden de los Atributos desde la Opción de Valores por Defecto</strong> ',
     'TEXT_UPLOAD_DIR' => 'Subir al directorio:',
-    'TEXT_VALID_CATEGORIES_ID' => 'ID de Categorías',
+    'TEXT_VALID_CATEGORIES_ID' => 'ID Categoría',
     'TEXT_VERSION_CHECK_BUTTON' => 'Comprobar Actualizaciones',
     'TEXT_VERSION_CHECK_CURRENT' => ' Su versión de Zen Cart&reg; parece ser la más actual.',
     'TEXT_VERSION_CHECK_DOWNLOAD' => 'Descargar aquí',

@@ -1,6 +1,6 @@
 # Zen Cart - Spanish Language Pack for Zen Cart
 
-Complete fileset (Installer, Shopfront, Admin and example Plugin).
+Complete fileset: Installer, Shopfront, Admin, Plugins (Display Logs, POSM).
 
 See the /docs/spanish_language_pack/index.html for installation and use.
 

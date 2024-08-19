@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: lat9 2023 Dec 08 Modified in v2.0.0-alpha1 $
+ * @version $Id: DrByte 2024 Aug 03 Modified in v2.1.0-alpha1 $
 */
 
 $define = [
@@ -16,23 +16,24 @@ $define = [
     'TABLE_HEADING_BANNER_SORT_ORDER' => 'Ordenación',
     'TEXT_BANNERS_TITLE' => 'Título del banner:',
     'TEXT_BANNERS_URL' => 'URL del banner:',
-    'TEXT_BANNERS_GROUP' => 'Grupo del banner:',
-    'TEXT_BANNERS_NEW_GROUP' => ' => o ingrese un nuevo grupo de banners aquí debajo',
-    'TEXT_BANNERS_IMAGE' => 'Imagen:',
-    'TEXT_BANNERS_IMAGE_LOCAL' => ' => o ingrese un fichero local aquí debajo',
-    'TEXT_BANNERS_IMAGE_TARGET' => 'Imagen destino (Guardar en):',
-    'TEXT_BANNER_IMAGE_TARGET_INFO' => '<strong>Carpeta de destino:</strong> ' . DIR_FS_CATALOG_IMAGES . 'banners/',
-    'TEXT_BANNERS_HTML_TEXT_INFO' => '<strong>NOTA: Los banners HTML no graban los clicks en el banner</strong>',
+    'TEXT_BANNERS_GROUP' => 'Grupo de Banners:',
+    'TEXT_BANNERS_NEW_GROUP' => 'o crear un nuevo grupo de banners:',
+    'TEXT_BANNERS_IMAGE' => 'Subir Imagen:',
+    'TEXT_BANNERS_CURRENT_IMAGE' => 'Imagen Actual:',
+    'TEXT_BANNERS_IMAGE_LOCAL' => 'Imagen Actual. Editar para definir otra imagen existente o subir una nueva.',
+    'TEXT_BANNERS_IMAGE_TARGET' => 'Carpeta Destino (Guardar en):',
+    'TEXT_BANNER_IMAGE_TARGET_INFO' => '<strong>Carpeta de Destino sugerida para la nueva imagen:</strong> ' .'banners/',
+    'TEXT_BANNERS_HTML_TEXT_INFO' => '<strong>NOTA: Los banners de HTML no graban los clicks en el banner Un banner HTML sustituye una imagen de banner.</strong>',
     'TEXT_BANNERS_HTML_TEXT' => 'Texto HTML:',
     'TEXT_BANNERS_ALL_SORT_ORDER' => 'Ordenación - banner_box_all',
-    'TEXT_BANNERS_ALL_SORT_ORDER_INFO' => '<strong>NOTA: recuadro banners_box_all mostrará los banners en su orden predeterminado</strong>',
+    'TEXT_BANNERS_ALL_SORT_ORDER_INFO' => '<strong>NOTA: EL recuadro banners_box_all mostrará los banners en su orden predeterminado</strong>',
     'TEXT_BANNERS_EXPIRES_ON' => 'Caduca: <br>(Debe ser después de hoy)',
-    'TEXT_BANNERS_OR_AT' => ' => o en',
+    'TEXT_BANNERS_OR_AT' => 'o en',
     'TEXT_BANNERS_IMPRESSIONS' => 'impresiones/vistas.',
     'TEXT_BANNERS_SCHEDULED_AT' => 'Programado para: <br>(Debe ser después de hoy)',
     'TEXT_BANNERS_BANNER_NOTE' => '<b>Notas del banner:</b><ul><li>Use una imagen o texto HTML para el banner; no ambos.</li><li>El texto HTML tiene prioridad sobre una imagen.</li></ul>',
     'TEXT_BANNERS_INSERT_NOTE' => '<b>Notas de la imagen:</b><ul><li>¡Los directorios de subida deben tener configurados los permisos de usuario (escritura) correctos!</li><li>No llene la celda \'Guardar en\' si no está subiendo una imagen al servidor (ej: si está usando una imagen local (del lado del servidor)).</li><li>La Casilla \'Guardar en\' debe ser un directorio existente con una barra al final (ej: banners/).</li></ul>',
-    'TEXT_BANNERS_EXPIRCY_NOTE' => '<b>Notas de caducidad:</b><ul><li>Sólo una de las dos celdas debe ser enviada.</li><li>Si el banner no tiene caducidad entonces deje estas celdas en blanco.</li></ul>',
+    'TEXT_BANNERS_EXPIRY_NOTE' => '<b>Notas de caducidad:</b><ul><li>Sólo una de las dos celdas debe ser enviada.</li><li>Si el banner no tiene caducidad entonces deje estas celdas en blanco.</li></ul>',
     'TEXT_BANNERS_SCHEDULE_NOTE' => '<b>Notas de la programación:</b><ul><li>Si se establece una programación => el banner será activado en esa fecha.</li><li>Todos los banners programados son marcados como desactivados hasta que llegue su fecha de activación => a partir de esto serán marcados como activos.</li></ul>',
     'TEXT_BANNERS_STATUS' => 'Estatus del Banner:',
     'TEXT_BANNERS_ACTIVE' => 'Activo',
