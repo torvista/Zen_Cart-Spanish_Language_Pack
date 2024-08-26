@@ -7,7 +7,7 @@
 //
 /*
 global $locales;
-$locales = ['es_ES.utf8', 'es-ES', 'es'];//'es-ES' is for Windows
+$locales = ['es_ES.utf8', 'es-ES', 'es'];
 @setlocale(LC_TIME, $locales);
 */
 $define = [
@@ -85,10 +85,12 @@ $define = [
     'CART_SHIPPING_METHOD_TO' => 'Enviar a: ',
     'CART_SHIPPING_OPTIONS' => 'Gastos del Envío:',
     'CART_SHIPPING_QUOTE_CRITERIA' => 'El coste del envío depende de la direccion de entrega:',
+    'CATEGORIES_BOX_HEADING_FEATURED_CATEGORIES' => 'Categorías Destacadas...',
     'CATEGORIES_BOX_HEADING_FEATURED_PRODUCTS' => 'Productos Destacados...',
     'CATEGORIES_BOX_HEADING_PRODUCTS_ALL' => 'Todos los Productos...',
     'CATEGORIES_BOX_HEADING_SPECIALS' => 'Ofertas...',
     'CATEGORIES_BOX_HEADING_WHATS_NEW' => 'Nuevos Productos...',
+
     'CATEGORY_COMPANY' => 'Datos de la Empresa',
     'CATEGORY_PERSONAL' => 'Datos Personales',
     'CHARSET' => 'utf-8',
@@ -373,6 +375,7 @@ $define = [
     'TABLE_HEADING_TOTAL' => 'Total',
     'TABLE_HEADING_UPCOMING_PRODUCTS' => 'Próximos Productos',
     'TABLE_HEADING_WEIGHT' => 'Peso',
+    'TABLE_HEADING_FEATURED_CATEGORIES' => 'Categorías Destacadas',
     'TEXT_ADMIN_DOWN_FOR_MAINTENANCE' => 'AVISO: La tienda no está disponible por razones de mantenimiento',
     'TEXT_ALL_CATEGORIES' => 'Todas la Categorías',
     'TEXT_ALL_MANUFACTURERS' => 'Todos los Fabricantes',
@@ -439,7 +442,7 @@ $define = [
     'TEXT_HEADER_DISCOUNT_PRICES_ACTUAL_PRICE' => 'Descuento por Cantidad Precio Nuevo',
     'TEXT_HEADER_DISCOUNT_PRICES_AMOUNT_OFF' => 'Descuento por Cantidad',
     'TEXT_HEADER_DISCOUNT_PRICES_PERCENTAGE' => 'Descuento por Cantidades',
-    'TEXT_INFO_SORT_BY' => 'Ordenar por: ',
+    'TEXT_INFO_SORT_BY' => 'Ordenar por:',
     'TEXT_INFO_SORT_BY_RECOMMENDED' => 'Recommendados',
     'TEXT_INFO_SORT_BY_PRODUCTS_DATE' => 'Fecha Añadida - Antigua a nueva',
     'TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC' => 'Fecha Añadida - Nueva a antigua',

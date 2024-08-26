@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: brittainmark 2024 Jun 01 Modified in v2.1.0-alpha1 $
+* @version $Id: brittainmark 2024 Jun 01 Modified in v2.1.0-alpha1 $
 */
 
 @setlocale(LC_TIME, ['es_ES', 'es_ES.utf8', 'es-ES', 'es']);
@@ -38,6 +38,7 @@ $define = [
     'BOX_CATALOG_CATEGORIES_PRODUCTS' => 'Categorías/Productos',
     'BOX_CATALOG_CATEGORY' => 'Categoría',
     'BOX_CATALOG_FEATURED' => 'Productos Destacados',
+    'BOX_CATALOG_FEATURED_CATEGORIES' => 'Categorías Destacadas',
     'BOX_CATALOG_MANUFACTURERS' => 'Fabricantes',
     'BOX_CATALOG_PRODUCT' => 'Producto',
     'BOX_CATALOG_PRODUCTS_EXPECTED' => 'Productos Esperados',
@@ -284,6 +285,7 @@ $define = [
     'IMAGE_DISPLAY' => 'Mostrar',
     'IMAGE_EDIT' => 'Editar',
     'IMAGE_EDIT_ATTRIBUTES' => 'Editar Atributos',
+    'IMAGE_EDIT_CATEGORY' => 'Editar Categoría',
     'IMAGE_EDIT_PRODUCT' => 'Editar Producto',
     'IMAGE_EMAIL' => 'Email',
     'IMAGE_FORGET_ONLY' => 'Solamente Olvidar',
@@ -387,6 +389,7 @@ $define = [
     'TABLE_HEADING_ACTION' => 'Acción',
     'TABLE_HEADING_AVAILABLE_DATE' => 'Disponible Desde',
     'TABLE_HEADING_ACTIVE_FROM' => 'Activado Desde',
+    'TABLE_HEADING_CATEGORY_NAME' => 'Nombre Categoría',
     'TABLE_HEADING_COMMENTS' => 'Comentario',
     'TABLE_HEADING_CONFIGURATION_TITLE' => 'Título',
     'TABLE_HEADING_CONFIGURATION_VALUE' => 'Valor',
@@ -444,9 +447,9 @@ $define = [
     'TEXT_ADMIN_NAME' => 'nombre usuario',
     'TEXT_ADMIN_TAB_PREFIX' => 'Admin',
     'TEXT_ASC' => 'asc',
-    'TEXT_ATTRIBUTE_COPY_INSERTING' => 'Atributo ID#%u copiado desde Producto ID#%u a Producto ID#%u',
-    'TEXT_ATTRIBUTE_COPY_SKIPPING' => 'Saltando atributo ID#%u para Producto ID#%u',
-    'TEXT_ATTRIBUTE_COPY_UPDATING' => 'Atributo ID#%u actualizado para Producto ID#%u',
+    'TEXT_ATTRIBUTE_COPY_INSERTING' => 'Atributo ID#%1$u copiado desde Producto ID#%2$u a Producto ID#%3$u',
+    'TEXT_ATTRIBUTE_COPY_SKIPPING' => 'Saltando atributo ID#%1$u para Producto ID#%2$u',
+    'TEXT_ATTRIBUTE_COPY_UPDATING' => 'Atributo ID#%1$u actualizado para Producto ID#%2$u',
     'TEXT_ATTRIBUTES_INSERT_INFO' => '<strong>Define los parámetros del Atributo y pinche en Insertar para aplicarlos</strong>',
     'TEXT_ATTRIBUTE_PRICE_BASE_INCLUDED' => 'Incluir en el Precio Base<br>si está definido por Atributos',
     'TEXT_AVAILABLE_DATE' => 'Fecha Disponible:',
