@@ -250,6 +250,7 @@ Se puede continuar con la instalación a pesar de este asunto, pero en el caso d
 'REASON_COLUMN_ALREADY_EXISTS' => 'No se puede ADD columna %s porque ya existe.',
 'REASON_COLUMN_DOESNT_EXIST_TO_DROP' => 'No se puede DROP columna %s porque no existe.',
 'REASON_COLUMN_DOESNT_EXIST_TO_CHANGE' => 'No se puede CHANGE columna %s porque no existe.',
+'REASON_COLUMN_DOESNT_EXIST' => 'No se puede insertar valores en columna %s porque no existe.',
 'REASON_PRODUCT_TYPE_LAYOUT_KEY_ALREADY_EXISTS' => 'No se puede INSERT prod-type-layout configuration_key "%s" porque ya existe',
 'REASON_INDEX_DOESNT_EXIST_TO_DROP' => 'No se puede DROP index %1$s en tabla %2$s porque no existe.',
 'REASON_PRIMARY_KEY_DOESNT_EXIST_TO_DROP' => 'No se puede DROP primary key en tabla %s porque no existe.',

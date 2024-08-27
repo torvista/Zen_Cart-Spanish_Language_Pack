@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2023 Zen Cart Development Team
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2022 Nov 13 Modified in v1.5.8a $
+ * @version $Id: DrByte 2024 May 27 Modified in v2.1.0-alpha1 $
 */
 
 $define = [
@@ -29,7 +29,6 @@ $define = [
     'TABLE_HEADING_CHAPTER' => 'Capítulo:',
     'TABLE_HEADING_VISIBLE' => 'Visible:',
     'TABLE_HEADING_PAGE_OPEN_NEW_WINDOW' => 'Abrir en ventana nueva:',
-    'TABLE_HEADING_PAGE_IS_SSL' => 'Página es SSL:',
     'TABLE_HEADING_PAGE_IS_VISIBLE' => 'Páge es visible:',
     'TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION' => 'Se muestra la Página aunque no está en la cabecera => pie o recuadro.<br>
 (Si todos los valores de Visible => Cabecera => Pie y Recuadro están desactivados => el cliente verá Página No Encontrada.)',
@@ -49,9 +48,9 @@ $define = [
     'TEXT_TOC_SORT_ORDER_EXPLAIN' => '<strong>TdC (Tabla de Contenidos)-Orden:</strong> se utiliza cuando se generan páginas personalizadas como en una fila horizontal (encabezado/pie de página etc.) o fila vertical => dependiendo de los requisitos personales.  Para incluir está página en el listado el orden debe ser mayor que cero.',
     'TEXT_CHAPTER_EXPLAIN' => 'Se usa <strong>Capítulo</strong> con un TdC (Tabla de Contenidos) Orden para los enlaces Anterior/Siguiente. Los enlaces del TdC consisten de las páginas que tienen este número de capítulo and se las ve en el TdC Orden.',
     'TEXT_ALT_URL' => 'URL Enlace Interno:',
-    'TEXT_ALT_URL_EXPLAIN' => 'Si así está definido => se ignorará el contenido de la página y se utilizará este enlace local <br>Ejemplo a Reseñas: index.php?main_page=reviews<br>Ejemplo a Mi Cuenta: index.php?main_page=account y marcará como SSL',
+    'TEXT_ALT_URL_EXPLAIN' => 'Si así está definido => se ignorará el contenido de la página y se utilizará este enlace INTERNO <br>Ejemplo a Reseñas: index.php?main_page=reviews<br>Ejemplo a Mi Cuenta: index.php?main_page=account',
     'TEXT_ALT_URL_EXTERNAL' => 'URL Enlace Externa:',
-    'TEXT_ALT_URL_EXTERNAL_EXPLAIN' => ' Si así está definido => se ignorará el contenido de la página y se usará este enlace local <br>Ejemplo de un enlace externo: http://www.zen-cart.com',
+    'TEXT_ALT_URL_EXTERNAL_EXPLAIN' => ' Si así está definido => se ignorará el contenido de la página y se usará este enlace EXTERNO <br>Ejemplo de un enlace externo: https://www.zen-cart.com',
     'TEXT_SORT_CHAPTER_TOC_TITLE_INFO' => 'Orden de Listado: ',
     'TEXT_SORT_CHAPTER_TOC_TITLE' => 'Capítulo/TdC',
     'TEXT_SORT_HEADER_TITLE' => 'Encabezado',
