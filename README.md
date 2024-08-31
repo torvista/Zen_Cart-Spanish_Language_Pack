@@ -4,6 +4,7 @@ Complete fileset: Installer, Shopfront, Admin, Plugins (Display Logs, POSM).
 
 See the /docs/spanish_language_pack/index.html for installation and use.
 
-Branch "main" tracks the Zen Cart "master" branch development branch, currently Zen Cart® v2.1.0-dev.
+Branch "main" tracks the Zen Cart "master" branch development branch, currently Zen Cart® v2.1.0-dev.  
+This is not normally more than a couple of days behind this branch so can generally be used for testing.
 
 Branch "2.0" tracks the Zen Cart production "2.0" branch, for bugfixes currently at 2.0.1. 
