@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
-* @version $Id: brittainmark 2024 Jun 01 Modified in v2.1.0-alpha1 $
+* @version $Id: Jeff Rutt 2024 Aug 28 Modified in v2.1.0-alpha2 $
 */
 
 @setlocale(LC_TIME, ['es_ES', 'es_ES.utf8', 'es-ES', 'es']);

@@ -3,13 +3,14 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2024 Aug 03 Modified in v2.1.0-alpha1 $
-*/
+ * @version $Id: DrByte 2024 Aug 07 Modified in v2.1.0-alpha2 $
+ */
 
 $define = [
     'HEADING_TITLE' => 'Gestión de Banners',
     'TABLE_HEADING_BANNERS' => 'Banners',
     'TABLE_HEADING_GROUPS' => 'Grupos',
+    'TABLE_HEADING_POSITIONS' => 'Ubicaciones',
     'TABLE_HEADING_STATISTICS' => 'Muestras / Clicks',
     'TABLE_HEADING_BANNER_OPEN_NEW_WINDOWS' => 'Nueva ventana',
     'TABLE_HEADING_BANNER_ON_SSL' => 'Mostrar SSL',
