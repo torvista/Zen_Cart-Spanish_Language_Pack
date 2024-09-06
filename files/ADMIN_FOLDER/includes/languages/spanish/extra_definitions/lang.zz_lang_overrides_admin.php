@@ -1,6 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
-//date of birth in format dd/mm/yyyy, weight "kg", "invoice"-> "order"
+//overrides of core values for locale, date format, weight to kg, "factura"->"pedido"
+
 declare(strict_types=1);
+//'es-ES': windows, 'es_ES': unix
+//@setlocale(LC_TIME, ['es-ES', 'es_ES', 'es_ES.utf8', 'es-ES', 'es']);
 
 $define = [
 //lang.spanish.php
@@ -13,8 +16,6 @@ $define = [
     'DATE_FORMAT_SPIFFYCAL' => 'dd/MM/yyyy',
     'IMAGE_ORDERS_INVOICE' => 'Pedido',
     'PHP_DATE_TIME_FORMAT' => 'd/m/Y H:i:s',
-    'TEXT_INFO_SEARCH_FILTER_REPOPULATE' => 'Pegar keyword: ',
-    'TEXT_INFO_SEARCH_FILTER_RESTRICT_IDS' => 'solo IDs',
     'TEXT_PRODUCT_WEIGHT_UNIT' => 'kg',
 
 //lang.stats_customers_referrals

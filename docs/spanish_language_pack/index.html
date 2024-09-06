@@ -41,17 +41,18 @@ img {
   <li>weight is changed from lbs to kg</li>
 <li>language currency is changed from USD to EUR</li></ul>
   
-<p><strong>Admin:</strong> uses ADMIN_FOLDER/includes/languages/extra_definitions/lang.overrides_locale_spain.php</p>
+<p><strong>Admin:</strong> uses ADMIN_FOLDER/includes/languages/extra_definitions/lang.zz_lang_overrides_admin.php</p>
+<p>&quot;zz_&quot;: so it gets loaded last.</p>
 <p><strong>Shopfront:</strong> uses /includes/languages/TEMPLATE_NAME/lang.spanish.php</p>
 <h3>Invoice-Factura</h3>
-<p>All uses of &quot;invoice&quot; are translated as &quot;pedido&quot; instead of &quot;factura&quot; since a Spain a &quot;factura&quot; must contain a tax id for it to be legally called a factura/invoice.<br>
+<p>All uses of &quot;invoice&quot; are translated as &quot;pedido&quot; instead of &quot;factura&quot; since in Spain a &quot;factura&quot; must contain a tax id for it to be legally called a factura/invoice.<br>
 Since there is no core support for a customer tax id in Zen Cart, the &quot;invoice&quot; cannot be legally called a &quot;factura&quot; and so any document is just a record of an order (&quot;pedido&quot;).</p>
 <p>Note that the plugin <a href="https://github.com/lat9/vat4eu" target="_blank">Zen Cart® VAT for EU Countries</a> adds a tax id and related handling.</p>
 <h2>Installation</h2>
-<p>You may add the files from this pack into your fileset before the INITIAL installation of Zen Cart, in which case the installer may also be run in spanish.</p>
-<p>Or, you may add this pack subsequent to the installation: but in this case do NOT copy the /zc_install folder as this will be detected and block access to the admin until it is removed.</p>
+<p>You may add the files from this pack into your fileset <strong>before</strong> the INITIAL installation of Zen Cart, in which case the installer may also be run in spanish.</p>
+<p>Or, you may add this pack subsequent to the installation: but in this case do NOT copy the /zc_install folder as the existence of this will be detected and block access to the admin until it is removed.</p>
 <h3>1) Prepare a development site</h3>
-<p>As always, install/test/review/improve <strong>any and all </strong> modifications on your <strong>development</strong> site, NEVER, EVER on your production site. You should consider your production site to be a backup of your development site!</p>
+<p>As always, install/test/review/improve <strong>any and all </strong> modifications on your <strong>development</strong> site, NEVER, EVER on your production site. You should consider your production site to be a distant backup of your development site!</p>
 <p>Only when you are satisfied that all is complete, <strong>copy</strong> those changes to the production site in one, fast operation.</p>
 <h4>a) The fileset is encoded in utf-8 as Zen Cart uses utf-8 encoding from v1.5 onwards.</h4>
 <p>If you have an older site that still uses latin-1/8859 for the database contents/connection and html page encoding  you should <a href="https://github.com/lat9/database-converter" target="_blank">convert the database to utf-8</a>. </p>
@@ -123,7 +124,7 @@ Since there is no core support for a customer tax id in Zen Cart, the &quot;invo
 <p>Note that the order status titles (Admin-&gt;Localization-&gt;Order Status) will need to be manually translated in addition to all products and categories.</p>
 <h2>Problems</h2>
 <h3>PHP warnings</h3>
-<p>From PHP 7.2 onwards, warnings are raised for missing constants or duplicated constants. You need to fix these...as you do ALL errors/warnings/notices that php helpfully points out.</p>
+<p>From PHP 7.2 onwards, warnings are raised for missing constants or duplicated constants. You need to fix these warnings...as you do need to fix ALL errors/warnings/notices that php helpfully points out.</p>
 <p>If the debug error occurs only with the spanish files, please report it in <a href="https://github.com/torvista/Zen_Cart-Spanish_Language_Pack" target="_blank">GitHub for this language pack</a>.</p>
 <p>If the debug error occurs with the english files too, report it in the <a href="https://github.com/zencart/zencart/issues" target="_blank">Zen Cart Github</a>.</p>
 <h3>Characters with accents displaying corrupted</h3>
@@ -131,10 +132,10 @@ Since there is no core support for a customer tax id in Zen Cart, the &quot;invo
 <h3>Dates not formatted correctly.</h3>
 <p>Possibly the locale is incorrect.</p>
 <p>In spanish.php, the two versions of this files contain these lines:</p>
-<pre>$locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');</pre>
-<p>This is a list of locales (if you don't know what that means, look it up). The values you can use depend on <strong>what locales are installed on the server</strong> where the shop is hosted (local or remote).</p>
-<p>Probably the values that are in there already will be fine for both a Windows and *nix hosting since if the server does not have the first one in the list, it uses the next...</p>
-<p>If you want to know what locales your server supports, there is a script to check them:</p>
+<pre>$locales = array('es-ES', 'es_ES', 'es_ES.UTF8', 'es-ES',  'es');</pre>
+<p>This is a list of possible locales (if you don't know what that means, look it up). Windows and *nix use different names and not all servers have the same locales installed, so the &quot;setlocale&quot; command tries the values in this array until it finds one that works.</p>
+<p>If you get an error such as &quot;Fatal error: Uncaught Error: Found unconstructed IntlDateFormatter&quot;, then one of those unsupported values is causing offence and you need to remove it.</p>
+<p>If you want to check what locales your server supports, there is a test script available with info to check lots of alternatives:</p>
 <p><a href="https://github.com/torvista/Zen_Cart-Test_Server_Locales" target="_blank">https://github.com/torvista/Zen_Cart-Test_Server_Locales</a></p>
 <h3>Untranslated Text/Mistakes/Improvements</h3>
 <p>If any text is untranslated/incorrect or could be improved, please post a message in the GitHub repository.</p>

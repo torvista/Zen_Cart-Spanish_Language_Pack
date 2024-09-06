@@ -7,7 +7,7 @@
 //
 /*
 global $locales;
-$locales = ['es_ES.utf8', 'es-ES', 'es'];
+$locales = ['es_ES', 'es_ES.utf8', 'es-ES', 'es'];
 @setlocale(LC_TIME, $locales);
 */
 $define = [
