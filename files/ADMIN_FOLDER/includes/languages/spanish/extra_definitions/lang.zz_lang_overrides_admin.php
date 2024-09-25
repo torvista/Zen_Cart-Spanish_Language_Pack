@@ -3,7 +3,7 @@
 
 declare(strict_types=1);
 //'es-ES': windows, 'es_ES': unix
-//@setlocale(LC_TIME, ['es-ES', 'es_ES', 'es_ES.utf8', 'es-ES', 'es']);
+@setlocale(LC_TIME, ['es_ES', 'es-ES', 'es_ES.utf8', 'es-ES', 'es']);
 
 $define = [
 //lang.spanish.php
