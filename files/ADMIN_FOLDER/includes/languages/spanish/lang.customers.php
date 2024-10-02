@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: lat9 2023 Dec 10 Modified in v2.0.0-alpha1 $
+ * @version $Id: lat9 2024 Sep 20 Modified in v2.1.0-beta1 $
 */
 
 $define = [
@@ -27,7 +27,6 @@ $define = [
     'TEXT_DELETE_INTRO' => '¿Seguro que desea borrar este cliente?<br>"Solamente Olvidar": Borrar los datos personales identificables del cliente.<br>"Borrar": Borrar el registro del cliente de la base de datos.',
     'TEXT_DELETE_REVIEWS' => 'Eliminar %s comentario(s)',
     'TEXT_INFO_HEADING_DELETE_CUSTOMER' => 'Borrar Cliente',
-    'TYPE_BELOW' => 'Escribir aquí debajo',
     'TEXT_INFO_NUMBER_OF_ORDERS' => 'Cantidad de Pedidos:',
     'TEXT_INFO_LIFETIME_VALUE' => 'Valor Total de Pedidos:',
     'TEXT_INFO_LAST_ORDER' => 'Último Pedido:',
@@ -66,6 +65,12 @@ $define = [
     'TABLE_HEADING_WHOLESALE_LEVEL' => 'Nivel Profesional',
     'TEXT_WHOLESALE_LEVEL' => 'Nivel Profesional:',
     'HELPTEXT_WHOLESALE_LEVEL' => 'Introduzca 0 para "Particular" o un nivel "Profesional". Un cliente puede tener un nivel de precios Profesional o pertenece un grupo de precios de descuentos pero no ambos.',
+
+    // -----
+    // Added, since used by zen_prepare_country_zones_pull_down
+    //
+    'PLEASE_SELECT' => 'Seleccionar',
+    'TYPE_BELOW' => 'Escribir aquí debajo',
 ];
 
 return $define;

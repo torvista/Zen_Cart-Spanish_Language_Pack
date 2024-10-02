@@ -97,6 +97,7 @@ $define = [
 */
     'DATE_FORMAT' => 'd/m/Y',
 //  'DATE_FORMAT_LONG' => '%A %d %B, %Y',
+    'DATE_TIME_FORMAT_WITHOUT_SECONDS' => '%d/%m/%Y %H:%M',
 //  'DB_ERROR_NOT_CONNECTED' => 'Error - No se ha podido conectar con la base de datos',
     'DOB_FORMAT_STRING' => 'dd/mm/yyyy',
 /*

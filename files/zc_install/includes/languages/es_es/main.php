@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2024 May 27 Modified in v2.1.0-alpha1 $
+ * @version $Id: DrByte 2024 Aug 17 Modified in v2.1.0-alpha2 $
  */
 
 return [
@@ -169,8 +169,8 @@ return [
 'TEXT_ERROR_FUNCTION_DOES_NOT_EXIST' => 'Parece que la función PHP %s no existe',
 'TEXT_ERROR_CURL_LIVE_TEST' => 'No se pudo usar CURL para contactar con un servidor remoto',
 'TEXT_ERROR_HTTPS' => 'CONSEJO PRO: Si es posible, ya debería haber instalado un certificado SSL para ejecutar el instalador desde "https://"',
-'TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE' => 'Se ha encontrado un archivo configure.php existente, indicando una instalación previa. Se puede actualizar utilizando el botón inferio. Una Instalación Limpia borrará los datos existentes.',
-'TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE_NO_UPDATE' => ' Se ha encontrado un archivo configure.php existente y la base de datos parece actualizada. Esto puede indicar que esta es una tienda en producción. ¡El proceso de una Instalación Limpia borrará todo el contenido de la base de datos! ¿Está seguro que quieres continuar??',
+'TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE' => 'Un archivo configure.php ya existe, indicando una instalación previa. Se puede actualizar utilizando el botón inferior (si no hay un botón de Actualizar, ¿quizás su DB_PREFIX no coincide con la BBDD?). PRECAUCIÓN: Continuando con una "Instalación Limpia" borrará los datos existentes de la BBDD.',
+'TEXT_ERROR_SUCCESS_EXISTING_CONFIGURE_NO_UPDATE' => 'Un archivo configure.php ya existe, y la base de datos parece actualizada. Esto puede indicar que esta es una tienda en producción. PRECAUCIÓN: ¡El proceso de una Instalación Limpia borrará todo el contenido de la base de datos! ¿Está seguro que quieres continuar?',
 'TEXT_ERROR_MULTIPLE_ADMINS_NONE_SELECTED' => 'Parece que hay más de un directorio que contiene archivos de Admin. Debería borrar las copias/versiones viejas o elegir la versión actual y refrescar la página.',
 'TEXT_ERROR_MULTIPLE_ADMINS_SELECTED' => ' Parece que hay más de un directorio que contiene archivos de Admin. Si el directorio indicado/preseleccionado es incorrecto, elija el correcto y refresque la página.',
 'TEXT_ERROR_MYSQL_VERSION' => 'La versión de la base de datos es inferior de lo mínimo necesario. MySQL: %1$s o MariaDB: %2$s',

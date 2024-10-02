@@ -94,6 +94,7 @@ $define = [
     'CHARSET' => 'utf-8',
     'DATE_FORMAT' => 'm/d/Y',
     'DATE_FORMAT_LONG' => '%A %d %B, %Y',
+    'DATE_TIME_FORMAT_WITHOUT_SECONDS' => '%m/%d/%Y %H:%M',
     'DB_ERROR_NOT_CONNECTED' => 'Error - No se ha podido conectar con la base de datos',
     'DOB_FORMAT_STRING' => 'mm/dd/yyyy',
     'DOWNLOADS_CONTROLLER_ON_HOLD_MSG' => 'NOTA: Las descargas no están disponibles hasta que el pago haya sido verificado',
