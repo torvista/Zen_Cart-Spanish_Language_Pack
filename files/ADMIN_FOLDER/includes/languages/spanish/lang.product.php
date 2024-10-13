@@ -36,6 +36,7 @@ $define = [
     'TEXT_PRODUCTS_LENGTH' => 'Largo:',
     'TEXT_PRODUCTS_WIDTH' => 'Ancho:',
     'TEXT_PRODUCTS_HEIGHT' => 'Grueso:',
+    'TEXT_PRODUCT_MPN' => 'Ref. Fabricante (mpn):',
     'TEXT_PRODUCT_SHIPS_IN_OWN_BOX' => '¿Se envia en su propia caja?',
     'TEXT_PRODUCT_SHIPS_IN_OWN_BOX_HELP' => '¿Se envia el articulo en su propia caja? ( sin embalaje, no se añadirá un coste de envío adicional)',
     'TEXT_PRODUCT_IS_FREE' => 'El producto es Gratis:',
