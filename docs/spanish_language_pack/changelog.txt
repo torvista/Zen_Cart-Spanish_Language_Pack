@@ -1,5 +1,7 @@
 Changelog: 
-constantly follows the development branch, so this list is not exhaustive.
+Constantly follows the development branch, so this list is not exhaustive nor maintained anymore.
+If you are really interested, review the Github pull requests.
+
 2024 08 31 include files to support Bootstrap template
 2024 08 18 Plugin POSM etc.
 2024 04 08 Release for Zen Cart 2.0.0
