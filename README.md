@@ -5,7 +5,7 @@ Complete fileset: Installer, Shopfront, Admin, core Plugins.
 See the /docs/spanish_language_pack/index.html for installation and use.
 
 ## GitHub
-Branch "main" tracks the Zen Cart "master" branch development branch, currently Zen Cart® v2.1.0-dev.  
+Branch "main" tracks the Zen Cart "master" branch development branch.  
 This is not normally more than a couple of days behind this branch so can generally be used for testing.
 
 Branch "2.1.0" tracks the Zen Cart production "2.1.0" branch, only for bugfixes of 2.1.0.
