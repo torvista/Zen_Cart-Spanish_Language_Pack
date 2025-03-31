@@ -62,6 +62,7 @@ $define = [
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_FEATURED_ADMIN_LENGTH' => 'El valor debe ser un integer.',
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_FEATURED_LENGTH' => 'El valor debe ser un integer.',
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_FEATURED_PRODUCTS_LENGTH' => 'El valor debe ser un integer.',
+    'TEXT_MAX_ADMIN_RANDOM_SELECT_FEATURED_CATEGORIES_LENGTH' => 'El valor debe ser un integer.',
     'TEXT_MAX_ADMIN_RANDOM_SELECT_FEATURED_PRODUCTS_LENGTH' => 'El valor debe ser un integer.',
     'TEXT_MAX_ADMIN_DISPLAY_SPECIAL_PRODUCTS_INDEX_LENGTH' => 'El valor debe ser un integer.',
     'TEXT_MAX_ADMIN_SHOW_NEW_PRODUCTS_LIMIT_LENGTH' => 'El valor debe ser un integer.',
@@ -71,6 +72,8 @@ $define = [
     'TEXT_MAX_ADMIN_DISPLAY_PRODUCTS_TO_CATEGORIES_COLUMNS_LENGTH' => 'El valor debe ser un integer.',
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_EZPAGE_LENGTH' => 'El valor debe ser un integer.',
     'TEXT_MAX_PREVIEW' => 'El valor debe ser un integer.',
+    'TEXT_HINT_PASSWORD_RESET_TOKEN_LENGTH' => 'El valor debe ser un integer entre 12-100.',
+    'TEXT_HINT_PASSWORD_RESET_TOKEN_VALID_MINUTES' => 'El valor debe ser un integer entre 1-1440.',
 //bof constant page titles
     'CFG_GRP_TITLE_MY_STORE' => '%%BOX_CONFIGURATION_MY_STORE%%',
     'CFG_GRP_TITLE_MINIMUM_VALUES' => '%%BOX_CONFIGURATION_MINIMUM_VALUES%%',

@@ -460,6 +460,7 @@ $define = [
     'TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE' => 'Entrar a la tienda',
     'TEXT_MANUFACTURER' => 'Fabricante:',
     'TEXT_MAXIMUM_CHARACTERS_ALLOWED' => ' caracteres máximos permitidos',
+    'TEXT_MISSING_SHIPPING_INFO' => 'PRECAUCIÓN: falta detalles del envío',
     'TEXT_MORE_INFORMATION' => 'Para más información, por favor, visite la <a href="%s" rel="noreferrer noopener" target="_blank">web oficial de este producto</a>.',
     'TEXT_NO_ALL_PRODUCTS' => 'En breve añadiremos más productos. Visítenos regularmente para conocer las novedades.',
     'TEXT_NO_CAT_RESTRICTIONS' => 'Este Cupón es válido para todas la Categorías.',
