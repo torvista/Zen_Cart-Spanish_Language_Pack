@@ -367,6 +367,7 @@ $define = [
     'TABLE_HEADING_UPCOMING_PRODUCTS' => 'Próximos Productos',
     'TABLE_HEADING_WEIGHT' => 'Peso',
     'TABLE_HEADING_FEATURED_CATEGORIES' => 'Categorías Destacadas',
+    'TAX_EXEMPT_DESCRIPTION' => 'Exento de Impuestos',
     'TEXT_ADMIN_DOWN_FOR_MAINTENANCE' => 'AVISO: La tienda no está disponible por razones de mantenimiento',
     'TEXT_ALL_CATEGORIES' => 'Todas la Categorías',
     'TEXT_ALL_MANUFACTURERS' => 'Todos los Fabricantes',
