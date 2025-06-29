@@ -235,6 +235,7 @@ $define = [
     'ERROR_PASSWORDS_NOT_MATCHING' => 'La contraseña y la confirmación deben coincidir',
     'ERROR_PASSWORD_RULES' => 'Una contraseña debe estar compuesta de letras y números; tener por lo menos %s caracteres y no puede ser igual a cualquiera de las últimas 4 contraseñas utilizadas. Las contraseñas caducan cada 90 días y la tienda le pedirá que cree una contraseña nueva.',
     'ERROR_PAYMENT_MODULES_NOT_DEFINED' => 'AVISO: No hay módulos de pago habilitados. Vea Módulos->Pago para configurar.',
+    'ERROR_PRODUCT_OPTION_SELECTION' => '<br> ... Valores de Opciones Inválidos Seleccionados ',
     'ERROR_SHIPPING_CONFIGURATION' => '<strong>¡Errores en la configuración de envíos!</strong>',
     'ERROR_SHIPPING_MODULES_NOT_DEFINED' => 'AVISO: No hay módulos de envío habilitados. Vea Módulos->Envío para configurar.',
     'ERROR_SHIPPING_ORIGIN_ZIP' => '<strong>Atención:</strong> El código postal de la tienda no está definido. Vea Configuración | Envíos/Embalaje para configurarla.',
