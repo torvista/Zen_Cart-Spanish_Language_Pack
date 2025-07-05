@@ -521,6 +521,7 @@ $define = [
     'TEXT_TOTAL_AMOUNT' => '&nbsp;&nbsp;Valor: ',
     'TEXT_TOTAL_ITEMS' => 'Productos: ',
     'TEXT_TOTAL_WEIGHT' => '&nbsp;&nbsp;Peso: ',
+    'TEXT_UNKNOWN_ORDERS_STATUS_NAME' => 'Desconocido (%u)',   //- %u is filled in by the Customer class to contain the missing orders_status_id
     'TEXT_UNKNOWN_TAX_RATE' => 'Impuesto de Ventas',
     'TEXT_VALID_COUPON' => '¡Ha añadido un Cupón de Descuento a su pedido!',
     'TEXT_WORDS_FREE' => ' Palabra(s) gratis ',

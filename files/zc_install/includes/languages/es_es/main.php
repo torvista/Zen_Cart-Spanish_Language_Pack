@@ -157,6 +157,7 @@ return [
 'TEXT_ERROR_SET_TIME_LIMIT' => 'max_execution_time no habilitado',
 'TEXT_ERROR_GD' => 'Extensión GD no habilitado',
 'TEXT_ERROR_INTL' => 'Extension INTL no habilitado. Es necesario para manejar fechas y locales.',
+'TEXT_ERROR_MBSTRING' => 'Extensión php MBSTRING no habilitada. Imprescindible para la compatibilidad con caracteres multibyte (letras acentuadas y la mayoría de los idiomas distintos del inglés).',
 'TEXT_ERROR_JSON' => 'Extensión JSON no habilitado. Es necesario para procesando datos en muchas partes de Zen Cart.',
 'TEXT_ERROR_FILEINFO' => 'Extensión Fileinfo no habilitado. Está utilizado para calculando tamaños de archivos.',
 'TEXT_ERROR_ZLIB' => 'Extensión Zlib Extension no habilitado',
