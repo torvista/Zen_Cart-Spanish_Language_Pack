@@ -9,7 +9,7 @@
 @setlocale(LC_TIME, ['es_ES', 'es_ES.utf8', 'es-ES', 'es']);
 
 $define = [
-    'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X (%Z)',
+    'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X (%z)',
     'ARIA_PAGINATION_' => '',
     'ARIA_PAGINATION_CURRENTLY_ON' => ', actualmente en la página %s',
     'ARIA_PAGINATION_CURRENT_PAGE' => 'Página Actual',
@@ -150,6 +150,8 @@ $define = [
     'DATE_FORMAT_DATE_PICKER' => 'yy-mm-dd',
     'DATE_FORMAT_LONG' => '%A %d %B, %Y',
     'DATE_FORMAT_SHORT' => '%m/%d/%Y',
+    'DATE_FORMAT_SHORT_NO_DAY' => '%B %Y',
+    'DATE_FORMAT_SHORT_NO_YEAR' => '%m/%d',
     'DATE_FORMAT_SPIFFYCAL' => 'MM/dd/yyyy',
     'DATE_TIME_FORMAT' => '%%DATE_FORMAT_SHORT%%' . ' %H:%M:%S',
     'DEDUCTION_TYPE_DROPDOWN_0' => 'Deducir cantidad',
@@ -453,6 +455,7 @@ $define = [
     'TEXT_ATTRIBUTE_COPY_UPDATING' => 'Atributo ID#%1$u actualizado para Producto ID#%2$u',
     'TEXT_ATTRIBUTES_INSERT_INFO' => '<strong>Define los parámetros del Atributo y pinche en Insertar para aplicarlos</strong>',
     'TEXT_ATTRIBUTE_PRICE_BASE_INCLUDED' => 'Incluir en el Precio Base<br>si está definido por Atributos',
+    'TEXT_AVAILABLE' => 'Disponible',
     'TEXT_AVAILABLE_DATE' => 'Fecha Disponible:',
     'TEXT_BANNERS_BANNER_CLICKS' => 'Clicks en el Banner',
     'TEXT_BANNERS_BANNER_VIEWS' => 'Banners Impresiones',
@@ -513,6 +516,8 @@ $define = [
     'TEXT_DISPLAY_NUMBER_OF_ZONES' => 'Mostrando <b>%1$d</b> (de <b>%2$d</b> Zonas)',
     'TEXT_DOCS_HELP' => 'Documentación Zen Cart',
     'TEXT_DOWNLOADABLE_PRODUCTS_MISCONFIGURED' => 'La configuración de algún producto descargable resulta en envío gratis para todos los productos en el carro. Ver Admin > Catálogo > Gestor Descargas.',
+    'TEXT_DISABLED' => 'Deshabilitado',
+    'TEXT_ENABLED' => 'Habilitado',
     'TEXT_EDITOR_INFO' => 'Editor de texto',
     'TEXT_EMAIL' => 'Email',
     'TEXT_EMAIL_ADDRESS_VALIDATE' => 'El texto introducido no parece un email válido, i.e. Nombre &lt;email@domain&gt; o &lt;email@domain&gt; o email@domain o una combinación separado por una comilla. Introdúzcalos otra vez, se ha quitado el email no válido',
