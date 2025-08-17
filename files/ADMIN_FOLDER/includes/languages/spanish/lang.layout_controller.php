@@ -9,7 +9,7 @@
 $define = [
     'HEADING_TITLE' => 'Recuadros de las Columnas',
     'TEXT_CURRENTLY_VIEWING' => 'Actualmente Mostrando: ',
-    'TEXT_THIS_IS_PRIMARY_TEMPLATE' => ' (Principal)',
+    'TEXT_THIS_IS_PRIMARY_TEMPLATE' => ' (Actual)',
     'TABLE_HEADING_BOXES_PATH' => 'Ruta Recuadros: ',
     'TEXT_WARNING_NEW_BOXES_FOUND' => 'AVISO: Se ha encontrado Recuadros nuevos: ',
     'TEXT_ORIGINAL_DEFAULTS'  => '[Valores por Defecto Zen Cart original]',
@@ -33,7 +33,7 @@ $define = [
     'SUCCESS_BOX_RESET' => 'La configuración para [%1$s] ha sido cambiado a la configuración de [%1$s].',
     'TEXT_ERROR_INVALID_RESET_SUBMISSION' => 'ERROR: elección inválida',
 
-    'TEXT_INSTRUCTIONS' => 'Si su dispositivo tiene un mouse, puede arrastrar y soltar un recuadro para cambiar su ubicación en su columna o el orden. De lo contrario, use las flechas para cambiar la ubicación o el orden. Use un ícono <i class="fa-solid fa-xmark"></i> para mover un recuadro activo a su grupo inactivo.',
+    'TEXT_INSTRUCTIONS' => 'Si su dispositivo tiene un ratón, puede arrastrar y soltar un recuadro para cambiar su ubicación en su columna o el orden. De lo contrario, use las flechas para cambiar la ubicación o el orden. Use un ícono <i class="fa-solid fa-xmark"></i> para mover un recuadro activo a su grupo inactivo.',
     'BUTTON_SHOW_NOTES' => 'Mostrar Notas',
     'BUTTON_HIDE_NOTES' => 'Ocultar Notas',
     'TEXT_NOTES' => 'Notas:',
@@ -46,7 +46,7 @@ $define = [
 
     'TEXT_COLUMN_DISABLED' => 'Columna Deshabilitada',
     'TEXT_DISABLED_MESSAGE' => 'Los cambios en esta columna se guardado, pero no se mostrará en la tienda. Consulte la configuración asociada en Configuración :: Opciones de Disposición.',
-    'TEXT_HEADING_MAIN_PAGE_BOXES' => 'Recuadros Página Principal',
+    'TEXT_HEADING_MAIN_PAGE_BOXES' => 'Recuadros Principales',
     'TEXT_HEADING_ACTIVE_LEFT' => 'Recuadros Activos Columna Izquierda',
     'TEXT_HEADING_ACTIVE_RIGHT' => 'Recuadros Activos Columna Derecha',
     'TEXT_HEADING_INACTIVE_LEFT_RIGHT' => 'Recuadros Inactivos Página Principal',
