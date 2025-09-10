@@ -6,7 +6,7 @@ $define = [
     'TEXT_MAIN' => 'Introduzca su e-mail y le enviaremos un mensaje como restablecer su contraseña.',
 
     'EMAIL_PASSWORD_RESET_SUBJECT' => STORE_NAME . ' - Restablecer Contraseña',
-    'EMAIL_PASSWORD_RESET_BODY' => "Existe una solicitud de una nueva contraseña desde %1s. \n\nPara restablecer la contraseña para '%2s', visite el enlace siguiente:\n\n%3s \n\n",
+    'EMAIL_PASSWORD_RESET_BODY' => "Existe una solicitud de una nueva contraseña desde %1\$s. \n\nPara restablecer su contraseña para '%2\$s', visite el enlace siguiente:\n\n%3\$s\n\n",
 
     'SUCCESS_PASSWORD_RESET_SENT' => 'Gracias. Si esa dirección de correo electrónico existe en nuestro sistema, le enviaremos instrucciones como restablecer la contraseña a esa dirección (no olvide revisar la carpeta Spam).',
 ];
