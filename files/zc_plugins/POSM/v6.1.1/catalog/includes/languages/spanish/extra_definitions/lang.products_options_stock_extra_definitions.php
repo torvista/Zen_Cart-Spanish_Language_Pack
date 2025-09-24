@@ -47,6 +47,5 @@ $define = [
     // This message is issued if an add-to-cart action includes a POSM-managed product ... but the requested option-combination isn't configured.
     //
     'POSM_ERROR_INVALID_VARIANT' => 'Las combinaciones de opciones que eligió no están disponibles; actualice sus opciones e inténtelo de nuevo.',
-
 ];
 return $define;

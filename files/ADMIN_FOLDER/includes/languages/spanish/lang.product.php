@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2024 Feb 17 Modified in v2.0.0-beta1 $
+ * @version $Id: DrByte 2024 Oct 12 Modified in v2.1.0 $
 */
 
 $define = [
@@ -74,6 +74,12 @@ $define = [
     'TEXT_PRODUCTS_PRICE_INFO' => 'Precio:',
     'WARNING_PRODUCT_DOES_NOT_EXIST' => 'Aviso: No se puede editar Producto ID#%u, no existe.',
     'TEXT_PRODUCTS_WHOLESALE_PRICE' => 'Precio Profesional:',
+    'TEXT_PRODUCTS_ADDITIONAL_IMAGES' => 'Imágenes Adicionales',
+    'TEXT_PRODUCTS_ADDITIONAL_IMAGES_ADD' => 'Añadir Imágenes Adicionales',
+    'TEXT_IMAGES_OVERWRITE' => '¿Sobrescribir Imágenes Existentes en el servidor? Se aplica a la imagen principal y también las imágenes adicionales',
+    'TEXT_IMAGE_USED_BY_OTHER_PRODUCTS' => 'El archivo de imagen no se ha eliminado del servidor porque está siendo utilizado por otro producto',
+    'TEXT_BUTTON_ADD_ADDITIONAL_IMAGE' => 'Añadir Imágenes Adicionales',
+    'TEXT_BUTTON_DRAG_DROP_ADDITIONAL_IMAGE' => 'Arrastra y suelta las imágenes aquí / Haz clic para buscarlas/deleccionarlas',
 ];
 
 return $define;
