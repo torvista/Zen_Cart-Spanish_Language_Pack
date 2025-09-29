@@ -44,6 +44,7 @@ $define = [
     'EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE' => 'Su contraseña ha sido cambiada por el administrador de la tienda.' . "\n" . 'Su contraseña nueva es: ',
     'EMAIL_CUSTOMER_PWD_CHANGE_SUBJECT' => 'Cambio de Contraseña de Su Cuenta',
     'EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE_FOR_ADMIN' => 'Ha cambiado la contraseña para un cliente: ' . "\n" . '%1$s' . "\n\n" . 'ID Administrador: %2$s',
+    'CUSTOMERS_AUTH_WAITING_FOR_ACTIVATION' => 'Esperando autorización',
     'CUSTOMERS_AUTHORIZATION' => 'Estado de Autorización de Cliente',
     'CUSTOMERS_AUTHORIZATION_0' => 'Aprobado',
     'CUSTOMERS_AUTHORIZATION_1' => 'Pendiente de aprobación - Precisa Aprobación para Navegar',
