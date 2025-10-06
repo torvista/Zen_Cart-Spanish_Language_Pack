@@ -1,12 +1,12 @@
 <?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 
 $define = [
-    'HEADING_TITLE' => 'Buscar Imágenes Adicionales de Productos para cargar en la base de datos',
-    'TEXT_MAIN' => 'En Zen Cart un producto tiene una imagen principal y imágenes adicionales.<br>
-Tiene dos maneras de asignar imágenes adicionales a un producto:<br>
-1) Directamente en la página de edición del producto, un producto a la vez, donde puede asignar (y eliminar) una imagen adicional, sin preocuparse por el nombre del archivo ni cambiar el nombre de las imágenes para que conformen a un patrón. Esto requiere que la configuración de <strong>Admin-&gt;Configuration-&gt;Images-&gt;Additional Images filename matching pattern</strong> esté establecida en <strong>Database</strong>.<br>
-2) Mediante FTP, nombrando todas las imágenes adicionales según una <a href="https://docs.zen-cart.com/user/images/image_filename_conventions/" target="_blank">convención de nomenclatura</a> prescrita. Así se muestran las imágenes adicionales automáticamente junto con la imagen principal.<br><br>
-Esta herramienta está diseñada para cambiar del método 2 al método 1 escaneando el directorio/subdirectorios de imágenes en busca de imágenes, registrándolas en la base de datos, asignadas al producto correspondiente.<br>
+    'HEADING_TITLE' => 'Buscar y Registrar Imágenes Adicionales de Productos',
+    'TEXT_MAIN' => '<p>En Zen Cart un producto tiene una imagen principal y imágenes adicionales.</p>
+<p>Tiene dos maneras de asignar imágenes adicionales a un producto:</p>
+<ol><li>Directamente en la página de edición del producto, un producto a la vez, donde puede asignar (y eliminar) una imagen adicional, sin preocuparse por el nombre del archivo ni cambiar el nombre de las imágenes para que conformen a un patrón. Esto requiere que la configuración de <strong>Admin-&gt;Configuration-&gt;Images-&gt;Additional Images filename matching pattern</strong> esté establecida en <strong>Database</strong>.</li>
+<li>Mediante FTP, nombrando todas las imágenes adicionales según una <a href="https://docs.zen-cart.com/user/images/image_filename_conventions/" target="_blank">convención de nomenclatura</a> prescrita.<br>Así Zen Cart se muestran las imágenes adicionales <strong>automáticamente</strong> junto con la imagen principal.</li></ol>
+<p>Esta herramienta está diseñada para cambiar del método 2 al método 1 escaneando el directorio/subdirectorios de imágenes en busca de imágenes, registrándolas en la base de datos, asignadas al producto correspondiente.<br>
 Utiliza el nombre de la imagen principal (p. ej., my-main-product-image.jpg) como referencia y asigna otras imágenes que encuentra con <a href="https://docs.zen-cart.com/user/images/image_filename_conventions/" target="_blank">nombres coincidentes con sufijos</a> (p. ej., my-main-product-image_anytext.jpg) al ese producto como imágenes adicionales.<br>
 Se crean entradas en la base de datos que permiten gestionar todas las imágenes del producto desde la página de edición del producto.<br>No se modifican ni se suben imágenes.',
     'TEXT_TIP_1' => 'Consejo: Puede ejecutar esta herramienta varias veces. Omitirá las asignaciones duplicadas de imágenes de productos, por lo que es seguro volver a ejecutarlo si agrega más imágenes más adelante, como después de que un proveedor proporcione actualizaciones... pero recuerde, la herramienta solo selecciona imágenes cuyos nombres de archivo coinciden con las convenciones de nomenclatura (vea los enlaces anteriores).',

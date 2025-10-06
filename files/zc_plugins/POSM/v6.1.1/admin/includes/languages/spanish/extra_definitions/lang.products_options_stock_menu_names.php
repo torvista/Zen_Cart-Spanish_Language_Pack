@@ -1,9 +1,9 @@
 <?php // Spanish Language Pack for Zen Cart: https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 // -----
 // Part of the "Product Options Stock" plugin by Cindy Merkin (cindy@vinosdefrutastropicales.com)
-// Copyright (c) 2014-2024 Vinos de Frutas Tropicales
+// Copyright (c) 2014-2025 Vinos de Frutas Tropicales
 //
-// Last updated: POSM 6.1.0
+// Last updated: POSM 6.1.1
 //
 $define = [
     'BOX_REPORTS_PRODUCTS_OPTIONS_STOCK' => 'Ventas por Opciones de Productos',
@@ -63,9 +63,15 @@ $define = [
     'ERROR_INVALID_OPTION_COMBINATION' => 'La combinación de opciones elegida no está disponible actualmente; elija otra.',
 
     // -----
-    // Used by  incudes/javascript/attributes_controller_posm.php.
+    // Used by includes/javascript/attributes_controller_posm.php.
     //
     'POSM_JS_CAUTION_OPTION_REMOVAL' => '¡PRECAUCIÓN!\n\nLos atributos de este producto son administrados por Products Options Stock Manager.\n\nSi confirma la eliminación de esta opción, se eliminarán **todas** las opciones y la cantidad del producto se establecerá en 0.',
     'POSM_JS_CAUTION_ATTRIBUTE_REMOVAL' => '¡PRECAUCIÓN!\n\nLos atributos de este producto son administrados por Products Options Stock Manager.\n\nSi confirma la eliminación de este atributo\\\, %u opciones administradas se eliminarán y la cantidad del producto se actualizará en consecuencia.',
+
+    // -----
+    // Used by includes/javascript/product_posm.php.
+    //
+    'POSM_BUTTON_MANAGE_STOCK' => 'Gestionar Stock',
+    'POSM_TEXT_PRODUCTS_QTY_CLICK' => 'Pinche aquí para gestioner el stock de los variantes:',
 ];
 return $define;
