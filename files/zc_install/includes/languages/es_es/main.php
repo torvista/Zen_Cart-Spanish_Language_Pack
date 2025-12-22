@@ -1,9 +1,9 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2024 Zen Cart Development Team
+ * @copyright Copyright 2003-2025 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2024 Oct 01 Modified in v2.1.0 $
+ * @version $Id: DrByte 2025 Jul 23 Modified in v2.2.0 $
  */
 
 return [
@@ -149,7 +149,6 @@ return [
 'TEXT_ERROR_CONFIGURE_REQUIRES_UPDATE' => 'El archivo configure.php tiene una estructura obsoleta, precisa actualizarlo antes de continuar. ',
 'TEXT_ERROR_HTACCESS_SUPPORT' => 'El soporte para archivos ".htaccess" no está habilitado o no está funcionando correctamente.<br>[ <i><b>NOTA:</b> En el caso de usar un servidor Nginx, siga hasta <u>EL FINAL</u> del proceso de instalación, cuando se generarán instrucciones específicas como resolver este asunto.<i> ]',
 'TEXT_ERROR_SESSION_SUPPORT' => 'Problemas con el soporte de sesiones',
-'TEXT_ERROR_SESSION_SUPPORT_USE_TRANS_SID' => 'parámetro ini session.use_trans_sid está habilitado',
 'TEXT_ERROR_SESSION_SUPPORT_AUTO_START' => 'parámetro ini session.auto_start está habilitado',
 'TEXT_ERROR_DB_CONNECTION' => 'Problemas con la Conexión a la Base de Datos',
 'TEXT_ERROR_DB_CONNECTION_DEFAULT' => 'Problemas posibles con la conexión a la base de datos',

@@ -22,6 +22,8 @@ $define = [
     'TEXT_HEADING_LINKED_CATEGORIES' => 'Categorías Enlazadas',
     'TEXT_SET_MASTER_CATEGORIES_ID' => '<strong>PRECAUCIÓN:</strong> un ID CATEGORÍA MAESTRA debe ser asignada',
     'BUTTON_UPDATE_CATEGORY_LINKS' => 'Actualizar Enlaces a Categorías para',
+    'BUTTON_HIDE_LINKED_CATEGORIES' => 'Esconder Categorías',
+    'BUTTON_SHOW_LINKED_CATEGORIES' => 'Mostrar Categorías',
     'TEXT_INFO_PRODUCTS_TO_CATEGORIES_LINKER_INTRO' => '<p>Este producto está actualmente vinculado a las categorías seleccionadas a continuación (puede cambiar el número de columnas que se muestran en <a target="_blank" href="configuration.php?&amp;gID=3">esta página</a>).<br>Para agregar / eliminar enlaces => seleccione / deseleccione las casillas de verificación según sea necesario y luego haga clic en Actualizar Enlaces.</p><p>Tenga en cuenta que hay Herramientas Globales a continuación.</p>',
     'TEXT_LABEL_CATEGORY_DISPLAY_ROOT' => 'Muestra las Subcategorías debajo de:',
     'BUTTON_SET_DEFAULT_TARGET_CATEGORY' => 'Haga el Por Defecto',
