@@ -3,8 +3,8 @@
  * @copyright Copyright 2003-2022 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott C Wilson 2022 Jan 11 New in v1.5.8-alpha $
-*/
+ * @version $Id: ZenExpert 2026 Jan 14 Modified in v2.2.0-alpha1 $
+ */
 
 $define = [
     'HEADING_TITLE' => 'Estados de los Pedidos',
@@ -20,6 +20,10 @@ $define = [
     'ERROR_REMOVE_DEFAULT_ORDER_STATUS' => 'Error: No se puede eliminar el estado de pedido por defecto. Establezca otro estado de pedido por defecto e inténtelo nuevamente.',
     'ERROR_STATUS_USED_IN_ORDERS' => 'Error: Este estado de pedido actualmente está siendo usado en los pedidos.',
     'ERROR_STATUS_USED_IN_HISTORY' => 'Error: Este estado de pedido actualmente está siendo usado en el historial del estado del pedido.',
+    'TEXT_INFO_HEADING_COLOR_CODE' => 'Código Color',
+    'TEXT_INFO_COLOR_BOX_PLACEHOLDER' => 'Dejar vacío para el valor por defecto o sin etiqueta',
+    'TEXT_INFO_COLOR_CODE' => 'Escriba hexadecimal o haga clic en el cuadro',
+    'TEXT_INFO_COLOR_CODE_WARNING' => '¡<strong>Advertencia:</strong> el texto dentro de la etiqueta será blanco, así que evite los colores claros!',
 ];
 
 return $define;
