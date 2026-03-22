@@ -1,10 +1,10 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
 /**
- * @copyright Copyright 2003-2024 Zen Cart Development Team
+ * @copyright Copyright 2003-2025 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2024 May 27 Modified in v2.1.0-alpha1 $
-*/
+ * @version $Id: Scott Wilson 2024 Nov 23 Modified in v2.2.0 $
+ */
 
 $define = [
     'HEADING_TITLE' => 'Gestor de Plugins',
@@ -47,9 +47,10 @@ $define = [
     'TEXT_INFO_UPGRADE_WARNING' => '',
     'TEXT_INFO_CONFIRM_CLEAN' => 'Confirmar las carpetas de las versiones que quiere borrar',
     'TEXT_LABEL_STATUS' => 'Estatus: ',
-    'ERROR_NOT_FOUND_IN_SQL_FUNCTIONS_MAP' => 'Revise la petición SQL. No se encuentra un mapeo a la función SQL para : ',
-    'ERROR_INVALID_SYNTAX' => 'No se puede identificar la tabla porque el sintaxis es invalido en: ',
-    'ERROR_SQL_PATCH' => 'Hubo un error en procesar el SQL. ',
+    'ERROR_NOT_FOUND_IN_SQL_FUNCTIONS_MAP' => 'Revise la petición SQL. No se encuentra un mapeo a la función SQL para: ',
+    'ERROR_INVALID_SYNTAX' => 'No se puede identificar la tabla porque la sintaxis es invalido en: ',
+    'ERROR_SQL_PATCH' => 'Hubo un error en procesar el SQL.',
+    'WARNING_NONENCAPSULATED_REMOVAL' => '<b>Nota:</b> La instalación de este plugin provocará la eliminación <b>permanente</b> de archivos proporcionados por una versión no encapsulada (si existe).',
 ];
 
 return $define;
