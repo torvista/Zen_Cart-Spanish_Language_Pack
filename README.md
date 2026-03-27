@@ -4,13 +4,16 @@ Complete fileset: Installer, Shopfront, Admin, core Plugins.
 
 See the /docs/spanish_language_pack/index.html for installation and use.
 
-## GitHub
-Branch "main" tracks the Zen Cart "master" branch development branch.  
-This is not normally more than a couple of days behind this branch so can generally be used for testing.
+## GitHub Branches
+### main
+Branch "main" follows the Zen Cart "master" branch development branch which is heading for v3.0.
+### 2.2
+For the current version 2.2.1 post release, possibly with fixes after 26/03/2026.
+### 2.1
+For version 2.1.0
 
-Branch "2.1.0" tracks the Zen Cart production "2.1.0" branch, only for bugfixes of 2.1.0.
 
-## Spanish translations for non-core Plugins
+## Spanish translations for non-core Plugins, NOT included in this langugae pack
 Available on request.
 - AbuseIPDB
 - Access Blocker
