@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /* 
  *  zca_bootstrap_colors.php
  *
@@ -10,7 +13,12 @@
  *
  * BOOTSTRAP v3.5.2
  */
-define('BOX_TOOLS_ZCA_BOOTSTRAP_COLORS', 'ZCA Bootstrap Colores');
 
-define('SUCCESS_ZCA_BOOTSTRAP_COLORS_INSTALLED', 'ZCA Bootstrap Colores (v%s) fue instalado.');
-define('SUCCESS_ZCA_BOOTSTRAP_COLORS_UPDATED', 'ZCA Bootstrap Colores fue actualizado a v%s.');
+$define = [
+    'BOX_TOOLS_ZCA_BOOTSTRAP_COLORS' => 'ZCA Bootstrap Colores',
+
+    'SUCCESS_ZCA_BOOTSTRAP_COLORS_INSTALLED' => 'ZCA Bootstrap Colores (v%s) fue instalado.',
+    'SUCCESS_ZCA_BOOTSTRAP_COLORS_UPDATED' => 'ZCA Bootstrap Colores fue actualizado a v%s.',
+];
+
+return $define;

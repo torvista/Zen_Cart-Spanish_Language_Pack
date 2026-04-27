@@ -11,6 +11,7 @@ $define = [
     'EMAIL_PRODUCT_REVIEW_CONTENT_DETAILS' => 'Detalles del comentario: %s',
     'TEXT_REVIEW_SUBMITTED_FOR_REVIEW' => 'Gracias, su comentario será revisado antes de publicarlo.',
     'TEXT_REVIEW_SUBMITTED' => '¡Gracias por su comentario!',
+    'TEXT_REVIEW_TITLE' => 'Título Comentario:',
 ];
 
 return $define;

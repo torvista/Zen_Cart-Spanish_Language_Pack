@@ -8,6 +8,7 @@
 
 $define = [
     'EMAIL_LOGO_ALT_TITLE_TEXT' => '¡Zen Cart! El Arte de E-commerce',
+    'EMAIL_LOGO_ALT_TEXT' => 'logotipo',
     'EMAIL_LOGO_FILENAME' => 'header.jpg',
     'EMAIL_LOGO_WIDTH' => '550',
     'EMAIL_LOGO_HEIGHT' => '110',
