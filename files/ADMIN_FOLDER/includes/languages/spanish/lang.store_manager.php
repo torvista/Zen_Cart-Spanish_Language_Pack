@@ -22,7 +22,7 @@ $define = [
     'TEXT_INFO_PRODUCTS_ORDERED_UPDATE' => '<strong>Resetear Productos Pedidos</strong><br>Resetear la cuenta de productos pedidos a 0: ',
     'TEXT_INFO_MASTER_CATEGORIES_ID_UPDATE' => '<strong>Resetear TODOS los ID de Categoría Maestra</strong><br>Usados con productos enlazados y precios <strong>¡Peligro!</strong>: ',
     'TEXT_NEW_ORDERS_ID' => 'ID del próximo pedido',
-    'TEXT_INFO_SET_NEXT_ORDER_NUMBER' => '<strong>Define el próximo número de pedido</strong><br>NOTA: No se puede poner un número menor que un pedido existente en la base de datos.',
+    'TEXT_INFO_SET_NEXT_ORDER_NUMBER' => '<strong>Define el próximo número de pedido</strong><br>NOTA: Der ser mayor que %u.',
     'TEXT_MSG_NEXT_ORDER' => 'El próximo número de pedido será %s',
     'TEXT_MSG_NEXT_ORDER_MAX' => 'A resulta que un pedido ya en marcha => el próximo número de pedido es actualmente: %s',
     'TEXT_MSG_NEXT_ORDER_TOO_LARGE' => 'No se puede poner el próximo número de pedido mayor que 2000000000 (es una limitación de la base de datos). Elija un número menor.',

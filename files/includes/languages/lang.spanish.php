@@ -5,8 +5,18 @@
 // other processing.
 //
 global $locales;
-$locales = ['es_ES', 'es_ES.utf8', 'es-ES', 'es'];
+$locales = ['es_ES', 'es-ES', 'es_ES.utf8', 'es-ES', 'es'];
 @setlocale(LC_TIME, $locales);
+
+$define_locales = [
+    'CHARSET' => 'utf-8',
+    'DATE_FORMAT' => 'm/d/Y',
+    'DATE_FORMAT_LONG' => '%A %d %B, %Y',
+    'DATE_TIME_FORMAT_WITHOUT_SECONDS' => '%m/%d/%Y %H:%M',
+    'DOB_FORMAT_STRING' => 'mm/dd/yyyy',
+    'ENTRY_DATE_OF_BIRTH_ERROR' => 'La fecha de nacimiento debe tener el formato: MM/DD/YYYY (p.ej. 05/21/1970)',
+    'ENTRY_DATE_OF_BIRTH_TEXT' => '* (p.ej. 05/21/1970)',
+];
 
 $define = [
     'ARIA_DELETE_ITEM_FROM_CART' => 'Borrar este artículo del carro',
@@ -91,12 +101,7 @@ $define = [
 
     'CATEGORY_COMPANY' => 'Datos de la Empresa',
     'CATEGORY_PERSONAL' => 'Datos Personales',
-    'CHARSET' => 'utf-8',
-    'DATE_FORMAT' => 'm/d/Y',
-    'DATE_FORMAT_LONG' => '%A %d %B, %Y',
-    'DATE_TIME_FORMAT_WITHOUT_SECONDS' => '%m/%d/%Y %H:%M',
     'DB_ERROR_NOT_CONNECTED' => 'Error - No se ha podido conectar con la base de datos',
-    'DOB_FORMAT_STRING' => 'mm/dd/yyyy',
     'DOWNLOADS_CONTROLLER_ON_HOLD_MSG' => 'NOTA: Las descargas no están disponibles hasta que el pago haya sido verificado',
     'EMAIL_SALUTATION' => 'Estimado/a',
     'EMAIL_SEND_FAILED' => 'ERROR: No se ha podido enviar el email a: "%1$s" <%2$s> con sujeto "%3$s"',
@@ -114,8 +119,6 @@ $define = [
     'ENTRY_CUSTOMERS_REFERRAL' => 'Código de Referencia:',
     'ENTRY_DATE_FROM' => 'Desde Fecha:',
     'ENTRY_DATE_OF_BIRTH' => 'Fecha de nacimiento:',
-    'ENTRY_DATE_OF_BIRTH_ERROR' => 'La fecha de nacimiento debe tener el formato: MM/DD/YYYY (p.ej. 05/21/1970)',
-    'ENTRY_DATE_OF_BIRTH_TEXT' => '* (p.ej. 05/21/1970)',
     'ENTRY_DATE_TO' => 'Hasta Fecha:',
     'ENTRY_EMAIL' => 'Email:',
     'ENTRY_EMAIL_ADDRESS' => 'Email:',
@@ -553,4 +556,4 @@ $define = [
     $define['TEXT_SEND_OR_SPEND'] = 'Tiene un saldo positivo en su cuenta ' . $define['TEXT_GV_NAME'] . ' cuenta. Puede gastarlo o enviárselo a otro usuario. Para enviarlo, haga un click en el botón abajo.';
     $define['VOUCHER_BALANCE'] = ' Saldo ' . $define['TEXT_GV_NAME'];
 
-return $define;
+return array_merge($define, $define_locales);
