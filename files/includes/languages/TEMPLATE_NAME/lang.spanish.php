@@ -17,8 +17,8 @@ $define_locales = [
 ];
 
 $define = [
-    'FOOTER_TEXT_BODY' => 'Todos los Derechos Reservados &copy; 2003-' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . STORE_OWNER . '</a>',
-    'TEXT_PRIVACY_CONDITIONS_CONFIRM' => 'Doy mi consentimiento para que ' . STORE_NAME . ' guarde y utilice mis datos personales y confirmo que he leído y acepto la <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">Política de Privacidad</span></a>.', //steve
+    'FOOTER_TEXT_BODY' => 'Todos los Derechos Reservados &copy; 2003-' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . zen_config('STORE_OWNER') . '</a>',
+    'TEXT_PRIVACY_CONDITIONS_CONFIRM' => 'Doy mi consentimiento para que ' . zen_config('STORE_NAME') . ' guarde y utilice mis datos personales y confirmo que he leído y acepto la <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">Política de Privacidad</span></a>.', //steve
     'TEXT_PRIVACY_CONDITIONS_DESCRIPTION' => 'Los datos que aparecen en este formulario se usan solamente para gestionar su pedido. ' . STORE_NAME . ' no traslada datos a terceros. Puede leer nuestra Política de Privacidad <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">aquí</span></a>.',
     'TEXT_PRODUCT_WEIGHT_UNIT' => ' kg',
     'TEXT_SHIPPING_WEIGHT' => ' kg',
