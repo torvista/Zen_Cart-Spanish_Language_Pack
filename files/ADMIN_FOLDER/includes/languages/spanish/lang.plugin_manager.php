@@ -64,6 +64,7 @@ $define = [
     'TEXT_VERSION_INSTALLED' => '<strong>Versión Instalado:</strong> %s',
 
     'WARNING_NONENCAPSULATED_REMOVAL' => '<b>Nota:</b> La instalación de este plugin provocará la eliminación <b>permanente</b> de archivos proporcionados por una versión no encapsulada (si existen).',
+    'WARNING_TEMPLATE_IS_ACTIVE' => 'Este plugin contiene la plantilla seleccionada actualmente por la herramienta <a href="%1$s">%2$s</a>. ¡Desinstalar el complemento antes de seleccionar una plantilla diferente tendrá consecuencias no deseadas!',
 ];
 
 return $define;

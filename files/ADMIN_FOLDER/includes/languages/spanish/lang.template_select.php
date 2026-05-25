@@ -32,6 +32,7 @@ $define = [
     'TEXT_VIEW_TEMPLATE_SETTINGS' => 'Ver los "template_settings"',
     'TEXT_MODAL_HEADING_INTRO' => '"template_settings.php": ',
     'ERROR_COULD_NOT_READ_FILE' => 'No se pudo leer el archivo.',
+    'ERROR_TEMPLATE_SELECTION_NOT_AVAILABLE' => 'La plantilla seleccionada no está disponible. Las plantillas Plugin deben estar instaladas antes de poder asignarlas.',
 ];
 
 return $define;
