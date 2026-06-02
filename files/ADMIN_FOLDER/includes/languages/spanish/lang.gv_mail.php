@@ -26,8 +26,8 @@ $define = [
     'ERROR_NO_AMOUNT_ENTERED' => 'Error: Valor inválido.',
     'ERROR_NO_SUBJECT' => 'Error: email sin Asunto.',
     'TEXT_GV_ANNOUNCE' => 'Nos complace ofrecerle un ' . '%%TEXT_GV_NAME%%' . ' para %s',
-    'TEXT_GV_TO_REDEEM_TEXT' => 'Para canjear este ' . '%%TEXT_GV_NAME%%' . ' pulse el link aquí debajo.' . "\n\n ". '%1$s%2$s' . "\n\n" . 'o visite ' . STORE_NAME . " en " . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . "\n" . 'y introduzca el código %2$s en la página de Pago.',
-    'TEXT_GV_TO_REDEEM_HTML' => '<a href="%1$s%2$s">Pinche aquí para canjear este ' . '%%TEXT_GV_NAME%%' . '</a> o visite <a href="' . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . '">' . STORE_NAME . '</a> y introduzca el código <strong>%2$s</strong> en la página de Pago.',
+    'TEXT_GV_TO_REDEEM_TEXT' => 'Utilice el enlace para canjear el ' . '%%TEXT_GV_NAME%%' . "\n\n" '%1$s%2$s' . "\n\n" . 'o visite ' . zen_config('STORE_NAME') . " en " . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . "\n" . 'y introduzca el código %2$s en la página de Pago.',
+    'TEXT_GV_TO_REDEEM_HTML' => '<a href="%1$s%2$s">Pinche aquí para canjear este ' . '%%TEXT_GV_NAME%%' . '</a> o visite <a href="' . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . '">' .zen_config( STORE_NAME ). '</a> y introduzca el código <strong>%2$s</strong> en la página de Pago.',
 ];
 
 return $define;

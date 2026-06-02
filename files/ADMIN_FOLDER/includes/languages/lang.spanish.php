@@ -88,7 +88,6 @@ $define = [
     'BOX_CONFIGURATION_EZPAGES_SETTINGS' => 'Opciones EZ-Pages',
     'BOX_CONFIGURATION_FEATURED_LISTING' => 'Listado: Destacados',
     'BOX_CONFIGURATION_GV_COUPONS' => 'Tarjetas Regalo',
-    'BOX_CONFIGURATION_GZIP_COMPRESSION' => 'Compresión Gzip',
     'BOX_CONFIGURATION_IMAGES' => 'Imágenes',
     'BOX_CONFIGURATION_INDEX_LISTING' => 'Listado: Inicio',
     'BOX_CONFIGURATION_LAYOUT_SETTINGS' => 'Opciones de Disposición',

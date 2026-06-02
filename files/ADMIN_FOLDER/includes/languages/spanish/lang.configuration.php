@@ -6,77 +6,18 @@
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: lat9 2025 Sep 24 Modified in v2.2.0 $
 */
-
 $define = [
-    'TEXT_MIN_ADMIN_USER_LENGTH' => 'Mínimo de 4 caracteres.',
     'TEXT_DATA_OUT_OF_RANGE' => 'Datos fuera de rango',
-    'TEXT_MIN_GENERAL_ADMIN' => 'El valor mínimo introducido no era un número entero.',
-    'TEXT_MAX_GENERAL_ADMIN' => 'El valor máximo introducido no era un número entero.',
-    'TEXT_MIN_ADMIN_FIRST_NAME_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_LAST_NAME_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_DOB_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_EMAIL_ADDRESS_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_STREET_ADDRESS_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_COMPANY_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_POSTCODE_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_CITY_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_STATE_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_TELEPHONE_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_PASSWORD_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_CC_OWNER_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_CC_NUMBER_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_REVIEW_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_DISPLAY_BESTSELLERS_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_DISPLAY_ALSO_PURCHASED_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MIN_ADMIN_ENTRY_NICK_LENGTH' => 'El valor debe ser un integer',
-    'TEXT_MAX_ADMIN_ADDRESS_BOOK_ENTRIES_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_PAGE_LINKS_LENGTH' =>  'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_PAGE_LINKS_MOBILE_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SPECIAL_PRODUCTS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_NEW_PRODUCTS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_UPCOMING_PRODUCTS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_MANUFACTURERS_LIST_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_MUSIC_GENRES_LIST_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_RECORD_COMPANY_LIST_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_RECORD_COMPANY_NAME_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_MUSIC_GENRES_NAME_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_MANUFACTURERS_NAME_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_NEW_REVIEWS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_RANDOM_SELECT_REVIEWS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_RANDOM_SELECT_NEW_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_RANDOM_SELECT_SPECIALS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_CATEGORIES_PER_ROW_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_PRODUCTS_NEW_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_BESTSELLERS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_ALSO_PURCHASED_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_PRODUCTS_IN_ORDER_HISTORY_BOX_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_ORDER_HISTORY_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_CUSTOMER_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_ORDERS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_RESULTS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_RESULTS_CATEGORIES_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_PRODUCTS_LISTING_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_ROW_LISTS_OPTIONS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_DOWNLOADS_MANAGER_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_FEATURED_ADMIN_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_FEATURED_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_FEATURED_PRODUCTS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_RANDOM_SELECT_FEATURED_CATEGORIES_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_RANDOM_SELECT_FEATURED_PRODUCTS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SPECIAL_PRODUCTS_INDEX_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_SHOW_NEW_PRODUCTS_LIMIT_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_LANGUAGE_FLAGS_COLUMNS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_RESULTS_ORDERS_DETAILS_LISTING_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_PAYPAL_IPN_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_PRODUCTS_TO_CATEGORIES_COLUMNS_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_EZPAGE_LENGTH' => 'El valor debe ser un integer.',
-    'TEXT_MAX_PREVIEW' => 'El valor debe ser un integer.',
+    'TEXT_MIN_GENERAL_ADMIN' => 'El valor mínimo introducido para &quot;%1$s&quot; debe ser un número entero mayor o igual que %2$s. El valor introducido (%3$s) no se guardó.',
+    'TEXT_MAX_GENERAL_ADMIN' => 'El valor máximo introducido para &quot;%1$s&quot; debe ser un número entero mayor o igual que %2$s. El valor introducido (%3$s) no se guardó.',
+
     'TEXT_HINT_CUSTOMERS_ACTIVATION_TOKEN_LENGTH' => 'El valor debe ser un integer entre 12-100.',
-    'TEXT_HINT_CUSTOMERS_ACTIVATION_TOKEN_VALID_MINUTES' => 'El valor debe ser un integer entre 12-1440.',
+    'TEXT_HINT_CUSTOMERS_ACTIVATION_TOKEN_VALID_MINUTES' => 'El valor debe ser un integer entre 1-1440.',
     'TEXT_HINT_PASSWORD_RESET_TOKEN_LENGTH' => 'El valor debe ser un integer entre 12-100.',
     'TEXT_HINT_PASSWORD_RESET_TOKEN_VALID_MINUTES' => 'El valor debe ser un integer entre 1-1440.',
-//bof constant page titles
+
+    'TEXT_VALUE_SAVED' => 'El valor para &quot;%1$s&quot; fue cambiado de &quot;%2$s&quot; a &quot;%3$s&quot;.',
+//bof custom page titles
     'CFG_GRP_TITLE_MY_STORE' => '%%BOX_CONFIGURATION_MY_STORE%%',
     'CFG_GRP_TITLE_MINIMUM_VALUES' => '%%BOX_CONFIGURATION_MINIMUM_VALUES%%',
     'CFG_GRP_TITLE_MAXIMUM_VALUES' => '%%BOX_CONFIGURATION_MAXIMUM_VALUES%%',
@@ -102,9 +43,12 @@ $define = [
     'CFG_GRP_TITLE_INDEX_LISTING' => '%%BOX_CONFIGURATION_INDEX_LISTING%%',
     'CFG_GRP_TITLE_DEFINE_PAGE_STATUS' => '%%BOX_CONFIGURATION_DEFINE_PAGE_STATUS%%',
     'CFG_GRP_TITLE_EZPAGES_SETTINGS' => '%%BOX_CONFIGURATION_EZPAGES_SETTINGS%%',
-//eof page titles    
-    'CFGTITLE_STORE_NAME' => 'Nombre de la Tienda',  //example override for configuration constant title
-    'CFGDESC_STORE_NAME' =>'El nombre de mi tienda',   //example override for configuration constant description    
+//eof page titles
+
+//example override for configuration constant title
+    'CFGTITLE_STORE_NAME' => 'Nombre de la Tienda',
+//example override for configuration constant description
+    'CFGDESC_STORE_NAME' =>'El nombre de mi tienda',
 ];
 
 return $define;
