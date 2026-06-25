@@ -16,6 +16,7 @@ $define = [
     'TEXT_ADMIN_CONFIRM_PASSWORD' => 'Confirmar Contraseña',
     'ERROR_WRONG_LOGIN' => 'Contraseña o nombre de usuario incorrecto.',
     'ERROR_SECURITY_ERROR' => 'Había un error de seguridad en el intento de Login.',
+    'ERROR_ADMIN_SESSION_INVALID_DUE_TO_PASSWORD_CHANGE' => 'Su sesión ha caducado porque su contraseña ha sido cambiada. Vuelva a Login.',
     'TEXT_PASSWORD_FORGOTTEN' => '¿Contraseña olvidada?',
     'LOGIN_EXPIRY_NOTICE' => '',
     'ERROR_PASSWORD_EXPIRED' => 'NOTA: Su contraseña ha caducado. Elija una contraseña nueva. La contraseña <strong>debe estar compuesta de LETRAS y NÚMEROS y tener un mínimo de 7 caracteres.</strong>',

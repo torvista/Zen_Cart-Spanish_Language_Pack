@@ -223,6 +223,7 @@ $define = [
     'ENTRY_TELEPHONE_NUMBER' => 'Teléfono:',
     'ENTRY_TELEPHONE_NUMBER_ERROR' => '&nbsp;<span class="errorText">min ' . zen_config('ENTRY_TELEPHONE_MIN_LENGTH') . ' num</span>',
     'ERROR_ADMIN_SECURITY_WARNING' => 'Atención: Su nombre de usuario de administración no es seguro ... o tiene todavía el Login por defecto, "Admin admin", o no ha borrado o cambiado: demo demoonly<br>Esta información de Login ha de ser cambiada lo antes posible por la seguridad de su tienda.',
+    'ERROR_ADMIN_SESSION_INVALID_DUE_TO_PASSWORD_CHANGE' => 'Su sesión ha caducado porque su contraseña ha sido cambiada. Vuelva a Login.',
     'ERROR_CANNOT_DELETE_CUSTOMER_GROUP_DUE_TO_LINKED_CUSTOMERS' => 'ERROR: no se puede borrar el Grupo porque %s clientes están todavía asignados al Grupo y el override no era especificado.',
     'ERROR_CANNOT_LINK_TO_SAME_CATEGORY' => 'Error: No se puede vincular productos de la misma categoría.',
     'ERROR_CANNOT_MOVE_CATEGORY_TO_CATEGORY_SELF' => 'Error:  ¡No se puede mover una categoría a la misma categoría ID#!',

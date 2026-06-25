@@ -14,7 +14,7 @@ $define = [
 
     'TEXT_MAIN' => 'Introduzca su e-mail y le enviaremos un mensaje como restablecer su contraseña.',
 
-    'EMAIL_PASSWORD_RESET_SUBJECT' => STORE_NAME . ' - Restablecer Contraseña',
+    'EMAIL_PASSWORD_RESET_SUBJECT' => zen_config('STORE_NAME') . ' - Restablecer Contraseña',
 
     'EMAIL_PASSWORD_RESET_BODY' =>
         "Hola,\n\n" .
@@ -24,7 +24,7 @@ $define = [
         "Este enlace es solo para restablecer la contraseña. Si no lo solicitó, puede ignorar este correo electrónico y su contraseña no se cambiará.\n\n" .
         "Para su información, esta solicitud se realizó desde la dirección IP: %1\$s\n\n" .
         "Un Saludo,\n" .
-        STORE_NAME . "\n",
+        zen_config('STORE_NAME') . "\n",
 
     'EMAIL_PASSWORD_RESET_HTML' =>
         '<p>Hola,</p>' .

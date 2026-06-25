@@ -186,6 +186,7 @@ $define = [
     'ERROR_CORRECTIONS_HEADING' => 'Por favor corrija lo siguiente: <br>',
     'ERROR_CUSTOMERS_ID_INVALID' => '¡Los datos del cliente no puede ser validada!<br>Por favor, conéctese o abra una nueva cuenta. ...',
     'ERROR_DATABASE_MAINTENANCE_NEEDED' => '<a href="https:docs.zen-cart.com/user/troubleshooting/error_71_maintenance_required/" rel="noopener" target="_blank">ERROR 0071: Parece que hay un problema con la base de datos.</a>',
+    'ERROR_SESSION_INVALID_DUE_TO_PASSWORD_CHANGE' => 'Su sesión ha caducado porque su contraseña ha sido cambiada. Vuelva a Login.',
     'ERROR_DESTINATION_DOES_NOT_EXIST' => 'Error: el destino no existe.',
     'ERROR_DESTINATION_NOT_WRITEABLE' => 'Error: destino no escribible.',
     'ERROR_FILETYPE_NOT_ALLOWED' => 'Error: Un tipo de fichero (%1$s) no está permitido. Inténtalo otra vez.',

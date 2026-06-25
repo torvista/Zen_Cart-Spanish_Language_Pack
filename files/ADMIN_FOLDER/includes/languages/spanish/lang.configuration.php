@@ -16,7 +16,7 @@ $define = [
     'TEXT_HINT_PASSWORD_RESET_TOKEN_LENGTH' => 'El valor debe ser un integer entre 12-100.',
     'TEXT_HINT_PASSWORD_RESET_TOKEN_VALID_MINUTES' => 'El valor debe ser un integer entre 1-1440.',
 
-    'TEXT_VALUE_SAVED' => 'El valor para &quot;%1$s&quot; fue cambiado de &quot;%2$s&quot; a &quot;%3$s&quot;.',
+    'TEXT_VALUE_SAVED' => 'El valor para &quot;%1$s&quot; fue cambiado de %2$s a %3$s.',
 //bof custom page titles
     'CFG_GRP_TITLE_MY_STORE' => '%%BOX_CONFIGURATION_MY_STORE%%',
     'CFG_GRP_TITLE_MINIMUM_VALUES' => '%%BOX_CONFIGURATION_MINIMUM_VALUES%%',

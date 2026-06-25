@@ -1,8 +1,8 @@
 <?php //https://github.com/torvista/Zen_Cart-Spanish_Language_Pack
-if (!defined('SHOW_ACCEPTED_CREDIT_CARDS')) {
+if (!empty(zen_config('SHOW_ACCEPTED_CREDIT_CARDS'))) {
     return;
 }
-global $template, $current_page_base; 
+global $template, $current_page_base;
 $define = [
     'TEXT_ACCEPTED_CREDIT_CARDS' => '<strong>Aceptamos:</strong> ',
     'TEXT_CC_ENABLED_VISA' => 'Visa',

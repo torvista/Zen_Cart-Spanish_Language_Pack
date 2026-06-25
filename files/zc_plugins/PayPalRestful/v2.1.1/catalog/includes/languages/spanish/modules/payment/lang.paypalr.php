@@ -2,7 +2,7 @@
 /**
  * Language definitions for the paypalr (PayPal Restful Api) payment module.
  *
- * Last updated: v2.0.0
+ * Last updated: v2.1.0
  */
 $define = [
     'MODULE_PAYMENT_PAYPALR_TEXT_TITLE' => 'PayPal',
@@ -45,8 +45,8 @@ $define = [
     // -----
     // Used by the payment module's javascript_validation method.
     //
-    'MODULE_PAYMENT_PAYPALR_TEXT_JS_CC_OWNER' => '* El nombre del titular de la tarjeta debe ser al menos ' . CC_OWNER_MIN_LENGTH . ' caracteres.\n',
-    'MODULE_PAYMENT_PAYPALR_TEXT_JS_CC_NUMBER' => '* El número de tarjeta de crédito debe ser al menos ' . CC_NUMBER_MIN_LENGTH . ' caracteres.\n',
+    'MODULE_PAYMENT_PAYPALR_TEXT_JS_CC_OWNER' => '* El nombre del titular de la tarjeta debe ser al menos ' . zen_config('CC_OWNER_MIN_LENGTH') . ' caracteres.\n',
+    'MODULE_PAYMENT_PAYPALR_TEXT_JS_CC_NUMBER' => '* El número de tarjeta de crédito debe ser al menos ' . zen_config('CC_NUMBER_MIN_LENGTH') . ' caracteres.\n',
     'MODULE_PAYMENT_PAYPALR_TEXT_JS_CC_CVV' => '* El número CVV de 3 o 4 dígitos suele estar en la cara trasera de la tarjeta de crédito (o en la cara para American Express).\n',
 
     // -----
