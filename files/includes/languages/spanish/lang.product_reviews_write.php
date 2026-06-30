@@ -12,6 +12,7 @@ $define = [
     'TEXT_REVIEW_SUBMITTED_FOR_REVIEW' => 'Gracias, su comentario será revisado antes de publicarlo.',
     'TEXT_REVIEW_SUBMITTED' => '¡Gracias por su comentario!',
     'TEXT_REVIEW_TITLE' => 'Título Comentario:',
+    'ERROR_REVIEW_SUBMIT_TOO_SOON' => 'Por favor, espere un momento antes de enviar otra reseña.',
 ];
 
 return $define;
