@@ -13,7 +13,7 @@ $define = [
     'ERROR_INVALID_SYNTAX' => 'No se puede identificar la tabla porque la sintaxis no es válida en: ',
     'ERROR_NOT_FOUND_IN_SQL_FUNCTIONS_MAP' => 'Revise la petición SQL. No se encuentra un mapeo a la función SQL para: ',
     'ERROR_REMOVE_FILES_CANT_DELETE' => 'No se puede eliminar el archivo: %s',
-    'ERROR_REMOVE_FILES_CONTEXT' => 'Contexto no válido (%s), debe ser "catalog" o "admin".', 
+    'ERROR_REMOVE_FILES_CONTEXT' => 'Contexto no válido (%s), debe ser "catalog" o "admin".',
     'ERROR_SQL_PATCH' => 'Hubo un error en procesar el SQL.',
     'ERROR_UNKNOWN_FAILURE' => 'El plugin rechazó la acción %s, pero no proporcionó un mensaje que indicara el motivo.',
         'ERROR_UNKNOWN_FAILURE_DISABLE' => 'deshabilitar',
@@ -22,7 +22,7 @@ $define = [
         'ERROR_UNKNOWN_FAILURE_UNINSTALL' => 'desinstalar',
         'ERROR_UNKNOWN_FAILURE_UPGRADE' => 'actualizar',
 
-    'TABLE_HEADING_FILE_SPACE' => 'Tamaño Archivos',
+    'TABLE_HEADING_FILE_SPACE' => 'Tamaño',
     'TABLE_HEADING_KEY' => 'Key Plugin',
     'TABLE_HEADING_NAME' => 'Nombre',
     'TABLE_HEADING_VERSION_INSTALLED' => 'Versión',

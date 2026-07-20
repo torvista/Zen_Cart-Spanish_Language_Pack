@@ -303,7 +303,6 @@ $define = [
     'PAGE_REVIEWS' => 'Comentarios',
     'PAGE_SHOPPING_CART' => 'Carro de la Compra',
     'PAGE_SPECIALS' => 'Ofertas',
-    'PAYMENT_JAVASCRIPT_DISABLED' => 'No puede continuar con el proceso de compra porque Javascript está desactivado en su navegador. Es imprescindible activarlo para completar la compra.',
     'PAYMENT_METHOD_GV' => 'Tarjeta Regalo/Cupón',
     'PAYMENT_MODULE_GV' => 'GV/DC',
     'PLEASE_SELECT' => 'Seleccione ...',
