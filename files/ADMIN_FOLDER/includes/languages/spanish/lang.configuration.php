@@ -7,6 +7,16 @@
  * @version $Id: lat9 2025 Sep 24 Modified in v2.2.0 $
 */
 $define = [
+    'BUTTON_GO' => 'Ir',
+
+     'ERROR_TEMPLATE_NOT_SELECTABLE' => 'La plantilla que seleccionaste previamente (%1$s) ya no está disponible; los cambios que acabas de enviar se han descartado. Inténtalo de nuevo.',
+
+     'TEXT_ALL_TEMPLATES' => 'Todas las Plantillas',
+     'TEXT_CHOOSE_SAVETO' => 'Guardar en:',
+     'TEXT_INHERITED_VALUE' => 'Valor heredado: %1$s',
+     'TEXT_NO_TEMPLATE_SETTINGS' => 'Este grupo de opciones de configuración no contiene ninguna opción de plantilla.',
+     'TEXT_TEMPLATE_SETTINGS' => 'Este grupo de elementos de configuración contiene opciones que puedes configurar plantilla por plantilla. Elige la plantilla a la que se aplican tus cambios; Su elección más reciente se recordará durante esta sesión de inicio de sesión.<br><br>Tenga en cuenta que si está guardando en una plantilla <em>distinta de</em> <code>Todas las Plantillas</code>, solo se mostrarán las opciones específicas de la plantilla.',
+
     'TEXT_DATA_OUT_OF_RANGE' => 'Datos fuera de rango',
     'TEXT_MIN_GENERAL_ADMIN' => 'El valor mínimo introducido para &quot;%1$s&quot; debe ser un número entero mayor o igual que %2$s. El valor introducido (%3$s) no se guardó.',
     'TEXT_MAX_GENERAL_ADMIN' => 'El valor máximo introducido para &quot;%1$s&quot; debe ser un número entero mayor o igual que %2$s. El valor introducido (%3$s) no se guardó.',

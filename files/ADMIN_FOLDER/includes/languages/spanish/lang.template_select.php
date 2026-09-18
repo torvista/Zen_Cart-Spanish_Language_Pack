@@ -9,7 +9,7 @@
 $define = [
     'HEADING_TITLE' => 'Selección de la Plantilla',
     'TEXT_INFO_DEFAULT_LANGUAGE' => 'Por Defecto (todas)',
-    'TEXT_TEMPLATE_SELECT_INFO' => '<p>Se puede cambiar la plantilla utilizando en la tienda.</p><p>La plantilla Por Defecto se suele usar para <strong>todas</strong> las idiomas. Solamente se usa una plantilla específica para soportar una idioma que se escribe Derecha-a-Izquierda.</p><p>Es posible ver una plantilla en una sesión <em>privada</em> => p.ej. en el desarrollo de una plantilla nueva: ver la Ayuda Online <strong>?</strong></p>',
+    'TEXT_TEMPLATE_SELECT_INFO' => '<p>Utilice esta página para cambiar la plantilla de la tienda. La plantilla por defecto se usa normalmente para <strong>todos</strong> los idiomas. Agregar asignaciones de plantilla por idioma se usa normalmente cuando se admiten idiomas RTL junto con idiomas LTR.</p><p>Es posible ver una plantilla en una sesión <em>privada</em>, por ejemplo, al probar una nueva plantilla: consulte la Ayuda <strong>?</strong></p>',
     'TABLE_HEADING_LANGUAGE' => 'Idioma ',
     'TABLE_HEADING_NAME' => 'Nombre',
     'TABLE_HEADING_DIRECTORY' => 'Directorio',

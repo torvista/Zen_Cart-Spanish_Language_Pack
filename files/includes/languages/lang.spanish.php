@@ -530,6 +530,7 @@ $define = [
     'TEXT_WORDS_FREE' => ' Palabra(s) gratis ',
     'TEXT_YOUR_IP_ADDRESS' => 'Su dirección IP es: ',
     'TYPE_BELOW' => 'Teclee una selección abajo ...',
+    'WARNING_CART_ITEM_LIMIT_REACHED' => 'El carro contiene el máximo número de productos permitidos. Hay que quitar uno antes añadiro otra.',
     'WARNING_COULD_NOT_LOCATE_LANG_FILE' => 'AVISO: No se pudo localizar el archivo del idioma: ',
     'WARNING_NO_FILE_UPLOADED' => 'Advertencia: no se subió el fichero.',
     'WARNING_PRODUCT_QUANTITY_ADJUSTED' => 'La cantidad ha sido ajustada al nivel de stock disponible. ',
