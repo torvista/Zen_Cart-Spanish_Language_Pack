@@ -5,7 +5,6 @@
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: lat9 2026 Mar 17 Modified in v2.2.1 $
 */
-
 $define = [
     'HEADING_TITLE' => 'Gestor de Plugins',
 
@@ -63,8 +62,9 @@ $define = [
     'TEXT_UPGRADE_SUCCESS' => 'Plugin actualizado con éxito',
     'TEXT_VERSION_INSTALLED' => '<strong>Versión Instalado:</strong> %s',
 
-    'WARNING_NONENCAPSULATED_REMOVAL' => '<b>Nota:</b> La instalación de este plugin provocará la eliminación <b>permanente</b> de archivos proporcionados por una versión no encapsulada (si existen).',
+    'WARNING_NONENCAPSULATED_REMOVAL' => '<b>Nota:</b> La instalación de este plugin provocará la eliminación <b>permanente</b> de archivos proporcionados por una versión previa no encapsulada (si existen).',
     'WARNING_TEMPLATE_IS_ACTIVE' => 'Este plugin contiene la plantilla seleccionada actualmente por la herramienta <a href="%1$s">%2$s</a>. ¡Desinstalar el complemento antes de seleccionar una plantilla diferente tendrá consecuencias no deseadas!',
+    'WARNING_TEMPLATE_IS_ACTIVE_PARENT' => 'Este plugin contiene una plantilla que es el <em>pariente</em> de una o más plantillas que están seleccionadas actualmente por la herramienta <a href="%1$s">%2$s</a>. ¡Desinstalar el plugin antes de seleccionar una plantilla diferente tendrá consecuencias no deseadas!',
 ];
 
 return $define;
